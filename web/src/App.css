@@ -117,6 +117,13 @@ main.is-loading {
   gap: 6px;
 }
 
+.legend .filtered {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--series-2-wash);
+  color: var(--text-secondary);
+}
+
 .key-dot {
   fill: var(--series-1);
 }

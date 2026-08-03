@@ -4,6 +4,7 @@ import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, plural } from './lib/format';
 import { Controls } from './components/Controls';
+import type { GraphEdge, GraphNode } from './schema';
 import { PartnershipGraph } from './components/PartnershipGraph';
 import { PlayerCard, type PartnerRow } from './components/PlayerCard';
 import { StatTiles, type Stat } from './components/StatTiles';
@@ -15,14 +16,21 @@ import './App.css';
 const DEFAULT_COUNTRY = 'BRA';
 
 /** Read/write the current slice in the URL so a view is linkable. */
-function readUrl(): { country: string | null; gender: Gender | null; player: number | null } {
+function readUrl(): {
+  country: string | null;
+  gender: Gender | null;
+  player: number | null;
+  min: number | null;
+} {
   const params = new URLSearchParams(location.search);
   const gender = params.get('gender');
   const player = Number(params.get('player'));
+  const min = Number(params.get('min'));
   return {
     country: params.get('country'),
     gender: gender === 'M' || gender === 'W' ? gender : null,
     player: Number.isFinite(player) && player > 0 ? player : null,
+    min: Number.isFinite(min) && min >= 1 ? min : null,
   };
 }
 
@@ -38,6 +46,8 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<number | null>(initial.player);
   const [search, setSearch] = useState('');
   const [layoutKey, setLayoutKey] = useState(0);
+  /** Hide partnerships below this many shared tournaments. 1 = show all. */
+  const [minTogether, setMinTogether] = useState(initial.min ?? 1);
 
   // --- manifest ------------------------------------------------------------
   useEffect(() => {
@@ -97,19 +107,45 @@ export default function App() {
     const params = new URLSearchParams();
     params.set('country', country);
     params.set('gender', gender);
+    if (minTogether > 1) params.set('min', String(minTogether));
     if (selectedId) params.set('player', String(selectedId));
     history.replaceState(null, '', `?${params}`);
-  }, [country, gender, selectedId]);
+  }, [country, gender, selectedId, minTogether]);
 
   // --- derived -------------------------------------------------------------
+  /**
+   * The partnership-strength filter. Edges below the threshold are dropped, and
+   * players left with no remaining partnership drop out with them — otherwise
+   * raising the threshold just leaves a field of unconnected dots.
+   *
+   * Node size still reflects each player's full career tournament count: that
+   * is a property of the player, not of the edges being shown.
+   */
+  const { nodes: visibleNodes, edges: visibleEdges } = useMemo((): {
+    nodes: GraphNode[];
+    edges: GraphEdge[];
+  } => {
+    const allNodes = graph?.nodes ?? [];
+    const allEdges = graph?.edges ?? [];
+    if (minTogether <= 1) return { nodes: allNodes, edges: allEdges };
+
+    const edges = allEdges.filter((e) => e.t >= minTogether);
+    const connected = new Set<number>();
+    for (const e of edges) {
+      connected.add(e.a);
+      connected.add(e.b);
+    }
+    return { nodes: allNodes.filter((n) => connected.has(n.id)), edges };
+  }, [graph, minTogether]);
+
   const nodesById = useMemo(
-    () => new Map((graph?.nodes ?? []).map((n) => [n.id, n])),
-    [graph],
+    () => new Map(visibleNodes.map((n) => [n.id, n])),
+    [visibleNodes],
   );
 
   const partnersByPlayer = useMemo(() => {
     const map = new Map<number, PartnerRow[]>();
-    for (const edge of graph?.edges ?? []) {
+    for (const edge of visibleEdges) {
       const a = nodesById.get(edge.a);
       const b = nodesById.get(edge.b);
       if (!a || !b) continue;
@@ -120,7 +156,7 @@ export default function App() {
     }
     for (const list of map.values()) list.sort((x, y) => y.t - x.t || x.node.name.localeCompare(y.node.name));
     return map;
-  }, [graph, nodesById]);
+  }, [visibleEdges, nodesById]);
 
   const detailsById = useMemo(
     () => new Map((details?.players ?? []).map((p) => [p.id, p])),
@@ -132,17 +168,17 @@ export default function App() {
 
   const tableRows: TableRow[] = useMemo(() => {
     const term = search.trim().toLowerCase();
-    return (graph?.nodes ?? [])
+    return visibleNodes
       .filter((n) => !term || n.name.toLowerCase().includes(term))
       .map((n) => {
         const partners = partnersByPlayer.get(n.id) ?? [];
         return { ...n, partners: partners.length, topPartner: partners[0]?.node.name ?? null };
       });
-  }, [graph, partnersByPlayer, search]);
+  }, [visibleNodes, partnersByPlayer, search]);
 
   const stats: Stat[] = useMemo(() => {
-    const nodes = graph?.nodes ?? [];
-    const edges = graph?.edges ?? [];
+    const nodes = visibleNodes;
+    const edges = visibleEdges;
     if (nodes.length === 0) return [];
     const degrees = nodes.map((n) => (partnersByPlayer.get(n.id)?.length ?? 0));
     const avg = degrees.reduce((a, b) => a + b, 0) / nodes.length;
@@ -159,10 +195,16 @@ export default function App() {
         detail: longest ? `${longestNames} · ${longest.f}–${longest.l}` : undefined,
       },
     ];
-  }, [graph, partnersByPlayer, nodesById]);
+  }, [visibleNodes, visibleEdges, partnersByPlayer, nodesById]);
 
+  const totalNodes = graph?.nodes.length ?? 0;
+  const hidden = totalNodes - visibleNodes.length;
   const hero: Stat | undefined = graph
-    ? { label: 'Players', value: graph.nodes.length.toLocaleString(), detail: `${graph.countryName}` }
+    ? {
+        label: 'Players',
+        value: visibleNodes.length.toLocaleString(),
+        detail: hidden > 0 ? `of ${totalNodes.toLocaleString()} · ${graph.countryName}` : graph.countryName,
+      }
     : undefined;
 
   const selectedNode = selectedId === null ? null : (nodesById.get(selectedId) ?? null);
@@ -214,6 +256,8 @@ export default function App() {
           }}
           search={search}
           onSearch={setSearch}
+          minTogether={minTogether}
+          onMinTogether={setMinTogether}
         />
       )}
 
@@ -241,6 +285,12 @@ export default function App() {
                   </svg>
                   Line thickness = events played together
                 </span>
+                {hidden > 0 && (
+                  <span className="key filtered">
+                    Showing pairs with {minTogether}+ events together · {hidden.toLocaleString()}{' '}
+                    {hidden === 1 ? 'player' : 'players'} hidden
+                  </span>
+                )}
               </p>
             </div>
             <button type="button" className="relayout" onClick={() => setLayoutKey((k) => k + 1)}>
@@ -248,16 +298,20 @@ export default function App() {
             </button>
           </div>
 
-          {graph && graph.nodes.length > 0 ? (
+          {visibleNodes.length > 0 ? (
             <PartnershipGraph
-              nodes={graph.nodes}
-              edges={graph.edges}
+              nodes={visibleNodes}
+              edges={visibleEdges}
               selectedId={selectedId}
               onSelect={selectPlayer}
               layoutKey={layoutKey}
             />
           ) : (
-            <div className="graph-empty">No players for this selection.</div>
+            <div className="graph-empty">
+              {totalNodes > 0
+                ? `No partnership here reaches ${minTogether} shared tournaments.`
+                : 'No players for this selection.'}
+            </div>
           )}
 
           {selectedNode && (

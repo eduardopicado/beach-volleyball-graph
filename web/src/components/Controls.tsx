@@ -9,6 +9,9 @@ import { GENDER_LABEL, GENDERS } from '../schema';
 import { plural } from '../lib/format';
 import './Controls.css';
 
+/** Presets for the partnership-strength threshold. */
+export const MIN_TOGETHER_OPTIONS = [1, 2, 3, 5, 10] as const;
+
 interface Props {
   manifest: Manifest;
   country: string;
@@ -17,9 +20,21 @@ interface Props {
   onGender: (gender: Gender) => void;
   search: string;
   onSearch: (value: string) => void;
+  minTogether: number;
+  onMinTogether: (value: number) => void;
 }
 
-export function Controls({ manifest, country, gender, onCountry, onGender, search, onSearch }: Props) {
+export function Controls({
+  manifest,
+  country,
+  gender,
+  onCountry,
+  onGender,
+  search,
+  onSearch,
+  minTogether,
+  onMinTogether,
+}: Props) {
   const selected = manifest.countries.find((c) => c.code === country);
 
   return (
@@ -58,6 +73,28 @@ export function Controls({ manifest, country, gender, onCountry, onGender, searc
               </button>
             );
           })}
+        </div>
+      </div>
+
+      <div className="field">
+        <span id="min-together-label">
+          Min. events together
+          <em title="Partnerships below this many shared tournaments are hidden — use it to strip one-off pairings.">
+            ?
+          </em>
+        </span>
+        <div className="segmented" role="group" aria-labelledby="min-together-label">
+          {MIN_TOGETHER_OPTIONS.map((n) => (
+            <button
+              key={n}
+              type="button"
+              className={n === minTogether ? 'is-selected' : ''}
+              aria-pressed={n === minTogether}
+              onClick={() => onMinTogether(n)}
+            >
+              {n === 1 ? 'All' : `${n}+`}
+            </button>
+          ))}
         </div>
       </div>
 

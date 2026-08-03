@@ -7,7 +7,7 @@ Data comes from the official [FIVB VIS Web Service][vis] and is rebuilt weekly.
 
 [vis]: https://www.fivb.org/VisSDK/VisWebService/
 
-![Partnership graph for Brazil, men](docs/screenshot.png)
+![Partnership graph for Brazil, men, filtered to pairs with 3+ shared tournaments](docs/screenshot.png)
 
 ---
 
@@ -71,6 +71,24 @@ incremental cache — a full rebuild every week is cheap and self-healing.
   an Argentine appears in neither country's graph. Measured against the live
   archive that is ~1% of all partnerships.
 
+### Why the default graph looks so sparse
+
+Across the whole dataset the mean is only 2.4 partners per player — but the
+median player has **one** partner and **two** tournaments, because the archive
+is dominated by one-off entrants:
+
+| Population | Players | Mean partners | Median |
+|---|---:|---:|---:|
+| Everyone | 15,628 | 2.4 | 1 |
+| ≥3 tournaments | 7,634 | 3.8 | 3 |
+| ≥10 tournaments | 3,821 | 5.3 | 5 |
+| ≥50 tournaments | 1,279 | 7.4 | 7 |
+
+53.8% of players have exactly one partner and 37.4% entered exactly one
+tournament, ever. Career players behave the way you would expect — around five
+partners — and the **Min. events together** filter is the quickest way to see
+only them.
+
 ## Published data contract
 
 Everything under `/v1/` is static JSON:
@@ -94,8 +112,13 @@ coordinated deploy.
 
 ## Reading the graph
 
-- **Circle size** — tournaments entered (area-proportional).
+- **Circle size** — tournaments that player entered, area-proportional. (Not
+  their partner count — that is in the tooltip and the table.)
 - **Line thickness** — events that pair played together.
+- **Min. events together** — hides partnerships below the threshold, and the
+  players left with no remaining partnership. Node size still reflects each
+  player's full career, because that is a property of the player rather than of
+  the edges on screen.
 - **Hover or focus a player** to highlight their partners; **click** for the
   full profile.
 - Drag to pan, scroll to zoom, `Fit` to reframe.

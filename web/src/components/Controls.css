@@ -22,11 +22,27 @@
 }
 
 .controls .field > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   color: var(--text-muted);
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+/* Inline help marker on the threshold control. */
+.controls .field > span em {
+  display: grid;
+  place-items: center;
+  width: 13px;
+  height: 13px;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  font-size: 9px;
+  font-style: normal;
+  cursor: help;
 }
 
 .controls select,
