@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+.DS_Store
+*.log
+
+# Generated data. Produced by `npm run ingest`, published by CI — never committed,
+# so the repo stays a source-of-truth for code only.
+web/public/v1/
+web/public/v1.tmp/
+ingest/.cache/

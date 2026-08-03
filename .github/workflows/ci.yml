@@ -1,0 +1,28 @@
+### Pull-request checks.
+#
+# Deliberately does not hit the FIVB API — pull requests should not generate
+# outbound traffic to a free third-party service on every push. The scheduled
+# deploy workflow is the only thing that talks to VIS.
+
+name: CI
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Build site (without data)
+        run: npx vite build

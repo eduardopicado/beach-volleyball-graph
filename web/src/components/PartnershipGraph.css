@@ -1,0 +1,188 @@
+.graph-wrap {
+  position: relative;
+  width: 100%;
+  height: clamp(420px, 62vh, 760px);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.graph {
+  display: block;
+  cursor: grab;
+  touch-action: none;
+}
+
+.graph.is-panning {
+  cursor: grabbing;
+}
+
+/* --- links --------------------------------------------------------------- */
+
+.link {
+  stroke: var(--baseline);
+  stroke-opacity: 0.55;
+  stroke-linecap: round;
+  transition: stroke-opacity 0.15s ease, stroke 0.15s ease;
+}
+
+.link.is-active {
+  stroke: var(--series-2);
+  stroke-opacity: 0.95;
+}
+
+.link.is-dimmed {
+  stroke-opacity: 0.1;
+}
+
+/* --- nodes --------------------------------------------------------------- */
+
+.node {
+  cursor: pointer;
+}
+
+.node .hit {
+  fill: transparent;
+}
+
+.node .dot {
+  fill: var(--series-1);
+  /* A surface-coloured ring, not a border: it keeps overlapping dots legible
+     without adding data-weight ink. */
+  stroke: var(--surface-1);
+  stroke-width: 2;
+  transition: fill 0.15s ease, opacity 0.15s ease;
+}
+
+.node.is-active .dot {
+  fill: var(--series-2);
+}
+
+.node.is-partner .dot {
+  fill: var(--series-1);
+}
+
+.node.is-dimmed .dot {
+  opacity: 0.22;
+}
+
+.node .label {
+  fill: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 500;
+  text-anchor: middle;
+  paint-order: stroke;
+  /* Halo so labels stay readable over links. */
+  stroke: var(--surface-1);
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.node.is-active .label {
+  fill: var(--text-primary);
+  font-weight: 650;
+}
+
+.node.is-dimmed .label {
+  opacity: 0.25;
+}
+
+.node:focus {
+  outline: none;
+}
+
+.node:focus-visible .dot {
+  stroke: var(--series-2);
+  stroke-width: 3;
+}
+
+/* --- controls ------------------------------------------------------------ */
+
+.graph-controls {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 6px;
+}
+
+.graph-controls button {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.graph-controls button:hover {
+  color: var(--text-primary);
+  background: var(--series-1-wash);
+}
+
+.graph-controls .reset {
+  font-size: 13px;
+}
+
+/* --- tooltip ------------------------------------------------------------- */
+
+.graph-tooltip {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  min-width: 168px;
+  padding: 10px 12px;
+  background: var(--surface-1);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.graph-tooltip strong {
+  display: block;
+  font-size: 13px;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.graph-tooltip dl {
+  margin: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.graph-tooltip dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.graph-tooltip dt {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+/* Values lead, labels follow. */
+.graph-tooltip dd {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.graph-tooltip .hint {
+  display: block;
+  margin-top: 7px;
+  padding-top: 6px;
+  border-top: 1px solid var(--gridline);
+  color: var(--text-muted);
+  font-size: 11px;
+}

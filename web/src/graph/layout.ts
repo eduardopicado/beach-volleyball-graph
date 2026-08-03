@@ -1,0 +1,220 @@
+/**
+ * Force layout for a partnership graph.
+ *
+ * These graphs are made of many small components — a handful of large clusters
+ * of players who partnered widely, plus a long tail of pairs who played
+ * together once and with nobody else. The x/y centring forces are what keep
+ * that tail from drifting off-canvas.
+ */
+
+import {
+  forceCollide,
+  forceLink,
+  forceManyBody,
+  forceSimulation,
+  forceX,
+  forceY,
+  type Simulation,
+  type SimulationLinkDatum,
+  type SimulationNodeDatum,
+} from 'd3-force';
+import type { GraphEdge, GraphNode } from '../schema';
+
+export interface LayoutNode extends SimulationNodeDatum, GraphNode {
+  /** Distinct partners — the node's degree. */
+  degree: number;
+  radius: number;
+}
+
+export interface LayoutLink extends SimulationLinkDatum<LayoutNode> {
+  source: LayoutNode | number;
+  target: LayoutNode | number;
+  t: number;
+  f: number;
+  l: number;
+  width: number;
+}
+
+const MIN_RADIUS = 4;
+const MAX_RADIUS = 22;
+
+/**
+ * Area-proportional sizing: radius scales with the square root of tournaments
+ * played, so a player with 4x the appearances reads as 4x the area rather than
+ * 4x the width.
+ */
+export function radiusScale(maxTournaments: number) {
+  const max = Math.max(maxTournaments, 1);
+  return (tournaments: number) => {
+    const ratio = Math.sqrt(Math.max(tournaments, 1) / max);
+    return MIN_RADIUS + (MAX_RADIUS - MIN_RADIUS) * ratio;
+  };
+}
+
+export function edgeWidth(t: number, maxT: number): number {
+  const ratio = Math.sqrt(Math.max(t, 1) / Math.max(maxT, 1));
+  return 1 + 5 * ratio;
+}
+
+export interface BuiltLayout {
+  nodes: LayoutNode[];
+  links: LayoutLink[];
+  simulation: Simulation<LayoutNode, LayoutLink>;
+  /** Distinct partners, by node id. */
+  neighbours: Map<number, Set<number>>;
+}
+
+export function buildLayout(graphNodes: GraphNode[], graphEdges: GraphEdge[]): BuiltLayout {
+  const neighbours = new Map<number, Set<number>>();
+  const link = (a: number, b: number) => {
+    let set = neighbours.get(a);
+    if (!set) neighbours.set(a, (set = new Set()));
+    set.add(b);
+  };
+  for (const e of graphEdges) {
+    link(e.a, e.b);
+    link(e.b, e.a);
+  }
+
+  const maxTournaments = graphNodes.reduce((m, n) => Math.max(m, n.tournaments), 1);
+  const radiusOf = radiusScale(maxTournaments);
+  const maxT = graphEdges.reduce((m, e) => Math.max(m, e.t), 1);
+
+  const nodes: LayoutNode[] = graphNodes.map((n) => ({
+    ...n,
+    degree: neighbours.get(n.id)?.size ?? 0,
+    radius: radiusOf(n.tournaments),
+  }));
+
+  const byId = new Map(nodes.map((n) => [n.id, n]));
+  const links: LayoutLink[] = graphEdges.flatMap((e) => {
+    const source = byId.get(e.a);
+    const target = byId.get(e.b);
+    if (!source || !target) return [];
+    return [{ source, target, t: e.t, f: e.f, l: e.l, width: edgeWidth(e.t, maxT) }];
+  });
+
+  // The layout runs in its own coordinate space sized to the graph, not to the
+  // viewport, and the view is fitted to the result afterwards. That keeps
+  // spacing consistent across window sizes and stops a dense country from
+  // collapsing into an unreadable blob just because the canvas is small.
+  const extent = Math.max(600, Math.sqrt(nodes.length) * 62);
+  const centre = extent / 2;
+
+  const simulation = forceSimulation<LayoutNode, LayoutLink>(nodes)
+    .force(
+      'link',
+      forceLink<LayoutNode, LayoutLink>(links)
+        .id((d) => d.id)
+        // Pairs who played many events together sit closer.
+        .distance((l) => 58 - Math.min(30, l.t * 2))
+        .strength(0.6),
+    )
+    // Repulsion is deliberately short-range. These graphs are one big component
+    // plus a long tail of isolated pairs; with global repulsion the tail is
+    // flung into a wide halo, which then dictates the zoom and shrinks the part
+    // anyone actually wants to read.
+    .force('charge', forceManyBody<LayoutNode>().strength(-190).distanceMax(340))
+    .force('collide', forceCollide<LayoutNode>((d) => d.radius + 6).strength(1).iterations(2))
+    .force('x', forceX<LayoutNode>(centre).strength(0.085))
+    .force('y', forceY<LayoutNode>(centre).strength(0.1))
+    .alpha(1)
+    .alphaDecay(0.022)
+    .velocityDecay(0.4);
+
+  return { nodes, links, simulation, neighbours };
+}
+
+/** Run the simulation to rest without painting — used for reduced motion. */
+export function settle(simulation: Simulation<LayoutNode, LayoutLink>, ticks = 320): void {
+  simulation.stop();
+  for (let i = 0; i < ticks; i++) simulation.tick();
+}
+
+export interface ViewTransform {
+  x: number;
+  y: number;
+  k: number;
+}
+
+/**
+ * Scale and centre the laid-out graph so all of it is on screen. Without this
+ * the simulation's own coordinate space bleeds past the viewport and the outer
+ * clusters are simply invisible.
+ */
+export function fitToView(
+  nodes: LayoutNode[],
+  width: number,
+  height: number,
+  padding = 28,
+): ViewTransform {
+  if (nodes.length === 0 || width <= 0 || height <= 0) return { x: 0, y: 0, k: 1 };
+
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  for (const n of nodes) {
+    const r = n.radius + 2;
+    minX = Math.min(minX, (n.x ?? 0) - r);
+    maxX = Math.max(maxX, (n.x ?? 0) + r);
+    minY = Math.min(minY, (n.y ?? 0) - r);
+    maxY = Math.max(maxY, (n.y ?? 0) + r);
+  }
+
+  const boxW = Math.max(maxX - minX, 1);
+  const boxH = Math.max(maxY - minY, 1);
+  // Never magnify past 1: a five-node country should sit at natural size in the
+  // middle rather than being blown up to fill the canvas.
+  const k = Math.min((width - padding * 2) / boxW, (height - padding * 2) / boxH, 1);
+
+  return {
+    k,
+    x: (width - boxW * k) / 2 - minX * k,
+    y: (height - boxH * k) / 2 - minY * k,
+  };
+}
+
+/** Rough on-screen width of a node label at the 11px label size. */
+const labelWidth = (name: string) => name.length * 5.7 + 14;
+
+/**
+ * Choose which labels to draw.
+ *
+ * Labelling the top N by appearances puts every label in the dense core, where
+ * they overlap into mush. Instead, walk players from most to least prominent
+ * and keep a label only when its box is clear of every label already placed —
+ * so the graph self-thins, and sparse regions get labelled too.
+ */
+export function pickLabels(
+  nodes: LayoutNode[],
+  view: ViewTransform,
+  width: number,
+  height: number,
+  max = 16,
+): Set<number> {
+  const placed: { x1: number; y1: number; x2: number; y2: number }[] = [];
+  const chosen = new Set<number>();
+  const ranked = [...nodes].sort((a, b) => b.tournaments - a.tournaments || b.degree - a.degree);
+
+  for (const node of ranked) {
+    if (chosen.size >= max) break;
+    const cx = (node.x ?? 0) * view.k + view.x;
+    const cy = (node.y ?? 0) * view.k + view.y;
+    const w = labelWidth(node.short);
+    const top = cy - node.radius * view.k - 18;
+    const box = { x1: cx - w / 2, y1: top, x2: cx + w / 2, y2: top + 16 };
+
+    // Off-canvas labels are wasted picks.
+    if (box.x1 < 0 || box.x2 > width || box.y1 < 0 || box.y2 > height) continue;
+
+    const clashes = placed.some(
+      (p) => box.x1 < p.x2 && box.x2 > p.x1 && box.y1 < p.y2 && box.y2 > p.y1,
+    );
+    if (clashes) continue;
+
+    placed.push(box);
+    chosen.add(node.id);
+  }
+  return chosen;
+}

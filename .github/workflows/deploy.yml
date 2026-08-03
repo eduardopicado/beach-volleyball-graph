@@ -1,0 +1,95 @@
+### Weekly rebuild + publish.
+#
+# The whole pipeline is one job: pull the FIVB archive, rebuild every graph from
+# scratch, then deploy the site with the data baked in. A full rebuild takes
+# about a minute, which is cheap enough that there is no incremental cache to go
+# stale — any upstream correction or ingest bug is washed out by the next run.
+#
+# Failure semantics: if the ingest step fails, the job stops before `deploy`, so
+# the previously published site keeps serving last week's data. Degraded to
+# "slightly stale", never to "down".
+
+name: Rebuild data and deploy
+
+on:
+  schedule:
+    # Sundays at 03:17 UTC. Off the hour to avoid the cron stampede.
+    - cron: '17 3 * * 0'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# Allow one publish at a time; don't cancel a run that is mid-deploy.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Fetch FIVB data and build graphs
+        run: npm run ingest
+        env:
+          # Identify the job to FIVB. Replace the contact address with your own,
+          # and request an application identifier from vis.sdk@fivb.org.
+          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }})'
+
+      - name: Summarise the published dataset
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          m = json.load(open('web/public/v1/manifest.json'))
+          print("## Dataset rebuilt\n")
+          print(f"- Generated: `{m['generatedAt']}`")
+          print(f"- Seasons: {m['seasons']['from']}–{m['seasons']['to']}")
+          print(f"- Tournaments: {m['totals']['tournaments']:,}")
+          print(f"- Players: {m['totals']['players']:,}")
+          print(f"- Partnerships: {m['totals']['partnerships']:,}")
+          print(f"- Countries published: {len(m['countries'])}\n")
+          print("| Tier | Tournaments |\n|---|---:|")
+          for tier, n in sorted(m['tiers'].items(), key=lambda kv: -kv[1]):
+              print(f"| {tier} | {n:,} |")
+          PY
+
+      - name: Build site
+        run: npm run build
+        env:
+          # Project Pages sites are served from /<repo>/, user sites from /.
+          BASE_PATH: /${{ github.event.repository.name }}/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
