@@ -147,13 +147,49 @@ npm run dev        # http://localhost:5173
 Other scripts:
 
 ```bash
-npm test           # unit tests for the ingest logic and formatters
+npm test              # unit tests
+npm run test:coverage # with a coverage report
 npm run typecheck
-npm run build      # production build into dist/
+npm run build         # production build + prerender into dist/
 ```
+
+Tests cover the pure logic — tier filtering, pair aggregation and dedupe,
+country-name resolution, the VIS attribute scanner and unit conversions, graph
+layout maths (fit-to-view, label collision, radius scaling), slug round-trips
+and HTML escaping. React components are currently exercised end-to-end in a
+browser rather than by unit tests; that is the main coverage gap.
 
 Generated data is **not committed** — `npm run ingest` reproduces it, and CI
 regenerates it on every deploy.
+
+## SEO
+
+A client-rendered SPA with everything behind `?country=BRA` gives crawlers one
+URL and an empty `<div id="root">`. Every graph already exists as JSON at build
+time, so `npm run build` also prerenders **one real HTML page per country ×
+gender** (290 pages) via `ingest/prerender.ts`:
+
+- `/brazil-men/`, `/norway-women/`, … each a static document containing the
+  complete player table, an `h1`/`h2`, and internal links to other countries.
+  With JavaScript disabled you get 269 player rows for Brazil, not a blank page.
+- Per-page `<title>`, meta description, `rel=canonical`, Open Graph and Twitter
+  cards.
+- JSON-LD: `WebPage` + `BreadcrumbList` + `ItemList` of `Person` per slice, and
+  `WebSite` + `Dataset` on the home page.
+- `sitemap.xml` (290 URLs, `lastmod` from the data) and `robots.txt`.
+
+React replaces the static markup on mount, so this is not a second
+implementation to maintain — it is the same data rendered once at build time.
+The app then keeps the URL, title and canonical in sync as you navigate, and
+still accepts the old `?country=&gender=` links.
+
+**`SITE_URL` must be set at build time** — canonical tags, Open Graph URLs and
+the sitemap are absolute and baked in, so a wrong value publishes wrong
+canonicals:
+
+```bash
+SITE_URL=https://your-domain.example npm run build
+```
 
 ## Deployment
 
@@ -171,6 +207,26 @@ The ingest also refuses to publish if the data looks wrong (no qualifying
 tournaments, or fewer than 1,000 aggregated partnerships), and writes to a temp
 directory that is only swapped into place once every file exists — so a
 half-published state is not reachable.
+
+### Cloudflare Pages + a custom domain
+
+`.github/workflows/deploy-cloudflare.yml` is the alternative to GitHub Pages.
+Disable whichever one you are not using so they do not both rebuild weekly.
+
+1. Point the domain's nameservers at Cloudflare (at registro.br: *Alterar
+   servidores DNS*). Propagation is usually under an hour.
+2. Cloudflare dashboard → **Workers & Pages → Create → Pages → Direct Upload**,
+   project name `beachvolleyballgraph`. The workflow uploads to it; there is no
+   need to connect the Git repo, and connecting it would build the site a second
+   time without the FIVB data.
+3. Add the repository secrets `CLOUDFLARE_API_TOKEN` (permission: *Cloudflare
+   Pages → Edit*) and `CLOUDFLARE_ACCOUNT_ID`, and the repository **variable**
+   `SITE_URL` (e.g. `https://beachvolley.com.br`, no trailing slash).
+4. Pages → your project → **Custom domains** → add the domain. Cloudflare adds
+   the CNAME itself when it is the authoritative DNS.
+
+`BASE_PATH` is `/` there (domain root), versus `/<repo>/` on project Pages —
+which is exactly why the base is configurable rather than hard-coded.
 
 ### Being a good citizen of the API
 

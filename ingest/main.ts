@@ -124,6 +124,7 @@ async function main() {
   const byCountry = new Map<string, ManifestCountry>();
 
   for (const slice of slices) {
+    const federation = federations.get(slice.country);
     const name = countryName(federations, slice.country);
     const graph: GraphFile = {
       country: slice.country,
@@ -160,7 +161,12 @@ async function main() {
     );
 
     let entry = byCountry.get(slice.country);
-    if (!entry) byCountry.set(slice.country, (entry = { code: slice.country, name, genders: {} }));
+    if (!entry) {
+      byCountry.set(
+        slice.country,
+        (entry = { code: slice.country, name, iso2: federation?.iso2 ?? null, genders: {} }),
+      );
+    }
     entry.genders[slice.gender as Gender] = { nodes: slice.nodes.length, edges: slice.edges.length };
   }
 

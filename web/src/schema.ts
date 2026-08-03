@@ -87,8 +87,11 @@ export interface PlayersFile {
 }
 
 export interface ManifestCountry {
+  /** FIVB federation code, e.g. "BRA". */
   code: string;
   name: string;
+  /** ISO-3166-1 alpha-2, for the flag glyph. Null when FIVB has no usable code. */
+  iso2: string | null;
   genders: Partial<Record<Gender, { nodes: number; edges: number }>>;
 }
 

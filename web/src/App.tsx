@@ -5,6 +5,8 @@ import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, plural } from './lib/format';
 import { Controls } from './components/Controls';
 import type { GraphEdge, GraphNode } from './schema';
+import { GENDER_LABEL } from './schema';
+import { sliceSlug, slugFromPath } from './lib/slug';
 import { PartnershipGraph } from './components/PartnershipGraph';
 import { PlayerCard, type PartnerRow } from './components/PlayerCard';
 import { StatTiles, type Stat } from './components/StatTiles';
@@ -17,6 +19,7 @@ const DEFAULT_COUNTRY = 'BRA';
 
 /** Read/write the current slice in the URL so a view is linkable. */
 function readUrl(): {
+  slug: string | null;
   country: string | null;
   gender: Gender | null;
   player: number | null;
@@ -27,11 +30,20 @@ function readUrl(): {
   const player = Number(params.get('player'));
   const min = Number(params.get('min'));
   return {
+    // The prerendered path ("/brazil-men/") is the canonical form; the query
+    // parameters stay supported so older links keep working.
+    slug: slugFromPath(location.pathname, import.meta.env.BASE_URL),
     country: params.get('country'),
     gender: gender === 'M' || gender === 'W' ? gender : null,
     player: Number.isFinite(player) && player > 0 ? player : null,
     min: Number.isFinite(min) && min >= 1 ? min : null,
   };
+}
+
+/** Point a <link> or <meta> tag in the document head at a new value. */
+function setHeadTag(selector: string, attr: 'href' | 'content', value: string) {
+  const el = document.head.querySelector(selector);
+  if (el) el.setAttribute(attr, value);
 }
 
 export default function App() {
@@ -54,6 +66,19 @@ export default function App() {
     fetchManifest()
       .then((m) => {
         setManifest(m);
+
+        // A prerendered path wins over the query string: it is the canonical URL.
+        if (initial.slug) {
+          for (const c of m.countries) {
+            for (const g of GENDERS) {
+              if (c.genders[g] && sliceSlug(c.name, g) === initial.slug) {
+                setCountry(c.code);
+                setGender(g);
+                return;
+              }
+            }
+          }
+        }
         // Fall back if the requested slice does not exist in this build.
         const known = m.countries.find((c) => c.code === country);
         if (!known) {
@@ -102,15 +127,34 @@ export default function App() {
     };
   }, [manifest, country, gender]);
 
-  // --- URL sync ------------------------------------------------------------
+  // --- URL and document head sync -----------------------------------------
   useEffect(() => {
+    if (!manifest) return;
+    const entry = manifest.countries.find((c) => c.code === country);
+    if (!entry) return;
+
+    // Keep the address bar on the canonical prerendered path, so a copied link
+    // matches the URL that is actually indexed.
+    const base = import.meta.env.BASE_URL;
     const params = new URLSearchParams();
-    params.set('country', country);
-    params.set('gender', gender);
     if (minTogether > 1) params.set('min', String(minTogether));
     if (selectedId) params.set('player', String(selectedId));
-    history.replaceState(null, '', `?${params}`);
-  }, [country, gender, selectedId, minTogether]);
+    const query = params.toString();
+    const url = `${base}${sliceSlug(entry.name, gender)}/${query ? `?${query}` : ''}`;
+    history.replaceState(null, '', url);
+
+    const label = GENDER_LABEL[gender];
+    const counts = entry.genders[gender];
+    const title = `${entry.name} ${label} — Beach Volleyball Partnership Graph`;
+    const description = `Every ${label.toLowerCase()}'s beach volleyball player from ${entry.name} who has competed on the FIVB World Tour, Beach Pro Tour, World Championships or Olympic Games — ${counts?.nodes ?? 0} players and ${counts?.edges ?? 0} partnerships, ${manifest.seasons.from}–${manifest.seasons.to}.`;
+
+    document.title = title;
+    setHeadTag('link[rel="canonical"]', 'href', new URL(url, location.origin).toString());
+    setHeadTag('meta[name="description"]', 'content', description);
+    setHeadTag('meta[property="og:title"]', 'content', title);
+    setHeadTag('meta[property="og:description"]', 'content', description);
+    setHeadTag('meta[property="og:url"]', 'content', new URL(url, location.origin).toString());
+  }, [manifest, country, gender, selectedId, minTogether]);
 
   // --- derived -------------------------------------------------------------
   /**
@@ -164,7 +208,7 @@ export default function App() {
   );
 
   const countryEntry = manifest?.countries.find((c) => c.code === country);
-  const flag = flagEmoji(isoFromCountryName(manifest, country));
+  const flag = flagEmoji(countryEntry?.iso2);
 
   const tableRows: TableRow[] = useMemo(() => {
     const term = search.trim().toLowerCase();
@@ -355,29 +399,3 @@ export default function App() {
   );
 }
 
-/**
- * The manifest carries display names, not ISO codes, so the flag is derived by
- * matching the display name back to a region code. Cheap, and avoids widening
- * the published contract for one glyph.
- */
-const REGION_CODES = (() => {
-  const names = new Intl.DisplayNames(['en'], { type: 'region' });
-  const map = new Map<string, string>();
-  for (let a = 65; a <= 90; a++) {
-    for (let b = 65; b <= 90; b++) {
-      const code = String.fromCharCode(a, b);
-      try {
-        const name = names.of(code);
-        if (name && name !== code) map.set(name.toLowerCase(), code);
-      } catch {
-        /* not a region */
-      }
-    }
-  }
-  return map;
-})();
-
-function isoFromCountryName(manifest: Manifest | null, code: string): string | null {
-  const name = manifest?.countries.find((c) => c.code === code)?.name;
-  return name ? (REGION_CODES.get(name.toLowerCase()) ?? null) : null;
-}

@@ -77,6 +77,10 @@ jobs:
         env:
           # Project Pages sites are served from /<repo>/, user sites from /.
           BASE_PATH: /${{ github.event.repository.name }}/
+          # Canonical URLs, Open Graph and sitemap.xml are baked in at build
+          # time. Set the SITE_URL repository variable to the public origin
+          # (e.g. https://beachvolley.com.br) once a custom domain is in place.
+          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
 
       - uses: actions/configure-pages@v5
 

@@ -35,8 +35,8 @@ export interface LayoutLink extends SimulationLinkDatum<LayoutNode> {
   width: number;
 }
 
-const MIN_RADIUS = 4;
-const MAX_RADIUS = 22;
+export const MIN_RADIUS = 4;
+export const MAX_RADIUS = 22;
 
 /**
  * Area-proportional sizing: radius scales with the square root of tournaments
@@ -46,7 +46,8 @@ const MAX_RADIUS = 22;
 export function radiusScale(maxTournaments: number) {
   const max = Math.max(maxTournaments, 1);
   return (tournaments: number) => {
-    const ratio = Math.sqrt(Math.max(tournaments, 1) / max);
+    // Clamped so a value above `max` can never inflate a node past MAX_RADIUS.
+    const ratio = Math.min(Math.sqrt(Math.max(tournaments, 1) / max), 1);
     return MIN_RADIUS + (MAX_RADIUS - MIN_RADIUS) * ratio;
   };
 }
