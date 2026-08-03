@@ -33,11 +33,6 @@ const PUBLIC_DIR = path.resolve(HERE, '../web/public');
 const OUT_DIR = path.join(PUBLIC_DIR, DATA_VERSION);
 const TMP_DIR = path.join(PUBLIC_DIR, `${DATA_VERSION}.tmp`);
 
-/** Portrait endpoint. 404s for players with no photo on file; the UI falls back. */
-const photoUrl = (id: number) =>
-  `https://sharp.fivb.com/Legacy/GetImage?Type=Player&No=${id}&Style=Portrait`;
-const profileUrl = (id: number) => `https://www.fivb.com/en/beachvolleyball/athlete/${id}`;
-
 /** Slices smaller than this have no graph worth drawing. */
 const MIN_NODES = 2;
 
@@ -156,8 +151,6 @@ async function main() {
           height: p.height,
           weight: p.weight,
           active: p.active,
-          photo: photoUrl(node.id),
-          profile: profileUrl(node.id),
         };
       }),
     };

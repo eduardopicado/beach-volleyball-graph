@@ -130,7 +130,11 @@ Graph labels use the name a player actually competes under ("Emanuel",
 they stay readable.
 
 Photos come straight from FIVB's image service and simply do not exist for many
-players; those fall back to an initials avatar.
+players; those fall back to an initials avatar. Always request them with a
+`width` — without one FIVB serves the 2–3 MB original, with one you get a
+resized WebP of about 10 KB. Photo and profile URLs are derived from the player
+id in `schema.ts` rather than stored per player, which keeps the slice files
+roughly 60% smaller.
 
 ## Running it
 

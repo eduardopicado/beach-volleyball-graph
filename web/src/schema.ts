@@ -63,11 +63,21 @@ export interface PlayerDetail {
   weight: number | null;
   /** FIVB still lists this player as active. */
   active: boolean;
-  /** Portrait URL. May 404 — the UI falls back to initials. */
-  photo: string;
-  /** Public FIVB athlete page. */
-  profile: string;
 }
+
+/**
+ * Portrait for a player. May 404 — plenty of players have no photo on file, so
+ * callers must handle failure (the UI falls back to initials).
+ *
+ * `width` matters: without it FIVB serves the original, which runs to 2-3MB per
+ * portrait. With it, the image service returns a resized WebP of about 10KB.
+ */
+export const playerPhotoUrl = (id: number, width = 200) =>
+  `https://sharp.fivb.com/Legacy/GetImage?Type=Player&No=${id}&Style=Portrait&width=${width}`;
+
+/** Public FIVB athlete page. */
+export const playerProfileUrl = (id: number) =>
+  `https://www.fivb.com/players/players-database/player/${id}`;
 
 export interface PlayersFile {
   country: string;

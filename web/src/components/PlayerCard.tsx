@@ -7,6 +7,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import type { GraphNode, PlayerDetail } from '../schema';
+import { playerPhotoUrl, playerProfileUrl } from '../schema';
 import { age, formatDate, initials, plural, seasonSpan } from '../lib/format';
 import './PlayerCard.css';
 
@@ -77,7 +78,7 @@ export function PlayerCard({
   return (
     <aside className="player-card" aria-label={`Profile: ${node.name}`}>
       <header>
-        <Photo src={detail?.photo} name={node.name} />
+        <Photo src={playerPhotoUrl(node.id)} name={node.name} />
         <div className="who">
           <h2>{node.name}</h2>
           <p className="country">
@@ -143,11 +144,14 @@ export function PlayerCard({
         )}
       </section>
 
-      {detail?.profile && (
-        <a className="profile-link" href={detail.profile} target="_blank" rel="noopener noreferrer">
-          FIVB profile ↗
-        </a>
-      )}
+      <a
+        className="profile-link"
+        href={playerProfileUrl(node.id)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        FIVB profile ↗
+      </a>
     </aside>
   );
 }
