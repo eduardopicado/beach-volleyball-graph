@@ -30,6 +30,16 @@ interface Props {
   onSelect: (id: number | null) => void;
   /** Bumped by the parent to re-run the layout (e.g. "re-tangle" button). */
   layoutKey: number;
+  /**
+   * Reports the canvas's actual rendered size on every resize, so the parent
+   * can match another element's height to it. A plain CSS grid/flex "stretch"
+   * can't do this on its own when the sibling's content wants to be taller
+   * than the row: intrinsic row-sizing computes each item's natural size as
+   * if percentage heights were auto, so a percentage-height sibling ends up
+   * sized to its own unclamped content rather than actually capped at the
+   * row height. An explicit pixel value from here sidesteps that entirely.
+   */
+  onSize?: (size: { width: number; height: number }) => void;
 }
 
 interface Hover {
@@ -44,7 +54,7 @@ const prefersReducedMotion = () =>
 /** Upper bound on automatically placed labels; collision thins it further. */
 const MAX_LABELS = 16;
 
-export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey }: Props) {
+export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey, onSize }: Props) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const viewRef = useRef<SVGGElement>(null);
   const nodeEls = useRef(new Map<number, SVGGElement>());
@@ -72,6 +82,10 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
+
+  useEffect(() => {
+    onSize?.(size);
+  }, [size, onSize]);
 
   // The layout has its own coordinate space, so it does not depend on viewport
   // size and a resize never restarts the simulation.
