@@ -35,6 +35,21 @@ const SUBDIVISION_CODES: Record<string, string> = {
 };
 
 /**
+ * Withdrawn ISO-3166-1 codes that FIVB federation records still carry,
+ * mapped to the current code of whichever country now covers that
+ * territory. `Intl.DisplayNames` resolves a *name* for these via CLDR's own
+ * alias data (`AN` -> "Curaçao"), but building a flag is a raw, unvalidated
+ * regional-indicator pair with no equivalent fallback — an unassigned pair
+ * like AN commonly renders as two separate boxed letters instead of
+ * collapsing into one flag glyph, which is what actually prompted this (it
+ * reads as the country appearing twice). Confirmed AN/Curaçao is the only
+ * federation in the published dataset carrying a withdrawn code.
+ */
+const WITHDRAWN_ISO2: Record<string, string> = {
+  AN: 'CW', // Netherlands Antilles, dissolved 2010 -> Curaçao
+};
+
+/**
  * ISO-3166 alpha-2 -> flag emoji via regional indicator symbols, with a
  * federation-code fallback for the UK home nations (see `SUBDIVISION_CODES`),
  * none of which carry their own ISO code.
@@ -43,8 +58,9 @@ export function flagEmoji(iso2: string | null | undefined, federationCode?: stri
   const subdivision = federationCode && SUBDIVISION_CODES[federationCode];
   if (subdivision) return subdivisionFlag(subdivision);
   if (!iso2 || !/^[A-Za-z]{2}$/.test(iso2)) return '';
+  const code = WITHDRAWN_ISO2[iso2.toUpperCase()] ?? iso2;
   return String.fromCodePoint(
-    ...iso2
+    ...code
       .toUpperCase()
       .split('')
       .map((c) => 0x1f1e6 + c.charCodeAt(0) - 65),
