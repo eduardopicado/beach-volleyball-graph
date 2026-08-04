@@ -166,32 +166,109 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     setLabelled(pickLabels(layout.nodes, view, size.width, size.height, MAX_LABELS));
   }, [layout, size]);
 
-  // --- pan & zoom ----------------------------------------------------------
-  const onPointerDown = useCallback((event: React.PointerEvent<SVGSVGElement>) => {
-    if (event.button !== 0) return;
-    const target = event.target as Element;
-    if (target.closest('[data-node]')) return; // let node clicks through
-    userAdjusted.current = true;
-    const startX = event.clientX;
-    const startY = event.clientY;
-    const start = transformRef.current;
-    const svg = event.currentTarget;
-    svg.setPointerCapture(event.pointerId);
-    svg.classList.add('is-panning');
+  // --- pan & zoom ------------------------------------------------------------
+  // Every active pointer's last known position, keyed by pointerId. A single
+  // pointer drags to pan; a second one joining mid-gesture switches to pinch
+  // (spread distance -> zoom, midpoint travel -> pan), and dropping back to one
+  // resumes panning from wherever that finger currently is, rather than jumping
+  // back to the original single-finger start.
+  const pointers = useRef<Map<number, { x: number; y: number }>>(new Map());
+  const panStart = useRef<{ pointerId: number; x: number; y: number; transform: typeof transform } | null>(
+    null,
+  );
+  const pinchStart = useRef<{
+    distance: number;
+    mid: { x: number; y: number };
+    transform: typeof transform;
+  } | null>(null);
 
-    const move = (e: PointerEvent) => {
-      setTransform({ ...start, x: start.x + (e.clientX - startX), y: start.y + (e.clientY - startY) });
-    };
-    const up = () => {
+  const distanceAndMid = (pts: { x: number; y: number }[]) => {
+    const [a, b] = pts;
+    return { distance: Math.hypot(a!.x - b!.x, a!.y - b!.y), mid: { x: (a!.x + b!.x) / 2, y: (a!.y + b!.y) / 2 } };
+  };
+
+  const onPointerDown = useCallback((event: React.PointerEvent<SVGSVGElement>) => {
+    // Touch/pen contacts report button 0 too, but aren't "a button held down"
+    // in the mouse sense — only gate on it for an actual mouse.
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    const target = event.target as Element;
+    if (target.closest('[data-node]')) return; // let node taps/clicks through
+    userAdjusted.current = true;
+
+    const svg = event.currentTarget;
+    try {
+      svg.setPointerCapture(event.pointerId);
+    } catch {
+      /* capture is a nice-to-have (keeps events routed here if a finger
+         slides outside the SVG); gesture tracking below works without it */
+    }
+    pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+
+    if (pointers.current.size === 2) {
+      // Second finger joined: hand off from panning to pinch.
+      panStart.current = null;
       svg.classList.remove('is-panning');
+      const pts = [...pointers.current.values()];
+      pinchStart.current = { ...distanceAndMid(pts), transform: transformRef.current };
+    } else if (pointers.current.size === 1) {
+      pinchStart.current = null;
+      panStart.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY, transform: transformRef.current };
+      svg.classList.add('is-panning');
+    }
+    // A third simultaneous pointer is tracked but otherwise ignored — pinch
+    // math keeps using whichever two pointers were already active.
+  }, []);
+
+  const onPointerMove = useCallback((event: React.PointerEvent<SVGSVGElement>) => {
+    if (!pointers.current.has(event.pointerId)) return;
+    pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+
+    if (pointers.current.size >= 2 && pinchStart.current) {
+      const pts = [...pointers.current.values()].slice(0, 2);
+      const { distance, mid } = distanceAndMid(pts);
+      const { distance: d0, mid: mid0, transform: t0 } = pinchStart.current;
+      const k = Math.min(4, Math.max(0.25, t0.k * (distance / d0)));
+      const rect = event.currentTarget.getBoundingClientRect();
+      const px = mid0.x - rect.left;
+      const py = mid0.y - rect.top;
+      // Anchor the pinch's starting midpoint in graph space (same trick as
+      // onWheel), then add however far the midpoint itself has travelled.
+      setTransform({
+        k,
+        x: px - ((px - t0.x) / t0.k) * k + (mid.x - mid0.x),
+        y: py - ((py - t0.y) / t0.k) * k + (mid.y - mid0.y),
+      });
+    } else if (pointers.current.size === 1 && panStart.current?.pointerId === event.pointerId) {
+      const { x: startX, y: startY, transform: start } = panStart.current;
+      setTransform({ ...start, x: start.x + (event.clientX - startX), y: start.y + (event.clientY - startY) });
+    }
+  }, []);
+
+  const endPointer = useCallback((event: React.PointerEvent<SVGSVGElement>) => {
+    if (!pointers.current.has(event.pointerId)) return;
+    pointers.current.delete(event.pointerId);
+    const svg = event.currentTarget;
+    try {
       svg.releasePointerCapture(event.pointerId);
-      svg.removeEventListener('pointermove', move);
-      svg.removeEventListener('pointerup', up);
-      svg.removeEventListener('pointercancel', up);
-    };
-    svg.addEventListener('pointermove', move);
-    svg.addEventListener('pointerup', up);
-    svg.addEventListener('pointercancel', up);
+    } catch {
+      /* already released */
+    }
+
+    if (pointers.current.size === 1) {
+      // Dropped from two fingers to one: resume panning from here, not from
+      // the surviving finger's original touch-down position, or the view jumps.
+      const survivor = [...pointers.current.entries()][0];
+      if (survivor) {
+        const [pointerId, pos] = survivor;
+        pinchStart.current = null;
+        panStart.current = { pointerId, x: pos.x, y: pos.y, transform: transformRef.current };
+        svg.classList.add('is-panning');
+      }
+    } else if (pointers.current.size === 0) {
+      panStart.current = null;
+      pinchStart.current = null;
+      svg.classList.remove('is-panning');
+    }
   }, []);
 
   const onWheel = useCallback((event: React.WheelEvent<SVGSVGElement>) => {
@@ -254,6 +331,9 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
         width={size.width}
         height={size.height}
         onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={endPointer}
+        onPointerCancel={endPointer}
         onWheel={onWheel}
         role="group"
         aria-label={`Partnership graph: ${plural(nodes.length, 'player')}, ${plural(edges.length, 'partnership')}. Use the table view below for a screen-reader friendly listing.`}
