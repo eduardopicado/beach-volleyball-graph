@@ -177,6 +177,11 @@ gender** (290 pages) via `ingest/prerender.ts`:
 - JSON-LD: `WebPage` + `BreadcrumbList` + `ItemList` of `Person` per slice, and
   `WebSite` + `Dataset` on the home page.
 - `sitemap.xml` (290 URLs, `lastmod` from the data) and `robots.txt`.
+- `llms.txt` ([llmstxt.org](https://llmstxt.org/)) — a markdown briefing for
+  language models: the totals, what is deliberately excluded, the counting
+  rules they would otherwise guess wrong (edge weights, one-off entrants,
+  same-federation slicing) and links to the raw JSON so they read that rather
+  than scrape the HTML.
 
 React replaces the static markup on mount, so this is not a second
 implementation to maintain — it is the same data rendered once at build time.

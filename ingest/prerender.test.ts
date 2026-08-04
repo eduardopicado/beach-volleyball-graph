@@ -1,5 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { esc, jsonLd } from './prerender.js';
+import { esc, jsonLd, llmsTxt } from './prerender.js';
+import type { Manifest } from '../web/src/schema.js';
+
+const manifest: Manifest = {
+  generatedAt: '2026-08-03T00:00:00.000Z',
+  sourceVersion: '1',
+  seasons: { from: 1987, to: 2026 },
+  totals: { tournaments: 2163, players: 15628, partnerships: 18900 },
+  tiers: { 'FIVB World Tour': 1517, 'Olympic Games': 22 },
+  countries: [],
+};
 
 describe('esc', () => {
   it('escapes the characters that break out of element content', () => {
@@ -20,6 +30,40 @@ describe('esc', () => {
   it('leaves ordinary text and accents untouched', () => {
     expect(esc('Anders Berntsen Mol')).toBe('Anders Berntsen Mol');
     expect(esc('Ágatha Bednarczuk')).toBe('Ágatha Bednarczuk');
+  });
+});
+
+describe('llmsTxt', () => {
+  const slices = [
+    { name: 'Brazil', gender: 'M' as const, href: '/brazil-men/' },
+    { name: 'Norway', gender: 'W' as const, href: '/norway-women/' },
+  ];
+
+  it('opens with the llmstxt.org shape: an H1 then a blockquote summary', () => {
+    const lines = llmsTxt(manifest, slices).split('\n');
+    expect(lines[0]).toBe('# Beach Volleyball Partnership Graph');
+    expect(lines.find((l) => l.startsWith('>'))).toBeTruthy();
+  });
+
+  it('states the totals and the tier breakdown', () => {
+    const txt = llmsTxt(manifest, slices);
+    expect(txt).toContain('15,628 players');
+    expect(txt).toContain('18,900 partnerships');
+    expect(txt).toContain('FIVB World Tour: 1,517 tournaments');
+  });
+
+  it('links every published page and the raw JSON endpoints', () => {
+    const txt = llmsTxt(manifest, slices);
+    expect(txt).toContain('[Brazil Men](');
+    expect(txt).toContain('[Norway Women](');
+    expect(txt).toContain('/v1/manifest.json');
+  });
+
+  it('spells out the counting rules a model would otherwise guess wrong', () => {
+    const txt = llmsTxt(manifest, slices);
+    expect(txt).toMatch(/counts once/);
+    expect(txt).toMatch(/not their partner count/);
+    expect(txt).toMatch(/same federation/);
   });
 });
 

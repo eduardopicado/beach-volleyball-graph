@@ -129,6 +129,63 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
 </main>`;
 }
 
+/**
+ * `/llms.txt` — a plain-markdown briefing for language models, per llmstxt.org.
+ *
+ * The point is to answer the questions a model would otherwise get wrong by
+ * guessing: what the numbers mean, what is deliberately excluded, and where the
+ * raw JSON lives so it can be read directly instead of scraped out of HTML.
+ */
+export function llmsTxt(
+  manifest: Manifest,
+  slices: { name: string; gender: Gender; href: string }[],
+): string {
+  const tiers = Object.entries(manifest.tiers)
+    .sort((a, b) => b[1] - a[1])
+    .map(([tier, n]) => `- ${tier}: ${n.toLocaleString('en-US')} tournaments`)
+    .join('\n');
+
+  const pages = slices
+    .map((s) => `- [${s.name} ${GENDER_LABEL[s.gender]}](${abs(s.href)})`)
+    .join('\n');
+
+  return `# Beach Volleyball Partnership Graph
+
+> Who has played with whom in FIVB international beach volleyball. ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships drawn from ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments between ${manifest.seasons.from} and ${manifest.seasons.to}, sliced by country and gender. Source data is the official FIVB VIS Web Service; the whole dataset is rebuilt weekly.
+
+Data as of ${manifest.generatedAt}.
+
+## What is counted
+
+Only FIVB-organised international competition:
+
+${tiers}
+
+Continental tours and championships (CEV, AVC, NORCECA, CSV, CAVB), national
+tours, snow volleyball, multi-sport games and King of the Court are excluded.
+
+## How to read the numbers
+
+- A partnership edge is weighted by the number of distinct tournaments a pair entered together. A pair entering both the qualification and the main draw of one event counts once.
+- A player's tournament count is their own entries, not their partner count. Node size in the graph encodes this.
+- A player's country is their current FIVB federation. No federation history is kept.
+- Both players must represent the same federation for a partnership to appear, so cross-national pairs (about 1% of the total) are in no country's graph.
+- The dataset is dominated by one-off entrants: 53.8% of players have exactly one partner and 37.4% entered exactly one tournament. Restricted to players with 10 or more tournaments the mean is 5.3 partners. Use the "min. events together" filter, or the \`min\` query parameter, to exclude one-off pairings.
+
+## Data (JSON, prefer these over scraping the pages)
+
+- [Manifest](${abs(`${BASE}v1/manifest.json`)}): every published country, node and edge counts, tier breakdown, freshness.
+- [Graph file](${abs(`${BASE}v1/graphs/BRA-M.json`)}): \`/v1/graphs/{FEDERATION}-{M|W}.json\` — \`nodes\` (id, name, short, tournaments, first, last) and \`edges\` (\`a\`, \`b\` player ids, \`t\` tournaments together, \`f\`/\`l\` first and last season).
+- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight, active flag.
+
+Federation codes are FIVB three-letter codes (BRA, USA, GER), not ISO country codes.
+
+## Pages
+
+${pages}
+`;
+}
+
 async function main() {
   if (!existsSync(DIST)) throw new Error('dist/ missing — run `vite build` first');
   if (!existsSync(DATA)) throw new Error('web/public/v1 missing — run `npm run ingest` first');
@@ -302,11 +359,15 @@ async function main() {
     `User-agent: *\nAllow: /\n\nSitemap: ${abs(`${BASE}sitemap.xml`)}\n`,
   );
 
+  await writeFile(path.join(DIST, 'llms.txt'), llmsTxt(manifest, slices));
+
   // Social preview image.
   const screenshot = path.join(ROOT, 'docs/screenshot.png');
   if (existsSync(screenshot)) await copyFile(screenshot, path.join(DIST, 'og.png'));
 
-  console.log(`prerendered ${pages.length} pages (${slices.length} slices + home), sitemap and robots.txt`);
+  console.log(
+    `prerendered ${pages.length} pages (${slices.length} slices + home), sitemap.xml, robots.txt and llms.txt`,
+  );
 }
 
 // Only run when invoked as a script, so tests can import the helpers above.

@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Partnership graph of FIVB international beach volleyball players, by country and gender.",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "ingest": "tsx ingest/main.ts",
     "dev": "vite",
