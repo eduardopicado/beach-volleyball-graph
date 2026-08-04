@@ -156,6 +156,16 @@ main.is-loading {
   }
 }
 
+/* Below the two-column breakpoint the card stacks under the graph rather than
+   beside it, so there is no sibling height to match — the inline height App.tsx
+   sets to mirror the graph's measured height would otherwise just clip the
+   card to whatever the graph happens to be tall in the stacked layout. */
+@media (max-width: 939px) {
+  .card-slot {
+    height: auto !important;
+  }
+}
+
 .graph-empty {
   display: grid;
   place-items: center;

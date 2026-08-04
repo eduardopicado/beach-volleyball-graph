@@ -7,6 +7,13 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  /* Match the graph's height rather than shrink-to-fit: the two sit side by
+     side in a grid row that already stretches both cells to the same height
+     (grid's default align-items), but a plain block child doesn't fill a
+     stretched cell on its own. Below the two-column breakpoint (App.css) the
+     card is the only thing in its row, so this resolves to auto there — no
+     separate mobile case needed. */
+  height: 100%;
 }
 
 .player-card header {
@@ -102,6 +109,18 @@
 
 /* --- partners ------------------------------------------------------------ */
 
+.partners {
+  display: flex;
+  flex-direction: column;
+  /* Grow to absorb whatever height the card gained by matching the graph, so
+     a well-connected player's list actually uses it (more rows visible,
+     instead of an arbitrary cutoff). min-height: 0 overrides the flex default
+     of auto, which would otherwise refuse to shrink below the list's content
+     size and defeat the internal scroll below. */
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
 .partners h3 {
   margin: 0 0 10px;
   display: flex;
@@ -126,8 +145,15 @@
   /* Grid items default to min-width:auto, so a long partner name would size the
      column to its own min-content width and push the tally off the card. */
   grid-template-columns: minmax(0, 1fr);
+  align-content: start;
   gap: 2px;
-  max-height: 260px;
+  /* Fills whatever the flex parent gives it (up to the card's now
+     graph-matched height) rather than a fixed 260px, so a well-connected
+     player's rows aren't cut off arbitrarily short of the available room.
+     Still scrolls internally past that, for the players with the most
+     partners of all. min-height: 0 is the same flex-shrink fix as .partners. */
+  flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
 }
 
