@@ -97,7 +97,66 @@ export function buildFederations(rows: VisRow[]): Map<string, Federation> {
   return map;
 }
 
+/**
+ * Federation codes that appear on player records but have no entry in the
+ * live FIVB federation list: dissolved states, or territories that compete
+ * under FIVB without their own federation. Identified from player name/origin
+ * samples rather than guessed, since misattributing a country is worse than
+ * leaving it unresolved — which is also why codes we couldn't confidently
+ * identify (see `EXCLUDED_FEDERATIONS`) are excluded rather than listed here.
+ */
+export const ORPHAN_FEDERATIONS: Record<string, { name: string; iso2: string | null }> = {
+  GBR: { name: 'Great Britain', iso2: 'GB' },
+  PLY: { name: 'French Polynesia', iso2: 'PF' },
+  GDP: { name: 'Guadeloupe', iso2: 'GP' },
+  MQE: { name: 'Martinique', iso2: 'MQ' },
+  REU: { name: 'Réunion', iso2: 'RE' },
+  MAY: { name: 'Mayotte', iso2: 'YT' },
+  SXM: { name: 'Sint Maarten', iso2: 'SX' },
+  TCI: { name: 'Turks & Caicos Islands', iso2: 'TC' },
+  NCL: { name: 'New Caledonia', iso2: 'NC' },
+  WLF: { name: 'Wallis & Futuna', iso2: 'WF' },
+  FGU: { name: 'French Guiana', iso2: 'GF' },
+  // The three "BES islands" (Bonaire, Sint Eustatius, Saba) were absorbed into
+  // the Netherlands as special municipalities in 2010 and share one ISO code.
+  BON: { name: 'Bonaire', iso2: 'BQ' },
+  SAB: { name: 'Saba', iso2: 'BQ' },
+  EUX: { name: 'Sint Eustatius', iso2: 'BQ' },
+  // Dissolved states with no single ISO successor to inherit a flag from.
+  YUG: { name: 'Yugoslavia', iso2: null },
+  URS: { name: 'Soviet Union', iso2: null },
+  SCG: { name: 'Serbia & Montenegro', iso2: null },
+};
+
+/**
+ * Federation codes merged into another federation's entry: the same real
+ * place recorded under two different FIVB codes. Netherlands Antilles (AHO)
+ * dissolved in 2010 and Curaçao's federation kept the old AHO code, but some
+ * player records still carry the separate, standalone code "CUR" — without
+ * this alias they render as two distinct Curaçao entries.
+ */
+export const FEDERATION_ALIASES: Record<string, string> = {
+  CUR: 'AHO',
+};
+
+/**
+ * Federation codes dropped entirely: not a resolvable country. SMA's player
+ * sample includes a literal "Test"/"Test" entry alongside otherwise
+ * unverifiable names — it reads as leftover test data, not a nationality.
+ * FIV has no discernible identity of its own (FIVB is not a country) and its
+ * player sample didn't resolve to one confidently either — most likely a
+ * placeholder federation code for unaffiliated/neutral players. Guessing
+ * either wrong would misattribute a real player's nationality, which is worse
+ * than omitting them from the country breakdown.
+ */
+export const EXCLUDED_FEDERATIONS = new Set(['SMA', 'FIV']);
+
 /** Falls back to the raw code so an unknown federation still renders sensibly. */
 export function countryName(federations: Map<string, Federation>, code: string): string {
-  return federations.get(code)?.name ?? code;
+  return federations.get(code)?.name ?? ORPHAN_FEDERATIONS[code]?.name ?? code;
+}
+
+/** Same fallback chain as {@link countryName}, for the flag glyph. */
+export function countryIso2(federations: Map<string, Federation>, code: string): string | null {
+  return federations.get(code)?.iso2 ?? ORPHAN_FEDERATIONS[code]?.iso2 ?? null;
 }

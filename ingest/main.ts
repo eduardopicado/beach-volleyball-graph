@@ -17,7 +17,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { fetchList } from './vis.js';
-import { fetchFederations, countryName } from './countries.js';
+import { fetchFederations, countryName, countryIso2 } from './countries.js';
 import { TIER_LABEL, INCLUDE_AGE_GROUP } from './tiers.js';
 import {
   aggregatePartnerships,
@@ -123,7 +123,7 @@ async function main() {
   const byCountry = new Map<string, ManifestCountry>();
 
   for (const slice of slices) {
-    const federation = federations.get(slice.country);
+    const iso2 = countryIso2(federations, slice.country);
     const name = countryName(federations, slice.country);
     const graph: GraphFile = {
       country: slice.country,
@@ -162,7 +162,7 @@ async function main() {
     if (!entry) {
       byCountry.set(
         slice.country,
-        (entry = { code: slice.country, name, iso2: federation?.iso2 ?? null, genders: {} }),
+        (entry = { code: slice.country, name, iso2, genders: {} }),
       );
     }
     entry.genders[slice.gender as Gender] = { nodes: slice.nodes.length, edges: slice.edges.length };
