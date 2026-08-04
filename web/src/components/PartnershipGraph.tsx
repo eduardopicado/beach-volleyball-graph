@@ -100,6 +100,12 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     userAdjusted.current = false;
   }, [layout]);
 
+  // Whether the simulation has stopped moving and the view has had its initial
+  // fit. Anything that wants to take the view over (see the pan-to-selection
+  // effect) has to wait for this, or it claims the view before the graph has
+  // been framed even once.
+  const [settled, setSettled] = useState(false);
+
   // --- run the simulation --------------------------------------------------
   useEffect(() => {
     const { simulation } = layout;
@@ -144,7 +150,10 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
         applyView(view);
       }
       setLabelled(pickLabels(layout.nodes, view, width, height, MAX_LABELS));
+      setSettled(true);
     };
+
+    setSettled(false);
 
     // Warm the layout up off-screen so the first painted frame is already
     // structured, rather than an exploding ball of nodes at the centre.
@@ -195,6 +204,13 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     centeredIdRef.current = null;
   }, [layout]);
   useEffect(() => {
+    // Wait for the initial fit. A player selected before the graph has settled
+    // — which is exactly what a shared `?player=` link does — would otherwise
+    // claim the view on mount, and because claiming it means setting
+    // `userAdjusted`, the one-time `fitToView` would never run at all: the
+    // graph stays at the default scale with a third of its nodes off-canvas.
+    // Waiting also means the pan inherits the *fitted* zoom rather than 1.
+    if (!settled) return;
     if (selectedId === null || selectedId === centeredIdRef.current) return;
     const node = layout.nodes.find((n) => n.id === selectedId);
     if (!node || !Number.isFinite(node.x) || !Number.isFinite(node.y)) return;
@@ -205,7 +221,7 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
       x: size.width / 2 - (node.x ?? 0) * prev.k,
       y: size.height / 2 - (node.y ?? 0) * prev.k,
     }));
-  }, [selectedId, layout, size]);
+  }, [selectedId, layout, size, settled]);
 
   // --- pan & zoom ------------------------------------------------------------
   // Every active pointer's last known position, keyed by pointerId. A single
