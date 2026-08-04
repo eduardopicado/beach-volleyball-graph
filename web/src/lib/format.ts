@@ -1,7 +1,47 @@
 /** Small display helpers, kept pure so they can be unit-tested. */
 
-/** ISO-3166 alpha-2 -> flag emoji via regional indicator symbols. */
-export function flagEmoji(iso2: string | null | undefined): string {
+/**
+ * Builds a Unicode "emoji tag sequence" subdivision flag: the black flag base
+ * followed by invisible tag characters spelling out the subdivision code,
+ * terminated by the cancel tag. This is the mechanism behind England,
+ * Scotland and Wales's flags — none of which have an ISO-3166-1 country code
+ * of their own, since they aren't countries; FIVB still fields them as
+ * separate federations.
+ *
+ * Support is real but narrower than regional-indicator flags: renders
+ * correctly on Apple platforms and recent Android/Chrome, but on a font
+ * without the sequence (older Windows, some Linux setups) the invisible tag
+ * characters just vanish, leaving a plain black flag rather than a broken
+ * glyph — a graceful, not broken, fallback.
+ */
+function subdivisionFlag(code: string): string {
+  const TAG_BASE = 0xe0000;
+  const CANCEL_TAG = 0xe007f;
+  const BLACK_FLAG = 0x1f3f4;
+  const tags = [...code.toLowerCase()].map((c) => String.fromCodePoint(TAG_BASE + c.charCodeAt(0)));
+  return String.fromCodePoint(BLACK_FLAG) + tags.join('') + String.fromCodePoint(CANCEL_TAG);
+}
+
+/**
+ * FIVB federation code -> subdivision code, for federations with no ISO
+ * country code (see `subdivisionFlag`). Northern Ireland has no equivalent:
+ * Unicode has never standardised a "gbnir" sequence, unlike gbeng/gbsct/gbwls
+ * — its federation stays without a flag.
+ */
+const SUBDIVISION_CODES: Record<string, string> = {
+  ENG: 'gbeng',
+  SCO: 'gbsct',
+  WAL: 'gbwls',
+};
+
+/**
+ * ISO-3166 alpha-2 -> flag emoji via regional indicator symbols, with a
+ * federation-code fallback for the UK home nations (see `SUBDIVISION_CODES`),
+ * none of which carry their own ISO code.
+ */
+export function flagEmoji(iso2: string | null | undefined, federationCode?: string): string {
+  const subdivision = federationCode && SUBDIVISION_CODES[federationCode];
+  if (subdivision) return subdivisionFlag(subdivision);
   if (!iso2 || !/^[A-Za-z]{2}$/.test(iso2)) return '';
   return String.fromCodePoint(
     ...iso2

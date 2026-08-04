@@ -93,7 +93,7 @@ export function Controls({
         <select value={country} onChange={(e) => onCountry(e.target.value)}>
           {manifest.countries.map((c) => {
             const total = GENDERS.reduce((sum, g) => sum + (c.genders[g]?.nodes ?? 0), 0);
-            const flag = flagEmoji(c.iso2);
+            const flag = flagEmoji(c.iso2, c.code);
             return (
               <option key={c.code} value={c.code}>
                 {flag ? `${flag} ` : ''}

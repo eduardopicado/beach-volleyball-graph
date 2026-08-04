@@ -208,7 +208,7 @@ export default function App() {
   );
 
   const countryEntry = manifest?.countries.find((c) => c.code === country);
-  const flag = flagEmoji(countryEntry?.iso2);
+  const flag = flagEmoji(countryEntry?.iso2, countryEntry?.code);
 
   const tableRows: TableRow[] = useMemo(() => {
     const term = search.trim().toLowerCase();
