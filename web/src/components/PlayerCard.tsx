@@ -83,7 +83,6 @@ export function PlayerCard({
           <h2>{node.name}</h2>
           <p className="country">
             <span aria-hidden="true">{flag}</span> {countryName}
-            {detail?.active && <span className="badge">Active</span>}
           </p>
         </div>
         <button ref={closeRef} type="button" className="close" onClick={onClose} aria-label="Close profile">

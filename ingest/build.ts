@@ -28,7 +28,6 @@ export interface Player {
   dob: string | null;
   height: number | null;
   weight: number | null;
-  active: boolean;
 }
 
 /** A canonical unordered pair key: always "smaller:larger" by numeric id. */
@@ -118,7 +117,11 @@ export function normalisePlayers(rows: VisRow[]): Map<number, Player> {
       dob: /^\d{4}-\d{2}-\d{2}$/.test(dob) && !dob.startsWith('0001') ? dob : null,
       height: toCentimetres(row.Height),
       weight: toKilograms(row.Weight),
-      active: row.IsActive === '1',
+      // VIS also has an `IsActive` flag, deliberately not carried through: it is
+      // not beach-specific (it tracks a player's overall FIVB registration
+      // across beach/indoor/snow) and is not reliably updated for retired
+      // athletes. Cross-checked against this dataset: 66% of players it flags
+      // active have no qualifying beach tournament in the last 5+ seasons.
     });
   }
   return out;

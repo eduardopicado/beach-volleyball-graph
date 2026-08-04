@@ -61,8 +61,6 @@ export interface PlayerDetail {
   height: number | null;
   /** Kilograms, `null` when unknown. */
   weight: number | null;
-  /** FIVB still lists this player as active. */
-  active: boolean;
 }
 
 /**

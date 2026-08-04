@@ -52,8 +52,20 @@ export function radiusScale(maxTournaments: number) {
   };
 }
 
+/**
+ * Log-scaled rather than sqrt: partnership counts are heavily right-skewed
+ * (most pairs share 1-5 tournaments; a handful of career partnerships run into
+ * the hundreds), and sqrt compresses exactly the low end where nearly all the
+ * data sits. `log1p` spreads that common range out instead, so the common case
+ * is distinguishable rather than just the outliers.
+ *
+ * Pairs with this with `vector-effect: non-scaling-stroke` on `.link` (see
+ * PartnershipGraph.css) — without it, the pan/zoom transform multiplies this
+ * whole range by the current zoom level, which for a country zoomed out to
+ * fit the screen can shrink it to well under a pixel of visible difference.
+ */
 export function edgeWidth(t: number, maxT: number): number {
-  const ratio = Math.sqrt(Math.max(t, 1) / Math.max(maxT, 1));
+  const ratio = Math.log1p(Math.max(t, 1)) / Math.log1p(Math.max(maxT, 1));
   return 1 + 5 * ratio;
 }
 

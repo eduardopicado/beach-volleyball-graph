@@ -25,6 +25,10 @@
   stroke-opacity: 0.55;
   stroke-linecap: round;
   transition: stroke-opacity 0.15s ease, stroke 0.15s ease;
+  /* Keep the encoded stroke-width in real screen pixels, not user-space units —
+     otherwise the pan/zoom transform on the parent <g> rescales it along with
+     everything else, and a zoomed-out view crushes the whole encoded range. */
+  vector-effect: non-scaling-stroke;
 }
 
 .link.is-active {

@@ -53,6 +53,18 @@ describe('edgeWidth', () => {
     expect(edgeWidth(100, 100)).toBeCloseTo(6, 5);
     expect(edgeWidth(1, 1)).toBeCloseTo(6, 5);
   });
+
+  it('separates the low end of the range, where most partnerships sit', () => {
+    // Real partnership counts are heavily right-skewed: most pairs share 1-5
+    // tournaments, a handful run into the hundreds. A sqrt scale (the previous
+    // implementation) compresses exactly this common range — e.g. against a
+    // maxT of 124 it put t=1..3 within 0.33px of each other, which on a
+    // zoomed-out view is not a perceptible difference. This asserts the
+    // low-end spread a reader can actually see stays above that floor.
+    const maxT = 124;
+    const spread = edgeWidth(3, maxT) - edgeWidth(1, maxT);
+    expect(spread).toBeGreaterThan(0.5);
+  });
 });
 
 describe('buildLayout', () => {
