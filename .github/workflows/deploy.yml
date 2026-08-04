@@ -1,13 +1,23 @@
 ### Weekly rebuild + publish.
 #
-# The whole pipeline is one job: pull the FIVB archive, rebuild every graph from
-# scratch, then deploy the site with the data baked in. A full rebuild takes
-# about a minute, which is cheap enough that there is no incremental cache to go
-# stale — any upstream correction or ingest bug is washed out by the next run.
+# Three jobs, in a strict pipeline: fetch the FIVB archive and rebuild every
+# graph from scratch (ingest), compile the site around that data (build), then
+# publish it (deploy). A full rebuild takes about a minute, which is cheap
+# enough that there is no incremental cache to go stale — any upstream
+# correction or ingest bug is washed out by the next run.
 #
-# Failure semantics: if the ingest step fails, the job stops before `deploy`, so
-# the previously published site keeps serving last week's data. Degraded to
-# "slightly stale", never to "down".
+# ingest is split into its own job specifically so that a failure anywhere
+# downstream — a bad Pages permission, a broken build step — can be retried
+# with GitHub's "re-run failed jobs" without re-fetching from FIVB. Only
+# jobs that failed (or depend on one that did) re-run; ingest, once green,
+# stays green and is not re-executed. The FIVB archive doesn't change
+# between retries a few minutes apart, so there is nothing to gain by asking
+# for it again, and every unnecessary call is traffic on a free API that has
+# no obligation to keep serving it.
+#
+# Failure semantics: if ingest fails, the job stops before build and deploy,
+# so the previously published site keeps serving last week's data. Degraded
+# to "slightly stale", never to "down".
 
 name: Rebuild data and deploy
 
@@ -30,7 +40,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  ingest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -72,6 +82,30 @@ jobs:
               print(f"| {tier} | {n:,} |")
           PY
 
+      - uses: actions/upload-artifact@v7
+        with:
+          name: fivb-data
+          path: web/public/v1
+          retention-days: 1
+
+  build:
+    needs: ingest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - uses: actions/download-artifact@v8
+        with:
+          name: fivb-data
+          path: web/public/v1
+
       - name: Build site
         run: npm run build
         env:
@@ -85,6 +119,12 @@ jobs:
       # `enablement` switches Pages on through the API when it is not already
       # enabled, so a fresh clone or fork deploys without anyone having to visit
       # the settings page first. Relies on the `pages: write` permission above.
+      # If this fails with "Resource not accessible by integration" even
+      # though that permission is granted here, check Settings > Actions >
+      # General > Workflow permissions — a repository- or organisation-level
+      # default of "Read repository contents permission" (read-only) silently
+      # caps every workflow's token below what its own `permissions:` block
+      # asks for.
       - uses: actions/configure-pages@v6
         with:
           enablement: true
