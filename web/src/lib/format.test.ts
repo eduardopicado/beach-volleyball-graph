@@ -34,6 +34,15 @@ describe('flagEmoji', () => {
   it('a plain federation code with a real ISO code is unaffected', () => {
     expect(flagEmoji('BR', 'BRA')).toBe('🇧🇷');
   });
+
+  it('aliases the withdrawn Netherlands Antilles code to Curaçao, lowercase included', () => {
+    // FIVB still carries some federation records with the withdrawn "AN" code.
+    // A raw regional-indicator pair for it is unassigned and commonly renders
+    // as two separate boxed letters rather than one flag glyph — which reads
+    // as the country appearing twice in a flag-prefixed list.
+    expect(flagEmoji('AN')).toBe(flagEmoji('CW'));
+    expect(flagEmoji('an')).toBe(flagEmoji('CW'));
+  });
 });
 
 describe('age', () => {
