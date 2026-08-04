@@ -57,15 +57,6 @@
   font-size: 13px;
 }
 
-.player-card .badge {
-  padding: 1px 7px;
-  border-radius: 999px;
-  background: var(--series-1-wash);
-  color: var(--text-secondary);
-  font-size: 11px;
-  font-weight: 600;
-}
-
 .player-card .close {
   width: 30px;
   height: 30px;

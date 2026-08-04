@@ -22,7 +22,6 @@ const player = (no: number, gender: '0' | '1', fed: string): VisRow => ({
   LastName: `Last${no}`,
   Gender: gender,
   FederationCode: fed,
-  IsActive: '1',
 });
 
 const entry = (tour: string, a: number, b: number): VisRow => ({

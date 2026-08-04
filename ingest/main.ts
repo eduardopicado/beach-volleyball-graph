@@ -87,7 +87,6 @@ async function main() {
       'Birthdate',
       'Height',
       'Weight',
-      'IsActive',
     ],
     itemTag: 'Player',
   });
@@ -151,7 +150,6 @@ async function main() {
           dob: p.dob,
           height: p.height,
           weight: p.weight,
-          active: p.active,
         };
       }),
     };
