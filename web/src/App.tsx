@@ -56,7 +56,6 @@ export default function App() {
   const [details, setDetails] = useState<PlayersFile | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedId, setSelectedId] = useState<number | null>(initial.player);
-  const [search, setSearch] = useState('');
   const [layoutKey, setLayoutKey] = useState(0);
   /** Hide partnerships below this many shared tournaments. 1 = show all. */
   const [minTogether, setMinTogether] = useState(initial.min ?? 1);
@@ -210,15 +209,14 @@ export default function App() {
   const countryEntry = manifest?.countries.find((c) => c.code === country);
   const flag = flagEmoji(countryEntry?.iso2, countryEntry?.code);
 
-  const tableRows: TableRow[] = useMemo(() => {
-    const term = search.trim().toLowerCase();
-    return visibleNodes
-      .filter((n) => !term || n.name.toLowerCase().includes(term))
-      .map((n) => {
+  const tableRows: TableRow[] = useMemo(
+    () =>
+      visibleNodes.map((n) => {
         const partners = partnersByPlayer.get(n.id) ?? [];
         return { ...n, partners: partners.length, topPartner: partners[0]?.node.name ?? null };
-      });
-  }, [visibleNodes, partnersByPlayer, search]);
+      }),
+    [visibleNodes, partnersByPlayer],
+  );
 
   const stats: Stat[] = useMemo(() => {
     const nodes = visibleNodes;
@@ -298,16 +296,15 @@ export default function App() {
           onCountry={(code) => {
             setCountry(code);
             setSelectedId(null);
-            setSearch('');
           }}
           onGender={(g) => {
             setGender(g);
             setSelectedId(null);
           }}
-          search={search}
-          onSearch={setSearch}
           minTogether={minTogether}
           onMinTogether={setMinTogether}
+          players={visibleNodes}
+          onSelectPlayer={selectPlayer}
         />
       )}
 
@@ -383,10 +380,7 @@ export default function App() {
         <section className="table-section">
           <div className="section-head">
             <h2>All players</h2>
-            <p className="muted">
-              {plural(tableRows.length, 'player')}
-              {search && ` matching “${search}”`}
-            </p>
+            <p className="muted">{plural(tableRows.length, 'player')}</p>
           </div>
           <TableView rows={tableRows} selectedId={selectedId} onSelect={selectPlayer} />
         </section>

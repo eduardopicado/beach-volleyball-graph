@@ -90,7 +90,7 @@
 }
 
 .controls select,
-.controls input[type='search'] {
+.player-search input {
   height: 36px;
   padding: 0 10px;
   background: var(--page);
@@ -105,11 +105,11 @@
   cursor: pointer;
 }
 
-.controls input[type='search'] {
+.player-search input {
   width: 100%;
 }
 
-.controls input[type='search']::placeholder {
+.player-search input::placeholder {
   color: var(--text-muted);
 }
 
@@ -163,6 +163,86 @@
 
 .segmented button.is-selected .tally {
   color: var(--text-secondary);
+}
+
+/* --- player search --------------------------------------------------------
+   A self-contained combobox: matches render in a dropdown anchored directly
+   under the input, not as a filter on the table elsewhere on the page. */
+
+.player-search {
+  position: relative;
+}
+
+.player-search-results {
+  position: absolute;
+  z-index: 6;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--surface-1);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+}
+
+.player-search-results li {
+  display: block;
+}
+
+.player-search-results button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.player-search-results button:hover,
+.player-search-results button.is-active {
+  background: var(--series-1-wash);
+}
+
+.player-search-results .name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.player-search-results .meta {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.player-search-empty {
+  position: absolute;
+  z-index: 6;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px 12px;
+  background: var(--surface-1);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  color: var(--text-secondary);
+  font-size: 13px;
 }
 
 /* --- provenance ---------------------------------------------------------- */
