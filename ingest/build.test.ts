@@ -83,6 +83,19 @@ describe('normalisePlayers', () => {
   it('drops players with no usable gender', () => {
     expect(normalisePlayers([{ ...player(9, '0', 'BRA'), Gender: '' }]).size).toBe(0);
   });
+
+  it('aliases a withdrawn federation code to the one it merged into', () => {
+    // CUR (withdrawn) and AHO both represent Curaçao; without the alias they'd
+    // form two separate country entries for the same real place.
+    const map = normalisePlayers([player(10, '0', 'CUR')]);
+    expect(map.get(10)!.federation).toBe('AHO');
+  });
+
+  it('drops players under an excluded federation code entirely', () => {
+    // SMA/FIV don't resolve to a real, confidently-identifiable country.
+    const map = normalisePlayers([player(11, '0', 'SMA'), player(12, '1', 'FIV')]);
+    expect(map.size).toBe(0);
+  });
 });
 
 describe('aggregatePartnerships', () => {

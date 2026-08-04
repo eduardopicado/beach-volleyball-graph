@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { buildFederations, countryName } from './countries.js';
+import { buildFederations, countryIso2, countryName, ORPHAN_FEDERATIONS } from './countries.js';
 import type { VisRow } from './vis.js';
 
 const fed = (Code: string, Name: string, CountryCode: string): VisRow => ({ Code, Name, CountryCode });
@@ -56,5 +56,43 @@ describe('buildFederations', () => {
 describe('countryName', () => {
   it('falls back to the raw code for an unknown federation', () => {
     expect(countryName(new Map(), 'ZZZ')).toBe('ZZZ');
+  });
+
+  it('resolves an orphan federation code with no live federation entry', () => {
+    expect(countryName(new Map(), 'GBR')).toBe('Great Britain');
+    expect(countryName(new Map(), 'YUG')).toBe('Yugoslavia');
+  });
+});
+
+describe('countryIso2', () => {
+  it('falls back to null for an unknown federation', () => {
+    expect(countryIso2(new Map(), 'ZZZ')).toBeNull();
+  });
+
+  it('resolves an orphan federation code with a known ISO territory', () => {
+    expect(countryIso2(new Map(), 'GBR')).toBe('GB');
+  });
+
+  it('leaves dissolved states without a flag rather than guessing one', () => {
+    expect(countryIso2(new Map(), 'YUG')).toBeNull();
+    expect(countryIso2(new Map(), 'URS')).toBeNull();
+    expect(countryIso2(new Map(), 'SCG')).toBeNull();
+  });
+
+  it('prefers a live federation entry over the orphan table', () => {
+    // GBR isn't a live federation in practice, but if it ever were, the real
+    // record should win over the hardcoded fallback.
+    const map = buildFederations([{ Code: 'GBR', Name: 'SOME FEDERATION', CountryCode: 'FR' }]);
+    expect(countryIso2(map, 'GBR')).toBe('FR');
+  });
+});
+
+describe('ORPHAN_FEDERATIONS', () => {
+  it('never overlaps a code already covered by FEDERATION_ALIASES or EXCLUDED_FEDERATIONS', async () => {
+    const { FEDERATION_ALIASES, EXCLUDED_FEDERATIONS } = await import('./countries.js');
+    for (const code of Object.keys(ORPHAN_FEDERATIONS)) {
+      expect(code in FEDERATION_ALIASES).toBe(false);
+      expect(EXCLUDED_FEDERATIONS.has(code)).toBe(false);
+    }
   });
 });

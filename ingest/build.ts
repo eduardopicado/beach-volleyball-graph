@@ -9,6 +9,7 @@
 import type { Gender, GraphEdge, GraphNode, Tier } from '../web/src/schema.js';
 import { toCentimetres, toKilograms, type VisRow } from './vis.js';
 import { tierFor } from './tiers.js';
+import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
 
 export interface Tournament {
   no: string;
@@ -106,6 +107,8 @@ export function normalisePlayers(rows: VisRow[]): Map<number, Player> {
     // gendered graph, so those players are dropped at slice time.
     const gender: Gender | null = row.Gender === '0' ? 'M' : row.Gender === '1' ? 'W' : null;
     if (!gender) continue;
+    const rawFederation = (row.FederationCode ?? '').trim().toUpperCase();
+    if (EXCLUDED_FEDERATIONS.has(rawFederation)) continue;
     const dob = (row.Birthdate ?? '').trim();
     const name = fullName(row);
     out.set(id, {
@@ -113,7 +116,7 @@ export function normalisePlayers(rows: VisRow[]): Map<number, Player> {
       name,
       short: shortName(row, name),
       gender,
-      federation: (row.FederationCode ?? '').trim().toUpperCase(),
+      federation: FEDERATION_ALIASES[rawFederation] ?? rawFederation,
       dob: /^\d{4}-\d{2}-\d{2}$/.test(dob) && !dob.startsWith('0001') ? dob : null,
       height: toCentimetres(row.Height),
       weight: toKilograms(row.Weight),
