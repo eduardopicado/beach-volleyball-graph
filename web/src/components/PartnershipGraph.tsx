@@ -180,6 +180,33 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     setLabelled(pickLabels(layout.nodes, view, size.width, size.height, MAX_LABELS));
   }, [layout, size]);
 
+  // Pan to keep a newly selected player in view — otherwise "select" (from
+  // search, a table row, or a partner link in the card) leaves the reader
+  // hunting for a highlighted dot somewhere in a graph that hasn't moved.
+  // Zoom level is left alone; only the pan target changes. Runs whenever
+  // selectedId changes to a different, real node — not on every render, and
+  // not for a deselect.
+  const centeredIdRef = useRef<number | null>(null);
+  // A relayout (filter change, re-tangle) moves every node, including
+  // whichever one is still selected — its last centering is now stale even
+  // though selectedId itself didn't change, so forget it and let the effect
+  // below re-fire for the current layout.
+  useEffect(() => {
+    centeredIdRef.current = null;
+  }, [layout]);
+  useEffect(() => {
+    if (selectedId === null || selectedId === centeredIdRef.current) return;
+    const node = layout.nodes.find((n) => n.id === selectedId);
+    if (!node || !Number.isFinite(node.x) || !Number.isFinite(node.y)) return;
+    centeredIdRef.current = selectedId;
+    userAdjusted.current = true; // don't let the resize auto-fit undo this
+    setTransform((prev) => ({
+      k: prev.k,
+      x: size.width / 2 - (node.x ?? 0) * prev.k,
+      y: size.height / 2 - (node.y ?? 0) * prev.k,
+    }));
+  }, [selectedId, layout, size]);
+
   // --- pan & zoom ------------------------------------------------------------
   // Every active pointer's last known position, keyed by pointerId. A single
   // pointer drags to pan; a second one joining mid-gesture switches to pinch

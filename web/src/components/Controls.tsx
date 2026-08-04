@@ -4,10 +4,11 @@
  * so the numbers on screen always agree.
  */
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Gender, Manifest } from '../schema';
 import { GENDER_LABEL, GENDERS } from '../schema';
 import { flagEmoji, plural } from '../lib/format';
+import { searchPlayers, type SearchablePlayer } from '../lib/search';
 import './Controls.css';
 
 /**
@@ -58,6 +59,121 @@ function HelpTip({ text }: { text: string }) {
   );
 }
 
+/**
+ * Jump-to-player search. Deliberately not a filter on the table below it —
+ * that pairing (type up top, watch a list scroll far down the page) was the
+ * actual complaint. This is a self-contained combobox instead: matches render
+ * in a dropdown right under the input, and picking one (click, or arrow keys
+ * + Enter) opens that player's profile and pans the graph to them, same as
+ * clicking their node or their row in the table directly.
+ */
+function PlayerSearch({
+  players,
+  onSelectPlayer,
+}: {
+  players: SearchablePlayer[];
+  onSelectPlayer: (id: number) => void;
+}) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  const matches = useMemo(() => searchPlayers(players, query), [players, query]);
+
+  // A new query invalidates whatever was highlighted; default to the top hit.
+  useEffect(() => {
+    setActiveIndex(matches.length > 0 ? 0 : -1);
+  }, [matches]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onOutside = (e: PointerEvent) => {
+      if (rootRef.current && !rootRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener('pointerdown', onOutside);
+    return () => document.removeEventListener('pointerdown', onOutside);
+  }, [open]);
+
+  const select = (id: number) => {
+    onSelectPlayer(id);
+    // Clears rather than keeps the match text: this is "jump to", a completed
+    // action, not an ongoing filter the reader would want to keep visible.
+    setQuery('');
+    setOpen(false);
+    setActiveIndex(-1);
+  };
+
+  const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      setOpen(true);
+      if (matches.length > 0) setActiveIndex((i) => (i + 1) % matches.length);
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      setOpen(true);
+      if (matches.length > 0) setActiveIndex((i) => (i - 1 + matches.length) % matches.length);
+    } else if (event.key === 'Enter') {
+      const match = matches[activeIndex];
+      if (match) {
+        event.preventDefault();
+        select(match.id);
+      }
+    } else if (event.key === 'Escape') {
+      setOpen(false);
+    }
+  };
+
+  const showResults = open && matches.length > 0;
+  const showEmpty = open && !showResults && query.trim().length > 0;
+
+  return (
+    <div className="player-search field grow" ref={rootRef}>
+      <span id="player-search-label">Find a player</span>
+      <input
+        type="text"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-labelledby="player-search-label"
+        aria-expanded={showResults}
+        aria-controls="player-search-listbox"
+        aria-activedescendant={activeIndex >= 0 ? `player-search-option-${activeIndex}` : undefined}
+        value={query}
+        placeholder="Start typing a name…"
+        autoComplete="off"
+        onChange={(e) => {
+          setQuery(e.target.value);
+          setOpen(true);
+        }}
+        onFocus={() => query.trim() && setOpen(true)}
+        onKeyDown={onKeyDown}
+      />
+      {showResults && (
+        <ul className="player-search-results" role="listbox" id="player-search-listbox">
+          {matches.map((m, i) => (
+            <li key={m.id} role="option" id={`player-search-option-${i}`} aria-selected={i === activeIndex}>
+              <button
+                type="button"
+                className={i === activeIndex ? 'is-active' : ''}
+                onPointerEnter={() => setActiveIndex(i)}
+                onClick={() => select(m.id)}
+              >
+                <span className="name">{m.name}</span>
+                <span className="meta">{plural(m.tournaments, 'tournament')}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+      {showEmpty && (
+        <p className="player-search-empty" role="status">
+          No players match "{query.trim()}".
+        </p>
+      )}
+    </div>
+  );
+}
+
 /** Presets for the partnership-strength threshold. */
 export const MIN_TOGETHER_OPTIONS = [1, 2, 3, 5, 10] as const;
 
@@ -67,10 +183,10 @@ interface Props {
   gender: Gender;
   onCountry: (code: string) => void;
   onGender: (gender: Gender) => void;
-  search: string;
-  onSearch: (value: string) => void;
   minTogether: number;
   onMinTogether: (value: number) => void;
+  players: SearchablePlayer[];
+  onSelectPlayer: (id: number) => void;
 }
 
 export function Controls({
@@ -79,10 +195,10 @@ export function Controls({
   gender,
   onCountry,
   onGender,
-  search,
-  onSearch,
   minTogether,
   onMinTogether,
+  players,
+  onSelectPlayer,
 }: Props) {
   const selected = manifest.countries.find((c) => c.code === country);
 
@@ -147,16 +263,7 @@ export function Controls({
         </div>
       </div>
 
-      <label className="field grow">
-        <span>Find a player</span>
-        <input
-          type="search"
-          value={search}
-          placeholder="Start typing a name…"
-          onChange={(e) => onSearch(e.target.value)}
-          autoComplete="off"
-        />
-      </label>
+      <PlayerSearch players={players} onSelectPlayer={onSelectPlayer} />
 
       <p className="as-of">
         Data as of{' '}
