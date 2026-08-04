@@ -32,17 +32,61 @@
   letter-spacing: 0.04em;
 }
 
-/* Inline help marker on the threshold control. */
-.controls .field > span em {
+/* Inline help marker on the threshold control. `title` alone is invisible on
+   touch (no hover state to trigger it), so this is a real button that opens a
+   rendered bubble on tap or click, in addition to the free desktop hover. */
+.help-tip {
+  position: relative;
+  display: inline-flex;
+}
+
+.help-tip-trigger {
   display: grid;
   place-items: center;
-  width: 13px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  background: transparent;
   border: 1px solid var(--border-strong);
   border-radius: 50%;
+  color: var(--text-muted);
   font-size: 9px;
-  font-style: normal;
+  line-height: 1;
   cursor: help;
+  /* The visible glyph stays small; the hit area doesn't. */
+  position: relative;
+}
+
+.help-tip-trigger::after {
+  content: '';
+  position: absolute;
+  inset: -10px;
+}
+
+.help-tip-trigger:hover,
+.help-tip-trigger[aria-expanded='true'] {
+  border-color: var(--series-1);
+  color: var(--series-1);
+}
+
+.help-tip-bubble {
+  position: absolute;
+  z-index: 5;
+  top: calc(100% + 8px);
+  left: 0;
+  width: max-content;
+  max-width: min(260px, 80vw);
+  padding: 8px 10px;
+  background: var(--surface-1);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: normal;
 }
 
 .controls select,

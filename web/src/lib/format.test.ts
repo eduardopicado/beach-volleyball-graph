@@ -9,6 +9,31 @@ describe('flagEmoji', () => {
   it('returns empty for anything that is not a two-letter code', () => {
     for (const bad of [null, undefined, '', 'BRA', 'B1']) expect(flagEmoji(bad)).toBe('');
   });
+
+  it('builds a subdivision flag for the UK home nations, which have no ISO code', () => {
+    // FIVB carries these with CountryCode "GB" (England/Scotland/N.Ireland,
+    // ambiguous — three federations, one code) or the non-ISO "04" (Wales),
+    // so iso2 alone can never distinguish them; the federation code can.
+    const wales = flagEmoji(null, 'WAL');
+    expect(wales).not.toBe('');
+    expect(wales.codePointAt(0)).toBe(0x1f3f4); // waving black flag
+    expect([...wales]).toHaveLength(7); // flag + 5 tag chars + cancel tag
+
+    // Each home nation's sequence must be distinct, or they'd render identically.
+    const england = flagEmoji('GB', 'ENG');
+    const scotland = flagEmoji('GB', 'SCO');
+    expect(new Set([wales, england, scotland]).size).toBe(3);
+  });
+
+  it('falls back to the plain UK flag for Northern Ireland — no distinct Unicode sequence exists', () => {
+    // No override for NIR, so this falls through to the iso2 path. GB is a
+    // valid (if ambiguous) code, so this is the UK flag, not nothing.
+    expect(flagEmoji('GB', 'NIR')).toBe('🇬🇧');
+  });
+
+  it('a plain federation code with a real ISO code is unaffected', () => {
+    expect(flagEmoji('BR', 'BRA')).toBe('🇧🇷');
+  });
 });
 
 describe('age', () => {
