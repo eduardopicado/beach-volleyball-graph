@@ -255,6 +255,12 @@ export default function App() {
 
   const selectPlayer = useCallback((id: number | null) => setSelectedId(id), []);
 
+  // Matches the player card's height to the graph's actual rendered height
+  // (see PartnershipGraph's onSize doc comment for why this can't be plain
+  // CSS grid stretch).
+  const [graphHeight, setGraphHeight] = useState<number | null>(null);
+  const onGraphSize = useCallback((size: { height: number }) => setGraphHeight(size.height), []);
+
   // Clear a selection that does not exist in the newly loaded slice.
   useEffect(() => {
     if (selectedId !== null && graph && !nodesById.has(selectedId)) setSelectedId(null);
@@ -349,6 +355,7 @@ export default function App() {
               selectedId={selectedId}
               onSelect={selectPlayer}
               layoutKey={layoutKey}
+              onSize={onGraphSize}
             />
           ) : (
             <div className="graph-empty">
@@ -359,7 +366,7 @@ export default function App() {
           )}
 
           {selectedNode && (
-            <div className="card-slot">
+            <div className="card-slot" style={graphHeight ? { height: graphHeight } : undefined}>
               <PlayerCard
                 node={selectedNode}
                 detail={detailsById.get(selectedNode.id)}
