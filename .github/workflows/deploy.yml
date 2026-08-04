@@ -82,7 +82,12 @@ jobs:
           # (e.g. https://beachvolley.com.br) once a custom domain is in place.
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
 
+      # `enablement` switches Pages on through the API when it is not already
+      # enabled, so a fresh clone or fork deploys without anyone having to visit
+      # the settings page first. Relies on the `pages: write` permission above.
       - uses: actions/configure-pages@v6
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v5
         with:

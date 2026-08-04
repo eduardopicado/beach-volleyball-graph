@@ -202,7 +202,10 @@ SITE_URL=https://your-domain.example npm run build
 `main`, and on demand via *Run workflow*. It typechecks, tests, ingests, builds
 and deploys to GitHub Pages.
 
-To enable it: **Settings → Pages → Source → GitHub Actions**.
+The workflow enables Pages itself (`configure-pages` with `enablement: true`),
+so there is nothing to click first. If your organisation restricts who may turn
+Pages on, the API call is refused and you will need **Settings → Pages → Source
+→ GitHub Actions** once, by hand.
 
 If the ingest step fails the job stops before deploying, so the previously
 published site keeps serving last week's data — the failure notification from
