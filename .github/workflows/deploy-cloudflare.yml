@@ -1,0 +1,62 @@
+### Weekly rebuild + publish to Cloudflare Pages.
+#
+# Alternative to deploy.yml (GitHub Pages). Use this one when the site is served
+# from a custom domain behind Cloudflare. Disable the other workflow so the two
+# do not both rebuild on the same schedule.
+#
+# Required repository secrets:
+#   CLOUDFLARE_API_TOKEN    a token with the "Cloudflare Pages: Edit" permission
+#   CLOUDFLARE_ACCOUNT_ID   from the Cloudflare dashboard URL
+# Required repository variable:
+#   SITE_URL                e.g. https://beachvolley.com.br  (no trailing slash)
+#
+# SITE_URL matters: canonical tags, Open Graph URLs and sitemap.xml are baked in
+# at build time, so a wrong value publishes wrong canonicals.
+
+name: Rebuild data and deploy (Cloudflare)
+
+on:
+  schedule:
+    - cron: '17 3 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+      - name: Fetch FIVB data and build graphs
+        run: npm run ingest
+        env:
+          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }})'
+
+      - name: Build site
+        run: npm run build
+        env:
+          # Cloudflare Pages serves from the domain root.
+          BASE_PATH: /
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=beachvolleyballgraph

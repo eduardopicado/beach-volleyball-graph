@@ -1,0 +1,379 @@
+/**
+ * Post-build step: turn the single-page app into a set of real, indexable pages.
+ *
+ * A client-rendered SPA with everything behind `?country=BRA` gives crawlers one
+ * URL and an empty `<div id="root">`. Every graph already exists as JSON at
+ * build time, so instead we emit one static HTML document per country x gender
+ * containing the actual player table, per-page metadata and structured data.
+ *
+ * React replaces the static markup on mount, so it is not a second
+ * implementation to maintain — it is the same data, rendered once at build time
+ * for readers who do not run JavaScript (crawlers, previews, text browsers).
+ */
+
+import { mkdir, readFile, writeFile, copyFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+
+import type { Gender, GraphFile, Manifest } from '../web/src/schema.js';
+import { GENDER_LABEL, GENDERS } from '../web/src/schema.js';
+import { sliceSlug } from '../web/src/lib/slug.js';
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(HERE, '..');
+const DIST = path.join(ROOT, 'dist');
+const DATA = path.join(ROOT, 'web/public/v1');
+
+/** Public origin, needed for canonical URLs, Open Graph and the sitemap. */
+const SITE_URL = (process.env.SITE_URL ?? 'https://example.invalid').replace(/\/+$/, '');
+const BASE = process.env.BASE_PATH ?? '/';
+
+/** Cap on players embedded in structured data; the table itself is complete. */
+const JSONLD_MAX = 50;
+
+/**
+ * Escape text for HTML. Player names come from an upstream database and reach
+ * both element content and quoted attribute values, so `"` must be escaped too.
+ */
+export const esc = (s: string) =>
+  s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
+const abs = (p: string) => `${SITE_URL}${p}`;
+
+interface Page {
+  slug: string;
+  url: string;
+  title: string;
+  description: string;
+  head: string;
+  body: string;
+}
+
+function seasonSpan(a: number, b: number) {
+  return a === b ? String(a) : `${a}\u2013${b}`;
+}
+
+/** Shared <head> block: canonical, Open Graph, Twitter, robots. */
+function headFor(url: string, title: string, description: string): string {
+  const image = abs(`${BASE}og.png`);
+  return [
+    `<link rel="canonical" href="${esc(url)}"/>`,
+    `<meta name="description" content="${esc(description)}"/>`,
+    `<meta name="robots" content="index,follow,max-image-preview:large"/>`,
+    `<meta property="og:type" content="website"/>`,
+    `<meta property="og:site_name" content="Beach Volleyball Partnership Graph"/>`,
+    `<meta property="og:title" content="${esc(title)}"/>`,
+    `<meta property="og:description" content="${esc(description)}"/>`,
+    `<meta property="og:url" content="${esc(url)}"/>`,
+    `<meta property="og:image" content="${esc(image)}"/>`,
+    `<meta name="twitter:card" content="summary_large_image"/>`,
+    `<meta name="twitter:title" content="${esc(title)}"/>`,
+    `<meta name="twitter:description" content="${esc(description)}"/>`,
+    `<meta name="twitter:image" content="${esc(image)}"/>`,
+  ].join('');
+}
+
+export function jsonLd(data: unknown): string {
+  // No user-controlled markup can escape: JSON.stringify plus a guard on the
+  // one sequence that could close the script element early.
+  return `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
+}
+
+function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string; href: string }[]): string {
+  const partners = new Map<number, { count: number; top: string; topT: number }>();
+  const byId = new Map(graph.nodes.map((n) => [n.id, n]));
+  for (const e of graph.edges) {
+    for (const [self, other] of [
+      [e.a, e.b],
+      [e.b, e.a],
+    ] as const) {
+      const entry = partners.get(self) ?? { count: 0, top: '', topT: 0 };
+      entry.count++;
+      if (e.t > entry.topT) {
+        entry.topT = e.t;
+        entry.top = byId.get(other)?.name ?? '';
+      }
+      partners.set(self, entry);
+    }
+  }
+
+  const rows = graph.nodes
+    .map((n) => {
+      const p = partners.get(n.id);
+      return `<tr><th scope="row">${esc(n.name)}</th><td>${n.tournaments}</td><td>${p?.count ?? 0}</td><td>${seasonSpan(n.first, n.last)}</td><td>${esc(p?.top ?? '—')}</td></tr>`;
+    })
+    .join('');
+
+  const gender = GENDER_LABEL[graph.gender].toLowerCase();
+  const nav = others
+    .map((o) => `<li><a href="${esc(o.href)}">${esc(o.name)}</a></li>`)
+    .join('');
+
+  return `<main>
+<h1>Beach Volleyball Partnership Graph</h1>
+<p>Who has played with whom in FIVB international beach volleyball — the World Tour, Beach Pro Tour, World Championships and Olympic Games.</p>
+<h2>${esc(graph.countryName)} · ${esc(GENDER_LABEL[graph.gender])}</h2>
+<p>${graph.nodes.length} ${gender}'s players from ${esc(graph.countryName)} have entered FIVB international beach volleyball, forming ${graph.edges.length} partnerships across ${manifest.totals.tournaments} tournaments between ${manifest.seasons.from} and ${manifest.seasons.to}.</p>
+<table>
+<caption>${esc(graph.countryName)} ${esc(GENDER_LABEL[graph.gender])} — players, tournaments entered, distinct partners and seasons active</caption>
+<thead><tr><th scope="col">Player</th><th scope="col">Tournaments</th><th scope="col">Partners</th><th scope="col">Seasons</th><th scope="col">Most frequent partner</th></tr></thead>
+<tbody>${rows}</tbody>
+</table>
+<nav aria-label="Other countries"><h2>Browse other countries</h2><ul>${nav}</ul></nav>
+</main>`;
+}
+
+/**
+ * `/llms.txt` — a plain-markdown briefing for language models, per llmstxt.org.
+ *
+ * The point is to answer the questions a model would otherwise get wrong by
+ * guessing: what the numbers mean, what is deliberately excluded, and where the
+ * raw JSON lives so it can be read directly instead of scraped out of HTML.
+ */
+export function llmsTxt(
+  manifest: Manifest,
+  slices: { name: string; gender: Gender; href: string }[],
+): string {
+  const tiers = Object.entries(manifest.tiers)
+    .sort((a, b) => b[1] - a[1])
+    .map(([tier, n]) => `- ${tier}: ${n.toLocaleString('en-US')} tournaments`)
+    .join('\n');
+
+  const pages = slices
+    .map((s) => `- [${s.name} ${GENDER_LABEL[s.gender]}](${abs(s.href)})`)
+    .join('\n');
+
+  return `# Beach Volleyball Partnership Graph
+
+> Who has played with whom in FIVB international beach volleyball. ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships drawn from ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments between ${manifest.seasons.from} and ${manifest.seasons.to}, sliced by country and gender. Source data is the official FIVB VIS Web Service; the whole dataset is rebuilt weekly.
+
+Data as of ${manifest.generatedAt}.
+
+## What is counted
+
+Only FIVB-organised international competition:
+
+${tiers}
+
+Continental tours and championships (CEV, AVC, NORCECA, CSV, CAVB), national
+tours, snow volleyball, multi-sport games and King of the Court are excluded.
+
+## How to read the numbers
+
+- A partnership edge is weighted by the number of distinct tournaments a pair entered together. A pair entering both the qualification and the main draw of one event counts once.
+- A player's tournament count is their own entries, not their partner count. Node size in the graph encodes this.
+- A player's country is their current FIVB federation. No federation history is kept.
+- Both players must represent the same federation for a partnership to appear, so cross-national pairs (about 1% of the total) are in no country's graph.
+- The dataset is dominated by one-off entrants: 53.8% of players have exactly one partner and 37.4% entered exactly one tournament. Restricted to players with 10 or more tournaments the mean is 5.3 partners. Use the "min. events together" filter, or the \`min\` query parameter, to exclude one-off pairings.
+
+## Data (JSON, prefer these over scraping the pages)
+
+- [Manifest](${abs(`${BASE}v1/manifest.json`)}): every published country, node and edge counts, tier breakdown, freshness.
+- [Graph file](${abs(`${BASE}v1/graphs/BRA-M.json`)}): \`/v1/graphs/{FEDERATION}-{M|W}.json\` — \`nodes\` (id, name, short, tournaments, first, last) and \`edges\` (\`a\`, \`b\` player ids, \`t\` tournaments together, \`f\`/\`l\` first and last season).
+- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight, active flag.
+
+Federation codes are FIVB three-letter codes (BRA, USA, GER), not ISO country codes.
+
+## Pages
+
+${pages}
+`;
+}
+
+async function main() {
+  if (!existsSync(DIST)) throw new Error('dist/ missing — run `vite build` first');
+  if (!existsSync(DATA)) throw new Error('web/public/v1 missing — run `npm run ingest` first');
+  if (SITE_URL.includes('example.invalid')) {
+    console.warn('  ! SITE_URL is unset; canonical URLs and the sitemap will be placeholders.');
+  }
+
+  const template = await readFile(path.join(DIST, 'index.html'), 'utf8');
+  const manifest: Manifest = JSON.parse(await readFile(path.join(DATA, 'manifest.json'), 'utf8'));
+
+  // Every published slice, in a stable order.
+  const slices: { code: string; name: string; gender: Gender; slug: string; href: string }[] = [];
+  for (const country of manifest.countries) {
+    for (const gender of GENDERS) {
+      if (!country.genders[gender]) continue;
+      const slug = sliceSlug(country.name, gender);
+      slices.push({ code: country.code, name: country.name, gender, slug, href: `${BASE}${slug}/` });
+    }
+  }
+
+  const clashes = new Map<string, number>();
+  for (const s of slices) clashes.set(s.slug, (clashes.get(s.slug) ?? 0) + 1);
+  const duplicated = [...clashes].filter(([, n]) => n > 1);
+  if (duplicated.length) {
+    throw new Error(`Slug collision would make pages unreachable: ${duplicated.map(([s]) => s).join(', ')}`);
+  }
+
+  const pages: Page[] = [];
+
+  // --- one page per slice --------------------------------------------------
+  for (const slice of slices) {
+    const graph: GraphFile = JSON.parse(
+      await readFile(path.join(DATA, 'graphs', `${slice.code}-${slice.gender}.json`), 'utf8'),
+    );
+    const url = abs(slice.href);
+    const label = GENDER_LABEL[slice.gender];
+    const title = `${slice.name} ${label} — Beach Volleyball Partnership Graph`;
+    const description = `Every ${label.toLowerCase()}'s beach volleyball player from ${slice.name} who has competed on the FIVB World Tour, Beach Pro Tour, World Championships or Olympic Games — ${graph.nodes.length} players and ${graph.edges.length} partnerships, ${manifest.seasons.from}–${manifest.seasons.to}.`;
+
+    // Sibling links: the other gender for this country, plus nearby countries,
+    // so every page is reachable from every other without the full 300-link list.
+    const others = [
+      ...slices.filter((s) => s.code === slice.code && s.gender !== slice.gender),
+      ...slices.filter((s) => s.code !== slice.code).slice(0, 24),
+    ].map((s) => ({ name: `${s.name} ${GENDER_LABEL[s.gender]}`, href: s.href }));
+
+    const top = [...graph.nodes].sort((a, b) => b.tournaments - a.tournaments).slice(0, JSONLD_MAX);
+    const head =
+      headFor(url, title, description) +
+      jsonLd({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'WebPage',
+            '@id': url,
+            url,
+            name: title,
+            description,
+            isPartOf: { '@id': abs(BASE) },
+            dateModified: manifest.generatedAt,
+          },
+          {
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: abs(BASE) },
+              { '@type': 'ListItem', position: 2, name: `${slice.name} ${label}`, item: url },
+            ],
+          },
+          {
+            '@type': 'ItemList',
+            name: `${slice.name} ${label} beach volleyball players`,
+            numberOfItems: graph.nodes.length,
+            itemListElement: top.map((n, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              item: {
+                '@type': 'Person',
+                name: n.name,
+                nationality: slice.name,
+                jobTitle: 'Beach volleyball player',
+              },
+            })),
+          },
+        ],
+      });
+
+    pages.push({
+      slug: slice.slug,
+      url: slice.href,
+      title,
+      description,
+      head,
+      body: sliceBody(graph, manifest, others),
+    });
+  }
+
+  // --- home page -----------------------------------------------------------
+  const homeUrl = abs(BASE);
+  const homeTitle = 'Beach Volleyball Partnership Graph — who has played with whom on the FIVB tour';
+  const homeDescription = `Explore ${manifest.totals.players.toLocaleString('en-US')} beach volleyball players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships from ${manifest.totals.tournaments.toLocaleString('en-US')} FIVB international tournaments, ${manifest.seasons.from}–${manifest.seasons.to}. Pick a country and gender to see the partnership graph.`;
+  const homeBody = `<main>
+<h1>Beach Volleyball Partnership Graph</h1>
+<p>${esc(homeDescription)}</p>
+<h2>Countries</h2>
+<ul>${slices.map((s) => `<li><a href="${esc(s.href)}">${esc(s.name)} ${esc(GENDER_LABEL[s.gender])}</a></li>`).join('')}</ul>
+</main>`;
+
+  pages.push({
+    slug: '',
+    url: BASE,
+    title: homeTitle,
+    description: homeDescription,
+    head:
+      headFor(homeUrl, homeTitle, homeDescription) +
+      jsonLd({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'WebSite',
+            '@id': homeUrl,
+            url: homeUrl,
+            name: 'Beach Volleyball Partnership Graph',
+            description: homeDescription,
+          },
+          {
+            '@type': 'Dataset',
+            name: 'FIVB international beach volleyball partnerships',
+            description: homeDescription,
+            url: homeUrl,
+            dateModified: manifest.generatedAt,
+            license: 'https://www.fivb.org/VisSDK/VisWebService/',
+            creator: { '@type': 'Organization', name: 'FIVB', url: 'https://www.fivb.com/' },
+            temporalCoverage: `${manifest.seasons.from}/${manifest.seasons.to}`,
+            keywords: ['beach volleyball', 'FIVB', 'Beach Pro Tour', 'partnerships', 'network graph'],
+          },
+        ],
+      }),
+    body: homeBody,
+  });
+
+  // --- write ---------------------------------------------------------------
+  for (const page of pages) {
+    let html = template;
+    html = html.replace('</head>', `${page.head}</head>`);
+    html = html.replace('<div id="root"></div>', `<div id="root">${page.body}</div>`);
+    // The static <title> in index.html is generic; each page overrides it.
+    html = html.replace(/<title>.*?<\/title>/, `<title>${esc(page.title)}</title>`);
+
+    const dir = page.slug ? path.join(DIST, page.slug) : DIST;
+    await mkdir(dir, { recursive: true });
+    await writeFile(path.join(dir, 'index.html'), html);
+  }
+
+  // --- sitemap & robots ----------------------------------------------------
+  const lastmod = manifest.generatedAt.slice(0, 10);
+  const urls = pages
+    .map(
+      (p) =>
+        `  <url><loc>${esc(abs(p.url))}</loc><lastmod>${lastmod}</lastmod>` +
+        `<changefreq>weekly</changefreq><priority>${p.slug ? '0.8' : '1.0'}</priority></url>`,
+    )
+    .join('\n');
+  await writeFile(
+    path.join(DIST, 'sitemap.xml'),
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+      `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
+  );
+
+  await writeFile(
+    path.join(DIST, 'robots.txt'),
+    `User-agent: *\nAllow: /\n\nSitemap: ${abs(`${BASE}sitemap.xml`)}\n`,
+  );
+
+  await writeFile(path.join(DIST, 'llms.txt'), llmsTxt(manifest, slices));
+
+  // Social preview image.
+  const screenshot = path.join(ROOT, 'docs/screenshot.png');
+  if (existsSync(screenshot)) await copyFile(screenshot, path.join(DIST, 'og.png'));
+
+  console.log(
+    `prerendered ${pages.length} pages (${slices.length} slices + home), sitemap.xml, robots.txt and llms.txt`,
+  );
+}
+
+// Only run when invoked as a script, so tests can import the helpers above.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error('Prerender failed:', err);
+    process.exit(1);
+  });
+}

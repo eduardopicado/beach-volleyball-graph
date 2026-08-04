@@ -1,0 +1,210 @@
+.player-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 18px;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.player-card header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 14px;
+  align-items: start;
+}
+
+.player-photo {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--series-1-wash);
+  border: 1px solid var(--border);
+}
+
+.player-photo.is-fallback {
+  display: grid;
+  place-items: center;
+  color: var(--series-1);
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+.player-card .who {
+  min-width: 0;
+}
+
+.player-card h2 {
+  margin: 0 0 2px;
+  font-size: 19px;
+  line-height: 1.25;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.player-card .country {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.player-card .badge {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--series-1-wash);
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.player-card .close {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.player-card .close:hover {
+  color: var(--text-primary);
+  background: var(--series-1-wash);
+}
+
+/* --- vitals -------------------------------------------------------------- */
+
+.vitals {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 10px;
+  padding: 14px 0;
+  border-top: 1px solid var(--gridline);
+  border-bottom: 1px solid var(--gridline);
+}
+
+.vitals dt {
+  color: var(--text-muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.vitals dd {
+  margin: 2px 0 0;
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* --- partners ------------------------------------------------------------ */
+
+.partners h3 {
+  margin: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.partners .count {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.partners ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  /* Grid items default to min-width:auto, so a long partner name would size the
+     column to its own min-content width and push the tally off the card. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.partners li button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.partners li button:hover {
+  background: var(--series-1-wash);
+}
+
+.partners .name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.partners .meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.partners .tally {
+  min-width: 26px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--series-1-wash);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.partners .span {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.partners .empty {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.profile-link {
+  align-self: flex-start;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
