@@ -1,0 +1,83 @@
+{
+  "country": "GUA",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101022,
+      "name": "Hugo Garcia",
+      "dob": "1973-08-21",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 101023,
+      "name": "Rene Vielman",
+      "dob": "1973-08-03",
+      "height": 180,
+      "weight": 73
+    },
+    {
+      "id": 120806,
+      "name": "Julio Anibal Recinos Ocaña",
+      "dob": "1988-03-08",
+      "height": 185,
+      "weight": 75
+    },
+    {
+      "id": 120892,
+      "name": "Andy Alexis Leonardo Blanco",
+      "dob": "1989-10-27",
+      "height": 193,
+      "weight": 90
+    },
+    {
+      "id": 121014,
+      "name": "Luis Augusto Garcia Betancourt",
+      "dob": "1991-01-15",
+      "height": 184,
+      "weight": 75
+    },
+    {
+      "id": 132565,
+      "name": "Axel Enrique Menendez Burgos",
+      "dob": "1993-06-29",
+      "height": 177,
+      "weight": 70
+    },
+    {
+      "id": 138329,
+      "name": "Mark David Andree Alvarez Marroquin",
+      "dob": "1996-03-09",
+      "height": 173,
+      "weight": 59
+    },
+    {
+      "id": 139726,
+      "name": "Luis Carlos Orellana Ramirez",
+      "dob": "1995-11-21",
+      "height": 180,
+      "weight": 75
+    },
+    {
+      "id": 140087,
+      "name": "Erik Gerardo Flores Diaz",
+      "dob": "1997-09-30",
+      "height": 181,
+      "weight": 74
+    },
+    {
+      "id": 217627,
+      "name": "Fredy Ronaldo Luna Vivas",
+      "dob": "2008-04-13",
+      "height": 175,
+      "weight": 78
+    },
+    {
+      "id": 217628,
+      "name": "Robin Jean Carlos Oliva Véliz",
+      "dob": "2008-06-21",
+      "height": 180,
+      "weight": 75
+    }
+  ]
+}

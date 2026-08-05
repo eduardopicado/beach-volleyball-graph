@@ -1,0 +1,2311 @@
+{
+  "generatedAt": "2026-08-05T16:10:06.766Z",
+  "sourceVersion": "113585",
+  "seasons": {
+    "from": 1987,
+    "to": 2026
+  },
+  "totals": {
+    "tournaments": 2163,
+    "players": 15622,
+    "partnerships": 18899
+  },
+  "tiers": {
+    "FIVB World Tour": 1517,
+    "Olympic Games": 22,
+    "World Championships": 30,
+    "Age-group World Championships": 88,
+    "Beach Pro Tour": 506
+  },
+  "countries": [
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "iso2": "DZ",
+      "genders": {
+        "M": {
+          "nodes": 13,
+          "edges": 9
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 5
+        }
+      }
+    },
+    {
+      "code": "ASA",
+      "name": "American Samoa",
+      "iso2": "AS",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "AND",
+      "name": "Andorra",
+      "iso2": "AD",
+      "genders": {
+        "M": {
+          "nodes": 7,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "ANG",
+      "name": "Angola",
+      "iso2": "AO",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 8
+        }
+      }
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "iso2": "AR",
+      "genders": {
+        "M": {
+          "nodes": 156,
+          "edges": 173
+        },
+        "W": {
+          "nodes": 57,
+          "edges": 50
+        }
+      }
+    },
+    {
+      "code": "ARU",
+      "name": "Aruba",
+      "iso2": "AW",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "iso2": "AU",
+      "genders": {
+        "M": {
+          "nodes": 236,
+          "edges": 316
+        },
+        "W": {
+          "nodes": 183,
+          "edges": 280
+        }
+      }
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "iso2": "AT",
+      "genders": {
+        "M": {
+          "nodes": 200,
+          "edges": 383
+        },
+        "W": {
+          "nodes": 183,
+          "edges": 241
+        }
+      }
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "iso2": "AZ",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 6
+        },
+        "W": {
+          "nodes": 11,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "BRN",
+      "name": "Bahrain",
+      "iso2": "BH",
+      "genders": {
+        "M": {
+          "nodes": 20,
+          "edges": 13
+        }
+      }
+    },
+    {
+      "code": "BAR",
+      "name": "Barbados",
+      "iso2": "BB",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "iso2": "BY",
+      "genders": {
+        "M": {
+          "nodes": 38,
+          "edges": 31
+        },
+        "W": {
+          "nodes": 12,
+          "edges": 9
+        }
+      }
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "iso2": "BE",
+      "genders": {
+        "M": {
+          "nodes": 110,
+          "edges": 119
+        },
+        "W": {
+          "nodes": 52,
+          "edges": 56
+        }
+      }
+    },
+    {
+      "code": "BEN",
+      "name": "Benin",
+      "iso2": "BJ",
+      "genders": {
+        "M": {
+          "nodes": 7,
+          "edges": 4
+        },
+        "W": {
+          "nodes": 8,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "BER",
+      "name": "Bermuda",
+      "iso2": "BM",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "BOL",
+      "name": "Bolivia",
+      "iso2": "BO",
+      "genders": {
+        "M": {
+          "nodes": 15,
+          "edges": 12
+        },
+        "W": {
+          "nodes": 18,
+          "edges": 11
+        }
+      }
+    },
+    {
+      "code": "BOT",
+      "name": "Botswana",
+      "iso2": "BW",
+      "genders": {
+        "M": {
+          "nodes": 5,
+          "edges": 3
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "iso2": "BR",
+      "genders": {
+        "M": {
+          "nodes": 269,
+          "edges": 513
+        },
+        "W": {
+          "nodes": 233,
+          "edges": 410
+        }
+      }
+    },
+    {
+      "code": "BUL",
+      "name": "Bulgaria",
+      "iso2": "BG",
+      "genders": {
+        "M": {
+          "nodes": 91,
+          "edges": 73
+        },
+        "W": {
+          "nodes": 46,
+          "edges": 53
+        }
+      }
+    },
+    {
+      "code": "BDI",
+      "name": "Burundi",
+      "iso2": "BI",
+      "genders": {
+        "M": {
+          "nodes": 20,
+          "edges": 15
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 11
+        }
+      }
+    },
+    {
+      "code": "CAM",
+      "name": "Cambodia",
+      "iso2": "KH",
+      "genders": {
+        "M": {
+          "nodes": 10,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 9,
+          "edges": 5
+        }
+      }
+    },
+    {
+      "code": "CMR",
+      "name": "Cameroon",
+      "iso2": "CM",
+      "genders": {
+        "M": {
+          "nodes": 25,
+          "edges": 24
+        },
+        "W": {
+          "nodes": 22,
+          "edges": 24
+        }
+      }
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "iso2": "CA",
+      "genders": {
+        "M": {
+          "nodes": 247,
+          "edges": 356
+        },
+        "W": {
+          "nodes": 269,
+          "edges": 370
+        }
+      }
+    },
+    {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "iso2": "CV",
+      "genders": {
+        "M": {
+          "nodes": 15,
+          "edges": 9
+        },
+        "W": {
+          "nodes": 12,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "CAY",
+      "name": "Cayman Islands",
+      "iso2": "KY",
+      "genders": {
+        "W": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "CAF",
+      "name": "Central African Republic",
+      "iso2": "CF",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "CHA",
+      "name": "Chad",
+      "iso2": "TD",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "CHI",
+      "name": "Chile",
+      "iso2": "CL",
+      "genders": {
+        "M": {
+          "nodes": 46,
+          "edges": 37
+        },
+        "W": {
+          "nodes": 36,
+          "edges": 34
+        }
+      }
+    },
+    {
+      "code": "CHN",
+      "name": "China",
+      "iso2": "CN",
+      "genders": {
+        "M": {
+          "nodes": 139,
+          "edges": 170
+        },
+        "W": {
+          "nodes": 170,
+          "edges": 245
+        }
+      }
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "iso2": "CO",
+      "genders": {
+        "M": {
+          "nodes": 21,
+          "edges": 14
+        },
+        "W": {
+          "nodes": 15,
+          "edges": 11
+        }
+      }
+    },
+    {
+      "code": "CGO",
+      "name": "Congo - Brazzaville",
+      "iso2": "CG",
+      "genders": {
+        "M": {
+          "nodes": 6,
+          "edges": 4
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "COD",
+      "name": "Congo - Kinshasa",
+      "iso2": "CD",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 7
+        }
+      }
+    },
+    {
+      "code": "COK",
+      "name": "Cook Islands",
+      "iso2": "CK",
+      "genders": {
+        "M": {
+          "nodes": 12,
+          "edges": 7
+        }
+      }
+    },
+    {
+      "code": "CRC",
+      "name": "Costa Rica",
+      "iso2": "CR",
+      "genders": {
+        "M": {
+          "nodes": 30,
+          "edges": 21
+        },
+        "W": {
+          "nodes": 36,
+          "edges": 23
+        }
+      }
+    },
+    {
+      "code": "CIV",
+      "name": "Côte d’Ivoire",
+      "iso2": "CI",
+      "genders": {
+        "M": {
+          "nodes": 12,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 9,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "iso2": "HR",
+      "genders": {
+        "M": {
+          "nodes": 102,
+          "edges": 87
+        },
+        "W": {
+          "nodes": 45,
+          "edges": 41
+        }
+      }
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "iso2": "CU",
+      "genders": {
+        "M": {
+          "nodes": 37,
+          "edges": 31
+        },
+        "W": {
+          "nodes": 31,
+          "edges": 25
+        }
+      }
+    },
+    {
+      "code": "AHO",
+      "name": "Curaçao",
+      "iso2": "AN",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "iso2": "CY",
+      "genders": {
+        "M": {
+          "nodes": 52,
+          "edges": 44
+        },
+        "W": {
+          "nodes": 29,
+          "edges": 27
+        }
+      }
+    },
+    {
+      "code": "CZE",
+      "name": "Czechia",
+      "iso2": "CZ",
+      "genders": {
+        "M": {
+          "nodes": 222,
+          "edges": 319
+        },
+        "W": {
+          "nodes": 195,
+          "edges": 261
+        }
+      }
+    },
+    {
+      "code": "DEN",
+      "name": "Denmark",
+      "iso2": "DK",
+      "genders": {
+        "M": {
+          "nodes": 63,
+          "edges": 82
+        },
+        "W": {
+          "nodes": 46,
+          "edges": 61
+        }
+      }
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "iso2": "DO",
+      "genders": {
+        "M": {
+          "nodes": 10,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "iso2": "EC",
+      "genders": {
+        "M": {
+          "nodes": 14,
+          "edges": 11
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 12
+        }
+      }
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "iso2": "EG",
+      "genders": {
+        "M": {
+          "nodes": 50,
+          "edges": 43
+        },
+        "W": {
+          "nodes": 36,
+          "edges": 35
+        }
+      }
+    },
+    {
+      "code": "ESA",
+      "name": "El Salvador",
+      "iso2": "SV",
+      "genders": {
+        "M": {
+          "nodes": 13,
+          "edges": 8
+        },
+        "W": {
+          "nodes": 11,
+          "edges": 7
+        }
+      }
+    },
+    {
+      "code": "ENG",
+      "name": "England",
+      "iso2": "GB",
+      "genders": {
+        "M": {
+          "nodes": 66,
+          "edges": 64
+        },
+        "W": {
+          "nodes": 44,
+          "edges": 49
+        }
+      }
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "iso2": "EE",
+      "genders": {
+        "M": {
+          "nodes": 84,
+          "edges": 82
+        },
+        "W": {
+          "nodes": 51,
+          "edges": 35
+        }
+      }
+    },
+    {
+      "code": "SWZ",
+      "name": "Eswatini",
+      "iso2": "SZ",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "FIJ",
+      "name": "Fiji",
+      "iso2": "FJ",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "iso2": "FI",
+      "genders": {
+        "M": {
+          "nodes": 75,
+          "edges": 77
+        },
+        "W": {
+          "nodes": 69,
+          "edges": 73
+        }
+      }
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "iso2": "FR",
+      "genders": {
+        "M": {
+          "nodes": 260,
+          "edges": 308
+        },
+        "W": {
+          "nodes": 212,
+          "edges": 242
+        }
+      }
+    },
+    {
+      "code": "PLY",
+      "name": "French Polynesia",
+      "iso2": "PF",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "GAB",
+      "name": "Gabon",
+      "iso2": "GA",
+      "genders": {
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "GAM",
+      "name": "Gambia",
+      "iso2": "GM",
+      "genders": {
+        "M": {
+          "nodes": 13,
+          "edges": 12
+        },
+        "W": {
+          "nodes": 9,
+          "edges": 5
+        }
+      }
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "iso2": "GE",
+      "genders": {
+        "M": {
+          "nodes": 5,
+          "edges": 3
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "iso2": "DE",
+      "genders": {
+        "M": {
+          "nodes": 316,
+          "edges": 480
+        },
+        "W": {
+          "nodes": 225,
+          "edges": 386
+        }
+      }
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "iso2": "GH",
+      "genders": {
+        "M": {
+          "nodes": 16,
+          "edges": 9
+        },
+        "W": {
+          "nodes": 8,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "GIB",
+      "name": "Gibraltar",
+      "iso2": "GI",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "GBR",
+      "name": "Great Britain",
+      "iso2": "GB",
+      "genders": {
+        "M": {
+          "nodes": 10,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 0
+        }
+      }
+    },
+    {
+      "code": "GRE",
+      "name": "Greece",
+      "iso2": "GR",
+      "genders": {
+        "M": {
+          "nodes": 113,
+          "edges": 116
+        },
+        "W": {
+          "nodes": 111,
+          "edges": 106
+        }
+      }
+    },
+    {
+      "code": "GDP",
+      "name": "Guadeloupe",
+      "iso2": "GP",
+      "genders": {
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "GUM",
+      "name": "Guam",
+      "iso2": "GU",
+      "genders": {
+        "W": {
+          "nodes": 20,
+          "edges": 11
+        }
+      }
+    },
+    {
+      "code": "GUA",
+      "name": "Guatemala",
+      "iso2": "GT",
+      "genders": {
+        "M": {
+          "nodes": 11,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 12,
+          "edges": 7
+        }
+      }
+    },
+    {
+      "code": "GUI",
+      "name": "Guinea",
+      "iso2": "GN",
+      "genders": {
+        "M": {
+          "nodes": 8,
+          "edges": 4
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "HON",
+      "name": "Honduras",
+      "iso2": "HN",
+      "genders": {
+        "M": {
+          "nodes": 5,
+          "edges": 3
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong SAR China",
+      "iso2": "HK",
+      "genders": {
+        "M": {
+          "nodes": 29,
+          "edges": 22
+        },
+        "W": {
+          "nodes": 40,
+          "edges": 25
+        }
+      }
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "iso2": "HU",
+      "genders": {
+        "M": {
+          "nodes": 107,
+          "edges": 116
+        },
+        "W": {
+          "nodes": 138,
+          "edges": 141
+        }
+      }
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "iso2": "IS",
+      "genders": {
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "iso2": "IN",
+      "genders": {
+        "M": {
+          "nodes": 47,
+          "edges": 27
+        },
+        "W": {
+          "nodes": 39,
+          "edges": 21
+        }
+      }
+    },
+    {
+      "code": "INA",
+      "name": "Indonesia",
+      "iso2": "ID",
+      "genders": {
+        "M": {
+          "nodes": 44,
+          "edges": 39
+        },
+        "W": {
+          "nodes": 57,
+          "edges": 51
+        }
+      }
+    },
+    {
+      "code": "IRI",
+      "name": "Iran",
+      "iso2": "IR",
+      "genders": {
+        "M": {
+          "nodes": 69,
+          "edges": 94
+        }
+      }
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "iso2": "IE",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "iso2": "IL",
+      "genders": {
+        "M": {
+          "nodes": 65,
+          "edges": 70
+        },
+        "W": {
+          "nodes": 47,
+          "edges": 53
+        }
+      }
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "iso2": "IT",
+      "genders": {
+        "M": {
+          "nodes": 437,
+          "edges": 601
+        },
+        "W": {
+          "nodes": 287,
+          "edges": 380
+        }
+      }
+    },
+    {
+      "code": "JAM",
+      "name": "Jamaica",
+      "iso2": "JM",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "iso2": "JP",
+      "genders": {
+        "M": {
+          "nodes": 145,
+          "edges": 246
+        },
+        "W": {
+          "nodes": 177,
+          "edges": 268
+        }
+      }
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "iso2": "KZ",
+      "genders": {
+        "M": {
+          "nodes": 57,
+          "edges": 69
+        },
+        "W": {
+          "nodes": 50,
+          "edges": 58
+        }
+      }
+    },
+    {
+      "code": "KEN",
+      "name": "Kenya",
+      "iso2": "KE",
+      "genders": {
+        "M": {
+          "nodes": 96,
+          "edges": 64
+        },
+        "W": {
+          "nodes": 57,
+          "edges": 41
+        }
+      }
+    },
+    {
+      "code": "KOS",
+      "name": "Kosovo",
+      "iso2": "XK",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "KUW",
+      "name": "Kuwait",
+      "iso2": "KW",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "iso2": "KG",
+      "genders": {
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "LAT",
+      "name": "Latvia",
+      "iso2": "LV",
+      "genders": {
+        "M": {
+          "nodes": 210,
+          "edges": 276
+        },
+        "W": {
+          "nodes": 119,
+          "edges": 131
+        }
+      }
+    },
+    {
+      "code": "LIB",
+      "name": "Lebanon",
+      "iso2": "LB",
+      "genders": {
+        "M": {
+          "nodes": 31,
+          "edges": 23
+        },
+        "W": {
+          "nodes": 5,
+          "edges": 3
+        }
+      }
+    },
+    {
+      "code": "LES",
+      "name": "Lesotho",
+      "iso2": "LS",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "iso2": "LI",
+      "genders": {
+        "M": {
+          "nodes": 7,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "iso2": "LT",
+      "genders": {
+        "M": {
+          "nodes": 112,
+          "edges": 104
+        },
+        "W": {
+          "nodes": 94,
+          "edges": 89
+        }
+      }
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "iso2": "LU",
+      "genders": {
+        "M": {
+          "nodes": 11,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "MAC",
+      "name": "Macao SAR China",
+      "iso2": "MO",
+      "genders": {
+        "M": {
+          "nodes": 8,
+          "edges": 4
+        },
+        "W": {
+          "nodes": 8,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "MAS",
+      "name": "Malaysia",
+      "iso2": "MY",
+      "genders": {
+        "M": {
+          "nodes": 49,
+          "edges": 34
+        },
+        "W": {
+          "nodes": 34,
+          "edges": 36
+        }
+      }
+    },
+    {
+      "code": "MDV",
+      "name": "Maldives",
+      "iso2": "MV",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "MLI",
+      "name": "Mali",
+      "iso2": "ML",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "iso2": "MT",
+      "genders": {
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "MRI",
+      "name": "Mauritius",
+      "iso2": "MU",
+      "genders": {
+        "M": {
+          "nodes": 19,
+          "edges": 11
+        },
+        "W": {
+          "nodes": 25,
+          "edges": 21
+        }
+      }
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "iso2": "MX",
+      "genders": {
+        "M": {
+          "nodes": 115,
+          "edges": 98
+        },
+        "W": {
+          "nodes": 131,
+          "edges": 135
+        }
+      }
+    },
+    {
+      "code": "MLD",
+      "name": "Moldova",
+      "iso2": "MD",
+      "genders": {
+        "M": {
+          "nodes": 30,
+          "edges": 22
+        },
+        "W": {
+          "nodes": 3,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "MON",
+      "name": "Monaco",
+      "iso2": "MC",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "iso2": "MA",
+      "genders": {
+        "M": {
+          "nodes": 63,
+          "edges": 50
+        },
+        "W": {
+          "nodes": 25,
+          "edges": 21
+        }
+      }
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "iso2": "MZ",
+      "genders": {
+        "M": {
+          "nodes": 39,
+          "edges": 37
+        },
+        "W": {
+          "nodes": 30,
+          "edges": 30
+        }
+      }
+    },
+    {
+      "code": "NAM",
+      "name": "Namibia",
+      "iso2": "NA",
+      "genders": {
+        "M": {
+          "nodes": 14,
+          "edges": 8
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 8
+        }
+      }
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "iso2": "NL",
+      "genders": {
+        "M": {
+          "nodes": 164,
+          "edges": 257
+        },
+        "W": {
+          "nodes": 167,
+          "edges": 281
+        }
+      }
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "iso2": "NZ",
+      "genders": {
+        "M": {
+          "nodes": 94,
+          "edges": 121
+        },
+        "W": {
+          "nodes": 92,
+          "edges": 99
+        }
+      }
+    },
+    {
+      "code": "NCA",
+      "name": "Nicaragua",
+      "iso2": "NI",
+      "genders": {
+        "M": {
+          "nodes": 11,
+          "edges": 11
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "NIG",
+      "name": "Niger",
+      "iso2": "NE",
+      "genders": {
+        "M": {
+          "nodes": 12,
+          "edges": 8
+        },
+        "W": {
+          "nodes": 8,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "NGR",
+      "name": "Nigeria",
+      "iso2": "NG",
+      "genders": {
+        "M": {
+          "nodes": 70,
+          "edges": 40
+        },
+        "W": {
+          "nodes": 32,
+          "edges": 22
+        }
+      }
+    },
+    {
+      "code": "MKD",
+      "name": "North Macedonia",
+      "iso2": "MK",
+      "genders": {
+        "M": {
+          "nodes": 5,
+          "edges": 3
+        }
+      }
+    },
+    {
+      "code": "NIR",
+      "name": "Northern Ireland",
+      "iso2": "GB",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "NMI",
+      "name": "Northern Mariana Islands",
+      "iso2": "MP",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "iso2": "NO",
+      "genders": {
+        "M": {
+          "nodes": 174,
+          "edges": 340
+        },
+        "W": {
+          "nodes": 129,
+          "edges": 173
+        }
+      }
+    },
+    {
+      "code": "OMA",
+      "name": "Oman",
+      "iso2": "OM",
+      "genders": {
+        "M": {
+          "nodes": 39,
+          "edges": 36
+        }
+      }
+    },
+    {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "iso2": "PG",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "iso2": "PY",
+      "genders": {
+        "M": {
+          "nodes": 22,
+          "edges": 17
+        },
+        "W": {
+          "nodes": 21,
+          "edges": 23
+        }
+      }
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "iso2": "PE",
+      "genders": {
+        "M": {
+          "nodes": 14,
+          "edges": 9
+        },
+        "W": {
+          "nodes": 22,
+          "edges": 12
+        }
+      }
+    },
+    {
+      "code": "PHI",
+      "name": "Philippines",
+      "iso2": "PH",
+      "genders": {
+        "M": {
+          "nodes": 27,
+          "edges": 30
+        },
+        "W": {
+          "nodes": 26,
+          "edges": 23
+        }
+      }
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "iso2": "PL",
+      "genders": {
+        "M": {
+          "nodes": 240,
+          "edges": 349
+        },
+        "W": {
+          "nodes": 165,
+          "edges": 253
+        }
+      }
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "iso2": "PT",
+      "genders": {
+        "M": {
+          "nodes": 179,
+          "edges": 152
+        },
+        "W": {
+          "nodes": 139,
+          "edges": 112
+        }
+      }
+    },
+    {
+      "code": "PUR",
+      "name": "Puerto Rico",
+      "iso2": "PR",
+      "genders": {
+        "M": {
+          "nodes": 70,
+          "edges": 64
+        },
+        "W": {
+          "nodes": 43,
+          "edges": 31
+        }
+      }
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "iso2": "QA",
+      "genders": {
+        "M": {
+          "nodes": 39,
+          "edges": 39
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 7
+        }
+      }
+    },
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "iso2": "RO",
+      "genders": {
+        "M": {
+          "nodes": 19,
+          "edges": 11
+        },
+        "W": {
+          "nodes": 21,
+          "edges": 19
+        }
+      }
+    },
+    {
+      "code": "RUS",
+      "name": "Russia",
+      "iso2": "RU",
+      "genders": {
+        "M": {
+          "nodes": 217,
+          "edges": 333
+        },
+        "W": {
+          "nodes": 149,
+          "edges": 200
+        }
+      }
+    },
+    {
+      "code": "RWA",
+      "name": "Rwanda",
+      "iso2": "RW",
+      "genders": {
+        "M": {
+          "nodes": 19,
+          "edges": 15
+        },
+        "W": {
+          "nodes": 17,
+          "edges": 14
+        }
+      }
+    },
+    {
+      "code": "SAM",
+      "name": "Samoa",
+      "iso2": "WS",
+      "genders": {
+        "M": {
+          "nodes": 6,
+          "edges": 3
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "SMR",
+      "name": "San Marino",
+      "iso2": "SM",
+      "genders": {
+        "M": {
+          "nodes": 24,
+          "edges": 15
+        },
+        "W": {
+          "nodes": 6,
+          "edges": 3
+        }
+      }
+    },
+    {
+      "code": "STP",
+      "name": "São Tomé & Príncipe",
+      "iso2": "ST",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "iso2": "SA",
+      "genders": {
+        "M": {
+          "nodes": 23,
+          "edges": 17
+        }
+      }
+    },
+    {
+      "code": "SCO",
+      "name": "Scotland",
+      "iso2": "GB",
+      "genders": {
+        "M": {
+          "nodes": 14,
+          "edges": 14
+        },
+        "W": {
+          "nodes": 6,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "iso2": "SN",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        },
+        "W": {
+          "nodes": 10,
+          "edges": 5
+        }
+      }
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "iso2": "RS",
+      "genders": {
+        "M": {
+          "nodes": 55,
+          "edges": 52
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 12
+        }
+      }
+    },
+    {
+      "code": "SLE",
+      "name": "Sierra Leone",
+      "iso2": "SL",
+      "genders": {
+        "M": {
+          "nodes": 12,
+          "edges": 9
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 12
+        }
+      }
+    },
+    {
+      "code": "SIN",
+      "name": "Singapore",
+      "iso2": "SG",
+      "genders": {
+        "M": {
+          "nodes": 16,
+          "edges": 14
+        },
+        "W": {
+          "nodes": 27,
+          "edges": 24
+        }
+      }
+    },
+    {
+      "code": "SVK",
+      "name": "Slovakia",
+      "iso2": "SK",
+      "genders": {
+        "M": {
+          "nodes": 67,
+          "edges": 69
+        },
+        "W": {
+          "nodes": 72,
+          "edges": 71
+        }
+      }
+    },
+    {
+      "code": "SLO",
+      "name": "Slovenia",
+      "iso2": "SI",
+      "genders": {
+        "M": {
+          "nodes": 75,
+          "edges": 78
+        },
+        "W": {
+          "nodes": 49,
+          "edges": 46
+        }
+      }
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "iso2": "ZA",
+      "genders": {
+        "M": {
+          "nodes": 154,
+          "edges": 172
+        },
+        "W": {
+          "nodes": 50,
+          "edges": 38
+        }
+      }
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "iso2": "KR",
+      "genders": {
+        "M": {
+          "nodes": 8,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 53,
+          "edges": 44
+        }
+      }
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "iso2": "ES",
+      "genders": {
+        "M": {
+          "nodes": 289,
+          "edges": 316
+        },
+        "W": {
+          "nodes": 228,
+          "edges": 263
+        }
+      }
+    },
+    {
+      "code": "SRI",
+      "name": "Sri Lanka",
+      "iso2": "LK",
+      "genders": {
+        "M": {
+          "nodes": 6,
+          "edges": 4
+        },
+        "W": {
+          "nodes": 7,
+          "edges": 6
+        }
+      }
+    },
+    {
+      "code": "SKN",
+      "name": "St. Kitts & Nevis",
+      "iso2": "KN",
+      "genders": {
+        "M": {
+          "nodes": 7,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "LCA",
+      "name": "St. Lucia",
+      "iso2": "LC",
+      "genders": {
+        "M": {
+          "nodes": 13,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 6,
+          "edges": 4
+        }
+      }
+    },
+    {
+      "code": "VIN",
+      "name": "St. Vincent & Grenadines",
+      "iso2": "VC",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "SUD",
+      "name": "Sudan",
+      "iso2": "SD",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        },
+        "W": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "iso2": "SE",
+      "genders": {
+        "M": {
+          "nodes": 140,
+          "edges": 148
+        },
+        "W": {
+          "nodes": 99,
+          "edges": 135
+        }
+      }
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "iso2": "CH",
+      "genders": {
+        "M": {
+          "nodes": 215,
+          "edges": 288
+        },
+        "W": {
+          "nodes": 176,
+          "edges": 266
+        }
+      }
+    },
+    {
+      "code": "SYR",
+      "name": "Syria",
+      "iso2": "SY",
+      "genders": {
+        "M": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "TPE",
+      "name": "Taiwan",
+      "iso2": "TW",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 8
+        },
+        "W": {
+          "nodes": 14,
+          "edges": 9
+        }
+      }
+    },
+    {
+      "code": "TAN",
+      "name": "Tanzania",
+      "iso2": "TZ",
+      "genders": {
+        "M": {
+          "nodes": 50,
+          "edges": 32
+        },
+        "W": {
+          "nodes": 40,
+          "edges": 21
+        }
+      }
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "iso2": "TH",
+      "genders": {
+        "M": {
+          "nodes": 59,
+          "edges": 78
+        },
+        "W": {
+          "nodes": 78,
+          "edges": 87
+        }
+      }
+    },
+    {
+      "code": "TOG",
+      "name": "Togo",
+      "iso2": "TG",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad & Tobago",
+      "iso2": "TT",
+      "genders": {
+        "M": {
+          "nodes": 24,
+          "edges": 13
+        },
+        "W": {
+          "nodes": 18,
+          "edges": 11
+        }
+      }
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "iso2": "TN",
+      "genders": {
+        "M": {
+          "nodes": 14,
+          "edges": 7
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "TUR",
+      "name": "Türkiye",
+      "iso2": "TR",
+      "genders": {
+        "M": {
+          "nodes": 109,
+          "edges": 104
+        },
+        "W": {
+          "nodes": 57,
+          "edges": 55
+        }
+      }
+    },
+    {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "iso2": "TM",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "TUV",
+      "name": "Tuvalu",
+      "iso2": "TV",
+      "genders": {
+        "M": {
+          "nodes": 7,
+          "edges": 6
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "ISV",
+      "name": "U.S. Virgin Islands",
+      "iso2": "VI",
+      "genders": {
+        "M": {
+          "nodes": 15,
+          "edges": 8
+        },
+        "W": {
+          "nodes": 5,
+          "edges": 3
+        }
+      }
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "iso2": "UG",
+      "genders": {
+        "M": {
+          "nodes": 10,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 6,
+          "edges": 3
+        }
+      }
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "iso2": "UA",
+      "genders": {
+        "M": {
+          "nodes": 146,
+          "edges": 134
+        },
+        "W": {
+          "nodes": 72,
+          "edges": 73
+        }
+      }
+    },
+    {
+      "code": "UAE",
+      "name": "United Arab Emirates",
+      "iso2": "AE",
+      "genders": {
+        "M": {
+          "nodes": 23,
+          "edges": 20
+        }
+      }
+    },
+    {
+      "code": "USA",
+      "name": "United States",
+      "iso2": "US",
+      "genders": {
+        "M": {
+          "nodes": 456,
+          "edges": 679
+        },
+        "W": {
+          "nodes": 485,
+          "edges": 802
+        }
+      }
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "iso2": "UY",
+      "genders": {
+        "M": {
+          "nodes": 36,
+          "edges": 30
+        },
+        "W": {
+          "nodes": 20,
+          "edges": 16
+        }
+      }
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "iso2": "UZ",
+      "genders": {
+        "M": {
+          "nodes": 3,
+          "edges": 2
+        },
+        "W": {
+          "nodes": 2,
+          "edges": 1
+        }
+      }
+    },
+    {
+      "code": "VAN",
+      "name": "Vanuatu",
+      "iso2": "VU",
+      "genders": {
+        "M": {
+          "nodes": 6,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 11,
+          "edges": 16
+        }
+      }
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "iso2": "VE",
+      "genders": {
+        "M": {
+          "nodes": 85,
+          "edges": 97
+        },
+        "W": {
+          "nodes": 57,
+          "edges": 48
+        }
+      }
+    },
+    {
+      "code": "VIE",
+      "name": "Vietnam",
+      "iso2": "VN",
+      "genders": {
+        "M": {
+          "nodes": 4,
+          "edges": 2
+        },
+        "W": {
+          "nodes": 27,
+          "edges": 17
+        }
+      }
+    },
+    {
+      "code": "WAL",
+      "name": "Wales",
+      "iso2": null,
+      "genders": {
+        "M": {
+          "nodes": 3,
+          "edges": 2
+        }
+      }
+    },
+    {
+      "code": "ZIM",
+      "name": "Zimbabwe",
+      "iso2": "ZW",
+      "genders": {
+        "M": {
+          "nodes": 9,
+          "edges": 5
+        },
+        "W": {
+          "nodes": 9,
+          "edges": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "country": "GRE",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101029,
+      "name": "Michalis Triantafillidis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101034,
+      "name": "Stylianos Kazazis",
+      "dob": "1958-03-31",
+      "height": 190,
+      "weight": 90
+    },
+    {
+      "id": 101390,
+      "name": "Evangelos \"Vagelis\" Koutouleas",
+      "dob": "1966-01-19",
+      "height": 192,
+      "weight": 89
+    },
+    {
+      "id": 101408,
+      "name": "Pavlos Danilescou",
+      "dob": "1968-01-20",
+      "height": 188,
+      "weight": 88
+    },
+    {
+      "id": 102403,
+      "name": "Panagiotis Dimitrakakos",
+      "dob": "1970-01-27",
+      "height": 187,
+      "weight": 82
+    },
+    {
+      "id": 102404,
+      "name": "Georgios \"Yorgos\" Giatsis",
+      "dob": "1968-06-22",
+      "height": 187,
+      "weight": 82
+    },
+    {
+      "id": 102405,
+      "name": "Ilias Arabatzis",
+      "dob": "1967-07-01",
+      "height": 191,
+      "weight": 86
+    },
+    {
+      "id": 102842,
+      "name": "Manolis \"Manos\" Roumeliotis",
+      "dob": "1968-04-16",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 102843,
+      "name": "Thanassis \"Thanos\" Michalopoulos",
+      "dob": "1973-09-29",
+      "height": 198,
+      "weight": 87
+    },
+    {
+      "id": 102885,
+      "name": "Dimitrios Kelepouris",
+      "dob": "1976-12-19",
+      "height": 200,
+      "weight": 91
+    },
+    {
+      "id": 102886,
+      "name": "Pavlos \"Beli\" Beligratis",
+      "dob": "1977-11-16",
+      "height": null,
+      "weight": 83
+    },
+    {
+      "id": 103054,
+      "name": "Vangelis Economou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103055,
+      "name": "Dimitris Kazazis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103070,
+      "name": "Michall Alexandropoulos",
+      "dob": "1972-01-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103071,
+      "name": "Panagiotis \"Takis\" Mavrakis",
+      "dob": "1970-01-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103072,
+      "name": "Christos Dimitrakopoulos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103073,
+      "name": "Efstathios Chandrinos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103074,
+      "name": "Victor Kouroupis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103075,
+      "name": "Ilias Zolastathiadis",
+      "dob": "1967-04-13",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 103076,
+      "name": "Stefanos Nanas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103077,
+      "name": "Dimitrios Nerantzis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103079,
+      "name": "Sofoklis Sofokleous",
+      "dob": "1982-01-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103098,
+      "name": "Nikolaos Polimerropoulos",
+      "dob": "1981-04-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103099,
+      "name": "Pantelinickos Tsakogias",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103285,
+      "name": "Thanassis \"Sakis\" Chatziantoniou",
+      "dob": "1971-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103338,
+      "name": "Georgios Batistatos",
+      "dob": "1975-07-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103500,
+      "name": "Giannis Haritonidis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103501,
+      "name": "Konstantinos Aggelidis",
+      "dob": "1973-03-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103502,
+      "name": "Andreas Gortsianiouk",
+      "dob": "1985-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103503,
+      "name": "Georgios Knapek",
+      "dob": "1982-10-25",
+      "height": 185,
+      "weight": 84
+    },
+    {
+      "id": 103504,
+      "name": "Georgios Nazopoulos",
+      "dob": "1981-01-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103932,
+      "name": "Konstantinos Tampouratzis",
+      "dob": "1983-09-03",
+      "height": 193,
+      "weight": 93
+    },
+    {
+      "id": 103933,
+      "name": "Nikolaos Giannakakos",
+      "dob": "1983-12-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104122,
+      "name": "Thodoris Papadimitriou",
+      "dob": "1985-01-09",
+      "height": 189,
+      "weight": 79
+    },
+    {
+      "id": 104123,
+      "name": "Ioannis Mamais",
+      "dob": "1985-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104124,
+      "name": "Emanouil Dimitriadis",
+      "dob": "1985-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104126,
+      "name": "Charlampos Papadopoulos",
+      "dob": "1987-10-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104180,
+      "name": "Grigoris Belitsos",
+      "dob": "1985-02-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104194,
+      "name": "Panagiotis Mourtzios",
+      "dob": "1980-05-05",
+      "height": 186,
+      "weight": 80
+    },
+    {
+      "id": 104273,
+      "name": "Spiros Karachalios",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104274,
+      "name": "Giannis Charitonidis",
+      "dob": "1978-11-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104275,
+      "name": "Emmanouil Xenakis",
+      "dob": "1978-08-11",
+      "height": 196,
+      "weight": 93
+    },
+    {
+      "id": 104276,
+      "name": "Athanasios Panousos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104277,
+      "name": "Petros Mylonas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104278,
+      "name": "Nikos Kostakopoulos",
+      "dob": "1974-07-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104279,
+      "name": "Panagiotis Fotopoulos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104384,
+      "name": "Dimitrios Niopas",
+      "dob": "1983-04-26",
+      "height": 192,
+      "weight": 88
+    },
+    {
+      "id": 104684,
+      "name": "Apostolos Armenakis",
+      "dob": "1980-07-19",
+      "height": 205,
+      "weight": 91
+    },
+    {
+      "id": 105028,
+      "name": "Pavlos Odysseas Kouzounis Boukogiannis",
+      "dob": "1987-08-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115481,
+      "name": "Georgios Koulieris",
+      "dob": "1975-11-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117118,
+      "name": "Georgios Petreas",
+      "dob": "1986-11-19",
+      "height": 201,
+      "weight": 92
+    },
+    {
+      "id": 118048,
+      "name": "Meletis Exadaktilos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118076,
+      "name": "Dimitrios Chalikos",
+      "dob": "1984-08-31",
+      "height": 184,
+      "weight": 70
+    },
+    {
+      "id": 118077,
+      "name": "Fernandos Billiris",
+      "dob": "1984-05-13",
+      "height": 190,
+      "weight": 82
+    },
+    {
+      "id": 118242,
+      "name": "Emmanouil Chnaris",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118243,
+      "name": "Athanasios Maroulis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118981,
+      "name": "Konstantinos Anagnou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118982,
+      "name": "Ioannis Stylianou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119252,
+      "name": "Christos Mavrokefalos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119253,
+      "name": "Alexandros Aristopoulos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119348,
+      "name": "Konstantinos Karpathakis",
+      "dob": "1988-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119349,
+      "name": "Anestis Dimitriadis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119350,
+      "name": "Georgios Kastrounis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119433,
+      "name": "Ioannis Roumeliotakis",
+      "dob": "1989-06-25",
+      "height": 188,
+      "weight": 81
+    },
+    {
+      "id": 122118,
+      "name": "Asterios Gkanas",
+      "dob": "1979-06-24",
+      "height": 195,
+      "weight": 92
+    },
+    {
+      "id": 122396,
+      "name": "Nikos Zoupani",
+      "dob": "1989-03-18",
+      "height": 202,
+      "weight": 85
+    },
+    {
+      "id": 122397,
+      "name": "Georgios Kotsilianos",
+      "dob": "1982-12-13",
+      "height": 198,
+      "weight": 85
+    },
+    {
+      "id": 122449,
+      "name": "Belos Christos",
+      "dob": "1980-06-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122452,
+      "name": "Michail Lamprinos",
+      "dob": "1990-04-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122771,
+      "name": "Polychroniadis Alexis",
+      "dob": "1988-07-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122772,
+      "name": "Vlachostathis Sotiris",
+      "dob": "1985-03-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124246,
+      "name": "Thomas Dimitriadis",
+      "dob": "1992-04-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124466,
+      "name": "Nikitas Efraimidis",
+      "dob": "1989-02-11",
+      "height": 192,
+      "weight": 80
+    },
+    {
+      "id": 132190,
+      "name": "Charalampos Sakoglou",
+      "dob": "1990-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132789,
+      "name": "Anestis Dimitriadis",
+      "dob": "1988-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 136885,
+      "name": "Menelaos Kokkinakis",
+      "dob": "1993-01-21",
+      "height": 193,
+      "weight": 79
+    },
+    {
+      "id": 139167,
+      "name": "Ioannis Kavaratzis",
+      "dob": "1994-07-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139168,
+      "name": "Grigorios Kontostathis",
+      "dob": "1994-12-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139526,
+      "name": "Vasileios Zisis",
+      "dob": "1995-11-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145467,
+      "name": "Vasileios Mandilaris",
+      "dob": "1996-02-15",
+      "height": null,
+      "weight": 87
+    },
+    {
+      "id": 146900,
+      "name": "Stefanos Giannelis",
+      "dob": "1995-05-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148442,
+      "name": "Dimitrios Chatzinikolaou",
+      "dob": "1999-07-16",
+      "height": 187,
+      "weight": 81
+    },
+    {
+      "id": 148444,
+      "name": "Iason Kanellos",
+      "dob": "1998-09-18",
+      "height": 188,
+      "weight": 80
+    },
+    {
+      "id": 148541,
+      "name": "Stylianos Kourtidis",
+      "dob": "1996-11-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153210,
+      "name": "Angelos Mandilaris",
+      "dob": "1998-11-07",
+      "height": 200,
+      "weight": 97
+    },
+    {
+      "id": 153961,
+      "name": "Alexios Messalas",
+      "dob": "1987-04-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157070,
+      "name": "Georgios Kantiotis",
+      "dob": "1990-07-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 158222,
+      "name": "Georgios Terzoglou",
+      "dob": "1995-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 158283,
+      "name": "Gavriil - Giannis Salit",
+      "dob": "1997-02-23",
+      "height": 191,
+      "weight": 83
+    },
+    {
+      "id": 158311,
+      "name": "Rafail Konstantinos Baniotis",
+      "dob": "1995-04-26",
+      "height": 182,
+      "weight": 77
+    },
+    {
+      "id": 163369,
+      "name": "Vasileios Kostopoulos",
+      "dob": "1995-02-16",
+      "height": 197,
+      "weight": 85
+    },
+    {
+      "id": 164252,
+      "name": "Panagiotis Ioannidis",
+      "dob": "1998-10-07",
+      "height": 193,
+      "weight": 85
+    },
+    {
+      "id": 165045,
+      "name": "Kola Antiol",
+      "dob": "2000-10-04",
+      "height": 188,
+      "weight": 72
+    },
+    {
+      "id": 165048,
+      "name": "Antiol Kola",
+      "dob": "2000-04-10",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 167337,
+      "name": "Konstantinos Staikos",
+      "dob": "1988-12-12",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 168457,
+      "name": "Stylianos Tzioumakas",
+      "dob": "1998-03-14",
+      "height": 193,
+      "weight": 80
+    },
+    {
+      "id": 169458,
+      "name": "Nikolaos Ntontis",
+      "dob": "1993-09-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 170536,
+      "name": "Alexandros Kourtidis",
+      "dob": "2002-03-13",
+      "height": 186,
+      "weight": 90
+    },
+    {
+      "id": 171332,
+      "name": "Danas Lampros",
+      "dob": "1985-05-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178503,
+      "name": "Stavros Ntallas",
+      "dob": "1997-10-28",
+      "height": 191,
+      "weight": 86
+    },
+    {
+      "id": 181604,
+      "name": "Triantafyllos Restemis",
+      "dob": "2002-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182282,
+      "name": "Ioannis Kardoulias",
+      "dob": "2005-04-12",
+      "height": 183,
+      "weight": 70
+    },
+    {
+      "id": 184832,
+      "name": "Panagiotis Vogiatzoglou",
+      "dob": "2001-07-06",
+      "height": 190,
+      "weight": 80
+    },
+    {
+      "id": 188833,
+      "name": "Christos Tsigaridas",
+      "dob": "2001-06-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188834,
+      "name": "Panagiotis Semitekolos Faoularas",
+      "dob": "2002-12-28",
+      "height": 183,
+      "weight": 76
+    },
+    {
+      "id": 188835,
+      "name": "Iakovos Kafouros",
+      "dob": "2002-05-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188868,
+      "name": "Dimitrios Kaliozis",
+      "dob": "2005-08-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190599,
+      "name": "George Kalianidis",
+      "dob": "1988-05-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190600,
+      "name": "Spyros Terzoglou",
+      "dob": "1998-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190878,
+      "name": "Konstantinos Venios",
+      "dob": "2005-11-01",
+      "height": 187,
+      "weight": 87
+    },
+    {
+      "id": 190879,
+      "name": "Antonios Karykas",
+      "dob": "2005-11-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 201645,
+      "name": "Spyros Kaloudis",
+      "dob": "2002-04-11",
+      "height": 184,
+      "weight": 78
+    },
+    {
+      "id": 201823,
+      "name": "Evangelos Sideris",
+      "dob": "2000-06-21",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "country": "BOL",
+  "countryName": "Bolivia",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100609,
+      "name": "Cynthia \"Fabiola\" Martinez",
+      "short": "Fabiola",
+      "tournaments": 2,
+      "first": 1994,
+      "last": 1998
+    },
+    {
+      "id": 100610,
+      "name": "Jacqueline \"Silvia\" Jimenez",
+      "short": "Silvia",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 102502,
+      "name": "Jessica Martinez",
+      "short": "Jessica",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 117564,
+      "name": "Faviola Flores Tapia",
+      "short": "Flores Tapia",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117565,
+      "name": "Claudia Pavisic Antezana",
+      "short": "Pavisic",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 142964,
+      "name": "Carla Valda",
+      "short": "Valda",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 146073,
+      "name": "Fernanda Maida Eterovic",
+      "short": "MAIDA",
+      "tournaments": 3,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 146759,
+      "name": "Melanie Vargas González",
+      "short": "Mela",
+      "tournaments": 4,
+      "first": 2014,
+      "last": 2019
+    },
+    {
+      "id": 161858,
+      "name": "Maria Fernanda Canedo",
+      "short": "Canedo",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 161859,
+      "name": "Nicole Alessandra Nogales",
+      "short": "Nicole",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167780,
+      "name": "Maria Isabel Chacon Espinoza",
+      "short": "Isa",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 171270,
+      "name": "Nicole Tovar",
+      "short": "TOVAR",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 171271,
+      "name": "Dayra Toranzos",
+      "short": "Dayra",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 178506,
+      "name": "Maria Jose Galindo Quiroga",
+      "short": "Galindo",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 182756,
+      "name": "Romina Martínez Castro",
+      "short": "Martínez",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 184864,
+      "name": "Mariel Torres",
+      "short": "Torres",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 188479,
+      "name": "Jeisy Velasquez",
+      "short": "Velasquez",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 195357,
+      "name": "Maria Belen Peredo Mayorga",
+      "short": "PEREDO",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 100609,
+      "b": 100610,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100609,
+      "b": 102502,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 117564,
+      "b": 117565,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 142964,
+      "b": 184864,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 146073,
+      "b": 146759,
+      "t": 3,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 146759,
+      "b": 161858,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 161858,
+      "b": 161859,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167780,
+      "b": 178506,
+      "t": 4,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 171270,
+      "b": 171271,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 171271,
+      "b": 195357,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 182756,
+      "b": 188479,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    }
+  ]
+}

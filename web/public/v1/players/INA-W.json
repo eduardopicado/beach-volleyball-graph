@@ -1,0 +1,405 @@
+{
+  "country": "INA",
+  "gender": "W",
+  "players": [
+    {
+      "id": 100511,
+      "name": "Yayah Rodiah",
+      "dob": "1967-08-16",
+      "height": 162,
+      "weight": 54
+    },
+    {
+      "id": 100512,
+      "name": "T. Wahyuni",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100633,
+      "name": "Engel Berta \"Eta\" Kaize",
+      "dob": "1974-07-05",
+      "height": 171,
+      "weight": 73
+    },
+    {
+      "id": 100634,
+      "name": "Ni Putu Timy Yudhani Rahayu",
+      "dob": "1976-12-11",
+      "height": 165,
+      "weight": 55
+    },
+    {
+      "id": 101011,
+      "name": "Agustina  \"Agustin\" Sineri",
+      "dob": "1970-07-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101012,
+      "name": "Siti Sri  \"Afah\" Khunafah",
+      "dob": "1969-07-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101013,
+      "name": "Siti \"Nung\" Nurjanah",
+      "dob": "1974-05-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101014,
+      "name": "Yohana Elisabeth \"Libeth\" Marawali",
+      "dob": "1974-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101015,
+      "name": "Trisiwi \"Sulis\" Susilowati",
+      "dob": "1969-11-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101658,
+      "name": "Darmi Sudarmi",
+      "dob": "1966-08-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101659,
+      "name": "Yuli Astutik",
+      "dob": "1979-07-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101660,
+      "name": "Erlina \"Eeng\" Veronica Ratih",
+      "dob": "1977-09-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101661,
+      "name": "Sandrina Like Kaliey",
+      "dob": "1979-07-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101662,
+      "name": "Emliati Nengsih",
+      "dob": "1974-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101663,
+      "name": "Hertin \"Titien\" Soewandi",
+      "dob": "1975-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101664,
+      "name": "Beatrix \"Betty\" Renyaan",
+      "dob": "1976-04-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101665,
+      "name": "Fransina \"Sien\" Une Putty",
+      "dob": "1973-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102362,
+      "name": "Risma Siswardini",
+      "dob": "1978-04-11",
+      "height": 170,
+      "weight": 65
+    },
+    {
+      "id": 103798,
+      "name": "Emerisa Trian Arisanti",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104525,
+      "name": "Ninik Nuraida",
+      "dob": "1989-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104526,
+      "name": "Minarni Minarni",
+      "dob": "1983-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104557,
+      "name": "Nemah Nemati",
+      "dob": "1973-09-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104558,
+      "name": "Reni Yusriani",
+      "dob": "1975-10-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104559,
+      "name": "Emliati Ninesim",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104560,
+      "name": "Hanida Burhkina",
+      "dob": "1982-09-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104562,
+      "name": "Neli Gm Fangidae",
+      "dob": "1982-06-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104563,
+      "name": "Herlina Linda",
+      "dob": "1986-01-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104564,
+      "name": "Iim Mukhodimah",
+      "dob": "1984-09-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104565,
+      "name": "Gina Indri Andriana",
+      "dob": "1989-11-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104566,
+      "name": "Susan Stevia",
+      "dob": "2003-09-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104569,
+      "name": "Eva Artaningsih Komang",
+      "dob": "1973-04-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104570,
+      "name": "Parwati Niluh",
+      "dob": "1975-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104571,
+      "name": "Bali Nursiyah",
+      "dob": "1974-06-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104572,
+      "name": "Ngardi Ni Nyoman",
+      "dob": "1969-09-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105169,
+      "name": "Devota Saveriana Rahawarin",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117511,
+      "name": "Ike Prasetya",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117532,
+      "name": "Henny Diliana",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118645,
+      "name": "Yokbeth Kapasiang",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118646,
+      "name": "Ayu Siam",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125620,
+      "name": "Fitri Wijayanti",
+      "dob": "1989-05-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125621,
+      "name": "Riris Irawati",
+      "dob": "1990-05-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125622,
+      "name": "Eva Sri Susilowati",
+      "dob": "1987-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135433,
+      "name": "Dhita Juliana",
+      "dob": "1993-07-07",
+      "height": 170,
+      "weight": 62
+    },
+    {
+      "id": 135473,
+      "name": "Putu Utami",
+      "dob": "1994-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143023,
+      "name": "Maria Dwiningtyas",
+      "dob": "1998-06-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143024,
+      "name": "Nanda Ragillia",
+      "dob": "1996-03-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148598,
+      "name": "Riski Dwi Andriani",
+      "dob": "1996-05-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150503,
+      "name": "Yokebed Eka",
+      "dob": "1996-07-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154422,
+      "name": "Desi Ratnasari",
+      "dob": "1997-12-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154804,
+      "name": "Martha Cisilia Rahawarin",
+      "dob": "1993-03-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161335,
+      "name": "Vitria Rahayu",
+      "dob": "2000-10-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161549,
+      "name": "Nur Sari",
+      "dob": "1998-02-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167236,
+      "name": "Ragil Ningtyas",
+      "dob": "2001-06-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 170251,
+      "name": "SARI HARTATI",
+      "dob": "1999-06-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172054,
+      "name": "Della Novitasari",
+      "dob": "1999-11-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200585,
+      "name": "Bernadetta Shella Herdanti",
+      "dob": "2002-10-30",
+      "height": 170,
+      "weight": 58
+    },
+    {
+      "id": 210048,
+      "name": "Josephine Selvina Anasthasya Kaize",
+      "dob": "2005-08-27",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

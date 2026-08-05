@@ -1,0 +1,97 @@
+{
+  "country": "ALG",
+  "gender": "M",
+  "players": [
+    {
+      "id": 139342,
+      "name": "Akram Dekkiche",
+      "dob": "1995-01-12",
+      "height": 196,
+      "weight": 77
+    },
+    {
+      "id": 139343,
+      "name": "Walid Ait Salem",
+      "dob": "1995-11-17",
+      "height": 191,
+      "weight": 84
+    },
+    {
+      "id": 150035,
+      "name": "Mohamed Hichame Benbouali",
+      "dob": "1993-05-18",
+      "height": null,
+      "weight": 72
+    },
+    {
+      "id": 153438,
+      "name": "Rabahi Djillali",
+      "dob": "1998-01-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153441,
+      "name": "Azibi Walid",
+      "dob": "1998-08-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156421,
+      "name": "Ayyoub Dekkiche",
+      "dob": "1990-04-09",
+      "height": 196,
+      "weight": 79
+    },
+    {
+      "id": 167814,
+      "name": "Hamadache Ayoub",
+      "dob": "2001-03-17",
+      "height": 195,
+      "weight": 72
+    },
+    {
+      "id": 167815,
+      "name": "Kallouche Mohamed-Islem",
+      "dob": "2001-04-11",
+      "height": 179,
+      "weight": 64
+    },
+    {
+      "id": 167816,
+      "name": "Omar Benfetima",
+      "dob": "2000-11-28",
+      "height": 191,
+      "weight": 79
+    },
+    {
+      "id": 167846,
+      "name": "Tizit Farouk",
+      "dob": "2000-01-13",
+      "height": 196,
+      "weight": 82
+    },
+    {
+      "id": 184367,
+      "name": "Touhami Hany",
+      "dob": "2003-12-08",
+      "height": 182,
+      "weight": 70
+    },
+    {
+      "id": 184443,
+      "name": "Abderaouf Boulfrakh",
+      "dob": "2002-04-27",
+      "height": 183,
+      "weight": 68
+    },
+    {
+      "id": 184463,
+      "name": "Kara Ali Mohamed Elamine",
+      "dob": "2003-07-07",
+      "height": 194,
+      "weight": 75
+    }
+  ]
+}

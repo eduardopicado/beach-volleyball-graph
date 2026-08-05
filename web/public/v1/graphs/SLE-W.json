@@ -1,0 +1,205 @@
+{
+  "country": "SLE",
+  "countryName": "Sierra Leone",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 135110,
+      "name": "Hawa Kargbo",
+      "short": "Kargbo",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 135845,
+      "name": "Francess Lansana",
+      "short": "Lansana",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 135848,
+      "name": "Hawa Kargbo",
+      "short": "Hawa",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 135849,
+      "name": "hawa kargbo",
+      "short": "hawa",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 136348,
+      "name": "Zainab Aminata Kamara",
+      "short": "Kamara",
+      "tournaments": 3,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 139500,
+      "name": "Josephine Sesay",
+      "short": "Sesay",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 143502,
+      "name": "Aminata Turay",
+      "short": "Turay",
+      "tournaments": 4,
+      "first": 2013,
+      "last": 2016
+    },
+    {
+      "id": 143503,
+      "name": "Hannah Sesay",
+      "short": "Sesay",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 145939,
+      "name": "kadiatu H Conteh",
+      "short": "Kadi",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146993,
+      "name": "Isatu M. W. Bah",
+      "short": "Isatu",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146994,
+      "name": "Fatmata Bah",
+      "short": "Fatmata Bah",
+      "tournaments": 3,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 157139,
+      "name": "Gladys Mabinty",
+      "short": "Mabinty",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 184614,
+      "name": "Conteh Bilkisu Zainab",
+      "short": "Bilkisu Zainab",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 184615,
+      "name": "Kamara Isatu",
+      "short": "Isatu",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 135110,
+      "b": 135845,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 135845,
+      "b": 135848,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 135845,
+      "b": 136348,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 135849,
+      "b": 139500,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 136348,
+      "b": 139500,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 136348,
+      "b": 143502,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 143502,
+      "b": 143503,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 143502,
+      "b": 145939,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 143502,
+      "b": 146994,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146993,
+      "b": 146994,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146994,
+      "b": 157139,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 184614,
+      "b": 184615,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}

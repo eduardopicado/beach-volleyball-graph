@@ -1,0 +1,123 @@
+{
+  "country": "CIV",
+  "countryName": "Côte d’Ivoire",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 134659,
+      "name": "Lahon Diane Laure Danon",
+      "short": "Danon",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 142108,
+      "name": "Kossia Audrey Fieny",
+      "short": "ASEC MIMOSAS",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2019
+    },
+    {
+      "id": 142109,
+      "name": "Penda Patricia Dieng",
+      "short": "Dieng",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 150291,
+      "name": "Loyo Alice Miessan",
+      "short": "Loyo Alice",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 150293,
+      "name": "Benedicte Sam",
+      "short": "STELLA CLUB D'ADJAME",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 163365,
+      "name": "Kouassi Ahou Diane Laetitia",
+      "short": "STELLA CLUB ADJAME",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2021
+    },
+    {
+      "id": 163368,
+      "name": "Bamba Aminata",
+      "short": "DESCARTES",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 226525,
+      "name": "AGOBIE NELLY ALESSA",
+      "short": "ALESSA",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226526,
+      "name": "ABI KONE",
+      "short": "KONE",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 134659,
+      "b": 163365,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 142108,
+      "b": 142109,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142108,
+      "b": 150291,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 142108,
+      "b": 163365,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 150293,
+      "b": 163368,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 226525,
+      "b": 226526,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

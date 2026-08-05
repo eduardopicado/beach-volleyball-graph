@@ -1,0 +1,32 @@
+{
+  "country": "AHO",
+  "countryName": "Curaçao",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102739,
+      "name": "Aegidio Juliana",
+      "short": "Juliana",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 102740,
+      "name": "Otmar Kalmez",
+      "short": "Kalmez",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    }
+  ],
+  "edges": [
+    {
+      "a": 102739,
+      "b": 102740,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    }
+  ]
+}

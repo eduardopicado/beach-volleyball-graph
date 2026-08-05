@@ -1,0 +1,948 @@
+{
+  "country": "KAZ",
+  "countryName": "Kazakhstan",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102597,
+      "name": "Oleg \"Oleg\" Aristarkhov",
+      "short": "Aristarkhov",
+      "tournaments": 4,
+      "first": 1999,
+      "last": 2001
+    },
+    {
+      "id": 102598,
+      "name": "Yevgeniy \"Zhenya\" Mashebin",
+      "short": "Mashebin",
+      "tournaments": 9,
+      "first": 1999,
+      "last": 2001
+    },
+    {
+      "id": 102599,
+      "name": "Denis \"Den\" Rovkin",
+      "short": "Rovkin",
+      "tournaments": 34,
+      "first": 1999,
+      "last": 2012
+    },
+    {
+      "id": 102600,
+      "name": "Andrey \"Dryulya\" Ryukhov",
+      "short": "Ryukhov",
+      "tournaments": 11,
+      "first": 1999,
+      "last": 2005
+    },
+    {
+      "id": 102888,
+      "name": "Dmitriy Vorobyev",
+      "short": "Vorobvev",
+      "tournaments": 43,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 102998,
+      "name": "Sergey \"Seryi\" Sinkevich",
+      "short": "\"Seryi\"",
+      "tournaments": 23,
+      "first": 2000,
+      "last": 2005
+    },
+    {
+      "id": 103350,
+      "name": "Pavel Zabuslayev",
+      "short": "Zabuslayev",
+      "tournaments": 62,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 104223,
+      "name": "Oleg Kisselev",
+      "short": "Kisselev",
+      "tournaments": 11,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104317,
+      "name": "Pavel Saulko",
+      "short": "Saulko",
+      "tournaments": 45,
+      "first": 2003,
+      "last": 2007
+    },
+    {
+      "id": 104644,
+      "name": "Vassiliy Kushtalov",
+      "short": "Kushtalov",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 104676,
+      "name": "Nikolay Yudakov",
+      "short": "Yudakov",
+      "tournaments": 10,
+      "first": 2005,
+      "last": 2008
+    },
+    {
+      "id": 104679,
+      "name": "Anton Pilipyuk",
+      "short": "Pilipyuk",
+      "tournaments": 4,
+      "first": 2005,
+      "last": 2011
+    },
+    {
+      "id": 104872,
+      "name": "Alexey Sidorenko",
+      "short": "Sidorenko",
+      "tournaments": 163,
+      "first": 2005,
+      "last": 2020
+    },
+    {
+      "id": 104876,
+      "name": "Sergey Sidorenko",
+      "short": "Sidorenko",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 113769,
+      "name": "Daniil Semeyev",
+      "short": "Semeyev",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 117867,
+      "name": "Alexandr Dyachenko",
+      "short": "Dyachenko",
+      "tournaments": 160,
+      "first": 2006,
+      "last": 2020
+    },
+    {
+      "id": 117868,
+      "name": "Alexey Kulinich",
+      "short": "Kulinich",
+      "tournaments": 67,
+      "first": 2006,
+      "last": 2010
+    },
+    {
+      "id": 118547,
+      "name": "Alexey Kuleshov",
+      "short": "Kuleshov",
+      "tournaments": 99,
+      "first": 2007,
+      "last": 2020
+    },
+    {
+      "id": 118553,
+      "name": "Yussupov Maxim",
+      "short": "Yussupov",
+      "tournaments": 5,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118554,
+      "name": "Novikov Zakhar",
+      "short": "Novikov",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118555,
+      "name": "Tkachenko Roman",
+      "short": "Tkachenko",
+      "tournaments": 5,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118556,
+      "name": "Babichev Alexandr",
+      "short": "Babichev",
+      "tournaments": 29,
+      "first": 2007,
+      "last": 2020
+    },
+    {
+      "id": 120441,
+      "name": "Sergey Shindov",
+      "short": "Shindov",
+      "tournaments": 7,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120454,
+      "name": "Dmitriy Yakovlev",
+      "short": "Yakovlev",
+      "tournaments": 127,
+      "first": 2005,
+      "last": 2026
+    },
+    {
+      "id": 120673,
+      "name": "Boris Kempa",
+      "short": "Kempa",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 122476,
+      "name": "Vladislav Pustynnikov",
+      "short": "Pustynnikov",
+      "tournaments": 30,
+      "first": 2009,
+      "last": 2015
+    },
+    {
+      "id": 122477,
+      "name": "Sergey Tsykunov",
+      "short": "Tsykunov",
+      "tournaments": 8,
+      "first": 2009,
+      "last": 2018
+    },
+    {
+      "id": 122478,
+      "name": "Sergey Bogatu",
+      "short": "Bogatu",
+      "tournaments": 53,
+      "first": 2009,
+      "last": 2026
+    },
+    {
+      "id": 122479,
+      "name": "Alexey Orlov",
+      "short": "Orlov",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2011
+    },
+    {
+      "id": 135221,
+      "name": "Sergey Kotenev",
+      "short": "Kotenev",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 135222,
+      "name": "Oleg Shulyak",
+      "short": "Shulyak",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 135223,
+      "name": "Nurlan Konilkos",
+      "short": "Konilkos",
+      "tournaments": 3,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 138617,
+      "name": "Maxim Samotoyev",
+      "short": "Samotoyev",
+      "tournaments": 3,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 138618,
+      "name": "Yegor Dmitriyev",
+      "short": "Dmitriyev",
+      "tournaments": 19,
+      "first": 2014,
+      "last": 2019
+    },
+    {
+      "id": 138619,
+      "name": "Serik Supagaliyev",
+      "short": "Supagaliyev",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2015
+    },
+    {
+      "id": 140369,
+      "name": "Kirill Gurin",
+      "short": "Gurin",
+      "tournaments": 13,
+      "first": 2013,
+      "last": 2026
+    },
+    {
+      "id": 140370,
+      "name": "Viktor Pestov",
+      "short": "Pestov",
+      "tournaments": 7,
+      "first": 2013,
+      "last": 2015
+    },
+    {
+      "id": 141500,
+      "name": "Pavel Aleinik",
+      "short": "Aleinik",
+      "tournaments": 9,
+      "first": 2016,
+      "last": 2020
+    },
+    {
+      "id": 141501,
+      "name": "Vitaliy Shulyak",
+      "short": "Shulyak",
+      "tournaments": 2,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 141504,
+      "name": "Artem Petrossyants",
+      "short": "Petrossyants",
+      "tournaments": 12,
+      "first": 2015,
+      "last": 2019
+    },
+    {
+      "id": 141505,
+      "name": "Sergey Polichshuk",
+      "short": "Polichshuk",
+      "tournaments": 3,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146161,
+      "name": "Alexandr Prichshepa",
+      "short": "Prichshepa",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 150287,
+      "name": "Abdulmajid Mokhammad",
+      "short": "Mokhammad",
+      "tournaments": 14,
+      "first": 2015,
+      "last": 2026
+    },
+    {
+      "id": 155608,
+      "name": "Nurdos Aldash",
+      "short": "Aldash",
+      "tournaments": 11,
+      "first": 2016,
+      "last": 2023
+    },
+    {
+      "id": 155609,
+      "name": "Ilya Chekurskov",
+      "short": "Chekurskov",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 155636,
+      "name": "Alimkhan Kushaliyev",
+      "short": "Kushaliyev",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 155640,
+      "name": "Yerlan Yelubayev",
+      "short": "Yelubayev",
+      "tournaments": 7,
+      "first": 2017,
+      "last": 2020
+    },
+    {
+      "id": 160895,
+      "name": "Andrey Belunin",
+      "short": "Belunin",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167715,
+      "name": "Artyom Rovkin",
+      "short": "Rovkin",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 178253,
+      "name": "Damir Lapov",
+      "short": "Lapov",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178255,
+      "name": "Darkhan Amanzholov",
+      "short": "Amanzholov",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 189820,
+      "name": "Ivailo Todorov",
+      "short": "Todorov",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 189823,
+      "name": "Klim Ryukhov",
+      "short": "Ryukhov",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 201799,
+      "name": "Vladislav Mastikhin",
+      "short": "Mastikhin",
+      "tournaments": 4,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 205048,
+      "name": "Nurboldy Kulboldyyev",
+      "short": "Kulboldyyev",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 217918,
+      "name": "Orazali Sagynysh",
+      "short": "Sagynysh",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 222594,
+      "name": "Alikhan Agabek",
+      "short": "Agabek",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 102597,
+      "b": 102598,
+      "t": 3,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102597,
+      "b": 102600,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102598,
+      "b": 102600,
+      "t": 5,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102598,
+      "b": 102998,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102599,
+      "b": 102600,
+      "t": 4,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102599,
+      "b": 102998,
+      "t": 8,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102599,
+      "b": 104317,
+      "t": 19,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 102599,
+      "b": 104872,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 102599,
+      "b": 113769,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 102599,
+      "b": 120454,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 102600,
+      "b": 120454,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102888,
+      "b": 102998,
+      "t": 5,
+      "f": 2000,
+      "l": 2004
+    },
+    {
+      "a": 102888,
+      "b": 103350,
+      "t": 38,
+      "f": 2001,
+      "l": 2006
+    },
+    {
+      "a": 102998,
+      "b": 104223,
+      "t": 9,
+      "f": 2003,
+      "l": 2005
+    },
+    {
+      "a": 103350,
+      "b": 104223,
+      "t": 2,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 103350,
+      "b": 104317,
+      "t": 3,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 103350,
+      "b": 104872,
+      "t": 19,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 104317,
+      "b": 104644,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104317,
+      "b": 104872,
+      "t": 21,
+      "f": 2005,
+      "l": 2006
+    },
+    {
+      "a": 104317,
+      "b": 104876,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104676,
+      "b": 104679,
+      "t": 3,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104676,
+      "b": 120441,
+      "t": 7,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 104679,
+      "b": 118556,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 104872,
+      "b": 117867,
+      "t": 105,
+      "f": 2009,
+      "l": 2020
+    },
+    {
+      "a": 104872,
+      "b": 120454,
+      "t": 18,
+      "f": 2008,
+      "l": 2015
+    },
+    {
+      "a": 117867,
+      "b": 117868,
+      "t": 53,
+      "f": 2006,
+      "l": 2009
+    },
+    {
+      "a": 117867,
+      "b": 122478,
+      "t": 2,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 117868,
+      "b": 120454,
+      "t": 14,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 118547,
+      "b": 118556,
+      "t": 20,
+      "f": 2007,
+      "l": 2018
+    },
+    {
+      "a": 118547,
+      "b": 120454,
+      "t": 75,
+      "f": 2011,
+      "l": 2017
+    },
+    {
+      "a": 118547,
+      "b": 141504,
+      "t": 6,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 118547,
+      "b": 155608,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 118547,
+      "b": 155640,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 118553,
+      "b": 118555,
+      "t": 5,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 118554,
+      "b": 118556,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118556,
+      "b": 138618,
+      "t": 3,
+      "f": 2017,
+      "l": 2019
+    },
+    {
+      "a": 118556,
+      "b": 138619,
+      "t": 2,
+      "f": 2012,
+      "l": 2015
+    },
+    {
+      "a": 118556,
+      "b": 141500,
+      "t": 2,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 120454,
+      "b": 122478,
+      "t": 17,
+      "f": 2015,
+      "l": 2023
+    },
+    {
+      "a": 120454,
+      "b": 150287,
+      "t": 3,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 122476,
+      "b": 122478,
+      "t": 30,
+      "f": 2009,
+      "l": 2015
+    },
+    {
+      "a": 122477,
+      "b": 122479,
+      "t": 3,
+      "f": 2009,
+      "l": 2011
+    },
+    {
+      "a": 122477,
+      "b": 138618,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 122477,
+      "b": 141500,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 122477,
+      "b": 141504,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 122478,
+      "b": 140369,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 122478,
+      "b": 146161,
+      "t": 2,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 135221,
+      "b": 135223,
+      "t": 2,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 135222,
+      "b": 135223,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 138617,
+      "b": 141500,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 138617,
+      "b": 141501,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 138618,
+      "b": 141500,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 138618,
+      "b": 141504,
+      "t": 7,
+      "f": 2015,
+      "l": 2019
+    },
+    {
+      "a": 138618,
+      "b": 141505,
+      "t": 3,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 138618,
+      "b": 155640,
+      "t": 6,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 140369,
+      "b": 140370,
+      "t": 7,
+      "f": 2013,
+      "l": 2015
+    },
+    {
+      "a": 140369,
+      "b": 150287,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 140369,
+      "b": 155608,
+      "t": 2,
+      "f": 2020,
+      "l": 2023
+    },
+    {
+      "a": 141500,
+      "b": 141504,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 141500,
+      "b": 155640,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146161,
+      "b": 150287,
+      "t": 2,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 150287,
+      "b": 155608,
+      "t": 8,
+      "f": 2016,
+      "l": 2019
+    },
+    {
+      "a": 155609,
+      "b": 167715,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 155636,
+      "b": 160895,
+      "t": 4,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 178253,
+      "b": 178255,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 189820,
+      "b": 189823,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 189823,
+      "b": 201799,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 201799,
+      "b": 205048,
+      "t": 2,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 217918,
+      "b": 222594,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

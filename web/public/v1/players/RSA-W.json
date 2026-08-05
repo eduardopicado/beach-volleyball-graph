@@ -1,0 +1,356 @@
+{
+  "country": "RSA",
+  "gender": "W",
+  "players": [
+    {
+      "id": 100539,
+      "name": "Beverley or Bev Gouws",
+      "dob": "1965-01-17",
+      "height": 175,
+      "weight": 59
+    },
+    {
+      "id": 100598,
+      "name": "Alena Schurkova",
+      "dob": "1967-02-28",
+      "height": 167,
+      "weight": 62
+    },
+    {
+      "id": 100599,
+      "name": "Anne Cecelia \"Tiger\" Siroky",
+      "dob": "1960-04-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100603,
+      "name": "Kathleen or Kathy Viantis",
+      "dob": "1965-06-22",
+      "height": 171,
+      "weight": 68
+    },
+    {
+      "id": 100694,
+      "name": "Rosemary or Rose \"The Bud\" Thompson",
+      "dob": "1968-12-20",
+      "height": 170,
+      "weight": 56
+    },
+    {
+      "id": 100968,
+      "name": "Christina Marion \"Chrisna\" Ashforth",
+      "dob": "1964-03-16",
+      "height": 179,
+      "weight": 62
+    },
+    {
+      "id": 100969,
+      "name": "Simone \"Mon\" Burgesmeier",
+      "dob": "1969-08-14",
+      "height": 170,
+      "weight": 67
+    },
+    {
+      "id": 100970,
+      "name": "Karen Leigh Francois",
+      "dob": "1968-09-15",
+      "height": 162,
+      "weight": 53
+    },
+    {
+      "id": 101010,
+      "name": "Michelle \"Mitch\" Perkins",
+      "dob": "1967-12-17",
+      "height": 178,
+      "weight": 63
+    },
+    {
+      "id": 102562,
+      "name": "Leigh-Ann Naidoo",
+      "dob": "1976-07-12",
+      "height": 181,
+      "weight": 72
+    },
+    {
+      "id": 104240,
+      "name": "Julia Willand",
+      "dob": "1972-06-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117657,
+      "name": "Vitalila Nel",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117659,
+      "name": "Zandi Erasmus",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117660,
+      "name": "Emma Wyngaard",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117661,
+      "name": "Karen van Huyssteen",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117662,
+      "name": "Natasha Louise Webber",
+      "dob": "1981-07-31",
+      "height": 170,
+      "weight": 59
+    },
+    {
+      "id": 117663,
+      "name": "Bonolo Rampomane",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117664,
+      "name": "Raycine Sunker",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117665,
+      "name": "Taryn Sunker",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117666,
+      "name": "Michelle Haskins",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117668,
+      "name": "Jillian Zealand",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117672,
+      "name": "Joanne Schaffers",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117673,
+      "name": "Jan Williams",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117676,
+      "name": "sthembile cele",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117677,
+      "name": "Candice Vardhan",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117678,
+      "name": "Frenchy Mathatho",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117679,
+      "name": "Shounese Billings",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117680,
+      "name": "Uniyt lushozi",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117681,
+      "name": "Elise Eland",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117682,
+      "name": "Anita Frederickson",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117711,
+      "name": "Deidre Daniels",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117712,
+      "name": "Charlotte Mdlesse",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117713,
+      "name": "Amelia Luyt",
+      "dob": "1978-07-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118747,
+      "name": "Judith Augoustides",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123445,
+      "name": "Palesa Sekhonyana",
+      "dob": "1986-09-03",
+      "height": 177,
+      "weight": 83
+    },
+    {
+      "id": 134989,
+      "name": "Randy Williams",
+      "dob": "1984-12-31",
+      "height": 167,
+      "weight": 67
+    },
+    {
+      "id": 139974,
+      "name": "Liezle Peterson",
+      "dob": "1996-01-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139975,
+      "name": "Christin Decalme",
+      "dob": "1994-12-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145167,
+      "name": "Kirsten Pocock",
+      "dob": "1971-01-15",
+      "height": 175,
+      "weight": 65
+    },
+    {
+      "id": 145169,
+      "name": "Sheana-Alice Abrahams",
+      "dob": "1984-10-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145407,
+      "name": "Judith Augoustides",
+      "dob": "1975-04-10",
+      "height": 187,
+      "weight": 76
+    },
+    {
+      "id": 145420,
+      "name": "Gadija Jappie",
+      "dob": "1974-04-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145429,
+      "name": "Anneta Frederiksen",
+      "dob": "1980-05-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147698,
+      "name": "Luciana Pierangeli",
+      "dob": "1980-05-27",
+      "height": 174,
+      "weight": 62
+    },
+    {
+      "id": 147699,
+      "name": "Simone Sittig",
+      "dob": "1981-03-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149770,
+      "name": "Nicola Wenhold",
+      "dob": "1981-05-26",
+      "height": 168,
+      "weight": null
+    },
+    {
+      "id": 161303,
+      "name": "Tamlyn Thomas",
+      "dob": "1997-10-06",
+      "height": null,
+      "weight": 55
+    },
+    {
+      "id": 161305,
+      "name": "Manana Mosia",
+      "dob": "1998-02-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187449,
+      "name": "Tatiana Simopoulos",
+      "dob": "2001-11-26",
+      "height": 178,
+      "weight": 61
+    },
+    {
+      "id": 187529,
+      "name": "Costandina Karina Kinsey",
+      "dob": "1983-01-20",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

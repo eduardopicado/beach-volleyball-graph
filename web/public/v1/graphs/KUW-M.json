@@ -1,0 +1,32 @@
+{
+  "country": "KUW",
+  "countryName": "Kuwait",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 103516,
+      "name": "Ahmad Abd El Razzak Ibrahim Sulaiman",
+      "short": "Ibrahim Sulaiman",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103517,
+      "name": "Amine Dashti",
+      "short": "Dashti",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    }
+  ],
+  "edges": [
+    {
+      "a": 103516,
+      "b": 103517,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    }
+  ]
+}

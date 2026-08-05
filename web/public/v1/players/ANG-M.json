@@ -1,0 +1,69 @@
+{
+  "country": "ANG",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101297,
+      "name": "Nelson Pereira",
+      "dob": "1969-05-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101298,
+      "name": "Luis \"Pascoalito\" Manuel",
+      "dob": "1971-01-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101299,
+      "name": "Custodio Ramalho",
+      "dob": "1971-09-01",
+      "height": 194,
+      "weight": 88
+    },
+    {
+      "id": 101300,
+      "name": "Emanuel Fernandes",
+      "dob": "1967-07-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101301,
+      "name": "Mario Makili",
+      "dob": "1965-09-07",
+      "height": 185,
+      "weight": 75
+    },
+    {
+      "id": 101558,
+      "name": "Bastos Hernani",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104191,
+      "name": "Miguel Xisto",
+      "dob": "1964-04-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104209,
+      "name": "Mario Silva",
+      "dob": "1980-06-23",
+      "height": 193,
+      "weight": 91
+    },
+    {
+      "id": 118532,
+      "name": "Morais Abreu",
+      "dob": "1968-07-10",
+      "height": 183,
+      "weight": 85
+    }
+  ]
+}

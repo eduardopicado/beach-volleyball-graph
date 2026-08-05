@@ -1,0 +1,138 @@
+{
+  "country": "GBR",
+  "countryName": "Great Britain",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 118585,
+      "name": "Luke Sheaf",
+      "short": "Sheaf",
+      "tournaments": 25,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 118586,
+      "name": "Jake Sheaf",
+      "short": "Sheaf",
+      "tournaments": 15,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 118718,
+      "name": "Imornefe Bowes",
+      "short": "Bowes",
+      "tournaments": 10,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118936,
+      "name": "Barry McGuigan",
+      "short": "McGuigan",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 120535,
+      "name": "Tom Lord",
+      "short": "Lord",
+      "tournaments": 35,
+      "first": 2008,
+      "last": 2012
+    },
+    {
+      "id": 120922,
+      "name": "Josh Randall",
+      "short": "Randall",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120923,
+      "name": "Adam Smith",
+      "short": "Smth",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 124005,
+      "name": "John Garcia-Thompson",
+      "short": "Garcia-Thompson",
+      "tournaments": 27,
+      "first": 2009,
+      "last": 2012
+    },
+    {
+      "id": 125531,
+      "name": "Seain Cook",
+      "short": "Cook",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125535,
+      "name": "Patrick Crooks",
+      "short": "Crooks",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    }
+  ],
+  "edges": [
+    {
+      "a": 118585,
+      "b": 118586,
+      "t": 9,
+      "f": 2007,
+      "l": 2011
+    },
+    {
+      "a": 118585,
+      "b": 118718,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118586,
+      "b": 118936,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118586,
+      "b": 120535,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118586,
+      "b": 120922,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 120922,
+      "b": 120923,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120923,
+      "b": 125531,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    }
+  ]
+}

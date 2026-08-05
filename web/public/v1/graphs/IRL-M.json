@@ -1,0 +1,32 @@
+{
+  "country": "IRL",
+  "countryName": "Ireland",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102041,
+      "name": "Robert 'Booh' Brennan",
+      "short": "Brennan",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102130,
+      "name": "Rondeau Flynn",
+      "short": "Flynn",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 1998
+    }
+  ],
+  "edges": [
+    {
+      "a": 102041,
+      "b": 102130,
+      "t": 2,
+      "f": 1998,
+      "l": 1998
+    }
+  ]
+}

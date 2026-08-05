@@ -1,0 +1,124 @@
+{
+  "country": "CAM",
+  "countryName": "Cambodia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 149055,
+      "name": "Khlork Sim",
+      "short": "Sim",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 149712,
+      "name": "Samith Sam",
+      "short": "Sam",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 167750,
+      "name": "Set Davin",
+      "short": "Davin",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 167751,
+      "name": "Tat Phavin",
+      "short": "Phavin",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 172037,
+      "name": "Phoun Borey",
+      "short": "Borey",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172038,
+      "name": "Sea Kosal",
+      "short": "Kosal",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172046,
+      "name": "ON Soknak",
+      "short": "Soknak",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172047,
+      "name": "JON Vichetdararith",
+      "short": "Vichetdararith",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 177861,
+      "name": "Mathaly In",
+      "short": "Mathaly",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 177863,
+      "name": "Saorith Von",
+      "short": "Saorith",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    }
+  ],
+  "edges": [
+    {
+      "a": 149055,
+      "b": 149712,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 167750,
+      "b": 167751,
+      "t": 2,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 172037,
+      "b": 172038,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 172046,
+      "b": 172047,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 177861,
+      "b": 177863,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    }
+  ]
+}

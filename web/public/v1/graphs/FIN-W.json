@@ -1,0 +1,1072 @@
+{
+  "country": "FIN",
+  "countryName": "Finland",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 103671,
+      "name": "Emilia Nyström",
+      "short": "Nyström Em.",
+      "tournaments": 205,
+      "first": 2001,
+      "last": 2015
+    },
+    {
+      "id": 104284,
+      "name": "Saila Huhtiranta",
+      "short": "Huhtiranta",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104285,
+      "name": "Saara Loikkanen",
+      "short": "Loikkanen",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104781,
+      "name": "Taru Lahti-Liukkonen",
+      "short": "Lahti",
+      "tournaments": 173,
+      "first": 2006,
+      "last": 2025
+    },
+    {
+      "id": 104855,
+      "name": "Nora Isomaki",
+      "short": "Isomaki",
+      "tournaments": 4,
+      "first": 2004,
+      "last": 2011
+    },
+    {
+      "id": 104856,
+      "name": "Kirsi Hyttinen",
+      "short": "Hyttinen",
+      "tournaments": 9,
+      "first": 2004,
+      "last": 2013
+    },
+    {
+      "id": 114627,
+      "name": "Riikka Lehtonen",
+      "short": "Lehtonen",
+      "tournaments": 95,
+      "first": 2005,
+      "last": 2021
+    },
+    {
+      "id": 114633,
+      "name": "Hanna-Mari Arminen",
+      "short": "Arminen",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 114635,
+      "name": "Elina Nousiainen",
+      "short": "Nousiainen",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 115001,
+      "name": "Annika Hurtamo",
+      "short": "Hurtamo",
+      "tournaments": 3,
+      "first": 2005,
+      "last": 2006
+    },
+    {
+      "id": 116335,
+      "name": "Katri Korpisaari",
+      "short": "Korpisaari",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2009
+    },
+    {
+      "id": 116336,
+      "name": "Taru Pokki",
+      "short": "Pokki",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 118125,
+      "name": "Annikki Laine",
+      "short": "Laine",
+      "tournaments": 2,
+      "first": 2006,
+      "last": 2007
+    },
+    {
+      "id": 118126,
+      "name": "Tia Pråhl",
+      "short": "Pråhl",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118129,
+      "name": "Jennamiia Ripatti",
+      "short": "Ripatti",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 118209,
+      "name": "Essi Hasu",
+      "short": "Hasu",
+      "tournaments": 5,
+      "first": 2006,
+      "last": 2016
+    },
+    {
+      "id": 118210,
+      "name": "Noora Tikka",
+      "short": "Tikka",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 119104,
+      "name": "Milla Tikkanen",
+      "short": "Tikkanen",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 119431,
+      "name": "Tanja Eteläaho",
+      "short": "Eteläaho",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119988,
+      "name": "Laura Lahtela",
+      "short": "Lahtela",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 121694,
+      "name": "Nette Tuominen",
+      "short": "Tuominen",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 122834,
+      "name": "Eveliina Koljonen",
+      "short": "Koljonen",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 122835,
+      "name": "Taija Pekkarinen",
+      "short": "Pekkarinen",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 124629,
+      "name": "Merja Korhonen",
+      "short": "Korhonen",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 125061,
+      "name": "Paulina Heikura",
+      "short": "Heikura",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 132109,
+      "name": "Pauliina Vilponen",
+      "short": "Vilponen",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132778,
+      "name": "Kaisa Alanko",
+      "short": "Alanko",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 132779,
+      "name": "Marika Niemi",
+      "short": "Niemi",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 132788,
+      "name": "Riikka Arminen",
+      "short": "Arminen",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132820,
+      "name": "Oskar Söderlund",
+      "short": "Söderlund",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132821,
+      "name": "Verneri Vetriö",
+      "short": "Vetriö",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 137416,
+      "name": "Anniina Parkkinen",
+      "short": "Parkkinen",
+      "tournaments": 114,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 139287,
+      "name": "Henna Pollari",
+      "short": "Pollari",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139764,
+      "name": "Niina Ahtiainen",
+      "short": "Ahtiainen",
+      "tournaments": 124,
+      "first": 2012,
+      "last": 2025
+    },
+    {
+      "id": 139765,
+      "name": "Ida Sinisalo",
+      "short": "Sinisalo, I.",
+      "tournaments": 58,
+      "first": 2012,
+      "last": 2026
+    },
+    {
+      "id": 140406,
+      "name": "Saana Koljonen",
+      "short": "Koljonen",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 155096,
+      "name": "Oona-Maria Ojala",
+      "short": "Ojala",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 158105,
+      "name": "Sara Tiihonen",
+      "short": "Tiihonen",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 159972,
+      "name": "Aliisa Vuorinen",
+      "short": "Vuorinen",
+      "tournaments": 22,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 164526,
+      "name": "Valma Vilhelmiina Prihti",
+      "short": "Prihti",
+      "tournaments": 57,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 165641,
+      "name": "Emma Tenhunen",
+      "short": "Tenhunen",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 169504,
+      "name": "Katja Metsäkoivu",
+      "short": "Metsäkoivu K.",
+      "tournaments": 30,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 169505,
+      "name": "Tuuli Metsäkoivu",
+      "short": "Metsäkoivu T.",
+      "tournaments": 48,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 169604,
+      "name": "Mira Järveläinen",
+      "short": "Järveläinen",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 173488,
+      "name": "Sara Sinisalo",
+      "short": "Sinisalo, S.",
+      "tournaments": 87,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 173496,
+      "name": "Anniina Muukka",
+      "short": "Muukka",
+      "tournaments": 53,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 173839,
+      "name": "Anna Rantala",
+      "short": "Rantala",
+      "tournaments": 31,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 179441,
+      "name": "Sofia Mäkitalo",
+      "short": "Mäkitalo",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 182213,
+      "name": "Linnea Hautala",
+      "short": "Hautala",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 182674,
+      "name": "Pinja Jokela",
+      "short": "Jokela",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 185534,
+      "name": "Ester Hirvonen",
+      "short": "Hirvonen",
+      "tournaments": 19,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 185535,
+      "name": "Peppiina Mäenpää",
+      "short": "Mäenpää",
+      "tournaments": 14,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 191058,
+      "name": "Venla Väärälä",
+      "short": "Väärälä",
+      "tournaments": 10,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 198053,
+      "name": "Milja Henriksson",
+      "short": "Henriksson",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 200346,
+      "name": "Elina Pirttimäki",
+      "short": "Pirttimäki",
+      "tournaments": 22,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 200792,
+      "name": "Kirsi Aaltola",
+      "short": "AALTOLA",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 201032,
+      "name": "Ida-Maria Mämmi",
+      "short": "Mämmi",
+      "tournaments": 6,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 201254,
+      "name": "Essi Nirhamo",
+      "short": "Nirhamo",
+      "tournaments": 9,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 201444,
+      "name": "Maragda Calsapeu Casagrande",
+      "short": "Casagrande",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 201445,
+      "name": "Noora Huhtala",
+      "short": "Huhtala",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 201500,
+      "name": "Annika Waris",
+      "short": "Waris",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 206059,
+      "name": "Eeva Johansson",
+      "short": "Johansson",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 206313,
+      "name": "Anni Viitala",
+      "short": "Viitala",
+      "tournaments": 6,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 211367,
+      "name": "Sara Tuominen",
+      "short": "Tuominen",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 211507,
+      "name": "Jutta Tavaila",
+      "short": "Tavaila",
+      "tournaments": 6,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 222523,
+      "name": "Sanni Määttä",
+      "short": "Määttä",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 223138,
+      "name": "Anna Laaksonen",
+      "short": "Laaksonen",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 223144,
+      "name": "Maisa Kyröläinen",
+      "short": "Kyröläinen",
+      "tournaments": 8,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 223145,
+      "name": "Nelli Waldén",
+      "short": "Waldén",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 103671,
+      "b": 104781,
+      "t": 2,
+      "f": 2012,
+      "l": 2013
+    },
+    {
+      "a": 104284,
+      "b": 104285,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104284,
+      "b": 104856,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104781,
+      "b": 104856,
+      "t": 2,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 104781,
+      "b": 114627,
+      "t": 53,
+      "f": 2011,
+      "l": 2017
+    },
+    {
+      "a": 104781,
+      "b": 118129,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104781,
+      "b": 132109,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104781,
+      "b": 137416,
+      "t": 43,
+      "f": 2014,
+      "l": 2022
+    },
+    {
+      "a": 104781,
+      "b": 139764,
+      "t": 72,
+      "f": 2022,
+      "l": 2025
+    },
+    {
+      "a": 104855,
+      "b": 104856,
+      "t": 2,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104855,
+      "b": 119988,
+      "t": 2,
+      "f": 2010,
+      "l": 2011
+    },
+    {
+      "a": 104856,
+      "b": 114635,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 104856,
+      "b": 124629,
+      "t": 3,
+      "f": 2009,
+      "l": 2010
+    },
+    {
+      "a": 114627,
+      "b": 115001,
+      "t": 3,
+      "f": 2005,
+      "l": 2006
+    },
+    {
+      "a": 114627,
+      "b": 119431,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 114627,
+      "b": 137416,
+      "t": 2,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 114627,
+      "b": 139764,
+      "t": 36,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 114633,
+      "b": 132788,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 116335,
+      "b": 116336,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 116335,
+      "b": 125061,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118125,
+      "b": 118126,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118125,
+      "b": 119988,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118129,
+      "b": 119104,
+      "t": 2,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 118209,
+      "b": 118210,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118209,
+      "b": 137416,
+      "t": 3,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 118209,
+      "b": 139287,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 121694,
+      "b": 139765,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 122834,
+      "b": 122835,
+      "t": 3,
+      "f": 2009,
+      "l": 2010
+    },
+    {
+      "a": 132778,
+      "b": 132779,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 132820,
+      "b": 132821,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 137416,
+      "b": 139764,
+      "t": 7,
+      "f": 2017,
+      "l": 2022
+    },
+    {
+      "a": 137416,
+      "b": 139765,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 137416,
+      "b": 164526,
+      "t": 41,
+      "f": 2021,
+      "l": 2026
+    },
+    {
+      "a": 137416,
+      "b": 173488,
+      "t": 18,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 139764,
+      "b": 139765,
+      "t": 9,
+      "f": 2012,
+      "l": 2017
+    },
+    {
+      "a": 139765,
+      "b": 173488,
+      "t": 39,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 139765,
+      "b": 173839,
+      "t": 8,
+      "f": 2019,
+      "l": 2021
+    },
+    {
+      "a": 139765,
+      "b": 201032,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 155096,
+      "b": 165641,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 155096,
+      "b": 182213,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 158105,
+      "b": 201500,
+      "t": 7,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 159972,
+      "b": 164526,
+      "t": 16,
+      "f": 2018,
+      "l": 2023
+    },
+    {
+      "a": 159972,
+      "b": 211507,
+      "t": 6,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 169504,
+      "b": 169505,
+      "t": 30,
+      "f": 2019,
+      "l": 2023
+    },
+    {
+      "a": 169505,
+      "b": 200346,
+      "t": 18,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 169604,
+      "b": 191058,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 173488,
+      "b": 173496,
+      "t": 23,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 173488,
+      "b": 182674,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 173488,
+      "b": 185534,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 173488,
+      "b": 223144,
+      "t": 6,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 173496,
+      "b": 173839,
+      "t": 20,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 173496,
+      "b": 185534,
+      "t": 8,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 173496,
+      "b": 185535,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 173496,
+      "b": 200346,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 173839,
+      "b": 201254,
+      "t": 3,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 179441,
+      "b": 182213,
+      "t": 2,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 185534,
+      "b": 185535,
+      "t": 10,
+      "f": 2022,
+      "l": 2025
+    },
+    {
+      "a": 185534,
+      "b": 198053,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 185535,
+      "b": 191058,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 185535,
+      "b": 206059,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 191058,
+      "b": 201032,
+      "t": 3,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 191058,
+      "b": 201445,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 198053,
+      "b": 211367,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 200346,
+      "b": 200792,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 200346,
+      "b": 201254,
+      "t": 3,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 200792,
+      "b": 201032,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 201032,
+      "b": 201444,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 201254,
+      "b": 206313,
+      "t": 4,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 201444,
+      "b": 206059,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 206313,
+      "b": 222523,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 223138,
+      "b": 223144,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 223138,
+      "b": 223145,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 223144,
+      "b": 223145,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

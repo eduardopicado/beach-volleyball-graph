@@ -1,0 +1,116 @@
+{
+  "country": "ZIM",
+  "countryName": "Zimbabwe",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 141666,
+      "name": "Rufaro Douglas Choto",
+      "short": "Choto",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 141667,
+      "name": "Jonathan Panashe Mhandu",
+      "short": "Mhandu",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141668,
+      "name": "Trevor Sibanda",
+      "short": "Sibanda",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146584,
+      "name": "Keith Emmerson Machakaire",
+      "short": "Keith",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146601,
+      "name": "Bruce Paguti",
+      "short": "Bruce",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 173697,
+      "name": "Tafadzwa Michael Mapfumo",
+      "short": "Mapfumo",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 173705,
+      "name": "Shamma Muneta",
+      "short": "Shammah",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 187804,
+      "name": "Panashe Mutata",
+      "short": "Mutata",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 208243,
+      "name": "Shayne Mashininge",
+      "short": "Shayne",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 141666,
+      "b": 141667,
+      "t": 2,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 141666,
+      "b": 146584,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 141668,
+      "b": 146601,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 173697,
+      "b": 173705,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 187804,
+      "b": 208243,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

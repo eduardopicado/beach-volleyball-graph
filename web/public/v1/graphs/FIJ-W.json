@@ -1,0 +1,55 @@
+{
+  "country": "FIJ",
+  "countryName": "Fiji",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 123576,
+      "name": "Marica Togayali",
+      "short": "Togayali",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133872,
+      "name": "Mereoni Lewesi",
+      "short": "Usp",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 154995,
+      "name": "Iliseva Ratudina",
+      "short": "Ratudina",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 166235,
+      "name": "Laite Nima",
+      "short": "Nima",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    }
+  ],
+  "edges": [
+    {
+      "a": 123576,
+      "b": 133872,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 154995,
+      "b": 166235,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    }
+  ]
+}

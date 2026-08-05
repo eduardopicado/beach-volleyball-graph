@@ -1,0 +1,27 @@
+{
+  "country": "GBR",
+  "gender": "W",
+  "players": [
+    {
+      "id": 118753,
+      "name": "Shauna Mullin",
+      "dob": "1984-09-11",
+      "height": 178,
+      "weight": 70
+    },
+    {
+      "id": 120662,
+      "name": "Rachel Turner",
+      "dob": "1987-12-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120907,
+      "name": "Kim Smith",
+      "dob": "1988-10-27",
+      "height": 171,
+      "weight": 67
+    }
+  ]
+}

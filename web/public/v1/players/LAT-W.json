@@ -1,0 +1,839 @@
+{
+  "country": "LAT",
+  "gender": "W",
+  "players": [
+    {
+      "id": 102588,
+      "name": "Inga Vetra",
+      "dob": "1981-02-14",
+      "height": 182,
+      "weight": 67
+    },
+    {
+      "id": 102887,
+      "name": "Inese Jursone",
+      "dob": "1981-11-13",
+      "height": 180,
+      "weight": 75
+    },
+    {
+      "id": 102890,
+      "name": "Inguna Minusa",
+      "dob": "1977-08-17",
+      "height": 175,
+      "weight": 62
+    },
+    {
+      "id": 102891,
+      "name": "Inga Pulina",
+      "dob": "1979-05-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103018,
+      "name": "Natalja Petrova",
+      "dob": "1977-01-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103019,
+      "name": "Marija Senkane",
+      "dob": "1976-05-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104163,
+      "name": "Gunita Packajeva",
+      "dob": "1985-08-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104164,
+      "name": "Anna Nikiforova",
+      "dob": "1985-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104359,
+      "name": "Tatjana Lamonova",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104360,
+      "name": "Alexandra Tihovska",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104432,
+      "name": "Lana Sorokina",
+      "dob": "1984-09-22",
+      "height": 180,
+      "weight": null
+    },
+    {
+      "id": 104433,
+      "name": "Dace Grabovska",
+      "dob": "1985-12-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104452,
+      "name": "Justine Zirne",
+      "dob": "1986-07-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104453,
+      "name": "Svetlana Dukule",
+      "dob": "1986-09-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104495,
+      "name": "Liga Vaidere",
+      "dob": "1986-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104496,
+      "name": "Unda Priedite",
+      "dob": "1986-04-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105066,
+      "name": "Andzelika Lukjanska",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105067,
+      "name": "Jevenija Cvetkova",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105068,
+      "name": "Ilze Packajeva",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105069,
+      "name": "Liene Leimane",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118161,
+      "name": "Laura Avena",
+      "dob": "1991-01-28",
+      "height": 175,
+      "weight": 64
+    },
+    {
+      "id": 118162,
+      "name": "Zita Freidenfelde",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118167,
+      "name": "Zauere Ingrida",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118169,
+      "name": "Salmina Sallija",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118174,
+      "name": "Brivule Liva",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118728,
+      "name": "Anete Krastina",
+      "dob": "1990-10-10",
+      "height": 175,
+      "weight": 64
+    },
+    {
+      "id": 119992,
+      "name": "Feldmane Agnese",
+      "dob": "1988-04-01",
+      "height": 180,
+      "weight": 69
+    },
+    {
+      "id": 120425,
+      "name": "Jelizaveta Sicova",
+      "dob": "1987-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120517,
+      "name": "Jana Jaudzema",
+      "dob": "1990-09-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120765,
+      "name": "Ilze Liepinlauska",
+      "dob": "1991-05-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124781,
+      "name": "Krista Kraskura",
+      "dob": "1992-06-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124783,
+      "name": "Kitija Megne",
+      "dob": "1992-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124834,
+      "name": "Jaudzema Jana",
+      "dob": "1990-09-30",
+      "height": 175,
+      "weight": null
+    },
+    {
+      "id": 132688,
+      "name": "Alise Lece",
+      "dob": "1994-02-08",
+      "height": 187,
+      "weight": null
+    },
+    {
+      "id": 135465,
+      "name": "Inga Ikauniece",
+      "dob": "1979-05-23",
+      "height": 163,
+      "weight": 60
+    },
+    {
+      "id": 135580,
+      "name": "Sanda Ragozina",
+      "dob": "1992-12-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 137274,
+      "name": "Marta Ozolina",
+      "dob": "1994-12-27",
+      "height": 172,
+      "weight": 62
+    },
+    {
+      "id": 139535,
+      "name": "Anete Brinke",
+      "dob": "1995-05-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139536,
+      "name": "Ruta Treija",
+      "dob": "1995-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139537,
+      "name": "Alise Pastare",
+      "dob": "1995-04-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139538,
+      "name": "Monta Strazdina",
+      "dob": "1995-03-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141983,
+      "name": "Tina Graudina",
+      "dob": "1998-03-09",
+      "height": 184,
+      "weight": 72
+    },
+    {
+      "id": 141984,
+      "name": "Anastasija Samoilova",
+      "dob": "1997-01-19",
+      "height": 179,
+      "weight": 68
+    },
+    {
+      "id": 142088,
+      "name": "Alise Petersone",
+      "dob": "1996-07-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142971,
+      "name": "Laine Cielena",
+      "dob": "1993-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145351,
+      "name": "Agnese Caica",
+      "dob": "1988-04-01",
+      "height": 179,
+      "weight": 66
+    },
+    {
+      "id": 145698,
+      "name": "Jekaterina Loheisa",
+      "dob": "1989-03-19",
+      "height": 187,
+      "weight": 65
+    },
+    {
+      "id": 146415,
+      "name": "Enija Bidzane",
+      "dob": "1996-04-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146538,
+      "name": "Linda Elizabete Gramberga",
+      "dob": "2000-01-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146822,
+      "name": "Liva Sola",
+      "dob": "1990-12-12",
+      "height": 190,
+      "weight": 75
+    },
+    {
+      "id": 146860,
+      "name": "Eva Deisa",
+      "dob": "1997-07-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147960,
+      "name": "Paula Neciporuka",
+      "dob": "1998-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 151410,
+      "name": "Liene Simkuse",
+      "dob": "1992-04-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 152396,
+      "name": "Ludmila Jegorova",
+      "dob": "1977-12-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153270,
+      "name": "Annija Jurdza",
+      "dob": "1999-12-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157011,
+      "name": "Vanesa Grosberga",
+      "dob": "2001-03-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157012,
+      "name": "Kristine Briede",
+      "dob": "2001-10-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157983,
+      "name": "Darta Luse",
+      "dob": "2000-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163105,
+      "name": "Ance Upeniece",
+      "dob": "2001-02-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163341,
+      "name": "Anete Namiķe",
+      "dob": "2002-07-16",
+      "height": 170,
+      "weight": 60
+    },
+    {
+      "id": 163343,
+      "name": "Ance Upeniece",
+      "dob": "2001-02-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168482,
+      "name": "Varvara Brailko",
+      "dob": "2002-06-11",
+      "height": 170,
+      "weight": 60
+    },
+    {
+      "id": 168795,
+      "name": "Krista Paegle",
+      "dob": "2002-03-20",
+      "height": 175,
+      "weight": 70
+    },
+    {
+      "id": 169364,
+      "name": "Sallija Grēna",
+      "dob": "1986-06-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173504,
+      "name": "Tereze Estere Grants",
+      "dob": "2004-12-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173610,
+      "name": "Evelina Rutkovska",
+      "dob": "2003-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173612,
+      "name": "Inga Candere",
+      "dob": "1988-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173616,
+      "name": "Sanita Punga",
+      "dob": "2001-04-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173717,
+      "name": "Elizabete Gapone",
+      "dob": "2000-09-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 174368,
+      "name": "Eliza Isajeva",
+      "dob": "2001-11-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 174942,
+      "name": "Alise Bruzinska",
+      "dob": "1997-03-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 174943,
+      "name": "Eva Rozite-Nikitina",
+      "dob": "1990-03-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175299,
+      "name": "Kate Vasiļjeva",
+      "dob": "2004-08-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175300,
+      "name": "Elīza Dreimane",
+      "dob": "2004-09-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175699,
+      "name": "Amanda Regute",
+      "dob": "2005-05-02",
+      "height": 178,
+      "weight": null
+    },
+    {
+      "id": 179134,
+      "name": "Gerda Snore",
+      "dob": "2003-08-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179135,
+      "name": "Alise Eksta",
+      "dob": "2003-04-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179142,
+      "name": "Kitija Adamsone Martini",
+      "dob": "2005-01-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179157,
+      "name": "Beate Liepajniece",
+      "dob": "2003-03-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179158,
+      "name": "Anija Ozolina",
+      "dob": "2003-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179159,
+      "name": "Anna Rita",
+      "dob": "2004-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179160,
+      "name": "Luize Skrastina",
+      "dob": "1995-12-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179161,
+      "name": "Eliza Liva Kalnina",
+      "dob": "2004-03-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179350,
+      "name": "Alvīne Krumholce",
+      "dob": "2003-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179351,
+      "name": "Rezija Mazure-Mago",
+      "dob": "2004-05-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179356,
+      "name": "Liva Vavere",
+      "dob": "2004-03-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179357,
+      "name": "Undine Simbirceva",
+      "dob": "2003-05-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182027,
+      "name": "Mairita Buklagina",
+      "dob": "1991-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182028,
+      "name": "Kristīne Gabranova",
+      "dob": "1993-06-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182030,
+      "name": "Justīne Kleina",
+      "dob": "2004-07-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182031,
+      "name": "Zane Niedola",
+      "dob": "1990-11-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182035,
+      "name": "Zaiga Kalvāne",
+      "dob": "2004-06-01",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 182036,
+      "name": "Deniela Konstantinova",
+      "dob": "2005-07-22",
+      "height": 183,
+      "weight": 64
+    },
+    {
+      "id": 182242,
+      "name": "Anna Kovala",
+      "dob": "2000-09-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182248,
+      "name": "Marika Klaucāne",
+      "dob": "2004-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 183070,
+      "name": "Zane Lobānova",
+      "dob": "1978-01-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 183080,
+      "name": "Beatrise Jekševica",
+      "dob": "2004-09-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 183081,
+      "name": "Kristiāna Agneta Dārziņa",
+      "dob": "2004-05-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188451,
+      "name": "Līva Ēbere",
+      "dob": "2007-09-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188955,
+      "name": "Marta Gintere",
+      "dob": "2007-02-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188963,
+      "name": "Renāte Krūklīte",
+      "dob": "2006-07-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188967,
+      "name": "Beāte Runce",
+      "dob": "2007-01-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189054,
+      "name": "Elizabete Ķetlere",
+      "dob": "2001-01-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189107,
+      "name": "Kristine Kramena",
+      "dob": "2002-10-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190913,
+      "name": "Rēzija Puškundze",
+      "dob": "2007-07-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190915,
+      "name": "Monika Mamaja",
+      "dob": "2008-07-02",
+      "height": 169,
+      "weight": 60
+    },
+    {
+      "id": 190916,
+      "name": "Denēva Šauberga",
+      "dob": "2008-05-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 191933,
+      "name": "Alise Aleksāne",
+      "dob": "2008-09-09",
+      "height": 180,
+      "weight": null
+    },
+    {
+      "id": 192878,
+      "name": "Kate Zvidra",
+      "dob": "2006-04-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200546,
+      "name": "Karlīna Kazāka",
+      "dob": "2007-12-23",
+      "height": 175,
+      "weight": null
+    },
+    {
+      "id": 202381,
+      "name": "Marta Vildere",
+      "dob": "2005-04-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 202386,
+      "name": "Paula Krieva",
+      "dob": "2010-03-29",
+      "height": 173,
+      "weight": 61
+    },
+    {
+      "id": 204793,
+      "name": "Milana Tina Aleksejeva",
+      "dob": "2010-02-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 209817,
+      "name": "Loreta Cabule",
+      "dob": "2007-04-20",
+      "height": null,
+      "weight": 62
+    },
+    {
+      "id": 211924,
+      "name": "Karlīna Bērziņa",
+      "dob": "2010-03-18",
+      "height": 179,
+      "weight": null
+    },
+    {
+      "id": 214095,
+      "name": "Aurēlija Kotāne",
+      "dob": "2008-07-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223422,
+      "name": "Adele Kalnina",
+      "dob": "2008-10-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223425,
+      "name": "Estere Zakite",
+      "dob": "2009-05-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223864,
+      "name": "Katrīna Leiboviča",
+      "dob": "2009-06-23",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

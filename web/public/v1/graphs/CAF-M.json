@@ -1,0 +1,32 @@
+{
+  "country": "CAF",
+  "countryName": "Central African Republic",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 135152,
+      "name": "Tony Happy Yagueme",
+      "short": "Yagueme",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 174111,
+      "name": "Christ Martial SOKPOMOU",
+      "short": "SOKPOMOU Christ Martial",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 135152,
+      "b": 174111,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}

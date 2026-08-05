@@ -1,0 +1,101 @@
+{
+  "country": "GUI",
+  "countryName": "Guinea",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 139357,
+      "name": "Alhassane Mahawa Sylla",
+      "short": "Hassane",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139358,
+      "name": "Alhousseiny Sylla",
+      "short": "Housseiny",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 210195,
+      "name": "Mohamed Kourouma",
+      "short": "Kourouma",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210196,
+      "name": "Sekou Fantamady Diaby",
+      "short": "Fantamady Diaby",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210197,
+      "name": "Abdoul Karim Diallo",
+      "short": "Diallo",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210198,
+      "name": "Mamadou Sanoussy Diallo",
+      "short": "Sanoussy Diallo",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210199,
+      "name": "Kemo Oulare",
+      "short": "Oulare",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210200,
+      "name": "Lamine Diakite",
+      "short": "Diakite",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 139357,
+      "b": 139358,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 210195,
+      "b": 210196,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 210197,
+      "b": 210199,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 210198,
+      "b": 210200,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "country": "CRO",
+  "gender": "M",
+  "players": [
+    {
+      "id": 102176,
+      "name": "Sinisa Momic",
+      "dob": "1973-10-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102177,
+      "name": "Sasa Momic",
+      "dob": "1977-01-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102178,
+      "name": "Tomislav Karaula",
+      "dob": "1970-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102179,
+      "name": "Pero Krizanovic",
+      "dob": "1976-06-11",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 103398,
+      "name": "Edin Bakovic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103399,
+      "name": "Grga Trimcevski",
+      "dob": "1980-04-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103812,
+      "name": "Kresimir Peric",
+      "dob": "1976-05-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103813,
+      "name": "Dejan Laninovic",
+      "dob": "1971-04-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104253,
+      "name": "Vjekoslan Hanzic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104680,
+      "name": "Aco Momcilovic",
+      "dob": "1980-02-03",
+      "height": 197,
+      "weight": 90
+    },
+    {
+      "id": 104681,
+      "name": "Berislav Bobus",
+      "dob": "1978-07-04",
+      "height": 191,
+      "weight": 80
+    },
+    {
+      "id": 104682,
+      "name": "Toni Ivkovic",
+      "dob": "1976-06-10",
+      "height": 197,
+      "weight": 88
+    },
+    {
+      "id": 104683,
+      "name": "Ivan Radovcic",
+      "dob": null,
+      "height": 183,
+      "weight": 83
+    },
+    {
+      "id": 104705,
+      "name": "Sinisa Viculin",
+      "dob": "1979-09-26",
+      "height": 191,
+      "weight": 85
+    },
+    {
+      "id": 104839,
+      "name": "Sime Bolic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104840,
+      "name": "Juraj Jogunica",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104859,
+      "name": "Tomislav Steinocher",
+      "dob": "1973-11-16",
+      "height": 191,
+      "weight": 105
+    },
+    {
+      "id": 104884,
+      "name": "Aleksandar Varga",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105014,
+      "name": "Frane Zanic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105015,
+      "name": "Domagoj Zelic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115560,
+      "name": "Zeljko Nojic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115564,
+      "name": "Boris Osmokrovic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115565,
+      "name": "Matijaz Urnaut",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115569,
+      "name": "Jegor Zukovskij",
+      "dob": "1986-06-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115570,
+      "name": "Dario Garaca",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115578,
+      "name": "Mirko Sardelic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115579,
+      "name": "Ivan Roca",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115602,
+      "name": "Dejan Kljajic",
+      "dob": null,
+      "height": 186,
+      "weight": 84
+    },
+    {
+      "id": 115603,
+      "name": "Ivan Sulc",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115604,
+      "name": "Marko Loncar",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115605,
+      "name": "Matko Culina",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115606,
+      "name": "Krsevan Soric",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115607,
+      "name": "Antonio Surac",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115609,
+      "name": "Mario Nikolaus",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115610,
+      "name": "Tima Zukovskij",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115612,
+      "name": "Dominik Raca",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116644,
+      "name": "Admir Glavas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116645,
+      "name": "Mario Grubisic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117873,
+      "name": "Ivan Lugar",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117874,
+      "name": "Roman Pelko",
+      "dob": "1977-05-28",
+      "height": 198,
+      "weight": 95
+    },
+    {
+      "id": 117905,
+      "name": "Marko Zaja",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117906,
+      "name": "Andrija Polic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117914,
+      "name": "Marijan Palinkas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117915,
+      "name": "Tomica Posavec",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117916,
+      "name": "Kole Mihajlov",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117917,
+      "name": "Miroslav Vabec",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118685,
+      "name": "Josip Kovacev",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118686,
+      "name": "Eduard Dobrenic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118723,
+      "name": "Ivo Jurisic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120096,
+      "name": "Jugo Nikola",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120097,
+      "name": "Djordjevic Ivan",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120285,
+      "name": "Matija Brlas",
+      "dob": "1985-08-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120286,
+      "name": "Josip Huljev",
+      "dob": "1987-05-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120316,
+      "name": "Niksa Dellorco",
+      "dob": "1992-05-03",
+      "height": 189,
+      "weight": 77
+    },
+    {
+      "id": 120317,
+      "name": "Ante Jukic",
+      "dob": "1990-11-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120318,
+      "name": "Ivor Bozic",
+      "dob": "1985-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120319,
+      "name": "Darko Nojic",
+      "dob": "1984-06-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120331,
+      "name": "Matija Gracin",
+      "dob": "1986-04-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120353,
+      "name": "Donald Stojnic",
+      "dob": "1978-01-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120354,
+      "name": "Andrej Stanic",
+      "dob": "1978-03-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120358,
+      "name": "Matija Sulc",
+      "dob": "1987-04-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120361,
+      "name": "Damir Paleka",
+      "dob": "1984-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120362,
+      "name": "Damir Paleka",
+      "dob": "1984-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120363,
+      "name": "Luka Radosevic",
+      "dob": "1981-08-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120552,
+      "name": "Denis vujcic",
+      "dob": "1990-08-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120872,
+      "name": "Matej Mudrovcic",
+      "dob": "1991-01-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123049,
+      "name": "Tsimafei Zhukouski",
+      "dob": "1989-12-18",
+      "height": 192,
+      "weight": null
+    },
+    {
+      "id": 123441,
+      "name": "Mate Glaurdic",
+      "dob": "1992-10-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135648,
+      "name": "Sandro Venier",
+      "dob": "1993-04-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135649,
+      "name": "Antonio Starc",
+      "dob": "1993-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135659,
+      "name": "Tomislav Fuzul",
+      "dob": "1993-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135662,
+      "name": "Mario Boras",
+      "dob": "1994-05-07",
+      "height": 192,
+      "weight": 83
+    },
+    {
+      "id": 135663,
+      "name": "Ivan Zeljkovic",
+      "dob": "1994-08-31",
+      "height": 185,
+      "weight": 86
+    },
+    {
+      "id": 139533,
+      "name": "Kresimir Karaula",
+      "dob": "1996-08-20",
+      "height": 189,
+      "weight": 82
+    },
+    {
+      "id": 139534,
+      "name": "Marko Sedlacek",
+      "dob": "1996-07-29",
+      "height": 202,
+      "weight": 95
+    },
+    {
+      "id": 141878,
+      "name": "Hrvoje Pervan",
+      "dob": "1994-12-08",
+      "height": 187,
+      "weight": 77
+    },
+    {
+      "id": 146155,
+      "name": "Josip Pribanic",
+      "dob": "1995-04-22",
+      "height": 194,
+      "weight": 83
+    },
+    {
+      "id": 146206,
+      "name": "Filip Silic",
+      "dob": "1990-04-04",
+      "height": 205,
+      "weight": 95
+    },
+    {
+      "id": 146442,
+      "name": "Petar Dirlic",
+      "dob": "1997-05-27",
+      "height": 206,
+      "weight": 100
+    },
+    {
+      "id": 148861,
+      "name": "Ivan Djordjevic",
+      "dob": "1990-05-06",
+      "height": 191,
+      "weight": 83
+    },
+    {
+      "id": 150595,
+      "name": "Marin Jercic",
+      "dob": "1996-08-24",
+      "height": 192,
+      "weight": 83
+    },
+    {
+      "id": 156898,
+      "name": "Marko Matic",
+      "dob": "1981-06-08",
+      "height": 181,
+      "weight": 93
+    },
+    {
+      "id": 156899,
+      "name": "Marko Vujnovic",
+      "dob": "1981-12-02",
+      "height": 193,
+      "weight": 97
+    },
+    {
+      "id": 156962,
+      "name": "Ivan Cosic",
+      "dob": "1984-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157876,
+      "name": "Hrvoje Zelenika",
+      "dob": "1992-02-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 158426,
+      "name": "Bruno Šimunić",
+      "dob": "1993-04-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 158643,
+      "name": "Marko Simac",
+      "dob": "1990-11-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162351,
+      "name": "Matej Cickovic",
+      "dob": "1990-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163016,
+      "name": "Ivan Perisic",
+      "dob": "1989-02-02",
+      "height": 187,
+      "weight": 80
+    },
+    {
+      "id": 163017,
+      "name": "Niksa Dell'Orco",
+      "dob": "1992-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168673,
+      "name": "Igor Sapina",
+      "dob": "2000-03-08",
+      "height": 189,
+      "weight": 85
+    },
+    {
+      "id": 169836,
+      "name": "Andrej Štorc",
+      "dob": "1990-08-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 170635,
+      "name": "Tino Hanžić",
+      "dob": "2000-10-24",
+      "height": 198,
+      "weight": 90
+    },
+    {
+      "id": 173333,
+      "name": "Marko Repek",
+      "dob": "2003-06-30",
+      "height": 188,
+      "weight": 78
+    },
+    {
+      "id": 174257,
+      "name": "Nikola Scerbakov",
+      "dob": "1995-07-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182098,
+      "name": "Tin Devald",
+      "dob": "2005-12-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182099,
+      "name": "Roko Vlašić",
+      "dob": "2004-03-11",
+      "height": 193,
+      "weight": 75
+    },
+    {
+      "id": 186440,
+      "name": "Dino Šoš",
+      "dob": "2005-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200353,
+      "name": "Jurica Skorin",
+      "dob": "1991-04-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210069,
+      "name": "Ivan Brletić",
+      "dob": "2005-04-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 217643,
+      "name": "Šimun Lozančić",
+      "dob": "2010-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 217676,
+      "name": "Viktor Olja Vidović",
+      "dob": "2010-05-12",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

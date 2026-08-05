@@ -1,0 +1,704 @@
+{
+  "country": "ENG",
+  "countryName": "England",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100004,
+      "name": "Audrey Cooper",
+      "short": "Cooper",
+      "tournaments": 48,
+      "first": 1993,
+      "last": 2000
+    },
+    {
+      "id": 100264,
+      "name": "Amanda Jane \"Mo\" Glover",
+      "short": "Glover",
+      "tournaments": 58,
+      "first": 1993,
+      "last": 2003
+    },
+    {
+      "id": 100712,
+      "name": "Monique Elizabeth \"Mo\" Oliver",
+      "short": "Oliver",
+      "tournaments": 31,
+      "first": 1995,
+      "last": 2005
+    },
+    {
+      "id": 100938,
+      "name": "Vanessa Malone",
+      "short": "Malone",
+      "tournaments": 6,
+      "first": 1995,
+      "last": 1997
+    },
+    {
+      "id": 100939,
+      "name": "Denise Catherine Tuohey",
+      "short": "Tuohey",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 102586,
+      "name": "Denise \"Denise the Menace\" Austin",
+      "short": "Austin",
+      "tournaments": 24,
+      "first": 1999,
+      "last": 2003
+    },
+    {
+      "id": 103376,
+      "name": "Alexandra Newell",
+      "short": "Newell",
+      "tournaments": 4,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 104148,
+      "name": "Kerri Olding",
+      "short": "Olding",
+      "tournaments": 4,
+      "first": 2002,
+      "last": 2007
+    },
+    {
+      "id": 104149,
+      "name": "Amy Weemes",
+      "short": "Weemes",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 105172,
+      "name": "Denise Johns",
+      "short": "Johns",
+      "tournaments": 89,
+      "first": 2005,
+      "last": 2012
+    },
+    {
+      "id": 118001,
+      "name": "Lucy Boulton",
+      "short": "Boulton",
+      "tournaments": 105,
+      "first": 2006,
+      "last": 2013
+    },
+    {
+      "id": 118190,
+      "name": "Zara Dampney",
+      "short": "Dampney",
+      "tournaments": 90,
+      "first": 2006,
+      "last": 2013
+    },
+    {
+      "id": 118992,
+      "name": "Helen Brown",
+      "short": "Brown",
+      "tournaments": 25,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 118993,
+      "name": "Liane Herbert",
+      "short": "Herbert",
+      "tournaments": 27,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 120911,
+      "name": "Phoebe Jeffery",
+      "short": "Jeffery",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120912,
+      "name": "Susan Hoare",
+      "short": "Hoare",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120913,
+      "name": "Jessica Grimson",
+      "short": "Grimson",
+      "tournaments": 54,
+      "first": 2008,
+      "last": 2022
+    },
+    {
+      "id": 125533,
+      "name": "Annie Tinker",
+      "short": "Tinker",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125534,
+      "name": "Paige Nelmes",
+      "short": "Nelmes",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125536,
+      "name": "Elizabeth Smith",
+      "short": "Smith",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 133621,
+      "name": "Victoria Palmer",
+      "short": "Palmer",
+      "tournaments": 76,
+      "first": 2007,
+      "last": 2026
+    },
+    {
+      "id": 133882,
+      "name": "Joanna Grance Healy",
+      "short": "Healy",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 144155,
+      "name": "Anaya Evans",
+      "short": "Evans",
+      "tournaments": 53,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 145733,
+      "name": "Leah Best",
+      "short": "Best",
+      "tournaments": 13,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 146889,
+      "name": "Yasmin Kaashoek",
+      "short": "Kaashoek",
+      "tournaments": 6,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 155115,
+      "name": "Ellie Austin",
+      "short": "Austin",
+      "tournaments": 14,
+      "first": 2016,
+      "last": 2022
+    },
+    {
+      "id": 155116,
+      "name": "Martha Bullen",
+      "short": "Bullen",
+      "tournaments": 5,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 156443,
+      "name": "Nicole Short",
+      "short": "Short",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157198,
+      "name": "Zoe Baxter",
+      "short": "Baxter",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157199,
+      "name": "Eve Baxter",
+      "short": "Baxter",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157729,
+      "name": "Lauren Huggins",
+      "short": "Huggins",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 157755,
+      "name": "Holly Bentley",
+      "short": "Bentley",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 157756,
+      "name": "Katie Keefe",
+      "short": "Keefe",
+      "tournaments": 38,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 173510,
+      "name": "Isabelle Tucker",
+      "short": "Tucker",
+      "tournaments": 17,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 177926,
+      "name": "Daisy Mumby",
+      "short": "Mumby",
+      "tournaments": 33,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 181666,
+      "name": "Alana Snow",
+      "short": "Snow",
+      "tournaments": 28,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 197785,
+      "name": "Alice Jagielska",
+      "short": "Jagielska",
+      "tournaments": 5,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 197795,
+      "name": "Molly Quinn",
+      "short": "Quinn",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 203559,
+      "name": "Kirsty Star",
+      "short": "Star",
+      "tournaments": 18,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 205758,
+      "name": "Matilda Hutton",
+      "short": "Hutton",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 211951,
+      "name": "Robyn Clifford",
+      "short": "Clifford",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 216034,
+      "name": "Ella Watson",
+      "short": "Watson",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 222914,
+      "name": "Lucy Knott",
+      "short": "Knott",
+      "tournaments": 5,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 223161,
+      "name": "Lauren Thorn",
+      "short": "Thorn",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100004,
+      "b": 100264,
+      "t": 48,
+      "f": 1993,
+      "l": 2000
+    },
+    {
+      "a": 100264,
+      "b": 100938,
+      "t": 5,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 100264,
+      "b": 102586,
+      "t": 5,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 100712,
+      "b": 102586,
+      "t": 18,
+      "f": 1999,
+      "l": 2000
+    },
+    {
+      "a": 100712,
+      "b": 103376,
+      "t": 4,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 100712,
+      "b": 105172,
+      "t": 3,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 100938,
+      "b": 100939,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 102586,
+      "b": 104148,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104148,
+      "b": 104149,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104148,
+      "b": 133621,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 105172,
+      "b": 118001,
+      "t": 79,
+      "f": 2006,
+      "l": 2012
+    },
+    {
+      "a": 118001,
+      "b": 118190,
+      "t": 26,
+      "f": 2006,
+      "l": 2013
+    },
+    {
+      "a": 118190,
+      "b": 118993,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118992,
+      "b": 118993,
+      "t": 22,
+      "f": 2007,
+      "l": 2010
+    },
+    {
+      "a": 118993,
+      "b": 133621,
+      "t": 4,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120912,
+      "b": 120913,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120913,
+      "b": 125536,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 120913,
+      "b": 133621,
+      "t": 38,
+      "f": 2017,
+      "l": 2019
+    },
+    {
+      "a": 120913,
+      "b": 177926,
+      "t": 14,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 125533,
+      "b": 125534,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 133621,
+      "b": 145733,
+      "t": 8,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 133621,
+      "b": 181666,
+      "t": 23,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 133621,
+      "b": 203559,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 144155,
+      "b": 146889,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 144155,
+      "b": 155115,
+      "t": 13,
+      "f": 2016,
+      "l": 2022
+    },
+    {
+      "a": 144155,
+      "b": 157198,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 144155,
+      "b": 157729,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144155,
+      "b": 157756,
+      "t": 17,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 144155,
+      "b": 173510,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144155,
+      "b": 177926,
+      "t": 16,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 144155,
+      "b": 203559,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 145733,
+      "b": 222914,
+      "t": 5,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 146889,
+      "b": 157729,
+      "t": 3,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 146889,
+      "b": 173510,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 155115,
+      "b": 157755,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 155116,
+      "b": 156443,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 155116,
+      "b": 181666,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 155116,
+      "b": 197785,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 155116,
+      "b": 216034,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 157198,
+      "b": 157199,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 157756,
+      "b": 173510,
+      "t": 12,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 157756,
+      "b": 203559,
+      "t": 9,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 173510,
+      "b": 197785,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 173510,
+      "b": 203559,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 177926,
+      "b": 203559,
+      "t": 3,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 181666,
+      "b": 216034,
+      "t": 3,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 197785,
+      "b": 203559,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 197795,
+      "b": 223161,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 205758,
+      "b": 211951,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

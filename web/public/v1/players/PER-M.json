@@ -1,0 +1,104 @@
+{
+  "country": "PER",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100562,
+      "name": "Noce Leopoldo Cordaro",
+      "dob": "1969-12-27",
+      "height": 180,
+      "weight": 72
+    },
+    {
+      "id": 100563,
+      "name": "Zayers \"Cesar\" Arguedas",
+      "dob": "1970-05-25",
+      "height": 185,
+      "weight": 73
+    },
+    {
+      "id": 139362,
+      "name": "Alvaro Hidalgo Ascues",
+      "dob": "1994-03-23",
+      "height": 187,
+      "weight": 76
+    },
+    {
+      "id": 139363,
+      "name": "Eduardo Romay Dammert",
+      "dob": "1995-08-22",
+      "height": 200,
+      "weight": 97
+    },
+    {
+      "id": 139773,
+      "name": "Diego Diaz",
+      "dob": "1993-07-02",
+      "height": 184,
+      "weight": 79
+    },
+    {
+      "id": 139774,
+      "name": "Jose Vargas",
+      "dob": "1993-02-03",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 141482,
+      "name": "Franco Castillo",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141487,
+      "name": "Paul Alexander Williams Torres",
+      "dob": "1995-05-26",
+      "height": 182,
+      "weight": 76
+    },
+    {
+      "id": 145397,
+      "name": "Jimy Heredia",
+      "dob": "1997-04-15",
+      "height": 178,
+      "weight": 68
+    },
+    {
+      "id": 145400,
+      "name": "Luis Bramont-Arias",
+      "dob": "1997-02-21",
+      "height": 178,
+      "weight": 68
+    },
+    {
+      "id": 150220,
+      "name": "Juan Carlos Bustos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161727,
+      "name": "Bruno Sebastian Seminario Florentini",
+      "dob": "2000-01-07",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 163337,
+      "name": "Delpiero Jimenez",
+      "dob": "2000-08-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171950,
+      "name": "GABRIEL VASQUEZ",
+      "dob": "2001-04-22",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

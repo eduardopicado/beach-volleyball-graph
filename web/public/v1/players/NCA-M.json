@@ -1,0 +1,83 @@
+{
+  "country": "NCA",
+  "gender": "M",
+  "players": [
+    {
+      "id": 137535,
+      "name": "Ruben Alejandro Mora Romero",
+      "dob": "1995-09-27",
+      "height": 186,
+      "weight": 88
+    },
+    {
+      "id": 137536,
+      "name": "Gerson David Contreras Lacayo",
+      "dob": "1995-10-01",
+      "height": 181,
+      "weight": 63
+    },
+    {
+      "id": 139668,
+      "name": "Miguel Angel López López",
+      "dob": "1994-06-30",
+      "height": 175,
+      "weight": 65
+    },
+    {
+      "id": 141540,
+      "name": "Dany Antonio López Alvarado",
+      "dob": "1989-09-01",
+      "height": 178,
+      "weight": 80
+    },
+    {
+      "id": 146009,
+      "name": "Luis Fernando López Alvarado",
+      "dob": "1996-07-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146010,
+      "name": "Denis José López Ruiz",
+      "dob": "1999-07-31",
+      "height": 178,
+      "weight": 74
+    },
+    {
+      "id": 167425,
+      "name": "Cristopher Josue Cascante Cardenas",
+      "dob": "2003-03-05",
+      "height": 189,
+      "weight": 63
+    },
+    {
+      "id": 167427,
+      "name": "Jefferson De Jesus Cascante Herrera",
+      "dob": "2001-09-28",
+      "height": 188,
+      "weight": 67
+    },
+    {
+      "id": 212194,
+      "name": "Matthew Eberhard Kempf Palacio",
+      "dob": "2009-03-27",
+      "height": 167,
+      "weight": null
+    },
+    {
+      "id": 217936,
+      "name": "Justin Alfredo Barrios Dinarte",
+      "dob": "2009-02-14",
+      "height": 184,
+      "weight": 52
+    },
+    {
+      "id": 225096,
+      "name": "Edgar Ignacio Holmann Gonzalez",
+      "dob": "2008-11-01",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

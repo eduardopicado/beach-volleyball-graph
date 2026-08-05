@@ -1,0 +1,177 @@
+{
+  "country": "NAM",
+  "countryName": "Namibia",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 134935,
+      "name": "Elizabeth Röttcher",
+      "short": "Röttcher",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 134937,
+      "name": "Julia Laggner",
+      "short": "Laggner",
+      "tournaments": 4,
+      "first": 2011,
+      "last": 2014
+    },
+    {
+      "id": 134938,
+      "name": "Corinna Wahl",
+      "short": "Wahl",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 142409,
+      "name": "Saskia Henckert",
+      "short": "Henckert",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 146119,
+      "name": "Kim Seebach",
+      "short": "Seebach",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146120,
+      "name": "Stephanie Monique Palmhert",
+      "short": "Palmhert",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 149868,
+      "name": "Rosemarie Hennes",
+      "short": "Hennes",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 157096,
+      "name": "Kristin Schulz",
+      "short": "Schulz",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157097,
+      "name": "Michaela Boehringer",
+      "short": "Boehringer",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 188206,
+      "name": "Romy Lück",
+      "short": "Lück",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 188207,
+      "name": "Piroschka Lück",
+      "short": "Lück",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226373,
+      "name": "Carmen Heide Curschmann",
+      "short": "Curschmann",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226376,
+      "name": "Almut Hoffmann",
+      "short": "Hoffmann",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226377,
+      "name": "Maike Schuyling Van Doorn",
+      "short": "Maike",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 134935,
+      "b": 134937,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 134937,
+      "b": 134938,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 134937,
+      "b": 142409,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 146119,
+      "b": 146120,
+      "t": 2,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 149868,
+      "b": 226376,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 157096,
+      "b": 157097,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 188206,
+      "b": 188207,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 226373,
+      "b": 226377,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

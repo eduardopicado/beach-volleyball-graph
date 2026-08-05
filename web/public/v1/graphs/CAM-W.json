@@ -1,0 +1,116 @@
+{
+  "country": "CAM",
+  "countryName": "Cambodia",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 172032,
+      "name": "Oeum Chansophy",
+      "short": "Chansophy",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172039,
+      "name": "Tom Kanha",
+      "short": "Kanha",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172040,
+      "name": "Mak Chanda",
+      "short": "Chanda",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 172041,
+      "name": "Soeu Sreynat",
+      "short": "Sreynat",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 172042,
+      "name": "SAMRITH JEUDI",
+      "short": "JEUDI",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 172043,
+      "name": "SAN SOMA",
+      "short": "SOMA",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172044,
+      "name": "LEAP SARA",
+      "short": "SARA",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172045,
+      "name": "OEUR KUNTHEA",
+      "short": "KUNTHEA",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172082,
+      "name": "Oem Chansophy",
+      "short": "Chansophy",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    }
+  ],
+  "edges": [
+    {
+      "a": 172032,
+      "b": 172039,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 172040,
+      "b": 172041,
+      "t": 2,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 172042,
+      "b": 172043,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 172042,
+      "b": 172082,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 172044,
+      "b": 172045,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    }
+  ]
+}

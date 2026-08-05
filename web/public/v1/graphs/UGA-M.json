@@ -1,0 +1,124 @@
+{
+  "country": "UGA",
+  "countryName": "Uganda",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 135044,
+      "name": "Isaac Omedo",
+      "short": "Omedo",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 135598,
+      "name": "Ambrose Otwao Okello",
+      "short": "Okello",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 135599,
+      "name": "Dickens Otim",
+      "short": "Otim",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 135915,
+      "name": "Emmanuel Kato",
+      "short": "Emma",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 146973,
+      "name": "Kathbart Malinga",
+      "short": "Malinga",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146975,
+      "name": "Elias Isiagi",
+      "short": "Isiagi",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 172380,
+      "name": "Allan Ejiet Olokotum",
+      "short": "Olokotum",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 208472,
+      "name": "GEOFFREY ONAPA ONEN-CAN",
+      "short": "ONAPA",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227838,
+      "name": "LUC FLORENT KIMARARUNGU",
+      "short": "FLORENT",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 241397,
+      "name": "Silver Owinjo",
+      "short": "Silver",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 135044,
+      "b": 135915,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 135598,
+      "b": 135599,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 146973,
+      "b": 146975,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 172380,
+      "b": 208472,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 227838,
+      "b": 241397,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

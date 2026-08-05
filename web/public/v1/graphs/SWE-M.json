@@ -1,0 +1,2165 @@
+{
+  "country": "SWE",
+  "countryName": "Sweden",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100305,
+      "name": "Tom Englen",
+      "short": "Englen",
+      "tournaments": 52,
+      "first": 1991,
+      "last": 2000
+    },
+    {
+      "id": 100306,
+      "name": "Fredrik \"Figge\" Petersson",
+      "short": "Petersson",
+      "tournaments": 41,
+      "first": 1991,
+      "last": 1997
+    },
+    {
+      "id": 100501,
+      "name": "Ulf Johansson",
+      "short": "Johansson",
+      "tournaments": 3,
+      "first": 1994,
+      "last": 1995
+    },
+    {
+      "id": 100840,
+      "name": "Bjorn Berg",
+      "short": "Berg",
+      "tournaments": 157,
+      "first": 1995,
+      "last": 2012
+    },
+    {
+      "id": 100841,
+      "name": "Per or Perpa Hornfeldt",
+      "short": "Hornfeldt",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 100842,
+      "name": "Emil Norberg",
+      "short": "Norberg E.",
+      "tournaments": 17,
+      "first": 1995,
+      "last": 2001
+    },
+    {
+      "id": 100843,
+      "name": "Bo \"Bosse\" Strand",
+      "short": "Strand",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 100919,
+      "name": "David Andersson",
+      "short": "Andersson, Dav.",
+      "tournaments": 19,
+      "first": 1995,
+      "last": 2001
+    },
+    {
+      "id": 100920,
+      "name": "Bengt or Bengan Gustafson",
+      "short": "Gustafson",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 100921,
+      "name": "Per \"Pelle\" Magnusson",
+      "short": "Magnusson P.",
+      "tournaments": 13,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 100922,
+      "name": "Per-Anders Saaf",
+      "short": "Saaf",
+      "tournaments": 3,
+      "first": 1995,
+      "last": 2001
+    },
+    {
+      "id": 100923,
+      "name": "Kristian Wrethander",
+      "short": "Wrethander",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 102001,
+      "name": "Simon Dahl",
+      "short": "Dahl",
+      "tournaments": 92,
+      "first": 1997,
+      "last": 2009
+    },
+    {
+      "id": 102121,
+      "name": "Niclas Tornberg",
+      "short": "Tornberg",
+      "tournaments": 8,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102453,
+      "name": "Viktor Norberg",
+      "short": "Norberg V.",
+      "tournaments": 14,
+      "first": 1998,
+      "last": 2002
+    },
+    {
+      "id": 102454,
+      "name": "Andreas \"Andy\" Wahlström",
+      "short": "Wahlström",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2003
+    },
+    {
+      "id": 102628,
+      "name": "Matis Skagerlind",
+      "short": "Skagerlind",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 102629,
+      "name": "Mattias Magnusson",
+      "short": "Magnusson M.",
+      "tournaments": 68,
+      "first": 1999,
+      "last": 2008
+    },
+    {
+      "id": 102630,
+      "name": "Robert Svensson",
+      "short": "Svensson R.",
+      "tournaments": 63,
+      "first": 1999,
+      "last": 2007
+    },
+    {
+      "id": 102787,
+      "name": "Johan Svensson",
+      "short": "Svensson J.",
+      "tournaments": 15,
+      "first": 2000,
+      "last": 2008
+    },
+    {
+      "id": 102788,
+      "name": "David Ottosson",
+      "short": "Ottosson",
+      "tournaments": 13,
+      "first": 2000,
+      "last": 2008
+    },
+    {
+      "id": 102789,
+      "name": "Anders Berg",
+      "short": "Berg A.",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 102790,
+      "name": "Johan Rininsland",
+      "short": "Rininsland",
+      "tournaments": 9,
+      "first": 1999,
+      "last": 2005
+    },
+    {
+      "id": 102949,
+      "name": "Niklas Hedin",
+      "short": "Hedin",
+      "tournaments": 5,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 102950,
+      "name": "Per Kohler",
+      "short": "Kohler",
+      "tournaments": 7,
+      "first": 2000,
+      "last": 2005
+    },
+    {
+      "id": 102988,
+      "name": "Isak Hermansson",
+      "short": "Hermansson",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2005
+    },
+    {
+      "id": 102989,
+      "name": "Rami Morssy",
+      "short": "Morssy",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2005
+    },
+    {
+      "id": 103020,
+      "name": "Mikael \"Micke\" Oestberg",
+      "short": "Östberg",
+      "tournaments": 25,
+      "first": 2000,
+      "last": 2007
+    },
+    {
+      "id": 103022,
+      "name": "Martin Woxlin",
+      "short": "Woxlin",
+      "tournaments": 8,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 103066,
+      "name": "Roger Jonsson",
+      "short": "Jonsson",
+      "tournaments": 8,
+      "first": 2001,
+      "last": 2002
+    },
+    {
+      "id": 103209,
+      "name": "Stefan Esselius",
+      "short": "Esselius",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103286,
+      "name": "Ola Olofsson",
+      "short": "Olofsson",
+      "tournaments": 5,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103287,
+      "name": "Per Hugosson",
+      "short": "Hugosson",
+      "tournaments": 3,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103288,
+      "name": "Magnus Willner",
+      "short": "Willner",
+      "tournaments": 11,
+      "first": 2001,
+      "last": 2003
+    },
+    {
+      "id": 103289,
+      "name": "Magnus Emmens",
+      "short": "Emmens",
+      "tournaments": 12,
+      "first": 2001,
+      "last": 2004
+    },
+    {
+      "id": 103390,
+      "name": "Jonas Liberg",
+      "short": "Liberg",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 103391,
+      "name": "Jonas Backstrom",
+      "short": "Backstrom",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103393,
+      "name": "Daniel Martin-Vivaldi",
+      "short": "Martin-Vivaldi",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103634,
+      "name": "Peter Nilsson",
+      "short": "Nilsson",
+      "tournaments": 2,
+      "first": 2001,
+      "last": 2002
+    },
+    {
+      "id": 103694,
+      "name": "Mike Fredriksson",
+      "short": "Frederiksson",
+      "tournaments": 6,
+      "first": 2001,
+      "last": 2009
+    },
+    {
+      "id": 103695,
+      "name": "Stefan Gunnarsson",
+      "short": "Gunnarsson",
+      "tournaments": 98,
+      "first": 2001,
+      "last": 2013
+    },
+    {
+      "id": 103807,
+      "name": "Martin Jonsson",
+      "short": "Jonsson",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 103863,
+      "name": "Hannes Brinkborg",
+      "short": "Brinkborg",
+      "tournaments": 147,
+      "first": 2002,
+      "last": 2013
+    },
+    {
+      "id": 103864,
+      "name": "Andreas Gilbertsson",
+      "short": "Gilbertsson",
+      "tournaments": 19,
+      "first": 2002,
+      "last": 2004
+    },
+    {
+      "id": 104243,
+      "name": "Staffan Sahlberg",
+      "short": "Sahlberg",
+      "tournaments": 6,
+      "first": 2003,
+      "last": 2004
+    },
+    {
+      "id": 104244,
+      "name": "Robert Frisk",
+      "short": "Frisk",
+      "tournaments": 3,
+      "first": 2003,
+      "last": 2004
+    },
+    {
+      "id": 104310,
+      "name": "Rasmus Jonsson",
+      "short": "Jonsson",
+      "tournaments": 21,
+      "first": 2003,
+      "last": 2009
+    },
+    {
+      "id": 104311,
+      "name": "Marten Christiansson",
+      "short": "Christiansson",
+      "tournaments": 9,
+      "first": 2003,
+      "last": 2009
+    },
+    {
+      "id": 104380,
+      "name": "Mattias Andersson",
+      "short": "Andersson, Mat.",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104381,
+      "name": "Jonas Larsson",
+      "short": "Larsson",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104668,
+      "name": "Peter Hägg",
+      "short": "Hägg",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104669,
+      "name": "Ola Kvist",
+      "short": "Kvist",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 104736,
+      "name": "Fredrik Gustafson",
+      "short": "Gustafson",
+      "tournaments": 10,
+      "first": 2004,
+      "last": 2007
+    },
+    {
+      "id": 104935,
+      "name": "Daniel Clifford",
+      "short": "Clifford",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104936,
+      "name": "Johan Olson",
+      "short": "Olson",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 105154,
+      "name": "Petter Jonsson",
+      "short": "Jonsson, P.",
+      "tournaments": 43,
+      "first": 2004,
+      "last": 2012
+    },
+    {
+      "id": 105155,
+      "name": "Mikael Renegard",
+      "short": "Renegard",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 115240,
+      "name": "Gustav Svensson",
+      "short": "Svensson",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 115729,
+      "name": "Mika Päiväniemi",
+      "short": "Päiväniemi",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 115730,
+      "name": "Stefan Lunderbye",
+      "short": "Lunderbye",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 116585,
+      "name": "Tommy Öman",
+      "short": "Öman",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117851,
+      "name": "Carl Troedsson",
+      "short": "Troedsson",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 117871,
+      "name": "Stefan Berglund",
+      "short": "Berglund",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 117872,
+      "name": "Joakim Hansson",
+      "short": "Hansson",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 117894,
+      "name": "Björn Zelander",
+      "short": "Zelander",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 117895,
+      "name": "Henrik Andersson",
+      "short": "Andersson, H.",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2009
+    },
+    {
+      "id": 117995,
+      "name": "Daniel Andersson",
+      "short": "Andersson, Dan.",
+      "tournaments": 21,
+      "first": 2006,
+      "last": 2012
+    },
+    {
+      "id": 118171,
+      "name": "Tobias Prytz",
+      "short": "Prytz",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118172,
+      "name": "Jens Olsson",
+      "short": "Olsson",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118623,
+      "name": "Magnus Nordlander",
+      "short": "Nordlander",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118726,
+      "name": "Lawrence Montas",
+      "short": "Montas",
+      "tournaments": 16,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 118727,
+      "name": "Kjell Jonsson",
+      "short": "Jonsson",
+      "tournaments": 16,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 119394,
+      "name": "Olov Eriksson",
+      "short": "Eriksson",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 120915,
+      "name": "Patrik Törner",
+      "short": "Törner",
+      "tournaments": 4,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 120940,
+      "name": "Josef Buskhe",
+      "short": "Buskhe",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120992,
+      "name": "Björn Huitfeldt",
+      "short": "Huitfeldt",
+      "tournaments": 16,
+      "first": 2008,
+      "last": 2011
+    },
+    {
+      "id": 122045,
+      "name": "Andreas Rågfeldt",
+      "short": "Ragfeldt",
+      "tournaments": 4,
+      "first": 2009,
+      "last": 2011
+    },
+    {
+      "id": 122268,
+      "name": "Peter Anundgård",
+      "short": "Anundgard",
+      "tournaments": 4,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 124866,
+      "name": "Erik Andersson",
+      "short": "Andersson, Er.",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125006,
+      "name": "Simon Ekbäck Nordström",
+      "short": "Ekbäck",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2011
+    },
+    {
+      "id": 125114,
+      "name": "Henrik Löfgren",
+      "short": "Löfgren",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125115,
+      "name": "Per Chaikiat",
+      "short": "Chaikiat",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125325,
+      "name": "Johan Hanna",
+      "short": "Hanna",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125326,
+      "name": "Ashur Ibrahim",
+      "short": "Ibrahim",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 131971,
+      "name": "Jens Jacobsson",
+      "short": "Jacobsson",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132098,
+      "name": "Stefan Karlsson",
+      "short": "Karlsson",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132102,
+      "name": "Magnus Johansson",
+      "short": "Johansson",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132518,
+      "name": "Jakob Wijk Tegenrot",
+      "short": "Wijk Tegenrot",
+      "tournaments": 24,
+      "first": 2010,
+      "last": 2026
+    },
+    {
+      "id": 132535,
+      "name": "Hampus Randén",
+      "short": "Randén",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132750,
+      "name": "Manne Norman",
+      "short": "Norman",
+      "tournaments": 4,
+      "first": 2011,
+      "last": 2015
+    },
+    {
+      "id": 132852,
+      "name": "Stefan Struvert",
+      "short": "Struvert",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132853,
+      "name": "Johan Ström",
+      "short": "Ström",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 136448,
+      "name": "Viktor Jonsson",
+      "short": "Jonsson, V.",
+      "tournaments": 11,
+      "first": 2011,
+      "last": 2023
+    },
+    {
+      "id": 137169,
+      "name": "Mårten Norman",
+      "short": "Norman",
+      "tournaments": 3,
+      "first": 2011,
+      "last": 2015
+    },
+    {
+      "id": 137171,
+      "name": "Wilhelm Nilsson",
+      "short": "Nilsson",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 140039,
+      "name": "Christofer Lewin",
+      "short": "Lewin",
+      "tournaments": 4,
+      "first": 2012,
+      "last": 2019
+    },
+    {
+      "id": 140743,
+      "name": "Peter Lundgren",
+      "short": "Lundgren",
+      "tournaments": 15,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 141852,
+      "name": "Wilhelm Fors",
+      "short": "Fors",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141853,
+      "name": "Henrik Eklöf Ericson",
+      "short": "Eklöf Ericson",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144497,
+      "name": "Martin Appelgren",
+      "short": "Appelgren",
+      "tournaments": 116,
+      "first": 2015,
+      "last": 2026
+    },
+    {
+      "id": 144516,
+      "name": "Alexander Herrmann",
+      "short": "Herrmann",
+      "tournaments": 62,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 145060,
+      "name": "Alexander Annerstedt",
+      "short": "Annerstedt",
+      "tournaments": 41,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 145062,
+      "name": "Simon Boman",
+      "short": "Boman",
+      "tournaments": 44,
+      "first": 2015,
+      "last": 2018
+    },
+    {
+      "id": 147056,
+      "name": "Martin Barrefalk",
+      "short": "Barrefalk",
+      "tournaments": 4,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 148484,
+      "name": "Jakob Molin",
+      "short": "Molin",
+      "tournaments": 14,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 148660,
+      "name": "Sebastian Åkesson-Holm",
+      "short": "Åkesson-Holm",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 149464,
+      "name": "Linus Frantzich",
+      "short": "Frantzich",
+      "tournaments": 7,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 151197,
+      "name": "Ludvig Simonsson",
+      "short": "Simonsson",
+      "tournaments": 18,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 153912,
+      "name": "Linus Tholse",
+      "short": "Tholse",
+      "tournaments": 16,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 160555,
+      "name": "David Åhman",
+      "short": "Åhman",
+      "tournaments": 109,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 164884,
+      "name": "Jonas Åberg",
+      "short": "Åberg",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 166274,
+      "name": "Jonatan Hellvig",
+      "short": "Hellvig",
+      "tournaments": 109,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 166287,
+      "name": "Theodor Grahn",
+      "short": "Grahn",
+      "tournaments": 38,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 168232,
+      "name": "Philip Franzon",
+      "short": "Franzon",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 168894,
+      "name": "Martin Johansson",
+      "short": "Johansson",
+      "tournaments": 6,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 171233,
+      "name": "Leon Vincent",
+      "short": "Vincent",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 171234,
+      "name": "Isak Cameron",
+      "short": "Cameron",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 171940,
+      "name": "Jacob Hölting Nilsson",
+      "short": "Hölting Nilsson",
+      "tournaments": 49,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 177962,
+      "name": "Carl Petersson",
+      "short": "Petersson",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 178014,
+      "name": "Fabian Isaksson",
+      "short": "Isaksson",
+      "tournaments": 6,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 178243,
+      "name": "Linus Isaksson",
+      "short": "Isaksson",
+      "tournaments": 39,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 182701,
+      "name": "Erik Ask",
+      "short": "Ask",
+      "tournaments": 5,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 190602,
+      "name": "Stefan Andreasson",
+      "short": "Andreasson",
+      "tournaments": 19,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 190604,
+      "name": "Anton Andersson",
+      "short": "Andersson, A.",
+      "tournaments": 17,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 201042,
+      "name": "Fabian Ramén",
+      "short": "Ramén",
+      "tournaments": 8,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 202200,
+      "name": "Elmer Andersson",
+      "short": "Andersson, E",
+      "tournaments": 42,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 207076,
+      "name": "Carl Axel Emil Algulin",
+      "short": "Algulin",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 207080,
+      "name": "Bruno Fridström",
+      "short": "Fridström",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 207084,
+      "name": "Leonel Penela",
+      "short": "Penela",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 209770,
+      "name": "Teddie Almblad Engvall",
+      "short": "Almblad Engvall",
+      "tournaments": 7,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 210687,
+      "name": "Valdemar Jacobsson Orrbeck",
+      "short": "Jacobsson Orrbeck",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 211600,
+      "name": "Alfred Mjörnheim",
+      "short": "Mjörheim",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 223798,
+      "name": "Henrik Brus",
+      "short": "Brus",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 229321,
+      "name": "Casper Tjernqvist",
+      "short": "Tjernqvist",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 232874,
+      "name": "Vincent Sundell",
+      "short": "Sundell",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 234076,
+      "name": "Noah Grankvist",
+      "short": "Grankvist",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 240137,
+      "name": "Valdemar Rasmusson",
+      "short": "Rasmusson",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 240138,
+      "name": "Otto Bornäs",
+      "short": "Bornäs",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 240399,
+      "name": "Daniel Enström",
+      "short": "Enström",
+      "tournaments": 5,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 240546,
+      "name": "Leo Constantin",
+      "short": "Constantin",
+      "tournaments": 5,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100305,
+      "b": 100306,
+      "t": 41,
+      "f": 1991,
+      "l": 1997
+    },
+    {
+      "a": 100305,
+      "b": 100501,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100305,
+      "b": 100840,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100305,
+      "b": 102121,
+      "t": 8,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 100305,
+      "b": 103020,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 100501,
+      "b": 100922,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100840,
+      "b": 100842,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100840,
+      "b": 102001,
+      "t": 78,
+      "f": 1997,
+      "l": 2009
+    },
+    {
+      "a": 100840,
+      "b": 102629,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 100840,
+      "b": 102630,
+      "t": 29,
+      "f": 2004,
+      "l": 2006
+    },
+    {
+      "a": 100840,
+      "b": 103695,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 100840,
+      "b": 103863,
+      "t": 40,
+      "f": 2006,
+      "l": 2008
+    },
+    {
+      "a": 100840,
+      "b": 105154,
+      "t": 2,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 100840,
+      "b": 117995,
+      "t": 5,
+      "f": 2009,
+      "l": 2012
+    },
+    {
+      "a": 100841,
+      "b": 100843,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100842,
+      "b": 102453,
+      "t": 8,
+      "f": 1999,
+      "l": 2000
+    },
+    {
+      "a": 100842,
+      "b": 102628,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 100842,
+      "b": 102790,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 100842,
+      "b": 102949,
+      "t": 5,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 100919,
+      "b": 100921,
+      "t": 11,
+      "f": 1998,
+      "l": 1999
+    },
+    {
+      "a": 100919,
+      "b": 100923,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100919,
+      "b": 102950,
+      "t": 6,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 100920,
+      "b": 100921,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100922,
+      "b": 102629,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102001,
+      "b": 102629,
+      "t": 2,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 102001,
+      "b": 103695,
+      "t": 13,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 102453,
+      "b": 102454,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102453,
+      "b": 102629,
+      "t": 2,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 102453,
+      "b": 103287,
+      "t": 3,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102454,
+      "b": 103022,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 102629,
+      "b": 102630,
+      "t": 15,
+      "f": 1999,
+      "l": 2007
+    },
+    {
+      "a": 102629,
+      "b": 102787,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 102629,
+      "b": 103020,
+      "t": 3,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 102629,
+      "b": 103695,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 102629,
+      "b": 103863,
+      "t": 42,
+      "f": 2002,
+      "l": 2006
+    },
+    {
+      "a": 102630,
+      "b": 103864,
+      "t": 19,
+      "f": 2002,
+      "l": 2004
+    },
+    {
+      "a": 102787,
+      "b": 102788,
+      "t": 12,
+      "f": 2000,
+      "l": 2008
+    },
+    {
+      "a": 102787,
+      "b": 103020,
+      "t": 2,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 102788,
+      "b": 103020,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 102789,
+      "b": 102790,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102790,
+      "b": 103634,
+      "t": 2,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 102790,
+      "b": 104244,
+      "t": 3,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 102790,
+      "b": 104311,
+      "t": 2,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102950,
+      "b": 103022,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102988,
+      "b": 102989,
+      "t": 2,
+      "f": 2000,
+      "l": 2005
+    },
+    {
+      "a": 102988,
+      "b": 103209,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102989,
+      "b": 116585,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 103020,
+      "b": 103022,
+      "t": 2,
+      "f": 2001,
+      "l": 2003
+    },
+    {
+      "a": 103020,
+      "b": 103066,
+      "t": 3,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103020,
+      "b": 104243,
+      "t": 6,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 103020,
+      "b": 104736,
+      "t": 6,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 103020,
+      "b": 117851,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103022,
+      "b": 117995,
+      "t": 4,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 103066,
+      "b": 103286,
+      "t": 5,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103288,
+      "b": 103289,
+      "t": 11,
+      "f": 2001,
+      "l": 2003
+    },
+    {
+      "a": 103289,
+      "b": 103390,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 103391,
+      "b": 103393,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103694,
+      "b": 103695,
+      "t": 5,
+      "f": 2001,
+      "l": 2004
+    },
+    {
+      "a": 103694,
+      "b": 104310,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 103695,
+      "b": 103863,
+      "t": 66,
+      "f": 2008,
+      "l": 2013
+    },
+    {
+      "a": 103695,
+      "b": 104311,
+      "t": 4,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 103695,
+      "b": 117995,
+      "t": 8,
+      "f": 2008,
+      "l": 2009
+    },
+    {
+      "a": 103807,
+      "b": 132098,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104310,
+      "b": 104311,
+      "t": 2,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 104310,
+      "b": 105154,
+      "t": 16,
+      "f": 2005,
+      "l": 2009
+    },
+    {
+      "a": 104310,
+      "b": 117995,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104310,
+      "b": 124866,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104311,
+      "b": 119394,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104380,
+      "b": 104381,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104668,
+      "b": 104669,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104669,
+      "b": 115240,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104736,
+      "b": 117995,
+      "t": 3,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104736,
+      "b": 119394,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 104935,
+      "b": 104936,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 105154,
+      "b": 105155,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 105154,
+      "b": 120940,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 105154,
+      "b": 120992,
+      "t": 16,
+      "f": 2008,
+      "l": 2011
+    },
+    {
+      "a": 105154,
+      "b": 122045,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 105154,
+      "b": 136448,
+      "t": 6,
+      "f": 2011,
+      "l": 2012
+    },
+    {
+      "a": 115729,
+      "b": 115730,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117871,
+      "b": 117872,
+      "t": 3,
+      "f": 2006,
+      "l": 2008
+    },
+    {
+      "a": 117894,
+      "b": 117895,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 117895,
+      "b": 118623,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 117895,
+      "b": 120940,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118171,
+      "b": 118172,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118726,
+      "b": 118727,
+      "t": 16,
+      "f": 2007,
+      "l": 2011
+    },
+    {
+      "a": 120915,
+      "b": 122268,
+      "t": 4,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122045,
+      "b": 125006,
+      "t": 3,
+      "f": 2009,
+      "l": 2011
+    },
+    {
+      "a": 125114,
+      "b": 125115,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125325,
+      "b": 125326,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 131971,
+      "b": 132102,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 132518,
+      "b": 132535,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 132518,
+      "b": 140743,
+      "t": 15,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 132518,
+      "b": 144497,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 132518,
+      "b": 145060,
+      "t": 4,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 132518,
+      "b": 190602,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 132518,
+      "b": 210687,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 132750,
+      "b": 137169,
+      "t": 3,
+      "f": 2011,
+      "l": 2015
+    },
+    {
+      "a": 132750,
+      "b": 140039,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 132852,
+      "b": 132853,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 136448,
+      "b": 144497,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 136448,
+      "b": 153912,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 136448,
+      "b": 201042,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 137171,
+      "b": 140039,
+      "t": 2,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 140039,
+      "b": 148484,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 141852,
+      "b": 141853,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 144497,
+      "b": 144516,
+      "t": 43,
+      "f": 2017,
+      "l": 2022
+    },
+    {
+      "a": 144497,
+      "b": 145060,
+      "t": 17,
+      "f": 2019,
+      "l": 2025
+    },
+    {
+      "a": 144497,
+      "b": 145062,
+      "t": 44,
+      "f": 2015,
+      "l": 2018
+    },
+    {
+      "a": 144497,
+      "b": 147056,
+      "t": 4,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 144497,
+      "b": 171940,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 144497,
+      "b": 182701,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 144497,
+      "b": 201042,
+      "t": 5,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 144516,
+      "b": 145060,
+      "t": 7,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 144516,
+      "b": 151197,
+      "t": 12,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 145060,
+      "b": 148660,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145060,
+      "b": 160555,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145060,
+      "b": 168232,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145060,
+      "b": 168894,
+      "t": 5,
+      "f": 2020,
+      "l": 2026
+    },
+    {
+      "a": 145060,
+      "b": 190602,
+      "t": 2,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 145060,
+      "b": 209770,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 145060,
+      "b": 210687,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 145060,
+      "b": 234076,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 148484,
+      "b": 153912,
+      "t": 13,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 149464,
+      "b": 151197,
+      "t": 6,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 149464,
+      "b": 168894,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 160555,
+      "b": 166274,
+      "t": 108,
+      "f": 2018,
+      "l": 2026
+    },
+    {
+      "a": 164884,
+      "b": 168232,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 166274,
+      "b": 190604,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 166287,
+      "b": 178243,
+      "t": 38,
+      "f": 2020,
+      "l": 2026
+    },
+    {
+      "a": 171233,
+      "b": 171234,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 171940,
+      "b": 182701,
+      "t": 4,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 171940,
+      "b": 202200,
+      "t": 42,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 171940,
+      "b": 211600,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 177962,
+      "b": 178014,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 178014,
+      "b": 178243,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 178014,
+      "b": 209770,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 178014,
+      "b": 232874,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 190602,
+      "b": 190604,
+      "t": 16,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 201042,
+      "b": 209770,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 201042,
+      "b": 232874,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 207076,
+      "b": 209770,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 207080,
+      "b": 207084,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 209770,
+      "b": 210687,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 210687,
+      "b": 234076,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 223798,
+      "b": 229321,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 240137,
+      "b": 240138,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 240399,
+      "b": 240546,
+      "t": 5,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

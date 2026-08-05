@@ -1,0 +1,176 @@
+{
+  "country": "ALG",
+  "countryName": "Algeria",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 139342,
+      "name": "Akram Dekkiche",
+      "short": "Dekkiche",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139343,
+      "name": "Walid Ait Salem",
+      "short": "Ait Salem",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 150035,
+      "name": "Mohamed Hichame Benbouali",
+      "short": "Benbouali",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 153438,
+      "name": "Rabahi Djillali",
+      "short": "Rabahi",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 153441,
+      "name": "Azibi Walid",
+      "short": "Azibi",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 156421,
+      "name": "Ayyoub Dekkiche",
+      "short": "Dekkiche A",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 167814,
+      "name": "Hamadache Ayoub",
+      "short": "Ayoub",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 167815,
+      "name": "Kallouche Mohamed-Islem",
+      "short": "Kallouche",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 167816,
+      "name": "Omar Benfetima",
+      "short": "Omar",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 167846,
+      "name": "Tizit Farouk",
+      "short": "Farouk",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 184367,
+      "name": "Touhami Hany",
+      "short": "hany touhami",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 184443,
+      "name": "Abderaouf Boulfrakh",
+      "short": "boulfrakh",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 184463,
+      "name": "Kara Ali Mohamed Elamine",
+      "short": "kara",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 139342,
+      "b": 139343,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 150035,
+      "b": 167814,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 153438,
+      "b": 153441,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 156421,
+      "b": 167815,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 167814,
+      "b": 167815,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 167814,
+      "b": 167846,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167815,
+      "b": 167816,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 184367,
+      "b": 184443,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 184367,
+      "b": 184463,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}

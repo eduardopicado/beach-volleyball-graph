@@ -1,0 +1,32 @@
+{
+  "country": "LES",
+  "countryName": "Lesotho",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 173020,
+      "name": "Moholo Lekomola",
+      "short": "Lekomola",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 195138,
+      "name": "Toka Mosala",
+      "short": "Toka",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 173020,
+      "b": 195138,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "country": "ROU",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100832,
+      "name": "Dan Dragusin",
+      "dob": "1966-09-17",
+      "height": 190,
+      "weight": 79
+    },
+    {
+      "id": 100834,
+      "name": "Dumitru Ionescu",
+      "dob": "1964-04-01",
+      "height": 188,
+      "weight": 76
+    },
+    {
+      "id": 101982,
+      "name": "Adrian \"Priky\" Pricop",
+      "dob": "1970-05-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102424,
+      "name": "Ion Ion",
+      "dob": "1970-08-08",
+      "height": 189,
+      "weight": 81
+    },
+    {
+      "id": 102425,
+      "name": "Adrian Ion",
+      "dob": "1970-08-08",
+      "height": 189,
+      "weight": 82
+    },
+    {
+      "id": 124402,
+      "name": "Vardai Ioan",
+      "dob": "1980-05-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124405,
+      "name": "Lelea Vasile Catalin",
+      "dob": "1980-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125484,
+      "name": "Bogdan Mehedinteanu",
+      "dob": "1990-06-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132154,
+      "name": "Tudorel Farcas",
+      "dob": "1987-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138837,
+      "name": "Bogdan Constantin Bratosin",
+      "dob": "1989-05-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144116,
+      "name": "Lucian Badiceanu",
+      "dob": "1996-10-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144117,
+      "name": "Ioan Marius Rosu",
+      "dob": "1996-02-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157189,
+      "name": "Laurean-Andrei Crisan",
+      "dob": "1998-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157190,
+      "name": "Cristian-Valentin Pantea",
+      "dob": "1998-02-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 158022,
+      "name": "Sergiu-Octavian Rodina",
+      "dob": "1999-06-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 159635,
+      "name": "Bogdan Necula",
+      "dob": "1976-09-04",
+      "height": 182,
+      "weight": 81
+    },
+    {
+      "id": 163432,
+      "name": "Eduard Popa",
+      "dob": "2000-11-13",
+      "height": 191,
+      "weight": 78
+    },
+    {
+      "id": 173124,
+      "name": "Cristian Maier",
+      "dob": "1999-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173638,
+      "name": "Andrei Grigore",
+      "dob": "2002-05-24",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

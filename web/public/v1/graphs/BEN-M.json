@@ -1,0 +1,93 @@
+{
+  "country": "BEN",
+  "countryName": "Benin",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 147534,
+      "name": "Jean Houenagnon",
+      "short": "Houenagnon",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147535,
+      "name": "Noutchozoun Manlonhan",
+      "short": "Manlonhan",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 173015,
+      "name": "Mensan Tobby N Tohouegnon",
+      "short": "Tohouegnon",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 177540,
+      "name": "Yacoubou Daouda",
+      "short": "Dao",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226750,
+      "name": "Abdel Sadath Tchetekoua",
+      "short": "Tchetekoua",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226751,
+      "name": "Abdou Kabirou Mama",
+      "short": "Mama",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 231945,
+      "name": "Kora Hosni Docko",
+      "short": "Docko,K",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 147534,
+      "b": 147535,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 173015,
+      "b": 177540,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 226750,
+      "b": 226751,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 226751,
+      "b": 231945,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

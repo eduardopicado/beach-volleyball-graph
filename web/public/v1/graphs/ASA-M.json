@@ -1,0 +1,32 @@
+{
+  "country": "ASA",
+  "countryName": "American Samoa",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100409,
+      "name": "Albert \"Samoan Ninja\" Hannemann",
+      "short": "Hannemann A.",
+      "tournaments": 14,
+      "first": 1999,
+      "last": 2000
+    },
+    {
+      "id": 102513,
+      "name": "Nicholas \"Spiderman\" Hannemann",
+      "short": "Hannemann N.",
+      "tournaments": 14,
+      "first": 1999,
+      "last": 2000
+    }
+  ],
+  "edges": [
+    {
+      "a": 100409,
+      "b": 102513,
+      "t": 14,
+      "f": 1999,
+      "l": 2000
+    }
+  ]
+}

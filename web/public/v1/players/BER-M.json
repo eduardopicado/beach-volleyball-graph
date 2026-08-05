@@ -1,0 +1,20 @@
+{
+  "country": "BER",
+  "gender": "M",
+  "players": [
+    {
+      "id": 118312,
+      "name": "Ian Bucci",
+      "dob": "1991-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118313,
+      "name": "Matthew Sinclair",
+      "dob": null,
+      "height": null,
+      "weight": null
+    }
+  ]
+}

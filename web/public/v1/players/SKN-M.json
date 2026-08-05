@@ -1,0 +1,55 @@
+{
+  "country": "SKN",
+  "gender": "M",
+  "players": [
+    {
+      "id": 115613,
+      "name": "Shawn Seabrookes",
+      "dob": "1979-09-11",
+      "height": 191,
+      "weight": 87
+    },
+    {
+      "id": 115616,
+      "name": "St Clair Hodge",
+      "dob": "1982-04-07",
+      "height": 182,
+      "weight": 73
+    },
+    {
+      "id": 168263,
+      "name": "Kishaun Southwell",
+      "dob": "2000-04-30",
+      "height": 176,
+      "weight": 149
+    },
+    {
+      "id": 168406,
+      "name": "Kieran Lake",
+      "dob": "2000-08-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188797,
+      "name": "Clerique Ward",
+      "dob": "2003-02-28",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 200699,
+      "name": "Julian Bristol",
+      "dob": "2006-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210818,
+      "name": "Jedediah Pencheon",
+      "dob": "2007-01-22",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

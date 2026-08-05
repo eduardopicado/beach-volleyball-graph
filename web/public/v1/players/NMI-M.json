@@ -1,0 +1,20 @@
+{
+  "country": "NMI",
+  "gender": "M",
+  "players": [
+    {
+      "id": 174380,
+      "name": "Logan Jon Mister",
+      "dob": "2001-08-10",
+      "height": 193,
+      "weight": 88
+    },
+    {
+      "id": 189639,
+      "name": "Andrew Scott Johnson",
+      "dob": "1996-10-09",
+      "height": 185,
+      "weight": 80
+    }
+  ]
+}

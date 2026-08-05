@@ -1,0 +1,78 @@
+{
+  "country": "SAM",
+  "countryName": "Samoa",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100491,
+      "name": "Allen \"A-Bomb\" Allen",
+      "short": "Allen Allen",
+      "tournaments": 7,
+      "first": 1995,
+      "last": 1998
+    },
+    {
+      "id": 100645,
+      "name": "Masui Allen",
+      "short": "M.Allen",
+      "tournaments": 7,
+      "first": 1995,
+      "last": 1998
+    },
+    {
+      "id": 189949,
+      "name": "Tui Eneliko",
+      "short": "Eneliko",
+      "tournaments": 3,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 207204,
+      "name": "Glen Julius Young Yen",
+      "short": "Young Yen",
+      "tournaments": 3,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 231413,
+      "name": "Lorenzo Junior Maanaima",
+      "short": "Lorenzo",
+      "tournaments": 3,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 232704,
+      "name": "Rhapsody Keneti Jr POUOA",
+      "short": "Rhapsody",
+      "tournaments": 3,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100491,
+      "b": 100645,
+      "t": 7,
+      "f": 1995,
+      "l": 1998
+    },
+    {
+      "a": 189949,
+      "b": 207204,
+      "t": 3,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 231413,
+      "b": 232704,
+      "t": 3,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

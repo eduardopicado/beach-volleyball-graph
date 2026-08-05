@@ -1,0 +1,101 @@
+{
+  "country": "MAC",
+  "countryName": "Macao SAR China",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102881,
+      "name": "Vai Tin Vong",
+      "short": "Vong",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102882,
+      "name": "Weng Kin Lam",
+      "short": "Lam",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102883,
+      "name": "Chuen Ki Too",
+      "short": "Too",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102884,
+      "name": "Sai Tik Lai",
+      "short": "Lai",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 199655,
+      "name": "Ka Lon Chan",
+      "short": "CHAN K. L.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199656,
+      "name": "Chit Meng Tam",
+      "short": "Tam C. M.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199657,
+      "name": "Wai Hei Wong",
+      "short": "WONG W. H.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199658,
+      "name": "Hou Wang Cheong",
+      "short": "CHEANG H. W.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 102881,
+      "b": 102882,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102883,
+      "b": 102884,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 199655,
+      "b": 199656,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 199657,
+      "b": 199658,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}

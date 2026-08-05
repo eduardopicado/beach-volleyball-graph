@@ -1,0 +1,405 @@
+{
+  "country": "KAZ",
+  "gender": "M",
+  "players": [
+    {
+      "id": 102597,
+      "name": "Oleg \"Oleg\" Aristarkhov",
+      "dob": "1975-03-28",
+      "height": 191,
+      "weight": 82
+    },
+    {
+      "id": 102598,
+      "name": "Yevgeniy \"Zhenya\" Mashebin",
+      "dob": "1975-01-26",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 102599,
+      "name": "Denis \"Den\" Rovkin",
+      "dob": "1976-08-19",
+      "height": 182,
+      "weight": 77
+    },
+    {
+      "id": 102600,
+      "name": "Andrey \"Dryulya\" Ryukhov",
+      "dob": "1973-08-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102888,
+      "name": "Dmitriy Vorobyev",
+      "dob": "1974-09-26",
+      "height": 202,
+      "weight": 94
+    },
+    {
+      "id": 102998,
+      "name": "Sergey \"Seryi\" Sinkevich",
+      "dob": "1974-12-27",
+      "height": 194,
+      "weight": 83
+    },
+    {
+      "id": 103350,
+      "name": "Pavel Zabuslayev",
+      "dob": "1978-05-11",
+      "height": 186,
+      "weight": 88
+    },
+    {
+      "id": 104223,
+      "name": "Oleg Kisselev",
+      "dob": "1967-07-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104317,
+      "name": "Pavel Saulko",
+      "dob": "1982-02-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104644,
+      "name": "Vassiliy Kushtalov",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104676,
+      "name": "Nikolay Yudakov",
+      "dob": "1983-02-14",
+      "height": 193,
+      "weight": 80
+    },
+    {
+      "id": 104679,
+      "name": "Anton Pilipyuk",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104872,
+      "name": "Alexey Sidorenko",
+      "dob": "1983-08-26",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 104876,
+      "name": "Sergey Sidorenko",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 113769,
+      "name": "Daniil Semeyev",
+      "dob": "1971-11-24",
+      "height": 205,
+      "weight": 95
+    },
+    {
+      "id": 117867,
+      "name": "Alexandr Dyachenko",
+      "dob": "1980-10-23",
+      "height": 195,
+      "weight": 82
+    },
+    {
+      "id": 117868,
+      "name": "Alexey Kulinich",
+      "dob": "1980-05-18",
+      "height": 195,
+      "weight": 89
+    },
+    {
+      "id": 118547,
+      "name": "Alexey Kuleshov",
+      "dob": "1987-09-14",
+      "height": 191,
+      "weight": 93
+    },
+    {
+      "id": 118553,
+      "name": "Yussupov Maxim",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118554,
+      "name": "Novikov Zakhar",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118555,
+      "name": "Tkachenko Roman",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118556,
+      "name": "Babichev Alexandr",
+      "dob": "1989-05-25",
+      "height": 189,
+      "weight": 82
+    },
+    {
+      "id": 120441,
+      "name": "Sergey Shindov",
+      "dob": "1985-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120454,
+      "name": "Dmitriy Yakovlev",
+      "dob": "1988-01-18",
+      "height": 191,
+      "weight": 91
+    },
+    {
+      "id": 120673,
+      "name": "Boris Kempa",
+      "dob": "1991-05-25",
+      "height": 194,
+      "weight": 75
+    },
+    {
+      "id": 122476,
+      "name": "Vladislav Pustynnikov",
+      "dob": "1993-03-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122477,
+      "name": "Sergey Tsykunov",
+      "dob": "1993-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122478,
+      "name": "Sergey Bogatu",
+      "dob": "1993-02-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122479,
+      "name": "Alexey Orlov",
+      "dob": "1993-11-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135221,
+      "name": "Sergey Kotenev",
+      "dob": "1994-08-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135222,
+      "name": "Oleg Shulyak",
+      "dob": "1995-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135223,
+      "name": "Nurlan Konilkos",
+      "dob": "1995-04-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138617,
+      "name": "Maxim Samotoyev",
+      "dob": "1997-03-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138618,
+      "name": "Yegor Dmitriyev",
+      "dob": "1997-03-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138619,
+      "name": "Serik Supagaliyev",
+      "dob": "1991-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 140369,
+      "name": "Kirill Gurin",
+      "dob": "1995-01-13",
+      "height": 194,
+      "weight": 87
+    },
+    {
+      "id": 140370,
+      "name": "Viktor Pestov",
+      "dob": "1995-05-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141500,
+      "name": "Pavel Aleinik",
+      "dob": "1996-09-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141501,
+      "name": "Vitaliy Shulyak",
+      "dob": "1996-08-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141504,
+      "name": "Artem Petrossyants",
+      "dob": "1995-12-07",
+      "height": 193,
+      "weight": 85
+    },
+    {
+      "id": 141505,
+      "name": "Sergey Polichshuk",
+      "dob": "1997-03-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146161,
+      "name": "Alexandr Prichshepa",
+      "dob": "1996-01-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150287,
+      "name": "Abdulmajid Mokhammad",
+      "dob": "2000-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155608,
+      "name": "Nurdos Aldash",
+      "dob": "2000-04-09",
+      "height": 200,
+      "weight": 96
+    },
+    {
+      "id": 155609,
+      "name": "Ilya Chekurskov",
+      "dob": "2001-05-04",
+      "height": 197,
+      "weight": 86
+    },
+    {
+      "id": 155636,
+      "name": "Alimkhan Kushaliyev",
+      "dob": "2001-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155640,
+      "name": "Yerlan Yelubayev",
+      "dob": "1999-03-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160895,
+      "name": "Andrey Belunin",
+      "dob": "2001-03-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167715,
+      "name": "Artyom Rovkin",
+      "dob": "2001-01-17",
+      "height": 191,
+      "weight": 78
+    },
+    {
+      "id": 178253,
+      "name": "Damir Lapov",
+      "dob": "2002-09-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178255,
+      "name": "Darkhan Amanzholov",
+      "dob": "2002-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189820,
+      "name": "Ivailo Todorov",
+      "dob": "2005-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189823,
+      "name": "Klim Ryukhov",
+      "dob": "2005-08-14",
+      "height": 209,
+      "weight": 98
+    },
+    {
+      "id": 201799,
+      "name": "Vladislav Mastikhin",
+      "dob": "2007-05-23",
+      "height": 195,
+      "weight": 87
+    },
+    {
+      "id": 205048,
+      "name": "Nurboldy Kulboldyyev",
+      "dob": "2007-02-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 217918,
+      "name": "Orazali Sagynysh",
+      "dob": "2009-09-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 222594,
+      "name": "Alikhan Agabek",
+      "dob": "2009-01-29",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "country": "HKG",
+  "countryName": "Hong Kong SAR China",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101594,
+      "name": "Kwok Wai \"Jimmy\" Chow",
+      "short": "Chow",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102916,
+      "name": "Siu Ho Lui",
+      "short": "Lui",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102917,
+      "name": "Hon Tao Lau",
+      "short": "Lau",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102918,
+      "name": "Bo Long Tse",
+      "short": "Tse",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102919,
+      "name": "Tak Ming Poon",
+      "short": "Poon",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102920,
+      "name": "Kin Man \"Gamman\" Au",
+      "short": "Au",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 125555,
+      "name": "Chun Wai Wong",
+      "short": "C.W. WONG",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125556,
+      "name": "Kwun Pong Wong",
+      "short": "K.P. WONG",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 134478,
+      "name": "Pui Lam Wong",
+      "short": "P.L. WONG",
+      "tournaments": 31,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 138134,
+      "name": "Kei Loi Chong",
+      "short": "Chong",
+      "tournaments": 5,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 141858,
+      "name": "Kam Lung Chui",
+      "short": "K.L. CHUI",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 145254,
+      "name": "Tsz Ho Kelvin Lau",
+      "short": "Kelvin",
+      "tournaments": 10,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 151592,
+      "name": "Ming Kam Yiu",
+      "short": "Yiu Ming Kam",
+      "tournaments": 4,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 151593,
+      "name": "Ka Ho Chan",
+      "short": "Chan Ka Ho",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 160900,
+      "name": "Pok Man Yeung",
+      "short": "P.M. YEUNG",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 161801,
+      "name": "Yin Chun Lee",
+      "short": "Y. C. LEE",
+      "tournaments": 5,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 162508,
+      "name": "Kin Wang Tse",
+      "short": "K.W. TSE",
+      "tournaments": 13,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 167034,
+      "name": "Sze Hang Kan",
+      "short": "S. H. Kan",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 167035,
+      "name": "Yat Hong Kwok",
+      "short": "Y. H. Kwok",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 172181,
+      "name": "Cheuk Yin LAU",
+      "short": "C. Y. Lau",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 172182,
+      "name": "Chun Wong",
+      "short": "C. Wong",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 177767,
+      "name": "Wai Kit Chan",
+      "short": "W.K. CHAN",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 192605,
+      "name": "Cheuk Hei Lee",
+      "short": "C. H. Lee",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 199729,
+      "name": "Lit Fung Lee",
+      "short": "L.F. Lee",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 201750,
+      "name": "Ho Chi Chiu",
+      "short": "H. C. Chiu",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 202429,
+      "name": "Siu Wing Chung",
+      "short": "S. W. CHUNG",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 210175,
+      "name": "Hoi Fung Li",
+      "short": "H. F. Li",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210176,
+      "name": "Ho Yiu Wong",
+      "short": "H. Y. Wong",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 234220,
+      "name": "Yat Long LAI",
+      "short": "Y. L. LAI",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101594,
+      "b": 102916,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102917,
+      "b": 102918,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102919,
+      "b": 102920,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 125555,
+      "b": 125556,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 134478,
+      "b": 138134,
+      "t": 5,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 134478,
+      "b": 145254,
+      "t": 10,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 134478,
+      "b": 162508,
+      "t": 13,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 134478,
+      "b": 172181,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 134478,
+      "b": 177767,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 134478,
+      "b": 192605,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 141858,
+      "b": 160900,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 151592,
+      "b": 151593,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 151592,
+      "b": 199729,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 161801,
+      "b": 172181,
+      "t": 5,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 167034,
+      "b": 167035,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167034,
+      "b": 172181,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 167034,
+      "b": 172182,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 167034,
+      "b": 192605,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 192605,
+      "b": 199729,
+      "t": 4,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 192605,
+      "b": 201750,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 202429,
+      "b": 234220,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 210175,
+      "b": 210176,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

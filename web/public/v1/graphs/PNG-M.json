@@ -1,0 +1,32 @@
+{
+  "country": "PNG",
+  "countryName": "Papua New Guinea",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 135268,
+      "name": "Richard Kilarupa",
+      "short": "Kilarupa",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 135269,
+      "name": "Moha Mea",
+      "short": "Mea",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2018
+    }
+  ],
+  "edges": [
+    {
+      "a": 135268,
+      "b": 135269,
+      "t": 2,
+      "f": 2017,
+      "l": 2018
+    }
+  ]
+}

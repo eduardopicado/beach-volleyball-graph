@@ -1,0 +1,815 @@
+{
+  "country": "ARG",
+  "countryName": "Argentina",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 101816,
+      "name": "Paula Parisi",
+      "short": "Parisi",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 102505,
+      "name": "Maria Elena Evangelista",
+      "short": "Evangelista",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2005
+    },
+    {
+      "id": 102506,
+      "name": "Alejandra Elisabet \"Jana\" Ortiz Echague",
+      "short": "Ortiz",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2005
+    },
+    {
+      "id": 112338,
+      "name": "Viviana Dominko",
+      "short": "Dominko",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 112614,
+      "name": "Georgina Klug",
+      "short": "Klug",
+      "tournaments": 65,
+      "first": 2013,
+      "last": 2018
+    },
+    {
+      "id": 117253,
+      "name": "Natali Flaviani",
+      "short": "Flaviani",
+      "tournaments": 5,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 117545,
+      "name": "Mercedes Haydeé San Martín",
+      "short": "San Martín",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117546,
+      "name": "Mariela Celestina Duce",
+      "short": "Duce",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 117553,
+      "name": "Araceli Calgaro",
+      "short": "Calgaro",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117554,
+      "name": "Analía Belmonte",
+      "short": "Belmonte",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117555,
+      "name": "Soledad Colella",
+      "short": "Colella",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117556,
+      "name": "Verónica Azcona",
+      "short": "Azcona",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117557,
+      "name": "Marcela Ochoteco",
+      "short": "Ochoteco",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117558,
+      "name": "Carolina Settimi",
+      "short": "Settimi",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117559,
+      "name": "Mariana Del Coto",
+      "short": "Del Coto",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117561,
+      "name": "Adriana Moyano",
+      "short": "Moyano",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117562,
+      "name": "Tamara Rodriguez",
+      "short": "Rodriguez",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117563,
+      "name": "María Celina Oppezzo",
+      "short": "Oppezzo",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 120037,
+      "name": "Ana Gallay",
+      "short": "Gallay",
+      "tournaments": 124,
+      "first": 2007,
+      "last": 2024
+    },
+    {
+      "id": 122491,
+      "name": "Maria Julia Benet",
+      "short": "Benet",
+      "tournaments": 5,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 134609,
+      "name": "Maria Virginia Zonta",
+      "short": "Zonta",
+      "tournaments": 21,
+      "first": 2011,
+      "last": 2017
+    },
+    {
+      "id": 134610,
+      "name": "Luciana Forguez",
+      "short": "Forguez",
+      "tournaments": 4,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 134611,
+      "name": "Gabriela Albano",
+      "short": "Albano",
+      "tournaments": 4,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 135931,
+      "name": "Maria Florencia Giorgi",
+      "short": "Giorgi",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 135933,
+      "name": "Irene Verasio",
+      "short": "Verasio",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 138787,
+      "name": "Julieta Puntin",
+      "short": "Puntin",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 141758,
+      "name": "Camila Hiruela Tapia",
+      "short": "Hiruela",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 142068,
+      "name": "Alejandra Graiño",
+      "short": "Graiño",
+      "tournaments": 6,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142069,
+      "name": "Florencia Di Cesare",
+      "short": "Di Cesare",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 142942,
+      "name": "Michella Di Cesare",
+      "short": "Di Cesare M.",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 145380,
+      "name": "Milena Churin",
+      "short": "Churin",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145808,
+      "name": "Cecilia Peralta",
+      "short": "Peralta",
+      "tournaments": 21,
+      "first": 2014,
+      "last": 2024
+    },
+    {
+      "id": 149283,
+      "name": "Gallay Evangelina",
+      "short": "Gallay",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 149288,
+      "name": "Florencia Amieva",
+      "short": "Amieva",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 149305,
+      "name": "Maria Loreto Sancer Navarro",
+      "short": "Sancer",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 149307,
+      "name": "Maria Virginia Cappelletti",
+      "short": "Cappelletti",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 150351,
+      "name": "Brenda Ailen Churin",
+      "short": "Churin",
+      "tournaments": 23,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 150359,
+      "name": "Agnes Victoria Michel Tosi",
+      "short": "Michel Tosi",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 156191,
+      "name": "Delfina Villar",
+      "short": "Villar",
+      "tournaments": 3,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 156192,
+      "name": "Julia Diaz Neli",
+      "short": "Diaz",
+      "tournaments": 9,
+      "first": 2016,
+      "last": 2025
+    },
+    {
+      "id": 156193,
+      "name": "Virginia Beguiristain",
+      "short": "Beguiristain",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 163282,
+      "name": "Victoria Pozzo Galdon",
+      "short": "Victoria",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2022
+    },
+    {
+      "id": 163283,
+      "name": "Maria Paz Tolosa",
+      "short": "Paz",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 166926,
+      "name": "Fernanda Pereyra",
+      "short": "Pereyra",
+      "tournaments": 44,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 172781,
+      "name": "Maria Laura Moreno",
+      "short": "Moreno",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 178661,
+      "name": "Maria Belen Enriquez Bondonno",
+      "short": "Enriquez",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 181571,
+      "name": "Maia Najul Rosas",
+      "short": "Najul",
+      "tournaments": 22,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 182131,
+      "name": "Iara Denappole",
+      "short": "Denappole",
+      "tournaments": 6,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 182135,
+      "name": "Agostina Ghigliazza",
+      "short": "Ghigliazza",
+      "tournaments": 17,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 182137,
+      "name": "Morena Marisa Abdala",
+      "short": "Abdala",
+      "tournaments": 15,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 182138,
+      "name": "Agostina Panzera",
+      "short": "Panzera",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 185559,
+      "name": "Carla De Brito",
+      "short": "De Brito",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 200556,
+      "name": "Lucia Piatti Fadda",
+      "short": "Piatti",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 208888,
+      "name": "Victoria Sancer Navarro",
+      "short": "Sancer",
+      "tournaments": 5,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 208889,
+      "name": "Ema Schnidrig",
+      "short": "Schnidrig",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 218291,
+      "name": "GARCIA CURADO ISABELLA",
+      "short": "GARCIA C I",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 219857,
+      "name": "ANGELES FRASCAROLI",
+      "short": "FRASCAROLI A",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101816,
+      "b": 112338,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102505,
+      "b": 102506,
+      "t": 2,
+      "f": 1998,
+      "l": 2005
+    },
+    {
+      "a": 112614,
+      "b": 117253,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 112614,
+      "b": 120037,
+      "t": 64,
+      "f": 2013,
+      "l": 2018
+    },
+    {
+      "a": 117253,
+      "b": 134609,
+      "t": 4,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 117545,
+      "b": 117546,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117546,
+      "b": 120037,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 117553,
+      "b": 117554,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117555,
+      "b": 117556,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117557,
+      "b": 117558,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117559,
+      "b": 117561,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117562,
+      "b": 117563,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 120037,
+      "b": 134609,
+      "t": 9,
+      "f": 2011,
+      "l": 2017
+    },
+    {
+      "a": 120037,
+      "b": 142068,
+      "t": 4,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 120037,
+      "b": 150351,
+      "t": 10,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 120037,
+      "b": 166926,
+      "t": 43,
+      "f": 2018,
+      "l": 2023
+    },
+    {
+      "a": 122491,
+      "b": 134609,
+      "t": 5,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 134609,
+      "b": 138787,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 134609,
+      "b": 142068,
+      "t": 5,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 134609,
+      "b": 145808,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 134610,
+      "b": 134611,
+      "t": 4,
+      "f": 2011,
+      "l": 2012
+    },
+    {
+      "a": 135931,
+      "b": 145808,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 135933,
+      "b": 141758,
+      "t": 2,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 142068,
+      "b": 142069,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142069,
+      "b": 142942,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 145380,
+      "b": 145808,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145808,
+      "b": 166926,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 145808,
+      "b": 181571,
+      "t": 18,
+      "f": 2021,
+      "l": 2024
+    },
+    {
+      "a": 149283,
+      "b": 149307,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 149288,
+      "b": 149305,
+      "t": 2,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 150351,
+      "b": 150359,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 150351,
+      "b": 156191,
+      "t": 3,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 150351,
+      "b": 163282,
+      "t": 2,
+      "f": 2019,
+      "l": 2021
+    },
+    {
+      "a": 150351,
+      "b": 182135,
+      "t": 4,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 150351,
+      "b": 182137,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 156192,
+      "b": 156193,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 156192,
+      "b": 182131,
+      "t": 6,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 156192,
+      "b": 182135,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 156192,
+      "b": 200556,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 163282,
+      "b": 181571,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 163282,
+      "b": 185559,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 163283,
+      "b": 172781,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 178661,
+      "b": 182137,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 181571,
+      "b": 182137,
+      "t": 2,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 181571,
+      "b": 208888,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 182135,
+      "b": 182137,
+      "t": 11,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 182137,
+      "b": 208888,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 182138,
+      "b": 200556,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 208888,
+      "b": 208889,
+      "t": 3,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 218291,
+      "b": 219857,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

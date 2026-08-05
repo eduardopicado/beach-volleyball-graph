@@ -46,7 +46,6 @@ export interface GraphFile {
   country: string;
   countryName: string;
   gender: Gender;
-  generatedAt: string;
   nodes: GraphNode[];
   edges: GraphEdge[];
 }
@@ -80,7 +79,6 @@ export const playerProfileUrl = (id: number) =>
 export interface PlayersFile {
   country: string;
   gender: Gender;
-  generatedAt: string;
   players: PlayerDetail[];
 }
 

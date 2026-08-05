@@ -1,0 +1,184 @@
+{
+  "country": "PER",
+  "countryName": "Peru",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100562,
+      "name": "Noce Leopoldo Cordaro",
+      "short": "Leopoldo",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 100563,
+      "name": "Zayers \"Cesar\" Arguedas",
+      "short": "Cesar",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 139362,
+      "name": "Alvaro Hidalgo Ascues",
+      "short": "Alvaro",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139363,
+      "name": "Eduardo Romay Dammert",
+      "short": "Romay",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139773,
+      "name": "Diego Diaz",
+      "short": "Diego",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139774,
+      "name": "Jose Vargas",
+      "short": "Japon",
+      "tournaments": 3,
+      "first": 2012,
+      "last": 2013
+    },
+    {
+      "id": 141482,
+      "name": "Franco Castillo",
+      "short": "Franco",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141487,
+      "name": "Paul Alexander Williams Torres",
+      "short": "Williams",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 145397,
+      "name": "Jimy Heredia",
+      "short": "Heredia",
+      "tournaments": 3,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 145400,
+      "name": "Luis Bramont-Arias",
+      "short": "Bramont-Arias",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 150220,
+      "name": "Juan Carlos Bustos",
+      "short": "Bustos",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 161727,
+      "name": "Bruno Sebastian Seminario Florentini",
+      "short": "Bruno",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 163337,
+      "name": "Delpiero Jimenez",
+      "short": "Jimenez",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 171950,
+      "name": "GABRIEL VASQUEZ",
+      "short": "VASQUEZ",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    }
+  ],
+  "edges": [
+    {
+      "a": 100562,
+      "b": 100563,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 139362,
+      "b": 139363,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139773,
+      "b": 139774,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139774,
+      "b": 141482,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 139774,
+      "b": 141487,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 145397,
+      "b": 145400,
+      "t": 2,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145397,
+      "b": 150220,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 161727,
+      "b": 163337,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 161727,
+      "b": 171950,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    }
+  ]
+}

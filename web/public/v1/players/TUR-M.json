@@ -1,0 +1,769 @@
+{
+  "country": "TUR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101368,
+      "name": "Emrah Aksoy",
+      "dob": "1972-10-17",
+      "height": 194,
+      "weight": 85
+    },
+    {
+      "id": 101369,
+      "name": "Mustafa Kenan Bengu",
+      "dob": "1961-07-25",
+      "height": 189,
+      "weight": 82
+    },
+    {
+      "id": 101370,
+      "name": "Erdem Alpaslan",
+      "dob": "1971-01-06",
+      "height": 194,
+      "weight": 92
+    },
+    {
+      "id": 101371,
+      "name": "Metin Görgün",
+      "dob": "1961-07-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101372,
+      "name": "Muhammet Görken",
+      "dob": "1959-06-09",
+      "height": 181,
+      "weight": 78
+    },
+    {
+      "id": 101373,
+      "name": "Hanikoglu Hakan",
+      "dob": "1973-03-10",
+      "height": 190,
+      "weight": 75
+    },
+    {
+      "id": 101374,
+      "name": "Hopali Serdar",
+      "dob": "1967-03-05",
+      "height": 194,
+      "weight": 83
+    },
+    {
+      "id": 101375,
+      "name": "Cengizhan I. Kartaltepe",
+      "dob": "1973-06-24",
+      "height": 193,
+      "weight": 80
+    },
+    {
+      "id": 101376,
+      "name": "Lale Aykut",
+      "dob": "1968-06-04",
+      "height": 197,
+      "weight": 90
+    },
+    {
+      "id": 101377,
+      "name": "Ediz Lik",
+      "dob": "1965-05-25",
+      "height": 185,
+      "weight": 78
+    },
+    {
+      "id": 101378,
+      "name": "Akif Gokhan Oner",
+      "dob": "1972-09-06",
+      "height": 193,
+      "weight": 84
+    },
+    {
+      "id": 101379,
+      "name": "Ozdemir Baris",
+      "dob": "1972-06-25",
+      "height": 196,
+      "weight": 75
+    },
+    {
+      "id": 101380,
+      "name": "Ozçamli Ali Galip",
+      "dob": "1967-08-25",
+      "height": 190,
+      "weight": 81
+    },
+    {
+      "id": 101381,
+      "name": "Ozçelik Cahit",
+      "dob": "1971-04-18",
+      "height": 194,
+      "weight": 77
+    },
+    {
+      "id": 101382,
+      "name": "Ali Peçen",
+      "dob": "1969-01-30",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 101383,
+      "name": "Vefa M. Simsek",
+      "dob": "1969-06-25",
+      "height": 188,
+      "weight": 85
+    },
+    {
+      "id": 101384,
+      "name": "Erkan Togan",
+      "dob": "1974-04-11",
+      "height": 200,
+      "weight": 82
+    },
+    {
+      "id": 101385,
+      "name": "Yaman Senol",
+      "dob": "1971-02-17",
+      "height": 205,
+      "weight": 84
+    },
+    {
+      "id": 101387,
+      "name": "Metehan Kartaltepe",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101388,
+      "name": "Gürsel Yesiltas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101988,
+      "name": "Körfez Hasan",
+      "dob": "1972-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101989,
+      "name": "Akyeli Yalçin",
+      "dob": "1967-04-26",
+      "height": 198,
+      "weight": 86
+    },
+    {
+      "id": 101990,
+      "name": "Kara Haldun",
+      "dob": "1969-07-07",
+      "height": 194,
+      "weight": 86
+    },
+    {
+      "id": 102002,
+      "name": "Kandemir Bülent",
+      "dob": "1976-01-05",
+      "height": 195,
+      "weight": 84
+    },
+    {
+      "id": 102048,
+      "name": "Hizal Umit",
+      "dob": "1964-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102049,
+      "name": "Utun Bülent",
+      "dob": "1965-01-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102478,
+      "name": "Serhat Tokel",
+      "dob": "1971-04-05",
+      "height": 198,
+      "weight": 90
+    },
+    {
+      "id": 102479,
+      "name": "Seref Tekin",
+      "dob": "1968-06-01",
+      "height": 202,
+      "weight": 95
+    },
+    {
+      "id": 102480,
+      "name": "Hakan Ozkan",
+      "dob": "1964-01-18",
+      "height": 190,
+      "weight": 86
+    },
+    {
+      "id": 102488,
+      "name": "Kerimhan Kaynak",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102489,
+      "name": "Mehmet Sezen",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102490,
+      "name": "Ahmet Sulhan",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102491,
+      "name": "Hasan Körfez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102492,
+      "name": "Akif M. \"Gasman\" Gürgen",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102493,
+      "name": "Baris \"Wolf\" Köksai",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102494,
+      "name": "Muzaffer Mete Dalan",
+      "dob": "1974-06-08",
+      "height": 188,
+      "weight": 90
+    },
+    {
+      "id": 102495,
+      "name": "Örsan Tutas",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102496,
+      "name": "Ertugrul Özder",
+      "dob": "1974-06-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102497,
+      "name": "Hayati Fandakli",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102498,
+      "name": "Semih Gitak",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102499,
+      "name": "Sait Dogruyol",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102729,
+      "name": "Remzi Onur Özder",
+      "dob": "1973-03-12",
+      "height": 184,
+      "weight": 82
+    },
+    {
+      "id": 125212,
+      "name": "Tayga Baltacioglu",
+      "dob": "1991-06-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125215,
+      "name": "Anil Paltaoglu",
+      "dob": "1991-01-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125216,
+      "name": "Fatih Cihan",
+      "dob": "1991-12-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125220,
+      "name": "Ahmetcan Karamete",
+      "dob": "1991-02-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125221,
+      "name": "Caner Ismet Söylemez",
+      "dob": "1991-11-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125222,
+      "name": "Hakan Çolpan",
+      "dob": "1991-01-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132172,
+      "name": "Engin Özbek",
+      "dob": "1982-03-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132173,
+      "name": "Murat Giginoglu",
+      "dob": "1987-10-15",
+      "height": 198,
+      "weight": 98
+    },
+    {
+      "id": 132175,
+      "name": "Selçuk Sekerci",
+      "dob": "1984-05-19",
+      "height": 198,
+      "weight": 92
+    },
+    {
+      "id": 132253,
+      "name": "Volkan Gögtepe",
+      "dob": "1987-03-22",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 133317,
+      "name": "Ali Candan",
+      "dob": "1990-12-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133322,
+      "name": "Muharrem Akkemik",
+      "dob": "1990-08-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133323,
+      "name": "Taha Altinöz",
+      "dob": "1990-11-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133324,
+      "name": "Safak Sezer",
+      "dob": "1991-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133325,
+      "name": "Caner Turhan",
+      "dob": "1991-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133828,
+      "name": "Hakan Gögtepe",
+      "dob": "1985-09-29",
+      "height": 185,
+      "weight": 78
+    },
+    {
+      "id": 134792,
+      "name": "Emir Kavuzlu",
+      "dob": "1982-05-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 134833,
+      "name": "Soner Erdogmus",
+      "dob": "1974-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135868,
+      "name": "Nuri Sahin",
+      "dob": "1980-01-01",
+      "height": 198,
+      "weight": 95
+    },
+    {
+      "id": 141556,
+      "name": "Ersin Durgut",
+      "dob": "1982-08-04",
+      "height": 208,
+      "weight": 105
+    },
+    {
+      "id": 142261,
+      "name": "Alkan Samet Aydogan",
+      "dob": "1996-06-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142262,
+      "name": "Enes Atli",
+      "dob": "1996-11-05",
+      "height": 198,
+      "weight": 90
+    },
+    {
+      "id": 142263,
+      "name": "Mehmet Rifat Kantarcioglu",
+      "dob": "1997-02-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142264,
+      "name": "Kubilay Tuysuz",
+      "dob": "1996-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143825,
+      "name": "Ali Berke Sagir",
+      "dob": "1993-12-17",
+      "height": 203,
+      "weight": 93
+    },
+    {
+      "id": 144018,
+      "name": "Yasin Baysal",
+      "dob": "1994-06-08",
+      "height": 198,
+      "weight": 95
+    },
+    {
+      "id": 144381,
+      "name": "Kemal Sah",
+      "dob": "1990-04-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144382,
+      "name": "Devrim Alibaba",
+      "dob": "1990-11-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144383,
+      "name": "Mert Kurt",
+      "dob": "1994-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144384,
+      "name": "Safa Urlu",
+      "dob": "1994-03-08",
+      "height": 190,
+      "weight": 82
+    },
+    {
+      "id": 146272,
+      "name": "Hasan Huseyin Mermer",
+      "dob": "1994-11-14",
+      "height": 197,
+      "weight": 88
+    },
+    {
+      "id": 146300,
+      "name": "Burhan Zorluer",
+      "dob": "1996-04-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146314,
+      "name": "Yigit Onayli",
+      "dob": "1994-05-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146317,
+      "name": "Koray Baytemur",
+      "dob": "1993-03-25",
+      "height": 194,
+      "weight": 77
+    },
+    {
+      "id": 146940,
+      "name": "Tomas Cercis Onder",
+      "dob": "1998-03-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146941,
+      "name": "Mehmet Yildiz",
+      "dob": "1998-03-03",
+      "height": 190,
+      "weight": 82
+    },
+    {
+      "id": 150003,
+      "name": "Ali Osman Nurettin",
+      "dob": "1993-05-19",
+      "height": 188,
+      "weight": 86
+    },
+    {
+      "id": 151151,
+      "name": "Mehmet Civgin",
+      "dob": "1995-02-11",
+      "height": 187,
+      "weight": 90
+    },
+    {
+      "id": 151277,
+      "name": "Burak Balibey",
+      "dob": "1981-06-20",
+      "height": 193,
+      "weight": 92
+    },
+    {
+      "id": 152393,
+      "name": "Ibrahim Cadir",
+      "dob": "1988-04-04",
+      "height": 192,
+      "weight": 88
+    },
+    {
+      "id": 153492,
+      "name": "Anil Tatar",
+      "dob": "1995-07-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153493,
+      "name": "Bilal Tatar",
+      "dob": "1995-07-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153725,
+      "name": "Dundar Yildirim",
+      "dob": "1982-11-28",
+      "height": 180,
+      "weight": 78
+    },
+    {
+      "id": 154696,
+      "name": "Ali Cebeci",
+      "dob": "2000-09-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154697,
+      "name": "Yusuf Özdemir",
+      "dob": "2000-03-16",
+      "height": 195,
+      "weight": 94
+    },
+    {
+      "id": 156395,
+      "name": "İsmail Ayırıcı",
+      "dob": "1998-04-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156868,
+      "name": "Emirhan Ulutas",
+      "dob": "1999-01-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156869,
+      "name": "Hasan Huseyin Yildirim",
+      "dob": "1999-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161352,
+      "name": "Okan Savas",
+      "dob": "1999-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162713,
+      "name": "Mecit Eryilmaz",
+      "dob": "1999-07-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163389,
+      "name": "Akay Calik",
+      "dob": "1997-01-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163394,
+      "name": "Mustafa Susam",
+      "dob": "1999-05-31",
+      "height": 193,
+      "weight": 88
+    },
+    {
+      "id": 168191,
+      "name": "Doğukan Ulu",
+      "dob": "1995-10-30",
+      "height": 205,
+      "weight": 96
+    },
+    {
+      "id": 171885,
+      "name": "Necmi Ayberk Gulluk",
+      "dob": "2003-01-20",
+      "height": 196,
+      "weight": 86
+    },
+    {
+      "id": 171886,
+      "name": "Batuhan Kuru",
+      "dob": "2003-07-12",
+      "height": 191,
+      "weight": 71
+    },
+    {
+      "id": 172986,
+      "name": "Eren Kanli",
+      "dob": "1999-01-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179502,
+      "name": "Furkan Ramazan Kaplan",
+      "dob": "2004-09-23",
+      "height": 192,
+      "weight": 83
+    },
+    {
+      "id": 179503,
+      "name": "Sacit Kurt",
+      "dob": "2004-04-05",
+      "height": 195,
+      "weight": 88
+    },
+    {
+      "id": 179505,
+      "name": "Ahmet Can Tür",
+      "dob": "2005-01-03",
+      "height": 192,
+      "weight": 88
+    },
+    {
+      "id": 179545,
+      "name": "Bahadir Utku Kesgin",
+      "dob": "2004-09-10",
+      "height": 194,
+      "weight": 76
+    },
+    {
+      "id": 181431,
+      "name": "Emrah Akman",
+      "dob": "1989-07-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 202942,
+      "name": "Nevzat Kaan Erol",
+      "dob": "2007-05-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 204533,
+      "name": "Tuna Imdat",
+      "dob": "2007-07-23",
+      "height": 202,
+      "weight": 93
+    },
+    {
+      "id": 204534,
+      "name": "Barış GÜLDALI",
+      "dob": "2008-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 204653,
+      "name": "ONUR ÖZKOL",
+      "dob": "1983-11-30",
+      "height": 183,
+      "weight": 90
+    },
+    {
+      "id": 214342,
+      "name": "Polat Kemal Eser",
+      "dob": "2009-11-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 234644,
+      "name": "Freddie Jude Foks",
+      "dob": "2009-03-14",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

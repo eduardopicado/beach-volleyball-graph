@@ -1,0 +1,69 @@
+{
+  "country": "MDV",
+  "gender": "M",
+  "players": [
+    {
+      "id": 117740,
+      "name": "Mohamed Sajid",
+      "dob": "1981-03-08",
+      "height": 176,
+      "weight": 60
+    },
+    {
+      "id": 135217,
+      "name": "Sajid Ismail",
+      "dob": "1990-01-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135218,
+      "name": "Adam Asfag",
+      "dob": "1987-10-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154265,
+      "name": "Shiunaz Abdul Waahid",
+      "dob": "1987-12-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155248,
+      "name": "Adam Naseem",
+      "dob": "1992-05-01",
+      "height": 175,
+      "weight": 83
+    },
+    {
+      "id": 163468,
+      "name": "Ahmed Mohamed",
+      "dob": "1995-11-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163469,
+      "name": "Mohamed Ali",
+      "dob": "1996-10-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167590,
+      "name": "Shamaail Hussain",
+      "dob": "2003-01-11",
+      "height": 192,
+      "weight": 96
+    },
+    {
+      "id": 200423,
+      "name": "IBRAHIM ATHIF ALI",
+      "dob": "2004-09-22",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

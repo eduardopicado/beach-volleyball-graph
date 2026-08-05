@@ -1,0 +1,76 @@
+{
+  "country": "DOM",
+  "gender": "M",
+  "players": [
+    {
+      "id": 139724,
+      "name": "Luis David Adames Figueroa",
+      "dob": "1993-04-14",
+      "height": 192,
+      "weight": 72
+    },
+    {
+      "id": 139967,
+      "name": "Julio Cesar Romano Almonte",
+      "dob": "1993-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146609,
+      "name": "Alex Edward Medina Aquiles",
+      "dob": "1994-06-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146610,
+      "name": "Luis Antonio Castillo Rodriguez",
+      "dob": "1994-05-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173167,
+      "name": "Oscar Jose Martinez Lopez",
+      "dob": "2000-01-23",
+      "height": 181,
+      "weight": 70
+    },
+    {
+      "id": 182041,
+      "name": "Hayerling Francisco De Jesus Goris",
+      "dob": "2000-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200623,
+      "name": "Melvin Antonio de Jesus Albino",
+      "dob": "2007-08-21",
+      "height": 179,
+      "weight": 65
+    },
+    {
+      "id": 210057,
+      "name": "Ramon Francisco De Jesus Goris",
+      "dob": "2007-09-05",
+      "height": 176,
+      "weight": 59
+    },
+    {
+      "id": 225997,
+      "name": "Franklin Alejandro Segura Mendez",
+      "dob": "2009-12-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 233992,
+      "name": "Francisco Antonio De Jesus Fernandez",
+      "dob": "2009-03-29",
+      "height": 178,
+      "weight": 58
+    }
+  ]
+}

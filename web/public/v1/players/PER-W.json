@@ -1,0 +1,160 @@
+{
+  "country": "PER",
+  "gender": "W",
+  "players": [
+    {
+      "id": 100600,
+      "name": "Malaga \"Natalia\" Dibos",
+      "dob": "1964-01-26",
+      "height": 172,
+      "weight": 60
+    },
+    {
+      "id": 100604,
+      "name": "Ester \"Denisse\" Fajardo",
+      "dob": "1964-01-07",
+      "height": 174,
+      "weight": 60
+    },
+    {
+      "id": 101016,
+      "name": "Janet Vasconzuelos",
+      "dob": "1969-09-04",
+      "height": 170,
+      "weight": 60
+    },
+    {
+      "id": 101210,
+      "name": "Margarita Delgado",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118792,
+      "name": "Vivian Baella",
+      "dob": "1992-08-03",
+      "height": 173,
+      "weight": 63
+    },
+    {
+      "id": 123995,
+      "name": "Grecia Herrada",
+      "dob": "1993-03-13",
+      "height": 177,
+      "weight": 65
+    },
+    {
+      "id": 132734,
+      "name": "Katerinne Mabel Olemar",
+      "dob": "1993-05-10",
+      "height": 176,
+      "weight": 65
+    },
+    {
+      "id": 132735,
+      "name": "Sandra Chumacero",
+      "dob": "1992-01-10",
+      "height": 175,
+      "weight": 57
+    },
+    {
+      "id": 136066,
+      "name": "Danae Carranza",
+      "dob": "1994-06-04",
+      "height": 175,
+      "weight": 65
+    },
+    {
+      "id": 136846,
+      "name": "Ingrid Herrada Garcia",
+      "dob": "1995-03-11",
+      "height": 173,
+      "weight": 64
+    },
+    {
+      "id": 138595,
+      "name": "Alexandra Machado",
+      "dob": "1995-02-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141472,
+      "name": "Katia Garcia",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141473,
+      "name": "Alexandra Carrasco",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145806,
+      "name": "Mishell Serna",
+      "dob": null,
+      "height": 176,
+      "weight": 55
+    },
+    {
+      "id": 149841,
+      "name": "Luciana Pinedo",
+      "dob": "1996-06-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150219,
+      "name": "Besna Villegas",
+      "dob": "1999-10-30",
+      "height": 163,
+      "weight": 59
+    },
+    {
+      "id": 155857,
+      "name": "Angie Serna Inguza",
+      "dob": "1998-11-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155858,
+      "name": "Lisbeth Allcca Merino",
+      "dob": "2000-08-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155859,
+      "name": "Claudia Gaona Arevalo",
+      "dob": "1999-01-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164878,
+      "name": "Medalyn Mendoza",
+      "dob": "2000-02-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188134,
+      "name": "Esthephannie Adriana Castillo Aybar",
+      "dob": "2005-05-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 209014,
+      "name": "Yezet Amady Romero Leon",
+      "dob": "2006-08-25",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

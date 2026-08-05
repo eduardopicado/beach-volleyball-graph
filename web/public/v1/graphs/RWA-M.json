@@ -1,0 +1,266 @@
+{
+  "country": "RWA",
+  "countryName": "Rwanda",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 135673,
+      "name": "Flavien Ndamukunda",
+      "short": "Ndamukunda",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 142106,
+      "name": "Olivier Ntagengwa",
+      "short": "Ntagengwa",
+      "tournaments": 8,
+      "first": 2013,
+      "last": 2023
+    },
+    {
+      "id": 142107,
+      "name": "Thiery Mugabo",
+      "short": "Mugabo",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142601,
+      "name": "Sylvestre Ndayisabye",
+      "short": "Ndayisabye",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 142609,
+      "name": "Elias Ndagano",
+      "short": "Ndagano",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 143490,
+      "name": "Alfred Muvunyi",
+      "short": "Muvunyi",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 143536,
+      "name": "Yves Mutabazi",
+      "short": "Yves",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 144522,
+      "name": "Mutabazi Elie",
+      "short": "Mutabazi",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144523,
+      "name": "Christophe Mukunzi",
+      "short": "Mukunzi",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144524,
+      "name": "Kwizera Pierre Marchal",
+      "short": "Kwizera",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 145193,
+      "name": "Christophe Mukunzi",
+      "short": "Mukunzi",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 155136,
+      "name": "Akumunto Patrick Kavalo",
+      "short": "Kavalo",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 172779,
+      "name": "Yves Niyonkuru",
+      "short": "Yves",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 175288,
+      "name": "Venuste Gatsinzi",
+      "short": "Gatsinzi",
+      "tournaments": 5,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 175289,
+      "name": "Fils Habanzintwari",
+      "short": "Habanzintwari",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 177981,
+      "name": "Gloire Niyonkuru",
+      "short": "Gloire",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 181185,
+      "name": "Vincent Mbonigaba",
+      "short": "Vincent",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 181190,
+      "name": "Merci Gisubizo",
+      "short": "Merci",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 209658,
+      "name": "MANDELA NZIRIMO",
+      "short": "MANDELA",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 135673,
+      "b": 145193,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 135673,
+      "b": 155136,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 142106,
+      "b": 142107,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142106,
+      "b": 144522,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142106,
+      "b": 155136,
+      "t": 3,
+      "f": 2019,
+      "l": 2022
+    },
+    {
+      "a": 142106,
+      "b": 175288,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 142601,
+      "b": 142609,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 143490,
+      "b": 172779,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 143536,
+      "b": 175289,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144523,
+      "b": 144524,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 155136,
+      "b": 181190,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 175288,
+      "b": 175289,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 175288,
+      "b": 177981,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 175289,
+      "b": 181185,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 181185,
+      "b": 209658,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

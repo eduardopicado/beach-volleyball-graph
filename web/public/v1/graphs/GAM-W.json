@@ -1,0 +1,116 @@
+{
+  "country": "GAM",
+  "countryName": "Gambia",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 150126,
+      "name": "Abie Kujabi",
+      "short": "Kujabi",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 150127,
+      "name": "Fatoumata Cessay",
+      "short": "Cessay",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 175742,
+      "name": "Anna Marie Bojang",
+      "short": "Bojang Anna",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 184621,
+      "name": "Fatou Ceesay",
+      "short": "Fatou",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 209707,
+      "name": "FATOU BAH",
+      "short": "Bah",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 209713,
+      "name": "Hoja Njie",
+      "short": "Njie",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 212891,
+      "name": "Fatou Kinteh",
+      "short": "Kinteh F",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 226294,
+      "name": "Mariama Sambou",
+      "short": "Sambou",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 234463,
+      "name": "Mariam Sanyang",
+      "short": "Sanyang",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 150126,
+      "b": 150127,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 175742,
+      "b": 184621,
+      "t": 2,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 209707,
+      "b": 234463,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 209713,
+      "b": 212891,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 209713,
+      "b": 226294,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

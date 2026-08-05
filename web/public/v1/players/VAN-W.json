@@ -1,0 +1,83 @@
+{
+  "country": "VAN",
+  "gender": "W",
+  "players": [
+    {
+      "id": 120175,
+      "name": "Miller Pata",
+      "dob": "1988-06-11",
+      "height": 175,
+      "weight": 60
+    },
+    {
+      "id": 120176,
+      "name": "Henriette Iatika",
+      "dob": "1985-06-19",
+      "height": 171,
+      "weight": 78
+    },
+    {
+      "id": 125184,
+      "name": "Joyce Joshua",
+      "dob": "1986-11-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125186,
+      "name": "Linline Matauatu",
+      "dob": "1991-03-23",
+      "height": 170,
+      "weight": null
+    },
+    {
+      "id": 141691,
+      "name": "Loti Joe",
+      "dob": "1997-03-11",
+      "height": 170,
+      "weight": 62
+    },
+    {
+      "id": 141844,
+      "name": "Floflo Daniel",
+      "dob": "1997-09-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155454,
+      "name": "Sherysyn Toko",
+      "dob": "1997-08-10",
+      "height": 170,
+      "weight": null
+    },
+    {
+      "id": 164429,
+      "name": "Luduine Tebeim",
+      "dob": null,
+      "height": 182,
+      "weight": null
+    },
+    {
+      "id": 166807,
+      "name": "Maybel Ravo",
+      "dob": "2001-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175435,
+      "name": "Majabelle Lawac",
+      "dob": "2001-11-14",
+      "height": 175,
+      "weight": null
+    },
+    {
+      "id": 175438,
+      "name": "Chantale Leow Willie",
+      "dob": "2003-05-12",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

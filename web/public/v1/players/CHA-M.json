@@ -1,0 +1,34 @@
+{
+  "country": "CHA",
+  "gender": "M",
+  "players": [
+    {
+      "id": 150709,
+      "name": "Moussa Djiteyna Ngaryara",
+      "dob": "1995-01-05",
+      "height": 192,
+      "weight": 80
+    },
+    {
+      "id": 150710,
+      "name": "Mahamat Doungous",
+      "dob": "1995-12-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181683,
+      "name": "Assane Bakane Paulin",
+      "dob": "1999-01-11",
+      "height": 192,
+      "weight": 72
+    },
+    {
+      "id": 181779,
+      "name": "Izzo Mahamat Izzo",
+      "dob": "1999-09-07",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

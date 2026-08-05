@@ -1,0 +1,70 @@
+{
+  "country": "MKD",
+  "countryName": "North Macedonia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102476,
+      "name": "Besim Rexha",
+      "short": "Rexha",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102477,
+      "name": "Idris Bedzeti",
+      "short": "Bedzeti",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2003
+    },
+    {
+      "id": 103595,
+      "name": "Ilija Bisinov",
+      "short": "Bisinov",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103600,
+      "name": "Jovance Manaskov",
+      "short": "Manaskov",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 104040,
+      "name": "Habil Ajeti",
+      "short": "Ajeti",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    }
+  ],
+  "edges": [
+    {
+      "a": 102476,
+      "b": 102477,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102477,
+      "b": 104040,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103595,
+      "b": 103600,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    }
+  ]
+}

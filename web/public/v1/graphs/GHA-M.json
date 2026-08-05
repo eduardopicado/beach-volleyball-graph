@@ -1,0 +1,200 @@
+{
+  "country": "GHA",
+  "countryName": "Ghana",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 134647,
+      "name": "Isaac Barnes",
+      "short": "Barnes",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 135605,
+      "name": "Edward Seidu Ajanako",
+      "short": "Ajanako",
+      "tournaments": 43,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 139602,
+      "name": "Aaron Djarnie",
+      "short": "Djarnie",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139605,
+      "name": "Pius Setor Zigah",
+      "short": "Zigah",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 145802,
+      "name": "Jonathan Scott Sarpong",
+      "short": "Scott",
+      "tournaments": 46,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 147557,
+      "name": "Philip Amissah",
+      "short": "Philip",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147558,
+      "name": "Nicholas Tetteh",
+      "short": "Nicholas",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147894,
+      "name": "Shamsu Awudu",
+      "short": "Osu",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 156399,
+      "name": "Paul Akan",
+      "short": "Akan",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 164390,
+      "name": "Kelvin Katey Carboo",
+      "short": "Carboo",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 164391,
+      "name": "Eric Tsatsu",
+      "short": "Tsatsu",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 173923,
+      "name": "Samuel Essilfie",
+      "short": "Essilfie",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 212893,
+      "name": "Ebenezer Anyetei",
+      "short": "Anyetei",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 212894,
+      "name": "Emmanuel Abbey",
+      "short": "Abbey",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 226322,
+      "name": "JUSTICE AMOA",
+      "short": "JUSTICE",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226323,
+      "name": "DANIEL LARTEY",
+      "short": "DAN",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 134647,
+      "b": 145802,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 135605,
+      "b": 145802,
+      "t": 43,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 139602,
+      "b": 139605,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 145802,
+      "b": 147894,
+      "t": 2,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 147557,
+      "b": 147558,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 156399,
+      "b": 173923,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 164390,
+      "b": 164391,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 212893,
+      "b": 212894,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 226322,
+      "b": 226323,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

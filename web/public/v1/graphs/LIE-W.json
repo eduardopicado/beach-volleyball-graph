@@ -1,0 +1,55 @@
+{
+  "country": "LIE",
+  "countryName": "Liechtenstein",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 132769,
+      "name": "Ramona Kaiser",
+      "short": "Kaiser",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 132777,
+      "name": "Laura Marxer",
+      "short": "Marxer",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 142872,
+      "name": "Nina Ludwig",
+      "short": "Ludwig",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 169475,
+      "name": "Chiara Bigger",
+      "short": "Bigger",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    }
+  ],
+  "edges": [
+    {
+      "a": 132769,
+      "b": 132777,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 142872,
+      "b": 169475,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "country": "BAR",
+  "countryName": "Barbados",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 211319,
+      "name": "Cael Greenidge",
+      "short": "Greenidge",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 224685,
+      "name": "Joshua Ashby",
+      "short": "Ashby",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 211319,
+      "b": 224685,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

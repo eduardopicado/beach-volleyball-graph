@@ -1,0 +1,111 @@
+{
+  "country": "BOL",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100567,
+      "name": "Carlos Antonio Pavisic Antezana",
+      "dob": "1970-10-02",
+      "height": 183,
+      "weight": 78
+    },
+    {
+      "id": 100568,
+      "name": "Bernado Pavisic Antezana",
+      "dob": "1973-11-12",
+      "height": 180,
+      "weight": 72
+    },
+    {
+      "id": 100569,
+      "name": "Jaime Doria Medina",
+      "dob": "1957-02-08",
+      "height": 195,
+      "weight": 88
+    },
+    {
+      "id": 100570,
+      "name": "Sergio Pavisic Antezana",
+      "dob": "1974-12-25",
+      "height": 182,
+      "weight": 72
+    },
+    {
+      "id": 156329,
+      "name": "Hasan Yusef Tawafsha Schugair",
+      "dob": "2000-03-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156330,
+      "name": "Luis Gustavo Calvo Liendo",
+      "dob": "2000-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156331,
+      "name": "Carlos Andres Chacón Espinoza",
+      "dob": "2000-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157014,
+      "name": "Rubén Darío Gonzales Ardaya",
+      "dob": "1998-01-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161254,
+      "name": "Luis Fabricio Corro",
+      "dob": "1998-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161255,
+      "name": "Armando Antonio Zeballos",
+      "dob": "1998-06-30",
+      "height": 190,
+      "weight": 87
+    },
+    {
+      "id": 175883,
+      "name": "Edson Perez",
+      "dob": "1980-08-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175891,
+      "name": "Ruddy Salvatierra",
+      "dob": "2001-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181502,
+      "name": "Jorge Gabriel Diaz Canseco",
+      "dob": "2001-04-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182758,
+      "name": "Mateo Diego Nuñez Nogales",
+      "dob": "2002-07-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182759,
+      "name": "Renzo Joao Zaconeta Sempértegui",
+      "dob": "2002-03-08",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

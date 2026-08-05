@@ -1,0 +1,1639 @@
+{
+  "country": "GRE",
+  "countryName": "Greece",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 101829,
+      "name": "Vasiliki \"Vasso\" Karantasiou",
+      "short": "Karantasiou",
+      "tournaments": 126,
+      "first": 1997,
+      "last": 2008
+    },
+    {
+      "id": 101830,
+      "name": "Efrosyni \"Efi\" Sfyri",
+      "short": "Sfyri",
+      "tournaments": 66,
+      "first": 1997,
+      "last": 2005
+    },
+    {
+      "id": 102708,
+      "name": "Slavroula \"Roula\" Theodorou",
+      "short": "Theodorou",
+      "tournaments": 4,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 102709,
+      "name": "Efthalia Koutroumanidou",
+      "short": "Koutroumanidou",
+      "tournaments": 108,
+      "first": 2000,
+      "last": 2009
+    },
+    {
+      "id": 103051,
+      "name": "Polyxeni Kitsou",
+      "short": "Kitsou",
+      "tournaments": 12,
+      "first": 2000,
+      "last": 2008
+    },
+    {
+      "id": 103052,
+      "name": "Fidanka Saparevska",
+      "short": "Saparevska",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103080,
+      "name": "Anastasia-Maria Chounta",
+      "short": "Chounta",
+      "tournaments": 9,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 103081,
+      "name": "Emmanouela Skoula",
+      "short": "Skoula",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2002
+    },
+    {
+      "id": 103082,
+      "name": "Panagiota Spiliopoulou",
+      "short": "Spiliopoulou",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103083,
+      "name": "Aikaterini Petroulaki",
+      "short": "Petroulaki",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103084,
+      "name": "Maria Tsiartsiani",
+      "short": "Tsiartsiani",
+      "tournaments": 175,
+      "first": 2000,
+      "last": 2015
+    },
+    {
+      "id": 103085,
+      "name": "Maria Lazaridou",
+      "short": "Lazaridou",
+      "tournaments": 10,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 103086,
+      "name": "Efi Rsychogyiou",
+      "short": "Rsychogyiou",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103087,
+      "name": "Anna Nikolou",
+      "short": "Nikolou",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2003
+    },
+    {
+      "id": 103088,
+      "name": "Eleftheria \"Ria\" Koukou",
+      "short": "Koukou",
+      "tournaments": 4,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 103089,
+      "name": "Rodi \"Rodi\" Ordoulidou",
+      "short": "Ordoulidou",
+      "tournaments": 4,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 103090,
+      "name": "Katerina Vassilaki",
+      "short": "Vassilaki",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 103091,
+      "name": "Maria Plagiannakou",
+      "short": "Plagiannakou",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2003
+    },
+    {
+      "id": 103280,
+      "name": "Aikaterini \"Katerina\" Nikolaidou",
+      "short": "Nikolaidou",
+      "tournaments": 37,
+      "first": 2001,
+      "last": 2006
+    },
+    {
+      "id": 103479,
+      "name": "Chara Sakkoula",
+      "short": "Sakkoula",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103656,
+      "name": "Vasiliki Arvaniti",
+      "short": "Arvaniti",
+      "tournaments": 230,
+      "first": 2001,
+      "last": 2021
+    },
+    {
+      "id": 103934,
+      "name": "Elpida Tiktapanidou",
+      "short": "Tiktapanidou",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 103935,
+      "name": "Christina Paraskeyaidou",
+      "short": "Paraskeyaidou",
+      "tournaments": 4,
+      "first": 2002,
+      "last": 2004
+    },
+    {
+      "id": 104008,
+      "name": "Areti Bouzounieraki",
+      "short": "Bouzounieraki",
+      "tournaments": 3,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 104009,
+      "name": "Faviola Kostami",
+      "short": "Kostami",
+      "tournaments": 8,
+      "first": 2002,
+      "last": 2009
+    },
+    {
+      "id": 104010,
+      "name": "Elisavet Kostami",
+      "short": "Kostami",
+      "tournaments": 7,
+      "first": 2002,
+      "last": 2006
+    },
+    {
+      "id": 104011,
+      "name": "Marianna Chounta",
+      "short": "Chounta",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 104012,
+      "name": "Mili-Joanna Prokopiou",
+      "short": "Prokopiou",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104013,
+      "name": "Ioanna Kouloumenta",
+      "short": "Kouloumeda",
+      "tournaments": 6,
+      "first": 2002,
+      "last": 2006
+    },
+    {
+      "id": 104014,
+      "name": "Foteini Michou",
+      "short": "Michou",
+      "tournaments": 8,
+      "first": 2002,
+      "last": 2005
+    },
+    {
+      "id": 104174,
+      "name": "Maria Chaskou",
+      "short": "Chaskou",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 104175,
+      "name": "Chrisanthi Ifady",
+      "short": "Ifady",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104280,
+      "name": "Maria Lyropoulou",
+      "short": "Lyropoulou",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104281,
+      "name": "Athina Dilaveri",
+      "short": "Dilaveri",
+      "tournaments": 8,
+      "first": 2003,
+      "last": 2012
+    },
+    {
+      "id": 104282,
+      "name": "Maria Lagiou",
+      "short": "Lagiou",
+      "tournaments": 3,
+      "first": 2003,
+      "last": 2007
+    },
+    {
+      "id": 104383,
+      "name": "Flora Ioannidou",
+      "short": "Ioannidou",
+      "tournaments": 4,
+      "first": 2003,
+      "last": 2006
+    },
+    {
+      "id": 104687,
+      "name": "Kleio Petridou",
+      "short": "Petridou",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104688,
+      "name": "Eleni Exindaveloni",
+      "short": "Exindaveloni",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104689,
+      "name": "Katerina Vasilaki",
+      "short": "Vasilaki",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 105027,
+      "name": "Georgia Terzoglou",
+      "short": "Terzoglou",
+      "tournaments": 8,
+      "first": 2004,
+      "last": 2007
+    },
+    {
+      "id": 105029,
+      "name": "Foteini Tsantopoulou",
+      "short": "Tsantopoulou",
+      "tournaments": 8,
+      "first": 2004,
+      "last": 2007
+    },
+    {
+      "id": 115658,
+      "name": "Areti Teza",
+      "short": "Teza",
+      "tournaments": 6,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 116719,
+      "name": "Ellina Domnidou",
+      "short": "Domnidou",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117116,
+      "name": "Foteini Ourania Papageorgiou",
+      "short": "Papageorgiou",
+      "tournaments": 4,
+      "first": 2005,
+      "last": 2006
+    },
+    {
+      "id": 117909,
+      "name": "Maria Gkaragkouni",
+      "short": "Maria",
+      "tournaments": 2,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 117910,
+      "name": "Konstantina Nastou",
+      "short": "Nastou",
+      "tournaments": 4,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 117911,
+      "name": "Anastasia Kokkinou",
+      "short": "Anastasia",
+      "tournaments": 2,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118040,
+      "name": "Maria Papadaki",
+      "short": "Papadaki",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118041,
+      "name": "Anna Foteinou",
+      "short": "Foteinou",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118754,
+      "name": "Joanna Papageorgiou",
+      "short": "Papageorgiou",
+      "tournaments": 39,
+      "first": 2007,
+      "last": 2013
+    },
+    {
+      "id": 118755,
+      "name": "Christina Roubanis",
+      "short": "Roubanis",
+      "tournaments": 39,
+      "first": 2007,
+      "last": 2013
+    },
+    {
+      "id": 118980,
+      "name": "Sofia Kosma",
+      "short": "Kosma",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119249,
+      "name": "Anastasia Katzika",
+      "short": "Katzika",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119250,
+      "name": "Eleftheria Diamanti",
+      "short": "Diamanti",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119347,
+      "name": "Athina Papafotiou",
+      "short": "Papafotiou",
+      "tournaments": 6,
+      "first": 2007,
+      "last": 2022
+    },
+    {
+      "id": 119351,
+      "name": "Athina Tasou",
+      "short": "Tasou",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 120567,
+      "name": "Pigi Anna Metheniti",
+      "short": "Metheniti",
+      "tournaments": 5,
+      "first": 2008,
+      "last": 2023
+    },
+    {
+      "id": 120568,
+      "name": "Maria Christina Magkanari",
+      "short": "Magkanari",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120769,
+      "name": "Elina Papadopoulou",
+      "short": "Papadopoulou",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 122955,
+      "name": "Eydoxia Argiropoulou",
+      "short": "Argiropoulou",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 123530,
+      "name": "Olga Malousari",
+      "short": "Malousari",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 123531,
+      "name": "Athina Tassou",
+      "short": "Tassou",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125188,
+      "name": "Tereza Karavi",
+      "short": "Karavi",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 125189,
+      "name": "Christina Pasiali",
+      "short": "Pasiali",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 125201,
+      "name": "Konstantina Moraitidou",
+      "short": "Moraitidou",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 132681,
+      "name": "Konstantina Vlachaki",
+      "short": "Vlachaki",
+      "tournaments": 2,
+      "first": 2010,
+      "last": 2012
+    },
+    {
+      "id": 132682,
+      "name": "Anna Spanou",
+      "short": "Spanou",
+      "tournaments": 4,
+      "first": 2010,
+      "last": 2023
+    },
+    {
+      "id": 134727,
+      "name": "Evangelia Merteki",
+      "short": "Merteki",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 139889,
+      "name": "Georgia Paraskaki",
+      "short": "Paraskaki",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 141673,
+      "name": "Panagiota Karagkouni",
+      "short": "Karagkouni",
+      "tournaments": 77,
+      "first": 2013,
+      "last": 2021
+    },
+    {
+      "id": 143064,
+      "name": "Anthi Vasilantonaki",
+      "short": "Vasilantonaki",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 144202,
+      "name": "Tatiana Moldovanidi",
+      "short": "Moldovanidi",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 146196,
+      "name": "Ioanna Parisaki",
+      "short": "Parisaki",
+      "tournaments": 6,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 146199,
+      "name": "Dimitra Manavi",
+      "short": "Manavi",
+      "tournaments": 97,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 146730,
+      "name": "Paraskevi Kourtidou",
+      "short": "Kourtidou",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 146734,
+      "name": "Maria Klepkou",
+      "short": "Klepkou",
+      "tournaments": 4,
+      "first": 2014,
+      "last": 2019
+    },
+    {
+      "id": 147693,
+      "name": "Konstantina Tsopoulou",
+      "short": "Tsopoulou",
+      "tournaments": 53,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 148564,
+      "name": "Vasiliki Matiadi",
+      "short": "Matiadi",
+      "tournaments": 5,
+      "first": 2017,
+      "last": 2024
+    },
+    {
+      "id": 151594,
+      "name": "Athina Georgopoulou",
+      "short": "Georgopoulou",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 153963,
+      "name": "Aliki Alexandra Spiliotopoulou",
+      "short": "Spiliotopoulou",
+      "tournaments": 20,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 162241,
+      "name": "Dionysia Matiou",
+      "short": "Matiou",
+      "tournaments": 7,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 165049,
+      "name": "Dimitra Karagkouni",
+      "short": "Karagkouni, D.",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2022
+    },
+    {
+      "id": 167348,
+      "name": "Elisavet Triantafillidi",
+      "short": "Triantafyllidi",
+      "tournaments": 25,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 167395,
+      "name": "Moschoula Patakopoulou",
+      "short": "Patakopoulou Mo",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 168227,
+      "name": "Eleni Baka",
+      "short": "Baka",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168760,
+      "name": "Anastasia Fokianou",
+      "short": "Fokianou Anastasia",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 168761,
+      "name": "Ifigeneia Sampati",
+      "short": "Sabati",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2025
+    },
+    {
+      "id": 168807,
+      "name": "Maria Apostolaki",
+      "short": "Apostolaki",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168810,
+      "name": "Leetha Saridaki",
+      "short": "Saridaki",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168811,
+      "name": "Efi Myrilla",
+      "short": "Myrilla",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168812,
+      "name": "Theodora Sarakatsani",
+      "short": "Sarakatsani",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168977,
+      "name": "Mirto Kalamaridou",
+      "short": "Kalamaridou",
+      "tournaments": 50,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 173494,
+      "name": "Ioanna Perdikaki",
+      "short": "Perdikaki",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 173495,
+      "name": "Georgia Maria Antonakaki",
+      "short": "Antonakaki",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 182233,
+      "name": "Paraskevi Zafeiriou",
+      "short": "Zafeiriou",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 182234,
+      "name": "Elpida Pitsigkoni",
+      "short": "Pitsigkoni",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 184770,
+      "name": "Anastasia Shirinina",
+      "short": "Shirinina",
+      "tournaments": 4,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 188986,
+      "name": "Ilektra Agriodimou",
+      "short": "Agriodimou",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 189729,
+      "name": "Rodanthi Mariatou Metaxa",
+      "short": "Mariatou, R.",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190191,
+      "name": "Eleni Chantzi",
+      "short": "Chantzi",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 190430,
+      "name": "Polytimi Trigonidou",
+      "short": "Trigonidou",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190546,
+      "name": "Chrysanthi Christodoulou",
+      "short": "Christodoulou, C.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190547,
+      "name": "Εvanthia Lavda",
+      "short": "Lavda",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 190993,
+      "name": "Angela Papa",
+      "short": "Papa Angela",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 191146,
+      "name": "Chara Spyropoulou",
+      "short": "Spyropoulou, Chara",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 192617,
+      "name": "Myrto Paschalaki",
+      "short": "Paschalaki",
+      "tournaments": 4,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 192618,
+      "name": "Eleni Alexoglou",
+      "short": "Alexoglou",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 211803,
+      "name": "Aikaterini Fragkioudaki",
+      "short": "Fragkioudaki, K.",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 222939,
+      "name": "Angeliki Charissaki",
+      "short": "Charissaki",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 224027,
+      "name": "Grigoria Anna Margaritopoulou",
+      "short": "Margaritopoulou",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 224028,
+      "name": "Maria Margaritopoulou",
+      "short": "Margaritopoulou",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101829,
+      "b": 101830,
+      "t": 66,
+      "f": 1997,
+      "l": 2005
+    },
+    {
+      "a": 101829,
+      "b": 102708,
+      "t": 2,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 101829,
+      "b": 102709,
+      "t": 2,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 101829,
+      "b": 103656,
+      "t": 57,
+      "f": 2005,
+      "l": 2008
+    },
+    {
+      "a": 102708,
+      "b": 102709,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102708,
+      "b": 103051,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102709,
+      "b": 103084,
+      "t": 63,
+      "f": 2005,
+      "l": 2008
+    },
+    {
+      "a": 102709,
+      "b": 103280,
+      "t": 13,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 102709,
+      "b": 103656,
+      "t": 26,
+      "f": 2001,
+      "l": 2004
+    },
+    {
+      "a": 102709,
+      "b": 122955,
+      "t": 3,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 103051,
+      "b": 103052,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103051,
+      "b": 103080,
+      "t": 4,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 103051,
+      "b": 103084,
+      "t": 3,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103051,
+      "b": 117909,
+      "t": 2,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103051,
+      "b": 117910,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 103080,
+      "b": 103081,
+      "t": 2,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 103080,
+      "b": 103085,
+      "t": 3,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103081,
+      "b": 104011,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103082,
+      "b": 103083,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103084,
+      "b": 103085,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103084,
+      "b": 103280,
+      "t": 20,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 103084,
+      "b": 103479,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103084,
+      "b": 103656,
+      "t": 87,
+      "f": 2009,
+      "l": 2015
+    },
+    {
+      "a": 103085,
+      "b": 103087,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103085,
+      "b": 103091,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103085,
+      "b": 104012,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103085,
+      "b": 104014,
+      "t": 3,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 103086,
+      "b": 103087,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103087,
+      "b": 104280,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103088,
+      "b": 103089,
+      "t": 4,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 103090,
+      "b": 103091,
+      "t": 2,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 103280,
+      "b": 117116,
+      "t": 4,
+      "f": 2005,
+      "l": 2006
+    },
+    {
+      "a": 103656,
+      "b": 104008,
+      "t": 2,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103656,
+      "b": 141673,
+      "t": 58,
+      "f": 2013,
+      "l": 2021
+    },
+    {
+      "a": 103934,
+      "b": 103935,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103934,
+      "b": 104011,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103935,
+      "b": 104010,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103935,
+      "b": 104383,
+      "t": 2,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 104008,
+      "b": 104009,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104009,
+      "b": 104010,
+      "t": 5,
+      "f": 2002,
+      "l": 2006
+    },
+    {
+      "a": 104009,
+      "b": 104174,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104009,
+      "b": 119347,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104010,
+      "b": 104383,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104013,
+      "b": 104014,
+      "t": 4,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 104013,
+      "b": 104383,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104013,
+      "b": 104688,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104014,
+      "b": 104687,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104174,
+      "b": 104175,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104281,
+      "b": 104282,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104281,
+      "b": 115658,
+      "t": 6,
+      "f": 2006,
+      "l": 2008
+    },
+    {
+      "a": 104281,
+      "b": 139889,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 104282,
+      "b": 104689,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104282,
+      "b": 117910,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 105027,
+      "b": 105029,
+      "t": 5,
+      "f": 2004,
+      "l": 2006
+    },
+    {
+      "a": 105027,
+      "b": 119347,
+      "t": 3,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 105029,
+      "b": 116719,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 105029,
+      "b": 118980,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 105029,
+      "b": 119351,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 117910,
+      "b": 117911,
+      "t": 2,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118040,
+      "b": 118041,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118754,
+      "b": 118755,
+      "t": 39,
+      "f": 2007,
+      "l": 2013
+    },
+    {
+      "a": 119249,
+      "b": 119250,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119347,
+      "b": 120769,
+      "t": 2,
+      "f": 2008,
+      "l": 2009
+    },
+    {
+      "a": 119347,
+      "b": 143064,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 120567,
+      "b": 120568,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120567,
+      "b": 132682,
+      "t": 2,
+      "f": 2019,
+      "l": 2023
+    },
+    {
+      "a": 120567,
+      "b": 167348,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 120568,
+      "b": 125201,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 123530,
+      "b": 123531,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125188,
+      "b": 125189,
+      "t": 2,
+      "f": 2009,
+      "l": 2010
+    },
+    {
+      "a": 132681,
+      "b": 132682,
+      "t": 2,
+      "f": 2010,
+      "l": 2012
+    },
+    {
+      "a": 141673,
+      "b": 147693,
+      "t": 3,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 141673,
+      "b": 153963,
+      "t": 16,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 144202,
+      "b": 148564,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 144202,
+      "b": 168761,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 146196,
+      "b": 146199,
+      "t": 3,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 146196,
+      "b": 148564,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 146196,
+      "b": 168761,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 146199,
+      "b": 147693,
+      "t": 37,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 146199,
+      "b": 153963,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 146199,
+      "b": 167348,
+      "t": 18,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 146199,
+      "b": 168977,
+      "t": 37,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 146199,
+      "b": 192617,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 146730,
+      "b": 146734,
+      "t": 2,
+      "f": 2014,
+      "l": 2016
+    },
+    {
+      "a": 146734,
+      "b": 162241,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146734,
+      "b": 168227,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 147693,
+      "b": 168977,
+      "t": 13,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 148564,
+      "b": 184770,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 148564,
+      "b": 190547,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 151594,
+      "b": 189729,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 153963,
+      "b": 168807,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 162241,
+      "b": 167348,
+      "t": 5,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 162241,
+      "b": 190191,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 165049,
+      "b": 168812,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 165049,
+      "b": 188986,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 167395,
+      "b": 168760,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 168761,
+      "b": 184770,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 168761,
+      "b": 190546,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 168810,
+      "b": 168811,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 173494,
+      "b": 173495,
+      "t": 3,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 182233,
+      "b": 184770,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 182234,
+      "b": 190191,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 190430,
+      "b": 190993,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 192617,
+      "b": 192618,
+      "t": 3,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 211803,
+      "b": 222939,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 224027,
+      "b": 224028,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

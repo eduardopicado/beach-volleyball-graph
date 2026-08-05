@@ -1,0 +1,101 @@
+{
+  "country": "NIG",
+  "countryName": "Niger",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 137192,
+      "name": "Djibo Karimou Saadatou",
+      "short": "Saadatou",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 139038,
+      "name": "Roukeya Insa Garanke",
+      "short": "Insa Garanke",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2013
+    },
+    {
+      "id": 139039,
+      "name": "Samira Abdou Hamadou",
+      "short": "Abdou Hamadou",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2013
+    },
+    {
+      "id": 150313,
+      "name": "Rakiatou Seydou",
+      "short": "Rakiatou",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 156304,
+      "name": "Soumana Sieni Balkissa",
+      "short": "Balkissa",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 156305,
+      "name": "Malam Boukari Salamatou",
+      "short": "Salamatou",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 202239,
+      "name": "KAFAYYATOU SANI ISSOUFOU",
+      "short": "KAFAYYATOU",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 208800,
+      "name": "ALI IDI NANA NADIA",
+      "short": "NANA NADIA",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 137192,
+      "b": 208800,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 139038,
+      "b": 139039,
+      "t": 2,
+      "f": 2012,
+      "l": 2013
+    },
+    {
+      "a": 150313,
+      "b": 202239,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 156304,
+      "b": 156305,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    }
+  ]
+}

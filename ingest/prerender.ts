@@ -103,7 +103,14 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
     }
   }
 
-  const rows = graph.nodes
+  // The JSON on disk is ordered by id — an immutable key, so a value change
+  // week to week doesn't reorder the whole array and blow up its diff (see
+  // `sliceByCountryAndGender`). The interactive app re-sorts for display
+  // itself (`TableView`'s sortable columns), and this static fallback page
+  // needs the same: most-active-first is the useful order for a reader who
+  // has no JS and no sort control to reach for.
+  const rows = [...graph.nodes]
+    .sort((a, b) => b.tournaments - a.tournaments || a.name.localeCompare(b.name))
     .map((n) => {
       const p = partners.get(n.id);
       return `<tr><th scope="row">${esc(n.name)}</th><td>${n.tournaments}</td><td>${p?.count ?? 0}</td><td>${seasonSpan(n.first, n.last)}</td><td>${esc(p?.top ?? '—')}</td></tr>`;

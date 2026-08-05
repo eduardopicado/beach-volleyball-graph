@@ -1,0 +1,104 @@
+{
+  "country": "SRB",
+  "gender": "W",
+  "players": [
+    {
+      "id": 124619,
+      "name": "Nina Skaric",
+      "dob": "1991-06-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133720,
+      "name": "Milena Matic",
+      "dob": "1992-04-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 136815,
+      "name": "Katarina Raicevic",
+      "dob": "1994-07-25",
+      "height": 184,
+      "weight": 62
+    },
+    {
+      "id": 139353,
+      "name": "Kristina Vasic",
+      "dob": "1995-07-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139354,
+      "name": "Milana Stojanoski",
+      "dob": "1996-04-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146757,
+      "name": "Tijana Basic",
+      "dob": "1999-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146758,
+      "name": "Irena Drobnjak",
+      "dob": "1999-05-09",
+      "height": 169,
+      "weight": 50
+    },
+    {
+      "id": 147367,
+      "name": "Natasa Masulovic",
+      "dob": "1994-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148877,
+      "name": "Marija Milosevic",
+      "dob": "1986-03-15",
+      "height": 182,
+      "weight": 68
+    },
+    {
+      "id": 170715,
+      "name": "Marija Vojnovic",
+      "dob": "1987-02-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173766,
+      "name": "Tamara Miljevic",
+      "dob": "1999-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173767,
+      "name": "Marija Miljevic",
+      "dob": "1998-07-09",
+      "height": 177,
+      "weight": 62
+    },
+    {
+      "id": 194207,
+      "name": "Milena Gavric",
+      "dob": "1997-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 194244,
+      "name": "Ana Marija Mitrovic",
+      "dob": "1995-02-24",
+      "height": 184,
+      "weight": 66
+    }
+  ]
+}

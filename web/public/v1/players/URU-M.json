@@ -1,0 +1,258 @@
+{
+  "country": "URU",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100577,
+      "name": "Luis Alberto Baladon Rodriguez",
+      "dob": "1959-01-02",
+      "height": 180,
+      "weight": 92
+    },
+    {
+      "id": 100578,
+      "name": "Sergio Juan Sarkissian",
+      "dob": "1960-09-26",
+      "height": 179,
+      "weight": 72
+    },
+    {
+      "id": 100684,
+      "name": "Waldemar Javier Gonzalez",
+      "dob": "1956-11-28",
+      "height": 175,
+      "weight": 81
+    },
+    {
+      "id": 100696,
+      "name": "Leonardo Dante Lattuada",
+      "dob": "1965-03-02",
+      "height": 185,
+      "weight": 83
+    },
+    {
+      "id": 101648,
+      "name": "Richard Daniel Barreto Barreto",
+      "dob": "1970-11-20",
+      "height": 190,
+      "weight": 90
+    },
+    {
+      "id": 104577,
+      "name": "Guillermo Williman",
+      "dob": "1984-05-17",
+      "height": 183,
+      "weight": 73
+    },
+    {
+      "id": 104578,
+      "name": "Nicolas Ronchi",
+      "dob": "1983-05-17",
+      "height": 197,
+      "weight": 93
+    },
+    {
+      "id": 120919,
+      "name": "Nicolas Zanotta Zuccoli",
+      "dob": "1981-01-14",
+      "height": 190,
+      "weight": 88
+    },
+    {
+      "id": 120925,
+      "name": "Nestor  Adrian Serron Machado",
+      "dob": "1977-10-04",
+      "height": 174,
+      "weight": 73
+    },
+    {
+      "id": 122001,
+      "name": "Fabio Dalmas",
+      "dob": "1977-01-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124965,
+      "name": "Renzo Cairus",
+      "dob": "1990-03-12",
+      "height": 192,
+      "weight": 80
+    },
+    {
+      "id": 131999,
+      "name": "Pablo Ronchi",
+      "dob": "1988-02-27",
+      "height": 196,
+      "weight": 86
+    },
+    {
+      "id": 132932,
+      "name": "Gerardo Peralta",
+      "dob": "1968-05-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135095,
+      "name": "Michael Gonzalez",
+      "dob": "1980-01-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138707,
+      "name": "Andréss Stoll",
+      "dob": "1978-07-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141397,
+      "name": "German Varela",
+      "dob": "1983-04-19",
+      "height": 189,
+      "weight": 90
+    },
+    {
+      "id": 141398,
+      "name": "Hans Hannibal",
+      "dob": "1996-10-23",
+      "height": 190,
+      "weight": 83
+    },
+    {
+      "id": 141554,
+      "name": "Alejandro Cabrera",
+      "dob": "1986-03-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143446,
+      "name": "Mauricio Sebastian Vieyto Acosta",
+      "dob": "1996-12-05",
+      "height": 191,
+      "weight": 86
+    },
+    {
+      "id": 145364,
+      "name": "Marco Cairus Lucarelli",
+      "dob": "1997-05-10",
+      "height": 183,
+      "weight": 75
+    },
+    {
+      "id": 156170,
+      "name": "Lucas Mocellini",
+      "dob": "1996-12-27",
+      "height": 186,
+      "weight": 77
+    },
+    {
+      "id": 156171,
+      "name": "Santiago Freire",
+      "dob": "1994-04-04",
+      "height": 199,
+      "weight": 93
+    },
+    {
+      "id": 156173,
+      "name": "Gastón Baldi Alvarez",
+      "dob": "1996-04-28",
+      "height": 198,
+      "weight": 88
+    },
+    {
+      "id": 156441,
+      "name": "Williams Michael Fernandez Rivero",
+      "dob": "1999-12-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157031,
+      "name": "Nicolas Bertran",
+      "dob": "1999-07-24",
+      "height": 180,
+      "weight": 75
+    },
+    {
+      "id": 161673,
+      "name": "Esteban Bailon",
+      "dob": "2000-05-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161677,
+      "name": "Joaquin Gonzalez Mameli",
+      "dob": "2002-09-18",
+      "height": 186,
+      "weight": 82
+    },
+    {
+      "id": 179109,
+      "name": "Mateo Domingo Pérez Coria",
+      "dob": "2005-03-02",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 186675,
+      "name": "Nicolás Llambías Carvalho",
+      "dob": "1998-09-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 186856,
+      "name": "Roberto Luciano Fernández Rivero",
+      "dob": "2003-07-03",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 187926,
+      "name": "Alejo Divenuto",
+      "dob": "2004-07-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187927,
+      "name": "Franco Delfino",
+      "dob": "2005-07-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 193190,
+      "name": "Sebastian Rubio",
+      "dob": "2007-04-20",
+      "height": 198,
+      "weight": 80
+    },
+    {
+      "id": 196385,
+      "name": "Nicolas Busiello Valente",
+      "dob": "2003-11-01",
+      "height": 184,
+      "weight": 84
+    },
+    {
+      "id": 208733,
+      "name": "Ignacio Rodríguez",
+      "dob": "2009-02-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 218865,
+      "name": "Ignacio Pérez Coria",
+      "dob": "2008-03-19",
+      "height": 186,
+      "weight": 65
+    }
+  ]
+}

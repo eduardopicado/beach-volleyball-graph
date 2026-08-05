@@ -1,0 +1,32 @@
+{
+  "country": "TUV",
+  "countryName": "Tuvalu",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 148592,
+      "name": "Loluama Eti",
+      "short": "Eti",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148593,
+      "name": "Valisi Sakalia",
+      "short": "Sakalia",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    }
+  ],
+  "edges": [
+    {
+      "a": 148592,
+      "b": 148593,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "country": "NIG",
+  "gender": "M",
+  "players": [
+    {
+      "id": 139036,
+      "name": "Taleb Ibrahim Boubacar",
+      "dob": "1995-01-20",
+      "height": 172,
+      "weight": 66
+    },
+    {
+      "id": 139037,
+      "name": "Sanoussi Assoumane",
+      "dob": "1994-06-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139041,
+      "name": "Aboubakar Issoufou",
+      "dob": "1992-06-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139042,
+      "name": "Abdoul Madjid Adamou Zibo",
+      "dob": "1992-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141617,
+      "name": "Bawa Chaïbou Ibrahim",
+      "dob": "1995-09-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141677,
+      "name": "Ibrahim Dan Baro Abdoul Nasser",
+      "dob": "1995-01-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145934,
+      "name": "Oumarou Alloh Moctar",
+      "dob": "1988-12-09",
+      "height": 182,
+      "weight": 70
+    },
+    {
+      "id": 146518,
+      "name": "Youssoufou Adamou Incha",
+      "dob": "1996-09-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156303,
+      "name": "Moussa Idrissa",
+      "dob": "2000-01-01",
+      "height": 188,
+      "weight": 85
+    },
+    {
+      "id": 169607,
+      "name": "Boureima Moubarak",
+      "dob": "2001-01-01",
+      "height": 198,
+      "weight": 93
+    },
+    {
+      "id": 172987,
+      "name": "Bassirou Seini Ali",
+      "dob": "1998-09-08",
+      "height": 177,
+      "weight": 70
+    },
+    {
+      "id": 181259,
+      "name": "Adamou Incha Abdoul Malik",
+      "dob": "1999-09-28",
+      "height": 190,
+      "weight": 90
+    }
+  ]
+}

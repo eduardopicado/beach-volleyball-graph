@@ -1,0 +1,90 @@
+{
+  "country": "GUA",
+  "gender": "W",
+  "players": [
+    {
+      "id": 117305,
+      "name": "María Jose Orellana",
+      "dob": "1981-04-08",
+      "height": 163,
+      "weight": 57
+    },
+    {
+      "id": 120803,
+      "name": "Blanca Elizabeth Recinos Ocaña",
+      "dob": "1991-03-08",
+      "height": 176,
+      "weight": 63
+    },
+    {
+      "id": 120804,
+      "name": "Susana Eloisa Alvarado Gómez",
+      "dob": "1991-10-05",
+      "height": 169,
+      "weight": 63
+    },
+    {
+      "id": 132286,
+      "name": "Maria Renee Andreu Rivas",
+      "dob": "1994-01-20",
+      "height": 163,
+      "weight": 52
+    },
+    {
+      "id": 134980,
+      "name": "Ana Lucia Villagran Ruano",
+      "dob": "1992-12-04",
+      "height": 170,
+      "weight": 62
+    },
+    {
+      "id": 134981,
+      "name": "Nadia Lucia Galan Dary",
+      "dob": "1993-11-05",
+      "height": 166,
+      "weight": 57
+    },
+    {
+      "id": 138403,
+      "name": "Estefanie Bethancourth Guerra",
+      "dob": "1996-08-15",
+      "height": 175,
+      "weight": 56
+    },
+    {
+      "id": 139198,
+      "name": "Maria Andrea Orellana Aragon",
+      "dob": "1995-09-27",
+      "height": 169,
+      "weight": 60
+    },
+    {
+      "id": 139960,
+      "name": "Natalia Maria Giron Boesche",
+      "dob": "1996-09-13",
+      "height": 181,
+      "weight": 75
+    },
+    {
+      "id": 173300,
+      "name": "Naomi Monney Hori",
+      "dob": "2005-05-03",
+      "height": 172,
+      "weight": 58
+    },
+    {
+      "id": 195592,
+      "name": "Danna Mariela Aguilar Hernández",
+      "dob": "2005-02-20",
+      "height": 166,
+      "weight": 60
+    },
+    {
+      "id": 195743,
+      "name": "Maritza Isabel Zuñiga Cambara",
+      "dob": "2006-06-21",
+      "height": 170,
+      "weight": 56
+    }
+  ]
+}

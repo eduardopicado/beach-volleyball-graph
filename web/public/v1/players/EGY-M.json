@@ -1,0 +1,356 @@
+{
+  "country": "EGY",
+  "gender": "M",
+  "players": [
+    {
+      "id": 103450,
+      "name": "Hasan Ibrahim Alhosary",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103451,
+      "name": "Esam El-Din Moawad",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103498,
+      "name": "Karim Mouhamad",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103499,
+      "name": "Abdul Rahman Mouhamad",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122605,
+      "name": "Ahmed Abdualla",
+      "dob": "1978-09-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122607,
+      "name": "Ahmed Saber",
+      "dob": "1979-09-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122608,
+      "name": "Atef Nassif",
+      "dob": "1986-07-20",
+      "height": 198,
+      "weight": 90
+    },
+    {
+      "id": 122609,
+      "name": "Eslam Okasha",
+      "dob": "1984-03-06",
+      "height": 188,
+      "weight": 79
+    },
+    {
+      "id": 131964,
+      "name": "Mohamed El Shemerly",
+      "dob": "1990-04-30",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 131965,
+      "name": "Ahmed Atta",
+      "dob": "1978-05-15",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 135014,
+      "name": "Ahmed Metwaly",
+      "dob": "1981-08-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 136431,
+      "name": "Mohamed Yehia",
+      "dob": "1991-05-01",
+      "height": 198,
+      "weight": 91
+    },
+    {
+      "id": 136831,
+      "name": "Usama Eltranisy",
+      "dob": "1981-01-06",
+      "height": 188,
+      "weight": 90
+    },
+    {
+      "id": 142080,
+      "name": "Abdelrahman Fayed",
+      "dob": "1993-01-07",
+      "height": 198,
+      "weight": 94
+    },
+    {
+      "id": 142081,
+      "name": "Mohamed Elaskolany",
+      "dob": "1991-01-21",
+      "height": 196,
+      "weight": 80
+    },
+    {
+      "id": 142082,
+      "name": "Mostafa Roshdy",
+      "dob": "2650-11-13",
+      "height": 195,
+      "weight": 87
+    },
+    {
+      "id": 142083,
+      "name": "Ahmed Fahmy Farag",
+      "dob": "1993-08-19",
+      "height": 193,
+      "weight": 88
+    },
+    {
+      "id": 145949,
+      "name": "Basel Ahmed",
+      "dob": "1996-01-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146626,
+      "name": "Mohamed Abdelhady",
+      "dob": "1994-05-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147214,
+      "name": "Aly Fayed",
+      "dob": "1997-05-29",
+      "height": 194,
+      "weight": 83
+    },
+    {
+      "id": 147220,
+      "name": "Mohamed Sayedin",
+      "dob": "1996-04-01",
+      "height": 192,
+      "weight": 85
+    },
+    {
+      "id": 150576,
+      "name": "Ayman Shoukry",
+      "dob": "1981-09-09",
+      "height": 196,
+      "weight": 74
+    },
+    {
+      "id": 152721,
+      "name": "Mahmoud Mohamed",
+      "dob": "1998-02-11",
+      "height": 187,
+      "weight": 76
+    },
+    {
+      "id": 152819,
+      "name": "George Bakhit",
+      "dob": "1999-02-20",
+      "height": 189,
+      "weight": 91
+    },
+    {
+      "id": 162678,
+      "name": "Omar Fayed",
+      "dob": "1999-06-29",
+      "height": 187,
+      "weight": 88
+    },
+    {
+      "id": 162700,
+      "name": "Youssef Hamdy Awad",
+      "dob": "2000-08-27",
+      "height": 196,
+      "weight": 99
+    },
+    {
+      "id": 164195,
+      "name": "Ahmed Azab Abdelrahman",
+      "dob": "2000-03-01",
+      "height": 198,
+      "weight": 99
+    },
+    {
+      "id": 167541,
+      "name": "Ali Ahmed Mohamed Amin Farahat",
+      "dob": "2000-08-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167547,
+      "name": "Youssef Ashraf Mohamed Mahmoud",
+      "dob": "2002-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 174803,
+      "name": "Ahmed Abdelazim",
+      "dob": "2001-07-27",
+      "height": 199,
+      "weight": 98
+    },
+    {
+      "id": 174820,
+      "name": "Youssef Gafer",
+      "dob": "2001-07-14",
+      "height": 189,
+      "weight": 83
+    },
+    {
+      "id": 177354,
+      "name": "Taha Attia",
+      "dob": "2000-06-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 177671,
+      "name": "Khaled Elfayoumi",
+      "dob": "1986-01-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181656,
+      "name": "Mohamed Abdrabu",
+      "dob": "2002-06-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182678,
+      "name": "Hazem Abdelfatah",
+      "dob": "2004-10-27",
+      "height": 193,
+      "weight": 78
+    },
+    {
+      "id": 183876,
+      "name": "Abdelrahman Elsayed",
+      "dob": "2002-01-31",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 184784,
+      "name": "Youssef Ismail",
+      "dob": "2001-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187913,
+      "name": "Ziad Abdallah",
+      "dob": "1997-11-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188705,
+      "name": "Hermash Abdelrahman",
+      "dob": "2004-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188711,
+      "name": "Elmetwally Anas",
+      "dob": "2004-02-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188777,
+      "name": "Youssef Abdelrahman",
+      "dob": "2004-10-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190443,
+      "name": "Mazen Mostafa",
+      "dob": "2004-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 206745,
+      "name": "Zyad Ahmed",
+      "dob": "2008-01-09",
+      "height": 198,
+      "weight": 70
+    },
+    {
+      "id": 211422,
+      "name": "Marwan Takyeldeen",
+      "dob": "2006-11-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 224951,
+      "name": "Abdelrahman Elfeky",
+      "dob": "2006-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226540,
+      "name": "Mohamed Khaled Mohamed",
+      "dob": "2008-06-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226541,
+      "name": "Abdelhamid Abdelfattah",
+      "dob": "2008-07-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226542,
+      "name": "Amir Badran",
+      "dob": "2008-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238512,
+      "name": "Yassin Abdelhay",
+      "dob": "2009-07-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238513,
+      "name": "Omar Mohamed",
+      "dob": "2009-03-05",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

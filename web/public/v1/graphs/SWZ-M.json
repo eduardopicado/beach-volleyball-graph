@@ -1,0 +1,32 @@
+{
+  "country": "SWZ",
+  "countryName": "Eswatini",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 146660,
+      "name": "Qiniso Mthethwa",
+      "short": "Mthethwa",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146661,
+      "name": "Steven Khathwane",
+      "short": "S.Khathwane",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    }
+  ],
+  "edges": [
+    {
+      "a": 146660,
+      "b": 146661,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    }
+  ]
+}

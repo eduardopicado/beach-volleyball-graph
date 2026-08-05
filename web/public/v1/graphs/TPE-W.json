@@ -1,0 +1,184 @@
+{
+  "country": "TPE",
+  "countryName": "Taiwan",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 119040,
+      "name": "Hui Min Chang",
+      "short": "Chang H.M.",
+      "tournaments": 4,
+      "first": 2010,
+      "last": 2012
+    },
+    {
+      "id": 134692,
+      "name": "Pi Hsin Liu",
+      "short": "LIU P.H.",
+      "tournaments": 33,
+      "first": 2012,
+      "last": 2020
+    },
+    {
+      "id": 138597,
+      "name": "Shu-Fen Wu",
+      "short": "Wu S.F.",
+      "tournaments": 3,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 146088,
+      "name": "Tzu-Yi Pan",
+      "short": "PAN T.Y.",
+      "tournaments": 18,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 146103,
+      "name": "Tzu-Yi Pan",
+      "short": "Pan T Y",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146104,
+      "name": "Yu-Rong Song",
+      "short": "Song Y R",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 152984,
+      "name": "Nai-Han Kou",
+      "short": "KOU N.H.",
+      "tournaments": 32,
+      "first": 2010,
+      "last": 2020
+    },
+    {
+      "id": 165038,
+      "name": "Ya-Hsuan Yu",
+      "short": "YU Y.H.",
+      "tournaments": 18,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 167048,
+      "name": "Hsuan-Tsen Yeh",
+      "short": "YEH H.T.",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 167171,
+      "name": "Xiao-Pei Hu",
+      "short": "Hu X.P",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 167174,
+      "name": "Shih-Wen Kung",
+      "short": "KUNG S.W.",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 173028,
+      "name": "Wei-Jie Chang",
+      "short": "CHANG W.J.",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 192831,
+      "name": "Chia-Ning Hsu",
+      "short": "HSU C.N.",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210506,
+      "name": "HSIN-TUNG CHUANG",
+      "short": "CHUANG H.T.",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 119040,
+      "b": 134692,
+      "t": 2,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 119040,
+      "b": 152984,
+      "t": 2,
+      "f": 2010,
+      "l": 2012
+    },
+    {
+      "a": 134692,
+      "b": 138597,
+      "t": 3,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 134692,
+      "b": 152984,
+      "t": 30,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 146088,
+      "b": 165038,
+      "t": 18,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 146103,
+      "b": 146104,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 167048,
+      "b": 167174,
+      "t": 4,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 167171,
+      "b": 173028,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 192831,
+      "b": 210506,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

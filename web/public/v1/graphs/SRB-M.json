@@ -1,0 +1,813 @@
+{
+  "country": "SRB",
+  "countryName": "Serbia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101110,
+      "name": "Lubo Travica",
+      "short": "Travica",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101111,
+      "name": "Andrej Urnault",
+      "short": "Urnault",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101812,
+      "name": "Ivan \"Gagi\" Bugarcic",
+      "short": "Bugarcic",
+      "tournaments": 5,
+      "first": 1997,
+      "last": 2004
+    },
+    {
+      "id": 101813,
+      "name": "Ivan \"Ica\" Vladisavljevic",
+      "short": "Vladisavljevic",
+      "tournaments": 4,
+      "first": 1997,
+      "last": 1999
+    },
+    {
+      "id": 102198,
+      "name": "Zoran \"Puli\" Nikolic",
+      "short": "Nikolic",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102199,
+      "name": "Aleksandar \"Aca\" Petrovic",
+      "short": "Petrovic",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102607,
+      "name": "Slobodan Kovac",
+      "short": "Kovac",
+      "tournaments": 3,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 104645,
+      "name": "Vladislav Mandic",
+      "short": "Mandic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104690,
+      "name": "Dejan Stanojcic",
+      "short": "Stanojcic",
+      "tournaments": 3,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 104693,
+      "name": "Sasa Jovic",
+      "short": "Jovic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104694,
+      "name": "Dusan Zezelj",
+      "short": "Zezelj",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104695,
+      "name": "Sinisa Antonic",
+      "short": "Antonic",
+      "tournaments": 25,
+      "first": 2004,
+      "last": 2014
+    },
+    {
+      "id": 104696,
+      "name": "Nenad Tatic",
+      "short": "Tatic",
+      "tournaments": 13,
+      "first": 2004,
+      "last": 2013
+    },
+    {
+      "id": 104697,
+      "name": "Dejan Jovic",
+      "short": "Jovic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104698,
+      "name": "Dusan Ilic",
+      "short": "Ilic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104699,
+      "name": "Zoran Jovanovic",
+      "short": "Jovanovic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104700,
+      "name": "Srdjan Veckov",
+      "short": "Veckov",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104703,
+      "name": "Nemanja Vucic",
+      "short": "Nemanja",
+      "tournaments": 10,
+      "first": 2004,
+      "last": 2007
+    },
+    {
+      "id": 104704,
+      "name": "Milos Stanisavljevic",
+      "short": "Stanisavlevic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104707,
+      "name": "Kemal Seceragic",
+      "short": "Seceragic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104708,
+      "name": "Mehmet Memic",
+      "short": "Memic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104710,
+      "name": "Milan Vucinic",
+      "short": "Vucinic",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 115608,
+      "name": "Nikola Vucic",
+      "short": "Nik",
+      "tournaments": 15,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 118719,
+      "name": "Milos Zumbera",
+      "short": "Zumbera",
+      "tournaments": 7,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118720,
+      "name": "Jovan Sajnberger",
+      "short": "Sajnberger",
+      "tournaments": 7,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 124256,
+      "name": "Nikola Galetin",
+      "short": "Galetin",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 124261,
+      "name": "Stefan Basta",
+      "short": "Basta",
+      "tournaments": 39,
+      "first": 2010,
+      "last": 2023
+    },
+    {
+      "id": 124264,
+      "name": "Nenad Simeunovic",
+      "short": "Simeunovic",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 124414,
+      "name": "Marko Nikolic",
+      "short": "Nikolic",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132295,
+      "name": "Goran Maric",
+      "short": "Maric",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 132456,
+      "name": "Rasko Jovanovic",
+      "short": "Jovanovic",
+      "tournaments": 4,
+      "first": 2014,
+      "last": 2015
+    },
+    {
+      "id": 133736,
+      "name": "Marko Galesev",
+      "short": "Galesev",
+      "tournaments": 10,
+      "first": 2013,
+      "last": 2016
+    },
+    {
+      "id": 134815,
+      "name": "Nemanja Vidic",
+      "short": "Vidic",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 134816,
+      "name": "Jovan Markovic",
+      "short": "Markovic",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 135451,
+      "name": "Nemanja Komar",
+      "short": "Komar",
+      "tournaments": 10,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 139236,
+      "name": "Miljan Kikovic",
+      "short": "Kikovic",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 139351,
+      "name": "Djordje Klasnic",
+      "short": "Klasnic",
+      "tournaments": 159,
+      "first": 2012,
+      "last": 2026
+    },
+    {
+      "id": 139352,
+      "name": "Lazar Kolaric",
+      "short": "Kolaric",
+      "tournaments": 131,
+      "first": 2015,
+      "last": 2024
+    },
+    {
+      "id": 139367,
+      "name": "Dusan Bogunovic",
+      "short": "Bogunovic",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 140110,
+      "name": "Sasa Surla",
+      "short": "Surla",
+      "tournaments": 4,
+      "first": 2013,
+      "last": 2018
+    },
+    {
+      "id": 144025,
+      "name": "Ivan Lozic",
+      "short": "Lozic",
+      "tournaments": 8,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 144301,
+      "name": "Jovan Zivotic",
+      "short": "Zivotic",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 144726,
+      "name": "Damjan Pusonjic",
+      "short": "Pusonjic",
+      "tournaments": 19,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 146750,
+      "name": "Stefan Skakic",
+      "short": "Skakic",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 146751,
+      "name": "Davide Kovač",
+      "short": "Kovač",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148878,
+      "name": "Luka Gutesa",
+      "short": "Gutesa",
+      "tournaments": 2,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 157844,
+      "name": "Aleksandar Gavrilov",
+      "short": "Gavrilov",
+      "tournaments": 37,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 157845,
+      "name": "Milos Milic",
+      "short": "Milic",
+      "tournaments": 51,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 165941,
+      "name": "Marko Plavsic",
+      "short": "Plavsic",
+      "tournaments": 21,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 170024,
+      "name": "Vukasin Rajkovic",
+      "short": "Rajkovic",
+      "tournaments": 37,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 171669,
+      "name": "Velimir Braculj",
+      "short": "BRACULJ",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 173633,
+      "name": "Uros Muskinja",
+      "short": "Muskinja",
+      "tournaments": 4,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 173634,
+      "name": "Marko Makaric",
+      "short": "Makaric",
+      "tournaments": 44,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 173768,
+      "name": "Vlastimir Lukic",
+      "short": "Lukic",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 194205,
+      "name": "Predrag Petkovic",
+      "short": "Petkovic",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    }
+  ],
+  "edges": [
+    {
+      "a": 101110,
+      "b": 101111,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 101812,
+      "b": 101813,
+      "t": 4,
+      "f": 1997,
+      "l": 1999
+    },
+    {
+      "a": 101812,
+      "b": 104645,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 102198,
+      "b": 102199,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102607,
+      "b": 104690,
+      "t": 3,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 104693,
+      "b": 104694,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104695,
+      "b": 104696,
+      "t": 8,
+      "f": 2005,
+      "l": 2008
+    },
+    {
+      "a": 104695,
+      "b": 104704,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104695,
+      "b": 115608,
+      "t": 8,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104695,
+      "b": 132295,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 104695,
+      "b": 133736,
+      "t": 7,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 104695,
+      "b": 134816,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 104696,
+      "b": 104703,
+      "t": 3,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 104696,
+      "b": 124256,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 104696,
+      "b": 124264,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 104697,
+      "b": 104698,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104699,
+      "b": 104700,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104703,
+      "b": 115608,
+      "t": 7,
+      "f": 2005,
+      "l": 2007
+    },
+    {
+      "a": 104707,
+      "b": 104708,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104710,
+      "b": 171669,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 118719,
+      "b": 118720,
+      "t": 7,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 124261,
+      "b": 124414,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 124261,
+      "b": 139351,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 124261,
+      "b": 139352,
+      "t": 36,
+      "f": 2015,
+      "l": 2023
+    },
+    {
+      "a": 124261,
+      "b": 144025,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 132456,
+      "b": 133736,
+      "t": 2,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 132456,
+      "b": 140110,
+      "t": 2,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 133736,
+      "b": 139351,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 134815,
+      "b": 194205,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 135451,
+      "b": 139351,
+      "t": 10,
+      "f": 2018,
+      "l": 2025
+    },
+    {
+      "a": 139236,
+      "b": 148878,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 139351,
+      "b": 139352,
+      "t": 87,
+      "f": 2017,
+      "l": 2024
+    },
+    {
+      "a": 139351,
+      "b": 139367,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139351,
+      "b": 140110,
+      "t": 2,
+      "f": 2013,
+      "l": 2018
+    },
+    {
+      "a": 139351,
+      "b": 157845,
+      "t": 26,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 139351,
+      "b": 165941,
+      "t": 13,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 139351,
+      "b": 170024,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 139351,
+      "b": 173634,
+      "t": 16,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 139351,
+      "b": 173768,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 139352,
+      "b": 157845,
+      "t": 10,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144025,
+      "b": 157844,
+      "t": 7,
+      "f": 2020,
+      "l": 2021
+    },
+    {
+      "a": 144301,
+      "b": 146750,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 144726,
+      "b": 157844,
+      "t": 6,
+      "f": 2019,
+      "l": 2021
+    },
+    {
+      "a": 144726,
+      "b": 170024,
+      "t": 13,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 144726,
+      "b": 173768,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146750,
+      "b": 146751,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 148878,
+      "b": 157844,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 157844,
+      "b": 157845,
+      "t": 15,
+      "f": 2018,
+      "l": 2022
+    },
+    {
+      "a": 157844,
+      "b": 165941,
+      "t": 8,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 170024,
+      "b": 173634,
+      "t": 23,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 173633,
+      "b": 173634,
+      "t": 4,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 173634,
+      "b": 173768,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}

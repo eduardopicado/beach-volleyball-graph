@@ -1,0 +1,741 @@
+{
+  "country": "KOR",
+  "countryName": "South Korea",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100727,
+      "name": "Eun-Young Choi",
+      "short": "CHOI Eun-young",
+      "tournaments": 3,
+      "first": 1995,
+      "last": 1997
+    },
+    {
+      "id": 100728,
+      "name": "So-Young Choi",
+      "short": "CHOI So-young",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 100729,
+      "name": "Kyung-Hee Ji",
+      "short": "JI Kyung-hee",
+      "tournaments": 6,
+      "first": 1995,
+      "last": 1997
+    },
+    {
+      "id": 100730,
+      "name": "Sung-Min Kim",
+      "short": "KIM Sung-min",
+      "tournaments": 5,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 101553,
+      "name": "Mi-Sook Kim",
+      "short": "KIM Mi-sook",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101554,
+      "name": "Sun-Jin Ju",
+      "short": "JU Sun-jin",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101973,
+      "name": "Ae-Lee Choi",
+      "short": "CHOI Ae-lee",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 101974,
+      "name": "Bo-Sook Choi",
+      "short": "CHOI Bo-sook",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 114070,
+      "name": "Dan-A Choi",
+      "short": "CHOI Dan-a",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 114879,
+      "name": "Hye-Suk Yoon",
+      "short": "YOON Hye-suk",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 118698,
+      "name": "Meong-Hee Lee",
+      "short": "LEE Meong-hee",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 118699,
+      "name": "Eun-Kyoung Lee",
+      "short": "LEE Eun-kyoung",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118700,
+      "name": "Seol-Yi Kim",
+      "short": "KIM Seol-yi",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 118701,
+      "name": "Mi-Hwa Yu",
+      "short": "YU Mi-hwa",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119486,
+      "name": "Eun-Mi Si",
+      "short": "SI Eun-mi",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 120312,
+      "name": "Jee-Yeon Han",
+      "short": "HAN Jee-yeon",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2010
+    },
+    {
+      "id": 120313,
+      "name": "Ji-Youn Jung",
+      "short": "JUNG Ji-youn",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2012
+    },
+    {
+      "id": 120410,
+      "name": "Hyo-Jin Song",
+      "short": "SONG Hyo-jin",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120411,
+      "name": "Hyung-Soon Woo",
+      "short": "WOO Hyung-soon",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120428,
+      "name": "Eun-A Lee",
+      "short": "LEE Eun-a",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2012
+    },
+    {
+      "id": 122738,
+      "name": "Hyo-Sil Jang",
+      "short": "JANG Hyo-sil",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 122739,
+      "name": "Ka-Yeon Kim",
+      "short": "KIM Ka-yeon",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2017
+    },
+    {
+      "id": 132094,
+      "name": "You-Jin Oh",
+      "short": "OH You-jin",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132095,
+      "name": "Mi-Ran Son",
+      "short": "SON Mi-ran",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133086,
+      "name": "Yu-Hwa Kwak",
+      "short": "KWAK Yu-hwa",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 135541,
+      "name": "Eunhye Ryu",
+      "short": "RYU Eun-hye",
+      "tournaments": 2,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 135542,
+      "name": "Seulki Moon",
+      "short": "MOON Seul-ki",
+      "tournaments": 2,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 143062,
+      "name": "Gahyun Kim",
+      "short": "KIM Gahyun",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 143063,
+      "name": "Jihee Kim",
+      "short": "KIM Jihee",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 143381,
+      "name": "Heewon Kim",
+      "short": "KIM Heewon",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 163397,
+      "name": "Jinhwa Lee",
+      "short": "Lee Jinhwa",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 163398,
+      "name": "Hyunji Kim",
+      "short": "Kim Hyunji",
+      "tournaments": 5,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 165301,
+      "name": "Hana Kim",
+      "short": "Kim Hana",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 169000,
+      "name": "Youngju LEE",
+      "short": "LEE Youngju",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 173899,
+      "name": "Jieun Shin",
+      "short": "Jieun",
+      "tournaments": 7,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 173900,
+      "name": "Chaerim BACK",
+      "short": "Chaerim",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 173901,
+      "name": "Eunyeong JANG",
+      "short": "JANG Eunyeong",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 173902,
+      "name": "Meeso PARK",
+      "short": "PARK Meeso",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 175164,
+      "name": "Jeonga Kim",
+      "short": "Kim Jeonga",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 188539,
+      "name": "Hobin Lee",
+      "short": "Lee Hobin",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 188540,
+      "name": "Hayeseul Park",
+      "short": "Park Hayeseul",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 191025,
+      "name": "Seohyun Ko",
+      "short": "Seohyun",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 191026,
+      "name": "Yeonghye Choi",
+      "short": "Yeonghye",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 191031,
+      "name": "Hyunjoo Kim",
+      "short": "Hyunjoo",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 192154,
+      "name": "Inyoung Kim",
+      "short": "Kim Inyoung",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 196693,
+      "name": "Seyeon Kim",
+      "short": "Kim Seyeon",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 196694,
+      "name": "Jimin Kang",
+      "short": "Kang Jimin",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 201683,
+      "name": "HARI JEON",
+      "short": "Hari",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 223432,
+      "name": "Gaeun SEO",
+      "short": "Gaeun",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 225914,
+      "name": "Seonhwa Moon",
+      "short": "Seonhwa",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 242555,
+      "name": "Seojin Im",
+      "short": "Seojin",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 242556,
+      "name": "Yewon Kim",
+      "short": "Yewon",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 242557,
+      "name": "Eunhwan Kwon",
+      "short": "Eunhwan",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100727,
+      "b": 100728,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100727,
+      "b": 101974,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 100729,
+      "b": 100730,
+      "t": 4,
+      "f": 1995,
+      "l": 1996
+    },
+    {
+      "a": 100729,
+      "b": 101553,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100729,
+      "b": 101973,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 100730,
+      "b": 101554,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 114070,
+      "b": 143063,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 114879,
+      "b": 163397,
+      "t": 2,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 118698,
+      "b": 118699,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118698,
+      "b": 120312,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118698,
+      "b": 120428,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118700,
+      "b": 118701,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118700,
+      "b": 120312,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 119486,
+      "b": 163398,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 119486,
+      "b": 169000,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 119486,
+      "b": 173899,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 120312,
+      "b": 120313,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120313,
+      "b": 120428,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 120313,
+      "b": 135542,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 120410,
+      "b": 120411,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120428,
+      "b": 135541,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 122738,
+      "b": 122739,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122739,
+      "b": 163398,
+      "t": 2,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 132094,
+      "b": 132095,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 133086,
+      "b": 173900,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 135541,
+      "b": 135542,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 143062,
+      "b": 143381,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 163397,
+      "b": 163398,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 163398,
+      "b": 165301,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163398,
+      "b": 173901,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 165301,
+      "b": 169000,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 173899,
+      "b": 173902,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 173899,
+      "b": 175164,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 173899,
+      "b": 188539,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 173899,
+      "b": 192154,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 173899,
+      "b": 196693,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 188539,
+      "b": 188540,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 188539,
+      "b": 201683,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 191025,
+      "b": 196693,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 191025,
+      "b": 242556,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 191026,
+      "b": 225914,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 191031,
+      "b": 223432,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 196693,
+      "b": 196694,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 242555,
+      "b": 242557,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

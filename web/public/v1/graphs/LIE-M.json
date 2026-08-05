@@ -1,0 +1,100 @@
+{
+  "country": "LIE",
+  "countryName": "Liechtenstein",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101840,
+      "name": "Oliver  \"Oli\" Indra",
+      "short": "Indra",
+      "tournaments": 72,
+      "first": 1997,
+      "last": 2008
+    },
+    {
+      "id": 101841,
+      "name": "Beat Wachter",
+      "short": "Wachter",
+      "tournaments": 2,
+      "first": 1997,
+      "last": 1998
+    },
+    {
+      "id": 102438,
+      "name": "Adrian \"Adi\" Ritter",
+      "short": "Ritter",
+      "tournaments": 11,
+      "first": 1998,
+      "last": 2008
+    },
+    {
+      "id": 104722,
+      "name": "Matthias Wachter",
+      "short": "Wachter",
+      "tournaments": 60,
+      "first": 2004,
+      "last": 2008
+    },
+    {
+      "id": 120800,
+      "name": "Patrick Hohl",
+      "short": "Hohl",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 123939,
+      "name": "Maximilian von Deichmann",
+      "short": "von Deichmann",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2019
+    },
+    {
+      "id": 124740,
+      "name": "Manuel Gahr",
+      "short": "Gahr",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2019
+    }
+  ],
+  "edges": [
+    {
+      "a": 101840,
+      "b": 101841,
+      "t": 2,
+      "f": 1997,
+      "l": 1998
+    },
+    {
+      "a": 101840,
+      "b": 102438,
+      "t": 10,
+      "f": 1998,
+      "l": 2003
+    },
+    {
+      "a": 101840,
+      "b": 104722,
+      "t": 60,
+      "f": 2004,
+      "l": 2008
+    },
+    {
+      "a": 102438,
+      "b": 120800,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 123939,
+      "b": 124740,
+      "t": 3,
+      "f": 2013,
+      "l": 2019
+    }
+  ]
+}

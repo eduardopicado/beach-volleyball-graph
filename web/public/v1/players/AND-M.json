@@ -1,0 +1,55 @@
+{
+  "country": "AND",
+  "gender": "M",
+  "players": [
+    {
+      "id": 104837,
+      "name": "Genildo Da Silva",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104838,
+      "name": "Gerard Caminal",
+      "dob": "1973-03-04",
+      "height": null,
+      "weight": 84
+    },
+    {
+      "id": 118314,
+      "name": "Xavier Folguera Estruga",
+      "dob": "1988-08-27",
+      "height": 180,
+      "weight": 80
+    },
+    {
+      "id": 118315,
+      "name": "Christian Salvador",
+      "dob": "1988-03-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120102,
+      "name": "Erik Olivera",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182605,
+      "name": "Nahuel Tagliaferro",
+      "dob": "2006-01-21",
+      "height": 184,
+      "weight": 65
+    },
+    {
+      "id": 188759,
+      "name": "Marc Garcia Calello",
+      "dob": "2004-12-13",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

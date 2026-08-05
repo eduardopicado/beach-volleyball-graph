@@ -4,9 +4,9 @@ dist/
 .DS_Store
 *.log
 
-# Generated data. Produced by `npm run ingest`, published by CI — never committed,
-# so the repo stays a source-of-truth for code only.
-web/public/v1/
+# web/public/v1/ is generated but deliberately NOT ignored: it's the durable
+# copy of the dataset, committed by the weekly ingest run. See the header
+# comment in ingest/main.ts. Only the transient swap directories are ignored.
 web/public/v1.tmp/
 web/public/v1.old/
 ingest/.cache/

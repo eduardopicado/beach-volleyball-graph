@@ -1,0 +1,272 @@
+{
+  "country": "BLR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101765,
+      "name": "Aliaksandr Kavalenka",
+      "dob": "1978-10-12",
+      "height": 196,
+      "weight": 90
+    },
+    {
+      "id": 101766,
+      "name": "Mikhail Kovalenko",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101767,
+      "name": "Mikhail Petoukhovski",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101768,
+      "name": "Mikhail Khonyak",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102174,
+      "name": "Andrei Zavaichynski",
+      "dob": "1976-10-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102175,
+      "name": "Valeri Lychev",
+      "dob": "1973-03-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102620,
+      "name": "Siarhei Misiurou",
+      "dob": "1974-04-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102621,
+      "name": "Vyacheslav Pokhilko",
+      "dob": "1976-07-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103520,
+      "name": "Dzimitry Tikhmanovich",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103905,
+      "name": "Vasili Kurdziuk",
+      "dob": "1982-03-23",
+      "height": 194,
+      "weight": 85
+    },
+    {
+      "id": 103906,
+      "name": "Andrei Zharykau",
+      "dob": "1982-04-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103984,
+      "name": "Ihar Bury",
+      "dob": "1972-02-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103985,
+      "name": "Siarhei Vasileuski",
+      "dob": "1981-02-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104315,
+      "name": "Dzianis Shustau",
+      "dob": "1984-01-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104316,
+      "name": "Dzmitry Kot",
+      "dob": "1975-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104816,
+      "name": "Alexandr Smirnov",
+      "dob": "1977-11-07",
+      "height": 183,
+      "weight": 79
+    },
+    {
+      "id": 104817,
+      "name": "Dmitry Shaveka",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 114560,
+      "name": "Dzmitry Likharad",
+      "dob": "1977-05-09",
+      "height": 185,
+      "weight": 78
+    },
+    {
+      "id": 114570,
+      "name": "Viktar Beksha",
+      "dob": "1974-04-29",
+      "height": 201,
+      "weight": 92
+    },
+    {
+      "id": 114571,
+      "name": "Aleh Akhrem",
+      "dob": "1983-03-12",
+      "height": 194,
+      "weight": 90
+    },
+    {
+      "id": 116392,
+      "name": "Siarhei Karpau",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118972,
+      "name": "Aliaksandr Dziadkou",
+      "dob": "1990-02-20",
+      "height": 190,
+      "weight": 88
+    },
+    {
+      "id": 118973,
+      "name": "Yauhen Vishneuski",
+      "dob": "1990-01-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 121360,
+      "name": "Oleg Mikanovich",
+      "dob": "1975-10-07",
+      "height": 192,
+      "weight": 90
+    },
+    {
+      "id": 132101,
+      "name": "Siarhei Kazantsau",
+      "dob": "1985-05-27",
+      "height": 199,
+      "weight": 88
+    },
+    {
+      "id": 132191,
+      "name": "Yauheni Yesaulenka",
+      "dob": "1992-10-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132192,
+      "name": "Anton Dedkov",
+      "dob": "1994-01-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139024,
+      "name": "Anton Sinhayeuski",
+      "dob": "1994-08-12",
+      "height": 190,
+      "weight": 87
+    },
+    {
+      "id": 143539,
+      "name": "Pavel Vauchkevich",
+      "dob": "1996-12-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143541,
+      "name": "Uladzislau Drapchynski",
+      "dob": "1996-03-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146865,
+      "name": "Aliaksandr Kruhlenia",
+      "dob": "1991-02-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 152942,
+      "name": "Ilya Abramenka",
+      "dob": "1999-01-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156205,
+      "name": "Pavel Piatrushka",
+      "dob": "1993-09-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156206,
+      "name": "Anton Ivannikau",
+      "dob": "1990-02-25",
+      "height": 186,
+      "weight": 83
+    },
+    {
+      "id": 169957,
+      "name": "Andrei Mitrafanau",
+      "dob": "1994-06-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171604,
+      "name": "Andrei Balyka",
+      "dob": "2001-04-22",
+      "height": 195,
+      "weight": 90
+    },
+    {
+      "id": 181088,
+      "name": "Aliaksandr Bialkevich",
+      "dob": "1988-06-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 240681,
+      "name": "Ivan Yarmosh",
+      "dob": "2006-03-19",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

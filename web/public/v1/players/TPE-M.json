@@ -1,0 +1,69 @@
+{
+  "country": "TPE",
+  "gender": "M",
+  "players": [
+    {
+      "id": 138239,
+      "name": "Chen-Wei Hsu",
+      "dob": "1988-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153324,
+      "name": "Chin-Ju Wang",
+      "dob": "1996-04-26",
+      "height": 175,
+      "weight": 65
+    },
+    {
+      "id": 162317,
+      "name": "Ya-Jen Hsieh",
+      "dob": "1995-07-07",
+      "height": 185,
+      "weight": 62
+    },
+    {
+      "id": 167450,
+      "name": "You-Ting Chen",
+      "dob": "2000-03-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167570,
+      "name": "Shin-Shian Wu",
+      "dob": "1998-03-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167601,
+      "name": "Po-Hung Pan",
+      "dob": "1994-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167697,
+      "name": "Cheng-Wei Lin",
+      "dob": "2000-01-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167699,
+      "name": "Yueh-Hsin Teng",
+      "dob": "2000-08-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171867,
+      "name": "Feng-Ming Zhang",
+      "dob": "1999-02-25",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

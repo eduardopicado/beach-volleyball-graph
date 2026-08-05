@@ -1,0 +1,356 @@
+{
+  "country": "MRI",
+  "countryName": "Mauritius",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 120935,
+      "name": "Elodie Li Yuk Lo",
+      "short": "Li Yuk Lo",
+      "tournaments": 25,
+      "first": 2008,
+      "last": 2018
+    },
+    {
+      "id": 120936,
+      "name": "Natacha Rigobert",
+      "short": "Rigobert",
+      "tournaments": 30,
+      "first": 2008,
+      "last": 2023
+    },
+    {
+      "id": 123191,
+      "name": "Joanne Latour",
+      "short": "J.Latour",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 123212,
+      "name": "Rojelle Chameau",
+      "short": "Chameau",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 123215,
+      "name": "Vanessa Chellumben",
+      "short": "Chellumben",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 134990,
+      "name": "Majorie Nadal",
+      "short": "Nadal",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 134991,
+      "name": "Prisca Seerungen",
+      "short": "Seerungen",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 138645,
+      "name": "Charonne Couronne",
+      "short": "Couronne",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 138646,
+      "name": "Melody Mootoosamy",
+      "short": "Mootoosamy",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 138855,
+      "name": "Marie Nathalie Jacqueline Letendrie",
+      "short": "Letendrie",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 138856,
+      "name": "Marie Heidy Bauda",
+      "short": "Bauda",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146343,
+      "name": "Jean Gael Adrien Bauda",
+      "short": "Bauda",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146345,
+      "name": "Mary Stacey Kelly Desbleds",
+      "short": "Desbleds",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146346,
+      "name": "Marie Riana Katriona Moutien",
+      "short": "Moutien",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146706,
+      "name": "Jeff Lebon",
+      "short": "Jeff",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146708,
+      "name": "Marie-Danielle Stephanie Joanit Latour",
+      "short": "Juanita",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 146709,
+      "name": "Valentine Paul",
+      "short": "Paul",
+      "tournaments": 9,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 150141,
+      "name": "Marie Christelle Joanna Parsooramen",
+      "short": "Parsooramen",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 150142,
+      "name": "Marie Monika Martina Louise",
+      "short": "Louise",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 155062,
+      "name": "Marie Desirella Ravina",
+      "short": "Ravina",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 156216,
+      "name": "Angelique Ramdoss",
+      "short": "Ramdoss",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 156217,
+      "name": "Maita Cousin",
+      "short": "Maita",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 169816,
+      "name": "Alexie ELMYRE",
+      "short": "ELMYRE",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 169817,
+      "name": "Marie Serena Hope Chavry",
+      "short": "Serena",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 172464,
+      "name": "Liza Bonne",
+      "short": "Bonne",
+      "tournaments": 11,
+      "first": 2018,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 120935,
+      "b": 120936,
+      "t": 24,
+      "f": 2008,
+      "l": 2018
+    },
+    {
+      "a": 120935,
+      "b": 123191,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 120936,
+      "b": 134991,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 120936,
+      "b": 172464,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 123191,
+      "b": 146708,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 123212,
+      "b": 169816,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 123215,
+      "b": 138645,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 123215,
+      "b": 146706,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 123215,
+      "b": 156216,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 134990,
+      "b": 150142,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 138645,
+      "b": 146708,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 138646,
+      "b": 146345,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 138855,
+      "b": 156217,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 138855,
+      "b": 172464,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 138856,
+      "b": 156217,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146343,
+      "b": 146708,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146346,
+      "b": 146706,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146346,
+      "b": 146709,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146346,
+      "b": 169817,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146709,
+      "b": 172464,
+      "t": 7,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 150141,
+      "b": 155062,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    }
+  ]
+}

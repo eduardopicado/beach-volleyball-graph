@@ -1,0 +1,104 @@
+{
+  "country": "ECU",
+  "gender": "M",
+  "players": [
+    {
+      "id": 116901,
+      "name": "Daniel Maldonado",
+      "dob": "1987-07-10",
+      "height": 187,
+      "weight": 68
+    },
+    {
+      "id": 125468,
+      "name": "Julio Bardales",
+      "dob": "1980-11-22",
+      "height": 206,
+      "weight": 94
+    },
+    {
+      "id": 141579,
+      "name": "Pedro Alberto Jaramillo Hurtado",
+      "dob": "1994-02-08",
+      "height": 181,
+      "weight": 79
+    },
+    {
+      "id": 149626,
+      "name": "Marcos Jose Tenorio Angulo",
+      "dob": "1993-02-10",
+      "height": 201,
+      "weight": 96
+    },
+    {
+      "id": 155929,
+      "name": "Ronald Andres QUIñONEZ MENDOZA",
+      "dob": "1993-10-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161721,
+      "name": "Dany Jair Leon Nieves",
+      "dob": "2000-11-15",
+      "height": 187,
+      "weight": 75
+    },
+    {
+      "id": 162397,
+      "name": "Joffre Rodolfo Jurado Carrillo",
+      "dob": "2001-09-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175849,
+      "name": "Julio Mateo Estupiñan Centeno",
+      "dob": "2002-06-17",
+      "height": 183,
+      "weight": 77
+    },
+    {
+      "id": 187916,
+      "name": "Damian Recalde Loor",
+      "dob": "2004-07-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187917,
+      "name": "Bryan Joaquin Cordero",
+      "dob": "2004-04-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208866,
+      "name": "Jose Murillo Espinel",
+      "dob": "2007-03-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208867,
+      "name": "Isaac Josué Jiménez Mero",
+      "dob": "2006-04-11",
+      "height": null,
+      "weight": 78
+    },
+    {
+      "id": 211273,
+      "name": "Ricardo Johan Intriago mera",
+      "dob": "2006-06-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 225836,
+      "name": "Alfredo Velez Aparicio",
+      "dob": "2009-05-22",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

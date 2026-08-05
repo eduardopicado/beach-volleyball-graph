@@ -1,0 +1,356 @@
+{
+  "country": "MAR",
+  "countryName": "Morocco",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 134301,
+      "name": "Oumayma Codial",
+      "short": "Codial",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 137685,
+      "name": "Hafid Ouchrif",
+      "short": "Ouchrif",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 147002,
+      "name": "Alexandra Erhart",
+      "short": "Alexandra Erhart",
+      "tournaments": 4,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 150070,
+      "name": "Mahassine Siad",
+      "short": "Mahassine",
+      "tournaments": 12,
+      "first": 2015,
+      "last": 2025
+    },
+    {
+      "id": 150071,
+      "name": "Ikram Ettayfi",
+      "short": "Joc",
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 150072,
+      "name": "Imane Zeroual",
+      "short": "Zeroual",
+      "tournaments": 7,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 154900,
+      "name": "Dina Mellal",
+      "short": "Dina",
+      "tournaments": 6,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 156055,
+      "name": "Nora Nezha Jihane Darrhar",
+      "short": "Darrhar",
+      "tournaments": 5,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 161544,
+      "name": "Imane Yakki",
+      "short": "Yakki",
+      "tournaments": 5,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 161545,
+      "name": "Kawtar Kabbabi",
+      "short": "Kabbabi",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 162007,
+      "name": "Souad Tezzan",
+      "short": "Souad",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 167999,
+      "name": "Maryem Rachki",
+      "short": "Rachki",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 168109,
+      "name": "AZIZA MALLAL",
+      "short": "MALLAL",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 172001,
+      "name": "SIHAM DEBBAB",
+      "short": "DEBBAB",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172002,
+      "name": "MAROUA EL AZHARY",
+      "short": "EL AZHARY",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 184610,
+      "name": "Afafe Ramli",
+      "short": "RAMLI",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 193210,
+      "name": "Karima Lamzaouak",
+      "short": "Karima",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 193211,
+      "name": "Aida Lamzaouak",
+      "short": "Aida",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 195590,
+      "name": "Salma Azarioh",
+      "short": "Azarioh",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 201483,
+      "name": "Oumaima El Mahi",
+      "short": "El Mahi",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 204938,
+      "name": "Fakhr Imane",
+      "short": "Imane",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 204939,
+      "name": "Bouysfi Fatima Zahra",
+      "short": "Fatimazahra",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 213935,
+      "name": "Hafsa Bouysfi",
+      "short": "Bouysfi",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 213939,
+      "name": "Marwa Chalhaoui",
+      "short": "Marwa",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227272,
+      "name": "Ghita Melalka",
+      "short": "Melalka",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 134301,
+      "b": 147002,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 134301,
+      "b": 162007,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 147002,
+      "b": 154900,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 147002,
+      "b": 161544,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 150070,
+      "b": 150071,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 150070,
+      "b": 150072,
+      "t": 5,
+      "f": 2017,
+      "l": 2022
+    },
+    {
+      "a": 150070,
+      "b": 154900,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 150070,
+      "b": 156055,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 150070,
+      "b": 161544,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 150072,
+      "b": 156055,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 154900,
+      "b": 156055,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 161544,
+      "b": 161545,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161544,
+      "b": 201483,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 167999,
+      "b": 168109,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 172001,
+      "b": 172002,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 193210,
+      "b": 193211,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 193211,
+      "b": 204938,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 195590,
+      "b": 204939,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 204938,
+      "b": 204939,
+      "t": 2,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 213935,
+      "b": 213939,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 213935,
+      "b": 227272,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

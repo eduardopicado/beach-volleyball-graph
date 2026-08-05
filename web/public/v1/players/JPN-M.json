@@ -1,0 +1,1021 @@
+{
+  "country": "JPN",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100024,
+      "name": "Jun Ogawa",
+      "dob": "1970-07-22",
+      "height": 192,
+      "weight": 80
+    },
+    {
+      "id": 100030,
+      "name": "Shingo Sakai",
+      "dob": "1969-08-20",
+      "height": 180,
+      "weight": 72
+    },
+    {
+      "id": 100053,
+      "name": "Kazuyuki \"Takye\" Takao",
+      "dob": "1967-05-12",
+      "height": 180,
+      "weight": 75
+    },
+    {
+      "id": 100054,
+      "name": "Koichiro Kanno",
+      "dob": "1967-08-18",
+      "height": 186,
+      "weight": 82
+    },
+    {
+      "id": 100055,
+      "name": "Shoji Setoyama",
+      "dob": "1965-01-25",
+      "height": 185,
+      "weight": 83
+    },
+    {
+      "id": 100056,
+      "name": "Chikashi Kawai",
+      "dob": "1965-12-17",
+      "height": 189,
+      "weight": 75
+    },
+    {
+      "id": 100057,
+      "name": "Hiroshi Seki",
+      "dob": "1966-05-19",
+      "height": 184,
+      "weight": 74
+    },
+    {
+      "id": 100058,
+      "name": "Takeshi or Satoshi Matsumoto",
+      "dob": "1969-05-11",
+      "height": 191,
+      "weight": 85
+    },
+    {
+      "id": 100108,
+      "name": "Shiuchi Sawada",
+      "dob": null,
+      "height": 185,
+      "weight": null
+    },
+    {
+      "id": 100109,
+      "name": "Minoru Kuwabara",
+      "dob": null,
+      "height": 186,
+      "weight": null
+    },
+    {
+      "id": 100125,
+      "name": "N. Aihara",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100126,
+      "name": "Mikiyo or Mikio Tada",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100186,
+      "name": "Yasumasu Tanaka",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100187,
+      "name": "Kazufumi Yamamoto",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100233,
+      "name": "Katsumi Kawano",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100234,
+      "name": "Akihiko Matsuda",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100235,
+      "name": "Kenichi Sakakura",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100237,
+      "name": "Masafumi Oura",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100238,
+      "name": "Koichi Kijima",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100239,
+      "name": "Yasunori \"Kuma\" Kumada",
+      "dob": "1963-03-18",
+      "height": 193,
+      "weight": 93
+    },
+    {
+      "id": 100240,
+      "name": "Masaji Ogino",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100241,
+      "name": "Hiroyuki Yoneyama",
+      "dob": "1970-03-25",
+      "height": 193,
+      "weight": 82
+    },
+    {
+      "id": 100550,
+      "name": "Takuya Noguchi",
+      "dob": "1970-01-13",
+      "height": 181,
+      "weight": 83
+    },
+    {
+      "id": 100551,
+      "name": "Masafumi \"Sohn\" Matsunaga",
+      "dob": "1969-09-20",
+      "height": 194,
+      "weight": 90
+    },
+    {
+      "id": 100816,
+      "name": "Akihiro Ozawa",
+      "dob": "1968-05-20",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 100817,
+      "name": "Yoshihiro Atsumi",
+      "dob": "1970-04-16",
+      "height": 178,
+      "weight": 67
+    },
+    {
+      "id": 100818,
+      "name": "Shunsuke or Shun Hori",
+      "dob": "1972-08-29",
+      "height": 185,
+      "weight": 74
+    },
+    {
+      "id": 100819,
+      "name": "Takeshi Nakamura",
+      "dob": "1967-07-10",
+      "height": 180,
+      "weight": 60
+    },
+    {
+      "id": 100820,
+      "name": "Hiromitsu \"Nemochi\" Nemoto",
+      "dob": "1969-09-18",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 100821,
+      "name": "Yoshimichi Makabe Saito",
+      "dob": "1972-08-12",
+      "height": 183,
+      "weight": 75
+    },
+    {
+      "id": 100822,
+      "name": "Hirokazu or Hiro Takanashi",
+      "dob": "1966-11-22",
+      "height": 180,
+      "weight": 73
+    },
+    {
+      "id": 100823,
+      "name": "Tomohisa Yamamoto",
+      "dob": "1969-12-12",
+      "height": 170,
+      "weight": 70
+    },
+    {
+      "id": 101068,
+      "name": "Akihiro Iwashima",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101089,
+      "name": "Eizaburo Mitsuhashi",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101161,
+      "name": "... Tatsukawa",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101162,
+      "name": "Shinichi Koizumi",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101172,
+      "name": "Hiromichi Kageyama",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101337,
+      "name": "Shunichi Kawai",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101599,
+      "name": "Taichi Morikawa",
+      "dob": "1975-02-25",
+      "height": 190,
+      "weight": 76
+    },
+    {
+      "id": 101603,
+      "name": "Ko Ozaki",
+      "dob": "1971-08-04",
+      "height": 184,
+      "weight": 70
+    },
+    {
+      "id": 101635,
+      "name": "Satoshi Watanabe",
+      "dob": "1975-08-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102132,
+      "name": "Takehito \"Hama\" Hamada",
+      "dob": "1974-12-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102133,
+      "name": "Hideki Hatayama",
+      "dob": "1965-09-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102134,
+      "name": "Takeshi Ozawa",
+      "dob": "1975-06-09",
+      "height": 172,
+      "weight": 62
+    },
+    {
+      "id": 102544,
+      "name": "Katsuhiro Shiratori",
+      "dob": "1976-10-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103250,
+      "name": "Masahiro \"Masa\" Hirano",
+      "dob": "1977-12-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103251,
+      "name": "Hayato Kirihara",
+      "dob": "1971-09-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103400,
+      "name": "Shajiro Soga",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103401,
+      "name": "Yuichi Yano",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103701,
+      "name": "Seta Hisafumi",
+      "dob": "1982-07-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103702,
+      "name": "Wakasugi Shinsako",
+      "dob": "1981-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103780,
+      "name": "Tatsuo Yamamoto",
+      "dob": "1976-05-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103816,
+      "name": "Takashi Ogawa",
+      "dob": "1978-12-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103840,
+      "name": "Koichi Nishimura",
+      "dob": "1973-06-30",
+      "height": 175,
+      "weight": 68
+    },
+    {
+      "id": 103841,
+      "name": "Kentaro Asahi",
+      "dob": "1975-09-19",
+      "height": 199,
+      "weight": 90
+    },
+    {
+      "id": 103842,
+      "name": "Shinya Azama",
+      "dob": "1972-07-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103862,
+      "name": "Shinya Hata",
+      "dob": "1979-12-06",
+      "height": 186,
+      "weight": null
+    },
+    {
+      "id": 104172,
+      "name": "Ryohei Yusa",
+      "dob": "1985-02-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104173,
+      "name": "Shinya Yanagi",
+      "dob": "1986-05-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104656,
+      "name": "Shinpei Aoki",
+      "dob": "1980-07-22",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 114263,
+      "name": "Yu Koshikawa",
+      "dob": "1984-06-30",
+      "height": 189,
+      "weight": 87
+    },
+    {
+      "id": 118437,
+      "name": "Koshiro Kusunoki",
+      "dob": "1984-02-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118438,
+      "name": "Takahiro Nakayama",
+      "dob": "1981-05-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118542,
+      "name": "Tarou Suzuki",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118813,
+      "name": "Shiro Furuta",
+      "dob": "1988-01-29",
+      "height": 188,
+      "weight": 88
+    },
+    {
+      "id": 119050,
+      "name": "Yoshiumi Hasegawa",
+      "dob": "1984-08-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120078,
+      "name": "Yuuki Moritani",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120079,
+      "name": "Kenta Hasegawa",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120939,
+      "name": "Shinya Inoue",
+      "dob": "1982-03-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120986,
+      "name": "Yasuo Nakaya",
+      "dob": "1980-02-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120987,
+      "name": "Masakazu Ushio",
+      "dob": "1976-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122231,
+      "name": "Keisuke Imai",
+      "dob": "1980-02-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125455,
+      "name": "Hitoshi Murakami",
+      "dob": "1989-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125595,
+      "name": "Hiroto Ushio",
+      "dob": "1974-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 131942,
+      "name": "Yujiro Hidaka",
+      "dob": "1986-11-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133007,
+      "name": "Takahiko Imamura",
+      "dob": "1993-05-20",
+      "height": 192,
+      "weight": 85
+    },
+    {
+      "id": 135250,
+      "name": "Tkakumi Takahashi",
+      "dob": "1991-03-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135251,
+      "name": "Tatsuya Watanabe",
+      "dob": "1994-03-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138840,
+      "name": "Osamu Tsuiki",
+      "dob": "1994-08-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138841,
+      "name": "Kai Kurokawa",
+      "dob": "1994-11-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 140902,
+      "name": "Yuya Ageba",
+      "dob": "1983-09-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142152,
+      "name": "Masashi Ogawa",
+      "dob": "1982-09-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144455,
+      "name": "Takumi Takahashi",
+      "dob": "1991-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145405,
+      "name": "Junki Hatabe",
+      "dob": "1987-01-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146164,
+      "name": "Mao Harada",
+      "dob": "1996-09-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146928,
+      "name": "Yuto Iwashita",
+      "dob": "1995-04-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146931,
+      "name": "Shogo Horiki",
+      "dob": "1994-03-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148837,
+      "name": "Keisuke Shimizu",
+      "dob": "1987-09-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149106,
+      "name": "Daisuke Matsumoto",
+      "dob": "1985-10-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150051,
+      "name": "Kensuke Shoji",
+      "dob": "1990-02-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 151850,
+      "name": "Hideki Yoshida",
+      "dob": "1986-02-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 151851,
+      "name": "Yuki Dogi",
+      "dob": "1988-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 152608,
+      "name": "Nassim Malki",
+      "dob": "1997-07-27",
+      "height": 191,
+      "weight": 75
+    },
+    {
+      "id": 155915,
+      "name": "Ryoya Kitagawa",
+      "dob": "1997-12-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156351,
+      "name": "Takashi Tsuchiya",
+      "dob": "1987-10-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156853,
+      "name": "Yuta Nagai",
+      "dob": "1990-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156854,
+      "name": "Daiwa Ninomiya",
+      "dob": "1990-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157538,
+      "name": "Rui Tadano",
+      "dob": "1996-03-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157539,
+      "name": "Masakatsu Onodera",
+      "dob": "1991-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157543,
+      "name": "Shinji Wada",
+      "dob": "1988-08-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157563,
+      "name": "Hidehiko Nishizawa",
+      "dob": "1981-02-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157645,
+      "name": "Masato Kurasaka",
+      "dob": "1990-02-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157646,
+      "name": "Momota Shimada",
+      "dob": "1987-10-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157745,
+      "name": "Ryota Sato",
+      "dob": "1993-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157780,
+      "name": "Kyosuke Enomoto",
+      "dob": "1995-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157781,
+      "name": "Ryo Shindo",
+      "dob": "1994-05-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162769,
+      "name": "Yusuke Ishijima",
+      "dob": "1984-01-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163564,
+      "name": "Taito Mizumachi",
+      "dob": "2001-09-07",
+      "height": 181,
+      "weight": 72
+    },
+    {
+      "id": 163920,
+      "name": "Katsuoka Masato",
+      "dob": "1996-07-03",
+      "height": 182,
+      "weight": 72
+    },
+    {
+      "id": 164083,
+      "name": "Masato Katsuoka",
+      "dob": "1996-07-03",
+      "height": 182,
+      "weight": 72
+    },
+    {
+      "id": 165191,
+      "name": "Jumpei Ikeda",
+      "dob": "1993-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167588,
+      "name": "Ryuichi Adachi",
+      "dob": "2000-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167589,
+      "name": "Takayuki Horikawa",
+      "dob": "2000-02-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167978,
+      "name": "Daisuke Shibata",
+      "dob": "1994-07-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168080,
+      "name": "Nobuaki Taira",
+      "dob": "1996-08-13",
+      "height": 181,
+      "weight": 78
+    },
+    {
+      "id": 168709,
+      "name": "Hiroki Dylan Kurokawa",
+      "dob": "1998-11-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 169063,
+      "name": "Toshiharu Kojima",
+      "dob": "1983-02-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172192,
+      "name": "Rikuto Goto",
+      "dob": "2001-05-13",
+      "height": 187,
+      "weight": 82
+    },
+    {
+      "id": 175280,
+      "name": "Masafumi Takahashi",
+      "dob": "1998-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175495,
+      "name": "Hiroyuki Seki",
+      "dob": "1992-02-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175499,
+      "name": "Shinichi Ide",
+      "dob": "1989-12-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176389,
+      "name": "Satonori Hasegawa",
+      "dob": "1993-09-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178299,
+      "name": "Sena Ishikawa",
+      "dob": "2002-05-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178300,
+      "name": "Kouma Tomita",
+      "dob": "2002-12-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178761,
+      "name": "Shoma Tomita",
+      "dob": "1997-06-20",
+      "height": 190,
+      "weight": 80
+    },
+    {
+      "id": 181805,
+      "name": "Ruiji Ideguchi",
+      "dob": "1996-11-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184181,
+      "name": "Ryota Oda",
+      "dob": "1999-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184182,
+      "name": "Kosuke Fukushima",
+      "dob": "1999-12-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184281,
+      "name": "Tatsuto Watanabe",
+      "dob": "1996-08-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184688,
+      "name": "Masaki Mori",
+      "dob": "2001-10-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184689,
+      "name": "Hayato Ochi",
+      "dob": "2001-12-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 185923,
+      "name": "Shoki Ueda",
+      "dob": "2000-11-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187006,
+      "name": "Ryo Tatsumi",
+      "dob": "1995-07-18",
+      "height": 187,
+      "weight": 78
+    },
+    {
+      "id": 189719,
+      "name": "Kota Kurosawa",
+      "dob": "2004-01-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189720,
+      "name": "Teruki Ryujin",
+      "dob": "2004-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 193527,
+      "name": "Yu Takuma",
+      "dob": "2001-10-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 193529,
+      "name": "Shuma Watanabe",
+      "dob": "1997-08-05",
+      "height": 185,
+      "weight": 85
+    },
+    {
+      "id": 193643,
+      "name": "Takumi Bando",
+      "dob": "2003-02-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 194817,
+      "name": "Futoshi Takahashi",
+      "dob": "2000-10-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 201061,
+      "name": "Juntaro Tachiya",
+      "dob": "2001-12-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 218533,
+      "name": "Takuya Toda",
+      "dob": "1996-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 222564,
+      "name": "Rikuho Kashiwaki",
+      "dob": "2009-03-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 227471,
+      "name": "Daiki Oomi",
+      "dob": "2001-10-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 234153,
+      "name": "Sota Sugiura",
+      "dob": "2009-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 242058,
+      "name": "Yuma Takasaki",
+      "dob": "1999-02-18",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

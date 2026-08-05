@@ -1,0 +1,20 @@
+{
+  "country": "FIJ",
+  "gender": "M",
+  "players": [
+    {
+      "id": 166236,
+      "name": "Nacanieli Elliot",
+      "dob": "1984-07-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166237,
+      "name": "Inia Korowale",
+      "dob": "1985-05-31",
+      "height": 185,
+      "weight": 90
+    }
+  ]
+}

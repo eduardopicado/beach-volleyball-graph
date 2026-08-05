@@ -1,0 +1,34 @@
+{
+  "country": "FIJ",
+  "gender": "W",
+  "players": [
+    {
+      "id": 123576,
+      "name": "Marica Togayali",
+      "dob": "1984-07-08",
+      "height": 177,
+      "weight": 53
+    },
+    {
+      "id": 133872,
+      "name": "Mereoni Lewesi",
+      "dob": "1983-09-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154995,
+      "name": "Iliseva Ratudina",
+      "dob": "1988-09-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166235,
+      "name": "Laite Nima",
+      "dob": "1989-10-18",
+      "height": 173,
+      "weight": 73
+    }
+  ]
+}

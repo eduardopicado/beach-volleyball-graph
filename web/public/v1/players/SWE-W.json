@@ -1,0 +1,699 @@
+{
+  "country": "SWE",
+  "gender": "W",
+  "players": [
+    {
+      "id": 100596,
+      "name": "Charlotte \"Lotten\" Wiig",
+      "dob": "1969-03-17",
+      "height": 176,
+      "weight": 65
+    },
+    {
+      "id": 100597,
+      "name": "Marie Edin",
+      "dob": "1967-04-16",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 100975,
+      "name": "Anna Vorwerk",
+      "dob": "1965-05-24",
+      "height": 182,
+      "weight": 71
+    },
+    {
+      "id": 102162,
+      "name": "Jessica Enberg",
+      "dob": "1975-03-28",
+      "height": 175,
+      "weight": 62
+    },
+    {
+      "id": 102163,
+      "name": "Annika Granström",
+      "dob": "1971-03-24",
+      "height": 182,
+      "weight": 75
+    },
+    {
+      "id": 102550,
+      "name": "Maria \"Mia\" Tvede",
+      "dob": "1976-08-25",
+      "height": 174,
+      "weight": 70
+    },
+    {
+      "id": 102664,
+      "name": "Petra Ekblom",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102665,
+      "name": "Karin Lundqvist",
+      "dob": "1981-10-05",
+      "height": 188,
+      "weight": 75
+    },
+    {
+      "id": 102959,
+      "name": "Katrin Vink",
+      "dob": "1971-09-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102964,
+      "name": "Angelica Ljungquist",
+      "dob": "1974-12-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103257,
+      "name": "Mirlinda \"Mirre\" Jonuzi",
+      "dob": "1970-12-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103258,
+      "name": "Malin \"Mala\" Rabom",
+      "dob": "1970-10-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103328,
+      "name": "Annika Svensson",
+      "dob": "1975-07-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103329,
+      "name": "Elin Warner",
+      "dob": "2001-07-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103330,
+      "name": "Karolina Ljung",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103331,
+      "name": "Sara Uddstahl",
+      "dob": "1976-05-17",
+      "height": 171,
+      "weight": 60
+    },
+    {
+      "id": 103805,
+      "name": "Lena Malm",
+      "dob": "1968-09-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103824,
+      "name": "Viktoria Wallner",
+      "dob": "1970-05-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103825,
+      "name": "Emma Cederlund",
+      "dob": "1975-05-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104069,
+      "name": "Anne Lie Rininsland",
+      "dob": "1977-01-04",
+      "height": 168,
+      "weight": 61
+    },
+    {
+      "id": 104257,
+      "name": "Anna Ljungquist",
+      "dob": "1971-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104292,
+      "name": "Linda Johansson",
+      "dob": "1978-08-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104293,
+      "name": "Malin Andersson",
+      "dob": "1974-09-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104295,
+      "name": "Lina Westman",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104312,
+      "name": "Sofie Charlotte Andersson",
+      "dob": "1977-01-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104547,
+      "name": "Kerstin Hegner",
+      "dob": "1976-10-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104548,
+      "name": "Elisabet Aslund",
+      "dob": "1973-01-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104730,
+      "name": "Jessica Karlsson",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104732,
+      "name": "Diana Ristic",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104844,
+      "name": "Maria Lindgren-Oman",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104937,
+      "name": "Frida Malmström",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104938,
+      "name": "Eva Jönsson",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116073,
+      "name": "Nora Tawhid",
+      "dob": "1983-01-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117737,
+      "name": "Camilla Nilsson",
+      "dob": "1984-04-30",
+      "height": 174,
+      "weight": null
+    },
+    {
+      "id": 117946,
+      "name": "Frida Stahre",
+      "dob": "1980-12-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118120,
+      "name": "Rivia Oliveira",
+      "dob": "1985-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118123,
+      "name": "Eva Ranehill",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118124,
+      "name": "Sofia Ögren",
+      "dob": "1984-03-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119352,
+      "name": "Maria Hallberg",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120496,
+      "name": "Nina Grawender",
+      "dob": "1987-10-15",
+      "height": 190,
+      "weight": 81
+    },
+    {
+      "id": 120882,
+      "name": "Tora Hansson",
+      "dob": "1987-02-27",
+      "height": 180,
+      "weight": null
+    },
+    {
+      "id": 124697,
+      "name": "Anna Rydenberg",
+      "dob": "1983-04-05",
+      "height": 174,
+      "weight": 67
+    },
+    {
+      "id": 124774,
+      "name": "Anna Klockar",
+      "dob": "1975-09-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124877,
+      "name": "Dewi Surjadi",
+      "dob": "1974-12-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125390,
+      "name": "Tadva Yoken",
+      "dob": "1989-05-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125391,
+      "name": "Sophie Bjellerup",
+      "dob": "1989-01-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132178,
+      "name": "Åsa Gustavsson",
+      "dob": "1976-07-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132498,
+      "name": "Matilda Skagerberg",
+      "dob": "1992-09-08",
+      "height": 165,
+      "weight": 55
+    },
+    {
+      "id": 132581,
+      "name": "Sara Hellgren",
+      "dob": "1992-04-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132762,
+      "name": "Maria Larsson",
+      "dob": "1980-10-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132775,
+      "name": "Malin Hellström",
+      "dob": "1974-09-20",
+      "height": 178,
+      "weight": null
+    },
+    {
+      "id": 132857,
+      "name": "Åsa Eriksson",
+      "dob": "1982-05-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133312,
+      "name": "Sigrid Simonsson",
+      "dob": "1988-04-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 137181,
+      "name": "Kajsa Edebjörk",
+      "dob": "1983-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139775,
+      "name": "Anniken Rådström",
+      "dob": "1993-08-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139776,
+      "name": "Kristin Lind",
+      "dob": "1993-05-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139777,
+      "name": "Tina Thurin",
+      "dob": "1992-11-19",
+      "height": 169,
+      "weight": 60
+    },
+    {
+      "id": 139778,
+      "name": "Sanna Thurin",
+      "dob": "1992-11-19",
+      "height": 168,
+      "weight": 55
+    },
+    {
+      "id": 140008,
+      "name": "Malin Linde",
+      "dob": "1988-12-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141864,
+      "name": "Susanna Nordgren",
+      "dob": "1993-08-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143132,
+      "name": "Josefine Tivefält",
+      "dob": "1994-02-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145073,
+      "name": "Isabelle Påhlsson",
+      "dob": "1984-08-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147001,
+      "name": "Sofia Wahlén",
+      "dob": "1990-03-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147066,
+      "name": "Fanny Lindström",
+      "dob": "1988-10-08",
+      "height": 184,
+      "weight": 75
+    },
+    {
+      "id": 149423,
+      "name": "Louise Månesköld",
+      "dob": "1993-05-25",
+      "height": 188,
+      "weight": 81
+    },
+    {
+      "id": 149424,
+      "name": "Talar Kirkor",
+      "dob": "1984-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149466,
+      "name": "Elisa Niederhaus",
+      "dob": "1990-06-14",
+      "height": 167,
+      "weight": null
+    },
+    {
+      "id": 151107,
+      "name": "Jenny Strålman",
+      "dob": "1990-10-05",
+      "height": 168,
+      "weight": null
+    },
+    {
+      "id": 151144,
+      "name": "Malin Bergholm",
+      "dob": "1993-04-05",
+      "height": 174,
+      "weight": 66
+    },
+    {
+      "id": 153169,
+      "name": "Fanny Åhman",
+      "dob": "1999-11-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153170,
+      "name": "Isabelle Haak",
+      "dob": "1999-07-11",
+      "height": 196,
+      "weight": 86
+    },
+    {
+      "id": 153171,
+      "name": "Felicia Granberg",
+      "dob": "1998-08-23",
+      "height": 170,
+      "weight": 63
+    },
+    {
+      "id": 158807,
+      "name": "Therese Strålman",
+      "dob": "1990-10-05",
+      "height": 198,
+      "weight": null
+    },
+    {
+      "id": 159646,
+      "name": "Evelina Granberg",
+      "dob": "2000-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 159648,
+      "name": "Hanna Hellvig",
+      "dob": "2000-02-03",
+      "height": 189,
+      "weight": 77
+    },
+    {
+      "id": 160099,
+      "name": "Sara Malmström",
+      "dob": "1995-09-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160596,
+      "name": "Isabelle Reffel",
+      "dob": "2001-10-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162718,
+      "name": "Ellen Lindqvist",
+      "dob": "2000-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164877,
+      "name": "Johanna Wikberg",
+      "dob": "1992-07-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164890,
+      "name": "Sara Cavretti",
+      "dob": "1990-04-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168085,
+      "name": "Rebecka Dahlgren",
+      "dob": "2000-08-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168388,
+      "name": "Klara Ribom",
+      "dob": "1995-06-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168905,
+      "name": "Hulda Rudberg",
+      "dob": "1999-07-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172787,
+      "name": "Karin Backström",
+      "dob": "1993-10-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173514,
+      "name": "Victoria Sahlberg",
+      "dob": "1994-07-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 177744,
+      "name": "Tanja Sjöblom",
+      "dob": "1990-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179472,
+      "name": "Selma Robinson",
+      "dob": "2003-08-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179783,
+      "name": "Line Andersson",
+      "dob": "2003-04-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182702,
+      "name": "Emilia Saxne",
+      "dob": "2006-11-20",
+      "height": 180,
+      "weight": 67
+    },
+    {
+      "id": 187922,
+      "name": "Sanna Madestam",
+      "dob": "2006-01-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 196008,
+      "name": "Juste Derkintyte",
+      "dob": "2000-04-04",
+      "height": 180,
+      "weight": null
+    },
+    {
+      "id": 196022,
+      "name": "Helene Jernbeck",
+      "dob": "1995-06-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 196046,
+      "name": "Anna Mierzejewska",
+      "dob": "1991-11-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 216266,
+      "name": "Nicole Tiorine",
+      "dob": "2005-12-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 216267,
+      "name": "Erica Frischenfeldt",
+      "dob": "2005-07-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 224026,
+      "name": "Lova Hägglund",
+      "dob": "2009-03-13",
+      "height": 175,
+      "weight": 67
+    },
+    {
+      "id": 229320,
+      "name": "Irma Mtabingwa Demilo",
+      "dob": "2010-01-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 232314,
+      "name": "Sofia Russo",
+      "dob": "2000-07-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 232315,
+      "name": "Lina Russo",
+      "dob": "2002-01-22",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

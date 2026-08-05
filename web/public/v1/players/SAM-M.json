@@ -1,0 +1,48 @@
+{
+  "country": "SAM",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100491,
+      "name": "Allen \"A-Bomb\" Allen",
+      "dob": "1967-05-24",
+      "height": 196,
+      "weight": 100
+    },
+    {
+      "id": 100645,
+      "name": "Masui Allen",
+      "dob": "1971-03-16",
+      "height": 180,
+      "weight": 60
+    },
+    {
+      "id": 189949,
+      "name": "Tui Eneliko",
+      "dob": "1989-11-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 207204,
+      "name": "Glen Julius Young Yen",
+      "dob": "1994-08-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 231413,
+      "name": "Lorenzo Junior Maanaima",
+      "dob": "2006-04-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 232704,
+      "name": "Rhapsody Keneti Jr POUOA",
+      "dob": "1998-10-11",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

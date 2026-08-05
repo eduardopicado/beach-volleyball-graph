@@ -1,0 +1,260 @@
+{
+  "country": "BRN",
+  "countryName": "Bahrain",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 103449,
+      "name": "Younis Hasan",
+      "short": "Hasan",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103511,
+      "name": "Fouad Abed El Wahed",
+      "short": "El Wahed",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103512,
+      "name": "Hassan Ali",
+      "short": "Ali",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103513,
+      "name": "Abdul Kader Abdullah",
+      "short": "Kader Abdullah",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 118663,
+      "name": "Osama Omran",
+      "short": "Omran",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118664,
+      "name": "Qader Abdulla",
+      "short": "Abdulla",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118665,
+      "name": "Yunes Hassan",
+      "short": "Hassan",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118666,
+      "name": "Sadeq Almohsen",
+      "short": "Almohsen",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118667,
+      "name": "Sabeh Almohsen",
+      "short": "Almohsen",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118668,
+      "name": "Hasan Aqeel",
+      "short": "Aqeel",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118670,
+      "name": "Redha Abdullhusien",
+      "short": "Abdullhusien",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118671,
+      "name": "Yunes Abdullkarim",
+      "short": "Abdullkarim",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 118672,
+      "name": "Issa Mohamed",
+      "short": "Mohamed",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118673,
+      "name": "Sayed Ali Sayed Khalaf",
+      "short": "Sayed Khalaf",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 120981,
+      "name": "Ayman Haroon",
+      "short": "AYMAN",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2019
+    },
+    {
+      "id": 120982,
+      "name": "AliMohamed Abdulnabi",
+      "short": "Ali Mohamed",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120983,
+      "name": "Faad Yogoob",
+      "short": "Faad",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120984,
+      "name": "Saleh Kabhem",
+      "short": "Saleh",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120985,
+      "name": "Hassan Ali Marhoon Mohd",
+      "short": "Hassan",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 173075,
+      "name": "MOHAMED Abdulla",
+      "short": "ABDULLA",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2019
+    }
+  ],
+  "edges": [
+    {
+      "a": 103449,
+      "b": 103511,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103512,
+      "b": 103513,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 118663,
+      "b": 118664,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118663,
+      "b": 118673,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118664,
+      "b": 118666,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118665,
+      "b": 118666,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118667,
+      "b": 118668,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118668,
+      "b": 120981,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118670,
+      "b": 118671,
+      "t": 2,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 118672,
+      "b": 118673,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 120981,
+      "b": 173075,
+      "t": 2,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 120982,
+      "b": 120983,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120984,
+      "b": 120985,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    }
+  ]
+}

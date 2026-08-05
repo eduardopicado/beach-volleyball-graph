@@ -1,0 +1,279 @@
+{
+  "country": "OMA",
+  "gender": "M",
+  "players": [
+    {
+      "id": 103518,
+      "name": "Bader Ben Said Al Rashidi",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103519,
+      "name": "Yacoub Ben Youssef Al Mokbali",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120823,
+      "name": "Haitham Khalfan Abdulla AL Shereiqi",
+      "dob": "1986-03-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120824,
+      "name": "Yaqoob Yousuf Khamis Al Maqbali",
+      "dob": "1971-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120826,
+      "name": "Badar Said Abdullah Al Subhi",
+      "dob": "1983-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120828,
+      "name": "Khalfan Hamd Khadayam Al JAbri",
+      "dob": "1974-08-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120829,
+      "name": "Khalifa Hamd Khadayam Al JAbri",
+      "dob": "1974-08-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120945,
+      "name": "Ahmed Khadoum Al hosni",
+      "dob": "1988-08-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135824,
+      "name": "Hassan Albalushi",
+      "dob": "1985-09-15",
+      "height": 186,
+      "weight": 80
+    },
+    {
+      "id": 138627,
+      "name": "Badar Alsubhi",
+      "dob": "1983-10-06",
+      "height": 189,
+      "weight": 78
+    },
+    {
+      "id": 138628,
+      "name": "Ahmed Alhousni",
+      "dob": "1988-08-09",
+      "height": 187,
+      "weight": 66
+    },
+    {
+      "id": 138629,
+      "name": "Haitham Alshereiqi",
+      "dob": "1986-03-14",
+      "height": 187,
+      "weight": 67
+    },
+    {
+      "id": 142812,
+      "name": "Faisal Alhashmi",
+      "dob": "1993-07-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143010,
+      "name": "Ahmed Al Balushi",
+      "dob": "1994-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146826,
+      "name": "Ahid Alsahi",
+      "dob": "1996-08-22",
+      "height": 186,
+      "weight": 72
+    },
+    {
+      "id": 146828,
+      "name": "Samiei Alhammadi",
+      "dob": "1996-07-17",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 152853,
+      "name": "Haitham Alshereiqi",
+      "dob": "1986-03-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 152854,
+      "name": "Mazin Alhashmi",
+      "dob": "1988-02-14",
+      "height": 188,
+      "weight": 76
+    },
+    {
+      "id": 152884,
+      "name": "Nouh Al-Jalbubi",
+      "dob": "1991-11-03",
+      "height": 188,
+      "weight": 76
+    },
+    {
+      "id": 155820,
+      "name": "Issa Al Shibli",
+      "dob": "2000-01-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155931,
+      "name": "Imad Alsaadi",
+      "dob": "1997-02-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161336,
+      "name": "Mohammed Alsibli",
+      "dob": "1997-09-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167032,
+      "name": "Ameer Al Farsi",
+      "dob": "1994-12-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167033,
+      "name": "Ali Al Shibli",
+      "dob": "2000-09-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167064,
+      "name": "Hood Al Jalaboubi",
+      "dob": "1998-08-04",
+      "height": 192,
+      "weight": 83
+    },
+    {
+      "id": 167099,
+      "name": "Almandhar Al Mezeini",
+      "dob": "1999-01-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167160,
+      "name": "Nasser Al Jabri",
+      "dob": "1981-09-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167162,
+      "name": "Faisal Al Subhi",
+      "dob": "1990-05-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167163,
+      "name": "Mohammed Al Jabri",
+      "dob": "1990-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167164,
+      "name": "Badar Al Rushaidi",
+      "dob": "1975-03-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167165,
+      "name": "Ahmed Al Tubi",
+      "dob": "1995-05-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167189,
+      "name": "Al Farsi Ibrahim",
+      "dob": "1986-10-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 169109,
+      "name": "Majid Abdallah Ali Al-Shibli",
+      "dob": "2001-09-13",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 169110,
+      "name": "Abdulsallam Saleh Juma Al-Shibli",
+      "dob": "2001-05-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172261,
+      "name": "Arif Alamri",
+      "dob": "1993-05-30",
+      "height": 185,
+      "weight": 73
+    },
+    {
+      "id": 174912,
+      "name": "MOHAD ALAMRI",
+      "dob": "1994-02-10",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 215125,
+      "name": "Yousef Saleh Almur Humaid Al Abri",
+      "dob": "2002-05-25",
+      "height": 184,
+      "weight": 64
+    },
+    {
+      "id": 223112,
+      "name": "Haytham Ahmed Abdallah Rashid Al Breiki",
+      "dob": "2010-04-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 229423,
+      "name": "Mazin Khalfan Said Abdullah Al Salmani",
+      "dob": "2009-06-02",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

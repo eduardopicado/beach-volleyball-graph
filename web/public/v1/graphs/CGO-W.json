@@ -1,0 +1,47 @@
+{
+  "country": "CGO",
+  "countryName": "Congo - Brazzaville",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 143505,
+      "name": "Ursia Reine Moyipele",
+      "short": "Moyipele",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 143506,
+      "name": "Pétronie Nkoka Ndoungou",
+      "short": "Nkoka Ndoungou",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 146969,
+      "name": "Benedicte Iloki",
+      "short": "Iloki",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    }
+  ],
+  "edges": [
+    {
+      "a": 143505,
+      "b": 143506,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 143506,
+      "b": 146969,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    }
+  ]
+}

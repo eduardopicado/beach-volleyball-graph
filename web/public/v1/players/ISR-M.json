@@ -1,0 +1,461 @@
+{
+  "country": "ISR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 102183,
+      "name": "Ran Kumgisky",
+      "dob": "1974-08-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102184,
+      "name": "David Ziri",
+      "dob": "1963-12-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103303,
+      "name": "Asaf Alkobi",
+      "dob": "1981-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103304,
+      "name": "Ofir Alkobi",
+      "dob": "1977-12-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103305,
+      "name": "Avishay \"Shayke\" Traiband",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103306,
+      "name": "Asaf Maayan",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103307,
+      "name": "Mark Chansky",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103553,
+      "name": "Timour Petreaev",
+      "dob": "1977-10-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103554,
+      "name": "Federico Corenstein",
+      "dob": "1977-05-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104020,
+      "name": "Alexander Shapranovich",
+      "dob": "1983-04-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104103,
+      "name": "Sebastian Devash",
+      "dob": "1985-12-12",
+      "height": 194,
+      "weight": 96
+    },
+    {
+      "id": 115338,
+      "name": "Ariel Hilman",
+      "dob": "1986-01-27",
+      "height": 196,
+      "weight": 80
+    },
+    {
+      "id": 118055,
+      "name": "Oren Alkoby",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118056,
+      "name": "Alon Alkoby",
+      "dob": "1988-01-20",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 118069,
+      "name": "Hen Meir",
+      "dob": "1986-11-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118070,
+      "name": "Ohad Redco",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118739,
+      "name": "Roi Danenberg",
+      "dob": "1983-05-05",
+      "height": 198,
+      "weight": 90
+    },
+    {
+      "id": 118740,
+      "name": "Micha Chemia",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120885,
+      "name": "Epsztein Roy",
+      "dob": "1989-05-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120886,
+      "name": "Gay Ben Gal",
+      "dob": "1989-07-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 121302,
+      "name": "Sean Faiga",
+      "dob": "1988-03-12",
+      "height": 203,
+      "weight": 92
+    },
+    {
+      "id": 124703,
+      "name": "Netanel Amiram Ohana",
+      "dob": "1992-08-22",
+      "height": 190,
+      "weight": 87
+    },
+    {
+      "id": 132441,
+      "name": "Alon Sendrovich",
+      "dob": "1992-11-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138587,
+      "name": "Ovadia Sidon",
+      "dob": "1982-12-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144028,
+      "name": "Shani Cohen",
+      "dob": "1997-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145953,
+      "name": "Tamir Hershko",
+      "dob": "1993-07-19",
+      "height": 201,
+      "weight": 98
+    },
+    {
+      "id": 146915,
+      "name": "Ben Yehuda",
+      "dob": "1998-09-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146916,
+      "name": "Ofek Berman",
+      "dob": "1998-04-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 151415,
+      "name": "Amir Vinarsky",
+      "dob": "1993-01-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 152883,
+      "name": "Amit Masuri",
+      "dob": "1997-09-20",
+      "height": 188,
+      "weight": 76
+    },
+    {
+      "id": 156506,
+      "name": "Rom Uziel",
+      "dob": "1999-02-23",
+      "height": null,
+      "weight": 76
+    },
+    {
+      "id": 157479,
+      "name": "Ofri Masuri",
+      "dob": "1999-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163972,
+      "name": "Tomer Hadar",
+      "dob": "2002-03-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164379,
+      "name": "Mai Goldstein",
+      "dob": "2001-05-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166536,
+      "name": "Kevin Cuzmiciov",
+      "dob": "2003-09-14",
+      "height": 200,
+      "weight": 96
+    },
+    {
+      "id": 166537,
+      "name": "Stav Badalbaev",
+      "dob": "2002-10-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167029,
+      "name": "Yoav Yellin",
+      "dob": "2003-10-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167030,
+      "name": "River Day",
+      "dob": "2002-01-26",
+      "height": 183,
+      "weight": 80
+    },
+    {
+      "id": 168348,
+      "name": "Eylon Elazar",
+      "dob": "2000-08-11",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 176174,
+      "name": "Alen Petreaev",
+      "dob": "2001-07-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176517,
+      "name": "Hadar Romaskano",
+      "dob": "1990-03-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176518,
+      "name": "Tomer Svirsky",
+      "dob": "1985-03-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176519,
+      "name": "Hagay Pinhas Zvulun",
+      "dob": "1994-09-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176520,
+      "name": "Sari Zreik",
+      "dob": "1994-05-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176521,
+      "name": "Amir Moshe Winogradove",
+      "dob": "1987-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176522,
+      "name": "Tal Menkes",
+      "dob": "1985-09-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176527,
+      "name": "Matan BLOOM",
+      "dob": "1991-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176528,
+      "name": "Etay HARAMATY",
+      "dob": "1991-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176529,
+      "name": "Viktor Vik MUSLAI",
+      "dob": "1989-11-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176530,
+      "name": "Abiathar Nachum SPIEGELGLAS",
+      "dob": "1998-05-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176531,
+      "name": "Richard GONCHARUK",
+      "dob": "1993-11-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176532,
+      "name": "Rafael GONCHARUK",
+      "dob": "2002-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176534,
+      "name": "Avidor Ziv",
+      "dob": "1967-10-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178364,
+      "name": "David Lanciano",
+      "dob": "2002-02-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178365,
+      "name": "Ron Laufer",
+      "dob": "2005-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178367,
+      "name": "Nir Laufer",
+      "dob": "2005-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178450,
+      "name": "Yoav Agassi",
+      "dob": "2003-11-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178459,
+      "name": "Alon Tepperberg",
+      "dob": "2004-06-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187641,
+      "name": "Idan Katriel",
+      "dob": "2002-09-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192772,
+      "name": "Yahli Hidekel Yari",
+      "dob": "2006-04-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192789,
+      "name": "Barak Goldberg",
+      "dob": "2007-08-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 203584,
+      "name": "Ilai Day",
+      "dob": "2006-01-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210904,
+      "name": "Omer Gozlan",
+      "dob": "2009-05-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210907,
+      "name": "Yanay Benjamin Goldshmid Fisher",
+      "dob": "2007-03-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223605,
+      "name": "Yoav Avraham Chetrit",
+      "dob": "2005-02-17",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "country": "ISL",
+  "gender": "W",
+  "players": [
+    {
+      "id": 133936,
+      "name": "JÓNA Guðlaug Vigfúsdóttir",
+      "dob": "1989-04-08",
+      "height": 186,
+      "weight": 74
+    },
+    {
+      "id": 144063,
+      "name": "Elísabet Einarsdottir",
+      "dob": "1998-09-19",
+      "height": 180,
+      "weight": null
+    },
+    {
+      "id": 144064,
+      "name": "Thelma Dögg Gretarsdottir",
+      "dob": "1997-10-01",
+      "height": 177,
+      "weight": 65
+    },
+    {
+      "id": 144065,
+      "name": "Berglind Gígja Jónsdóttir",
+      "dob": "1995-11-09",
+      "height": 178,
+      "weight": 69
+    }
+  ]
+}

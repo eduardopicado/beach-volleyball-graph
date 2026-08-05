@@ -1,0 +1,76 @@
+{
+  "country": "DOM",
+  "gender": "W",
+  "players": [
+    {
+      "id": 117121,
+      "name": "Bethania Almanzar",
+      "dob": "1987-02-11",
+      "height": 180,
+      "weight": 62
+    },
+    {
+      "id": 123981,
+      "name": "Nairobi Agramonte Matos",
+      "dob": "1994-07-25",
+      "height": 176,
+      "weight": 60
+    },
+    {
+      "id": 131953,
+      "name": "Diana Josefina Peguero Moreno",
+      "dob": "1994-08-27",
+      "height": 177,
+      "weight": 67
+    },
+    {
+      "id": 131955,
+      "name": "Deborah Angelica Constanzo",
+      "dob": "1994-09-12",
+      "height": 181,
+      "weight": 72
+    },
+    {
+      "id": 146603,
+      "name": "Rochelly Carolina Parra Hiraldo",
+      "dob": "1993-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 165255,
+      "name": "Julibeth Payano Veras",
+      "dob": "1999-05-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182042,
+      "name": "Jeneiry Wismery Rosario Hernandez",
+      "dob": "2003-02-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 195290,
+      "name": "Crismil Paniagua Hinojosa",
+      "dob": "2005-05-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 215887,
+      "name": "Zoe Paniagua Portorreal",
+      "dob": "2009-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238333,
+      "name": "Yerelin Carlenis Reyes Montero",
+      "dob": "2009-02-10",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

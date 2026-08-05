@@ -1,0 +1,55 @@
+{
+  "country": "SUD",
+  "countryName": "Sudan",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 162727,
+      "name": "Hussein Hassan",
+      "short": "Hussein",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 162795,
+      "name": "Mahmoud Babiker",
+      "short": "Mahmoud",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 184626,
+      "name": "Mustafa Ahmedalradi",
+      "short": "Mustafa",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 184627,
+      "name": "Ahmed Mansour",
+      "short": "Ahmed",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 162727,
+      "b": 162795,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 184626,
+      "b": 184627,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}
