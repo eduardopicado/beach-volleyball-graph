@@ -86,6 +86,18 @@ function PlayerSearch({
     setActiveIndex(matches.length > 0 ? 0 : -1);
   }, [matches]);
 
+  // Keep the highlighted option in view as arrow keys move it. Currently a
+  // no-op in practice — the default result limit and the dropdown's max-height
+  // happen to agree, so every option is always on screen at once — but that is
+  // a coincidence of two unrelated constants, not a guarantee; raise the limit,
+  // shrink the dropdown, or add a second line per row and this starts mattering
+  // with no other code change. `block: 'nearest'` only moves the list, never
+  // the page, and is a no-op when the option is already visible.
+  useEffect(() => {
+    if (activeIndex < 0) return;
+    document.getElementById(`player-search-option-${activeIndex}`)?.scrollIntoView({ block: 'nearest' });
+  }, [activeIndex]);
+
   useEffect(() => {
     if (!open) return;
     const onOutside = (e: PointerEvent) => {
