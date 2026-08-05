@@ -191,18 +191,11 @@
 }
 
 .player-search-results li {
-  display: block;
-}
-
-.player-search-results button {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
   padding: 8px 10px;
-  background: transparent;
-  border: 0;
   border-radius: 6px;
   text-align: left;
   cursor: pointer;
@@ -210,8 +203,7 @@
   color: var(--text-primary);
 }
 
-.player-search-results button:hover,
-.player-search-results button.is-active {
+.player-search-results li.is-active {
   background: var(--series-1-wash);
 }
 

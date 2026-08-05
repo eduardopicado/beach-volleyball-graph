@@ -151,16 +151,30 @@ function PlayerSearch({
       {showResults && (
         <ul className="player-search-results" role="listbox" id="player-search-listbox">
           {matches.map((m, i) => (
-            <li key={m.id} role="option" id={`player-search-option-${i}`} aria-selected={i === activeIndex}>
-              <button
-                type="button"
-                className={i === activeIndex ? 'is-active' : ''}
-                onPointerEnter={() => setActiveIndex(i)}
-                onClick={() => select(m.id)}
-              >
-                <span className="name">{m.name}</span>
-                <span className="meta">{plural(m.tournaments, 'tournament')}</span>
-              </button>
+            // Not a <button>: in the combobox pattern real focus stays in the
+            // input and `aria-activedescendant` points at the active option, so
+            // a focusable control per row would put 8 extra stops in the tab
+            // order between the search box and the next control. `option` also
+            // takes presentational children, so a nested button's semantics are
+            // stripped from the accessibility tree anyway — it would be
+            // tabbable but announce as nothing. Pointer users still click the
+            // row; keyboard users arrow and press Enter.
+            <li
+              key={m.id}
+              role="option"
+              id={`player-search-option-${i}`}
+              aria-selected={i === activeIndex}
+              className={i === activeIndex ? 'is-active' : ''}
+              onPointerEnter={() => setActiveIndex(i)}
+              // Selection happens on pointerdown rather than click so it beats
+              // the outside-pointerdown handler that closes the dropdown.
+              onPointerDown={(e) => {
+                e.preventDefault(); // keep focus in the input
+                select(m.id);
+              }}
+            >
+              <span className="name">{m.name}</span>
+              <span className="meta">{plural(m.tournaments, 'tournament')}</span>
             </li>
           ))}
         </ul>
