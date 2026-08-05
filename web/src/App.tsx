@@ -253,6 +253,25 @@ export default function App() {
 
   const selectPlayer = useCallback((id: number | null) => setSelectedId(id), []);
 
+  /**
+   * Selection from the search box, which unlike the graph, the table and the
+   * partner list can reach a player the strength filter is currently hiding.
+   *
+   * Searching the visible set only would answer "no players match" for someone
+   * who is in this country's data and merely filtered out — indistinguishable
+   * from a typo, and unfixable without first guessing that the threshold is to
+   * blame. So the search covers the whole slice and picking a hidden player
+   * drops the threshold back to "All" to reveal them. The segmented control
+   * moves with it, so the change is visible rather than silent.
+   */
+  const jumpToPlayer = useCallback(
+    (id: number) => {
+      if (!nodesById.has(id)) setMinTogether(1);
+      setSelectedId(id);
+    },
+    [nodesById],
+  );
+
   // Matches the player card's height to the graph's actual rendered height
   // (see PartnershipGraph's onSize doc comment for why this can't be plain
   // CSS grid stretch).
@@ -303,8 +322,8 @@ export default function App() {
           }}
           minTogether={minTogether}
           onMinTogether={setMinTogether}
-          players={visibleNodes}
-          onSelectPlayer={selectPlayer}
+          players={graph?.nodes ?? []}
+          onSelectPlayer={jumpToPlayer}
         />
       )}
 
