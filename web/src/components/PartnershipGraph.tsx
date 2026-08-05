@@ -89,6 +89,12 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
 
   // The layout has its own coordinate space, so it does not depend on viewport
   // size and a resize never restarts the simulation.
+  //
+  // `layoutKey` is a deliberate cache-buster, not a value the body reads: the
+  // "re-tangle" button bumps it to force a fresh simulation from the same
+  // nodes and edges. The lint rule can only see that it is unused and asks for
+  // it to be dropped, which would make the button do nothing.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const layout = useMemo(() => buildLayout(nodes, edges), [nodes, edges, layoutKey]);
 
   const { neighbours } = layout;
@@ -175,9 +181,9 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
       simulation.on('end', null);
       simulation.stop();
     };
-    // `size` is read only when the simulation ends; re-fitting on resize is
-    // handled separately so a drag of the window doesn't restart the layout.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // `size` is deliberately absent, and needs no suppression to be: it is read
+    // through `sizeRef` rather than as a dependency, so re-fitting on resize is
+    // handled separately and a drag of the window doesn't restart the layout.
   }, [layout]);
 
   // Re-frame (but never re-simulate) when the container resizes.
