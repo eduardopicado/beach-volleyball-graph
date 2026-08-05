@@ -1,0 +1,304 @@
+{
+  "country": "PAR",
+  "countryName": "Paraguay",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 120509,
+      "name": "Gino Lombardo",
+      "short": "Gino",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120510,
+      "name": "Gregorio Godoy",
+      "short": "Goyo",
+      "tournaments": 10,
+      "first": 2008,
+      "last": 2025
+    },
+    {
+      "id": 125429,
+      "name": "Luis Riveros",
+      "short": "L. Riveros",
+      "tournaments": 11,
+      "first": 2013,
+      "last": 2018
+    },
+    {
+      "id": 134868,
+      "name": "Mauricio Brizuela",
+      "short": "Mauricio",
+      "tournaments": 7,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141601,
+      "name": "Elioth Brado Frutos Toews",
+      "short": "Elioth",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145422,
+      "name": "Renato Ulises Bogarin Caceres",
+      "short": "Renato",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145745,
+      "name": "Roger Daniel Battilana Villamayor",
+      "short": "Roger",
+      "tournaments": 4,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 146096,
+      "name": "Eder Enrique Rojas Lobo",
+      "short": "Rojas Lobo",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157230,
+      "name": "Oscar Enrique Sandoval Ramirez",
+      "short": "Sandoval Ramirez",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 161861,
+      "name": "Gonzalo Melgarejo",
+      "short": "Gonzalo",
+      "tournaments": 12,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 161955,
+      "name": "Jorge Riveros",
+      "short": "Riveros",
+      "tournaments": 6,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 171351,
+      "name": "Santiago Mendoza Fretes",
+      "short": "Santi",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178348,
+      "name": "Jonathan Abel Reckziegel Gallas",
+      "short": "Pocho",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178349,
+      "name": "Giuliano Massare Canillas",
+      "short": "Giuliano",
+      "tournaments": 12,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181607,
+      "name": "Pablo Marcelo Portillo Morinigo",
+      "short": "Portillo",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 188475,
+      "name": "Camilo Vargas",
+      "short": "Camilo",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 188476,
+      "name": "Angel Palacios",
+      "short": "Angel",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 193855,
+      "name": "Fabricio Bobadilla",
+      "short": "Fabricio",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 208860,
+      "name": "Gaston Armadans",
+      "short": "Gaston",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 211360,
+      "name": "Juanangel Gomez",
+      "short": "Juan",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 222620,
+      "name": "HUGO FELIX BENITEZ VAZQUEZ",
+      "short": "Felix",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 222625,
+      "name": "MATIAS GABRIEL YEGROS GOMEZ",
+      "short": "Yegros",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 120509,
+      "b": 120510,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120510,
+      "b": 125429,
+      "t": 4,
+      "f": 2016,
+      "l": 2018
+    },
+    {
+      "a": 120510,
+      "b": 145745,
+      "t": 3,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 120510,
+      "b": 161955,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 125429,
+      "b": 134868,
+      "t": 7,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 141601,
+      "b": 145422,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145745,
+      "b": 161861,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 146096,
+      "b": 157230,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 161861,
+      "b": 161955,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 161861,
+      "b": 178349,
+      "t": 9,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 161955,
+      "b": 178349,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 171351,
+      "b": 178348,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 178349,
+      "b": 181607,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 188475,
+      "b": 188476,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 188475,
+      "b": 193855,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 208860,
+      "b": 211360,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 222620,
+      "b": 222625,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

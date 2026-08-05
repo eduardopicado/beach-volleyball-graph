@@ -1,0 +1,756 @@
+{
+  "country": "ISR",
+  "countryName": "Israel",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 102217,
+      "name": "Sharon \"Shaney\" Fink",
+      "short": "Fink",
+      "tournaments": 3,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102218,
+      "name": "Keren Oigman",
+      "short": "Oigman",
+      "tournaments": 3,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 103047,
+      "name": "Yamit Haba",
+      "short": "Haba",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103048,
+      "name": "Tali Raichbard",
+      "short": "Raichbard",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103049,
+      "name": "Einav Muharer",
+      "short": "Muharer",
+      "tournaments": 6,
+      "first": 2000,
+      "last": 2004
+    },
+    {
+      "id": 103050,
+      "name": "Victoria \"Vira\" Klimoshenko",
+      "short": "Klimoshenko",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103644,
+      "name": "Victoria Klinoshenko",
+      "short": "Klinoshenko",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103645,
+      "name": "Inessa Birman-Vysotski",
+      "short": "Birman",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 104671,
+      "name": "Gisela Rodriguez",
+      "short": "Rodriguez",
+      "tournaments": 13,
+      "first": 2004,
+      "last": 2008
+    },
+    {
+      "id": 118063,
+      "name": "Moran Zur",
+      "short": "Zur",
+      "tournaments": 10,
+      "first": 2006,
+      "last": 2021
+    },
+    {
+      "id": 118064,
+      "name": "Shirley Sharashov",
+      "short": "Sharashov",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118065,
+      "name": "Lior Cohen",
+      "short": "Cohen",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2007
+    },
+    {
+      "id": 118066,
+      "name": "Nizan Gepstein",
+      "short": "Gepstein",
+      "tournaments": 6,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 120558,
+      "name": "michal krymolowski",
+      "short": "krymolowski",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120643,
+      "name": "Yael Yellin",
+      "short": "Yellin",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120701,
+      "name": "Sapir Shoham",
+      "short": "Shoham",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 132442,
+      "name": "Yael Lotan",
+      "short": "Lotan",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 132444,
+      "name": "Tzeela Mohar",
+      "short": "Mohar",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 139651,
+      "name": "Viktoria Katzen (nesterov)",
+      "short": "Katzen",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 144007,
+      "name": "Katrina Zilberman",
+      "short": "Zilberman KA.",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 144008,
+      "name": "Kristina Zilberman",
+      "short": "Zilberman KR.",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145579,
+      "name": "Sofia Starikov",
+      "short": "Starikov",
+      "tournaments": 89,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 146035,
+      "name": "Polina Malik",
+      "short": "Malik",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146195,
+      "name": "Anita Dave",
+      "short": "Dave",
+      "tournaments": 149,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 147106,
+      "name": "Michal Barannik",
+      "short": "Barannik",
+      "tournaments": 50,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 147372,
+      "name": "Yael Yellin",
+      "short": "Yellin",
+      "tournaments": 13,
+      "first": 2015,
+      "last": 2017
+    },
+    {
+      "id": 147373,
+      "name": "Jennifer Guz",
+      "short": "Guz",
+      "tournaments": 3,
+      "first": 2015,
+      "last": 2019
+    },
+    {
+      "id": 147716,
+      "name": "Lior Alon",
+      "short": "Alon",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 149781,
+      "name": "Shahar Rosner",
+      "short": "Rosner",
+      "tournaments": 9,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 156508,
+      "name": "Noga Maor",
+      "short": "Maor",
+      "tournaments": 46,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 156509,
+      "name": "Maya Ben Shlomo",
+      "short": "Ben Shlomo",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 160534,
+      "name": "Shirel Ganah",
+      "short": "Ganah",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 161117,
+      "name": "Noy Chorin",
+      "short": "Chorin",
+      "tournaments": 28,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 166241,
+      "name": "Yahli Ashush",
+      "short": "Ashush",
+      "tournaments": 52,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 176523,
+      "name": "Lidia Vaindberg",
+      "short": "Vaindberg",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176524,
+      "name": "Gal Miriam Maliar",
+      "short": "Maliar",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176525,
+      "name": "Roni ENTIN",
+      "short": "ENTIN",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176526,
+      "name": "Neta BARABAN",
+      "short": "BARABAN",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176542,
+      "name": "Sharon Ophir Chetrit",
+      "short": "Ophir Chetrit",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176543,
+      "name": "Hila Nacson",
+      "short": "Nacson",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 177787,
+      "name": "Shira Tal",
+      "short": "Tal",
+      "tournaments": 13,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 181349,
+      "name": "Daniela Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 26,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 182769,
+      "name": "Ronni Rivka Lavie",
+      "short": "Lavie",
+      "tournaments": 19,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 182952,
+      "name": "Victoria Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 190923,
+      "name": "Yael Rolnik",
+      "short": "Rolnik",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 210909,
+      "name": "Shiray Danenberg",
+      "short": "Danenberg",
+      "tournaments": 18,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 210910,
+      "name": "Dafna Maor",
+      "short": "Maor",
+      "tournaments": 14,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 102217,
+      "b": 102218,
+      "t": 3,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 103047,
+      "b": 103048,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103049,
+      "b": 103050,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103049,
+      "b": 104671,
+      "t": 5,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 103644,
+      "b": 103645,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 104671,
+      "b": 118063,
+      "t": 8,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 118063,
+      "b": 118064,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118063,
+      "b": 156508,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 118065,
+      "b": 118066,
+      "t": 3,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 118066,
+      "b": 120643,
+      "t": 3,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120558,
+      "b": 120701,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 132442,
+      "b": 139651,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 132444,
+      "b": 147373,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 144007,
+      "b": 144008,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145579,
+      "b": 146195,
+      "t": 67,
+      "f": 2018,
+      "l": 2023
+    },
+    {
+      "a": 145579,
+      "b": 147372,
+      "t": 7,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 145579,
+      "b": 149781,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145579,
+      "b": 161117,
+      "t": 13,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145579,
+      "b": 166241,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 145579,
+      "b": 182952,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146035,
+      "b": 147716,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146195,
+      "b": 147106,
+      "t": 14,
+      "f": 2018,
+      "l": 2022
+    },
+    {
+      "a": 146195,
+      "b": 147372,
+      "t": 7,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 146195,
+      "b": 156508,
+      "t": 8,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 146195,
+      "b": 161117,
+      "t": 5,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146195,
+      "b": 166241,
+      "t": 40,
+      "f": 2021,
+      "l": 2024
+    },
+    {
+      "a": 146195,
+      "b": 177787,
+      "t": 3,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 146195,
+      "b": 181349,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 146195,
+      "b": 182769,
+      "t": 7,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 147106,
+      "b": 156508,
+      "t": 23,
+      "f": 2019,
+      "l": 2022
+    },
+    {
+      "a": 147106,
+      "b": 166241,
+      "t": 7,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 147106,
+      "b": 177787,
+      "t": 6,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 147372,
+      "b": 147373,
+      "t": 2,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 149781,
+      "b": 156508,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 149781,
+      "b": 210910,
+      "t": 6,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 156508,
+      "b": 156509,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 156508,
+      "b": 161117,
+      "t": 10,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 156508,
+      "b": 166241,
+      "t": 3,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 156509,
+      "b": 166241,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 160534,
+      "b": 166241,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 166241,
+      "b": 182769,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 176523,
+      "b": 176524,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 176525,
+      "b": 176526,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 176542,
+      "b": 176543,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 177787,
+      "b": 181349,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 177787,
+      "b": 182769,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 177787,
+      "b": 210909,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 181349,
+      "b": 182769,
+      "t": 4,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 181349,
+      "b": 210909,
+      "t": 15,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 181349,
+      "b": 210910,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 182769,
+      "b": 190923,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 182769,
+      "b": 210909,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 182769,
+      "b": 210910,
+      "t": 4,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "country": "SLO",
+  "gender": "M",
+  "players": [
+    {
+      "id": 101928,
+      "name": "Sebastijan Skorc",
+      "dob": "1974-02-12",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 101977,
+      "name": "Miso Pusnik",
+      "dob": "1973-02-26",
+      "height": 198,
+      "weight": 82
+    },
+    {
+      "id": 102251,
+      "name": "Samo \"Backo\" Bacvic",
+      "dob": "1973-08-20",
+      "height": 191,
+      "weight": 85
+    },
+    {
+      "id": 102252,
+      "name": "Jasmin Cuturic",
+      "dob": "1974-07-05",
+      "height": 195,
+      "weight": 93
+    },
+    {
+      "id": 102253,
+      "name": "Dejan Fujs",
+      "dob": "1968-09-02",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 102254,
+      "name": "Samo Miklavc",
+      "dob": "1974-10-21",
+      "height": 192,
+      "weight": 88
+    },
+    {
+      "id": 102255,
+      "name": "Matjaz \"Zemo\" Siftar",
+      "dob": "1969-05-08",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 102257,
+      "name": "Ales \"Andlo\" Andlovic",
+      "dob": "1976-10-04",
+      "height": 193,
+      "weight": 90
+    },
+    {
+      "id": 103352,
+      "name": "Alojz Kerec",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103353,
+      "name": "Gregor Perhaj",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104386,
+      "name": "Gregor Sirk",
+      "dob": "1983-07-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104761,
+      "name": "Janez Makovec",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104762,
+      "name": "Andres Tot",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104891,
+      "name": "Iztok Kjela",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104965,
+      "name": "Simon Krakar",
+      "dob": "1987-07-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 114949,
+      "name": "Rok Satler",
+      "dob": "1979-04-04",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 114950,
+      "name": "Andrej Tot",
+      "dob": "1982-08-27",
+      "height": 195,
+      "weight": 94
+    },
+    {
+      "id": 114955,
+      "name": "Tomislav Šmuc",
+      "dob": "1976-06-23",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 114957,
+      "name": "Tine Urnaut",
+      "dob": "1988-09-03",
+      "height": 200,
+      "weight": 88
+    },
+    {
+      "id": 114961,
+      "name": "Andrej Flajs",
+      "dob": "1983-03-11",
+      "height": 189,
+      "weight": 85
+    },
+    {
+      "id": 116725,
+      "name": "Nejc Zemljak",
+      "dob": "1988-02-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117907,
+      "name": "Sašo Rop",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119023,
+      "name": "Miha Plot",
+      "dob": "1987-05-11",
+      "height": 180,
+      "weight": 76
+    },
+    {
+      "id": 119030,
+      "name": "Vid Jakopin",
+      "dob": "1988-01-02",
+      "height": 203,
+      "weight": 94
+    },
+    {
+      "id": 119031,
+      "name": "Matevž Kamnik",
+      "dob": "1987-11-24",
+      "height": 202,
+      "weight": 97
+    },
+    {
+      "id": 119321,
+      "name": "Klemen Ponikvar",
+      "dob": "1989-09-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119322,
+      "name": "Leo Mohoric",
+      "dob": "1989-01-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120070,
+      "name": "Alen Djordjevič",
+      "dob": "1985-07-05",
+      "height": 195,
+      "weight": 93
+    },
+    {
+      "id": 121983,
+      "name": "Jure Ivartnik",
+      "dob": "1986-10-19",
+      "height": 183,
+      "weight": 78
+    },
+    {
+      "id": 121985,
+      "name": "Damir Šabec",
+      "dob": "1983-10-08",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 124031,
+      "name": "Valentin Turk",
+      "dob": "1993-02-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132577,
+      "name": "Danijel Pokeršnik",
+      "dob": "1984-07-31",
+      "height": 194,
+      "weight": 89
+    },
+    {
+      "id": 132579,
+      "name": "Jan Pokeršnik",
+      "dob": "1989-12-15",
+      "height": 200,
+      "weight": 85
+    },
+    {
+      "id": 133236,
+      "name": "Andrej Grut",
+      "dob": "1984-08-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135494,
+      "name": "Potocnik Jernej",
+      "dob": "1981-10-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135495,
+      "name": "Jernej Potočnik",
+      "dob": "1981-10-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139586,
+      "name": "Sergej Drobnic",
+      "dob": "1995-02-25",
+      "height": 194,
+      "weight": 87
+    },
+    {
+      "id": 141939,
+      "name": "Jure Peter Bedrac",
+      "dob": "1980-05-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148067,
+      "name": "Ziga Kumer",
+      "dob": "1999-09-09",
+      "height": 185,
+      "weight": 73
+    },
+    {
+      "id": 148068,
+      "name": "Aleksander Tepic",
+      "dob": "1998-11-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148552,
+      "name": "Simon Kosir",
+      "dob": "1995-07-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148553,
+      "name": "Jernej Tomazin",
+      "dob": "1994-04-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148619,
+      "name": "David Renko",
+      "dob": "1996-01-21",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 150940,
+      "name": "Anze Bahc",
+      "dob": "1990-10-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153282,
+      "name": "Gasper Plahutnik",
+      "dob": "1997-09-24",
+      "height": 181,
+      "weight": 82
+    },
+    {
+      "id": 153301,
+      "name": "Alan Košenina",
+      "dob": "1996-08-30",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 153398,
+      "name": "Aleksander Dulai",
+      "dob": "1997-08-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153498,
+      "name": "Tadej Boženk",
+      "dob": "1990-08-29",
+      "height": 183,
+      "weight": 84
+    },
+    {
+      "id": 154046,
+      "name": "Crtomir Bošnjak",
+      "dob": "2000-09-21",
+      "height": 196,
+      "weight": 93
+    },
+    {
+      "id": 155918,
+      "name": "Jan Brulec",
+      "dob": "1993-02-08",
+      "height": 199,
+      "weight": 82
+    },
+    {
+      "id": 157181,
+      "name": "Martin Valencic",
+      "dob": "1999-05-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157824,
+      "name": "Iztok Novak",
+      "dob": "1985-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157840,
+      "name": "Uros Erpic",
+      "dob": "1996-08-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157872,
+      "name": "Rok Bračko",
+      "dob": "2004-04-21",
+      "height": 194,
+      "weight": 90
+    },
+    {
+      "id": 158251,
+      "name": "Urh Port",
+      "dob": "1996-06-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161481,
+      "name": "Denis Robida",
+      "dob": "1996-12-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161695,
+      "name": "Matija Primec",
+      "dob": "1994-08-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163600,
+      "name": "Manuel Grünvald",
+      "dob": "2000-11-11",
+      "height": 191,
+      "weight": 78
+    },
+    {
+      "id": 164912,
+      "name": "Črt Rozman",
+      "dob": "2002-05-06",
+      "height": 192,
+      "weight": 92
+    },
+    {
+      "id": 164913,
+      "name": "Klemen Sen",
+      "dob": "2002-06-10",
+      "height": 192,
+      "weight": 90
+    },
+    {
+      "id": 168747,
+      "name": "Rok Možič",
+      "dob": "2002-01-17",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 170733,
+      "name": "Matevz Berk",
+      "dob": "1979-03-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179413,
+      "name": "Miha Okorn",
+      "dob": "2005-06-11",
+      "height": 187,
+      "weight": 78
+    },
+    {
+      "id": 179414,
+      "name": "Luka Marovt",
+      "dob": "2005-01-13",
+      "height": 195,
+      "weight": 83
+    },
+    {
+      "id": 186972,
+      "name": "Marin Novak",
+      "dob": "2000-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187458,
+      "name": "Miha Kosanc",
+      "dob": "2005-04-07",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 190783,
+      "name": "Jaka Prevorčnik",
+      "dob": "2003-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192811,
+      "name": "Benjamin Mugerli",
+      "dob": "2006-01-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 195813,
+      "name": "Jaka Jevšnik",
+      "dob": "2001-06-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200036,
+      "name": "Maks Šluga",
+      "dob": "2003-12-25",
+      "height": 200,
+      "weight": 91
+    },
+    {
+      "id": 200038,
+      "name": "Mark Pečnik",
+      "dob": "1998-11-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 206469,
+      "name": "Maj Nanut",
+      "dob": "2000-10-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 211065,
+      "name": "Valentin Predan",
+      "dob": "2009-09-29",
+      "height": 186,
+      "weight": 84
+    },
+    {
+      "id": 211066,
+      "name": "Peter Bregar",
+      "dob": "2009-02-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 240078,
+      "name": "Matic Pavlič",
+      "dob": "2000-09-17",
+      "height": 205,
+      "weight": 94
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "country": "THA",
+  "countryName": "Thailand",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102329,
+      "name": "Thaweep Thongkamnerd",
+      "short": "Thongkamnerd",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102330,
+      "name": "Sataporn Sawangreung",
+      "short": "Sawangreung",
+      "tournaments": 3,
+      "first": 1998,
+      "last": 2009
+    },
+    {
+      "id": 102331,
+      "name": "Sudjai Naktamna",
+      "short": "Naktamna",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102332,
+      "name": "Reungsak Reungwongngam",
+      "short": "Reungwongngam",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 104372,
+      "name": "Kaetipong Rodkaen",
+      "short": "Rodkaen",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104373,
+      "name": "Wittaya Termsak",
+      "short": "Termsak",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104374,
+      "name": "Theerayut Sripon",
+      "short": "Sripon",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104375,
+      "name": "Witthanat Sangnui",
+      "short": "Sangnui",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 120636,
+      "name": "Borworn Yungtin",
+      "short": "Yungtin",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120637,
+      "name": "Sittichai Sangkhachot",
+      "short": "S. Sittichai",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2013
+    },
+    {
+      "id": 125593,
+      "name": "Prathip Sukto",
+      "short": "S.Prathip",
+      "tournaments": 5,
+      "first": 2009,
+      "last": 2020
+    },
+    {
+      "id": 139445,
+      "name": "Kitsada Sangam",
+      "short": "Sangam",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139446,
+      "name": "Wichanon Saemee",
+      "short": "Saemee",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139450,
+      "name": "Chairat Han-Asa",
+      "short": "Han-Asa",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139451,
+      "name": "Intuch Techakijvorakul",
+      "short": "Intuch",
+      "tournaments": 33,
+      "first": 2012,
+      "last": 2023
+    },
+    {
+      "id": 139612,
+      "name": "Chanon Ketpet",
+      "short": "Ketpet",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139613,
+      "name": "Surin Jongklang",
+      "short": "J. Surin",
+      "tournaments": 59,
+      "first": 2012,
+      "last": 2025
+    },
+    {
+      "id": 141603,
+      "name": "Dunwinit Kaewsai",
+      "short": "K. Dunwinit",
+      "tournaments": 41,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 145996,
+      "name": "Banlue Nakprakhong",
+      "short": "N. Banlue",
+      "tournaments": 43,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 145998,
+      "name": "Kitti Duangjinda",
+      "short": "D.Kitti",
+      "tournaments": 16,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 150539,
+      "name": "Adisorn Khaolumtarn",
+      "short": "K. Adisorn",
+      "tournaments": 29,
+      "first": 2017,
+      "last": 2020
+    },
+    {
+      "id": 150563,
+      "name": "Nuttanon Inkiew",
+      "short": "I. Nuttanon",
+      "tournaments": 28,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 155907,
+      "name": "Marudet Buntem",
+      "short": "B. Marudet",
+      "tournaments": 2,
+      "first": 2016,
+      "last": 2017
+    },
+    {
+      "id": 155910,
+      "name": "Thanachod Thanthawat",
+      "short": "Thanthawat",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 155911,
+      "name": "Narongdet Kangkon",
+      "short": "N. Kangkon",
+      "tournaments": 18,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 156414,
+      "name": "Phichakon Narathon",
+      "short": "N.Phichakon",
+      "tournaments": 12,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 156432,
+      "name": "phanupong Thanan",
+      "short": "T. Phanupong",
+      "tournaments": 13,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 156433,
+      "name": "Kittituch Khomkham",
+      "short": "K.Kittituch",
+      "tournaments": 5,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 156544,
+      "name": "Keattisak Naksompoi",
+      "short": "N.Keattisak",
+      "tournaments": 4,
+      "first": 2016,
+      "last": 2020
+    },
+    {
+      "id": 156545,
+      "name": "Konsiphong Vaikuntha-anuchit",
+      "short": "V.Konsiphong",
+      "tournaments": 2,
+      "first": 2016,
+      "last": 2017
+    },
+    {
+      "id": 156546,
+      "name": "Akkarapon Tumdee",
+      "short": "T.Akkarapon",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 156549,
+      "name": "Santitham Khruttha",
+      "short": "K.Santitham",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 161349,
+      "name": "Jatoopon Saenyoot",
+      "short": "Jatoopon",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 166571,
+      "name": "Patiphan Chambuntha",
+      "short": "C.Patiphan",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 167226,
+      "name": "Pithak Tipjan",
+      "short": "T.Pithak",
+      "tournaments": 35,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 172216,
+      "name": "Poravid Taovato",
+      "short": "T. Poravid",
+      "tournaments": 44,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 177865,
+      "name": "Netitorn Muneekul",
+      "short": "Netitorn",
+      "tournaments": 23,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 177866,
+      "name": "Wachirawit Muadpha",
+      "short": "M.Wachirawit",
+      "tournaments": 22,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 177868,
+      "name": "Veerayut Sopati",
+      "short": "S.Veerayut",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 177869,
+      "name": "Phuthanet Khamtao",
+      "short": "K.Phuthanet",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 177870,
+      "name": "Watanyoo Jaita",
+      "short": "J.Watanyoo",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 177871,
+      "name": "Anucha Promdee",
+      "short": "P.Anucha",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 177872,
+      "name": "Nopphawit Puttharong",
+      "short": "P.Nopphawit",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 177890,
+      "name": "Narakorn Chumaphai",
+      "short": "Ch.Narakorn",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 187680,
+      "name": "Chatchawan Janchuen",
+      "short": "Chatchawan.J",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 189227,
+      "name": "Saiphirun Ruairung",
+      "short": "R.Saiphirun",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 189235,
+      "name": "Wichaya Wisetkan",
+      "short": "W.Wichaya",
+      "tournaments": 8,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 192418,
+      "name": "Chaloemdet Bunrot",
+      "short": "B.Chaloemdet",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 201368,
+      "name": "Kittipoom Ruchisuk",
+      "short": "Ruchisuk",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 201369,
+      "name": "Supanai Uthaijaeng",
+      "short": "Uthaijaeng",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 209620,
+      "name": "Paphawin Manyahong",
+      "short": "Paphawin",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 209624,
+      "name": "Suranath Rattanapolsaen",
+      "short": "R.Suranath",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 209626,
+      "name": "Rueangrit Wiromrat",
+      "short": "W.Rueangrit",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 209627,
+      "name": "Nobphadon Sukphuwong",
+      "short": "S.Nobphadon",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 220161,
+      "name": "Chaiwat Muadthong",
+      "short": "M.Chaiwat",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227463,
+      "name": "Adithep Fakwilai",
+      "short": "F.Adithep",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227844,
+      "name": "Kittiwat Suwansirirat",
+      "short": "S.Kittiwat",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 233930,
+      "name": "Kulwisit Lunkthong",
+      "short": "L.Kulwisit",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 234095,
+      "name": "Ritthikon Khunphathi",
+      "short": "K. Ritthikon",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 102329,
+      "b": 102330,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102330,
+      "b": 120636,
+      "t": 2,
+      "f": 2008,
+      "l": 2009
+    },
+    {
+      "a": 102331,
+      "b": 102332,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 104372,
+      "b": 104373,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104374,
+      "b": 104375,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 120637,
+      "b": 125593,
+      "t": 2,
+      "f": 2009,
+      "l": 2013
+    },
+    {
+      "a": 125593,
+      "b": 141603,
+      "t": 3,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 139445,
+      "b": 139446,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139450,
+      "b": 139451,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139451,
+      "b": 139613,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 139451,
+      "b": 141603,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 139451,
+      "b": 145996,
+      "t": 3,
+      "f": 2019,
+      "l": 2023
+    },
+    {
+      "a": 139451,
+      "b": 150563,
+      "t": 25,
+      "f": 2017,
+      "l": 2019
+    },
+    {
+      "a": 139451,
+      "b": 167226,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 139451,
+      "b": 177865,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 139612,
+      "b": 139613,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139613,
+      "b": 141603,
+      "t": 16,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 139613,
+      "b": 145996,
+      "t": 15,
+      "f": 2014,
+      "l": 2022
+    },
+    {
+      "a": 139613,
+      "b": 145998,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 139613,
+      "b": 150539,
+      "t": 24,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 139613,
+      "b": 156433,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 141603,
+      "b": 145996,
+      "t": 9,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 141603,
+      "b": 145998,
+      "t": 5,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 141603,
+      "b": 155911,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 141603,
+      "b": 166571,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 141603,
+      "b": 172216,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 141603,
+      "b": 177866,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 141603,
+      "b": 189235,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 145996,
+      "b": 145998,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145996,
+      "b": 155911,
+      "t": 8,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 145996,
+      "b": 156433,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 145996,
+      "b": 172216,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 145996,
+      "b": 177866,
+      "t": 3,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 145996,
+      "b": 189235,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 145998,
+      "b": 155911,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 145998,
+      "b": 156432,
+      "t": 3,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 145998,
+      "b": 156433,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 150539,
+      "b": 150563,
+      "t": 2,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 150539,
+      "b": 155911,
+      "t": 4,
+      "f": 2017,
+      "l": 2020
+    },
+    {
+      "a": 150563,
+      "b": 177865,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 155907,
+      "b": 155910,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 155907,
+      "b": 161349,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 155911,
+      "b": 187680,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 156414,
+      "b": 156432,
+      "t": 8,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 156414,
+      "b": 156433,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 156414,
+      "b": 156546,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 156414,
+      "b": 172216,
+      "t": 2,
+      "f": 2020,
+      "l": 2021
+    },
+    {
+      "a": 156432,
+      "b": 156433,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 156432,
+      "b": 177865,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 156432,
+      "b": 187680,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 156544,
+      "b": 156545,
+      "t": 2,
+      "f": 2016,
+      "l": 2017
+    },
+    {
+      "a": 156544,
+      "b": 166571,
+      "t": 2,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 156546,
+      "b": 161349,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 156549,
+      "b": 172216,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 167226,
+      "b": 172216,
+      "t": 31,
+      "f": 2022,
+      "l": 2025
+    },
+    {
+      "a": 167226,
+      "b": 177866,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 172216,
+      "b": 177865,
+      "t": 7,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 177865,
+      "b": 177866,
+      "t": 12,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 177865,
+      "b": 189235,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177866,
+      "b": 187680,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177866,
+      "b": 209627,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 177868,
+      "b": 177890,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 177869,
+      "b": 189227,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 177869,
+      "b": 189235,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177870,
+      "b": 189235,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177870,
+      "b": 201368,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177871,
+      "b": 177872,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 177872,
+      "b": 177890,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 189227,
+      "b": 189235,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 189227,
+      "b": 209620,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 189235,
+      "b": 192418,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 189235,
+      "b": 209620,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 192418,
+      "b": 201369,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 201369,
+      "b": 209624,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 209624,
+      "b": 209626,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 209626,
+      "b": 220161,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 227463,
+      "b": 227844,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 233930,
+      "b": 234095,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

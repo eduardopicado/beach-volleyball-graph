@@ -1,0 +1,863 @@
+{
+  "country": "MAR",
+  "countryName": "Morocco",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 104909,
+      "name": "Adil Andaloussi",
+      "short": "Andaloussi",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104910,
+      "name": "Mohamed Elbaine",
+      "short": "Elbaine",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 104911,
+      "name": "Mohammed Abicha",
+      "short": "Abicha",
+      "tournaments": 14,
+      "first": 2004,
+      "last": 2024
+    },
+    {
+      "id": 104912,
+      "name": "Ahmed Oujaa",
+      "short": "Oujaa",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104913,
+      "name": "Khalid Berma",
+      "short": "Berma",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104914,
+      "name": "Mohamed Bouchama",
+      "short": "Bouchama",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104915,
+      "name": "Khalid Satour",
+      "short": "Satour",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104917,
+      "name": "Ihsane Boukhare",
+      "short": "Boukhare",
+      "tournaments": 3,
+      "first": 2004,
+      "last": 2006
+    },
+    {
+      "id": 104918,
+      "name": "Karim Ourhdach",
+      "short": "Ourhdach",
+      "tournaments": 3,
+      "first": 2004,
+      "last": 2006
+    },
+    {
+      "id": 104919,
+      "name": "Jalal Berma",
+      "short": "Berma",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104921,
+      "name": "Mohamed Zebnaji",
+      "short": "Zebnaji",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104922,
+      "name": "Jad Jaadar",
+      "short": "Jaadar",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104925,
+      "name": "Mohamed Loutaoui",
+      "short": "Loutaoui",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2006
+    },
+    {
+      "id": 104926,
+      "name": "Bouchaib Elhallioui",
+      "short": "Elhallioui",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 115973,
+      "name": "Adil Erraisse",
+      "short": "A-Erraisse",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 115975,
+      "name": "Abdelaziz Khallouf",
+      "short": "A-Khallouf",
+      "tournaments": 14,
+      "first": 2013,
+      "last": 2019
+    },
+    {
+      "id": 115986,
+      "name": "Omar El Aqil",
+      "short": "O-El Aqil",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 117038,
+      "name": "Ouchrif Abdelhafid",
+      "short": "Ouchrif",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 118042,
+      "name": "Erraisse Adil",
+      "short": "Erraisse",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118043,
+      "name": "Erraisse Adil",
+      "short": "Erraisse",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118051,
+      "name": "Hamsi Mustapha",
+      "short": "Hamsi",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118052,
+      "name": "Bouchaoui Soufiane",
+      "short": "Bouchaoui",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 135122,
+      "name": "Karim Oughdach",
+      "short": "Oughdach",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 135123,
+      "name": "Soufiane Bouchaoui",
+      "short": "Bouchaoui",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 135554,
+      "name": "Ihssane Boukhar",
+      "short": "Boukhar",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 135555,
+      "name": "Abdelillah Akazou",
+      "short": "Akazou",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137684,
+      "name": "Anas Diouri",
+      "short": "Diouri",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137689,
+      "name": "Bouchaib Elhallioui",
+      "short": "Elhallioui",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137691,
+      "name": "Mohamed Labder",
+      "short": "Labder",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137693,
+      "name": "Adil El Andaloussi",
+      "short": "Andaloussi",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137705,
+      "name": "Khalid Berma",
+      "short": "Berma",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137706,
+      "name": "Mostapha Hamsi",
+      "short": "Hamsi",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 137707,
+      "name": "Othmane Farabi",
+      "short": "Farabi",
+      "tournaments": 2,
+      "first": 2011,
+      "last": 2017
+    },
+    {
+      "id": 137739,
+      "name": "Nabil Satour",
+      "short": "Satour",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 150074,
+      "name": "Zouheir Elgraoui",
+      "short": "Elgraoui",
+      "tournaments": 8,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 150075,
+      "name": "Adil Bsina",
+      "short": "Bsina",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161540,
+      "name": "Anass Berdaa",
+      "short": "Berdaa",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161541,
+      "name": "Soufiane El Gharouti",
+      "short": "El Gharouti",
+      "tournaments": 7,
+      "first": 2017,
+      "last": 2026
+    },
+    {
+      "id": 163503,
+      "name": "Naoufal Maskali",
+      "short": "Naoufal",
+      "tournaments": 2,
+      "first": 2011,
+      "last": 2017
+    },
+    {
+      "id": 167994,
+      "name": "Farouk Mokhantar",
+      "short": "Mokhantar",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 167995,
+      "name": "Yazid Mokhantar",
+      "short": "Mokhantar",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 167996,
+      "name": "Yazid Mokhantar",
+      "short": "Mokhantar",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 169495,
+      "name": "Driss Mosstari",
+      "short": "DRISS",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 169496,
+      "name": "Mohamed Yakki",
+      "short": "Yakki",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 172003,
+      "name": "Oussama El Azhari",
+      "short": "El Azhari",
+      "tournaments": 9,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 172004,
+      "name": "Ilyas Rhouni  Lazaar",
+      "short": "Iliyas",
+      "tournaments": 9,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 174199,
+      "name": "Anass Saber",
+      "short": "Saber",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 176191,
+      "name": "Nabil Chane",
+      "short": "Chane",
+      "tournaments": 10,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 183883,
+      "name": "Zaid Koutam",
+      "short": "Koutam",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 184562,
+      "name": "Mohammed Reda Zabt",
+      "short": "zabat",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 188776,
+      "name": "Saad Mifdal",
+      "short": "saad",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 193192,
+      "name": "Youssef El Bouinany",
+      "short": "El Bouinany",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 195549,
+      "name": "Aissam Ouinlkhir",
+      "short": "Ouinlkhir",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 204936,
+      "name": "Boudaoud Amine",
+      "short": "Amine",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 207982,
+      "name": "Youssef Bouysfi",
+      "short": "Y.Bouysfi",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 207983,
+      "name": "Adam Lahsini",
+      "short": "A.Lahsini",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 211179,
+      "name": "Abdellatif Ourhdach",
+      "short": "Abdellatif",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 214329,
+      "name": "Ilyas Karbal",
+      "short": "Ilyass",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 217624,
+      "name": "Berrada Allam Hamza",
+      "short": "Berrada",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 225302,
+      "name": "Yasser Errazi",
+      "short": "Yasser",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 226603,
+      "name": "Mohcine Ajrhourhe",
+      "short": "Mohcine",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 231321,
+      "name": "Mohammed El biary",
+      "short": "El biary,M",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 231322,
+      "name": "Othman Byadi",
+      "short": "Byadi,O",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 104909,
+      "b": 104910,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104910,
+      "b": 117038,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104911,
+      "b": 104912,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104911,
+      "b": 104925,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104911,
+      "b": 137705,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 104911,
+      "b": 150074,
+      "t": 7,
+      "f": 2016,
+      "l": 2024
+    },
+    {
+      "a": 104911,
+      "b": 161541,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 104911,
+      "b": 172003,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 104911,
+      "b": 174199,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 104913,
+      "b": 104914,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104915,
+      "b": 104919,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104917,
+      "b": 104918,
+      "t": 3,
+      "f": 2004,
+      "l": 2006
+    },
+    {
+      "a": 104921,
+      "b": 104922,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104925,
+      "b": 104926,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 115973,
+      "b": 118042,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 115986,
+      "b": 118042,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118042,
+      "b": 118043,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118051,
+      "b": 118052,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 135122,
+      "b": 135554,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 135123,
+      "b": 137707,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 135555,
+      "b": 137706,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 137689,
+      "b": 137739,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 137691,
+      "b": 137693,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 137707,
+      "b": 150075,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 137739,
+      "b": 163503,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 150074,
+      "b": 174199,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 161540,
+      "b": 161541,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161541,
+      "b": 163503,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161541,
+      "b": 172003,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 161541,
+      "b": 172004,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 161541,
+      "b": 174199,
+      "t": 2,
+      "f": 2022,
+      "l": 2025
+    },
+    {
+      "a": 167994,
+      "b": 167996,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167994,
+      "b": 217624,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 167995,
+      "b": 176191,
+      "t": 3,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 167996,
+      "b": 169496,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 169495,
+      "b": 169496,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 169496,
+      "b": 172003,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 169496,
+      "b": 172004,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 172003,
+      "b": 172004,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 172003,
+      "b": 176191,
+      "t": 3,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 172004,
+      "b": 176191,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 172004,
+      "b": 217624,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 176191,
+      "b": 217624,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 183883,
+      "b": 184562,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 188776,
+      "b": 195549,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 193192,
+      "b": 204936,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 207982,
+      "b": 207983,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 211179,
+      "b": 214329,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 225302,
+      "b": 226603,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 231321,
+      "b": 231322,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "country": "VIE",
+  "countryName": "Vietnam",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 103732,
+      "name": "Huynh Kim Anh Thu",
+      "short": "Thu",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103733,
+      "name": "Ho Thi Phoong",
+      "short": "Phuong",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103735,
+      "name": "Mai Thi Hoa",
+      "short": "Hoa",
+      "tournaments": 3,
+      "first": 2001,
+      "last": 2005
+    },
+    {
+      "id": 103736,
+      "name": "Phan Thi Cam Hong",
+      "short": "Hong",
+      "tournaments": 2,
+      "first": 2001,
+      "last": 2005
+    },
+    {
+      "id": 105171,
+      "name": "Hong Phan Thi Cam",
+      "short": "Phan Thi Cam",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 135272,
+      "name": "Nguyen Thi Mai",
+      "short": "N. Mai",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 135274,
+      "name": "Do Thi Hau",
+      "short": "D.T.HAU",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 135275,
+      "name": "Ngo Vo Thanh Loan",
+      "short": "Ng. Loan",
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 146144,
+      "name": "T. Bichvi",
+      "short": "T. Bichvi",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 148594,
+      "name": "Thi Thu Van Tu",
+      "short": "Tu",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148595,
+      "name": "Thi Bich Vi Le",
+      "short": "Le",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148950,
+      "name": "Thi Thanh Tram Nguyen",
+      "short": "T.T.T.Tram",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 150559,
+      "name": "Ngoc Lan Nguyen Vu",
+      "short": "V.N.L.Nguyen",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2022
+    },
+    {
+      "id": 156455,
+      "name": "Thi My Linh Du",
+      "short": "D.T.M.Linh",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 156457,
+      "name": "Truc Quynh Anh Pham",
+      "short": "P.T.Q.Anh",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 156982,
+      "name": "Le Doan Huynh Yen",
+      "short": "HOCHIMINH CITY",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 161381,
+      "name": "Duong Thi My Huyen Truong",
+      "short": "Truong",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 162136,
+      "name": "Thi Ha Nhi Phan",
+      "short": "Phan",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 162239,
+      "name": "Hoang Thi Thanh Huyen",
+      "short": "H.T.HUYEN",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167737,
+      "name": "THI CAM TIEN NGUYEN",
+      "short": "N.T.C.TIEN",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 169362,
+      "name": "Thi Hoa Hien Le",
+      "short": "L.T.H.HIEN",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172841,
+      "name": "Thi Thu Vu",
+      "short": "V.T.THU",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172842,
+      "name": "Ngoc Lan Chau",
+      "short": "C.N.LAN",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 177270,
+      "name": "Le Thi Tuong Vy Nguyen",
+      "short": "N.L.T.T Vy",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 189591,
+      "name": "Hong Hanh Mai",
+      "short": "M.H.HANH",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 189592,
+      "name": "Thi My Nga Dinh",
+      "short": "D.T.M.Nga",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 199504,
+      "name": "Thi Thu Nguyen",
+      "short": "N.T.THU",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 103732,
+      "b": 103733,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103735,
+      "b": 103736,
+      "t": 2,
+      "f": 2001,
+      "l": 2005
+    },
+    {
+      "a": 103735,
+      "b": 105171,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 135272,
+      "b": 148950,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 135274,
+      "b": 162239,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 135274,
+      "b": 172841,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 135275,
+      "b": 150559,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 146144,
+      "b": 162136,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 148594,
+      "b": 148595,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 148950,
+      "b": 161381,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 150559,
+      "b": 177270,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 156455,
+      "b": 172842,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 156457,
+      "b": 156982,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 161381,
+      "b": 167737,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167737,
+      "b": 169362,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 189591,
+      "b": 189592,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 189591,
+      "b": 199504,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}

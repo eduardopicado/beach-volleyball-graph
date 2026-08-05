@@ -1,0 +1,32 @@
+{
+  "country": "SYR",
+  "countryName": "Syria",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 103445,
+      "name": "Abd El Masih Al Tawil",
+      "short": "El Masih Al Tawil",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103446,
+      "name": "Hassan Sakhal",
+      "short": "Sakhal",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    }
+  ],
+  "edges": [
+    {
+      "a": 103445,
+      "b": 103446,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    }
+  ]
+}

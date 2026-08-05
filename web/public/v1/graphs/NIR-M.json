@@ -1,0 +1,32 @@
+{
+  "country": "NIR",
+  "countryName": "Northern Ireland",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 147146,
+      "name": "Jonathan Workman",
+      "short": "Workman",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 147148,
+      "name": "Jeff Scott",
+      "short": "Scott",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 147146,
+      "b": 147148,
+      "t": 3,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

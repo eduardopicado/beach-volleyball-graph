@@ -1,0 +1,99 @@
+{
+  "country": "SCO",
+  "countryName": "Scotland",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 133249,
+      "name": "Lynne Beattie",
+      "short": "Beattie",
+      "tournaments": 58,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 150830,
+      "name": "Melissa Coutts",
+      "short": "Coutts",
+      "tournaments": 50,
+      "first": 1999,
+      "last": 2026
+    },
+    {
+      "id": 150841,
+      "name": "Kathryn Barbour",
+      "short": "Barbour",
+      "tournaments": 22,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 153177,
+      "name": "Mhairi Wallace",
+      "short": "Wallace",
+      "tournaments": 8,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 164869,
+      "name": "Rachel Morrison",
+      "short": "Morrison",
+      "tournaments": 26,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 196202,
+      "name": "Alexis Crusey",
+      "short": "Crusey",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 133249,
+      "b": 150830,
+      "t": 49,
+      "f": 2016,
+      "l": 2026
+    },
+    {
+      "a": 133249,
+      "b": 153177,
+      "t": 7,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 133249,
+      "b": 164869,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 150841,
+      "b": 164869,
+      "t": 22,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 153177,
+      "b": 164869,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 164869,
+      "b": 196202,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

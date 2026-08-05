@@ -1,0 +1,83 @@
+{
+  "country": "AZE",
+  "gender": "W",
+  "players": [
+    {
+      "id": 119620,
+      "name": "Vivian Danielle da Conceição Cunha",
+      "dob": "1980-06-14",
+      "height": 179,
+      "weight": 65
+    },
+    {
+      "id": 122369,
+      "name": "Viktoria Aghakishiyeva (Smetaniuk)",
+      "dob": "1989-07-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 147368,
+      "name": "Irina Abbaszade",
+      "dob": "1991-01-13",
+      "height": 182,
+      "weight": 66
+    },
+    {
+      "id": 147672,
+      "name": "Raquel Goncalves Ferreira",
+      "dob": "1982-10-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160749,
+      "name": "Fidan Ahmadkhanova",
+      "dob": "2001-10-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173568,
+      "name": "Larisa Smeltsova",
+      "dob": "2000-03-04",
+      "height": 187,
+      "weight": 75
+    },
+    {
+      "id": 203501,
+      "name": "Sabina Alizada",
+      "dob": "2007-10-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 211621,
+      "name": "Narmin Samadzade",
+      "dob": "2006-08-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 214224,
+      "name": "Chinara Guliyeva",
+      "dob": "1996-12-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 222068,
+      "name": "Jamila Bashirova",
+      "dob": "2009-11-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223587,
+      "name": "Feyza Bolat",
+      "dob": "2009-03-03",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

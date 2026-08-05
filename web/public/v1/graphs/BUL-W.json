@@ -1,0 +1,748 @@
+{
+  "country": "BUL",
+  "countryName": "Bulgaria",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 102038,
+      "name": "Stefka Anguelova",
+      "short": "Anguelova",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102039,
+      "name": "Tzvetelina \"Lina\" Yanchulova",
+      "short": "Yanchulova",
+      "tournaments": 98,
+      "first": 1997,
+      "last": 2006
+    },
+    {
+      "id": 102150,
+      "name": "Petia Yanchulova",
+      "short": "Yanchulova",
+      "tournaments": 113,
+      "first": 1998,
+      "last": 2008
+    },
+    {
+      "id": 102206,
+      "name": "Guergana Stainova",
+      "short": "Stainova",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102207,
+      "name": "Guergana Alexandrova",
+      "short": "Alexandrova",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 113554,
+      "name": "Marina Kalaydjieva",
+      "short": "Kalaydjieva",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 118748,
+      "name": "Evelina Tcholakova",
+      "short": "Tcholakova",
+      "tournaments": 57,
+      "first": 2007,
+      "last": 2012
+    },
+    {
+      "id": 120163,
+      "name": "Yana Ninova",
+      "short": "Yana",
+      "tournaments": 4,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 122631,
+      "name": "Desislava Nikolova",
+      "short": "Nikolova D.",
+      "tournaments": 20,
+      "first": 2009,
+      "last": 2025
+    },
+    {
+      "id": 124818,
+      "name": "Diana Malinova",
+      "short": "Malinova",
+      "tournaments": 5,
+      "first": 2009,
+      "last": 2016
+    },
+    {
+      "id": 131943,
+      "name": "Evelina Stoilova",
+      "short": "Stoilova",
+      "tournaments": 11,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132106,
+      "name": "Svetla Angelova",
+      "short": "Angelova",
+      "tournaments": 11,
+      "first": 2012,
+      "last": 2021
+    },
+    {
+      "id": 132107,
+      "name": "Maria Todorova",
+      "short": "Todorova",
+      "tournaments": 12,
+      "first": 2010,
+      "last": 2011
+    },
+    {
+      "id": 134456,
+      "name": "Asya Dinova",
+      "short": "Dinova",
+      "tournaments": 14,
+      "first": 2013,
+      "last": 2024
+    },
+    {
+      "id": 137970,
+      "name": "Irena Mishonova",
+      "short": "Mishonova",
+      "tournaments": 17,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 143366,
+      "name": "Slavina Koleva",
+      "short": "Koleva",
+      "tournaments": 10,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 144040,
+      "name": "Stefani Kyoseva",
+      "short": "Kyoseva",
+      "tournaments": 10,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 144133,
+      "name": "Ivana Ivanova",
+      "short": "Ivanova",
+      "tournaments": 4,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 144794,
+      "name": "Iva Partaleva",
+      "short": "Partaleva",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 151859,
+      "name": "Iveta Stanchulova",
+      "short": "Stanchulova",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 153417,
+      "name": "Emileta Racheva",
+      "short": "Racheva",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 153421,
+      "name": "Simona Nikolova",
+      "short": "Nikolova S.",
+      "tournaments": 6,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 164805,
+      "name": "Nikol Duleva",
+      "short": "Duleva",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 165924,
+      "name": "Siyana Baleva",
+      "short": "Baleva",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 173372,
+      "name": "Eva Petrova",
+      "short": "Petrova",
+      "tournaments": 17,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 175507,
+      "name": "Elizabet Kasadzhikova",
+      "short": "Kasadzhikova",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 175809,
+      "name": "Ekaterina Aleksandrova",
+      "short": "Aleksandrova",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 177993,
+      "name": "Yoana Kalfinova",
+      "short": "Kalfinova",
+      "tournaments": 13,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 179403,
+      "name": "Darina Kindova",
+      "short": "Kindova",
+      "tournaments": 10,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 179408,
+      "name": "Desislava Todeva",
+      "short": "Todeva",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 181221,
+      "name": "Vili Tsenova",
+      "short": "Vili",
+      "tournaments": 37,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181222,
+      "name": "Raya Tsenova",
+      "short": "Tsenova",
+      "tournaments": 38,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181223,
+      "name": "Radoslava Traykova",
+      "short": "Traykova",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181360,
+      "name": "Roberta Di Romano",
+      "short": "Di Romano",
+      "tournaments": 8,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 182770,
+      "name": "Ivet Gavrailova",
+      "short": "Gavrailova",
+      "tournaments": 6,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 188371,
+      "name": "Veselina Kotseva",
+      "short": "Kotseva",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190994,
+      "name": "Veronika Ivanova",
+      "short": "Ivanova",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190998,
+      "name": "Yelizaveta Ivakina",
+      "short": "Ivakina",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 191001,
+      "name": "Lyudmila Popova",
+      "short": "Popova",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 191002,
+      "name": "Dilyana Germanova",
+      "short": "Germanova",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 191725,
+      "name": "Elitsa Ivanova",
+      "short": "Ivanova",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 191726,
+      "name": "Elitsa Hristova",
+      "short": "Hristova",
+      "tournaments": 5,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 191727,
+      "name": "Antoniya Nikolova",
+      "short": "Nikolova",
+      "tournaments": 7,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 192664,
+      "name": "Eleonora Gicheva",
+      "short": "Gicheva",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 193054,
+      "name": "Svilena Stoyanova",
+      "short": "Stoyanova",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 200716,
+      "name": "Tsvetelina Ilieva",
+      "short": "Ilieva",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 102038,
+      "b": 102039,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 102039,
+      "b": 102150,
+      "t": 97,
+      "f": 1998,
+      "l": 2006
+    },
+    {
+      "a": 102150,
+      "b": 118748,
+      "t": 16,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 102206,
+      "b": 113554,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102207,
+      "b": 113554,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 118748,
+      "b": 120163,
+      "t": 4,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118748,
+      "b": 122631,
+      "t": 14,
+      "f": 2009,
+      "l": 2011
+    },
+    {
+      "a": 118748,
+      "b": 124818,
+      "t": 3,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118748,
+      "b": 131943,
+      "t": 11,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 118748,
+      "b": 132106,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 118748,
+      "b": 132107,
+      "t": 12,
+      "f": 2010,
+      "l": 2011
+    },
+    {
+      "a": 122631,
+      "b": 137970,
+      "t": 4,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 122631,
+      "b": 144794,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 122631,
+      "b": 153417,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 124818,
+      "b": 134456,
+      "t": 2,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 132106,
+      "b": 134456,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 132106,
+      "b": 137970,
+      "t": 7,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 132106,
+      "b": 143366,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 134456,
+      "b": 137970,
+      "t": 4,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 134456,
+      "b": 143366,
+      "t": 6,
+      "f": 2020,
+      "l": 2021
+    },
+    {
+      "a": 134456,
+      "b": 151859,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 137970,
+      "b": 151859,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 143366,
+      "b": 164805,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 143366,
+      "b": 179408,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 144040,
+      "b": 153421,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 144040,
+      "b": 173372,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 144040,
+      "b": 175809,
+      "t": 2,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 144040,
+      "b": 179403,
+      "t": 5,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144133,
+      "b": 177993,
+      "t": 2,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 144133,
+      "b": 181360,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 144133,
+      "b": 200716,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 144794,
+      "b": 181223,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 144794,
+      "b": 181360,
+      "t": 2,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 151859,
+      "b": 153417,
+      "t": 2,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 153421,
+      "b": 177993,
+      "t": 5,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 165924,
+      "b": 175809,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 173372,
+      "b": 177993,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 173372,
+      "b": 179403,
+      "t": 3,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 173372,
+      "b": 179408,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 173372,
+      "b": 181221,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 173372,
+      "b": 181360,
+      "t": 5,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 173372,
+      "b": 182770,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 175507,
+      "b": 188371,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 177993,
+      "b": 181222,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 179403,
+      "b": 192664,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 179408,
+      "b": 191725,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 181221,
+      "b": 181222,
+      "t": 36,
+      "f": 2021,
+      "l": 2026
+    },
+    {
+      "a": 182770,
+      "b": 191727,
+      "t": 4,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 182770,
+      "b": 192664,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 190994,
+      "b": 190998,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 191001,
+      "b": 191002,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 191726,
+      "b": 191727,
+      "t": 3,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 191726,
+      "b": 193054,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

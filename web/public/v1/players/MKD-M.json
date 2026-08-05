@@ -1,0 +1,41 @@
+{
+  "country": "MKD",
+  "gender": "M",
+  "players": [
+    {
+      "id": 102476,
+      "name": "Besim Rexha",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102477,
+      "name": "Idris Bedzeti",
+      "dob": "1977-12-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103595,
+      "name": "Ilija Bisinov",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103600,
+      "name": "Jovance Manaskov",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104040,
+      "name": "Habil Ajeti",
+      "dob": "1980-05-23",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

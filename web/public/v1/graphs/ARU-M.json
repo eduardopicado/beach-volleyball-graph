@@ -1,0 +1,32 @@
+{
+  "country": "ARU",
+  "countryName": "Aruba",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 211178,
+      "name": "Victor Antonio Mitchell",
+      "short": "Mitchell",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 212414,
+      "name": "Joshua Hoepelman",
+      "short": "Joshua",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 211178,
+      "b": 212414,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

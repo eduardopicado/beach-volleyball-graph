@@ -1,0 +1,154 @@
+{
+  "country": "COK",
+  "countryName": "Cook Islands",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 156583,
+      "name": "Brendon Heath",
+      "short": "Heath",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 156586,
+      "name": "Raitiavatea Keri Herman",
+      "short": "R. Herman",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 166146,
+      "name": "Brendon Heath",
+      "short": "B Heath",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 177161,
+      "name": "Rai-Arii Enoka",
+      "short": "Enoka",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 177713,
+      "name": "Atatoa Herman",
+      "short": "A. Herman",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 220112,
+      "name": "Zachari Matahi Upoko Ono Xavier Tuatai",
+      "short": "Tuatai",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233197,
+      "name": "Ryan Nicholson",
+      "short": "Nicholson",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233198,
+      "name": "Rouruina-O-Taura Taura",
+      "short": "Taura",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233200,
+      "name": "Jacques Ebeneza Aporo Koteka",
+      "short": "J. Koteka",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233201,
+      "name": "Junior Tereta Ngatokoa Elikana",
+      "short": "Elikana",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233203,
+      "name": "Tepa Parekotaa Nathan Kelly",
+      "short": "Kelly",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233624,
+      "name": "Travis Teariki Te-Maru-Raetea Beniamina-Neagle",
+      "short": "Beniamina-Neagle",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 156583,
+      "b": 156586,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 166146,
+      "b": 220112,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 166146,
+      "b": 233203,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 177161,
+      "b": 177713,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 220112,
+      "b": 233201,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 233197,
+      "b": 233200,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 233198,
+      "b": 233624,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

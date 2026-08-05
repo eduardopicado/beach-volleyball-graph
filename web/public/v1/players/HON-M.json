@@ -1,0 +1,41 @@
+{
+  "country": "HON",
+  "gender": "M",
+  "players": [
+    {
+      "id": 102737,
+      "name": "Daniel Ignasio Sanchez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102738,
+      "name": "Walter Anibal Sanchez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103850,
+      "name": "James Carlton Woods Merren",
+      "dob": "1972-01-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103851,
+      "name": "Manu Dibango Wilmoth Collins",
+      "dob": "1975-02-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117638,
+      "name": "Luis Alberto Baide Reyes",
+      "dob": null,
+      "height": null,
+      "weight": null
+    }
+  ]
+}

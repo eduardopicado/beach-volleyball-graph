@@ -1,0 +1,55 @@
+{
+  "country": "CHA",
+  "countryName": "Chad",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 150709,
+      "name": "Moussa Djiteyna Ngaryara",
+      "short": "Ngaryara",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 150710,
+      "name": "Mahamat Doungous",
+      "short": "Doungous",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181683,
+      "name": "Assane Bakane Paulin",
+      "short": "Assane",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181779,
+      "name": "Izzo Mahamat Izzo",
+      "short": "Izzo",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 150709,
+      "b": 181683,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 150710,
+      "b": 181779,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}

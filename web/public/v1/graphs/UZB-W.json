@@ -1,0 +1,32 @@
+{
+  "country": "UZB",
+  "countryName": "Uzbekistan",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 240433,
+      "name": "Odina Uralova",
+      "short": "Uralova",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 240434,
+      "name": "Guzaloy Mamatsodikova",
+      "short": "Mamatsodikova",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 240433,
+      "b": 240434,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

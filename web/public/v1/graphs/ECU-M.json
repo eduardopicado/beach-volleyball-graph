@@ -1,0 +1,198 @@
+{
+  "country": "ECU",
+  "countryName": "Ecuador",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 116901,
+      "name": "Daniel Maldonado",
+      "short": "Daniel",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 125468,
+      "name": "Julio Bardales",
+      "short": "Bardales",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 141579,
+      "name": "Pedro Alberto Jaramillo Hurtado",
+      "short": "Jaramillo",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 149626,
+      "name": "Marcos Jose Tenorio Angulo",
+      "short": "Marcos",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 155929,
+      "name": "Ronald Andres QUIñONEZ MENDOZA",
+      "short": "Ronald",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 161721,
+      "name": "Dany Jair Leon Nieves",
+      "short": "Leon",
+      "tournaments": 7,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 162397,
+      "name": "Joffre Rodolfo Jurado Carrillo",
+      "short": "Jurado",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 175849,
+      "name": "Julio Mateo Estupiñan Centeno",
+      "short": "Mateo",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 187916,
+      "name": "Damian Recalde Loor",
+      "short": "RECALDE",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 187917,
+      "name": "Bryan Joaquin Cordero",
+      "short": "CORDERO",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 208866,
+      "name": "Jose Murillo Espinel",
+      "short": "José",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 208867,
+      "name": "Isaac Josué Jiménez Mero",
+      "short": "Isaac",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 211273,
+      "name": "Ricardo Johan Intriago mera",
+      "short": "Ricardo",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 225836,
+      "name": "Alfredo Velez Aparicio",
+      "short": "Alfredo",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 116901,
+      "b": 125468,
+      "t": 2,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 141579,
+      "b": 161721,
+      "t": 2,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 149626,
+      "b": 161721,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 149626,
+      "b": 162397,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 155929,
+      "b": 208867,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 161721,
+      "b": 162397,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 161721,
+      "b": 175849,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 162397,
+      "b": 175849,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 187916,
+      "b": 187917,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 208866,
+      "b": 211273,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 208867,
+      "b": 225836,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

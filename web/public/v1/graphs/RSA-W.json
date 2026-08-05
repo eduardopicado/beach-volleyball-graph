@@ -1,0 +1,675 @@
+{
+  "country": "RSA",
+  "countryName": "South Africa",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100539,
+      "name": "Beverley or Bev Gouws",
+      "short": "Gouws",
+      "tournaments": 2,
+      "first": 1994,
+      "last": 1995
+    },
+    {
+      "id": 100598,
+      "name": "Alena Schurkova",
+      "short": "Schurkova",
+      "tournaments": 2,
+      "first": 1994,
+      "last": 1999
+    },
+    {
+      "id": 100599,
+      "name": "Anne Cecelia \"Tiger\" Siroky",
+      "short": "Siroky",
+      "tournaments": 2,
+      "first": 1994,
+      "last": 2005
+    },
+    {
+      "id": 100603,
+      "name": "Kathleen or Kathy Viantis",
+      "short": "Viantis",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 100694,
+      "name": "Rosemary or Rose \"The Bud\" Thompson",
+      "short": "Thompson",
+      "tournaments": 3,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 100968,
+      "name": "Christina Marion \"Chrisna\" Ashforth",
+      "short": "Ashforth",
+      "tournaments": 6,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 100969,
+      "name": "Simone \"Mon\" Burgesmeier",
+      "short": "Burgesmeier",
+      "tournaments": 4,
+      "first": 1995,
+      "last": 1997
+    },
+    {
+      "id": 100970,
+      "name": "Karen Leigh Francois",
+      "short": "Francois",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101010,
+      "name": "Michelle \"Mitch\" Perkins",
+      "short": "Perkins",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 102562,
+      "name": "Leigh-Ann Naidoo",
+      "short": "Naidoo",
+      "tournaments": 28,
+      "first": 1999,
+      "last": 2007
+    },
+    {
+      "id": 104240,
+      "name": "Julia Willand",
+      "short": "Willand",
+      "tournaments": 16,
+      "first": 2003,
+      "last": 2004
+    },
+    {
+      "id": 117657,
+      "name": "Vitalila Nel",
+      "short": "Nel",
+      "tournaments": 21,
+      "first": 2005,
+      "last": 2008
+    },
+    {
+      "id": 117659,
+      "name": "Zandi Erasmus",
+      "short": "Erasmus",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117660,
+      "name": "Emma Wyngaard",
+      "short": "Wyngaard",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117661,
+      "name": "Karen van Huyssteen",
+      "short": "van Huyssteen",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117662,
+      "name": "Natasha Louise Webber",
+      "short": "Webber",
+      "tournaments": 3,
+      "first": 2005,
+      "last": 2025
+    },
+    {
+      "id": 117663,
+      "name": "Bonolo Rampomane",
+      "short": "Bonolo",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117664,
+      "name": "Raycine Sunker",
+      "short": "Sunker",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117665,
+      "name": "Taryn Sunker",
+      "short": "Sunker",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117666,
+      "name": "Michelle Haskins",
+      "short": "Haskins",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117668,
+      "name": "Jillian Zealand",
+      "short": "Zealand",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117672,
+      "name": "Joanne Schaffers",
+      "short": "Schaffers",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117673,
+      "name": "Jan Williams",
+      "short": "Williams",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117676,
+      "name": "sthembile cele",
+      "short": "cele",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117677,
+      "name": "Candice Vardhan",
+      "short": "Vardhan",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117678,
+      "name": "Frenchy Mathatho",
+      "short": "Frenchy",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117679,
+      "name": "Shounese Billings",
+      "short": "Billings",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117680,
+      "name": "Uniyt lushozi",
+      "short": "unity",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117681,
+      "name": "Elise Eland",
+      "short": "Eland",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117682,
+      "name": "Anita Frederickson",
+      "short": "Nita",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117711,
+      "name": "Deidre Daniels",
+      "short": "Daniels",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117712,
+      "name": "Charlotte Mdlesse",
+      "short": "Mdlesse",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117713,
+      "name": "Amelia Luyt",
+      "short": "Luyt",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 118747,
+      "name": "Judith Augoustides",
+      "short": "Augoustides",
+      "tournaments": 20,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 123445,
+      "name": "Palesa Sekhonyana",
+      "short": "Sekhonyana",
+      "tournaments": 14,
+      "first": 2005,
+      "last": 2015
+    },
+    {
+      "id": 134989,
+      "name": "Randy Williams",
+      "short": "Williams",
+      "tournaments": 4,
+      "first": 2013,
+      "last": 2025
+    },
+    {
+      "id": 139974,
+      "name": "Liezle Peterson",
+      "short": "Peterson",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 139975,
+      "name": "Christin Decalme",
+      "short": "Decalme",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 145167,
+      "name": "Kirsten Pocock",
+      "short": "Pocock",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 145169,
+      "name": "Sheana-Alice Abrahams",
+      "short": "Abrahams",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 145407,
+      "name": "Judith Augoustides",
+      "short": "Judith",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 145420,
+      "name": "Gadija Jappie",
+      "short": "Jappie",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 145429,
+      "name": "Anneta Frederiksen",
+      "short": "Frederiksen",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2025
+    },
+    {
+      "id": 147698,
+      "name": "Luciana Pierangeli",
+      "short": "Pierangeli",
+      "tournaments": 28,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 147699,
+      "name": "Simone Sittig",
+      "short": "Sittig",
+      "tournaments": 28,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 149770,
+      "name": "Nicola Wenhold",
+      "short": "Wenhold",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 161303,
+      "name": "Tamlyn Thomas",
+      "short": "Thomas",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 161305,
+      "name": "Manana Mosia",
+      "short": "Mosia",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 187449,
+      "name": "Tatiana Simopoulos",
+      "short": "Tatiana",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 187529,
+      "name": "Costandina Karina Kinsey",
+      "short": "Kinsey",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 100539,
+      "b": 100603,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100539,
+      "b": 100968,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100598,
+      "b": 100599,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100598,
+      "b": 102562,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 100599,
+      "b": 117678,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 100694,
+      "b": 100968,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 100694,
+      "b": 100970,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100694,
+      "b": 101010,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100968,
+      "b": 100969,
+      "t": 4,
+      "f": 1995,
+      "l": 1997
+    },
+    {
+      "a": 102562,
+      "b": 104240,
+      "t": 16,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 102562,
+      "b": 117659,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 102562,
+      "b": 118747,
+      "t": 10,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 117657,
+      "b": 118747,
+      "t": 10,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 117657,
+      "b": 123445,
+      "t": 11,
+      "f": 2005,
+      "l": 2007
+    },
+    {
+      "a": 117659,
+      "b": 117713,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117660,
+      "b": 117661,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117662,
+      "b": 117663,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117662,
+      "b": 145169,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 117662,
+      "b": 149770,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 117664,
+      "b": 117665,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117666,
+      "b": 117668,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117672,
+      "b": 117673,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117672,
+      "b": 117711,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117676,
+      "b": 117677,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117676,
+      "b": 117712,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117679,
+      "b": 117681,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117680,
+      "b": 117682,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 123445,
+      "b": 134989,
+      "t": 3,
+      "f": 2013,
+      "l": 2015
+    },
+    {
+      "a": 134989,
+      "b": 145429,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 139974,
+      "b": 139975,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139974,
+      "b": 145169,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145167,
+      "b": 145407,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 145407,
+      "b": 149770,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145420,
+      "b": 145429,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 147698,
+      "b": 147699,
+      "t": 28,
+      "f": 2014,
+      "l": 2025
+    },
+    {
+      "a": 161303,
+      "b": 161305,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161303,
+      "b": 187449,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 187449,
+      "b": 187529,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "country": "ZIM",
+  "countryName": "Zimbabwe",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 122661,
+      "name": "Nyengeterai Danai Guyo",
+      "short": "Guyo",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 135707,
+      "name": "Vuyiswa Kimberley Dhlomo",
+      "short": "Dhlomo",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 135710,
+      "name": "Christine Tendai Manyanya",
+      "short": "Manyanya",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 141632,
+      "name": "Princess Noxolo Moyo",
+      "short": "Moyo",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141633,
+      "name": "Charity Chikore",
+      "short": "Chikore",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141634,
+      "name": "Mathilda Tafadzwa Dube",
+      "short": "Dube",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141665,
+      "name": "Progress Gasa",
+      "short": "Gasa",
+      "tournaments": 3,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 187802,
+      "name": "Hellen Matembedza",
+      "short": "Hellen",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 189842,
+      "name": "Joyce Ruvimbo Makamba",
+      "short": "Makamba",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 122661,
+      "b": 135707,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 135710,
+      "b": 141665,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 141632,
+      "b": 141665,
+      "t": 2,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 141633,
+      "b": 141634,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 187802,
+      "b": 189842,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}

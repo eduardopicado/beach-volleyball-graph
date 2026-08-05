@@ -1,0 +1,55 @@
+{
+  "country": "MON",
+  "countryName": "Monaco",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 161326,
+      "name": "Ludovic Palmaro",
+      "short": "Palmaro",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 161737,
+      "name": "Olivier Lanteri",
+      "short": "Lanteri",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167626,
+      "name": "Pascal Ferry",
+      "short": "Ferry P.",
+      "tournaments": 35,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 167627,
+      "name": "Vincent Ferry",
+      "short": "Ferry V.",
+      "tournaments": 34,
+      "first": 2019,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 161326,
+      "b": 161737,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167626,
+      "b": 167627,
+      "t": 34,
+      "f": 2019,
+      "l": 2026
+    }
+  ]
+}

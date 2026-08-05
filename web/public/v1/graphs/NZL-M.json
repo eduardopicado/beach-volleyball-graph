@@ -1,0 +1,1608 @@
+{
+  "country": "NZL",
+  "countryName": "New Zealand",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100049,
+      "name": "Glenn Hamilton",
+      "short": "G.Hamilton",
+      "tournaments": 39,
+      "first": 1987,
+      "last": 1997
+    },
+    {
+      "id": 100050,
+      "name": "Reid Hamilton",
+      "short": "R.Hamilton",
+      "tournaments": 45,
+      "first": 1987,
+      "last": 1998
+    },
+    {
+      "id": 100718,
+      "name": "Craig John Seuseu",
+      "short": "Seuseu",
+      "tournaments": 53,
+      "first": 1994,
+      "last": 2000
+    },
+    {
+      "id": 100719,
+      "name": "Owen \"Big O\" Ranfurly",
+      "short": "Ranfurly",
+      "tournaments": 8,
+      "first": 1994,
+      "last": 1995
+    },
+    {
+      "id": 101306,
+      "name": "Michael Akkerman",
+      "short": "Akkerman",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101308,
+      "name": "Hayden Jones",
+      "short": "Jones",
+      "tournaments": 7,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 101309,
+      "name": "Michael Craig \"Wal\" Waller",
+      "short": "Waller",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101411,
+      "name": "Thomas Eade",
+      "short": "Eade",
+      "tournaments": 45,
+      "first": 1996,
+      "last": 2000
+    },
+    {
+      "id": 101721,
+      "name": "Mark Hendrikus Termeer",
+      "short": "Termeet",
+      "tournaments": 8,
+      "first": 1997,
+      "last": 1998
+    },
+    {
+      "id": 101876,
+      "name": "Hugh McCutcheon",
+      "short": "McCutcheon",
+      "tournaments": 2,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 103587,
+      "name": "Jared Wilson",
+      "short": "Wilson",
+      "tournaments": 2,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103588,
+      "name": "Kirk Pitman",
+      "short": "Pitman",
+      "tournaments": 137,
+      "first": 2001,
+      "last": 2013
+    },
+    {
+      "id": 104659,
+      "name": "Jason Lochhead",
+      "short": "Lochhead",
+      "tournaments": 132,
+      "first": 2004,
+      "last": 2022
+    },
+    {
+      "id": 118100,
+      "name": "Michael Watson",
+      "short": "Watson",
+      "tournaments": 36,
+      "first": 2006,
+      "last": 2025
+    },
+    {
+      "id": 118103,
+      "name": "Edwin O'Dea",
+      "short": "O'Dea, E.",
+      "tournaments": 8,
+      "first": 2006,
+      "last": 2011
+    },
+    {
+      "id": 118544,
+      "name": "Brendon Heath",
+      "short": "Heath",
+      "tournaments": 17,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 118545,
+      "name": "Charles Leota",
+      "short": "Leota",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 119153,
+      "name": "Sam Wallace-Boyd",
+      "short": "Wallace-Boyd",
+      "tournaments": 4,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 119154,
+      "name": "Mark Petersen",
+      "short": "Petersen",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2011
+    },
+    {
+      "id": 120164,
+      "name": "Damon Haenga",
+      "short": "Haenga",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120166,
+      "name": "Michael Peters",
+      "short": "Peters",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120167,
+      "name": "Russell Watson",
+      "short": "Watson",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120168,
+      "name": "Greg Lindsay",
+      "short": "Lindsay",
+      "tournaments": 14,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 120529,
+      "name": "Sam O'Dea",
+      "short": "O'Dea, S.",
+      "tournaments": 103,
+      "first": 2008,
+      "last": 2026
+    },
+    {
+      "id": 122248,
+      "name": "Sam Tuivai",
+      "short": "Tuivai",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 124994,
+      "name": "Ryan Grubb",
+      "short": "Grubb",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 124995,
+      "name": "Paora Morunga",
+      "short": "Morunga",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2014
+    },
+    {
+      "id": 124997,
+      "name": "Liam Munday",
+      "short": "Munday",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 124998,
+      "name": "Johann Timmer",
+      "short": "Timmer",
+      "tournaments": 16,
+      "first": 2009,
+      "last": 2023
+    },
+    {
+      "id": 132041,
+      "name": "Ben O'Dea",
+      "short": "O'Dea B.",
+      "tournaments": 86,
+      "first": 2010,
+      "last": 2026
+    },
+    {
+      "id": 132542,
+      "name": "Morgan Seymour",
+      "short": "Seymour",
+      "tournaments": 12,
+      "first": 2010,
+      "last": 2018
+    },
+    {
+      "id": 132543,
+      "name": "Sonny Hirini",
+      "short": "Hirini",
+      "tournaments": 7,
+      "first": 2010,
+      "last": 2018
+    },
+    {
+      "id": 132544,
+      "name": "Tyler Hamlin",
+      "short": "Hamlin",
+      "tournaments": 2,
+      "first": 2010,
+      "last": 2024
+    },
+    {
+      "id": 135512,
+      "name": "Thomas Hartles",
+      "short": "Hartles",
+      "tournaments": 73,
+      "first": 2011,
+      "last": 2025
+    },
+    {
+      "id": 135513,
+      "name": "Griffin Muller",
+      "short": "Muller",
+      "tournaments": 5,
+      "first": 2011,
+      "last": 2020
+    },
+    {
+      "id": 138957,
+      "name": "Liam Matheson",
+      "short": "Matheson",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2013
+    },
+    {
+      "id": 138958,
+      "name": "Bradley Fuller",
+      "short": "Fuller",
+      "tournaments": 59,
+      "first": 2012,
+      "last": 2026
+    },
+    {
+      "id": 138959,
+      "name": "Daryl Lewis",
+      "short": "Lewis",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 138960,
+      "name": "James Gilling",
+      "short": "Gilling",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 140905,
+      "name": "Rene Kapa",
+      "short": "Kapa",
+      "tournaments": 9,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 141383,
+      "name": "Thomas Heijs",
+      "short": "Heijs",
+      "tournaments": 5,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 141388,
+      "name": "Jesse Hawkins",
+      "short": "Hawkins",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 146003,
+      "name": "Nate Moore",
+      "short": "Moore",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146005,
+      "name": "Kahurangi Robinson",
+      "short": "Robinson",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146805,
+      "name": "Gregory David Vukets",
+      "short": "Vukets",
+      "tournaments": 9,
+      "first": 2014,
+      "last": 2024
+    },
+    {
+      "id": 146806,
+      "name": "Sean Hone",
+      "short": "Hone",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 154670,
+      "name": "Manaia Harris",
+      "short": "Harris",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 155026,
+      "name": "Ryan Gunn",
+      "short": "Gunn",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 155803,
+      "name": "Daniel Kilpatrick",
+      "short": "Kilpatrick",
+      "tournaments": 6,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 160610,
+      "name": "Alani Nicklin",
+      "short": "Nicklin",
+      "tournaments": 70,
+      "first": 2017,
+      "last": 2024
+    },
+    {
+      "id": 161083,
+      "name": "Giles Black",
+      "short": "Black",
+      "tournaments": 22,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 162167,
+      "name": "Joshua Tiplady",
+      "short": "Tiplady",
+      "tournaments": 10,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 163816,
+      "name": "Thomas Reid",
+      "short": "Reid",
+      "tournaments": 40,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 164398,
+      "name": "Tyran John Gillespie",
+      "short": "Gillespie",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 164399,
+      "name": "Keegan Maan Tai Joe",
+      "short": "Joe",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 166550,
+      "name": "David Jeffrey",
+      "short": "Jeffrey",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 166551,
+      "name": "Perry Preston",
+      "short": "Preston",
+      "tournaments": 7,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 166681,
+      "name": "Matthew Polley",
+      "short": "Polley",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 166735,
+      "name": "John McManaway",
+      "short": "McManaway",
+      "tournaments": 32,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 166737,
+      "name": "James Sadlier",
+      "short": "Sadlier",
+      "tournaments": 18,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 173888,
+      "name": "Eric Dean Stratton",
+      "short": "Stratton",
+      "tournaments": 7,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 177656,
+      "name": "Matthew Kilpatrick",
+      "short": "Kilpatrick M.",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 177811,
+      "name": "Trent Webby",
+      "short": "Webby",
+      "tournaments": 14,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 177813,
+      "name": "Jarod Inia",
+      "short": "Robert",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 178418,
+      "name": "Campbell Forsyth",
+      "short": "Forsyth",
+      "tournaments": 7,
+      "first": 2022,
+      "last": 2024
+    },
+    {
+      "id": 180606,
+      "name": "Kyle Alan Smith",
+      "short": "Smith, K.",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 186698,
+      "name": "Juraj Krajci",
+      "short": "Krajci",
+      "tournaments": 39,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 186699,
+      "name": "Joshua Clarke",
+      "short": "Clarke",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 187305,
+      "name": "Charlie Dalton",
+      "short": "Dalton",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 187397,
+      "name": "Ryan Jefferson",
+      "short": "Jefferson",
+      "tournaments": 8,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 187666,
+      "name": "Jeremy Nielsen",
+      "short": "Nielsen",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 187844,
+      "name": "Henry Li",
+      "short": "Li",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199000,
+      "name": "Michael Tyler",
+      "short": "Tyler",
+      "tournaments": 14,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 199029,
+      "name": "Calum Stewart",
+      "short": "Stewart",
+      "tournaments": 8,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 199356,
+      "name": "Sean Thurlow",
+      "short": "Thurlow",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199357,
+      "name": "Anton Teptsov",
+      "short": "Teptsov",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199358,
+      "name": "Noah Smith",
+      "short": "Smith",
+      "tournaments": 11,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 199359,
+      "name": "Finn Howard",
+      "short": "Howard",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 199361,
+      "name": "Mateo Roa",
+      "short": "Roa",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199362,
+      "name": "Nathan Davies",
+      "short": "Davies",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199363,
+      "name": "Ben Blakemore",
+      "short": "Blakemore",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199597,
+      "name": "Jamie Julian",
+      "short": "Julian",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 208868,
+      "name": "Liam Chris Smith",
+      "short": "Smith",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 208870,
+      "name": "Thomas Peter Vesty",
+      "short": "Vesty",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 208873,
+      "name": "Jay Huggins",
+      "short": "Huggins",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 208875,
+      "name": "Davi Pacheco",
+      "short": "Pacheco",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 208877,
+      "name": "Lucas Heggie",
+      "short": "Heggie",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 209062,
+      "name": "Isaac Brouwer",
+      "short": "Brouwer",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 219673,
+      "name": "Seth Dylan Grant",
+      "short": "Grant",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 219674,
+      "name": "Stephan Andreas Gailer",
+      "short": "Gailer",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 219685,
+      "name": "Leon David Horsley",
+      "short": "Horsley",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 232341,
+      "name": "Flynn Schrider",
+      "short": "Schrider",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233262,
+      "name": "Mana Barham",
+      "short": "Barham",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 233503,
+      "name": "Cruize Satiu",
+      "short": "Satiu",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100049,
+      "b": 100050,
+      "t": 39,
+      "f": 1987,
+      "l": 1997
+    },
+    {
+      "a": 100050,
+      "b": 101721,
+      "t": 6,
+      "f": 1997,
+      "l": 1998
+    },
+    {
+      "a": 100718,
+      "b": 100719,
+      "t": 8,
+      "f": 1994,
+      "l": 1995
+    },
+    {
+      "a": 100718,
+      "b": 101411,
+      "t": 45,
+      "f": 1996,
+      "l": 2000
+    },
+    {
+      "a": 101306,
+      "b": 101309,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 101308,
+      "b": 103588,
+      "t": 7,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 101721,
+      "b": 101876,
+      "t": 2,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 103587,
+      "b": 103588,
+      "t": 2,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103588,
+      "b": 104659,
+      "t": 128,
+      "f": 2004,
+      "l": 2013
+    },
+    {
+      "a": 104659,
+      "b": 120529,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104659,
+      "b": 132041,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 104659,
+      "b": 132543,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 104659,
+      "b": 177811,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 118100,
+      "b": 118103,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118100,
+      "b": 119154,
+      "t": 2,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 118100,
+      "b": 120167,
+      "t": 2,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118100,
+      "b": 120529,
+      "t": 25,
+      "f": 2014,
+      "l": 2025
+    },
+    {
+      "a": 118100,
+      "b": 135512,
+      "t": 4,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 118100,
+      "b": 187305,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 118103,
+      "b": 118544,
+      "t": 2,
+      "f": 2010,
+      "l": 2011
+    },
+    {
+      "a": 118103,
+      "b": 120529,
+      "t": 4,
+      "f": 2008,
+      "l": 2011
+    },
+    {
+      "a": 118103,
+      "b": 122248,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118544,
+      "b": 118545,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118544,
+      "b": 120166,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 118544,
+      "b": 120168,
+      "t": 13,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118545,
+      "b": 120164,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 119153,
+      "b": 119154,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119153,
+      "b": 120164,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 119153,
+      "b": 120529,
+      "t": 2,
+      "f": 2008,
+      "l": 2009
+    },
+    {
+      "a": 120167,
+      "b": 120168,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120529,
+      "b": 124998,
+      "t": 12,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 120529,
+      "b": 132041,
+      "t": 38,
+      "f": 2010,
+      "l": 2026
+    },
+    {
+      "a": 120529,
+      "b": 132542,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 120529,
+      "b": 132543,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 120529,
+      "b": 135512,
+      "t": 5,
+      "f": 2018,
+      "l": 2024
+    },
+    {
+      "a": 120529,
+      "b": 135513,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 120529,
+      "b": 138958,
+      "t": 19,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 120529,
+      "b": 199000,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 124994,
+      "b": 124998,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 124995,
+      "b": 124997,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 124995,
+      "b": 132542,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 124995,
+      "b": 135513,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 124998,
+      "b": 146805,
+      "t": 3,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 132041,
+      "b": 135512,
+      "t": 4,
+      "f": 2014,
+      "l": 2023
+    },
+    {
+      "a": 132041,
+      "b": 138958,
+      "t": 18,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 132041,
+      "b": 163816,
+      "t": 20,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 132041,
+      "b": 166735,
+      "t": 5,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 132542,
+      "b": 132543,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 132542,
+      "b": 140905,
+      "t": 9,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 132543,
+      "b": 132544,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 132543,
+      "b": 135513,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 132543,
+      "b": 140905,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 132544,
+      "b": 186699,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 135512,
+      "b": 135513,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 135512,
+      "b": 141383,
+      "t": 5,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 135512,
+      "b": 141388,
+      "t": 2,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 135512,
+      "b": 160610,
+      "t": 51,
+      "f": 2017,
+      "l": 2024
+    },
+    {
+      "a": 135512,
+      "b": 166735,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 138957,
+      "b": 138958,
+      "t": 2,
+      "f": 2012,
+      "l": 2013
+    },
+    {
+      "a": 138958,
+      "b": 146805,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 138958,
+      "b": 160610,
+      "t": 18,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 138958,
+      "b": 163816,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 138959,
+      "b": 138960,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 146003,
+      "b": 146005,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146805,
+      "b": 146806,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146805,
+      "b": 155803,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146805,
+      "b": 166737,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 146805,
+      "b": 178418,
+      "t": 2,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 154670,
+      "b": 161083,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 155026,
+      "b": 164399,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 155803,
+      "b": 166737,
+      "t": 2,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 155803,
+      "b": 177656,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 155803,
+      "b": 199000,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 160610,
+      "b": 166735,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 161083,
+      "b": 162167,
+      "t": 7,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 161083,
+      "b": 166735,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 161083,
+      "b": 173888,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 161083,
+      "b": 177811,
+      "t": 12,
+      "f": 2022,
+      "l": 2026
+    },
+    {
+      "a": 162167,
+      "b": 166551,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 162167,
+      "b": 166735,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 162167,
+      "b": 173888,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 163816,
+      "b": 166735,
+      "t": 19,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 164398,
+      "b": 166551,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 166550,
+      "b": 166735,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 166550,
+      "b": 177656,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 166551,
+      "b": 166735,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 166551,
+      "b": 178418,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 166551,
+      "b": 199000,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 166551,
+      "b": 199597,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 166681,
+      "b": 177811,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 166681,
+      "b": 209062,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 166735,
+      "b": 166737,
+      "t": 3,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 166737,
+      "b": 178418,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 166737,
+      "b": 180606,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 166737,
+      "b": 186698,
+      "t": 8,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 166737,
+      "b": 208877,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 173888,
+      "b": 186698,
+      "t": 5,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 177656,
+      "b": 208875,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 177813,
+      "b": 178418,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 180606,
+      "b": 187305,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 180606,
+      "b": 199359,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 186698,
+      "b": 187397,
+      "t": 8,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 186698,
+      "b": 199000,
+      "t": 6,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 186698,
+      "b": 199029,
+      "t": 8,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 186698,
+      "b": 199358,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 186699,
+      "b": 219674,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 186699,
+      "b": 219685,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 199000,
+      "b": 199361,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 199000,
+      "b": 219673,
+      "t": 3,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 199356,
+      "b": 199357,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 199358,
+      "b": 199359,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 199358,
+      "b": 208877,
+      "t": 4,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 199358,
+      "b": 219673,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 199362,
+      "b": 199363,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 199597,
+      "b": 208877,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 208868,
+      "b": 208870,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 208868,
+      "b": 208875,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 208870,
+      "b": 208875,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 208873,
+      "b": 219674,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 219685,
+      "b": 232341,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 233262,
+      "b": 233503,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

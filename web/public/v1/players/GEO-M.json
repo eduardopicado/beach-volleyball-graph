@@ -1,0 +1,41 @@
+{
+  "country": "GEO",
+  "gender": "M",
+  "players": [
+    {
+      "id": 103435,
+      "name": "Sulkhani Akhvlediani",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103436,
+      "name": "Vakhtang Chikovani",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115557,
+      "name": "Soso Lobzhanidze",
+      "dob": "1983-04-28",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 117860,
+      "name": "Renato Gomes",
+      "dob": "1981-01-20",
+      "height": 204,
+      "weight": 92
+    },
+    {
+      "id": 117861,
+      "name": "Jorge Terceiro",
+      "dob": "1976-07-19",
+      "height": 191,
+      "weight": 80
+    }
+  ]
+}

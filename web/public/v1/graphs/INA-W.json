@@ -1,0 +1,822 @@
+{
+  "country": "INA",
+  "countryName": "Indonesia",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100511,
+      "name": "Yayah Rodiah",
+      "short": "Yayah",
+      "tournaments": 6,
+      "first": 1994,
+      "last": 2003
+    },
+    {
+      "id": 100512,
+      "name": "T. Wahyuni",
+      "short": "Wahyuni",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 100633,
+      "name": "Engel Berta \"Eta\" Kaize",
+      "short": "Eta",
+      "tournaments": 25,
+      "first": 1994,
+      "last": 2005
+    },
+    {
+      "id": 100634,
+      "name": "Ni Putu Timy Yudhani Rahayu",
+      "short": "Timy",
+      "tournaments": 35,
+      "first": 1994,
+      "last": 2007
+    },
+    {
+      "id": 101011,
+      "name": "Agustina  \"Agustin\" Sineri",
+      "short": "Agustin",
+      "tournaments": 5,
+      "first": 1995,
+      "last": 2003
+    },
+    {
+      "id": 101012,
+      "name": "Siti Sri  \"Afah\" Khunafah",
+      "short": "Afah",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 101013,
+      "name": "Siti \"Nung\" Nurjanah",
+      "short": "Nurjanah",
+      "tournaments": 10,
+      "first": 1995,
+      "last": 2005
+    },
+    {
+      "id": 101014,
+      "name": "Yohana Elisabeth \"Libeth\" Marawali",
+      "short": "Marawali",
+      "tournaments": 3,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 101015,
+      "name": "Trisiwi \"Sulis\" Susilowati",
+      "short": "Sulilowati",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 2003
+    },
+    {
+      "id": 101658,
+      "name": "Darmi Sudarmi",
+      "short": "Sudarmi",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101659,
+      "name": "Yuli Astutik",
+      "short": "Yuli",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101660,
+      "name": "Erlina \"Eeng\" Veronica Ratih",
+      "short": "Veronica",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101661,
+      "name": "Sandrina Like Kaliey",
+      "short": "San",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101662,
+      "name": "Emliati Nengsih",
+      "short": "Emliati",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101663,
+      "name": "Hertin \"Titien\" Soewandi",
+      "short": "Soewandi",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101664,
+      "name": "Beatrix \"Betty\" Renyaan",
+      "short": "Renyaan",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101665,
+      "name": "Fransina \"Sien\" Une Putty",
+      "short": "Une Putty",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 102362,
+      "name": "Risma Siswardini",
+      "short": "Risma",
+      "tournaments": 5,
+      "first": 1998,
+      "last": 2003
+    },
+    {
+      "id": 103798,
+      "name": "Emerisa Trian Arisanti",
+      "short": "Arisanti",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104525,
+      "name": "Ninik Nuraida",
+      "short": "Nuraida",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104526,
+      "name": "Minarni Minarni",
+      "short": "Minarni",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104557,
+      "name": "Nemah Nemati",
+      "short": "Nemati",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104558,
+      "name": "Reni Yusriani",
+      "short": "Yusriani",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104559,
+      "name": "Emliati Ninesim",
+      "short": "Ninesim",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104560,
+      "name": "Hanida Burhkina",
+      "short": "Burhkina",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104562,
+      "name": "Neli Gm Fangidae",
+      "short": "Fangidae",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104563,
+      "name": "Herlina Linda",
+      "short": "Linda",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104564,
+      "name": "Iim Mukhodimah",
+      "short": "Muka-dimah",
+      "tournaments": 3,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104565,
+      "name": "Gina Indri Andriana",
+      "short": "Andriana",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2005
+    },
+    {
+      "id": 104566,
+      "name": "Susan Stevia",
+      "short": "Stevia",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104569,
+      "name": "Eva Artaningsih Komang",
+      "short": "Komang",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104570,
+      "name": "Parwati Niluh",
+      "short": "Niluh",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104571,
+      "name": "Bali Nursiyah",
+      "short": "Nursiyah",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104572,
+      "name": "Ngardi Ni Nyoman",
+      "short": "Ni Nyoman",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 105169,
+      "name": "Devota Saveriana Rahawarin",
+      "short": "Rahawarin",
+      "tournaments": 6,
+      "first": 2005,
+      "last": 2009
+    },
+    {
+      "id": 117511,
+      "name": "Ike Prasetya",
+      "short": "Ike",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117532,
+      "name": "Henny Diliana",
+      "short": "Diliana",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 118645,
+      "name": "Yokbeth Kapasiang",
+      "short": "Yokbeth",
+      "tournaments": 4,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 118646,
+      "name": "Ayu Siam",
+      "short": "Ayu",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 125620,
+      "name": "Fitri Wijayanti",
+      "short": "Fitri",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125621,
+      "name": "Riris Irawati",
+      "short": "Riris",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125622,
+      "name": "Eva Sri Susilowati",
+      "short": "Eva",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 135433,
+      "name": "Dhita Juliana",
+      "short": "Dhita",
+      "tournaments": 13,
+      "first": 2017,
+      "last": 2023
+    },
+    {
+      "id": 135473,
+      "name": "Putu Utami",
+      "short": "Putu",
+      "tournaments": 11,
+      "first": 2017,
+      "last": 2022
+    },
+    {
+      "id": 143023,
+      "name": "Maria Dwiningtyas",
+      "short": "Maria",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 143024,
+      "name": "Nanda Ragillia",
+      "short": "Nanda",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148598,
+      "name": "Riski Dwi Andriani",
+      "short": "Dwi Andriani",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 150503,
+      "name": "Yokebed Eka",
+      "short": "Yokebed",
+      "tournaments": 6,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 154422,
+      "name": "Desi Ratnasari",
+      "short": "Desi",
+      "tournaments": 9,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 154804,
+      "name": "Martha Cisilia Rahawarin",
+      "short": "Martha",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161335,
+      "name": "Vitria Rahayu",
+      "short": "Vitria",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 161549,
+      "name": "Nur Sari",
+      "short": "Nur Atika",
+      "tournaments": 5,
+      "first": 2017,
+      "last": 2024
+    },
+    {
+      "id": 167236,
+      "name": "Ragil Ningtyas",
+      "short": "Ragil",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 170251,
+      "name": "SARI HARTATI",
+      "short": "SARI",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2022
+    },
+    {
+      "id": 172054,
+      "name": "Della Novitasari",
+      "short": "Della",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 200585,
+      "name": "Bernadetta Shella Herdanti",
+      "short": "Bernadetta Shella",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210048,
+      "name": "Josephine Selvina Anasthasya Kaize",
+      "short": "Josephine",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 100511,
+      "b": 100512,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100511,
+      "b": 101011,
+      "t": 2,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 100511,
+      "b": 101013,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100511,
+      "b": 101014,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100511,
+      "b": 102362,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 100633,
+      "b": 100634,
+      "t": 22,
+      "f": 1994,
+      "l": 2002
+    },
+    {
+      "a": 100633,
+      "b": 101011,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 100633,
+      "b": 102362,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 100633,
+      "b": 104525,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 100634,
+      "b": 101013,
+      "t": 7,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 100634,
+      "b": 102362,
+      "t": 2,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 100634,
+      "b": 105169,
+      "t": 4,
+      "f": 2005,
+      "l": 2007
+    },
+    {
+      "a": 101011,
+      "b": 101012,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101011,
+      "b": 101658,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101012,
+      "b": 101663,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101013,
+      "b": 101014,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101013,
+      "b": 104564,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 101014,
+      "b": 101015,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101015,
+      "b": 104562,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 101659,
+      "b": 101660,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101661,
+      "b": 101662,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101664,
+      "b": 101665,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 102362,
+      "b": 103798,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104525,
+      "b": 104526,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104526,
+      "b": 104565,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104557,
+      "b": 104558,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104559,
+      "b": 104560,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104562,
+      "b": 117532,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104563,
+      "b": 104564,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104564,
+      "b": 117511,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 104565,
+      "b": 104566,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104569,
+      "b": 104570,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104571,
+      "b": 104572,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 105169,
+      "b": 118645,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 105169,
+      "b": 118646,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 118645,
+      "b": 118646,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118645,
+      "b": 125622,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125620,
+      "b": 125621,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 135433,
+      "b": 135473,
+      "t": 11,
+      "f": 2017,
+      "l": 2022
+    },
+    {
+      "a": 135433,
+      "b": 150503,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 135433,
+      "b": 154422,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 143023,
+      "b": 161335,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 143024,
+      "b": 148598,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 150503,
+      "b": 154422,
+      "t": 5,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 150503,
+      "b": 161549,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 154422,
+      "b": 161549,
+      "t": 3,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 154804,
+      "b": 161549,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161335,
+      "b": 167236,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 161549,
+      "b": 170251,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 170251,
+      "b": 172054,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 200585,
+      "b": 210048,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

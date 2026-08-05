@@ -1,0 +1,48 @@
+{
+  "country": "SRI",
+  "gender": "M",
+  "players": [
+    {
+      "id": 120781,
+      "name": "Mahesh Perera",
+      "dob": "1979-06-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120788,
+      "name": "Dinesh Fernando",
+      "dob": "1979-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120790,
+      "name": "Sampath Peris",
+      "dob": "1976-05-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120791,
+      "name": "Wasantha Rathnapala",
+      "dob": "1982-08-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146141,
+      "name": "Isuru Madushan Siddihaluge",
+      "dob": "1997-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146142,
+      "name": "Thantrige Perera Mallawa",
+      "dob": "1997-01-01",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

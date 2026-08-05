@@ -1,0 +1,161 @@
+{
+  "country": "NIG",
+  "countryName": "Niger",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 139036,
+      "name": "Taleb Ibrahim Boubacar",
+      "short": "Ibrahim Boubacar",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139037,
+      "name": "Sanoussi Assoumane",
+      "short": "Assoumane",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139041,
+      "name": "Aboubakar Issoufou",
+      "short": "Issoufou",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 139042,
+      "name": "Abdoul Madjid Adamou Zibo",
+      "short": "Adamou Zibo",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141617,
+      "name": "Bawa Chaïbou Ibrahim",
+      "short": "Ibrahim",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 141677,
+      "name": "Ibrahim Dan Baro Abdoul Nasser",
+      "short": "Abdoul Nasser",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 145934,
+      "name": "Oumarou Alloh Moctar",
+      "short": "Moctar",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 146518,
+      "name": "Youssoufou Adamou Incha",
+      "short": "Adamou Incha",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 156303,
+      "name": "Moussa Idrissa",
+      "short": "Idrissa",
+      "tournaments": 4,
+      "first": 2016,
+      "last": 2025
+    },
+    {
+      "id": 169607,
+      "name": "Boureima Moubarak",
+      "short": "Moubarak",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2025
+    },
+    {
+      "id": 172987,
+      "name": "Bassirou Seini Ali",
+      "short": "Seini Ali",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 181259,
+      "name": "Adamou Incha Abdoul Malik",
+      "short": "Incha A.M.",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 139036,
+      "b": 139037,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139041,
+      "b": 139042,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 141617,
+      "b": 141677,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 145934,
+      "b": 156303,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 146518,
+      "b": 156303,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 156303,
+      "b": 169607,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 156303,
+      "b": 181259,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 169607,
+      "b": 172987,
+      "t": 2,
+      "f": 2021,
+      "l": 2025
+    }
+  ]
+}

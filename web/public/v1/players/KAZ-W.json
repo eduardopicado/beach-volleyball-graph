@@ -1,0 +1,356 @@
+{
+  "country": "KAZ",
+  "gender": "W",
+  "players": [
+    {
+      "id": 104365,
+      "name": "Svetlana Savchenko",
+      "dob": "1985-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104366,
+      "name": "Tatyana Mashkova",
+      "dob": "1988-03-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104672,
+      "name": "Yelena Alenkina",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104673,
+      "name": "Oxana Kim",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104678,
+      "name": "Olessya Ignatchik",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116579,
+      "name": "Irina Penkina",
+      "dob": "1980-07-21",
+      "height": 183,
+      "weight": 74
+    },
+    {
+      "id": 116581,
+      "name": "Olga Dyachenko",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117974,
+      "name": "Anastassiya Samoilenko",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117975,
+      "name": "Alexandra Turichsheva",
+      "dob": "1989-01-06",
+      "height": 185,
+      "weight": 66
+    },
+    {
+      "id": 118008,
+      "name": "Ekaterina Efina",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118546,
+      "name": "Kvadritsius Yana",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118549,
+      "name": "Kokhan Iryna",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118550,
+      "name": "Ryukhova Anastassiya",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118551,
+      "name": "Amirova Sabina",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118552,
+      "name": "Pilipenko Marina",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119186,
+      "name": "Bakhtygul Samalikova",
+      "dob": "1993-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120466,
+      "name": "Lyubov Bogatu",
+      "dob": "1993-02-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120467,
+      "name": "Alina Pugacheva",
+      "dob": "1993-05-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120635,
+      "name": "Irina Tsimbalova",
+      "dob": "1987-08-09",
+      "height": 181,
+      "weight": 71
+    },
+    {
+      "id": 122474,
+      "name": "Oxana Pilipenko",
+      "dob": "1995-08-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122475,
+      "name": "Alexandra Varassova",
+      "dob": "1994-06-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123710,
+      "name": "Marina Storozhenko",
+      "dob": "1985-06-06",
+      "height": 175,
+      "weight": 57
+    },
+    {
+      "id": 132144,
+      "name": "Anna Yeleferenko",
+      "dob": "1995-10-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132145,
+      "name": "Tatyana Shabalina",
+      "dob": "1995-07-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132164,
+      "name": "Inna Yakovleva",
+      "dob": "1988-03-04",
+      "height": 177,
+      "weight": 65
+    },
+    {
+      "id": 135458,
+      "name": "Radmila Beresneva",
+      "dob": "1983-06-06",
+      "height": 185,
+      "weight": 70
+    },
+    {
+      "id": 138615,
+      "name": "Anastassiya Tuktareva",
+      "dob": "1996-06-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138616,
+      "name": "Yekaterina Lassyuta",
+      "dob": "1997-07-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142102,
+      "name": "Anna Pimenova",
+      "dob": "1997-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143351,
+      "name": "Lyudmila Issayeva",
+      "dob": "1989-09-26",
+      "height": 184,
+      "weight": 70
+    },
+    {
+      "id": 150274,
+      "name": "Dana Rubilko",
+      "dob": "2001-05-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155610,
+      "name": "Tatyana Nikitina",
+      "dob": "2001-01-15",
+      "height": 185,
+      "weight": 73
+    },
+    {
+      "id": 155612,
+      "name": "Akerke Shaken",
+      "dob": "2000-03-06",
+      "height": null,
+      "weight": 170
+    },
+    {
+      "id": 155613,
+      "name": "Yelizaveta Yeropkina",
+      "dob": "2000-05-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155614,
+      "name": "Alina Rachenko",
+      "dob": "2000-10-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155616,
+      "name": "Kristina Zhuk",
+      "dob": "2000-03-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155926,
+      "name": "Anastassiya Ukolova",
+      "dob": "2002-03-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155933,
+      "name": "Alyona Chugainova",
+      "dob": "2001-08-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160896,
+      "name": "Dana Shingissova",
+      "dob": "2002-09-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178262,
+      "name": "Yuliya Khristolyubova",
+      "dob": "2004-02-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181493,
+      "name": "Nadezhda Ivanchenko",
+      "dob": "2005-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181494,
+      "name": "Laura Kabulbekova",
+      "dob": "2004-04-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192331,
+      "name": "Dana Tlevlessova",
+      "dob": "2007-02-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192332,
+      "name": "Dariya Tlevlessova",
+      "dob": "2007-02-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 205204,
+      "name": "Mariya Peressetskaya",
+      "dob": "2007-10-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210207,
+      "name": "Gayana Galash",
+      "dob": "2009-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 210210,
+      "name": "Yekaterina Ryukhova",
+      "dob": "2008-11-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 212766,
+      "name": "Kristina Karimova",
+      "dob": "2006-08-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 227191,
+      "name": "Merey Kozhakhmet",
+      "dob": "2009-11-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 233477,
+      "name": "Taissiya Kurdyumova",
+      "dob": "2007-10-05",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

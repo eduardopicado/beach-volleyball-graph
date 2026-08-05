@@ -1,0 +1,131 @@
+{
+  "country": "DOM",
+  "countryName": "Dominican Republic",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 117121,
+      "name": "Bethania Almanzar",
+      "short": "Almanzar",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 123981,
+      "name": "Nairobi Agramonte Matos",
+      "short": "Agramonte",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 131953,
+      "name": "Diana Josefina Peguero Moreno",
+      "short": "Peguero",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 131955,
+      "name": "Deborah Angelica Constanzo",
+      "short": "Constanzo",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146603,
+      "name": "Rochelly Carolina Parra Hiraldo",
+      "short": "Parra",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 165255,
+      "name": "Julibeth Payano Veras",
+      "short": "Payano",
+      "tournaments": 3,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 182042,
+      "name": "Jeneiry Wismery Rosario Hernandez",
+      "short": "Rosario",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 195290,
+      "name": "Crismil Paniagua Hinojosa",
+      "short": "Paniagua",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 215887,
+      "name": "Zoe Paniagua Portorreal",
+      "short": "Zoe",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 238333,
+      "name": "Yerelin Carlenis Reyes Montero",
+      "short": "Reyes",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 117121,
+      "b": 165255,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 123981,
+      "b": 131953,
+      "t": 2,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 131955,
+      "b": 146603,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 165255,
+      "b": 182042,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 165255,
+      "b": 195290,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 215887,
+      "b": 238333,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "country": "AHO",
+  "countryName": "Curaçao",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 138445,
+      "name": "Christine Anthony",
+      "short": "Anthony",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 170066,
+      "name": "Angjeny Tolentino",
+      "short": "Tolentino",
+      "tournaments": 22,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 175342,
+      "name": "Leandra Savonije",
+      "short": "Savonije",
+      "tournaments": 19,
+      "first": 2021,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 138445,
+      "b": 170066,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 170066,
+      "b": 175342,
+      "t": 19,
+      "f": 2021,
+      "l": 2021
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "country": "SEN",
+  "countryName": "Senegal",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 139566,
+      "name": "Moustapha Diop",
+      "short": "Diop",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139567,
+      "name": "E. Malick S. Ndiaye Mame",
+      "short": "Ndiaye Mame",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    }
+  ],
+  "edges": [
+    {
+      "a": 139566,
+      "b": 139567,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    }
+  ]
+}

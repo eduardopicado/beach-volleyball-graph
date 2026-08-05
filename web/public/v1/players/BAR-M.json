@@ -1,0 +1,20 @@
+{
+  "country": "BAR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 211319,
+      "name": "Cael Greenidge",
+      "dob": "2009-08-06",
+      "height": 176,
+      "weight": 52
+    },
+    {
+      "id": 224685,
+      "name": "Joshua Ashby",
+      "dob": "2011-01-25",
+      "height": 179,
+      "weight": 65
+    }
+  ]
+}

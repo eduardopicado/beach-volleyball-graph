@@ -1,0 +1,40 @@
+{
+  "country": "LUX",
+  "countryName": "Luxembourg",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 117023,
+      "name": "Norma Zambon",
+      "short": "Zambon",
+      "tournaments": 14,
+      "first": 2005,
+      "last": 2008
+    },
+    {
+      "id": 117024,
+      "name": "Jeanne Schneider",
+      "short": "Schneider",
+      "tournaments": 14,
+      "first": 2005,
+      "last": 2008
+    },
+    {
+      "id": 120747,
+      "name": "Marie Reiterova",
+      "short": "Reiterova",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    }
+  ],
+  "edges": [
+    {
+      "a": 117023,
+      "b": 117024,
+      "t": 14,
+      "f": 2005,
+      "l": 2008
+    }
+  ]
+}

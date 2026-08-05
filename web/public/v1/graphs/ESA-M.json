@@ -1,0 +1,169 @@
+{
+  "country": "ESA",
+  "countryName": "El Salvador",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 102553,
+      "name": "Rafael Francisco \"Tribilin\" Vargas Coreas",
+      "short": "Vargas",
+      "tournaments": 12,
+      "first": 1999,
+      "last": 2005
+    },
+    {
+      "id": 102554,
+      "name": "Jeovanny Ademir \"Camello\" Medrano Valle",
+      "short": "Medrano",
+      "tournaments": 12,
+      "first": 1999,
+      "last": 2005
+    },
+    {
+      "id": 102908,
+      "name": "Carlos Ernesto Leiva Mata",
+      "short": "Leiva Mata",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 118427,
+      "name": "David Vargas",
+      "short": "Pepe",
+      "tournaments": 6,
+      "first": 2015,
+      "last": 2021
+    },
+    {
+      "id": 121033,
+      "name": "Ovidio Chiquito Quintanilla",
+      "short": "Quintanilla",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 138672,
+      "name": "Carlos Escobar",
+      "short": "Tato",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2019
+    },
+    {
+      "id": 139055,
+      "name": "Franklin Orlando Flores Giron",
+      "short": "Flores",
+      "tournaments": 4,
+      "first": 2020,
+      "last": 2021
+    },
+    {
+      "id": 167507,
+      "name": "Yoel Alejandro Guardado Rivas",
+      "short": "Guardado Y.",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 167508,
+      "name": "Christopher Armando Guardado Rivas",
+      "short": "Guardado C.",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 175915,
+      "name": "Andres Ignacio Gomez Lopez",
+      "short": "GOMEZ",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 176908,
+      "name": "Gabriel Baltazar Vargas Romero",
+      "short": "GABO",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 193077,
+      "name": "Rafael Alberto Vargas Landaverde",
+      "short": "RAFA",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 215179,
+      "name": "Fernando Javier Ortiz Ponce",
+      "short": "Ponce",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 102553,
+      "b": 102554,
+      "t": 12,
+      "f": 1999,
+      "l": 2005
+    },
+    {
+      "a": 102908,
+      "b": 121033,
+      "t": 2,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 118427,
+      "b": 138672,
+      "t": 2,
+      "f": 2015,
+      "l": 2019
+    },
+    {
+      "a": 118427,
+      "b": 139055,
+      "t": 4,
+      "f": 2020,
+      "l": 2021
+    },
+    {
+      "a": 167507,
+      "b": 167508,
+      "t": 2,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 175915,
+      "b": 176908,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 176908,
+      "b": 193077,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 193077,
+      "b": 215179,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

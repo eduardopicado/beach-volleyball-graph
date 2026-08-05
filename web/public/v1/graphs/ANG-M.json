@@ -1,0 +1,137 @@
+{
+  "country": "ANG",
+  "countryName": "Angola",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101297,
+      "name": "Nelson Pereira",
+      "short": "Pereira",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 101298,
+      "name": "Luis \"Pascoalito\" Manuel",
+      "short": "Manuel",
+      "tournaments": 3,
+      "first": 1995,
+      "last": 2002
+    },
+    {
+      "id": 101299,
+      "name": "Custodio Ramalho",
+      "short": "Ramalho",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 101300,
+      "name": "Emanuel Fernandes",
+      "short": "Fernandes",
+      "tournaments": 22,
+      "first": 1995,
+      "last": 2008
+    },
+    {
+      "id": 101301,
+      "name": "Mario Makili",
+      "short": "Makili",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101558,
+      "name": "Bastos Hernani",
+      "short": "Hernani",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 104191,
+      "name": "Miguel Xisto",
+      "short": "Xisto",
+      "tournaments": 21,
+      "first": 2002,
+      "last": 2004
+    },
+    {
+      "id": 104209,
+      "name": "Mario Silva",
+      "short": "Silva",
+      "tournaments": 37,
+      "first": 2003,
+      "last": 2012
+    },
+    {
+      "id": 118532,
+      "name": "Morais Abreu",
+      "short": "Abreu",
+      "tournaments": 37,
+      "first": 2007,
+      "last": 2012
+    }
+  ],
+  "edges": [
+    {
+      "a": 101297,
+      "b": 101298,
+      "t": 2,
+      "f": 1995,
+      "l": 1996
+    },
+    {
+      "a": 101298,
+      "b": 104191,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 101299,
+      "b": 101300,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101299,
+      "b": 101558,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101300,
+      "b": 101301,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101300,
+      "b": 118532,
+      "t": 20,
+      "f": 2007,
+      "l": 2008
+    },
+    {
+      "a": 104191,
+      "b": 104209,
+      "t": 20,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 104209,
+      "b": 118532,
+      "t": 17,
+      "f": 2008,
+      "l": 2012
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "country": "NZL",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100049,
+      "name": "Glenn Hamilton",
+      "dob": "1966-08-13",
+      "height": 192,
+      "weight": 93
+    },
+    {
+      "id": 100050,
+      "name": "Reid Hamilton",
+      "dob": "1969-04-03",
+      "height": 185,
+      "weight": 82
+    },
+    {
+      "id": 100718,
+      "name": "Craig John Seuseu",
+      "dob": "1971-09-23",
+      "height": 188,
+      "weight": 90
+    },
+    {
+      "id": 100719,
+      "name": "Owen \"Big O\" Ranfurly",
+      "dob": "1967-09-26",
+      "height": 195,
+      "weight": 93
+    },
+    {
+      "id": 101306,
+      "name": "Michael Akkerman",
+      "dob": "1967-05-23",
+      "height": 190,
+      "weight": 88
+    },
+    {
+      "id": 101308,
+      "name": "Hayden Jones",
+      "dob": "1974-11-14",
+      "height": 197,
+      "weight": null
+    },
+    {
+      "id": 101309,
+      "name": "Michael Craig \"Wal\" Waller",
+      "dob": "1967-03-21",
+      "height": 199,
+      "weight": 87
+    },
+    {
+      "id": 101411,
+      "name": "Thomas Eade",
+      "dob": "1970-09-20",
+      "height": 194,
+      "weight": 90
+    },
+    {
+      "id": 101721,
+      "name": "Mark Hendrikus Termeer",
+      "dob": "1964-11-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101876,
+      "name": "Hugh McCutcheon",
+      "dob": "1969-10-13",
+      "height": 196,
+      "weight": 100
+    },
+    {
+      "id": 103587,
+      "name": "Jared Wilson",
+      "dob": "1981-07-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103588,
+      "name": "Kirk Pitman",
+      "dob": "1981-12-13",
+      "height": 192,
+      "weight": 85
+    },
+    {
+      "id": 104659,
+      "name": "Jason Lochhead",
+      "dob": "1984-03-12",
+      "height": 178,
+      "weight": 75
+    },
+    {
+      "id": 118100,
+      "name": "Michael Watson",
+      "dob": "1989-02-05",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 118103,
+      "name": "Edwin O'Dea",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118544,
+      "name": "Brendon Heath",
+      "dob": "1978-11-13",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 118545,
+      "name": "Charles Leota",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119153,
+      "name": "Sam Wallace-Boyd",
+      "dob": "1990-01-24",
+      "height": 185,
+      "weight": 70
+    },
+    {
+      "id": 119154,
+      "name": "Mark Petersen",
+      "dob": "1989-02-08",
+      "height": 200,
+      "weight": 94
+    },
+    {
+      "id": 120164,
+      "name": "Damon Haenga",
+      "dob": "1985-07-19",
+      "height": 192,
+      "weight": 88
+    },
+    {
+      "id": 120166,
+      "name": "Michael Peters",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120167,
+      "name": "Russell Watson",
+      "dob": "1983-06-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120168,
+      "name": "Greg Lindsay",
+      "dob": null,
+      "height": 179,
+      "weight": 94
+    },
+    {
+      "id": 120529,
+      "name": "Sam O'Dea",
+      "dob": "1990-11-24",
+      "height": 198,
+      "weight": 97
+    },
+    {
+      "id": 122248,
+      "name": "Sam Tuivai",
+      "dob": "1989-10-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124994,
+      "name": "Ryan Grubb",
+      "dob": "1991-04-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124995,
+      "name": "Paora Morunga",
+      "dob": "1992-08-28",
+      "height": 195,
+      "weight": 115
+    },
+    {
+      "id": 124997,
+      "name": "Liam Munday",
+      "dob": "1991-09-05",
+      "height": 192,
+      "weight": 80
+    },
+    {
+      "id": 124998,
+      "name": "Johann Timmer",
+      "dob": "1991-10-25",
+      "height": 198,
+      "weight": 103
+    },
+    {
+      "id": 132041,
+      "name": "Ben O'Dea",
+      "dob": "1992-05-06",
+      "height": 196,
+      "weight": 97
+    },
+    {
+      "id": 132542,
+      "name": "Morgan Seymour",
+      "dob": "1993-04-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132543,
+      "name": "Sonny Hirini",
+      "dob": "1994-02-14",
+      "height": null,
+      "weight": 94
+    },
+    {
+      "id": 132544,
+      "name": "Tyler Hamlin",
+      "dob": "1992-10-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135512,
+      "name": "Thomas Hartles",
+      "dob": "1993-10-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135513,
+      "name": "Griffin Muller",
+      "dob": "1993-09-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138957,
+      "name": "Liam Matheson",
+      "dob": "1995-05-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138958,
+      "name": "Bradley Fuller",
+      "dob": "1995-10-13",
+      "height": 191,
+      "weight": null
+    },
+    {
+      "id": 138959,
+      "name": "Daryl Lewis",
+      "dob": "1995-06-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138960,
+      "name": "James Gilling",
+      "dob": "1994-10-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 140905,
+      "name": "Rene Kapa",
+      "dob": "1992-10-19",
+      "height": 199,
+      "weight": 105
+    },
+    {
+      "id": 141383,
+      "name": "Thomas Heijs",
+      "dob": "1994-09-16",
+      "height": 195,
+      "weight": 84
+    },
+    {
+      "id": 141388,
+      "name": "Jesse Hawkins",
+      "dob": "1993-11-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146003,
+      "name": "Nate Moore",
+      "dob": "1996-05-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146005,
+      "name": "Kahurangi Robinson",
+      "dob": "1997-07-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146805,
+      "name": "Gregory David Vukets",
+      "dob": "1999-01-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146806,
+      "name": "Sean Hone",
+      "dob": "1998-02-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154670,
+      "name": "Manaia Harris",
+      "dob": "1994-08-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155026,
+      "name": "Ryan Gunn",
+      "dob": "2000-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155803,
+      "name": "Daniel Kilpatrick",
+      "dob": "1998-12-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160610,
+      "name": "Alani Nicklin",
+      "dob": "1995-08-01",
+      "height": 189,
+      "weight": 86
+    },
+    {
+      "id": 161083,
+      "name": "Giles Black",
+      "dob": "1995-11-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162167,
+      "name": "Joshua Tiplady",
+      "dob": "2000-11-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 163816,
+      "name": "Thomas Reid",
+      "dob": "1996-03-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164398,
+      "name": "Tyran John Gillespie",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164399,
+      "name": "Keegan Maan Tai Joe",
+      "dob": "2001-06-27",
+      "height": 176,
+      "weight": 64
+    },
+    {
+      "id": 166550,
+      "name": "David Jeffrey",
+      "dob": "2000-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166551,
+      "name": "Perry Preston",
+      "dob": "1997-09-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166681,
+      "name": "Matthew Polley",
+      "dob": "1995-06-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166735,
+      "name": "John McManaway",
+      "dob": "2001-08-13",
+      "height": 194,
+      "weight": 85
+    },
+    {
+      "id": 166737,
+      "name": "James Sadlier",
+      "dob": "2003-03-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173888,
+      "name": "Eric Dean Stratton",
+      "dob": "2000-11-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 177656,
+      "name": "Matthew Kilpatrick",
+      "dob": "1994-07-22",
+      "height": 189,
+      "weight": null
+    },
+    {
+      "id": 177811,
+      "name": "Trent Webby",
+      "dob": "1993-06-01",
+      "height": 191,
+      "weight": 90
+    },
+    {
+      "id": 177813,
+      "name": "Jarod Inia",
+      "dob": "2003-09-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178418,
+      "name": "Campbell Forsyth",
+      "dob": "2003-10-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180606,
+      "name": "Kyle Alan Smith",
+      "dob": "2004-01-31",
+      "height": 185,
+      "weight": 85
+    },
+    {
+      "id": 186698,
+      "name": "Juraj Krajci",
+      "dob": "2005-05-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 186699,
+      "name": "Joshua Clarke",
+      "dob": "2002-05-12",
+      "height": 178,
+      "weight": 73
+    },
+    {
+      "id": 187305,
+      "name": "Charlie Dalton",
+      "dob": "2004-11-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187397,
+      "name": "Ryan Jefferson",
+      "dob": "2005-05-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187666,
+      "name": "Jeremy Nielsen",
+      "dob": "1994-01-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187844,
+      "name": "Henry Li",
+      "dob": "1993-06-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 199000,
+      "name": "Michael Tyler",
+      "dob": "2005-11-18",
+      "height": 183,
+      "weight": 83
+    },
+    {
+      "id": 199029,
+      "name": "Calum Stewart",
+      "dob": "2006-01-27",
+      "height": 200,
+      "weight": 87
+    },
+    {
+      "id": 199356,
+      "name": "Sean Thurlow",
+      "dob": "1983-10-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 199357,
+      "name": "Anton Teptsov",
+      "dob": "1983-10-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 199358,
+      "name": "Noah Smith",
+      "dob": "2005-03-31",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 199359,
+      "name": "Finn Howard",
+      "dob": "2004-05-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 199361,
+      "name": "Mateo Roa",
+      "dob": "2005-10-26",
+      "height": 189,
+      "weight": 81
+    },
+    {
+      "id": 199362,
+      "name": "Nathan Davies",
+      "dob": "2007-01-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 199363,
+      "name": "Ben Blakemore",
+      "dob": "2004-06-09",
+      "height": 184,
+      "weight": 77
+    },
+    {
+      "id": 199597,
+      "name": "Jamie Julian",
+      "dob": "2005-11-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208868,
+      "name": "Liam Chris Smith",
+      "dob": "2007-08-20",
+      "height": 184,
+      "weight": 89
+    },
+    {
+      "id": 208870,
+      "name": "Thomas Peter Vesty",
+      "dob": "2006-12-24",
+      "height": 193,
+      "weight": 85
+    },
+    {
+      "id": 208873,
+      "name": "Jay Huggins",
+      "dob": "2003-11-17",
+      "height": 186,
+      "weight": 80
+    },
+    {
+      "id": 208875,
+      "name": "Davi Pacheco",
+      "dob": "2006-09-22",
+      "height": 186,
+      "weight": 74
+    },
+    {
+      "id": 208877,
+      "name": "Lucas Heggie",
+      "dob": "2006-02-12",
+      "height": 188,
+      "weight": 86
+    },
+    {
+      "id": 209062,
+      "name": "Isaac Brouwer",
+      "dob": "1993-12-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 219673,
+      "name": "Seth Dylan Grant",
+      "dob": "2001-10-15",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 219674,
+      "name": "Stephan Andreas Gailer",
+      "dob": "1995-04-11",
+      "height": 198,
+      "weight": 87
+    },
+    {
+      "id": 219685,
+      "name": "Leon David Horsley",
+      "dob": "1992-11-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 232341,
+      "name": "Flynn Schrider",
+      "dob": "2006-05-28",
+      "height": 194,
+      "weight": 88
+    },
+    {
+      "id": 233262,
+      "name": "Mana Barham",
+      "dob": "2009-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 233503,
+      "name": "Cruize Satiu",
+      "dob": "2009-10-18",
+      "height": 190,
+      "weight": 84
+    }
+  ]
+}

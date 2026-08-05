@@ -1,0 +1,132 @@
+{
+  "country": "BOL",
+  "gender": "W",
+  "players": [
+    {
+      "id": 100609,
+      "name": "Cynthia \"Fabiola\" Martinez",
+      "dob": "1970-02-24",
+      "height": 163,
+      "weight": 60
+    },
+    {
+      "id": 100610,
+      "name": "Jacqueline \"Silvia\" Jimenez",
+      "dob": "1974-08-23",
+      "height": 166,
+      "weight": 55
+    },
+    {
+      "id": 102502,
+      "name": "Jessica Martinez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117564,
+      "name": "Faviola Flores Tapia",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117565,
+      "name": "Claudia Pavisic Antezana",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142964,
+      "name": "Carla Valda",
+      "dob": "1994-05-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146073,
+      "name": "Fernanda Maida Eterovic",
+      "dob": "1998-05-18",
+      "height": 183,
+      "weight": 80
+    },
+    {
+      "id": 146759,
+      "name": "Melanie Vargas González",
+      "dob": "1999-06-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161858,
+      "name": "Maria Fernanda Canedo",
+      "dob": "2000-09-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161859,
+      "name": "Nicole Alessandra Nogales",
+      "dob": "2001-03-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167780,
+      "name": "Maria Isabel Chacon Espinoza",
+      "dob": "2003-05-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171270,
+      "name": "Nicole Tovar",
+      "dob": "2001-08-17",
+      "height": 176,
+      "weight": 67
+    },
+    {
+      "id": 171271,
+      "name": "Dayra Toranzos",
+      "dob": "2001-10-04",
+      "height": 177,
+      "weight": 55
+    },
+    {
+      "id": 178506,
+      "name": "Maria Jose Galindo Quiroga",
+      "dob": "2003-01-06",
+      "height": 178,
+      "weight": 64
+    },
+    {
+      "id": 182756,
+      "name": "Romina Martínez Castro",
+      "dob": "2004-04-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184864,
+      "name": "Mariel Torres",
+      "dob": "1992-02-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188479,
+      "name": "Jeisy Velasquez",
+      "dob": "2006-01-26",
+      "height": 165,
+      "weight": 70
+    },
+    {
+      "id": 195357,
+      "name": "Maria Belen Peredo Mayorga",
+      "dob": "2005-12-25",
+      "height": 165,
+      "weight": 70
+    }
+  ]
+}

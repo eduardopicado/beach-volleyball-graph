@@ -1,0 +1,70 @@
+{
+  "country": "GEO",
+  "countryName": "Georgia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 103435,
+      "name": "Sulkhani Akhvlediani",
+      "short": "Akhvlediani",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103436,
+      "name": "Vakhtang Chikovani",
+      "short": "Chikovani",
+      "tournaments": 10,
+      "first": 2001,
+      "last": 2005
+    },
+    {
+      "id": 115557,
+      "name": "Soso Lobzhanidze",
+      "short": "Lobzhanidze",
+      "tournaments": 9,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117860,
+      "name": "Renato Gomes",
+      "short": "Geor",
+      "tournaments": 113,
+      "first": 2006,
+      "last": 2012
+    },
+    {
+      "id": 117861,
+      "name": "Jorge Terceiro",
+      "short": "Gia",
+      "tournaments": 113,
+      "first": 2006,
+      "last": 2012
+    }
+  ],
+  "edges": [
+    {
+      "a": 103435,
+      "b": 103436,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103436,
+      "b": 115557,
+      "t": 9,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117860,
+      "b": 117861,
+      "t": 113,
+      "f": 2006,
+      "l": 2012
+    }
+  ]
+}

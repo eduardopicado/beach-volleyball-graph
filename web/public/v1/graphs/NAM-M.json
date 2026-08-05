@@ -1,0 +1,177 @@
+{
+  "country": "NAM",
+  "countryName": "Namibia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101303,
+      "name": "Deon Heinrich \"Stokes\" Cloete",
+      "short": "Cloete",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101690,
+      "name": "Hannes W. Uys",
+      "short": "Uys",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101692,
+      "name": "Dean Eric \"Wimpy\" Louw",
+      "short": "Louw",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 104639,
+      "name": "Joël N. Mateus",
+      "short": "Mateus",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104640,
+      "name": "Achim F Lück",
+      "short": "Lück",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 139286,
+      "name": "Gerard Fischer",
+      "short": "Fischer",
+      "tournaments": 4,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 139288,
+      "name": "Tin Hlupic",
+      "short": "Hlupic",
+      "tournaments": 4,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 146117,
+      "name": "Jan-Eric Sack",
+      "short": "Sack",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2025
+    },
+    {
+      "id": 146118,
+      "name": "roman york Von Ludwiger",
+      "short": "Von Ludwiger",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 157094,
+      "name": "Daniel Pfeifer",
+      "short": "Pfeifer",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157095,
+      "name": "Fabian Pfeifer",
+      "short": "Pfeifer",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 188209,
+      "name": "Luca Kesselmann",
+      "short": "Kesselmann",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 188238,
+      "name": "Max Krafft",
+      "short": "Krafft",
+      "tournaments": 15,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 200273,
+      "name": "Jura Krafft",
+      "short": "Krafft",
+      "tournaments": 13,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101690,
+      "b": 101692,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 104639,
+      "b": 104640,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 139286,
+      "b": 139288,
+      "t": 4,
+      "f": 2012,
+      "l": 2014
+    },
+    {
+      "a": 146117,
+      "b": 146118,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146117,
+      "b": 188209,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 157094,
+      "b": 157095,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 188209,
+      "b": 188238,
+      "t": 2,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 188238,
+      "b": 200273,
+      "t": 13,
+      "f": 2025,
+      "l": 2026
+    }
+  ]
+}

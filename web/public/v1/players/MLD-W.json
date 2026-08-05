@@ -1,0 +1,27 @@
+{
+  "country": "MLD",
+  "gender": "W",
+  "players": [
+    {
+      "id": 117935,
+      "name": "Ecaterina Lupu",
+      "dob": "1986-03-23",
+      "height": 172,
+      "weight": 69
+    },
+    {
+      "id": 137845,
+      "name": "Polina Voleanin",
+      "dob": "1992-09-11",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 146377,
+      "name": "Ecaterina Arabadji",
+      "dob": "1992-06-28",
+      "height": 179,
+      "weight": 62
+    }
+  ]
+}

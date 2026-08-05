@@ -1,0 +1,328 @@
+{
+  "country": "CHI",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100147,
+      "name": "Allan Jarry",
+      "dob": "1969-03-06",
+      "height": 198,
+      "weight": 102
+    },
+    {
+      "id": 100204,
+      "name": "Klaus Klaus",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100245,
+      "name": "Ricardo Vorpahl",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100422,
+      "name": "Gustavo Ohlsson",
+      "dob": "1966-05-05",
+      "height": 195,
+      "weight": 100
+    },
+    {
+      "id": 100423,
+      "name": "Rodrigo Alberto \"Yoyo\" Grimalt",
+      "dob": "1968-02-18",
+      "height": 184,
+      "weight": 84
+    },
+    {
+      "id": 101036,
+      "name": "Paul Heilig",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101063,
+      "name": "... Grimalt",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101095,
+      "name": "Patricio Patricio",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102107,
+      "name": "Fabian Espinoza",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102108,
+      "name": "Andres Ortiz",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102109,
+      "name": "Andres Iglesias",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102110,
+      "name": "Andres Cabero",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102111,
+      "name": "Cristian Alico",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102112,
+      "name": "Rodrigo De Pablo",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102113,
+      "name": "Juan Pablo Reyes",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102114,
+      "name": "Karim Eltit",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102115,
+      "name": "José Perez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102116,
+      "name": "Guillermo Gonzalez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125281,
+      "name": "Cristobal Martinez",
+      "dob": "1986-02-21",
+      "height": 196,
+      "weight": 87
+    },
+    {
+      "id": 125323,
+      "name": "Rodrigo Salinas",
+      "dob": "1991-05-06",
+      "height": 186,
+      "weight": 72
+    },
+    {
+      "id": 125328,
+      "name": "Matías Tobar",
+      "dob": "1984-04-12",
+      "height": 196,
+      "weight": 89
+    },
+    {
+      "id": 125329,
+      "name": "Marco Grimalt",
+      "dob": "1989-07-11",
+      "height": 196,
+      "weight": 95
+    },
+    {
+      "id": 134415,
+      "name": "Esteban Grimalt",
+      "dob": "1991-01-09",
+      "height": 190,
+      "weight": 95
+    },
+    {
+      "id": 135092,
+      "name": "Guillermo Ignacio Jimenez Aedo",
+      "dob": "1983-10-27",
+      "height": 188,
+      "weight": 90
+    },
+    {
+      "id": 135297,
+      "name": "Yussef Manzur Lara",
+      "dob": "1982-11-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138752,
+      "name": "Cristobal Martinez Bussenis",
+      "dob": "1986-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139788,
+      "name": "Felipe Alfredo Gómez Lopez",
+      "dob": "1992-11-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139789,
+      "name": "Roberto Gustavo Frazzoni Rotger",
+      "dob": "1992-09-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161784,
+      "name": "Gaspar Lammel Romo",
+      "dob": "2000-06-18",
+      "height": null,
+      "weight": 65
+    },
+    {
+      "id": 161785,
+      "name": "Vicente Orlando Droguett Torrealba",
+      "dob": "2000-06-23",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 161899,
+      "name": "Ignacio Alejandro Zavala Vuletich",
+      "dob": "1995-06-23",
+      "height": 196,
+      "weight": 91
+    },
+    {
+      "id": 161909,
+      "name": "Tomas Schilling Arieta",
+      "dob": "1997-10-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161910,
+      "name": "Ignacio Frazzoni Guazzini",
+      "dob": "1998-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167456,
+      "name": "Martín Iglesias",
+      "dob": "2002-03-27",
+      "height": 193,
+      "weight": 87
+    },
+    {
+      "id": 167457,
+      "name": "Esteban Aranda",
+      "dob": "2000-06-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172387,
+      "name": "Noe Aravena",
+      "dob": "2002-07-30",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 172914,
+      "name": "Fernando Quintero",
+      "dob": "2003-03-11",
+      "height": 193,
+      "weight": 82
+    },
+    {
+      "id": 172916,
+      "name": "Thomas Acevedo",
+      "dob": "2003-12-29",
+      "height": 190,
+      "weight": 81
+    },
+    {
+      "id": 184342,
+      "name": "Maximiliano Cordova de Halleux",
+      "dob": "2004-04-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 186937,
+      "name": "Martin Etcheberry",
+      "dob": "2004-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 204452,
+      "name": "Goran Grimalt Karmelic",
+      "dob": "2002-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208846,
+      "name": "Jorge Pablo Brain Zirpel",
+      "dob": "2006-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 212941,
+      "name": "José Tomas Brain Zirpel",
+      "dob": "2008-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 212942,
+      "name": "George Hargreaves Arentsen",
+      "dob": "2008-04-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 225839,
+      "name": "FRANCISCO FARIAS VALDIVIA",
+      "dob": "2009-03-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 233988,
+      "name": "GAEL ARIAS SALDIAS",
+      "dob": "2009-11-06",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

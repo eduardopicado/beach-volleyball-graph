@@ -1,0 +1,174 @@
+{
+  "country": "NCA",
+  "countryName": "Nicaragua",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 137535,
+      "name": "Ruben Alejandro Mora Romero",
+      "short": "Mora",
+      "tournaments": 25,
+      "first": 2012,
+      "last": 2025
+    },
+    {
+      "id": 137536,
+      "name": "Gerson David Contreras Lacayo",
+      "short": "Contreras",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 139668,
+      "name": "Miguel Angel López López",
+      "short": "Lopez",
+      "tournaments": 18,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 141540,
+      "name": "Dany Antonio López Alvarado",
+      "short": "Lopez",
+      "tournaments": 7,
+      "first": 2020,
+      "last": 2025
+    },
+    {
+      "id": 146009,
+      "name": "Luis Fernando López Alvarado",
+      "short": "Lopez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146010,
+      "name": "Denis José López Ruiz",
+      "short": "Lopez",
+      "tournaments": 6,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 167425,
+      "name": "Cristopher Josue Cascante Cardenas",
+      "short": "Cascante",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167427,
+      "name": "Jefferson De Jesus Cascante Herrera",
+      "short": "Cascante",
+      "tournaments": 6,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 212194,
+      "name": "Matthew Eberhard Kempf Palacio",
+      "short": "KEMPF",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 217936,
+      "name": "Justin Alfredo Barrios Dinarte",
+      "short": "BARRIOS",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 225096,
+      "name": "Edgar Ignacio Holmann Gonzalez",
+      "short": "HOLMANN",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 137535,
+      "b": 137536,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 137535,
+      "b": 139668,
+      "t": 17,
+      "f": 2012,
+      "l": 2014
+    },
+    {
+      "a": 137535,
+      "b": 141540,
+      "t": 6,
+      "f": 2020,
+      "l": 2025
+    },
+    {
+      "a": 137535,
+      "b": 146010,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 137536,
+      "b": 139668,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 141540,
+      "b": 167427,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 146009,
+      "b": 146010,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146010,
+      "b": 167427,
+      "t": 4,
+      "f": 2019,
+      "l": 2021
+    },
+    {
+      "a": 167425,
+      "b": 167427,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 212194,
+      "b": 217936,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 217936,
+      "b": 225096,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

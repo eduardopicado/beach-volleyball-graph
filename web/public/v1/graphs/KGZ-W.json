@@ -1,0 +1,32 @@
+{
+  "country": "KGZ",
+  "countryName": "Kyrgyzstan",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 188844,
+      "name": "Aiturgan Aitbekova",
+      "short": "Aitbekova",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 188852,
+      "name": "Roza Rasulbek Kyzy",
+      "short": "Rasulbek Kyzy",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 188844,
+      "b": 188852,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "country": "LIE",
+  "gender": "W",
+  "players": [
+    {
+      "id": 132769,
+      "name": "Ramona Kaiser",
+      "dob": "1990-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132777,
+      "name": "Laura Marxer",
+      "dob": "1989-11-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142872,
+      "name": "Nina Ludwig",
+      "dob": "1996-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 169475,
+      "name": "Chiara Bigger",
+      "dob": "1998-05-10",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

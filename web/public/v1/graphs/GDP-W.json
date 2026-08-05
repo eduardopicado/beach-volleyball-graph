@@ -1,0 +1,32 @@
+{
+  "country": "GDP",
+  "countryName": "Guadeloupe",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 155982,
+      "name": "Delphine Stephens",
+      "short": "Deva",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 155983,
+      "name": "Vanessa Azille",
+      "short": "Azille",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    }
+  ],
+  "edges": [
+    {
+      "a": 155982,
+      "b": 155983,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    }
+  ]
+}

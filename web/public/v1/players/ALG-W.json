@@ -1,0 +1,76 @@
+{
+  "country": "ALG",
+  "gender": "W",
+  "players": [
+    {
+      "id": 134488,
+      "name": "Meriem Boucheta",
+      "dob": "1984-01-03",
+      "height": 175,
+      "weight": 73
+    },
+    {
+      "id": 135596,
+      "name": "Louiza Bayou",
+      "dob": "1994-05-25",
+      "height": 172,
+      "weight": 60
+    },
+    {
+      "id": 135666,
+      "name": "Wissem Samia Dali",
+      "dob": "1995-09-01",
+      "height": 174,
+      "weight": 62
+    },
+    {
+      "id": 139547,
+      "name": "Katia Bounser",
+      "dob": "1995-01-07",
+      "height": null,
+      "weight": 62
+    },
+    {
+      "id": 172326,
+      "name": "BECHAR SALIMA",
+      "dob": "2001-04-03",
+      "height": 176,
+      "weight": 67
+    },
+    {
+      "id": 172327,
+      "name": "Melissa Soualmi",
+      "dob": "2002-10-15",
+      "height": 186,
+      "weight": 85
+    },
+    {
+      "id": 178747,
+      "name": "Amira Bechar",
+      "dob": "2002-02-11",
+      "height": 180,
+      "weight": 64
+    },
+    {
+      "id": 184128,
+      "name": "Wissem Djouhri",
+      "dob": "2002-02-21",
+      "height": 180,
+      "weight": 74
+    },
+    {
+      "id": 224254,
+      "name": "Meriem Tilmatine",
+      "dob": "2009-01-01",
+      "height": 170,
+      "weight": 70
+    },
+    {
+      "id": 224256,
+      "name": "Dyna Saheb",
+      "dob": "2009-05-16",
+      "height": 178,
+      "weight": 78
+    }
+  ]
+}

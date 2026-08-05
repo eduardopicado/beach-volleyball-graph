@@ -1,0 +1,78 @@
+{
+  "country": "SMR",
+  "countryName": "San Marino",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 104968,
+      "name": "Cristina Bacciocchi",
+      "short": "Bacciocchi",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104969,
+      "name": "Camilla Montironi",
+      "short": "Montironi",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104970,
+      "name": "Carlotta Casadei",
+      "short": "Casadei",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 104971,
+      "name": "Samanta Antonelli",
+      "short": "Antonelli",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 105138,
+      "name": "Martina Mazza",
+      "short": "Mazza",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 105139,
+      "name": "Alberta Serra",
+      "short": "Serra",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    }
+  ],
+  "edges": [
+    {
+      "a": 104968,
+      "b": 104969,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104970,
+      "b": 104971,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 105138,
+      "b": 105139,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    }
+  ]
+}

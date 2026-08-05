@@ -1,0 +1,459 @@
+{
+  "country": "MOZ",
+  "countryName": "Mozambique",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 103949,
+      "name": "Guilhermina Cossa",
+      "short": "Cossa",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 103950,
+      "name": "Sifa Quitende",
+      "short": "Quitende",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 104355,
+      "name": "Anabela Manhique",
+      "short": "Manhique",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104960,
+      "name": "Rufina Andissene",
+      "short": "Andissene",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 123176,
+      "name": "Joaquina Roque",
+      "short": "Roque",
+      "tournaments": 9,
+      "first": 2006,
+      "last": 2021
+    },
+    {
+      "id": 123187,
+      "name": "Sátira Chongo",
+      "short": "Chongo",
+      "tournaments": 5,
+      "first": 2006,
+      "last": 2021
+    },
+    {
+      "id": 123190,
+      "name": "Assiat Reana Ibraimo",
+      "short": "Ibraimo",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 123195,
+      "name": "Elma Conceicão",
+      "short": "Conceicão",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 123213,
+      "name": "Marilia Magaia",
+      "short": "Magaia",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 123217,
+      "name": "Silvia Tazama",
+      "short": "Tazama",
+      "tournaments": 1,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 135162,
+      "name": "Rezia Cumbi",
+      "short": "R. Cumbi",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 146659,
+      "name": "Vanessa Muianga",
+      "short": "Vanessa",
+      "tournaments": 22,
+      "first": 2017,
+      "last": 2025
+    },
+    {
+      "id": 146703,
+      "name": "Lizi Cambula",
+      "short": "Cambula",
+      "tournaments": 6,
+      "first": 2014,
+      "last": 2021
+    },
+    {
+      "id": 146913,
+      "name": "Fauzia Mussane",
+      "short": "Mussane",
+      "tournaments": 7,
+      "first": 2014,
+      "last": 2021
+    },
+    {
+      "id": 146944,
+      "name": "Jessica Moiane",
+      "short": "Moiane",
+      "tournaments": 11,
+      "first": 2014,
+      "last": 2021
+    },
+    {
+      "id": 146945,
+      "name": "Liocadia Manhica",
+      "short": "Manhica",
+      "tournaments": 14,
+      "first": 2014,
+      "last": 2021
+    },
+    {
+      "id": 167091,
+      "name": "Maria Tivane",
+      "short": "Maria",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 168290,
+      "name": "Mércia Mucheza",
+      "short": "Mucheza",
+      "tournaments": 11,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 168295,
+      "name": "Ana Sinaportar",
+      "short": "Sinaportar",
+      "tournaments": 19,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 177275,
+      "name": "Angela Dercia Tembe",
+      "short": "Angela",
+      "tournaments": 10,
+      "first": 2021,
+      "last": 2022
+    },
+    {
+      "id": 178378,
+      "name": "Vania Precina José Miambo",
+      "short": "Vania",
+      "tournaments": 10,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 178379,
+      "name": "Julia de Jesus Pedro",
+      "short": "Julia",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178380,
+      "name": "Verónica Carlos Roque",
+      "short": "Verónica",
+      "tournaments": 9,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 178604,
+      "name": "Natalia Intego",
+      "short": "Natalia",
+      "tournaments": 8,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178662,
+      "name": "Julia Alvaro Jose",
+      "short": "Julia",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178663,
+      "name": "Rosa Ismael Muianga",
+      "short": "Rosa",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 178664,
+      "name": "Nadia Julio Bango",
+      "short": "Nadia",
+      "tournaments": 8,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 179147,
+      "name": "Neida Mario Botao",
+      "short": "Neida Botao",
+      "tournaments": 7,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 226913,
+      "name": "Célia Nelson Machava",
+      "short": "Célia",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 226915,
+      "name": "Alaina Ana Mahumane",
+      "short": "Alaina",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 103949,
+      "b": 103950,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103950,
+      "b": 104355,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104960,
+      "b": 123217,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 123176,
+      "b": 123187,
+      "t": 2,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 123176,
+      "b": 146703,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123176,
+      "b": 167091,
+      "t": 6,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123187,
+      "b": 146913,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123187,
+      "b": 167091,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123190,
+      "b": 123213,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123190,
+      "b": 146659,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123190,
+      "b": 146945,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123195,
+      "b": 179147,
+      "t": 7,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 123213,
+      "b": 146703,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 135162,
+      "b": 178662,
+      "t": 7,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146659,
+      "b": 146945,
+      "t": 3,
+      "f": 2017,
+      "l": 2021
+    },
+    {
+      "a": 146659,
+      "b": 168290,
+      "t": 7,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 146659,
+      "b": 168295,
+      "t": 11,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 146703,
+      "b": 146913,
+      "t": 3,
+      "f": 2014,
+      "l": 2021
+    },
+    {
+      "a": 146913,
+      "b": 146945,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146944,
+      "b": 146945,
+      "t": 6,
+      "f": 2014,
+      "l": 2021
+    },
+    {
+      "a": 146944,
+      "b": 168295,
+      "t": 5,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146945,
+      "b": 168290,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 168290,
+      "b": 168295,
+      "t": 3,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 177275,
+      "b": 178378,
+      "t": 2,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 177275,
+      "b": 178604,
+      "t": 8,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 178378,
+      "b": 178380,
+      "t": 8,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 178379,
+      "b": 178664,
+      "t": 5,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 178380,
+      "b": 178664,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 178663,
+      "b": 178664,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 226913,
+      "b": 226915,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

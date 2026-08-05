@@ -1,0 +1,32 @@
+{
+  "country": "MLI",
+  "countryName": "Mali",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 176251,
+      "name": "Mody Kouma",
+      "short": "Dick",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 176771,
+      "name": "Farouga Ladji Yattassaye",
+      "short": "Ladji",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2021
+    }
+  ],
+  "edges": [
+    {
+      "a": 176251,
+      "b": 176771,
+      "t": 2,
+      "f": 2019,
+      "l": 2021
+    }
+  ]
+}

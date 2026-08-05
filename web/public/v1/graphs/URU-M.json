@@ -1,0 +1,507 @@
+{
+  "country": "URU",
+  "countryName": "Uruguay",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100577,
+      "name": "Luis Alberto Baladon Rodriguez",
+      "short": "Baladon",
+      "tournaments": 8,
+      "first": 1994,
+      "last": 1996
+    },
+    {
+      "id": 100578,
+      "name": "Sergio Juan Sarkissian",
+      "short": "Sarkissian",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 100684,
+      "name": "Waldemar Javier Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 6,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 100696,
+      "name": "Leonardo Dante Lattuada",
+      "short": "Lattuada",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 101648,
+      "name": "Richard Daniel Barreto Barreto",
+      "short": "Barreto",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1998
+    },
+    {
+      "id": 104577,
+      "name": "Guillermo Williman",
+      "short": "Williman",
+      "tournaments": 15,
+      "first": 2004,
+      "last": 2012
+    },
+    {
+      "id": 104578,
+      "name": "Nicolas Ronchi",
+      "short": "Ronchi",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2004
+    },
+    {
+      "id": 120919,
+      "name": "Nicolas Zanotta Zuccoli",
+      "short": "Zanotta",
+      "tournaments": 37,
+      "first": 2008,
+      "last": 2019
+    },
+    {
+      "id": 120925,
+      "name": "Nestor  Adrian Serron Machado",
+      "short": "Serron",
+      "tournaments": 9,
+      "first": 2008,
+      "last": 2011
+    },
+    {
+      "id": 122001,
+      "name": "Fabio Dalmas",
+      "short": "Dalmas",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2014
+    },
+    {
+      "id": 124965,
+      "name": "Renzo Cairus",
+      "short": "Cairus",
+      "tournaments": 13,
+      "first": 2010,
+      "last": 2017
+    },
+    {
+      "id": 131999,
+      "name": "Pablo Ronchi",
+      "short": "Ronchi",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132932,
+      "name": "Gerardo Peralta",
+      "short": "Peralta",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 135095,
+      "name": "Michael Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 138707,
+      "name": "Andréss Stoll",
+      "short": "Stoll",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 141397,
+      "name": "German Varela",
+      "short": "Varela",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 141398,
+      "name": "Hans Hannibal",
+      "short": "Hannibal",
+      "tournaments": 27,
+      "first": 2015,
+      "last": 2025
+    },
+    {
+      "id": 141554,
+      "name": "Alejandro Cabrera",
+      "short": "Cabrera",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 143446,
+      "name": "Mauricio Sebastian Vieyto Acosta",
+      "short": "Vieyto",
+      "tournaments": 10,
+      "first": 2014,
+      "last": 2019
+    },
+    {
+      "id": 145364,
+      "name": "Marco Cairus Lucarelli",
+      "short": "Cairus",
+      "tournaments": 19,
+      "first": 2014,
+      "last": 2023
+    },
+    {
+      "id": 156170,
+      "name": "Lucas Mocellini",
+      "short": "Mocellini",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 156171,
+      "name": "Santiago Freire",
+      "short": "Freire",
+      "tournaments": 7,
+      "first": 2019,
+      "last": 2023
+    },
+    {
+      "id": 156173,
+      "name": "Gastón Baldi Alvarez",
+      "short": "Baldi",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 156441,
+      "name": "Williams Michael Fernandez Rivero",
+      "short": "Fernandez",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157031,
+      "name": "Nicolas Bertran",
+      "short": "Bertran",
+      "tournaments": 5,
+      "first": 2016,
+      "last": 2023
+    },
+    {
+      "id": 161673,
+      "name": "Esteban Bailon",
+      "short": "Bailon",
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2022
+    },
+    {
+      "id": 161677,
+      "name": "Joaquin Gonzalez Mameli",
+      "short": "Gonzalez",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 179109,
+      "name": "Mateo Domingo Pérez Coria",
+      "short": "Perez M.",
+      "tournaments": 14,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 186675,
+      "name": "Nicolás Llambías Carvalho",
+      "short": "Llambías",
+      "tournaments": 16,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 186856,
+      "name": "Roberto Luciano Fernández Rivero",
+      "short": "Luciano",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 187926,
+      "name": "Alejo Divenuto",
+      "short": "Alejo",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 187927,
+      "name": "Franco Delfino",
+      "short": "DELFINO",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 193190,
+      "name": "Sebastian Rubio",
+      "short": "Rubio",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 196385,
+      "name": "Nicolas Busiello Valente",
+      "short": "Busiello",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 208733,
+      "name": "Ignacio Rodríguez",
+      "short": "Rodríguez",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 218865,
+      "name": "Ignacio Pérez Coria",
+      "short": "Ignacio Pérez",
+      "tournaments": 14,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100577,
+      "b": 100578,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100577,
+      "b": 100684,
+      "t": 6,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100577,
+      "b": 101648,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100696,
+      "b": 101648,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 104577,
+      "b": 104578,
+      "t": 2,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104577,
+      "b": 120919,
+      "t": 13,
+      "f": 2010,
+      "l": 2012
+    },
+    {
+      "a": 120919,
+      "b": 120925,
+      "t": 9,
+      "f": 2008,
+      "l": 2011
+    },
+    {
+      "a": 120919,
+      "b": 122001,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 120919,
+      "b": 124965,
+      "t": 12,
+      "f": 2013,
+      "l": 2017
+    },
+    {
+      "a": 120919,
+      "b": 156171,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 120925,
+      "b": 132932,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 122001,
+      "b": 138707,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 124965,
+      "b": 131999,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 135095,
+      "b": 141397,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 141397,
+      "b": 141554,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 141398,
+      "b": 143446,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 141398,
+      "b": 145364,
+      "t": 10,
+      "f": 2021,
+      "l": 2023
+    },
+    {
+      "a": 141398,
+      "b": 156173,
+      "t": 2,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 141398,
+      "b": 186675,
+      "t": 15,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 143446,
+      "b": 145364,
+      "t": 9,
+      "f": 2014,
+      "l": 2019
+    },
+    {
+      "a": 156170,
+      "b": 156171,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 156171,
+      "b": 157031,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 156441,
+      "b": 157031,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 157031,
+      "b": 161673,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 161673,
+      "b": 161677,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 161673,
+      "b": 186675,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 179109,
+      "b": 218865,
+      "t": 14,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 186856,
+      "b": 196385,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 187926,
+      "b": 187927,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 193190,
+      "b": 208733,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

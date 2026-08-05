@@ -1,0 +1,1725 @@
+{
+  "country": "GRE",
+  "countryName": "Greece",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101029,
+      "name": "Michalis Triantafillidis",
+      "short": "Triantafilli",
+      "tournaments": 2,
+      "first": 1994,
+      "last": 2000
+    },
+    {
+      "id": 101034,
+      "name": "Stylianos Kazazis",
+      "short": "Kazazis",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 101390,
+      "name": "Evangelos \"Vagelis\" Koutouleas",
+      "short": "Koutouleas",
+      "tournaments": 5,
+      "first": 1996,
+      "last": 2001
+    },
+    {
+      "id": 101408,
+      "name": "Pavlos Danilescou",
+      "short": "Danilescou",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 102403,
+      "name": "Panagiotis Dimitrakakos",
+      "short": "Dimitrakakos",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2003
+    },
+    {
+      "id": 102404,
+      "name": "Georgios \"Yorgos\" Giatsis",
+      "short": "Giatsis",
+      "tournaments": 9,
+      "first": 1998,
+      "last": 2006
+    },
+    {
+      "id": 102405,
+      "name": "Ilias Arabatzis",
+      "short": "Arabatzis",
+      "tournaments": 8,
+      "first": 1998,
+      "last": 2006
+    },
+    {
+      "id": 102842,
+      "name": "Manolis \"Manos\" Roumeliotis",
+      "short": "Roumeliotis",
+      "tournaments": 17,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 102843,
+      "name": "Thanassis \"Thanos\" Michalopoulos",
+      "short": "Michalopoulos",
+      "tournaments": 87,
+      "first": 2000,
+      "last": 2007
+    },
+    {
+      "id": 102885,
+      "name": "Dimitrios Kelepouris",
+      "short": "Kelepouris",
+      "tournaments": 9,
+      "first": 2000,
+      "last": 2003
+    },
+    {
+      "id": 102886,
+      "name": "Pavlos \"Beli\" Beligratis",
+      "short": "Beligratis \"Beli\"",
+      "tournaments": 44,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 103054,
+      "name": "Vangelis Economou",
+      "short": "Economou",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103055,
+      "name": "Dimitris Kazazis",
+      "short": "Kazazis",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103070,
+      "name": "Michall Alexandropoulos",
+      "short": "Alexandropoulos",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103071,
+      "name": "Panagiotis \"Takis\" Mavrakis",
+      "short": "Mavrakis",
+      "tournaments": 4,
+      "first": 2000,
+      "last": 2003
+    },
+    {
+      "id": 103072,
+      "name": "Christos Dimitrakopoulos",
+      "short": "Dimitrakopoulos",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103073,
+      "name": "Efstathios Chandrinos",
+      "short": "Chandrinos, E.",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103074,
+      "name": "Victor Kouroupis",
+      "short": "Kouroupis",
+      "tournaments": 3,
+      "first": 2000,
+      "last": 2007
+    },
+    {
+      "id": 103075,
+      "name": "Ilias Zolastathiadis",
+      "short": "Zolastathiadis",
+      "tournaments": 8,
+      "first": 2000,
+      "last": 2007
+    },
+    {
+      "id": 103076,
+      "name": "Stefanos Nanas",
+      "short": "Nanas",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2001
+    },
+    {
+      "id": 103077,
+      "name": "Dimitrios Nerantzis",
+      "short": "Neratzis",
+      "tournaments": 10,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 103079,
+      "name": "Sofoklis Sofokleous",
+      "short": "Sofokleous",
+      "tournaments": 4,
+      "first": 2001,
+      "last": 2006
+    },
+    {
+      "id": 103098,
+      "name": "Nikolaos Polimerropoulos",
+      "short": "Polimerropoulos",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103099,
+      "name": "Pantelinickos Tsakogias",
+      "short": "Tsakogias",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103285,
+      "name": "Thanassis \"Sakis\" Chatziantoniou",
+      "short": "Chatziantoniou",
+      "tournaments": 5,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103338,
+      "name": "Georgios Batistatos",
+      "short": "Batistatos",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103500,
+      "name": "Giannis Haritonidis",
+      "short": "Haritonidis",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103501,
+      "name": "Konstantinos Aggelidis",
+      "short": "Aggelidis",
+      "tournaments": 6,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 103502,
+      "name": "Andreas Gortsianiouk",
+      "short": "Gortsianouk",
+      "tournaments": 17,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 103503,
+      "name": "Georgios Knapek",
+      "short": "Knapek",
+      "tournaments": 37,
+      "first": 2001,
+      "last": 2009
+    },
+    {
+      "id": 103504,
+      "name": "Georgios Nazopoulos",
+      "short": "Nazopoulos",
+      "tournaments": 3,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103932,
+      "name": "Konstantinos Tampouratzis",
+      "short": "Tampouratzis",
+      "tournaments": 9,
+      "first": 2002,
+      "last": 2007
+    },
+    {
+      "id": 103933,
+      "name": "Nikolaos Giannakakos",
+      "short": "Giannakakos",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 104122,
+      "name": "Thodoris Papadimitriou",
+      "short": "Papadimitriou",
+      "tournaments": 17,
+      "first": 2002,
+      "last": 2024
+    },
+    {
+      "id": 104123,
+      "name": "Ioannis Mamais",
+      "short": "Mamais",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104124,
+      "name": "Emanouil Dimitriadis",
+      "short": "Dimitriadis",
+      "tournaments": 8,
+      "first": 2002,
+      "last": 2007
+    },
+    {
+      "id": 104126,
+      "name": "Charlampos Papadopoulos",
+      "short": "Papadopoulos",
+      "tournaments": 5,
+      "first": 2002,
+      "last": 2006
+    },
+    {
+      "id": 104180,
+      "name": "Grigoris Belitsos",
+      "short": "Belitsos",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104194,
+      "name": "Panagiotis Mourtzios",
+      "short": "Mourtzios",
+      "tournaments": 47,
+      "first": 2003,
+      "last": 2011
+    },
+    {
+      "id": 104273,
+      "name": "Spiros Karachalios",
+      "short": "Karachalios",
+      "tournaments": 2,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104274,
+      "name": "Giannis Charitonidis",
+      "short": "Charitonidis",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104275,
+      "name": "Emmanouil Xenakis",
+      "short": "Xenakis",
+      "tournaments": 84,
+      "first": 2004,
+      "last": 2012
+    },
+    {
+      "id": 104276,
+      "name": "Athanasios Panousos",
+      "short": "Panousos",
+      "tournaments": 4,
+      "first": 2003,
+      "last": 2006
+    },
+    {
+      "id": 104277,
+      "name": "Petros Mylonas",
+      "short": "Mylonas",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104278,
+      "name": "Nikos Kostakopoulos",
+      "short": "Kostakopoulos",
+      "tournaments": 6,
+      "first": 2003,
+      "last": 2007
+    },
+    {
+      "id": 104279,
+      "name": "Panagiotis Fotopoulos",
+      "short": "Fotopoulos",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104384,
+      "name": "Dimitrios Niopas",
+      "short": "Niopas",
+      "tournaments": 12,
+      "first": 2003,
+      "last": 2019
+    },
+    {
+      "id": 104684,
+      "name": "Apostolos Armenakis",
+      "short": "Armenakis",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2022
+    },
+    {
+      "id": 105028,
+      "name": "Pavlos Odysseas Kouzounis Boukogiannis",
+      "short": "Kouzounis",
+      "tournaments": 5,
+      "first": 2004,
+      "last": 2014
+    },
+    {
+      "id": 115481,
+      "name": "Georgios Koulieris",
+      "short": "Koulieris",
+      "tournaments": 9,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117118,
+      "name": "Georgios Petreas",
+      "short": "Petreas",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 118048,
+      "name": "Meletis Exadaktilos",
+      "short": "Exadaktilos",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118076,
+      "name": "Dimitrios Chalikos",
+      "short": "Chalikos",
+      "tournaments": 2,
+      "first": 2006,
+      "last": 2008
+    },
+    {
+      "id": 118077,
+      "name": "Fernandos Billiris",
+      "short": "Billiris",
+      "tournaments": 17,
+      "first": 2006,
+      "last": 2014
+    },
+    {
+      "id": 118242,
+      "name": "Emmanouil Chnaris",
+      "short": "Chnaris",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2007
+    },
+    {
+      "id": 118243,
+      "name": "Athanasios Maroulis",
+      "short": "Maroulis",
+      "tournaments": 3,
+      "first": 2006,
+      "last": 2007
+    },
+    {
+      "id": 118981,
+      "name": "Konstantinos Anagnou",
+      "short": "Anagnou",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 118982,
+      "name": "Ioannis Stylianou",
+      "short": "Stylianou",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119252,
+      "name": "Christos Mavrokefalos",
+      "short": "Mavrokefalos",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119253,
+      "name": "Alexandros Aristopoulos",
+      "short": "Aristopoulos",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119348,
+      "name": "Konstantinos Karpathakis",
+      "short": "Karpathakis",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2008
+    },
+    {
+      "id": 119349,
+      "name": "Anestis Dimitriadis",
+      "short": "Dimitriadis",
+      "tournaments": 2,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119350,
+      "name": "Georgios Kastrounis",
+      "short": "Kastrounis",
+      "tournaments": 1,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 119433,
+      "name": "Ioannis Roumeliotakis",
+      "short": "Roumeliotakis",
+      "tournaments": 4,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 122118,
+      "name": "Asterios Gkanas",
+      "short": "Gkanas",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 122396,
+      "name": "Nikos Zoupani",
+      "short": "Zoupanis",
+      "tournaments": 95,
+      "first": 2009,
+      "last": 2016
+    },
+    {
+      "id": 122397,
+      "name": "Georgios Kotsilianos",
+      "short": "Kotsilianos",
+      "tournaments": 106,
+      "first": 2009,
+      "last": 2021
+    },
+    {
+      "id": 122449,
+      "name": "Belos Christos",
+      "short": "Belos",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 122452,
+      "name": "Michail Lamprinos",
+      "short": "Lamprinos",
+      "tournaments": 3,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 122771,
+      "name": "Polychroniadis Alexis",
+      "short": "Polychroniadis",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2019
+    },
+    {
+      "id": 122772,
+      "name": "Vlachostathis Sotiris",
+      "short": "Vlachostathis",
+      "tournaments": 5,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 124246,
+      "name": "Thomas Dimitriadis",
+      "short": "Dimitriadis",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 124466,
+      "name": "Nikitas Efraimidis",
+      "short": "Efraimidis N.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 132190,
+      "name": "Charalampos Sakoglou",
+      "short": "Sakoglou",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132789,
+      "name": "Anestis Dimitriadis",
+      "short": "Dimitriadis",
+      "tournaments": 2,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 136885,
+      "name": "Menelaos Kokkinakis",
+      "short": "Kokkinakis",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 139167,
+      "name": "Ioannis Kavaratzis",
+      "short": "Kavaratzis",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139168,
+      "name": "Grigorios Kontostathis",
+      "short": "Kontostathis",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139526,
+      "name": "Vasileios Zisis",
+      "short": "Zisis",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145467,
+      "name": "Vasileios Mandilaris",
+      "short": "Mandilaris V.",
+      "tournaments": 17,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 146900,
+      "name": "Stefanos Giannelis",
+      "short": "Giannelis",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148442,
+      "name": "Dimitrios Chatzinikolaou",
+      "short": "Chatzinikolaou",
+      "tournaments": 38,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 148444,
+      "name": "Iason Kanellos",
+      "short": "Kanellos",
+      "tournaments": 13,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 148541,
+      "name": "Stylianos Kourtidis",
+      "short": "Kourtidis",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 153210,
+      "name": "Angelos Mandilaris",
+      "short": "Mandilaris A.",
+      "tournaments": 26,
+      "first": 2016,
+      "last": 2022
+    },
+    {
+      "id": 153961,
+      "name": "Alexios Messalas",
+      "short": "Messalas",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 157070,
+      "name": "Georgios Kantiotis",
+      "short": "Kantiotis",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 158222,
+      "name": "Georgios Terzoglou",
+      "short": "Terzoglou, G.",
+      "tournaments": 4,
+      "first": 2022,
+      "last": 2023
+    },
+    {
+      "id": 158283,
+      "name": "Gavriil - Giannis Salit",
+      "short": "Salit",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 158311,
+      "name": "Rafail Konstantinos Baniotis",
+      "short": "Baniotis",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 163369,
+      "name": "Vasileios Kostopoulos",
+      "short": "Kostopoulos",
+      "tournaments": 3,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 164252,
+      "name": "Panagiotis Ioannidis",
+      "short": "Ioannidis",
+      "tournaments": 13,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 165045,
+      "name": "Kola Antiol",
+      "short": "Kola Antiol",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 165048,
+      "name": "Antiol Kola",
+      "short": "Antiol Kola",
+      "tournaments": 17,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 167337,
+      "name": "Konstantinos Staikos",
+      "short": "Staik",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168457,
+      "name": "Stylianos Tzioumakas",
+      "short": "Tzioumakas, St.",
+      "tournaments": 12,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 169458,
+      "name": "Nikolaos Ntontis",
+      "short": "Ntontis",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 170536,
+      "name": "Alexandros Kourtidis",
+      "short": "Kourtidis",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 171332,
+      "name": "Danas Lampros",
+      "short": "Danas",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 178503,
+      "name": "Stavros Ntallas",
+      "short": "Ntallas",
+      "tournaments": 42,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181604,
+      "name": "Triantafyllos Restemis",
+      "short": "Restemis",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 182282,
+      "name": "Ioannis Kardoulias",
+      "short": "Kardoulias",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 184832,
+      "name": "Panagiotis Vogiatzoglou",
+      "short": "Vogiatzoglou",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 188833,
+      "name": "Christos Tsigaridas",
+      "short": "Tsigaridas",
+      "tournaments": 15,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 188834,
+      "name": "Panagiotis Semitekolos Faoularas",
+      "short": "Semitekolos",
+      "tournaments": 10,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 188835,
+      "name": "Iakovos Kafouros",
+      "short": "Kafouros",
+      "tournaments": 6,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 188868,
+      "name": "Dimitrios Kaliozis",
+      "short": "Kaliozis",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 190599,
+      "name": "George Kalianidis",
+      "short": "Kalianidis",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190600,
+      "name": "Spyros Terzoglou",
+      "short": "Terzoglou. Sp.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 190878,
+      "name": "Konstantinos Venios",
+      "short": "Venios",
+      "tournaments": 7,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 190879,
+      "name": "Antonios Karykas",
+      "short": "Karykas",
+      "tournaments": 6,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 201645,
+      "name": "Spyros Kaloudis",
+      "short": "Kaloudis, Sp.",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 201823,
+      "name": "Evangelos Sideris",
+      "short": "Sideris",
+      "tournaments": 9,
+      "first": 2024,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101029,
+      "b": 101034,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 101029,
+      "b": 103071,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 101390,
+      "b": 101408,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101390,
+      "b": 102403,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 101390,
+      "b": 102404,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 101390,
+      "b": 103071,
+      "t": 2,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102403,
+      "b": 103071,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 102404,
+      "b": 102405,
+      "t": 6,
+      "f": 1998,
+      "l": 2006
+    },
+    {
+      "a": 102404,
+      "b": 103075,
+      "t": 3,
+      "f": 2003,
+      "l": 2005
+    },
+    {
+      "a": 102405,
+      "b": 103070,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102405,
+      "b": 104274,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 102842,
+      "b": 102843,
+      "t": 17,
+      "f": 2000,
+      "l": 2001
+    },
+    {
+      "a": 102843,
+      "b": 102886,
+      "t": 21,
+      "f": 2001,
+      "l": 2004
+    },
+    {
+      "a": 102843,
+      "b": 103503,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 102843,
+      "b": 104275,
+      "t": 48,
+      "f": 2004,
+      "l": 2007
+    },
+    {
+      "a": 102885,
+      "b": 102886,
+      "t": 6,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102885,
+      "b": 103075,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102885,
+      "b": 103338,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102885,
+      "b": 103501,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 102886,
+      "b": 103285,
+      "t": 5,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 102886,
+      "b": 104276,
+      "t": 3,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 102886,
+      "b": 115481,
+      "t": 9,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 103054,
+      "b": 103055,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103072,
+      "b": 103073,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103074,
+      "b": 103075,
+      "t": 2,
+      "f": 2000,
+      "l": 2007
+    },
+    {
+      "a": 103074,
+      "b": 103501,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103075,
+      "b": 103502,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103075,
+      "b": 104684,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 103076,
+      "b": 103077,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103076,
+      "b": 103500,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103077,
+      "b": 103932,
+      "t": 7,
+      "f": 2005,
+      "l": 2006
+    },
+    {
+      "a": 103077,
+      "b": 103933,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103077,
+      "b": 104273,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103079,
+      "b": 103504,
+      "t": 3,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103079,
+      "b": 118048,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103098,
+      "b": 103099,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103501,
+      "b": 104278,
+      "t": 4,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 103502,
+      "b": 103503,
+      "t": 2,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 103502,
+      "b": 103932,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 103502,
+      "b": 104122,
+      "t": 2,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 103502,
+      "b": 104194,
+      "t": 6,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 103502,
+      "b": 104275,
+      "t": 5,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 103503,
+      "b": 104194,
+      "t": 34,
+      "f": 2004,
+      "l": 2009
+    },
+    {
+      "a": 103932,
+      "b": 103933,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104122,
+      "b": 104124,
+      "t": 4,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 104122,
+      "b": 104384,
+      "t": 5,
+      "f": 2016,
+      "l": 2019
+    },
+    {
+      "a": 104122,
+      "b": 164252,
+      "t": 5,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 104122,
+      "b": 168457,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 104123,
+      "b": 104124,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104124,
+      "b": 104384,
+      "t": 4,
+      "f": 2003,
+      "l": 2006
+    },
+    {
+      "a": 104126,
+      "b": 104180,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104126,
+      "b": 104275,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104126,
+      "b": 105028,
+      "t": 3,
+      "f": 2004,
+      "l": 2006
+    },
+    {
+      "a": 104194,
+      "b": 104384,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 104194,
+      "b": 122396,
+      "t": 6,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104194,
+      "b": 122772,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104273,
+      "b": 104278,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104275,
+      "b": 118077,
+      "t": 13,
+      "f": 2011,
+      "l": 2012
+    },
+    {
+      "a": 104275,
+      "b": 122396,
+      "t": 4,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104275,
+      "b": 122397,
+      "t": 13,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 104276,
+      "b": 104277,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104278,
+      "b": 104279,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104384,
+      "b": 122118,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 104384,
+      "b": 171332,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 104684,
+      "b": 124466,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 105028,
+      "b": 117118,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 105028,
+      "b": 118077,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 118076,
+      "b": 118077,
+      "t": 2,
+      "f": 2006,
+      "l": 2008
+    },
+    {
+      "a": 118077,
+      "b": 119433,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 118242,
+      "b": 118243,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118242,
+      "b": 119349,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118243,
+      "b": 119433,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 118981,
+      "b": 118982,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119252,
+      "b": 119253,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119348,
+      "b": 119350,
+      "t": 1,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119348,
+      "b": 119433,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 122396,
+      "b": 122397,
+      "t": 82,
+      "f": 2009,
+      "l": 2016
+    },
+    {
+      "a": 122396,
+      "b": 122452,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122396,
+      "b": 132789,
+      "t": 2,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 122397,
+      "b": 122772,
+      "t": 3,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122397,
+      "b": 163369,
+      "t": 3,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 122397,
+      "b": 164252,
+      "t": 4,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 122449,
+      "b": 122452,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122452,
+      "b": 132190,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 122771,
+      "b": 122772,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 122771,
+      "b": 164252,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 124246,
+      "b": 136885,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 139167,
+      "b": 139168,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139526,
+      "b": 146900,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145467,
+      "b": 153210,
+      "t": 17,
+      "f": 2017,
+      "l": 2019
+    },
+    {
+      "a": 148442,
+      "b": 153210,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 148442,
+      "b": 168457,
+      "t": 9,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 148442,
+      "b": 178503,
+      "t": 27,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 148444,
+      "b": 153210,
+      "t": 7,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 148444,
+      "b": 158222,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 148444,
+      "b": 164252,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 148444,
+      "b": 168457,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 148541,
+      "b": 164252,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 153961,
+      "b": 167337,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 157070,
+      "b": 169458,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 158222,
+      "b": 158311,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 158283,
+      "b": 188835,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 165045,
+      "b": 178503,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 165048,
+      "b": 168457,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 165048,
+      "b": 178503,
+      "t": 12,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 165048,
+      "b": 201823,
+      "t": 4,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 170536,
+      "b": 184832,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 178503,
+      "b": 201823,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 181604,
+      "b": 201645,
+      "t": 3,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 182282,
+      "b": 188868,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 188833,
+      "b": 188834,
+      "t": 10,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 188833,
+      "b": 188835,
+      "t": 5,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 188868,
+      "b": 190879,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 190599,
+      "b": 190600,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 190878,
+      "b": 190879,
+      "t": 4,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 190878,
+      "b": 201823,
+      "t": 3,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

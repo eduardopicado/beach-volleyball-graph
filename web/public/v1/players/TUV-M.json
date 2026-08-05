@@ -1,0 +1,55 @@
+{
+  "country": "TUV",
+  "gender": "M",
+  "players": [
+    {
+      "id": 160547,
+      "name": "Jackson Vailine",
+      "dob": "1987-10-28",
+      "height": 173,
+      "weight": 64
+    },
+    {
+      "id": 161781,
+      "name": "Saaga Malosa",
+      "dob": "1997-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 165882,
+      "name": "Ata Taunteang Biira",
+      "dob": "1999-05-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171788,
+      "name": "Ampelosa Luka",
+      "dob": "1999-12-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 177443,
+      "name": "Dartagnan Lameko Loota",
+      "dob": "1999-10-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190080,
+      "name": "Ampex Isaac",
+      "dob": "1997-01-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190081,
+      "name": "Saaga Malosa",
+      "dob": "1998-02-14",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

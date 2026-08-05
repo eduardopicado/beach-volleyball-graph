@@ -3,6 +3,12 @@
 # Deliberately does not hit the FIVB API — pull requests should not generate
 # outbound traffic to a free third-party service on every push. The scheduled
 # deploy workflow is the only thing that talks to VIS.
+#
+# The full build (not just `vite build`) is possible here, prerender included,
+# because `web/public/v1/` is committed data now rather than something only
+# `ingest` produces — a PR checkout already has real data to build and
+# prerender against, so this is genuine coverage of the prerender step, not a
+# stub that skips it.
 
 name: CI
 
@@ -25,5 +31,5 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
-      - name: Build site (without data)
-        run: npx vite build
+      - name: Build site
+        run: npm run build

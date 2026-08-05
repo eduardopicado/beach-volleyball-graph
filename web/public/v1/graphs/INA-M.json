@@ -1,0 +1,634 @@
+{
+  "country": "INA",
+  "countryName": "Indonesia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100041,
+      "name": "Muchammad \"Mufid\" Nurmufid",
+      "short": "Nurmufid",
+      "tournaments": 31,
+      "first": 1993,
+      "last": 1997
+    },
+    {
+      "id": 100042,
+      "name": "Akhmad \"Didik\" Junaidi",
+      "short": "Junaidi",
+      "tournaments": 4,
+      "first": 1993,
+      "last": 1995
+    },
+    {
+      "id": 100640,
+      "name": "Markoji \"Koji\" Markoji",
+      "short": "Markoji",
+      "tournaments": 28,
+      "first": 1994,
+      "last": 1997
+    },
+    {
+      "id": 101191,
+      "name": "Anjas Asmara",
+      "short": "Asmara",
+      "tournaments": 12,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 101192,
+      "name": "Agung Bayu Krisnanto",
+      "short": "Bayu",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101193,
+      "name": "Gunarto Gunarto",
+      "short": "Gunarto",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101195,
+      "name": "Agus Salim",
+      "short": "Salim",
+      "tournaments": 24,
+      "first": 1995,
+      "last": 2006
+    },
+    {
+      "id": 101196,
+      "name": "Irilkhum \"Iril\" Sofana",
+      "short": "Sofana",
+      "tournaments": 13,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 101197,
+      "name": "Supri Yono",
+      "short": "Supriyono",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101198,
+      "name": "Zainal Zainal",
+      "short": "Zainal",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101240,
+      "name": "Agung Mariambang",
+      "short": "Agung",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101241,
+      "name": "Iwan Sumoyo",
+      "short": "Iwan",
+      "tournaments": 12,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 101636,
+      "name": "Supriadi Supriadi",
+      "short": "Supriadi",
+      "tournaments": 10,
+      "first": 1996,
+      "last": 2006
+    },
+    {
+      "id": 101637,
+      "name": "Arief Irawan",
+      "short": "Irawan",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101638,
+      "name": "Suhardi Suhardi",
+      "short": "Suhardi",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101639,
+      "name": "Puji Pujianto",
+      "short": "Pujianto",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101642,
+      "name": "Supriyono Supriyono",
+      "short": "Supriyono",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101643,
+      "name": "Alpinus Bansaleng O.",
+      "short": "Bansaleng O.",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101649,
+      "name": "Leonard Samhard Pascoal",
+      "short": "Samhard Pascoal",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101650,
+      "name": "Pius A.S. Janwarin",
+      "short": "Janwarin",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 103844,
+      "name": "Andi Ardiansyam",
+      "short": "Ardiansyam",
+      "tournaments": 18,
+      "first": 2002,
+      "last": 2008
+    },
+    {
+      "id": 118535,
+      "name": "Andy Ardiyansah",
+      "short": "Andy",
+      "tournaments": 5,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 118536,
+      "name": "Koko Prasetyo Darkuncoro",
+      "short": "Koko",
+      "tournaments": 27,
+      "first": 2002,
+      "last": 2018
+    },
+    {
+      "id": 119681,
+      "name": "Agung Santoso",
+      "short": "Agung",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2009
+    },
+    {
+      "id": 119682,
+      "name": "Suratna Suratna",
+      "short": "Suratna",
+      "tournaments": 6,
+      "first": 2007,
+      "last": 2010
+    },
+    {
+      "id": 125616,
+      "name": "Dian Putra Santosa",
+      "short": "Dian",
+      "tournaments": 5,
+      "first": 2009,
+      "last": 2014
+    },
+    {
+      "id": 125617,
+      "name": "Naci Subagja",
+      "short": "Naci",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 135424,
+      "name": "Fahriansyah Fahriansyah",
+      "short": "Fahri",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2015
+    },
+    {
+      "id": 135481,
+      "name": "Ade Rachmawan",
+      "short": "Candra",
+      "tournaments": 18,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 142853,
+      "name": "Rendy Licardo",
+      "short": "Rendy Verdian",
+      "tournaments": 5,
+      "first": 2013,
+      "last": 2022
+    },
+    {
+      "id": 142854,
+      "name": "Mohammad Ashfiya",
+      "short": "Ashfiya",
+      "tournaments": 21,
+      "first": 2013,
+      "last": 2023
+    },
+    {
+      "id": 154704,
+      "name": "Gilang Ramadhan",
+      "short": "Gilang",
+      "tournaments": 12,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 154705,
+      "name": "Danangsyah Pribadi",
+      "short": "Danang",
+      "tournaments": 21,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 161378,
+      "name": "Ilham Akbar",
+      "short": "Ilham",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161480,
+      "name": "Muchamad Fauzi Setiawan",
+      "short": "Fauzi",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 163782,
+      "name": "Imtaq Shihab",
+      "short": "Imtaq",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 167130,
+      "name": "Bintang Akbar",
+      "short": "Bintang",
+      "tournaments": 9,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 167131,
+      "name": "Danang Herlambang",
+      "short": "Danang",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167188,
+      "name": "Yosi Firnanda",
+      "short": "Yosi",
+      "tournaments": 7,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 175433,
+      "name": "I Ketut Ardana",
+      "short": "Ardana",
+      "tournaments": 3,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 175434,
+      "name": "YOGI HERMAWAN",
+      "short": "YOGI",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 199950,
+      "name": "Sofyan Rachman Efendi",
+      "short": "Sofyan",
+      "tournaments": 8,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 217279,
+      "name": "Imam Ahmad Faisal",
+      "short": "Imam",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 229191,
+      "name": "Fairuz Bayhaqli",
+      "short": "Fairuz",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100041,
+      "b": 100042,
+      "t": 3,
+      "f": 1993,
+      "l": 1993
+    },
+    {
+      "a": 100041,
+      "b": 100640,
+      "t": 28,
+      "f": 1994,
+      "l": 1997
+    },
+    {
+      "a": 100042,
+      "b": 101195,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101191,
+      "b": 101198,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101191,
+      "b": 101241,
+      "t": 11,
+      "f": 1996,
+      "l": 1999
+    },
+    {
+      "a": 101192,
+      "b": 101193,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101195,
+      "b": 101196,
+      "t": 12,
+      "f": 1996,
+      "l": 1999
+    },
+    {
+      "a": 101195,
+      "b": 101636,
+      "t": 4,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 101195,
+      "b": 118536,
+      "t": 7,
+      "f": 2002,
+      "l": 2005
+    },
+    {
+      "a": 101196,
+      "b": 101197,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101240,
+      "b": 101241,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 101636,
+      "b": 101637,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101636,
+      "b": 103844,
+      "t": 5,
+      "f": 2002,
+      "l": 2005
+    },
+    {
+      "a": 101638,
+      "b": 101639,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101642,
+      "b": 101643,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101649,
+      "b": 101650,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 103844,
+      "b": 118536,
+      "t": 13,
+      "f": 2006,
+      "l": 2008
+    },
+    {
+      "a": 118535,
+      "b": 118536,
+      "t": 5,
+      "f": 2007,
+      "l": 2010
+    },
+    {
+      "a": 118536,
+      "b": 135481,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 118536,
+      "b": 154705,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 119681,
+      "b": 119682,
+      "t": 2,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 119681,
+      "b": 125617,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 119682,
+      "b": 125616,
+      "t": 4,
+      "f": 2009,
+      "l": 2010
+    },
+    {
+      "a": 125616,
+      "b": 135424,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 135424,
+      "b": 142854,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 135481,
+      "b": 142853,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 135481,
+      "b": 142854,
+      "t": 16,
+      "f": 2017,
+      "l": 2022
+    },
+    {
+      "a": 142853,
+      "b": 142854,
+      "t": 2,
+      "f": 2013,
+      "l": 2014
+    },
+    {
+      "a": 142853,
+      "b": 154704,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 142853,
+      "b": 161480,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 142854,
+      "b": 154705,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 154704,
+      "b": 154705,
+      "t": 11,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 154705,
+      "b": 167188,
+      "t": 6,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 161378,
+      "b": 163782,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 167130,
+      "b": 167131,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167130,
+      "b": 199950,
+      "t": 8,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 167188,
+      "b": 175433,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 175433,
+      "b": 175434,
+      "t": 2,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 217279,
+      "b": 229191,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

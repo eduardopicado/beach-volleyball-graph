@@ -1,0 +1,34 @@
+{
+  "country": "TOG",
+  "gender": "M",
+  "players": [
+    {
+      "id": 139976,
+      "name": "Kossi Edoe Apezoumon",
+      "dob": "1993-10-24",
+      "height": 183,
+      "weight": 74
+    },
+    {
+      "id": 139977,
+      "name": "Kossi Antoine Agbegninoli",
+      "dob": "1993-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 177967,
+      "name": "Kuamivi Achille Samani",
+      "dob": "1997-05-10",
+      "height": 190,
+      "weight": 90
+    },
+    {
+      "id": 177968,
+      "name": "Koffi Abraham Kotoka",
+      "dob": "1996-10-04",
+      "height": 179,
+      "weight": 78
+    }
+  ]
+}

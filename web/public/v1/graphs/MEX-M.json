@@ -1,0 +1,1615 @@
+{
+  "country": "MEX",
+  "countryName": "Mexico",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100399,
+      "name": "Michael \"Mike\" Garcia Jurado",
+      "short": "Garcia",
+      "tournaments": 6,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 100513,
+      "name": "Victor Manuel Espiricueta Amarillas",
+      "short": "Espericueta",
+      "tournaments": 3,
+      "first": 1994,
+      "last": 1997
+    },
+    {
+      "id": 100514,
+      "name": "Josè Manuel \"Pepe\" Vallejo Rodarte",
+      "short": "Vallejo",
+      "tournaments": 8,
+      "first": 1994,
+      "last": 2005
+    },
+    {
+      "id": 100642,
+      "name": "Rafael Garcia Lopez",
+      "short": "Garcia",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 100643,
+      "name": "Juan Alberto Rodriguez Ibarra",
+      "short": "Ibarra",
+      "tournaments": 50,
+      "first": 1994,
+      "last": 2005
+    },
+    {
+      "id": 100736,
+      "name": "Salvador Bernal",
+      "short": "Bernal",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 100738,
+      "name": "Humberto Lauro Torres Gonzalez",
+      "short": "Humberto",
+      "tournaments": 5,
+      "first": 1995,
+      "last": 1996
+    },
+    {
+      "id": 100852,
+      "name": "Alfonso \"Kiss\" Jackson Avina",
+      "short": "Jackson",
+      "tournaments": 15,
+      "first": 1987,
+      "last": 1999
+    },
+    {
+      "id": 101038,
+      "name": "... Astorga",
+      "short": "Astorga",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101064,
+      "name": "Juan Carlos Guevara",
+      "short": "Guevara",
+      "tournaments": 1,
+      "first": 1994,
+      "last": 1994
+    },
+    {
+      "id": 101069,
+      "name": "Ruperto Jimenez",
+      "short": "Jimenez",
+      "tournaments": 2,
+      "first": 1987,
+      "last": 2005
+    },
+    {
+      "id": 101091,
+      "name": "... Niebla",
+      "short": "Niebla",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101093,
+      "name": "... Ortega",
+      "short": "Ortega",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101148,
+      "name": "... Quintero",
+      "short": "Quintero",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101158,
+      "name": "... Da Silva",
+      "short": "Da Silva",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101171,
+      "name": "... Herrera",
+      "short": "Herrera",
+      "tournaments": 1,
+      "first": 1987,
+      "last": 1987
+    },
+    {
+      "id": 101410,
+      "name": "Gerardo Martinez",
+      "short": "Martinez G.",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1999
+    },
+    {
+      "id": 101793,
+      "name": "Juan Carlos \"Flaco\" Razo Guevara",
+      "short": "Razo",
+      "tournaments": 7,
+      "first": 1999,
+      "last": 2005
+    },
+    {
+      "id": 102052,
+      "name": "Alberto Bueso Osuna",
+      "short": "Bueso Osuna",
+      "tournaments": 5,
+      "first": 1999,
+      "last": 2002
+    },
+    {
+      "id": 102137,
+      "name": "Joel Sotelo Villalobos",
+      "short": "Sotelo",
+      "tournaments": 42,
+      "first": 1998,
+      "last": 2003
+    },
+    {
+      "id": 102570,
+      "name": "Rafael \"Rana\" Venegas Martinez",
+      "short": "Venegas",
+      "tournaments": 2,
+      "first": 1999,
+      "last": 2000
+    },
+    {
+      "id": 102571,
+      "name": "Juan Manuel Revuelta Lara",
+      "short": "Revueltas",
+      "tournaments": 2,
+      "first": 1999,
+      "last": 2011
+    },
+    {
+      "id": 102572,
+      "name": "Adrian Mendoza Champion",
+      "short": "Mendoza",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 102573,
+      "name": "Octavio \"Bandido\" Arellano Chavez",
+      "short": "Arellano",
+      "tournaments": 2,
+      "first": 1999,
+      "last": 2000
+    },
+    {
+      "id": 102574,
+      "name": "Fernando \"Bandido\" Garcia Barrera",
+      "short": "Garcia Barrera",
+      "tournaments": 1,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 102575,
+      "name": "Tomas \"Cucaracha\" Hernandez Arreola",
+      "short": "Hernandez",
+      "tournaments": 15,
+      "first": 1999,
+      "last": 2007
+    },
+    {
+      "id": 102970,
+      "name": "Cesar \"Apache\" Perez",
+      "short": "Perez",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2004
+    },
+    {
+      "id": 102971,
+      "name": "Juan Rodriguez",
+      "short": "Rodriguez \"Flago\"",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102972,
+      "name": "Arturo Rodriguez",
+      "short": "Rodriguez",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102973,
+      "name": "Aldo Miramontes",
+      "short": "Miramontes",
+      "tournaments": 65,
+      "first": 2000,
+      "last": 2014
+    },
+    {
+      "id": 102974,
+      "name": "Oscar Alberto Cardenas Rodriguez",
+      "short": "Carsenas",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102977,
+      "name": "Carlos Andres \"Pata\" Ayala Romero",
+      "short": "Ayala",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102978,
+      "name": "Ernesto Octavio \" Neto\" Romero Franco",
+      "short": "Franco",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 103284,
+      "name": "Ivan Contreras",
+      "short": "Contreras",
+      "tournaments": 5,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103699,
+      "name": "Alberto Corza Espinosa",
+      "short": "Corza",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103700,
+      "name": "Salvador Cedeño Grijalba",
+      "short": "Cedeño",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103944,
+      "name": "Erik Rojo",
+      "short": "Rojo",
+      "tournaments": 2,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 103945,
+      "name": "Rodolfo Lombardo Ontiveros",
+      "short": "Ontiveros",
+      "tournaments": 110,
+      "first": 2002,
+      "last": 2021
+    },
+    {
+      "id": 104106,
+      "name": "Arturo Flores",
+      "short": "Flores",
+      "tournaments": 6,
+      "first": 2002,
+      "last": 2006
+    },
+    {
+      "id": 104107,
+      "name": "Fredi Cardenas",
+      "short": "Cardenas",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104509,
+      "name": "Juan Ramón Virgen Pulido",
+      "short": "Virgen",
+      "tournaments": 198,
+      "first": 2003,
+      "last": 2024
+    },
+    {
+      "id": 104510,
+      "name": "Michel Mokondoko",
+      "short": "Mokondoko",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 104718,
+      "name": "Ulises Ontiveros",
+      "short": "Ontiveros",
+      "tournaments": 18,
+      "first": 2004,
+      "last": 2015
+    },
+    {
+      "id": 105160,
+      "name": "Raul Alejandro Diaz Ramirez Garcia",
+      "short": "Diaz Garcia",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 112986,
+      "name": "Israel Villalpando",
+      "short": "Villalpando",
+      "tournaments": 2,
+      "first": 2004,
+      "last": 2005
+    },
+    {
+      "id": 117036,
+      "name": "Hector Rojo",
+      "short": "Rojo",
+      "tournaments": 3,
+      "first": 2005,
+      "last": 2006
+    },
+    {
+      "id": 117037,
+      "name": "Pablo Guzman",
+      "short": "Guzman",
+      "tournaments": 4,
+      "first": 2005,
+      "last": 2006
+    },
+    {
+      "id": 117211,
+      "name": "Mario Becerra",
+      "short": "Becerra",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 117217,
+      "name": "Jose Martell",
+      "short": "Martell",
+      "tournaments": 11,
+      "first": 2000,
+      "last": 2003
+    },
+    {
+      "id": 117643,
+      "name": "Malik Colosio",
+      "short": "Colosio",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117644,
+      "name": "carlos islas",
+      "short": "Islas",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117645,
+      "name": "Jesús Vallejo",
+      "short": "Vallejo J.",
+      "tournaments": 3,
+      "first": 2005,
+      "last": 2015
+    },
+    {
+      "id": 117646,
+      "name": "Marco Macias",
+      "short": "Macias",
+      "tournaments": 5,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 117647,
+      "name": "Salomón Sarfati",
+      "short": "Sarfati",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2015
+    },
+    {
+      "id": 117648,
+      "name": "Alberto Rill",
+      "short": "Rill",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117649,
+      "name": "Salvador Becherano",
+      "short": "Becherano",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117650,
+      "name": "josé Arias",
+      "short": "Arias",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117685,
+      "name": "Mauricio Morales",
+      "short": "Morales",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117690,
+      "name": "Jose Antonio Corominas",
+      "short": "Corominas",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 119915,
+      "name": "Jorge Barajas",
+      "short": "Barajas",
+      "tournaments": 7,
+      "first": 2009,
+      "last": 2023
+    },
+    {
+      "id": 119918,
+      "name": "Juan Arriola",
+      "short": "Arriola",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 119928,
+      "name": "Juan Revuelta",
+      "short": "Revuelta",
+      "tournaments": 6,
+      "first": 2011,
+      "last": 2015
+    },
+    {
+      "id": 120797,
+      "name": "Jesus Salas",
+      "short": "Salas",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120798,
+      "name": "Jesus Valdes",
+      "short": "Valdes",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2009
+    },
+    {
+      "id": 125551,
+      "name": "Primo Arturo Borja Correa",
+      "short": "Borja",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 134322,
+      "name": "Ricardo Galindo Jaramillo",
+      "short": "Galindo",
+      "tournaments": 15,
+      "first": 2011,
+      "last": 2024
+    },
+    {
+      "id": 135778,
+      "name": "Mauricio Lopez",
+      "short": "Lopez",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 135940,
+      "name": "Mario Celedon",
+      "short": "Celedon",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 136972,
+      "name": "Irving Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 138891,
+      "name": "Mario Gaytan",
+      "short": "Gaytan",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139701,
+      "name": "Alan Gabriel Martinez",
+      "short": "Martinez",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 142885,
+      "name": "Miguel Angel Cardenas",
+      "short": "Cardenas",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142997,
+      "name": "Luis Gerardo Bojorquez",
+      "short": "Bojorquez",
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 145128,
+      "name": "Mario Barragan Medel",
+      "short": "Barragan",
+      "tournaments": 3,
+      "first": 2014,
+      "last": 2017
+    },
+    {
+      "id": 145129,
+      "name": "Julio Cesar Manrique Espejel",
+      "short": "Manrique",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145618,
+      "name": "Jesus Gerardo Rodriguez Gonzalez",
+      "short": "Mex",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 145619,
+      "name": "Luis Fernando Romero Rodriguez",
+      "short": "Mex",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146320,
+      "name": "Gonzalo Chavez Cancino",
+      "short": "Chavez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146321,
+      "name": "Emilio Gonzalez Betancourt",
+      "short": "Gonzalez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146323,
+      "name": "Jose Juan Serrano Santana",
+      "short": "Mex",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146324,
+      "name": "Arriola Miranda Gerardo Miguel",
+      "short": "Arriola",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146328,
+      "name": "Miguel Angel Cardenas Valdez",
+      "short": "Cardenas",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146997,
+      "name": "Jose Jurado Valencia",
+      "short": "Jurado",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147038,
+      "name": "Wilfrido Arturo Martinez Vinagre",
+      "short": "Martinez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147039,
+      "name": "Jose Angel Cardenas Valdez",
+      "short": "Cardenas",
+      "tournaments": 8,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 147042,
+      "name": "Miguel Verduzco Castro",
+      "short": "Verduzco",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147044,
+      "name": "Josue Gaston Gaxiola Leyva",
+      "short": "Gaxiola",
+      "tournaments": 18,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 147045,
+      "name": "Jose Luis Rubio Camargo",
+      "short": "Rubio",
+      "tournaments": 17,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 147049,
+      "name": "Carlos Eduardo Hernandez Marquez",
+      "short": "Hernandez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147834,
+      "name": "Cuauhtemoc Cazarrubias Rios",
+      "short": "Cazarrubias",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147836,
+      "name": "Cesar David Velasco Mendez",
+      "short": "Velasco",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 149247,
+      "name": "Jesus Ernesto Serrano Aragon",
+      "short": "Serrano",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 154208,
+      "name": "Edwin Valencia",
+      "short": "Valencia",
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 154209,
+      "name": "Elvis Perez",
+      "short": "Pérez",
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 157371,
+      "name": "Raymond Stephens Zamora",
+      "short": "Stephens",
+      "tournaments": 10,
+      "first": 2014,
+      "last": 2021
+    },
+    {
+      "id": 157373,
+      "name": "Miguel Sarabia Delgado",
+      "short": "Sarabia",
+      "tournaments": 60,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 160595,
+      "name": "Bruno Ricardo Molina Corral",
+      "short": "Molina",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 164443,
+      "name": "Juan Jesus Espinoza Corona",
+      "short": "Espinoza",
+      "tournaments": 6,
+      "first": 2019,
+      "last": 2022
+    },
+    {
+      "id": 164447,
+      "name": "Gabriel Cruz Mendoza",
+      "short": "Cruz",
+      "tournaments": 9,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 172975,
+      "name": "Isaias Oziel Aguirre Gallegos",
+      "short": "Aguirre",
+      "tournaments": 6,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 176513,
+      "name": "Habid Chay Álvarez",
+      "short": "Chay",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 176533,
+      "name": "Elian Yuriel Yépez Quintana",
+      "short": "Yepez",
+      "tournaments": 2,
+      "first": 2019,
+      "last": 2020
+    },
+    {
+      "id": 180988,
+      "name": "Alexander Virgen",
+      "short": "Virgen",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 180989,
+      "name": "Elieser Martinez",
+      "short": "Martinez",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 190082,
+      "name": "Ines Antonio Vargas Lares",
+      "short": "Lares",
+      "tournaments": 9,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 209885,
+      "name": "Carlos Andres Ayala Herrera",
+      "short": "Carlos Andres",
+      "tournaments": 9,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 212330,
+      "name": "Eduardo Escoto Castro",
+      "short": "Escoto",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 212331,
+      "name": "Jose Luis Bojorquez Bojorquez",
+      "short": "Bojorquez",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 212332,
+      "name": "Gerardo Enciso",
+      "short": "Gutierrez",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 217554,
+      "name": "Jorman Osuna Valdez",
+      "short": "Osuna",
+      "tournaments": 6,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 227155,
+      "name": "EITHAN º MOLERIO PORTILLO",
+      "short": "MOLERIO",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227884,
+      "name": "Luis Angel Perez Castellanos",
+      "short": "Perez",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227885,
+      "name": "Luis Gabriel Lopez de la Cruz",
+      "short": "Lopez",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230180,
+      "name": "Axel Ortiz Martínez",
+      "short": "Ortiz",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 230182,
+      "name": "Daniel Barajas Vázquez",
+      "short": "Barajas",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100399,
+      "b": 100643,
+      "t": 6,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 100513,
+      "b": 100514,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100513,
+      "b": 100738,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100513,
+      "b": 100852,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 100514,
+      "b": 100736,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 100514,
+      "b": 100738,
+      "t": 4,
+      "f": 1995,
+      "l": 1996
+    },
+    {
+      "a": 100514,
+      "b": 102573,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 100514,
+      "b": 117645,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 100642,
+      "b": 100643,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100643,
+      "b": 100852,
+      "t": 2,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100643,
+      "b": 101064,
+      "t": 1,
+      "f": 1994,
+      "l": 1994
+    },
+    {
+      "a": 100643,
+      "b": 101793,
+      "t": 4,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 100643,
+      "b": 102052,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 100643,
+      "b": 102137,
+      "t": 23,
+      "f": 1998,
+      "l": 2000
+    },
+    {
+      "a": 100643,
+      "b": 102575,
+      "t": 7,
+      "f": 2003,
+      "l": 2005
+    },
+    {
+      "a": 100643,
+      "b": 103284,
+      "t": 5,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 100852,
+      "b": 101171,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 100852,
+      "b": 101410,
+      "t": 2,
+      "f": 1996,
+      "l": 1999
+    },
+    {
+      "a": 100852,
+      "b": 102137,
+      "t": 9,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 101038,
+      "b": 101069,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 101069,
+      "b": 117650,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 101091,
+      "b": 101093,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 101148,
+      "b": 101158,
+      "t": 1,
+      "f": 1987,
+      "l": 1987
+    },
+    {
+      "a": 101793,
+      "b": 102570,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 101793,
+      "b": 102973,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 101793,
+      "b": 117211,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102052,
+      "b": 102575,
+      "t": 4,
+      "f": 1999,
+      "l": 2002
+    },
+    {
+      "a": 102137,
+      "b": 117217,
+      "t": 10,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 102570,
+      "b": 102970,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102571,
+      "b": 102572,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102571,
+      "b": 134322,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 102573,
+      "b": 102574,
+      "t": 1,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102575,
+      "b": 117036,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 102575,
+      "b": 117646,
+      "t": 3,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 102970,
+      "b": 102973,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 102971,
+      "b": 102972,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102973,
+      "b": 102974,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102973,
+      "b": 104509,
+      "t": 61,
+      "f": 2007,
+      "l": 2012
+    },
+    {
+      "a": 102973,
+      "b": 134322,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 102977,
+      "b": 102978,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 103699,
+      "b": 103700,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 103944,
+      "b": 103945,
+      "t": 2,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 103945,
+      "b": 104509,
+      "t": 93,
+      "f": 2013,
+      "l": 2021
+    },
+    {
+      "a": 103945,
+      "b": 104718,
+      "t": 15,
+      "f": 2005,
+      "l": 2007
+    },
+    {
+      "a": 104106,
+      "b": 104107,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 104106,
+      "b": 104718,
+      "t": 2,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 104106,
+      "b": 112986,
+      "t": 1,
+      "f": 2004,
+      "l": 2004
+    },
+    {
+      "a": 104106,
+      "b": 117646,
+      "t": 2,
+      "f": 2005,
+      "l": 2006
+    },
+    {
+      "a": 104509,
+      "b": 104510,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 104509,
+      "b": 104718,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 104509,
+      "b": 105160,
+      "t": 2,
+      "f": 2004,
+      "l": 2005
+    },
+    {
+      "a": 104509,
+      "b": 117037,
+      "t": 2,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 104509,
+      "b": 157373,
+      "t": 39,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 104718,
+      "b": 142997,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 112986,
+      "b": 117647,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117036,
+      "b": 117037,
+      "t": 2,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117211,
+      "b": 117217,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 117643,
+      "b": 117644,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117645,
+      "b": 117647,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 117645,
+      "b": 146324,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 117648,
+      "b": 117649,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117685,
+      "b": 117690,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 119915,
+      "b": 120798,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 119915,
+      "b": 134322,
+      "t": 4,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 119915,
+      "b": 164447,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 119918,
+      "b": 125551,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 119928,
+      "b": 134322,
+      "t": 5,
+      "f": 2011,
+      "l": 2015
+    },
+    {
+      "a": 119928,
+      "b": 146328,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 120797,
+      "b": 120798,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 134322,
+      "b": 172975,
+      "t": 5,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 135778,
+      "b": 135940,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 136972,
+      "b": 142885,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 138891,
+      "b": 139701,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 145128,
+      "b": 145129,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 145128,
+      "b": 160595,
+      "t": 2,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 145618,
+      "b": 145619,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146320,
+      "b": 146321,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146323,
+      "b": 149247,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146328,
+      "b": 146997,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 147038,
+      "b": 147049,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 147039,
+      "b": 147044,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 147039,
+      "b": 157371,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 147039,
+      "b": 164443,
+      "t": 6,
+      "f": 2019,
+      "l": 2022
+    },
+    {
+      "a": 147042,
+      "b": 157373,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 147044,
+      "b": 147045,
+      "t": 17,
+      "f": 2014,
+      "l": 2022
+    },
+    {
+      "a": 147834,
+      "b": 147836,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 154208,
+      "b": 154209,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 157371,
+      "b": 157373,
+      "t": 9,
+      "f": 2015,
+      "l": 2021
+    },
+    {
+      "a": 157373,
+      "b": 164447,
+      "t": 5,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 157373,
+      "b": 217554,
+      "t": 6,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 164447,
+      "b": 172975,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 176513,
+      "b": 176533,
+      "t": 2,
+      "f": 2019,
+      "l": 2020
+    },
+    {
+      "a": 180988,
+      "b": 180989,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 190082,
+      "b": 209885,
+      "t": 9,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 212330,
+      "b": 212331,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 212332,
+      "b": 227155,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 227884,
+      "b": 227885,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230180,
+      "b": 230182,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

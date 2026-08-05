@@ -1,0 +1,1609 @@
+{
+  "country": "TUR",
+  "countryName": "Türkiye",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 101368,
+      "name": "Emrah Aksoy",
+      "short": "Aksoy",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101369,
+      "name": "Mustafa Kenan Bengu",
+      "short": "Bengu",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101370,
+      "name": "Erdem Alpaslan",
+      "short": "Alpaslan",
+      "tournaments": 4,
+      "first": 1996,
+      "last": 1998
+    },
+    {
+      "id": 101371,
+      "name": "Metin Görgün",
+      "short": "Görgün",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101372,
+      "name": "Muhammet Görken",
+      "short": "Görken",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101373,
+      "name": "Hanikoglu Hakan",
+      "short": "Hakan",
+      "tournaments": 3,
+      "first": 1996,
+      "last": 1998
+    },
+    {
+      "id": 101374,
+      "name": "Hopali Serdar",
+      "short": "Serdar",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101375,
+      "name": "Cengizhan I. Kartaltepe",
+      "short": "Kartaltepe",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101376,
+      "name": "Lale Aykut",
+      "short": "Aykut",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101377,
+      "name": "Ediz Lik",
+      "short": "Lik",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101378,
+      "name": "Akif Gokhan Oner",
+      "short": "Oner",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101379,
+      "name": "Ozdemir Baris",
+      "short": "Baris",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101380,
+      "name": "Ozçamli Ali Galip",
+      "short": "Galip",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101381,
+      "name": "Ozçelik Cahit",
+      "short": "Cahit",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101382,
+      "name": "Ali Peçen",
+      "short": "Peçen",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101383,
+      "name": "Vefa M. Simsek",
+      "short": "Simsek",
+      "tournaments": 4,
+      "first": 1996,
+      "last": 1998
+    },
+    {
+      "id": 101384,
+      "name": "Erkan Togan",
+      "short": "Togan",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101385,
+      "name": "Yaman Senol",
+      "short": "Senol",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101387,
+      "name": "Metehan Kartaltepe",
+      "short": "Kartaltepe",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101388,
+      "name": "Gürsel Yesiltas",
+      "short": "Yesiltas",
+      "tournaments": 2,
+      "first": 1996,
+      "last": 1997
+    },
+    {
+      "id": 101988,
+      "name": "Körfez Hasan",
+      "short": "Hasan",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 101989,
+      "name": "Akyeli Yalçin",
+      "short": "Yalçin",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 101990,
+      "name": "Kara Haldun",
+      "short": "Haldun",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102002,
+      "name": "Kandemir Bülent",
+      "short": "Bülent",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102048,
+      "name": "Hizal Umit",
+      "short": "Umit",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102049,
+      "name": "Utun Bülent",
+      "short": "Bülent",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102478,
+      "name": "Serhat Tokel",
+      "short": "Tokel",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102479,
+      "name": "Seref Tekin",
+      "short": "Tekin",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102480,
+      "name": "Hakan Ozkan",
+      "short": "Ozkan",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102488,
+      "name": "Kerimhan Kaynak",
+      "short": "Kaynak",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102489,
+      "name": "Mehmet Sezen",
+      "short": "Sezen",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102490,
+      "name": "Ahmet Sulhan",
+      "short": "Sulhan",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102491,
+      "name": "Hasan Körfez",
+      "short": "Körfez",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102492,
+      "name": "Akif M. \"Gasman\" Gürgen",
+      "short": "Gürgen",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102493,
+      "name": "Baris \"Wolf\" Köksai",
+      "short": "Köksai",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102494,
+      "name": "Muzaffer Mete Dalan",
+      "short": "Dalan",
+      "tournaments": 4,
+      "first": 1998,
+      "last": 2000
+    },
+    {
+      "id": 102495,
+      "name": "Örsan Tutas",
+      "short": "Tutas",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102496,
+      "name": "Ertugrul Özder",
+      "short": "Özder Ertugrul",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 2000
+    },
+    {
+      "id": 102497,
+      "name": "Hayati Fandakli",
+      "short": "Fandakli",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102498,
+      "name": "Semih Gitak",
+      "short": "Gitak",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102499,
+      "name": "Sait Dogruyol",
+      "short": "Dogruyol",
+      "tournaments": 1,
+      "first": 1998,
+      "last": 1998
+    },
+    {
+      "id": 102729,
+      "name": "Remzi Onur Özder",
+      "short": "Özder Remzi",
+      "tournaments": 2,
+      "first": 1999,
+      "last": 1999
+    },
+    {
+      "id": 125212,
+      "name": "Tayga Baltacioglu",
+      "short": "Baltacioglu",
+      "tournaments": 2,
+      "first": 2009,
+      "last": 2010
+    },
+    {
+      "id": 125215,
+      "name": "Anil Paltaoglu",
+      "short": "Anil",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125216,
+      "name": "Fatih Cihan",
+      "short": "Fatih",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125220,
+      "name": "Ahmetcan Karamete",
+      "short": "Ahmetcan",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125221,
+      "name": "Caner Ismet Söylemez",
+      "short": "Caner",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125222,
+      "name": "Hakan Çolpan",
+      "short": "Hakan",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 132172,
+      "name": "Engin Özbek",
+      "short": "Özbek",
+      "tournaments": 11,
+      "first": 2010,
+      "last": 2019
+    },
+    {
+      "id": 132173,
+      "name": "Murat Giginoglu",
+      "short": "Murat G.",
+      "tournaments": 150,
+      "first": 2010,
+      "last": 2021
+    },
+    {
+      "id": 132175,
+      "name": "Selçuk Sekerci",
+      "short": "Sekerci",
+      "tournaments": 104,
+      "first": 2010,
+      "last": 2021
+    },
+    {
+      "id": 132253,
+      "name": "Volkan Gögtepe",
+      "short": "Gögtepe V.",
+      "tournaments": 107,
+      "first": 2010,
+      "last": 2021
+    },
+    {
+      "id": 133317,
+      "name": "Ali Candan",
+      "short": "Ali",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133322,
+      "name": "Muharrem Akkemik",
+      "short": "Muharrem",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133323,
+      "name": "Taha Altinöz",
+      "short": "Taha",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133324,
+      "name": "Safak Sezer",
+      "short": "Safak",
+      "tournaments": 5,
+      "first": 2010,
+      "last": 2018
+    },
+    {
+      "id": 133325,
+      "name": "Caner Turhan",
+      "short": "Caner",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133828,
+      "name": "Hakan Gögtepe",
+      "short": "Gögtepe H.",
+      "tournaments": 16,
+      "first": 2011,
+      "last": 2018
+    },
+    {
+      "id": 134792,
+      "name": "Emir Kavuzlu",
+      "short": "Kavuzlu",
+      "tournaments": 4,
+      "first": 2015,
+      "last": 2018
+    },
+    {
+      "id": 134833,
+      "name": "Soner Erdogmus",
+      "short": "Erdogmus",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 135868,
+      "name": "Nuri Sahin",
+      "short": "Sahin",
+      "tournaments": 18,
+      "first": 2011,
+      "last": 2012
+    },
+    {
+      "id": 141556,
+      "name": "Ersin Durgut",
+      "short": "Durgut, E.",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 142261,
+      "name": "Alkan Samet Aydogan",
+      "short": "Aydogan",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142262,
+      "name": "Enes Atli",
+      "short": "Atli",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142263,
+      "name": "Mehmet Rifat Kantarcioglu",
+      "short": "Kantarcioglu",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142264,
+      "name": "Kubilay Tuysuz",
+      "short": "Tuysuz",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 143825,
+      "name": "Ali Berke Sagir",
+      "short": "Sagir",
+      "tournaments": 13,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 144018,
+      "name": "Yasin Baysal",
+      "short": "Yasin B.",
+      "tournaments": 27,
+      "first": 2014,
+      "last": 2026
+    },
+    {
+      "id": 144381,
+      "name": "Kemal Sah",
+      "short": "Sah",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2016
+    },
+    {
+      "id": 144382,
+      "name": "Devrim Alibaba",
+      "short": "Alibaba",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2016
+    },
+    {
+      "id": 144383,
+      "name": "Mert Kurt",
+      "short": "Kurt",
+      "tournaments": 3,
+      "first": 2016,
+      "last": 2018
+    },
+    {
+      "id": 144384,
+      "name": "Safa Urlu",
+      "short": "Urlu",
+      "tournaments": 106,
+      "first": 2014,
+      "last": 2023
+    },
+    {
+      "id": 146272,
+      "name": "Hasan Huseyin Mermer",
+      "short": "Mermer",
+      "tournaments": 109,
+      "first": 2014,
+      "last": 2024
+    },
+    {
+      "id": 146300,
+      "name": "Burhan Zorluer",
+      "short": "Zorluer",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 146314,
+      "name": "Yigit Onayli",
+      "short": "Onayli",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146317,
+      "name": "Koray Baytemur",
+      "short": "Baytemur",
+      "tournaments": 9,
+      "first": 2016,
+      "last": 2019
+    },
+    {
+      "id": 146940,
+      "name": "Tomas Cercis Onder",
+      "short": "Onder",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146941,
+      "name": "Mehmet Yildiz",
+      "short": "Yildiz",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2016
+    },
+    {
+      "id": 150003,
+      "name": "Ali Osman Nurettin",
+      "short": "Nurettin",
+      "tournaments": 24,
+      "first": 2015,
+      "last": 2017
+    },
+    {
+      "id": 151151,
+      "name": "Mehmet Civgin",
+      "short": "Civgin",
+      "tournaments": 2,
+      "first": 2016,
+      "last": 2018
+    },
+    {
+      "id": 151277,
+      "name": "Burak Balibey",
+      "short": "Burak B.",
+      "tournaments": 15,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 152393,
+      "name": "Ibrahim Cadir",
+      "short": "Ibrahim C.",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 153492,
+      "name": "Anil Tatar",
+      "short": "Anil T.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 153493,
+      "name": "Bilal Tatar",
+      "short": "Bilal T.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 153725,
+      "name": "Dundar Yildirim",
+      "short": "Dundar Y.",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 154696,
+      "name": "Ali Cebeci",
+      "short": "Ali C.",
+      "tournaments": 10,
+      "first": 2016,
+      "last": 2019
+    },
+    {
+      "id": 154697,
+      "name": "Yusuf Özdemir",
+      "short": "Özdemir",
+      "tournaments": 56,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 156395,
+      "name": "İsmail Ayırıcı",
+      "short": "İsmail A.",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 156868,
+      "name": "Emirhan Ulutas",
+      "short": "Ulutas",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 156869,
+      "name": "Hasan Huseyin Yildirim",
+      "short": "Yildirim",
+      "tournaments": 4,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 161352,
+      "name": "Okan Savas",
+      "short": "Savas",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 162713,
+      "name": "Mecit Eryilmaz",
+      "short": "Mecit E.",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2018
+    },
+    {
+      "id": 163389,
+      "name": "Akay Calik",
+      "short": "Calik",
+      "tournaments": 5,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 163394,
+      "name": "Mustafa Susam",
+      "short": "Susam",
+      "tournaments": 9,
+      "first": 2018,
+      "last": 2023
+    },
+    {
+      "id": 168191,
+      "name": "Doğukan Ulu",
+      "short": "Doğukan U.",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 171885,
+      "name": "Necmi Ayberk Gulluk",
+      "short": "Gulluk",
+      "tournaments": 9,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 171886,
+      "name": "Batuhan Kuru",
+      "short": "Kuru",
+      "tournaments": 56,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 172986,
+      "name": "Eren Kanli",
+      "short": "Kanli",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 179502,
+      "name": "Furkan Ramazan Kaplan",
+      "short": "Kaplan",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 179503,
+      "name": "Sacit Kurt",
+      "short": "Kurt",
+      "tournaments": 26,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 179505,
+      "name": "Ahmet Can Tür",
+      "short": "Tür",
+      "tournaments": 9,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 179545,
+      "name": "Bahadir Utku Kesgin",
+      "short": "Kesgin",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 181431,
+      "name": "Emrah Akman",
+      "short": "Akman",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 202942,
+      "name": "Nevzat Kaan Erol",
+      "short": "Erol",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 204533,
+      "name": "Tuna Imdat",
+      "short": "Imdat",
+      "tournaments": 9,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 204534,
+      "name": "Barış GÜLDALI",
+      "short": "Barış G.",
+      "tournaments": 4,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 204653,
+      "name": "ONUR ÖZKOL",
+      "short": "ONUR Ö.",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 214342,
+      "name": "Polat Kemal Eser",
+      "short": "Polat Kemal Eser",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 234644,
+      "name": "Freddie Jude Foks",
+      "short": "Freddie J.",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 101368,
+      "b": 101376,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101368,
+      "b": 101377,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 101369,
+      "b": 101377,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101370,
+      "b": 101372,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101370,
+      "b": 101383,
+      "t": 2,
+      "f": 1997,
+      "l": 1998
+    },
+    {
+      "a": 101370,
+      "b": 102002,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 101371,
+      "b": 101385,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101373,
+      "b": 101384,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101373,
+      "b": 101385,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 101373,
+      "b": 102478,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 101374,
+      "b": 101380,
+      "t": 2,
+      "f": 1996,
+      "l": 1997
+    },
+    {
+      "a": 101375,
+      "b": 101378,
+      "t": 2,
+      "f": 1996,
+      "l": 1997
+    },
+    {
+      "a": 101376,
+      "b": 101988,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 101379,
+      "b": 101381,
+      "t": 2,
+      "f": 1996,
+      "l": 1997
+    },
+    {
+      "a": 101382,
+      "b": 101383,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101383,
+      "b": 101388,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 101387,
+      "b": 101388,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 101989,
+      "b": 101990,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 102048,
+      "b": 102049,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 102479,
+      "b": 102480,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102488,
+      "b": 102489,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102490,
+      "b": 102491,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102492,
+      "b": 102493,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102494,
+      "b": 102495,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102494,
+      "b": 102496,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102494,
+      "b": 102729,
+      "t": 2,
+      "f": 1999,
+      "l": 1999
+    },
+    {
+      "a": 102496,
+      "b": 102497,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 102498,
+      "b": 102499,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 125212,
+      "b": 125215,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125212,
+      "b": 133317,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 125216,
+      "b": 125222,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125220,
+      "b": 125221,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 132172,
+      "b": 132173,
+      "t": 3,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 132172,
+      "b": 134792,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 132172,
+      "b": 141556,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 132172,
+      "b": 143825,
+      "t": 5,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 132172,
+      "b": 146272,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 132173,
+      "b": 132175,
+      "t": 25,
+      "f": 2012,
+      "l": 2014
+    },
+    {
+      "a": 132173,
+      "b": 132253,
+      "t": 79,
+      "f": 2014,
+      "l": 2021
+    },
+    {
+      "a": 132173,
+      "b": 133828,
+      "t": 13,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 132173,
+      "b": 135868,
+      "t": 18,
+      "f": 2011,
+      "l": 2012
+    },
+    {
+      "a": 132173,
+      "b": 144384,
+      "t": 9,
+      "f": 2016,
+      "l": 2017
+    },
+    {
+      "a": 132173,
+      "b": 146272,
+      "t": 11,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 132175,
+      "b": 132253,
+      "t": 28,
+      "f": 2010,
+      "l": 2012
+    },
+    {
+      "a": 132175,
+      "b": 133324,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 132175,
+      "b": 144384,
+      "t": 25,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 132175,
+      "b": 146272,
+      "t": 24,
+      "f": 2014,
+      "l": 2015
+    },
+    {
+      "a": 133322,
+      "b": 133323,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 133324,
+      "b": 133325,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 133324,
+      "b": 150003,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 133828,
+      "b": 134792,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 133828,
+      "b": 151151,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 133828,
+      "b": 152393,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 134792,
+      "b": 144383,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 134833,
+      "b": 151277,
+      "t": 3,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 141556,
+      "b": 204653,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 142261,
+      "b": 142262,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142263,
+      "b": 142264,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 143825,
+      "b": 144384,
+      "t": 6,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 143825,
+      "b": 154696,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 143825,
+      "b": 154697,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 144018,
+      "b": 144384,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 144018,
+      "b": 150003,
+      "t": 20,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 144018,
+      "b": 151277,
+      "t": 4,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 144018,
+      "b": 153725,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 144018,
+      "b": 179505,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 144381,
+      "b": 144382,
+      "t": 2,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 144383,
+      "b": 146317,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 144384,
+      "b": 146272,
+      "t": 65,
+      "f": 2015,
+      "l": 2023
+    },
+    {
+      "a": 144384,
+      "b": 146314,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146272,
+      "b": 150003,
+      "t": 4,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 146272,
+      "b": 154697,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146272,
+      "b": 171886,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 146272,
+      "b": 179503,
+      "t": 6,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 146300,
+      "b": 146940,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146300,
+      "b": 146941,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146317,
+      "b": 151277,
+      "t": 7,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 146317,
+      "b": 153725,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 146940,
+      "b": 146941,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 151151,
+      "b": 156395,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 151277,
+      "b": 163389,
+      "t": 2,
+      "f": 2018,
+      "l": 2021
+    },
+    {
+      "a": 153492,
+      "b": 153493,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 153725,
+      "b": 168191,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 154696,
+      "b": 154697,
+      "t": 8,
+      "f": 2016,
+      "l": 2018
+    },
+    {
+      "a": 154696,
+      "b": 156869,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 154696,
+      "b": 172986,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 154697,
+      "b": 163394,
+      "t": 7,
+      "f": 2019,
+      "l": 2023
+    },
+    {
+      "a": 154697,
+      "b": 171886,
+      "t": 38,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 156868,
+      "b": 162713,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 156869,
+      "b": 162713,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 156869,
+      "b": 163394,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 161352,
+      "b": 163389,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163389,
+      "b": 181431,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 171885,
+      "b": 171886,
+      "t": 9,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 171886,
+      "b": 179503,
+      "t": 9,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 179502,
+      "b": 179545,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 179503,
+      "b": 179505,
+      "t": 6,
+      "f": 2022,
+      "l": 2025
+    },
+    {
+      "a": 179503,
+      "b": 204533,
+      "t": 5,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 179505,
+      "b": 204533,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 202942,
+      "b": 204534,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 202942,
+      "b": 214342,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 204533,
+      "b": 204534,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 204534,
+      "b": 214342,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 214342,
+      "b": 234644,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

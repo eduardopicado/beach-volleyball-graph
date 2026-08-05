@@ -1,0 +1,783 @@
+{
+  "country": "GRE",
+  "gender": "W",
+  "players": [
+    {
+      "id": 101829,
+      "name": "Vasiliki \"Vasso\" Karantasiou",
+      "dob": "1973-01-06",
+      "height": 182,
+      "weight": 72
+    },
+    {
+      "id": 101830,
+      "name": "Efrosyni \"Efi\" Sfyri",
+      "dob": "1971-01-08",
+      "height": 180,
+      "weight": 67
+    },
+    {
+      "id": 102708,
+      "name": "Slavroula \"Roula\" Theodorou",
+      "dob": "1981-10-17",
+      "height": 177,
+      "weight": 63
+    },
+    {
+      "id": 102709,
+      "name": "Efthalia Koutroumanidou",
+      "dob": "1982-10-07",
+      "height": 179,
+      "weight": 67
+    },
+    {
+      "id": 103051,
+      "name": "Polyxeni Kitsou",
+      "dob": "1972-03-31",
+      "height": 177,
+      "weight": 65
+    },
+    {
+      "id": 103052,
+      "name": "Fidanka Saparevska",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103080,
+      "name": "Anastasia-Maria Chounta",
+      "dob": "1978-01-13",
+      "height": 176,
+      "weight": 65
+    },
+    {
+      "id": 103081,
+      "name": "Emmanouela Skoula",
+      "dob": "1973-04-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103082,
+      "name": "Panagiota Spiliopoulou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103083,
+      "name": "Aikaterini Petroulaki",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103084,
+      "name": "Maria Tsiartsiani",
+      "dob": "1980-10-21",
+      "height": 180,
+      "weight": 68
+    },
+    {
+      "id": 103085,
+      "name": "Maria Lazaridou",
+      "dob": "1979-06-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103086,
+      "name": "Efi Rsychogyiou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103087,
+      "name": "Anna Nikolou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103088,
+      "name": "Eleftheria \"Ria\" Koukou",
+      "dob": "1979-03-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103089,
+      "name": "Rodi \"Rodi\" Ordoulidou",
+      "dob": "1979-05-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103090,
+      "name": "Katerina Vassilaki",
+      "dob": "1976-07-15",
+      "height": 180,
+      "weight": 75
+    },
+    {
+      "id": 103091,
+      "name": "Maria Plagiannakou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103280,
+      "name": "Aikaterini \"Katerina\" Nikolaidou",
+      "dob": "1976-12-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103479,
+      "name": "Chara Sakkoula",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103656,
+      "name": "Vasiliki Arvaniti",
+      "dob": "1985-03-17",
+      "height": 176,
+      "weight": 68
+    },
+    {
+      "id": 103934,
+      "name": "Elpida Tiktapanidou",
+      "dob": "1982-11-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103935,
+      "name": "Christina Paraskeyaidou",
+      "dob": "1984-08-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104008,
+      "name": "Areti Bouzounieraki",
+      "dob": "1985-06-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104009,
+      "name": "Faviola Kostami",
+      "dob": "1985-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104010,
+      "name": "Elisavet Kostami",
+      "dob": "1985-04-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104011,
+      "name": "Marianna Chounta",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104012,
+      "name": "Mili-Joanna Prokopiou",
+      "dob": "1979-03-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104013,
+      "name": "Ioanna Kouloumenta",
+      "dob": "1979-01-06",
+      "height": 172,
+      "weight": 60
+    },
+    {
+      "id": 104014,
+      "name": "Foteini Michou",
+      "dob": "1979-06-12",
+      "height": 172,
+      "weight": 63
+    },
+    {
+      "id": 104174,
+      "name": "Maria Chaskou",
+      "dob": "1985-04-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104175,
+      "name": "Chrisanthi Ifady",
+      "dob": "1985-04-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104280,
+      "name": "Maria Lyropoulou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104281,
+      "name": "Athina Dilaveri",
+      "dob": "1982-08-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104282,
+      "name": "Maria Lagiou",
+      "dob": "1977-10-14",
+      "height": 178,
+      "weight": 70
+    },
+    {
+      "id": 104383,
+      "name": "Flora Ioannidou",
+      "dob": "1985-11-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104687,
+      "name": "Kleio Petridou",
+      "dob": "1969-11-06",
+      "height": 177,
+      "weight": 63
+    },
+    {
+      "id": 104688,
+      "name": "Eleni Exindaveloni",
+      "dob": "1979-09-13",
+      "height": 170,
+      "weight": 56
+    },
+    {
+      "id": 104689,
+      "name": "Katerina Vasilaki",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105027,
+      "name": "Georgia Terzoglou",
+      "dob": "1988-07-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105029,
+      "name": "Foteini Tsantopoulou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115658,
+      "name": "Areti Teza",
+      "dob": "1980-04-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116719,
+      "name": "Ellina Domnidou",
+      "dob": "1991-02-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117116,
+      "name": "Foteini Ourania Papageorgiou",
+      "dob": "1981-02-16",
+      "height": 182,
+      "weight": 72
+    },
+    {
+      "id": 117909,
+      "name": "Maria Gkaragkouni",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117910,
+      "name": "Konstantina Nastou",
+      "dob": "1983-09-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117911,
+      "name": "Anastasia Kokkinou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118040,
+      "name": "Maria Papadaki",
+      "dob": "1982-04-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118041,
+      "name": "Anna Foteinou",
+      "dob": "1986-07-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118754,
+      "name": "Joanna Papageorgiou",
+      "dob": "1979-08-24",
+      "height": 183,
+      "weight": null
+    },
+    {
+      "id": 118755,
+      "name": "Christina Roubanis",
+      "dob": "1983-04-07",
+      "height": 181,
+      "weight": 60
+    },
+    {
+      "id": 118980,
+      "name": "Sofia Kosma",
+      "dob": "1993-11-15",
+      "height": 180,
+      "weight": 60
+    },
+    {
+      "id": 119249,
+      "name": "Anastasia Katzika",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119250,
+      "name": "Eleftheria Diamanti",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119347,
+      "name": "Athina Papafotiou",
+      "dob": "1989-08-23",
+      "height": 180,
+      "weight": 67
+    },
+    {
+      "id": 119351,
+      "name": "Athina Tasou",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120567,
+      "name": "Pigi Anna Metheniti",
+      "dob": "1992-05-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120568,
+      "name": "Maria Christina Magkanari",
+      "dob": "1992-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120769,
+      "name": "Elina Papadopoulou",
+      "dob": "1984-08-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122955,
+      "name": "Eydoxia Argiropoulou",
+      "dob": "1986-10-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123530,
+      "name": "Olga Malousari",
+      "dob": "1990-12-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123531,
+      "name": "Athina Tassou",
+      "dob": "1990-08-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125188,
+      "name": "Tereza Karavi",
+      "dob": "1992-01-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125189,
+      "name": "Christina Pasiali",
+      "dob": "1993-04-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125201,
+      "name": "Konstantina Moraitidou",
+      "dob": "1992-07-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132681,
+      "name": "Konstantina Vlachaki",
+      "dob": "1995-05-08",
+      "height": 180,
+      "weight": 66
+    },
+    {
+      "id": 132682,
+      "name": "Anna Spanou",
+      "dob": "1995-11-18",
+      "height": 187,
+      "weight": 78
+    },
+    {
+      "id": 134727,
+      "name": "Evangelia Merteki",
+      "dob": "1984-07-04",
+      "height": 175,
+      "weight": 66
+    },
+    {
+      "id": 139889,
+      "name": "Georgia Paraskaki",
+      "dob": "1981-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141673,
+      "name": "Panagiota Karagkouni",
+      "dob": "1993-07-01",
+      "height": 187,
+      "weight": 73
+    },
+    {
+      "id": 143064,
+      "name": "Anthi Vasilantonaki",
+      "dob": "1996-04-09",
+      "height": 196,
+      "weight": 79
+    },
+    {
+      "id": 144202,
+      "name": "Tatiana Moldovanidi",
+      "dob": "1996-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146196,
+      "name": "Ioanna Parisaki",
+      "dob": "1996-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146199,
+      "name": "Dimitra Manavi",
+      "dob": "1997-02-17",
+      "height": 178,
+      "weight": 62
+    },
+    {
+      "id": 146730,
+      "name": "Paraskevi Kourtidou",
+      "dob": "1999-11-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146734,
+      "name": "Maria Klepkou",
+      "dob": "2000-05-13",
+      "height": 178,
+      "weight": 58
+    },
+    {
+      "id": 147693,
+      "name": "Konstantina Tsopoulou",
+      "dob": "1993-06-05",
+      "height": 182,
+      "weight": 62
+    },
+    {
+      "id": 148564,
+      "name": "Vasiliki Matiadi",
+      "dob": "1989-03-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 151594,
+      "name": "Athina Georgopoulou",
+      "dob": "1996-01-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153963,
+      "name": "Aliki Alexandra Spiliotopoulou",
+      "dob": "1995-10-06",
+      "height": 177,
+      "weight": 64
+    },
+    {
+      "id": 162241,
+      "name": "Dionysia Matiou",
+      "dob": "2001-08-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 165049,
+      "name": "Dimitra Karagkouni",
+      "dob": "1997-02-25",
+      "height": 172,
+      "weight": 55
+    },
+    {
+      "id": 167348,
+      "name": "Elisavet Triantafillidi",
+      "dob": "1992-04-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 167395,
+      "name": "Moschoula Patakopoulou",
+      "dob": "1994-03-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168227,
+      "name": "Eleni Baka",
+      "dob": "2001-10-15",
+      "height": 186,
+      "weight": 68
+    },
+    {
+      "id": 168760,
+      "name": "Anastasia Fokianou",
+      "dob": "1994-12-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168761,
+      "name": "Ifigeneia Sampati",
+      "dob": "1998-08-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168807,
+      "name": "Maria Apostolaki",
+      "dob": "1997-01-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168810,
+      "name": "Leetha Saridaki",
+      "dob": "1986-10-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168811,
+      "name": "Efi Myrilla",
+      "dob": "1993-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168812,
+      "name": "Theodora Sarakatsani",
+      "dob": "1999-07-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168977,
+      "name": "Mirto Kalamaridou",
+      "dob": "1996-02-19",
+      "height": 181,
+      "weight": 66
+    },
+    {
+      "id": 173494,
+      "name": "Ioanna Perdikaki",
+      "dob": "2002-08-05",
+      "height": 175,
+      "weight": 62
+    },
+    {
+      "id": 173495,
+      "name": "Georgia Maria Antonakaki",
+      "dob": "2002-09-16",
+      "height": 175,
+      "weight": 55
+    },
+    {
+      "id": 182233,
+      "name": "Paraskevi Zafeiriou",
+      "dob": "2006-07-08",
+      "height": 177,
+      "weight": 62
+    },
+    {
+      "id": 182234,
+      "name": "Elpida Pitsigkoni",
+      "dob": "2005-05-20",
+      "height": 176,
+      "weight": 63
+    },
+    {
+      "id": 184770,
+      "name": "Anastasia Shirinina",
+      "dob": "1995-10-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188986,
+      "name": "Ilektra Agriodimou",
+      "dob": "2000-09-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 189729,
+      "name": "Rodanthi Mariatou Metaxa",
+      "dob": "1998-08-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190191,
+      "name": "Eleni Chantzi",
+      "dob": "2001-05-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190430,
+      "name": "Polytimi Trigonidou",
+      "dob": "1992-12-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190546,
+      "name": "Chrysanthi Christodoulou",
+      "dob": "1990-08-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190547,
+      "name": "Εvanthia Lavda",
+      "dob": "1997-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 190993,
+      "name": "Angela Papa",
+      "dob": "1997-05-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 191146,
+      "name": "Chara Spyropoulou",
+      "dob": "2001-09-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192617,
+      "name": "Myrto Paschalaki",
+      "dob": "2008-04-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192618,
+      "name": "Eleni Alexoglou",
+      "dob": "2010-01-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 211803,
+      "name": "Aikaterini Fragkioudaki",
+      "dob": "2009-06-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 222939,
+      "name": "Angeliki Charissaki",
+      "dob": "2011-07-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 224027,
+      "name": "Grigoria Anna Margaritopoulou",
+      "dob": "2011-12-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 224028,
+      "name": "Maria Margaritopoulou",
+      "dob": "2010-02-12",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

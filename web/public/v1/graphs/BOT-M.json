@@ -1,0 +1,70 @@
+{
+  "country": "BOT",
+  "countryName": "Botswana",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 170068,
+      "name": "Merafe Patrick MEDUPE",
+      "short": "Medupe",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 173086,
+      "name": "George Simata Chiswaniso",
+      "short": "Chiswaniso",
+      "tournaments": 4,
+      "first": 2019,
+      "last": 2025
+    },
+    {
+      "id": 181501,
+      "name": "Sekao Boifang Jack",
+      "short": "Jack",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 190100,
+      "name": "Trevor Pulantle Manduwa",
+      "short": "Manduwa",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2025
+    },
+    {
+      "id": 201107,
+      "name": "Mosiiwa Baleofi",
+      "short": "Baleofi",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 170068,
+      "b": 173086,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 173086,
+      "b": 181501,
+      "t": 3,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 190100,
+      "b": 201107,
+      "t": 2,
+      "f": 2023,
+      "l": 2025
+    }
+  ]
+}

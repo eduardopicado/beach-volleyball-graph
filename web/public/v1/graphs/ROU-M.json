@@ -1,0 +1,238 @@
+{
+  "country": "ROU",
+  "countryName": "Romania",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100832,
+      "name": "Dan Dragusin",
+      "short": "Dragusin",
+      "tournaments": 2,
+      "first": 1995,
+      "last": 1997
+    },
+    {
+      "id": 100834,
+      "name": "Dumitru Ionescu",
+      "short": "Ionescu",
+      "tournaments": 1,
+      "first": 1995,
+      "last": 1995
+    },
+    {
+      "id": 101982,
+      "name": "Adrian \"Priky\" Pricop",
+      "short": "Pricop",
+      "tournaments": 1,
+      "first": 1997,
+      "last": 1997
+    },
+    {
+      "id": 102424,
+      "name": "Ion Ion",
+      "short": "Ion Ion",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 1999
+    },
+    {
+      "id": 102425,
+      "name": "Adrian Ion",
+      "short": "Adrian Ion",
+      "tournaments": 2,
+      "first": 1998,
+      "last": 1999
+    },
+    {
+      "id": 124402,
+      "name": "Vardai Ioan",
+      "short": "Vardai",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 124405,
+      "name": "Lelea Vasile Catalin",
+      "short": "Lelea",
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 125484,
+      "name": "Bogdan Mehedinteanu",
+      "short": "Mehedinteanu",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 132154,
+      "name": "Tudorel Farcas",
+      "short": "Farcas",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 138837,
+      "name": "Bogdan Constantin Bratosin",
+      "short": "Bratosin",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 144116,
+      "name": "Lucian Badiceanu",
+      "short": "Badiceanu",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 144117,
+      "name": "Ioan Marius Rosu",
+      "short": "Rosu",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 157189,
+      "name": "Laurean-Andrei Crisan",
+      "short": "Crisan",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157190,
+      "name": "Cristian-Valentin Pantea",
+      "short": "Pantea",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 158022,
+      "name": "Sergiu-Octavian Rodina",
+      "short": "Rodina",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 159635,
+      "name": "Bogdan Necula",
+      "short": "Necula",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 163432,
+      "name": "Eduard Popa",
+      "short": "Popa",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 173124,
+      "name": "Cristian Maier",
+      "short": "Maier",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 173638,
+      "name": "Andrei Grigore",
+      "short": "Grigore",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100832,
+      "b": 100834,
+      "t": 1,
+      "f": 1995,
+      "l": 1995
+    },
+    {
+      "a": 100832,
+      "b": 101982,
+      "t": 1,
+      "f": 1997,
+      "l": 1997
+    },
+    {
+      "a": 102424,
+      "b": 102425,
+      "t": 2,
+      "f": 1998,
+      "l": 1999
+    },
+    {
+      "a": 124402,
+      "b": 124405,
+      "t": 1,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 125484,
+      "b": 132154,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 132154,
+      "b": 159635,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 138837,
+      "b": 159635,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 144116,
+      "b": 144117,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 157189,
+      "b": 157190,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 158022,
+      "b": 173124,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 163432,
+      "b": 173638,
+      "t": 7,
+      "f": 2025,
+      "l": 2026
+    }
+  ]
+}

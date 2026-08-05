@@ -1,0 +1,139 @@
+{
+  "country": "AZE",
+  "countryName": "Azerbaijan",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 119620,
+      "name": "Vivian Danielle da Conceição Cunha",
+      "short": "Cunha",
+      "tournaments": 82,
+      "first": 2007,
+      "last": 2015
+    },
+    {
+      "id": 122369,
+      "name": "Viktoria Aghakishiyeva (Smetaniuk)",
+      "short": "Aghakishiyeva",
+      "tournaments": 20,
+      "first": 2009,
+      "last": 2017
+    },
+    {
+      "id": 147368,
+      "name": "Irina Abbaszade",
+      "short": "Abbaszade",
+      "tournaments": 27,
+      "first": 2006,
+      "last": 2017
+    },
+    {
+      "id": 147672,
+      "name": "Raquel Goncalves Ferreira",
+      "short": "Ferreira",
+      "tournaments": 13,
+      "first": 2014,
+      "last": 2015
+    },
+    {
+      "id": 160749,
+      "name": "Fidan Ahmadkhanova",
+      "short": "Fidan A.",
+      "tournaments": 4,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 173568,
+      "name": "Larisa Smeltsova",
+      "short": "Larisa S.",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 203501,
+      "name": "Sabina Alizada",
+      "short": "Alizada",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 211621,
+      "name": "Narmin Samadzade",
+      "short": "Samadzade",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 214224,
+      "name": "Chinara Guliyeva",
+      "short": "Guliyeva",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 222068,
+      "name": "Jamila Bashirova",
+      "short": "Bashirova",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 223587,
+      "name": "Feyza Bolat",
+      "short": "Bolat",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 119620,
+      "b": 147368,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 122369,
+      "b": 147368,
+      "t": 2,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 160749,
+      "b": 203501,
+      "t": 3,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 160749,
+      "b": 211621,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 173568,
+      "b": 214224,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 222068,
+      "b": 223587,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

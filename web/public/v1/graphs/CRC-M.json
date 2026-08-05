@@ -1,0 +1,396 @@
+{
+  "country": "CRC",
+  "countryName": "Costa Rica",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 100681,
+      "name": "Alexander Villegas Gonzalez",
+      "short": "Villegas",
+      "tournaments": 18,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 100682,
+      "name": "Zlatko Crespo Piskulich",
+      "short": "Piskulich",
+      "tournaments": 18,
+      "first": 1995,
+      "last": 1999
+    },
+    {
+      "id": 117129,
+      "name": "Jonathan Guevara",
+      "short": "Guevara",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117431,
+      "name": "Alexánder Villegas",
+      "short": "Villegas",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117516,
+      "name": "Marcelo Araya",
+      "short": "Araya",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117517,
+      "name": "Gilberto Villegas",
+      "short": "Villegas",
+      "tournaments": 2,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 120252,
+      "name": "Espinoza Rojas Rooper",
+      "short": "Rooper",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 120253,
+      "name": "Alvarez López Julio Cesar",
+      "short": "Alvarez",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2010
+    },
+    {
+      "id": 120254,
+      "name": "Sandoval Alfaro Luis Raul",
+      "short": "Sandoval",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2010
+    },
+    {
+      "id": 137596,
+      "name": "Andres Felipe Flores Garita",
+      "short": "Flores",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2014
+    },
+    {
+      "id": 137633,
+      "name": "Esteban Escobar Granier",
+      "short": "Escobar",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 139047,
+      "name": "Josue Flores Garita",
+      "short": "J.Flores",
+      "tournaments": 3,
+      "first": 2012,
+      "last": 2014
+    },
+    {
+      "id": 139434,
+      "name": "Victor Alpizar Campos",
+      "short": "Alpizar",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 142978,
+      "name": "Sebastian Valenciano",
+      "short": "Valenciano",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2022
+    },
+    {
+      "id": 142979,
+      "name": "Alejandro Gonzalez",
+      "short": "Gonzalez",
+      "tournaments": 2,
+      "first": 2013,
+      "last": 2016
+    },
+    {
+      "id": 145327,
+      "name": "Valenciano Sebastian",
+      "short": "Valenciano",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 146101,
+      "name": "Johel Jimenez",
+      "short": "Jimenez",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146102,
+      "name": "Josafath Vargas",
+      "short": "Vargas",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 154826,
+      "name": "Fabian Guerra Esquivel",
+      "short": "Guerra",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 157017,
+      "name": "Adrian Hidalgo Vasquez",
+      "short": "Hidalgo",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157018,
+      "name": "Andres Valenciano Gonzalez",
+      "short": "Valenciano",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 157468,
+      "name": "Nicolas Velluti Morales",
+      "short": "Velluti",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161512,
+      "name": "Daniel Dyner Villa",
+      "short": "D. Dyner",
+      "tournaments": 15,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 167566,
+      "name": "Criforth Fallas Lobo",
+      "short": "C. Lobo",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 167567,
+      "name": "Alexandre Lezcano Veliz",
+      "short": "A. Lezcano",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 183085,
+      "name": "Jhostin Varela Guerrero",
+      "short": "Varela",
+      "tournaments": 8,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 183088,
+      "name": "Julián Araya Alas",
+      "short": "Araya",
+      "tournaments": 5,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 189424,
+      "name": "Stanley Grant Brown",
+      "short": "Grant",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
+    },
+    {
+      "id": 202969,
+      "name": "Victorio Esteban González Flores",
+      "short": "Esteban",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 220940,
+      "name": "Jevan Santamaria Coronado Santamaria",
+      "short": "Coronado",
+      "tournaments": 8,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 100681,
+      "b": 100682,
+      "t": 18,
+      "f": 1995,
+      "l": 1999
+    },
+    {
+      "a": 117129,
+      "b": 117516,
+      "t": 2,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117431,
+      "b": 117517,
+      "t": 2,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 120252,
+      "b": 120253,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 120253,
+      "b": 120254,
+      "t": 2,
+      "f": 2008,
+      "l": 2010
+    },
+    {
+      "a": 137596,
+      "b": 139047,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 137596,
+      "b": 139434,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 137633,
+      "b": 167566,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 139047,
+      "b": 139434,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 142978,
+      "b": 142979,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142978,
+      "b": 161512,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 142979,
+      "b": 145327,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146101,
+      "b": 146102,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 154826,
+      "b": 157468,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 157017,
+      "b": 157018,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 161512,
+      "b": 183085,
+      "t": 6,
+      "f": 2023,
+      "l": 2025
+    },
+    {
+      "a": 161512,
+      "b": 220940,
+      "t": 8,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 167566,
+      "b": 167567,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 183085,
+      "b": 183088,
+      "t": 2,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 183088,
+      "b": 189424,
+      "t": 2,
+      "f": 2024,
+      "l": 2025
+    },
+    {
+      "a": 183088,
+      "b": 202969,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

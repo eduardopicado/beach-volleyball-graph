@@ -1,0 +1,47 @@
+{
+  "country": "UZB",
+  "countryName": "Uzbekistan",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 204693,
+      "name": "DILSHODBEK TOLIBAEV",
+      "short": "TOLIBAEV",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 205496,
+      "name": "Muhamadiev Yakhyo",
+      "short": "Muhamadiev",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 216597,
+      "name": "Nodirjon Alekseev",
+      "short": "Nodirjon",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 204693,
+      "b": 205496,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 204693,
+      "b": 216597,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

@@ -1,0 +1,2100 @@
+{
+  "country": "HUN",
+  "countryName": "Hungary",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 100076,
+      "name": "Gyöngyi Polanyi",
+      "short": "Polanyi",
+      "tournaments": 7,
+      "first": 1992,
+      "last": 2000
+    },
+    {
+      "id": 100077,
+      "name": "Jurdit Danada",
+      "short": "Danada",
+      "tournaments": 1,
+      "first": 1992,
+      "last": 1992
+    },
+    {
+      "id": 100709,
+      "name": "Eniko Valicsne Bota",
+      "short": "Valicsne Bot",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 100710,
+      "name": "Virag Porubekne Nyari",
+      "short": "Porubekne Ny",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 100946,
+      "name": "Zsuzsanna Selmeczi - Brecher",
+      "short": "Selmeczi - Brecher",
+      "tournaments": 13,
+      "first": 1996,
+      "last": 2003
+    },
+    {
+      "id": 100947,
+      "name": "Nathalie Dambendzet",
+      "short": "Dambendzet",
+      "tournaments": 16,
+      "first": 1999,
+      "last": 2007
+    },
+    {
+      "id": 101548,
+      "name": "Ildiko Ancsin",
+      "short": "Ancsin",
+      "tournaments": 5,
+      "first": 1996,
+      "last": 2001
+    },
+    {
+      "id": 101549,
+      "name": "Anna Grozer",
+      "short": "Grozer",
+      "tournaments": 8,
+      "first": 1996,
+      "last": 2003
+    },
+    {
+      "id": 101550,
+      "name": "Edit Maklari Klekner",
+      "short": "Maklari",
+      "tournaments": 1,
+      "first": 1996,
+      "last": 1996
+    },
+    {
+      "id": 101551,
+      "name": "Virag Nyari",
+      "short": "Nyari",
+      "tournaments": 4,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 101552,
+      "name": "Erszebet Fesus",
+      "short": "Fesus",
+      "tournaments": 3,
+      "first": 1996,
+      "last": 2003
+    },
+    {
+      "id": 101577,
+      "name": "Beata Matrai",
+      "short": "Matrai",
+      "tournaments": 10,
+      "first": 1996,
+      "last": 2003
+    },
+    {
+      "id": 102923,
+      "name": "Krisztina Nagy",
+      "short": "Nagy",
+      "tournaments": 51,
+      "first": 2000,
+      "last": 2006
+    },
+    {
+      "id": 102924,
+      "name": "Rita Wolf",
+      "short": "Wolf",
+      "tournaments": 1,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102945,
+      "name": "Anita Szabo",
+      "short": "Szabo",
+      "tournaments": 2,
+      "first": 2000,
+      "last": 2000
+    },
+    {
+      "id": 102958,
+      "name": "Anita Petho",
+      "short": "Petho",
+      "tournaments": 21,
+      "first": 2003,
+      "last": 2004
+    },
+    {
+      "id": 103252,
+      "name": "Katalin Schlegl",
+      "short": "Schlegl",
+      "tournaments": 25,
+      "first": 2001,
+      "last": 2003
+    },
+    {
+      "id": 103433,
+      "name": "Csilla Gudmann",
+      "short": "Gudmann",
+      "tournaments": 2,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 103434,
+      "name": "Orsoyla Mester",
+      "short": "Mester",
+      "tournaments": 6,
+      "first": 2006,
+      "last": 2021
+    },
+    {
+      "id": 103668,
+      "name": "Bernadette Kiss",
+      "short": "Kiss",
+      "tournaments": 20,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 103669,
+      "name": "Regina Kiss",
+      "short": "Kiss",
+      "tournaments": 24,
+      "first": 2001,
+      "last": 2007
+    },
+    {
+      "id": 103804,
+      "name": "Valéria Héjjas",
+      "short": "Héjjas",
+      "tournaments": 3,
+      "first": 2002,
+      "last": 2003
+    },
+    {
+      "id": 103852,
+      "name": "Marianna Faludy",
+      "short": "Faludy",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 103853,
+      "name": "Viktoria Witz",
+      "short": "Witz",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104160,
+      "name": "Bea Füresz",
+      "short": "Füresz",
+      "tournaments": 1,
+      "first": 2002,
+      "last": 2002
+    },
+    {
+      "id": 104538,
+      "name": "Agnes Kurucz",
+      "short": "Kurucz",
+      "tournaments": 1,
+      "first": 2003,
+      "last": 2003
+    },
+    {
+      "id": 117959,
+      "name": "Zsuzsanna Józsa",
+      "short": "Józsa",
+      "tournaments": 16,
+      "first": 2006,
+      "last": 2007
+    },
+    {
+      "id": 118163,
+      "name": "Erika Rónyai",
+      "short": "Rónyai",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118164,
+      "name": "Gabriella Veres",
+      "short": "Veres",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118191,
+      "name": "Viktória Kiss",
+      "short": "Kiss",
+      "tournaments": 4,
+      "first": 2006,
+      "last": 2010
+    },
+    {
+      "id": 123720,
+      "name": "Kitti Ancsin",
+      "short": "Ancsin",
+      "tournaments": 2,
+      "first": 2011,
+      "last": 2011
+    },
+    {
+      "id": 132121,
+      "name": "Eniko Lakatos",
+      "short": "Lakatos",
+      "tournaments": 5,
+      "first": 2011,
+      "last": 2018
+    },
+    {
+      "id": 132610,
+      "name": "Brigitta Hadnagy",
+      "short": "Brigitta",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132611,
+      "name": "Renáta Hadnagy",
+      "short": "Renáta",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 132660,
+      "name": "Laura Molnár",
+      "short": "Molnár",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 137144,
+      "name": "Lili Neizer",
+      "short": "Neizer",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 143479,
+      "name": "Patrícia Juraszik",
+      "short": "Juraszik",
+      "tournaments": 6,
+      "first": 2020,
+      "last": 2021
+    },
+    {
+      "id": 145313,
+      "name": "Szandra Szombathelyi",
+      "short": "Szombathelyi, S.",
+      "tournaments": 48,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 146789,
+      "name": "Laura Krisztina Gubicza",
+      "short": "Gubicza",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 147398,
+      "name": "Kitti Szombathelyi",
+      "short": "Szombathelyi, K.",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 147399,
+      "name": "Eszter Lutter",
+      "short": "Lutter, E.",
+      "tournaments": 24,
+      "first": 2016,
+      "last": 2020
+    },
+    {
+      "id": 148974,
+      "name": "Eszter Nagy",
+      "short": "Nagy",
+      "tournaments": 14,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 152476,
+      "name": "Nikolett Tátrai",
+      "short": "Tátrai",
+      "tournaments": 7,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 152477,
+      "name": "Lilla Villám",
+      "short": "Villám",
+      "tournaments": 69,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 153707,
+      "name": "Dorottya Szabó",
+      "short": "Szabó",
+      "tournaments": 36,
+      "first": 2016,
+      "last": 2024
+    },
+    {
+      "id": 153718,
+      "name": "Eszter Kovács",
+      "short": "Kovács",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 157679,
+      "name": "Kinga Törköly",
+      "short": "Törköly",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 157846,
+      "name": "Judit Kolada",
+      "short": "Kolada",
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 160066,
+      "name": "Brigitta Dénesi",
+      "short": "Dénesi",
+      "tournaments": 14,
+      "first": 2018,
+      "last": 2021
+    },
+    {
+      "id": 160067,
+      "name": "Panna Györi",
+      "short": "Györi",
+      "tournaments": 20,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 162524,
+      "name": "Lujza Papp",
+      "short": "Papp",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 163400,
+      "name": "Dominika Háfra",
+      "short": "Háfra",
+      "tournaments": 13,
+      "first": 2018,
+      "last": 2020
+    },
+    {
+      "id": 163406,
+      "name": "Eszter Tóth",
+      "short": "Tóth",
+      "tournaments": 5,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 164824,
+      "name": "Borbála Harmat",
+      "short": "Harmat",
+      "tournaments": 6,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 167114,
+      "name": "Dea Szokol-Humay",
+      "short": "Szokol-Humay",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 167115,
+      "name": "Anna Faragó",
+      "short": "Faragó",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167117,
+      "name": "Janka Katona",
+      "short": "Katona",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167118,
+      "name": "Orsolya Orbán",
+      "short": "Orbán",
+      "tournaments": 4,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 167119,
+      "name": "Adrienn Czene",
+      "short": "Czene",
+      "tournaments": 21,
+      "first": 2018,
+      "last": 2022
+    },
+    {
+      "id": 167120,
+      "name": "Norina Császár",
+      "short": "Császár",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 167124,
+      "name": "Eszter Tóth",
+      "short": "Tóth",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 168695,
+      "name": "Hanna Gubik",
+      "short": "Gubik",
+      "tournaments": 60,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 168699,
+      "name": "Orsolya Éva Réthelyi",
+      "short": "Réthelyi",
+      "tournaments": 9,
+      "first": 2021,
+      "last": 2023
+    },
+    {
+      "id": 168705,
+      "name": "Zsófia Réthelyi",
+      "short": "Réthelyi",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 168706,
+      "name": "Zita Divényi",
+      "short": "Divényi",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 168707,
+      "name": "Imola Petréd",
+      "short": "Petréd",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 168744,
+      "name": "Alíz Hajós",
+      "short": "Hajós",
+      "tournaments": 21,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 169819,
+      "name": "Liza Lutter",
+      "short": "Lutter, L.",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2019
+    },
+    {
+      "id": 170183,
+      "name": "Zsófi Vasvári",
+      "short": "Vasvári, Z.",
+      "tournaments": 45,
+      "first": 2019,
+      "last": 2026
+    },
+    {
+      "id": 170184,
+      "name": "Eszter Vasvári",
+      "short": "Vasvári, E.",
+      "tournaments": 39,
+      "first": 2020,
+      "last": 2026
+    },
+    {
+      "id": 173093,
+      "name": "Csenge Villám",
+      "short": "Villám",
+      "tournaments": 10,
+      "first": 2019,
+      "last": 2024
+    },
+    {
+      "id": 173449,
+      "name": "Fanni Vecsey",
+      "short": "Vecsey",
+      "tournaments": 11,
+      "first": 2019,
+      "last": 2021
+    },
+    {
+      "id": 174658,
+      "name": "Szilvia Hackl",
+      "short": "Hackl",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 179780,
+      "name": "Virág Tettamanti",
+      "short": "Tettamanti",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 179972,
+      "name": "Kinga Melinda Windisch",
+      "short": "Windisch",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 181216,
+      "name": "Adrienn Posztós-Szabó",
+      "short": "Posztós-Szabó",
+      "tournaments": 22,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181603,
+      "name": "Petra Júlia Kókai",
+      "short": "Kókai",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181615,
+      "name": "Stefánia Flóra Kun",
+      "short": "Kun",
+      "tournaments": 50,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181618,
+      "name": "Chiara Honti-Majoros",
+      "short": "Honti-Majoros",
+      "tournaments": 29,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 181741,
+      "name": "Dóra Horváth",
+      "short": "Horváth",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181742,
+      "name": "Szonja Stollár",
+      "short": "Stollár",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181744,
+      "name": "Anna Bútor",
+      "short": "Bútor",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181745,
+      "name": "Borbála Balogh",
+      "short": "Balogh",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181746,
+      "name": "Annamária Örményi",
+      "short": "Örményi",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181747,
+      "name": "Eszter Kovács",
+      "short": "Kovács",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181748,
+      "name": "Kinga Strenner",
+      "short": "Strenner",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181749,
+      "name": "Kinga Sorompó",
+      "short": "Sorompó",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181750,
+      "name": "Flóra Kaszás",
+      "short": "Kaszás",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181751,
+      "name": "Rebeka Soós",
+      "short": "Soós",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181752,
+      "name": "Kata Veress",
+      "short": "Veress",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181754,
+      "name": "Anna Szabó",
+      "short": "Szabó",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 181756,
+      "name": "Fanni Gracza Sóti",
+      "short": "Gracza Sóti",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181757,
+      "name": "Anh Thi Nguyen Hai",
+      "short": "Nguyen",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181758,
+      "name": "Dorottya Ildikó Farkas",
+      "short": "Farkas",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181759,
+      "name": "Kitti Dalma Kirsch",
+      "short": "Kirsch",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181760,
+      "name": "Gabriella Márki",
+      "short": "Márki",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181761,
+      "name": "Lili Zombory",
+      "short": "Zombory",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181762,
+      "name": "Nikoletta Molnár",
+      "short": "Molnár",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181763,
+      "name": "Fanni Veszeli",
+      "short": "Veszeli",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181764,
+      "name": "Mercédesz Török",
+      "short": "Török",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181765,
+      "name": "Beatrix Medve",
+      "short": "Medve",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181766,
+      "name": "Lilla Miskolczi",
+      "short": "Miskolczi",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181767,
+      "name": "Zita Papp",
+      "short": "Papp",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181768,
+      "name": "Katalin Zsuzsanna Kovács",
+      "short": "Kovács",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181811,
+      "name": "Kíra Svantner",
+      "short": "Svantner",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 181812,
+      "name": "Tamara Stréli",
+      "short": "Stréli",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 182057,
+      "name": "Ágnes Chován",
+      "short": "Chován",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182058,
+      "name": "Dóra Kristóf",
+      "short": "Kristóf",
+      "tournaments": 4,
+      "first": 2021,
+      "last": 2025
+    },
+    {
+      "id": 182059,
+      "name": "Boglárka Sára Trencsényi",
+      "short": "Trencsényi",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182060,
+      "name": "Lora Sebők",
+      "short": "Sebők",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182061,
+      "name": "Mirtill Breuer",
+      "short": "Breuer",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2026
+    },
+    {
+      "id": 182062,
+      "name": "Kinga Varga",
+      "short": "Varga",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182064,
+      "name": "Zina Vivien Csákány",
+      "short": "Csákány",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182065,
+      "name": "Anna Flóra Turi",
+      "short": "Turi",
+      "tournaments": 2,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182100,
+      "name": "Zina Panni Németh",
+      "short": "Németh",
+      "tournaments": 4,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 182328,
+      "name": "Panna Krisztina Ratkai",
+      "short": "Ratkai",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182329,
+      "name": "Kitti Barbara Béni",
+      "short": "Béni",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182330,
+      "name": "Kinga Tóth",
+      "short": "Tóth",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 182331,
+      "name": "Lili Sótonyi",
+      "short": "Sótonyi",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 188605,
+      "name": "Laura Kállai",
+      "short": "Kállai",
+      "tournaments": 8,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 188606,
+      "name": "Cecília Noémi Jámbor",
+      "short": "Jámbor",
+      "tournaments": 7,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 191408,
+      "name": "Flóra Zolnai",
+      "short": "Zolnai",
+      "tournaments": 19,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 192185,
+      "name": "Alma Matkovits",
+      "short": "Matkovits",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 202017,
+      "name": "Kármen Honti-Majoros",
+      "short": "Honti-Majoros",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 205705,
+      "name": "Réka Meilinger",
+      "short": "Meilinger",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 210882,
+      "name": "Emese Kiss-Bertók",
+      "short": "Kiss-Bertók",
+      "tournaments": 19,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 210887,
+      "name": "Réka Pádár",
+      "short": "Pádár",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 212488,
+      "name": "Réka Antónia Munkácsi",
+      "short": "Munkácsi",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 212490,
+      "name": "Jázmin Pesti-Tóth",
+      "short": "Pesti-Tóth",
+      "tournaments": 16,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 213054,
+      "name": "Izabella Anna Szabó",
+      "short": "Szabó Iz.",
+      "tournaments": 17,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 217372,
+      "name": "Lilianna Szabó",
+      "short": "Szabó Li.",
+      "tournaments": 16,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 218800,
+      "name": "Viktória Dibusz",
+      "short": "Dibusz",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 222942,
+      "name": "Júlia Rácz",
+      "short": "Rácz",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 224703,
+      "name": "Julianna Kis",
+      "short": "Kis",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 224704,
+      "name": "Herta Murányi",
+      "short": "Murányi",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 225367,
+      "name": "Léna Sárik-Veress",
+      "short": "Sárik-Veress",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 239522,
+      "name": "Anna Tóth",
+      "short": "Tóth",
+      "tournaments": 3,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 239523,
+      "name": "Panna Kücsön",
+      "short": "Kücsön",
+      "tournaments": 2,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 100076,
+      "b": 100077,
+      "t": 1,
+      "f": 1992,
+      "l": 1992
+    },
+    {
+      "a": 100076,
+      "b": 100946,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 100076,
+      "b": 100947,
+      "t": 4,
+      "f": 1999,
+      "l": 2000
+    },
+    {
+      "a": 100076,
+      "b": 101548,
+      "t": 1,
+      "f": 1998,
+      "l": 1998
+    },
+    {
+      "a": 100709,
+      "b": 101552,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100710,
+      "b": 101577,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100946,
+      "b": 101550,
+      "t": 1,
+      "f": 1996,
+      "l": 1996
+    },
+    {
+      "a": 100946,
+      "b": 101551,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 100946,
+      "b": 101577,
+      "t": 9,
+      "f": 1998,
+      "l": 2003
+    },
+    {
+      "a": 100946,
+      "b": 104538,
+      "t": 1,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 100947,
+      "b": 102923,
+      "t": 3,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 100947,
+      "b": 117959,
+      "t": 10,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 101548,
+      "b": 101549,
+      "t": 4,
+      "f": 1996,
+      "l": 2001
+    },
+    {
+      "a": 101549,
+      "b": 103252,
+      "t": 4,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 101551,
+      "b": 103804,
+      "t": 3,
+      "f": 2002,
+      "l": 2003
+    },
+    {
+      "a": 101552,
+      "b": 103252,
+      "t": 2,
+      "f": 2003,
+      "l": 2003
+    },
+    {
+      "a": 102923,
+      "b": 102924,
+      "t": 1,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102923,
+      "b": 102945,
+      "t": 2,
+      "f": 2000,
+      "l": 2000
+    },
+    {
+      "a": 102923,
+      "b": 102958,
+      "t": 21,
+      "f": 2003,
+      "l": 2004
+    },
+    {
+      "a": 102923,
+      "b": 103252,
+      "t": 19,
+      "f": 2001,
+      "l": 2002
+    },
+    {
+      "a": 102923,
+      "b": 117959,
+      "t": 6,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103433,
+      "b": 103434,
+      "t": 2,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 103434,
+      "b": 137144,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 103668,
+      "b": 103669,
+      "t": 20,
+      "f": 2001,
+      "l": 2007
+    },
+    {
+      "a": 103669,
+      "b": 104160,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 103669,
+      "b": 118191,
+      "t": 3,
+      "f": 2006,
+      "l": 2007
+    },
+    {
+      "a": 103852,
+      "b": 103853,
+      "t": 1,
+      "f": 2002,
+      "l": 2002
+    },
+    {
+      "a": 118163,
+      "b": 118164,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    },
+    {
+      "a": 118191,
+      "b": 132660,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 123720,
+      "b": 132121,
+      "t": 2,
+      "f": 2011,
+      "l": 2011
+    },
+    {
+      "a": 132121,
+      "b": 147399,
+      "t": 3,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 132610,
+      "b": 132611,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 143479,
+      "b": 152477,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 143479,
+      "b": 167119,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 143479,
+      "b": 167120,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 145313,
+      "b": 147399,
+      "t": 20,
+      "f": 2018,
+      "l": 2020
+    },
+    {
+      "a": 145313,
+      "b": 152477,
+      "t": 28,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 146789,
+      "b": 168695,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146789,
+      "b": 181756,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 146789,
+      "b": 181757,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 147398,
+      "b": 169819,
+      "t": 3,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 147399,
+      "b": 153707,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 148974,
+      "b": 153707,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 148974,
+      "b": 168695,
+      "t": 12,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 148974,
+      "b": 182100,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 152476,
+      "b": 162524,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 152476,
+      "b": 167118,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 152476,
+      "b": 167119,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 152476,
+      "b": 168699,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 152476,
+      "b": 168744,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 152477,
+      "b": 181615,
+      "t": 40,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 153707,
+      "b": 157846,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 153707,
+      "b": 160067,
+      "t": 2,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 153707,
+      "b": 163400,
+      "t": 12,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 153707,
+      "b": 167119,
+      "t": 10,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 153707,
+      "b": 173449,
+      "t": 8,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 153707,
+      "b": 181618,
+      "t": 5,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 153718,
+      "b": 160067,
+      "t": 2,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 153718,
+      "b": 181603,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 157679,
+      "b": 168707,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 157846,
+      "b": 168695,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 160066,
+      "b": 160067,
+      "t": 6,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 160066,
+      "b": 163406,
+      "t": 4,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 160066,
+      "b": 167119,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 160066,
+      "b": 181764,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 160067,
+      "b": 164824,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 160067,
+      "b": 167119,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 160067,
+      "b": 181216,
+      "t": 8,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 162524,
+      "b": 173093,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 163400,
+      "b": 168695,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 163406,
+      "b": 168695,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 164824,
+      "b": 167118,
+      "t": 3,
+      "f": 2018,
+      "l": 2019
+    },
+    {
+      "a": 164824,
+      "b": 167119,
+      "t": 2,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167114,
+      "b": 181768,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 167115,
+      "b": 168744,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167117,
+      "b": 167119,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167119,
+      "b": 168744,
+      "t": 8,
+      "f": 2020,
+      "l": 2021
+    },
+    {
+      "a": 167119,
+      "b": 174658,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 167124,
+      "b": 168695,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 168695,
+      "b": 168699,
+      "t": 5,
+      "f": 2022,
+      "l": 2023
+    },
+    {
+      "a": 168695,
+      "b": 168744,
+      "t": 10,
+      "f": 2021,
+      "l": 2024
+    },
+    {
+      "a": 168695,
+      "b": 170183,
+      "t": 2,
+      "f": 2021,
+      "l": 2022
+    },
+    {
+      "a": 168695,
+      "b": 173093,
+      "t": 7,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 168695,
+      "b": 205705,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 168695,
+      "b": 210882,
+      "t": 16,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 168699,
+      "b": 181754,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 168705,
+      "b": 168706,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 168707,
+      "b": 181761,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 168744,
+      "b": 222942,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 170183,
+      "b": 170184,
+      "t": 39,
+      "f": 2020,
+      "l": 2026
+    },
+    {
+      "a": 170183,
+      "b": 173449,
+      "t": 3,
+      "f": 2019,
+      "l": 2021
+    },
+    {
+      "a": 170183,
+      "b": 181615,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 173093,
+      "b": 181216,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 179780,
+      "b": 182331,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 179972,
+      "b": 181615,
+      "t": 2,
+      "f": 2023,
+      "l": 2024
+    },
+    {
+      "a": 179972,
+      "b": 181745,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181216,
+      "b": 181618,
+      "t": 12,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 181603,
+      "b": 181765,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181603,
+      "b": 181811,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181615,
+      "b": 181618,
+      "t": 7,
+      "f": 2021,
+      "l": 2026
+    },
+    {
+      "a": 181615,
+      "b": 181812,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 181618,
+      "b": 191408,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 181618,
+      "b": 202017,
+      "t": 5,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 181741,
+      "b": 181752,
+      "t": 4,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181742,
+      "b": 181754,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181742,
+      "b": 182328,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181744,
+      "b": 181756,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181744,
+      "b": 182058,
+      "t": 3,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181745,
+      "b": 181758,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181745,
+      "b": 181761,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181746,
+      "b": 181759,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181747,
+      "b": 181760,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181748,
+      "b": 181762,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181748,
+      "b": 182059,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181749,
+      "b": 181763,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181750,
+      "b": 181766,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181751,
+      "b": 181767,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181754,
+      "b": 191408,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 181756,
+      "b": 182057,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181763,
+      "b": 182059,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181811,
+      "b": 181812,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 181811,
+      "b": 182060,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 182058,
+      "b": 182061,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 182061,
+      "b": 182062,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 182061,
+      "b": 182100,
+      "t": 3,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 182064,
+      "b": 182065,
+      "t": 2,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 182329,
+      "b": 182330,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 188605,
+      "b": 188606,
+      "t": 7,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 188605,
+      "b": 239522,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 191408,
+      "b": 212488,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 191408,
+      "b": 213054,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 191408,
+      "b": 217372,
+      "t": 16,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 192185,
+      "b": 202017,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 202017,
+      "b": 210887,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 210882,
+      "b": 210887,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 210882,
+      "b": 218800,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 210887,
+      "b": 225367,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 212490,
+      "b": 213054,
+      "t": 16,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 212490,
+      "b": 217372,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 224703,
+      "b": 224704,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 239522,
+      "b": 239523,
+      "t": 2,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

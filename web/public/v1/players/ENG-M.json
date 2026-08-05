@@ -1,0 +1,468 @@
+{
+  "country": "ENG",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100196,
+      "name": "Andy Cranstone",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 100197,
+      "name": "Ian \"Billy\" Fairclough",
+      "dob": "1964-11-08",
+      "height": 191,
+      "weight": 89
+    },
+    {
+      "id": 100291,
+      "name": "Vince Joyce",
+      "dob": "1961-06-22",
+      "height": 187,
+      "weight": 78
+    },
+    {
+      "id": 100292,
+      "name": "Robert Joseph Kittlety",
+      "dob": "1962-10-14",
+      "height": 194,
+      "weight": 96
+    },
+    {
+      "id": 100763,
+      "name": "Mark Banasiewicz",
+      "dob": "1965-01-17",
+      "height": 202,
+      "weight": 94
+    },
+    {
+      "id": 100766,
+      "name": "Richard Dobell",
+      "dob": "1967-08-12",
+      "height": 182,
+      "weight": 85
+    },
+    {
+      "id": 100767,
+      "name": "Matthew Jones",
+      "dob": "1971-12-03",
+      "height": 195,
+      "weight": 99
+    },
+    {
+      "id": 100785,
+      "name": "Tim \"Ritchie\" Hollis",
+      "dob": "1974-03-01",
+      "height": 198,
+      "weight": 85
+    },
+    {
+      "id": 101114,
+      "name": "... Vince",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101223,
+      "name": "... Garry",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101433,
+      "name": "Grant  \"Purse\" Pursey",
+      "dob": "1972-10-30",
+      "height": 187,
+      "weight": 83
+    },
+    {
+      "id": 101716,
+      "name": "Darren \"Gabe\" Gable",
+      "dob": "1973-08-07",
+      "height": 196,
+      "weight": 89
+    },
+    {
+      "id": 101717,
+      "name": "Steve \"Geo\" Gable",
+      "dob": "1973-08-07",
+      "height": 195,
+      "weight": 88
+    },
+    {
+      "id": 101986,
+      "name": "Chris Eaton",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102372,
+      "name": "Steve Fee",
+      "dob": "1975-07-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103717,
+      "name": "Jody Gooding",
+      "dob": "1990-08-08",
+      "height": 196,
+      "weight": 97
+    },
+    {
+      "id": 103720,
+      "name": "Gregg Weaver",
+      "dob": "1982-03-03",
+      "height": 191,
+      "weight": 85
+    },
+    {
+      "id": 103832,
+      "name": "David Hubbard",
+      "dob": "1982-01-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118567,
+      "name": "Steven Grotowski",
+      "dob": "1982-05-30",
+      "height": 198,
+      "weight": 93
+    },
+    {
+      "id": 119325,
+      "name": "Daniel Hunter",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119906,
+      "name": "Rob Flay",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120917,
+      "name": "Tristan Dampney",
+      "dob": "1990-06-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120918,
+      "name": "Chris Gregory",
+      "dob": "1989-08-25",
+      "height": 210,
+      "weight": 95
+    },
+    {
+      "id": 124858,
+      "name": "Jake Sheaf",
+      "dob": "1990-04-02",
+      "height": 195,
+      "weight": 91
+    },
+    {
+      "id": 134502,
+      "name": "Philip Smith",
+      "dob": "1986-01-24",
+      "height": 203,
+      "weight": 90
+    },
+    {
+      "id": 139801,
+      "name": "Matthew Hunter",
+      "dob": "1994-02-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139802,
+      "name": "Ryan Stout",
+      "dob": "1994-07-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144157,
+      "name": "Harry Jones",
+      "dob": "1997-10-13",
+      "height": 184,
+      "weight": 74
+    },
+    {
+      "id": 144176,
+      "name": "Ryan Poole",
+      "dob": "1998-11-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148561,
+      "name": "Sam Allen",
+      "dob": "1996-07-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148562,
+      "name": "Sam Walrond",
+      "dob": "1995-12-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 148991,
+      "name": "Mark Baechli",
+      "dob": "1983-05-12",
+      "height": 195,
+      "weight": 94
+    },
+    {
+      "id": 149832,
+      "name": "Issa Batrane",
+      "dob": "1996-04-09",
+      "height": 178,
+      "weight": 84
+    },
+    {
+      "id": 149846,
+      "name": "Mark Garcia-Kidd",
+      "dob": "1989-08-28",
+      "height": 191,
+      "weight": 88
+    },
+    {
+      "id": 150829,
+      "name": "Andrew Clayton",
+      "dob": "1993-12-10",
+      "height": 198,
+      "weight": 87
+    },
+    {
+      "id": 151196,
+      "name": "Robert Poole",
+      "dob": "1996-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 153234,
+      "name": "Tom Allen",
+      "dob": "1998-01-16",
+      "height": 177,
+      "weight": 68
+    },
+    {
+      "id": 156657,
+      "name": "Joaquin Bello",
+      "dob": "2000-07-20",
+      "height": 185,
+      "weight": 81
+    },
+    {
+      "id": 156658,
+      "name": "Javier Bello",
+      "dob": "2000-07-20",
+      "height": 182,
+      "weight": 80
+    },
+    {
+      "id": 156735,
+      "name": "Sam Dunbavin",
+      "dob": "1995-12-06",
+      "height": 189,
+      "weight": 82
+    },
+    {
+      "id": 157858,
+      "name": "Haydn Lawson",
+      "dob": "1995-10-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162581,
+      "name": "Nathan Fullerton",
+      "dob": "1997-08-20",
+      "height": 201,
+      "weight": 106
+    },
+    {
+      "id": 164797,
+      "name": "Frederick Bialokoz",
+      "dob": "2000-07-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168298,
+      "name": "Jonathan Drysdale-Anderson",
+      "dob": "2002-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 170695,
+      "name": "Karsten Webb",
+      "dob": "1992-05-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 171021,
+      "name": "Lewis Fenech",
+      "dob": "1996-07-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172118,
+      "name": "James Annells",
+      "dob": "1991-08-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179384,
+      "name": "Juan Enrique Bello",
+      "dob": "2004-02-23",
+      "height": 184,
+      "weight": null
+    },
+    {
+      "id": 179511,
+      "name": "Peter Soczewka",
+      "dob": "2005-06-02",
+      "height": 191,
+      "weight": 88
+    },
+    {
+      "id": 182598,
+      "name": "Niko Gleed",
+      "dob": "2000-07-04",
+      "height": 184,
+      "weight": 80
+    },
+    {
+      "id": 190447,
+      "name": "Josue Stephen Seekings Lucchesi Rocha",
+      "dob": "1994-10-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 197833,
+      "name": "Maksymilian Makowski",
+      "dob": "2008-08-18",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 197844,
+      "name": "Stuart Perry",
+      "dob": "2007-03-12",
+      "height": 186,
+      "weight": 75
+    },
+    {
+      "id": 202446,
+      "name": "Lucas Rijvers",
+      "dob": "2009-02-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 202554,
+      "name": "Tom Lycett",
+      "dob": "2005-12-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 202567,
+      "name": "George Ruddick",
+      "dob": "2005-09-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 202812,
+      "name": "Lewis Bunton",
+      "dob": "2008-05-13",
+      "height": 175,
+      "weight": null
+    },
+    {
+      "id": 210490,
+      "name": "John Morgan",
+      "dob": "2000-08-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 211640,
+      "name": "Joshua Cosgrove",
+      "dob": "2008-07-25",
+      "height": 186,
+      "weight": 70
+    },
+    {
+      "id": 211642,
+      "name": "Bailey Harsum",
+      "dob": "2007-09-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 222823,
+      "name": "Samuel Reid",
+      "dob": "1996-12-21",
+      "height": 195,
+      "weight": 85
+    },
+    {
+      "id": 222958,
+      "name": "James Ingham",
+      "dob": "2008-06-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223168,
+      "name": "Tomo Iwata-Furlonger",
+      "dob": "2007-12-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 223286,
+      "name": "Jonathan Butler",
+      "dob": "2003-07-19",
+      "height": 195,
+      "weight": 82
+    },
+    {
+      "id": 239884,
+      "name": "Alexander Cottee",
+      "dob": "2009-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 242618,
+      "name": "Jack Ashton",
+      "dob": "2003-04-05",
+      "height": 181,
+      "weight": 74
+    }
+  ]
+}

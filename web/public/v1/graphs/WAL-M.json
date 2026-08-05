@@ -1,0 +1,47 @@
+{
+  "country": "WAL",
+  "countryName": "Wales",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 164446,
+      "name": "Conor Robins",
+      "short": "Robins",
+      "tournaments": 11,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 188319,
+      "name": "Davoud Ahmad Panah",
+      "short": "Panah",
+      "tournaments": 4,
+      "first": 2022,
+      "last": 2024
+    },
+    {
+      "id": 221190,
+      "name": "Matthew Pollock",
+      "short": "Pollock",
+      "tournaments": 7,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 164446,
+      "b": 188319,
+      "t": 4,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 164446,
+      "b": 221190,
+      "t": 7,
+      "f": 2025,
+      "l": 2026
+    }
+  ]
+}

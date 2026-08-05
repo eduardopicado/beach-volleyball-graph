@@ -1,0 +1,32 @@
+{
+  "country": "FIJ",
+  "countryName": "Fiji",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 166236,
+      "name": "Nacanieli Elliot",
+      "short": "Elliot",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 166237,
+      "name": "Inia Korowale",
+      "short": "Korowale",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    }
+  ],
+  "edges": [
+    {
+      "a": 166236,
+      "b": 166237,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    }
+  ]
+}

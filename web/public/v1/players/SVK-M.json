@@ -1,0 +1,475 @@
+{
+  "country": "SVK",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100838,
+      "name": "Marian Migra",
+      "dob": "1970-03-13",
+      "height": 196,
+      "weight": 85
+    },
+    {
+      "id": 100839,
+      "name": "Vladimir \"Korzo\" Prochazka",
+      "dob": "1973-01-09",
+      "height": 190,
+      "weight": 92
+    },
+    {
+      "id": 102169,
+      "name": "Peter 'Kimo' Kimijan",
+      "dob": "1976-04-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102170,
+      "name": "Marek 'Cibo' Cibula",
+      "dob": "1976-06-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102583,
+      "name": "Martin \"Kapu\" Kapusta",
+      "dob": "1971-09-10",
+      "height": 183,
+      "weight": 83
+    },
+    {
+      "id": 102613,
+      "name": "Roman \"Maca Spacek",
+      "dob": "1975-10-21",
+      "height": 191,
+      "weight": 94
+    },
+    {
+      "id": 102614,
+      "name": "Peter \"Fischer\" Varga",
+      "dob": "1976-12-28",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 102832,
+      "name": "Lubor \"Gejza\" Halanda",
+      "dob": "1977-09-12",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 102900,
+      "name": "Radoslav Dvorsky",
+      "dob": "1975-09-24",
+      "height": 194,
+      "weight": 92
+    },
+    {
+      "id": 102952,
+      "name": "Matej \"Koli\" Kollar",
+      "dob": "1973-04-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103000,
+      "name": "Karol Sramek",
+      "dob": "1977-01-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103096,
+      "name": "Samuel Schottert",
+      "dob": "1981-06-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103275,
+      "name": "Martin Suja",
+      "dob": "1981-09-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103279,
+      "name": "Jozef Sladecek",
+      "dob": "1973-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104062,
+      "name": "Juraz Sujan",
+      "dob": "1979-09-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104211,
+      "name": "Jan Majercak",
+      "dob": "1970-08-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104216,
+      "name": "Michal Litva",
+      "dob": "1975-09-10",
+      "height": 196,
+      "weight": 94
+    },
+    {
+      "id": 104620,
+      "name": "Miloslav Rousek",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 112263,
+      "name": "Martin Balej",
+      "dob": "1983-07-04",
+      "height": 192,
+      "weight": 84
+    },
+    {
+      "id": 117896,
+      "name": "Marek Jany",
+      "dob": "1979-07-15",
+      "height": 191,
+      "weight": 90
+    },
+    {
+      "id": 117897,
+      "name": "Ivan Valent",
+      "dob": "1985-09-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118106,
+      "name": "Dominik Mracko",
+      "dob": "1982-01-03",
+      "height": 190,
+      "weight": 83
+    },
+    {
+      "id": 118211,
+      "name": "Michal Rajduga",
+      "dob": "1986-03-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118212,
+      "name": "Branislav Chudik",
+      "dob": "1986-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119283,
+      "name": "Peter Michalovic",
+      "dob": "1990-05-26",
+      "height": 200,
+      "weight": 95
+    },
+    {
+      "id": 119284,
+      "name": "Matej Herich",
+      "dob": "1990-04-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119285,
+      "name": "Branislav Dlholucky",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119287,
+      "name": "Matej Patak",
+      "dob": "1990-06-08",
+      "height": 197,
+      "weight": 88
+    },
+    {
+      "id": 119973,
+      "name": "Igor Horvath",
+      "dob": "1985-09-20",
+      "height": 194,
+      "weight": 90
+    },
+    {
+      "id": 120071,
+      "name": "Jan Namesansky",
+      "dob": "1988-04-12",
+      "height": 191,
+      "weight": 84
+    },
+    {
+      "id": 120072,
+      "name": "Peter Gyurovszky",
+      "dob": "1987-10-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120123,
+      "name": "Marek Patuc",
+      "dob": "1983-07-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120569,
+      "name": "Matej Hukel",
+      "dob": "1988-08-27",
+      "height": 207,
+      "weight": 88
+    },
+    {
+      "id": 120570,
+      "name": "Miroslav Krajcik",
+      "dob": "1988-10-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120671,
+      "name": "Onderej Vavrinec",
+      "dob": "1991-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120675,
+      "name": "Samuel Siska",
+      "dob": "1991-01-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 123733,
+      "name": "Andrej Patuc",
+      "dob": "1984-12-30",
+      "height": 202,
+      "weight": 83
+    },
+    {
+      "id": 124855,
+      "name": "Oliver Cizmazia",
+      "dob": "1993-02-21",
+      "height": 181,
+      "weight": 75
+    },
+    {
+      "id": 124856,
+      "name": "Tomas Halanda",
+      "dob": "1992-04-25",
+      "height": 195,
+      "weight": 85
+    },
+    {
+      "id": 125001,
+      "name": "Igor Holka",
+      "dob": "1991-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125166,
+      "name": "Michal Kollar",
+      "dob": "1980-11-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132097,
+      "name": "Martin Bilik",
+      "dob": "1993-05-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 132184,
+      "name": "Robert Majzel",
+      "dob": "1988-12-10",
+      "height": 188,
+      "weight": 91
+    },
+    {
+      "id": 132185,
+      "name": "Tomas Krisko",
+      "dob": "1988-12-19",
+      "height": 202,
+      "weight": 91
+    },
+    {
+      "id": 132582,
+      "name": "Samuel Podstupka",
+      "dob": "1992-11-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 137112,
+      "name": "Michal Hovorka",
+      "dob": "1991-09-29",
+      "height": 191,
+      "weight": 85
+    },
+    {
+      "id": 139373,
+      "name": "Jakub Ihnat",
+      "dob": "1996-10-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145075,
+      "name": "Michal Gréč",
+      "dob": "1986-12-16",
+      "height": 193,
+      "weight": 97
+    },
+    {
+      "id": 146905,
+      "name": "Marian Lukac",
+      "dob": "1995-11-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150235,
+      "name": "Lubos Nemec",
+      "dob": "1995-03-02",
+      "height": 184,
+      "weight": 77
+    },
+    {
+      "id": 152482,
+      "name": "Patrik Pokopec",
+      "dob": "1998-04-23",
+      "height": 196,
+      "weight": 80
+    },
+    {
+      "id": 154405,
+      "name": "Peter Kviecinsky",
+      "dob": "1981-03-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155009,
+      "name": "Kamil Pavlinsky",
+      "dob": "1995-08-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156092,
+      "name": "Jakub Nano",
+      "dob": "1984-06-30",
+      "height": 187,
+      "weight": 85
+    },
+    {
+      "id": 156684,
+      "name": "Marek Ludha",
+      "dob": "1993-11-19",
+      "height": 200,
+      "weight": 90
+    },
+    {
+      "id": 164458,
+      "name": "Matus Sima",
+      "dob": "1999-12-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166978,
+      "name": "Martin Petro",
+      "dob": "1995-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179391,
+      "name": "Martin Bielka",
+      "dob": "2003-09-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 179392,
+      "name": "Adrian Petruf",
+      "dob": "2003-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182265,
+      "name": "Dominik Jancok",
+      "dob": "2004-03-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182268,
+      "name": "Denis Lapos",
+      "dob": "2005-11-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187187,
+      "name": "Marian Klimo",
+      "dob": "1985-09-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 187194,
+      "name": "Patrik Marcok",
+      "dob": "1999-12-30",
+      "height": 188,
+      "weight": 75
+    },
+    {
+      "id": 190743,
+      "name": "Alexander Juraj Slavik",
+      "dob": "2007-02-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 196727,
+      "name": "Viktor Vnuk",
+      "dob": "1997-05-22",
+      "height": 195,
+      "weight": 93
+    },
+    {
+      "id": 239934,
+      "name": "Lukas Hunady",
+      "dob": "2009-09-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 239935,
+      "name": "Kevin Kalma",
+      "dob": "2009-03-25",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

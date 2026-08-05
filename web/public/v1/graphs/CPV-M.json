@@ -1,0 +1,192 @@
+{
+  "country": "CPV",
+  "countryName": "Cape Verde",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 155679,
+      "name": "Victor Isaias Lopes Sanches",
+      "short": "Lopes",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 161671,
+      "name": "Hélio César Lopes Sanches",
+      "short": "Hélio Sanches",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 175260,
+      "name": "Admilson Melo",
+      "short": "admilson",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 175261,
+      "name": "Danilo Ramos Evora",
+      "short": "danilo",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 181379,
+      "name": "Fabio Brito Melo",
+      "short": "fabio",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 207821,
+      "name": "Ivan Mota",
+      "short": "Ivan",
+      "tournaments": 4,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 230734,
+      "name": "Helder Cruz do Espirito Santo",
+      "short": "Helder",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 230735,
+      "name": "ZIDANI TAVARES DOS SANTOS",
+      "short": "ZIDANE",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230736,
+      "name": "DELVINO ANDRADE SOUTO GONÇALVES",
+      "short": "DELVINO",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230737,
+      "name": "RICARDO LUIS MORENO BAPTISTA",
+      "short": "RICARDO",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230738,
+      "name": "HUGO MIGUEL SOARES SANTOS",
+      "short": "HUGO",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230739,
+      "name": "ARIDSON RODRIGUES ANDRADE",
+      "short": "ARI",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 230771,
+      "name": "LUCAS GUILHERME LEITE DOS SANTOS",
+      "short": "LUCAS",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 230772,
+      "name": "LEANDRO MAURÍCIO DIAS DE PINA",
+      "short": "LEANDRO",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 231556,
+      "name": "Ivo Mariano dos Santos Brito",
+      "short": "IVO",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 155679,
+      "b": 161671,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 175260,
+      "b": 207821,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 175261,
+      "b": 230739,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 181379,
+      "b": 230734,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 181379,
+      "b": 231556,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230734,
+      "b": 230735,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230736,
+      "b": 230737,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230738,
+      "b": 230739,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230771,
+      "b": 230772,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

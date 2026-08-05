@@ -1,0 +1,146 @@
+{
+  "country": "LUX",
+  "countryName": "Luxembourg",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 117025,
+      "name": "Francis Manderscheid",
+      "short": "Manderscheid",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117026,
+      "name": "Laurent Schoder",
+      "short": "Schoder",
+      "tournaments": 4,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 117027,
+      "name": "Thierry Decker",
+      "short": "Decker",
+      "tournaments": 1,
+      "first": 2005,
+      "last": 2005
+    },
+    {
+      "id": 117132,
+      "name": "Stefan Richtarik",
+      "short": "Richtarik S.",
+      "tournaments": 22,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 117274,
+      "name": "Roman Richtarik",
+      "short": "Richtarik R.",
+      "tournaments": 22,
+      "first": 2005,
+      "last": 2007
+    },
+    {
+      "id": 134075,
+      "name": "Jan Lux",
+      "short": "Lux",
+      "tournaments": 3,
+      "first": 2007,
+      "last": 2007
+    },
+    {
+      "id": 158811,
+      "name": "Steve Weber",
+      "short": "Weber",
+      "tournaments": 17,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 169733,
+      "name": "Maciej Complak",
+      "short": "Complak",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 189806,
+      "name": "Felix Terwindt",
+      "short": "Terwindt",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 189847,
+      "name": "Colin Hilbert",
+      "short": "Hilbert",
+      "tournaments": 17,
+      "first": 2023,
+      "last": 2026
+    },
+    {
+      "id": 210848,
+      "name": "Piotr WOLANSKI",
+      "short": "Wolanski",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 117025,
+      "b": 117027,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117026,
+      "b": 117027,
+      "t": 1,
+      "f": 2005,
+      "l": 2005
+    },
+    {
+      "a": 117026,
+      "b": 134075,
+      "t": 3,
+      "f": 2007,
+      "l": 2007
+    },
+    {
+      "a": 117132,
+      "b": 117274,
+      "t": 22,
+      "f": 2005,
+      "l": 2007
+    },
+    {
+      "a": 158811,
+      "b": 189847,
+      "t": 17,
+      "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 169733,
+      "b": 189806,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 169733,
+      "b": 210848,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

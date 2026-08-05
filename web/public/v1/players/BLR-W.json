@@ -1,0 +1,90 @@
+{
+  "country": "BLR",
+  "gender": "W",
+  "players": [
+    {
+      "id": 137793,
+      "name": "Alena Bernatovich",
+      "dob": "1987-03-26",
+      "height": 178,
+      "weight": 63
+    },
+    {
+      "id": 138933,
+      "name": "Anastasiya Kazachenka",
+      "dob": "1996-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139539,
+      "name": "Valeryia Babenka",
+      "dob": "1996-03-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139541,
+      "name": "Nadzeya Stoliar",
+      "dob": "1996-01-11",
+      "height": 183,
+      "weight": 75
+    },
+    {
+      "id": 139542,
+      "name": "Alina Stsebunova",
+      "dob": "1996-12-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139543,
+      "name": "Tatsiana Trafimava",
+      "dob": "1992-09-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139544,
+      "name": "Alena Fedarynchyk",
+      "dob": "1993-07-03",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 143093,
+      "name": "Volha Rakhman",
+      "dob": "1985-04-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143094,
+      "name": "Lizaveta Chabai",
+      "dob": "1997-08-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143095,
+      "name": "Yana Mileuskaya",
+      "dob": "1996-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 143105,
+      "name": "Viktoryia Shalayeuskaya",
+      "dob": "1997-11-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 144204,
+      "name": "Viktoryia Siakretava",
+      "dob": "1997-06-04",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

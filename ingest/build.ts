@@ -289,8 +289,14 @@ export function sliceByCountryAndGender(
     const split = key.lastIndexOf('-');
     const country = key.slice(0, split);
     const gender = key.slice(split + 1) as Gender;
-    nodes.sort((x, y) => y.tournaments - x.tournaments || x.name.localeCompare(y.name));
-    const edges = (edgesByBucket.get(key) ?? []).sort((x, y) => y.t - x.t);
+    // Sorted by id — an immutable key — rather than tournament count: this is
+    // the order written to disk, and every consumer (the app's table, the
+    // graph's label picker, the prerendered page) already re-sorts by
+    // whatever it actually needs. Sorting by a mutable field here instead
+    // would mean a single player entering one more tournament reorders the
+    // whole array, turning a one-line data change into a full-file diff.
+    nodes.sort((x, y) => x.id - y.id);
+    const edges = (edgesByBucket.get(key) ?? []).sort((x, y) => x.a - y.a || x.b - y.b);
     slices.push({ country, gender, nodes, edges });
   }
   slices.sort((x, y) => x.country.localeCompare(y.country) || x.gender.localeCompare(y.gender));

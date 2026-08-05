@@ -1,0 +1,78 @@
+{
+  "country": "UGA",
+  "countryName": "Uganda",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 135047,
+      "name": "Diana Tukundane Agaba",
+      "short": "Agaba",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 135048,
+      "name": "Sharon Sylvia Pajijie",
+      "short": "Pajijie",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144466,
+      "name": "Nambasa Margret",
+      "short": "Nambasa",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144467,
+      "name": "Omuriwe Shilla Allison",
+      "short": "Omuriwe",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 146972,
+      "name": "Faith Magole",
+      "short": "Magole",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146974,
+      "name": "Jackline Twikirize",
+      "short": "Twikirize",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    }
+  ],
+  "edges": [
+    {
+      "a": 135047,
+      "b": 135048,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 144466,
+      "b": 144467,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 146972,
+      "b": 146974,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    }
+  ]
+}

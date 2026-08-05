@@ -1,0 +1,333 @@
+{
+  "country": "UAE",
+  "countryName": "United Arab Emirates",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 103456,
+      "name": "Khaled El-Dawsary",
+      "short": "El-Dawsary",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 103510,
+      "name": "Abdallah El Mohamed",
+      "short": "El Mohamed",
+      "tournaments": 1,
+      "first": 2001,
+      "last": 2001
+    },
+    {
+      "id": 116090,
+      "name": "Ali Abdulla Ali",
+      "short": "Ali",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 116091,
+      "name": "Saif Rashed Alameri",
+      "short": "Saif R.",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120539,
+      "name": "marwan Mohammad",
+      "short": "Mohammad",
+      "tournaments": 6,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120540,
+      "name": "saleh mousa",
+      "short": "mousa",
+      "tournaments": 4,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120542,
+      "name": "hamza khalid",
+      "short": "khalid",
+      "tournaments": 5,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120543,
+      "name": "abdullah Al Ali",
+      "short": "Al Ali",
+      "tournaments": 5,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120544,
+      "name": "obaid matar",
+      "short": "matar",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120547,
+      "name": "Mohammed Banihmmad",
+      "short": "Banihmmad",
+      "tournaments": 4,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120548,
+      "name": "Salem Mohammed",
+      "short": "salem",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 120549,
+      "name": "abdullah Kaabi",
+      "short": "Kaabi",
+      "tournaments": 6,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120721,
+      "name": "ali alfardan",
+      "short": "alfardan",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120723,
+      "name": "Ali Mohammad",
+      "short": "Ali",
+      "tournaments": 3,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120727,
+      "name": "ahmad matar",
+      "short": "ahmad",
+      "tournaments": 5,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120809,
+      "name": "Rashed Yammahi",
+      "short": "Yammahi",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120810,
+      "name": "ahmad zarkoh",
+      "short": "zarkoh",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 120963,
+      "name": "Ahmed Al houli",
+      "short": "Al houli",
+      "tournaments": 2,
+      "first": 2008,
+      "last": 2022
+    },
+    {
+      "id": 120972,
+      "name": "Rashed Hassan",
+      "short": "Rashed",
+      "tournaments": 1,
+      "first": 2008,
+      "last": 2008
+    },
+    {
+      "id": 195184,
+      "name": "Abduljalil ALBLOOSHI",
+      "short": "Abduljalil",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 195190,
+      "name": "Hassan Aldhuhoori",
+      "short": "Hassan",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 195191,
+      "name": "Humaid Binsaud",
+      "short": "Humaid",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 196536,
+      "name": "Amer Almarzooqi",
+      "short": "Amer",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    }
+  ],
+  "edges": [
+    {
+      "a": 103456,
+      "b": 103510,
+      "t": 1,
+      "f": 2001,
+      "l": 2001
+    },
+    {
+      "a": 116090,
+      "b": 120727,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 116091,
+      "b": 120542,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120539,
+      "b": 120540,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120539,
+      "b": 120542,
+      "t": 2,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120539,
+      "b": 120543,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120539,
+      "b": 120721,
+      "t": 3,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120540,
+      "b": 120542,
+      "t": 3,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120540,
+      "b": 120543,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120543,
+      "b": 120549,
+      "t": 2,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120543,
+      "b": 120727,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120544,
+      "b": 120549,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120547,
+      "b": 120727,
+      "t": 4,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120548,
+      "b": 120963,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 120549,
+      "b": 120723,
+      "t": 3,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120809,
+      "b": 120810,
+      "t": 2,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 120963,
+      "b": 120972,
+      "t": 1,
+      "f": 2008,
+      "l": 2008
+    },
+    {
+      "a": 195184,
+      "b": 195190,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 195184,
+      "b": 196536,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 195190,
+      "b": 195191,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    }
+  ]
+}

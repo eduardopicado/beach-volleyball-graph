@@ -1,0 +1,147 @@
+{
+  "country": "CPV",
+  "countryName": "Cape Verde",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 135538,
+      "name": "Irina Cristina Gomes Delgado",
+      "short": "Delgado",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 170818,
+      "name": "Ludmila Sofia Oliveira Varela",
+      "short": "Lu",
+      "tournaments": 10,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 173574,
+      "name": "Janice Anilda Oliveira Varela",
+      "short": "Jany",
+      "tournaments": 10,
+      "first": 2024,
+      "last": 2026
+    },
+    {
+      "id": 181413,
+      "name": "Sandrina Benany Vieira Monteiro Silva",
+      "short": "Sandriny",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 209041,
+      "name": "Keila Santos da Cruz",
+      "short": "Keila",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 219579,
+      "name": "Ariel Cilene da Conceição Neves Paulina",
+      "short": "Paulina",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 227349,
+      "name": "Maria clara V. Semedo Lima",
+      "short": "Maria",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 227350,
+      "name": "Catarina Raquel Silva Fonseca",
+      "short": "Catarina",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230740,
+      "name": "ADLA MARINA TAVARES DE PINA",
+      "short": "ADLA",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 230741,
+      "name": "CLAUDIA HELENA CRUZ PINTO",
+      "short": "CLAUDIA",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 230742,
+      "name": "MELANIE YARA SOARES LOPES ROCHA",
+      "short": "MELANIE",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 241573,
+      "name": "JOSANY SIMONE DA CRUZ FORTES",
+      "short": "JOSANY",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 135538,
+      "b": 219579,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 170818,
+      "b": 173574,
+      "t": 10,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 181413,
+      "b": 230740,
+      "t": 2,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 209041,
+      "b": 241573,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 227349,
+      "b": 227350,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 230741,
+      "b": 230742,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

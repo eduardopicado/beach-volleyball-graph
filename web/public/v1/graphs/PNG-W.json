@@ -1,0 +1,32 @@
+{
+  "country": "PNG",
+  "countryName": "Papua New Guinea",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 164927,
+      "name": "Emily Afali Bae",
+      "short": "Bae",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 164928,
+      "name": "Michelle Shirley Walo",
+      "short": "Walo",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    }
+  ],
+  "edges": [
+    {
+      "a": 164927,
+      "b": 164928,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    }
+  ]
+}

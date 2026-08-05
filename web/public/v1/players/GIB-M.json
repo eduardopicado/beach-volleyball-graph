@@ -1,0 +1,20 @@
+{
+  "country": "GIB",
+  "gender": "M",
+  "players": [
+    {
+      "id": 203662,
+      "name": "Mathew Ressa",
+      "dob": "2008-12-13",
+      "height": null,
+      "weight": 59
+    },
+    {
+      "id": 203663,
+      "name": "Liam Neish",
+      "dob": "2008-09-21",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

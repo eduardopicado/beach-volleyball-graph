@@ -1,0 +1,76 @@
+{
+  "country": "GBR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 118585,
+      "name": "Luke Sheaf",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118586,
+      "name": "Jake Sheaf",
+      "dob": "1990-04-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118718,
+      "name": "Imornefe Bowes",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118936,
+      "name": "Barry McGuigan",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120535,
+      "name": "Tom Lord",
+      "dob": "1986-08-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120922,
+      "name": "Josh Randall",
+      "dob": "1989-07-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120923,
+      "name": "Adam Smith",
+      "dob": "1990-02-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 124005,
+      "name": "John Garcia-Thompson",
+      "dob": "1979-06-08",
+      "height": 192,
+      "weight": 92
+    },
+    {
+      "id": 125531,
+      "name": "Seain Cook",
+      "dob": "1990-10-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125535,
+      "name": "Patrick Crooks",
+      "dob": "1990-05-06",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

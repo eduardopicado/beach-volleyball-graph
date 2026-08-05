@@ -1,0 +1,107 @@
+{
+  "country": "TUV",
+  "countryName": "Tuvalu",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 160547,
+      "name": "Jackson Vailine",
+      "short": "Jackson",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 161781,
+      "name": "Saaga Malosa",
+      "short": "###DO NOT USE###",
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2020
+    },
+    {
+      "id": 165882,
+      "name": "Ata Taunteang Biira",
+      "short": "Ata",
+      "tournaments": 2,
+      "first": 2020,
+      "last": 2023
+    },
+    {
+      "id": 171788,
+      "name": "Ampelosa Luka",
+      "short": "Ampelosa",
+      "tournaments": 3,
+      "first": 2020,
+      "last": 2023
+    },
+    {
+      "id": 177443,
+      "name": "Dartagnan Lameko Loota",
+      "short": "Lameko",
+      "tournaments": 1,
+      "first": 2020,
+      "last": 2020
+    },
+    {
+      "id": 190080,
+      "name": "Ampex Isaac",
+      "short": "Isaac",
+      "tournaments": 4,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 190081,
+      "name": "Saaga Malosa",
+      "short": "Malosa",
+      "tournaments": 3,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 160547,
+      "b": 161781,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 161781,
+      "b": 171788,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 165882,
+      "b": 177443,
+      "t": 1,
+      "f": 2020,
+      "l": 2020
+    },
+    {
+      "a": 165882,
+      "b": 190080,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 171788,
+      "b": 190081,
+      "t": 2,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 190080,
+      "b": 190081,
+      "t": 3,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}

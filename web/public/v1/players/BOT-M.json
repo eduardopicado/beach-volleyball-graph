@@ -1,0 +1,41 @@
+{
+  "country": "BOT",
+  "gender": "M",
+  "players": [
+    {
+      "id": 170068,
+      "name": "Merafe Patrick MEDUPE",
+      "dob": "2000-12-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173086,
+      "name": "George Simata Chiswaniso",
+      "dob": "1999-10-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181501,
+      "name": "Sekao Boifang Jack",
+      "dob": "1996-03-23",
+      "height": null,
+      "weight": 96
+    },
+    {
+      "id": 190100,
+      "name": "Trevor Pulantle Manduwa",
+      "dob": "2004-10-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 201107,
+      "name": "Mosiiwa Baleofi",
+      "dob": "2004-10-24",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

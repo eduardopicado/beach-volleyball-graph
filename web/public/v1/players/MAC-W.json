@@ -1,0 +1,62 @@
+{
+  "country": "MAC",
+  "gender": "W",
+  "players": [
+    {
+      "id": 103231,
+      "name": "Tong Iok I",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103232,
+      "name": "Fong Pou Lai",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103233,
+      "name": "Cheang Wing Yee",
+      "dob": "1986-04-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103234,
+      "name": "Cheang Hoi Neng",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 115685,
+      "name": "Kin Teng Tam",
+      "dob": "1989-03-20",
+      "height": 170,
+      "weight": 54
+    },
+    {
+      "id": 149343,
+      "name": "On Ieng Leong",
+      "dob": "1996-04-20",
+      "height": 171,
+      "weight": 64
+    },
+    {
+      "id": 149344,
+      "name": "Weng Sam Law",
+      "dob": "1998-02-13",
+      "height": 170,
+      "weight": 55
+    },
+    {
+      "id": 199654,
+      "name": "Keng Lai Lei",
+      "dob": "2000-05-04",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

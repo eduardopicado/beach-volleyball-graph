@@ -1,0 +1,76 @@
+{
+  "country": "COD",
+  "gender": "W",
+  "players": [
+    {
+      "id": 168451,
+      "name": "Nathalie Kutekenenyi Bidimine",
+      "dob": "2002-02-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 173354,
+      "name": "Ngamasata Maleluka",
+      "dob": "2001-04-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 175319,
+      "name": "Irene Mpeti Lelo",
+      "dob": "2005-11-29",
+      "height": 170,
+      "weight": 61
+    },
+    {
+      "id": 175348,
+      "name": "Benedicte Tetila Monge",
+      "dob": "2002-01-04",
+      "height": 171,
+      "weight": 58
+    },
+    {
+      "id": 175357,
+      "name": "Christelle Makiese Ndongo",
+      "dob": "2004-11-16",
+      "height": 169,
+      "weight": 62
+    },
+    {
+      "id": 175583,
+      "name": "Monge Tetila",
+      "dob": "2002-04-01",
+      "height": 177,
+      "weight": 68
+    },
+    {
+      "id": 175585,
+      "name": "Mianda Ania Dorcas",
+      "dob": "2002-03-23",
+      "height": 178,
+      "weight": 68
+    },
+    {
+      "id": 189910,
+      "name": "Menezes Bompetshi Amba",
+      "dob": "2007-12-30",
+      "height": 174,
+      "weight": 67
+    },
+    {
+      "id": 212586,
+      "name": "EKETE MOSEKA",
+      "dob": "2009-04-08",
+      "height": 194,
+      "weight": 78
+    },
+    {
+      "id": 224098,
+      "name": "MATATANU MAYALA",
+      "dob": "2009-03-08",
+      "height": 168,
+      "weight": 67
+    }
+  ]
+}

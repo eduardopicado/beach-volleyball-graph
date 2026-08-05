@@ -1,0 +1,32 @@
+{
+  "country": "NMI",
+  "countryName": "Northern Mariana Islands",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 174380,
+      "name": "Logan Jon Mister",
+      "short": "Mister",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 189639,
+      "name": "Andrew Scott Johnson",
+      "short": "Johnson",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 174380,
+      "b": 189639,
+      "t": 3,
+      "f": 2025,
+      "l": 2026
+    }
+  ]
+}

@@ -6,18 +6,33 @@
 # enough that there is no incremental cache to go stale — any upstream
 # correction or ingest bug is washed out by the next run.
 #
-# ingest is split into its own job specifically so that a failure anywhere
-# downstream — a bad Pages permission, a broken build step — can be retried
-# with GitHub's "re-run failed jobs" without re-fetching from FIVB. Only
-# jobs that failed (or depend on one that did) re-run; ingest, once green,
-# stays green and is not re-executed. The FIVB archive doesn't change
-# between retries a few minutes apart, so there is nothing to gain by asking
-# for it again, and every unnecessary call is traffic on a free API that has
-# no obligation to keep serving it.
+# `ingest` commits the refreshed data straight to `web/public/v1/` on this
+# branch (see the header comment in ingest/main.ts for why it's tracked at
+# all) rather than handing it to `build` as a short-lived artifact. That has
+# two consequences here:
 #
-# Failure semantics: if ingest fails, the job stops before build and deploy,
-# so the previously published site keeps serving last week's data. Degraded
-# to "slightly stale", never to "down".
+# - On a `push` to main that isn't itself a data refresh — a code change, with
+#   nothing to fetch — `ingest` is skipped entirely (`if:` below) and `build`
+#   works from whatever is already committed. FIVB being unreachable, rate
+#   limiting this project, or disappearing outright no longer blocks shipping
+#   code that has nothing to do with the data.
+# - `build` checks out the exact commit `ingest` produced
+#   (`needs.ingest.outputs.data_sha`) rather than the ref this run started on,
+#   since `ingest`'s own push landed after that. On a code push there is no
+#   such output, so it falls back to `github.sha` — the commit already
+#   carries whatever data was last committed.
+#
+# ingest is still split into its own job so that a failure anywhere downstream
+# — a bad Pages permission, a broken build step — can be retried with GitHub's
+# "re-run failed jobs" without re-fetching from FIVB: `data_sha` is a job
+# output, and GitHub preserves a successful job's outputs across a re-run of
+# only what failed.
+#
+# Failure semantics: if ingest fails — including refusing to publish a rebuild
+# that looks like a broken fetch rather than a real change, see
+# ingest/regression.ts — the job stops before committing, before build and
+# before deploy, so the previously published site keeps serving last week's
+# data. Degraded to "slightly stale", never to "down".
 
 name: Rebuild data and deploy
 
@@ -41,7 +56,14 @@ permissions:
 
 jobs:
   ingest:
+    # Skipped on a plain code push: nothing to fetch, and the committed data
+    # already reflects the last successful refresh.
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to commit the refreshed data back to this branch
+    outputs:
+      data_sha: ${{ steps.commit.outputs.sha }}
     steps:
       - uses: actions/checkout@v7
 
@@ -85,17 +107,38 @@ jobs:
               print(f"| {tier} | {n:,} |")
           PY
 
-      - uses: actions/upload-artifact@v7
-        with:
-          name: fivb-data
-          path: web/public/v1
-          retention-days: 1
+      # If branch protection on main blocks a direct push even from Actions,
+      # this step fails here (before build/deploy run) and the fix is either
+      # an actor exemption for github-actions[bot] on the required-PR rule, or
+      # switching this to open a small auto-mergeable PR instead (e.g.
+      # peter-evans/create-pull-request) — not to relax protection generally.
+      - name: Commit refreshed data
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain -- web/public/v1)" ]; then
+            echo "No data changes to commit."
+          else
+            git add web/public/v1
+            git commit -m "Refresh FIVB data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   build:
     needs: ingest
+    # Runs whether ingest actually ran (schedule/dispatch) or was skipped (a
+    # code-only push) — only a real ingest *failure* should stop the deploy.
+    if: always() && (needs.ingest.result == 'success' || needs.ingest.result == 'skipped')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # The commit ingest just produced, if it ran; otherwise the pushed
+          # commit this run started from, which already carries whatever data
+          # was last committed.
+          ref: ${{ needs.ingest.outputs.data_sha || github.sha }}
 
       - uses: actions/setup-node@v7
         with:
@@ -103,11 +146,6 @@ jobs:
           cache: npm
 
       - run: npm ci
-
-      - uses: actions/download-artifact@v8
-        with:
-          name: fivb-data
-          path: web/public/v1
 
       - name: Build site
         run: npm run build

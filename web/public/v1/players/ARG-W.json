@@ -1,0 +1,405 @@
+{
+  "country": "ARG",
+  "gender": "W",
+  "players": [
+    {
+      "id": 101816,
+      "name": "Paula Parisi",
+      "dob": "1967-09-15",
+      "height": 177,
+      "weight": 70
+    },
+    {
+      "id": 102505,
+      "name": "Maria Elena Evangelista",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102506,
+      "name": "Alejandra Elisabet \"Jana\" Ortiz Echague",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 112338,
+      "name": "Viviana Dominko",
+      "dob": "1982-10-03",
+      "height": 178,
+      "weight": 69
+    },
+    {
+      "id": 112614,
+      "name": "Georgina Klug",
+      "dob": "1984-06-11",
+      "height": 172,
+      "weight": 63
+    },
+    {
+      "id": 117253,
+      "name": "Natali Flaviani",
+      "dob": "1985-10-08",
+      "height": 185,
+      "weight": 70
+    },
+    {
+      "id": 117545,
+      "name": "Mercedes Haydeé San Martín",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117546,
+      "name": "Mariela Celestina Duce",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117553,
+      "name": "Araceli Calgaro",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117554,
+      "name": "Analía Belmonte",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117555,
+      "name": "Soledad Colella",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117556,
+      "name": "Verónica Azcona",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117557,
+      "name": "Marcela Ochoteco",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117558,
+      "name": "Carolina Settimi",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117559,
+      "name": "Mariana Del Coto",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117561,
+      "name": "Adriana Moyano",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117562,
+      "name": "Tamara Rodriguez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117563,
+      "name": "María Celina Oppezzo",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 120037,
+      "name": "Ana Gallay",
+      "dob": "1986-01-16",
+      "height": 173,
+      "weight": 67
+    },
+    {
+      "id": 122491,
+      "name": "Maria Julia Benet",
+      "dob": "1990-04-29",
+      "height": 184,
+      "weight": 77
+    },
+    {
+      "id": 134609,
+      "name": "Maria Virginia Zonta",
+      "dob": "1989-09-30",
+      "height": 169,
+      "weight": 66
+    },
+    {
+      "id": 134610,
+      "name": "Luciana Forguez",
+      "dob": "1982-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 134611,
+      "name": "Gabriela Albano",
+      "dob": "1973-03-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 135931,
+      "name": "Maria Florencia Giorgi",
+      "dob": "1995-10-10",
+      "height": 180,
+      "weight": 67
+    },
+    {
+      "id": 135933,
+      "name": "Irene Verasio",
+      "dob": "1996-07-14",
+      "height": 178,
+      "weight": 67
+    },
+    {
+      "id": 138787,
+      "name": "Julieta Puntin",
+      "dob": "1989-12-06",
+      "height": 183,
+      "weight": 71
+    },
+    {
+      "id": 141758,
+      "name": "Camila Hiruela Tapia",
+      "dob": "1997-02-01",
+      "height": 176,
+      "weight": 80
+    },
+    {
+      "id": 142068,
+      "name": "Alejandra Graiño",
+      "dob": "1983-02-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142069,
+      "name": "Florencia Di Cesare",
+      "dob": "1995-07-03",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 142942,
+      "name": "Michella Di Cesare",
+      "dob": "1997-09-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145380,
+      "name": "Milena Churin",
+      "dob": "1997-03-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145808,
+      "name": "Cecilia Peralta",
+      "dob": "1994-05-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149283,
+      "name": "Gallay Evangelina",
+      "dob": "1984-04-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149288,
+      "name": "Florencia Amieva",
+      "dob": "1995-01-01",
+      "height": 170,
+      "weight": 57
+    },
+    {
+      "id": 149305,
+      "name": "Maria Loreto Sancer Navarro",
+      "dob": "1998-01-10",
+      "height": 175,
+      "weight": 75
+    },
+    {
+      "id": 149307,
+      "name": "Maria Virginia Cappelletti",
+      "dob": "1991-09-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150351,
+      "name": "Brenda Ailen Churin",
+      "dob": "2000-02-17",
+      "height": 173,
+      "weight": 64
+    },
+    {
+      "id": 150359,
+      "name": "Agnes Victoria Michel Tosi",
+      "dob": "1999-07-01",
+      "height": 186,
+      "weight": 78
+    },
+    {
+      "id": 156191,
+      "name": "Delfina Villar",
+      "dob": "2000-05-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156192,
+      "name": "Julia Diaz Neli",
+      "dob": "1998-11-23",
+      "height": null,
+      "weight": 64
+    },
+    {
+      "id": 156193,
+      "name": "Virginia Beguiristain",
+      "dob": "1999-02-02",
+      "height": 180,
+      "weight": 74
+    },
+    {
+      "id": 163282,
+      "name": "Victoria Pozzo Galdon",
+      "dob": "2001-05-05",
+      "height": 177,
+      "weight": 60
+    },
+    {
+      "id": 163283,
+      "name": "Maria Paz Tolosa",
+      "dob": "2000-08-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 166926,
+      "name": "Fernanda Pereyra",
+      "dob": "1991-06-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172781,
+      "name": "Maria Laura Moreno",
+      "dob": "1983-05-02",
+      "height": 165,
+      "weight": 68
+    },
+    {
+      "id": 178661,
+      "name": "Maria Belen Enriquez Bondonno",
+      "dob": "2004-05-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181571,
+      "name": "Maia Najul Rosas",
+      "dob": "2003-04-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182131,
+      "name": "Iara Denappole",
+      "dob": "2005-03-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182135,
+      "name": "Agostina Ghigliazza",
+      "dob": "2002-10-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182137,
+      "name": "Morena Marisa Abdala",
+      "dob": "2005-05-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 182138,
+      "name": "Agostina Panzera",
+      "dob": "2004-05-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 185559,
+      "name": "Carla De Brito",
+      "dob": "1999-11-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 200556,
+      "name": "Lucia Piatti Fadda",
+      "dob": "1993-10-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208888,
+      "name": "Victoria Sancer Navarro",
+      "dob": "2007-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 208889,
+      "name": "Ema Schnidrig",
+      "dob": "2006-04-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 218291,
+      "name": "GARCIA CURADO ISABELLA",
+      "dob": "2009-12-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 219857,
+      "name": "ANGELES FRASCAROLI",
+      "dob": "2009-08-22",
+      "height": null,
+      "weight": 60
+    }
+  ]
+}

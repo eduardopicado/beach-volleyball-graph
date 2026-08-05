@@ -1,0 +1,601 @@
+{
+  "country": "VEN",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100308,
+      "name": "Pedro Enrique \"Tapita\" Tapia Palacios",
+      "dob": "1964-11-10",
+      "height": 185,
+      "weight": 79
+    },
+    {
+      "id": 100309,
+      "name": "José Richard Pastor",
+      "dob": "1965-10-20",
+      "height": 190,
+      "weight": 80
+    },
+    {
+      "id": 100594,
+      "name": "Carlos Cartaya",
+      "dob": "1966-09-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101244,
+      "name": "Rojas \"Luis\" Nacero",
+      "dob": "1966-07-22",
+      "height": 192,
+      "weight": 90
+    },
+    {
+      "id": 101458,
+      "name": "José Rafael Perez Zacarias",
+      "dob": "1970-05-15",
+      "height": 188,
+      "weight": 78
+    },
+    {
+      "id": 101459,
+      "name": "Franson Neris",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101745,
+      "name": "Ricardo Rafael Rodriguez Rodriguez",
+      "dob": "1970-02-13",
+      "height": 189,
+      "weight": 89
+    },
+    {
+      "id": 101807,
+      "name": "Ivan Alexi Maldonado Balderrama",
+      "dob": "1971-07-01",
+      "height": 185,
+      "weight": 80
+    },
+    {
+      "id": 101808,
+      "name": "Ivan Nieto",
+      "dob": "1973-04-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101875,
+      "name": "Richard Orea",
+      "dob": "1975-08-22",
+      "height": 188,
+      "weight": 75
+    },
+    {
+      "id": 102561,
+      "name": "Tomas \"Tommy\" Gonzalez Garcia",
+      "dob": "1967-08-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102578,
+      "name": "Publio Alvarado Alvarado Guzman",
+      "dob": "1969-03-21",
+      "height": 192,
+      "weight": 82
+    },
+    {
+      "id": 102579,
+      "name": "Humberto Pino",
+      "dob": "1971-07-20",
+      "height": 180,
+      "weight": 82
+    },
+    {
+      "id": 102580,
+      "name": "Gustavo Adolfo Vazquez Berti",
+      "dob": "1972-05-11",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 102754,
+      "name": "José Y. \"Camarita\" Vasquez A.",
+      "dob": "1972-09-03",
+      "height": 184,
+      "weight": 76
+    },
+    {
+      "id": 102857,
+      "name": "Mauro Hernandez",
+      "dob": "1977-06-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102858,
+      "name": "Jean Paul Leroux",
+      "dob": "1978-10-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102902,
+      "name": "Carlos Rivero",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 102903,
+      "name": "Alfred Osorio",
+      "dob": "1980-10-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103336,
+      "name": "Julio Cesar Corona Rodriguez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 103967,
+      "name": "Robinson Castro",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104318,
+      "name": "Farid Mussa",
+      "dob": "1984-04-28",
+      "height": 192,
+      "weight": 93
+    },
+    {
+      "id": 104514,
+      "name": "Federico Aguinaco",
+      "dob": "1986-06-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105129,
+      "name": "Cesar Castro",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116763,
+      "name": "Jackson Henriquez",
+      "dob": "1985-02-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116764,
+      "name": "Jesus Villafañe",
+      "dob": "1986-11-19",
+      "height": 184,
+      "weight": 81
+    },
+    {
+      "id": 116765,
+      "name": "Carlos Rodriguez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116766,
+      "name": "Leonard Alexis Colina Chourio",
+      "dob": "1982-09-24",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 116767,
+      "name": "David Noda",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116770,
+      "name": "Fernando Ramos",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 116797,
+      "name": "Rodolfo Serquera",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117035,
+      "name": "Johann Urdaneta",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117509,
+      "name": "Christian Daniel Romero Camacho",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118044,
+      "name": "Eder Poletto",
+      "dob": "1986-09-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118045,
+      "name": "Jensen Del Nogal",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119150,
+      "name": "Jhonlenn Cruz Barreto Pena",
+      "dob": "1987-05-14",
+      "height": 190,
+      "weight": 90
+    },
+    {
+      "id": 119151,
+      "name": "Hernan Tovar",
+      "dob": "1987-01-29",
+      "height": 185,
+      "weight": 76
+    },
+    {
+      "id": 119152,
+      "name": "Luis Guillen",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119211,
+      "name": "Vicente Salazar",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119212,
+      "name": "Henry Jose Rojas Estangel",
+      "dob": "1992-11-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119213,
+      "name": "Yoalbis Lopez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 119214,
+      "name": "Willi Sanchez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 122626,
+      "name": "Nestor Alberto Gonzalez Jerez",
+      "dob": "1988-02-01",
+      "height": 200,
+      "weight": 86
+    },
+    {
+      "id": 125497,
+      "name": "Vicente Salazar",
+      "dob": "1992-01-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 125498,
+      "name": "Gerardo Mendez",
+      "dob": "1992-12-29",
+      "height": 180,
+      "weight": 67
+    },
+    {
+      "id": 129963,
+      "name": "Igor Spencer Hernandez Colina",
+      "dob": "1977-01-22",
+      "height": null,
+      "weight": 85
+    },
+    {
+      "id": 133196,
+      "name": "Salcedo V Maikhol A",
+      "dob": "1992-11-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 133197,
+      "name": "Maikhol A Salcedo Valero",
+      "dob": "1992-11-24",
+      "height": 177,
+      "weight": 72
+    },
+    {
+      "id": 133198,
+      "name": "Jose G Ruiz M",
+      "dob": "1992-06-05",
+      "height": 184,
+      "weight": 70
+    },
+    {
+      "id": 135502,
+      "name": "Jose G Ruiz Monsalve",
+      "dob": "1992-05-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138080,
+      "name": "Carlos Rangel",
+      "dob": "1990-07-01",
+      "height": null,
+      "weight": 88
+    },
+    {
+      "id": 138621,
+      "name": "Vicente Salasar",
+      "dob": "1992-01-28",
+      "height": 190,
+      "weight": 79
+    },
+    {
+      "id": 138671,
+      "name": "Gerardo Mendez",
+      "dob": "1992-12-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 138729,
+      "name": "Gerardo Mendez",
+      "dob": "1992-12-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139355,
+      "name": "Jonathan Golindano",
+      "dob": "1989-04-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 141872,
+      "name": "Jose Gregorio Gomez",
+      "dob": "1996-02-15",
+      "height": 179,
+      "weight": 72
+    },
+    {
+      "id": 141875,
+      "name": "Ronald Daniel Fayola Hurtado",
+      "dob": "1995-06-20",
+      "height": 198,
+      "weight": 88
+    },
+    {
+      "id": 141944,
+      "name": "Rolando Hernandez",
+      "dob": "1996-06-13",
+      "height": 150,
+      "weight": 74
+    },
+    {
+      "id": 142191,
+      "name": "Angel Luis Sandoval Infante",
+      "dob": "1995-11-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142875,
+      "name": "Pedro Castillo",
+      "dob": "1993-11-19",
+      "height": 193,
+      "weight": 80
+    },
+    {
+      "id": 142876,
+      "name": "Jesus Catillo",
+      "dob": "1992-02-10",
+      "height": 180,
+      "weight": 76
+    },
+    {
+      "id": 143057,
+      "name": "Edwar Osorio",
+      "dob": "1996-03-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146735,
+      "name": "Anderson Anderson Hernández",
+      "dob": "1998-01-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146736,
+      "name": "Leonardo Alvarado",
+      "dob": "1998-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146738,
+      "name": "Franyeiber Catari",
+      "dob": "1998-01-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146739,
+      "name": "José Villalobos",
+      "dob": "1998-07-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 154622,
+      "name": "alejandro jose sanoja",
+      "dob": "1992-04-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156226,
+      "name": "Jose Gonzalez",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 156248,
+      "name": "Oscar Osorio",
+      "dob": "1996-12-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161862,
+      "name": "Jose Alejandro Osorio Ladera",
+      "dob": "0200-10-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161865,
+      "name": "Gabriel Efrain Gonzalez Hernandez",
+      "dob": "2000-11-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162489,
+      "name": "Richard Brizuela",
+      "dob": "2000-04-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162490,
+      "name": "Carlos Tellez",
+      "dob": "2000-03-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168338,
+      "name": "Raymon David Zambrano Rivas",
+      "dob": "2001-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168411,
+      "name": "Juan Escalona",
+      "dob": "1990-01-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180920,
+      "name": "Miguel Andres Mendez Palencia",
+      "dob": "1996-12-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181669,
+      "name": "Yonny Jose Marquez Bandres",
+      "dob": "1989-03-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 209003,
+      "name": "Sebastian Alfredo Pereira Blanco",
+      "dob": "2008-05-30",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 217352,
+      "name": "Harrison Eduardo Riveros Ramirez",
+      "dob": "2007-01-31",
+      "height": 198,
+      "weight": 79
+    },
+    {
+      "id": 219625,
+      "name": "Gerardo Andres Bordones Hernandez",
+      "dob": "2008-11-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 225715,
+      "name": "Jose Francisco Hernandez Lanza",
+      "dob": "2007-10-22",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238035,
+      "name": "Santiago Leandro Camejo Guerra",
+      "dob": "2009-01-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238036,
+      "name": "Diego Alejandro Hernandez Perez",
+      "dob": "2009-05-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238037,
+      "name": "Moises David Yepez Ramirez",
+      "dob": "2009-07-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 238039,
+      "name": "Johnny Jose Antonio Caldera Perez",
+      "dob": "2009-10-02",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

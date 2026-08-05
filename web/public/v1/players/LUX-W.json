@@ -1,0 +1,27 @@
+{
+  "country": "LUX",
+  "gender": "W",
+  "players": [
+    {
+      "id": 117023,
+      "name": "Norma Zambon",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117024,
+      "name": "Jeanne Schneider",
+      "dob": "1983-07-01",
+      "height": 171,
+      "weight": 73
+    },
+    {
+      "id": 120747,
+      "name": "Marie Reiterova",
+      "dob": "1990-03-13",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

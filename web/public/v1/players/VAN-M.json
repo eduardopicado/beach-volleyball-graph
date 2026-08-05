@@ -1,0 +1,48 @@
+{
+  "country": "VAN",
+  "gender": "M",
+  "players": [
+    {
+      "id": 149496,
+      "name": "Isaac Mael",
+      "dob": "1994-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149601,
+      "name": "Hotel Maki",
+      "dob": "1992-10-12",
+      "height": null,
+      "weight": 64
+    },
+    {
+      "id": 162730,
+      "name": "Kieth Vuti",
+      "dob": "1997-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162731,
+      "name": "James Chilia",
+      "dob": "2001-03-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 162732,
+      "name": "Nono Chillia",
+      "dob": "2000-12-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 165266,
+      "name": "Donny Aru",
+      "dob": "1994-12-10",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

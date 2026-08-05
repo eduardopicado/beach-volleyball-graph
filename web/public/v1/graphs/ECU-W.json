@@ -1,0 +1,205 @@
+{
+  "country": "ECU",
+  "countryName": "Ecuador",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 134537,
+      "name": "Ariana Estefanía Vilela Becerra",
+      "short": "Ariana",
+      "tournaments": 9,
+      "first": 2015,
+      "last": 2025
+    },
+    {
+      "id": 145870,
+      "name": "Mishelle Molina Pacheco",
+      "short": "Mishelle",
+      "tournaments": 6,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 147028,
+      "name": "Valeria Briggitte Batioja Ocampo",
+      "short": "Briggitte",
+      "tournaments": 4,
+      "first": 2014,
+      "last": 2022
+    },
+    {
+      "id": 155930,
+      "name": "Ariana Castro Jarrin",
+      "short": "Ariana",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 156487,
+      "name": "Jasmin Isabel Suarez Aguilar",
+      "short": "Jasmin",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 168772,
+      "name": "Karelys Simisterra Ortiz",
+      "short": "Karelys",
+      "tournaments": 11,
+      "first": 2018,
+      "last": 2025
+    },
+    {
+      "id": 178422,
+      "name": "Stephany Valeska Cherrez Yucailla",
+      "short": "Stephany",
+      "tournaments": 5,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 193630,
+      "name": "Isabel Alejandra Loayza Garcia",
+      "short": "Isabel",
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2025
+    },
+    {
+      "id": 196866,
+      "name": "Ilanna Dvorquez Saman",
+      "short": "Ilanna",
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
+    },
+    {
+      "id": 210716,
+      "name": "Valentina Carrion Artunduaga",
+      "short": "Valentina",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 210724,
+      "name": "Xiomara Marina Becerra Nazareno",
+      "short": "Xiomara",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 211276,
+      "name": "Raphaela Román Espinoza",
+      "short": "Raphaela",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 213388,
+      "name": "Carla Nuñez Folleco",
+      "short": "Nuñez",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 225835,
+      "name": "VALENTINA VALENZUELA BRAVO",
+      "short": "VALENTINA",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 134537,
+      "b": 145870,
+      "t": 2,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 134537,
+      "b": 168772,
+      "t": 6,
+      "f": 2021,
+      "l": 2025
+    },
+    {
+      "a": 134537,
+      "b": 196866,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 145870,
+      "b": 147028,
+      "t": 4,
+      "f": 2014,
+      "l": 2022
+    },
+    {
+      "a": 155930,
+      "b": 168772,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 156487,
+      "b": 168772,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 168772,
+      "b": 178422,
+      "t": 3,
+      "f": 2021,
+      "l": 2024
+    },
+    {
+      "a": 178422,
+      "b": 193630,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 178422,
+      "b": 196866,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 193630,
+      "b": 211276,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 210716,
+      "b": 210724,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 213388,
+      "b": 225835,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

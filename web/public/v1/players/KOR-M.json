@@ -1,0 +1,62 @@
+{
+  "country": "KOR",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100731,
+      "name": "Dong-Kwan Kim",
+      "dob": "1971-05-02",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 100732,
+      "name": "Sung-Hyun Kim",
+      "dob": "1971-08-19",
+      "height": 185,
+      "weight": 78
+    },
+    {
+      "id": 100733,
+      "name": "Nak-Gil Ma",
+      "dob": "1968-04-24",
+      "height": 186,
+      "weight": 85
+    },
+    {
+      "id": 100734,
+      "name": "Nam-Won Su",
+      "dob": "1967-02-01",
+      "height": 186,
+      "weight": 74
+    },
+    {
+      "id": 100824,
+      "name": "Hee-Kyung Gae",
+      "dob": "1969-12-13",
+      "height": 207,
+      "weight": 95
+    },
+    {
+      "id": 100825,
+      "name": "Chang-Young Ji",
+      "dob": "1966-02-07",
+      "height": 186,
+      "weight": 80
+    },
+    {
+      "id": 101122,
+      "name": "Man-Soo Kang",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101123,
+      "name": "Park Hyung-Yong",
+      "dob": null,
+      "height": null,
+      "weight": null
+    }
+  ]
+}

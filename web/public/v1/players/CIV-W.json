@@ -1,0 +1,69 @@
+{
+  "country": "CIV",
+  "gender": "W",
+  "players": [
+    {
+      "id": 134659,
+      "name": "Lahon Diane Laure Danon",
+      "dob": "1987-05-27",
+      "height": 175,
+      "weight": 93
+    },
+    {
+      "id": 142108,
+      "name": "Kossia Audrey Fieny",
+      "dob": "1992-10-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 142109,
+      "name": "Penda Patricia Dieng",
+      "dob": "1993-01-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150291,
+      "name": "Loyo Alice Miessan",
+      "dob": "1995-07-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 150293,
+      "name": "Benedicte Sam",
+      "dob": "1995-03-16",
+      "height": 168,
+      "weight": 75
+    },
+    {
+      "id": 163365,
+      "name": "Kouassi Ahou Diane Laetitia",
+      "dob": "1992-09-24",
+      "height": 161,
+      "weight": 72
+    },
+    {
+      "id": 163368,
+      "name": "Bamba Aminata",
+      "dob": "1992-02-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226525,
+      "name": "AGOBIE NELLY ALESSA",
+      "dob": "2009-01-24",
+      "height": 190,
+      "weight": 70
+    },
+    {
+      "id": 226526,
+      "name": "ABI KONE",
+      "dob": "2008-10-08",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

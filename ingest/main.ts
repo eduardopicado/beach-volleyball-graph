@@ -1,17 +1,34 @@
 /**
- * Weekly ingest: FIVB VIS -> static JSON under `web/public/v1/`.
+ * Weekly ingest: FIVB VIS -> static JSON under `web/public/v1/`, committed to
+ * this repo rather than published as a build artifact.
  *
  * The whole archive is reachable in three bulk list requests, so there is no
  * per-tournament fan-out, no rate-limit dance and no incremental cache to go
  * stale. A full rebuild takes about a minute and is self-healing: any bug or
  * upstream correction is washed out by the next run.
  *
+ * `web/public/v1/` is deliberately tracked in git, not gitignored: it is this
+ * project's only durable copy of the dataset. FIVB is a free third-party
+ * service with no uptime or continuity guarantee, and the previous design —
+ * regenerate from scratch every run, publish only as a 1-day CI artifact —
+ * meant a FIVB outage or shutdown could take the whole site down with it, and
+ * a code-only change (a CSS fix, nothing data-related) couldn't deploy without
+ * a successful fetch it didn't need. Committing the data means a fresh clone
+ * can build immediately, a code push doesn't require FIVB to be reachable, and
+ * the commit history is an actual changelog of the archive over time. It also
+ * changes the bar for what "safe to write" means here: this now runs against
+ * files real history is going to remember, not a throwaway temp directory —
+ * hence pretty-printing (readable diffs), sorting by id rather than a mutable
+ * field (stable diffs), and `regression.ts` (refusing to commit a fetch that
+ * came back broken).
+ *
  * Publishing is atomic. Everything is written to a temp directory and only
- * swapped into place once every file has been generated, so a failed run leaves
- * last week's data being served rather than a half-published state.
+ * swapped into place once every file has been generated and passed the checks
+ * below, so a failed run leaves last week's data being served rather than a
+ * half-published state.
  */
 
-import { mkdir, rm, writeFile, rename, readdir } from 'node:fs/promises';
+import { mkdir, rm, writeFile, rename, readdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -25,6 +42,7 @@ import {
   normaliseTournaments,
   sliceByCountryAndGender,
 } from './build.js';
+import { checkForRegression, type DatasetTotals } from './regression.js';
 import type { Manifest, ManifestCountry, Gender, PlayersFile, GraphFile } from '../web/src/schema.js';
 import { DATA_VERSION } from '../web/src/schema.js';
 
@@ -62,6 +80,19 @@ async function main() {
   const generatedAt = new Date().toISOString();
 
   await recoverInterruptedSwap();
+
+  // Read before anything below touches OUT_DIR, so this is genuinely last
+  // week's data — not a `null` because we deleted it ourselves in the
+  // meantime. Missing or unreadable (the very first run, or a corrupt file)
+  // both mean "nothing to compare against"; the absolute floor check further
+  // down is what protects that cold-start case instead.
+  let previousTotals: DatasetTotals | null = null;
+  try {
+    const previous = JSON.parse(await readFile(path.join(OUT_DIR, 'manifest.json'), 'utf8'));
+    previousTotals = previous.totals;
+  } catch {
+    /* no previous manifest to compare against */
+  }
 
   // --- Stage 0: federations (for country display names) --------------------
   const federations = await fetchFederations();
@@ -148,19 +179,26 @@ async function main() {
       country: slice.country,
       countryName: name,
       gender: slice.gender,
-      generatedAt,
+      // No per-file `generatedAt`: nothing reads it (`manifest.generatedAt`
+      // is the one freshness marker the app and prerender actually use), and
+      // a value that changes on every single run regardless of whether this
+      // slice's real content did would touch all 575 files every week.
       nodes: slice.nodes,
       edges: slice.edges,
     };
+    // Pretty-printed, like manifest.json already was: these files are meant
+    // to be committed (see the publish step below), and a diff is only
+    // useful — to a human, or to git's own delta compression — at line
+    // granularity. A single minified line makes any change, however small,
+    // look like the entire file was rewritten.
     await writeFile(
       path.join(TMP_DIR, 'graphs', `${slice.country}-${slice.gender}.json`),
-      JSON.stringify(graph),
+      JSON.stringify(graph, null, 2),
     );
 
     const detail: PlayersFile = {
       country: slice.country,
       gender: slice.gender,
-      generatedAt,
       players: slice.nodes.map((node) => {
         const p = players.get(node.id)!;
         return {
@@ -174,7 +212,7 @@ async function main() {
     };
     await writeFile(
       path.join(TMP_DIR, 'players', `${slice.country}-${slice.gender}.json`),
-      JSON.stringify(detail),
+      JSON.stringify(detail, null, 2),
     );
 
     let entry = byCountry.get(slice.country);
@@ -205,6 +243,17 @@ async function main() {
   const written = (await readdir(path.join(TMP_DIR, 'graphs'))).length;
   if (written !== slices.length) {
     throw new Error(`Expected ${slices.length} graph files, wrote ${written} — refusing to publish`);
+  }
+
+  // A rebuild that lost most of its data looks the same, from these numbers
+  // alone, whether that's a real correction or FIVB silently handing back an
+  // empty or truncated response. See regression.ts for why scale is the only
+  // signal available to tell them apart.
+  const regressions = checkForRegression(previousTotals, manifest.totals);
+  if (regressions.length > 0) {
+    throw new Error(
+      `Refusing to publish — this looks like a broken fetch, not a real change:\n  ${regressions.join('\n  ')}`,
+    );
   }
 
   // Swap the new tree in, then delete the old one — never the other way round.

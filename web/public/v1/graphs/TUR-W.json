@@ -1,0 +1,850 @@
+{
+  "country": "TUR",
+  "countryName": "Türkiye",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 104651,
+      "name": "Ebru Algur",
+      "short": "Algur",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 115402,
+      "name": "Güldeniz Önal",
+      "short": "Güldeniz",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 115409,
+      "name": "Neriman Ozsoy",
+      "short": "Neri",
+      "tournaments": 3,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 117934,
+      "name": "Mariana Aydin",
+      "short": "Aydin",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 119688,
+      "name": "Fatma Yildirim",
+      "short": "Yildirim",
+      "tournaments": 15,
+      "first": 2015,
+      "last": 2015
+    },
+    {
+      "id": 125204,
+      "name": "Bahanur Gokalp",
+      "short": "Gokalp",
+      "tournaments": 7,
+      "first": 2009,
+      "last": 2022
+    },
+    {
+      "id": 125205,
+      "name": "Elif Kavrar",
+      "short": "Elif",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125206,
+      "name": "Fatma Çimen",
+      "short": "Fatma",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125207,
+      "name": "Gamze Cansesli",
+      "short": "Gamze",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125217,
+      "name": "Özge Özkorul",
+      "short": "Özge",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 125297,
+      "name": "Sabriye Gönülkirmaz",
+      "short": "Sabriye",
+      "tournaments": 1,
+      "first": 2009,
+      "last": 2009
+    },
+    {
+      "id": 132166,
+      "name": "Hatice Can Tonbul",
+      "short": "Tonbul",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 133315,
+      "name": "Burcu Baser",
+      "short": "Baser",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133316,
+      "name": "Neslisah Gülbitti Aktas",
+      "short": "Aktas",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133318,
+      "name": "Burcu Atasoy",
+      "short": "Atasoy",
+      "tournaments": 18,
+      "first": 2010,
+      "last": 2018
+    },
+    {
+      "id": 133319,
+      "name": "Gamze Türk",
+      "short": "Gamze",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133320,
+      "name": "Sezin Çelik",
+      "short": "Sezin",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 133321,
+      "name": "Ceren Atila",
+      "short": "Ceren",
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
+    },
+    {
+      "id": 141550,
+      "name": "Esra Köksalan",
+      "short": "Köksalan",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
+    },
+    {
+      "id": 142265,
+      "name": "Havva Uzun",
+      "short": "Uzun",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142266,
+      "name": "Canan Kilic",
+      "short": "Kilic",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 142267,
+      "name": "Esra Betul Cetin",
+      "short": "Cetin",
+      "tournaments": 35,
+      "first": 2013,
+      "last": 2023
+    },
+    {
+      "id": 142268,
+      "name": "Begum Guven",
+      "short": "Guven",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 144020,
+      "name": "Merve Nezir",
+      "short": "Nezir",
+      "tournaments": 53,
+      "first": 2015,
+      "last": 2025
+    },
+    {
+      "id": 144307,
+      "name": "Selin Toy",
+      "short": "Toy",
+      "tournaments": 14,
+      "first": 2014,
+      "last": 2024
+    },
+    {
+      "id": 146268,
+      "name": "Merve Aktas",
+      "short": "Aktas",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2016
+    },
+    {
+      "id": 146278,
+      "name": "Duygu Nur Dogan",
+      "short": "Dogan",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146313,
+      "name": "Resmiye Cakmak",
+      "short": "Cakmak",
+      "tournaments": 2,
+      "first": 2015,
+      "last": 2016
+    },
+    {
+      "id": 146939,
+      "name": "Pelin Ilgin",
+      "short": "Ilgin",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 146979,
+      "name": "Aleyna Vence",
+      "short": "Vence",
+      "tournaments": 15,
+      "first": 2016,
+      "last": 2019
+    },
+    {
+      "id": 147450,
+      "name": "Bahar Toksoy Guidetti",
+      "short": "Bahar T.G.",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 148070,
+      "name": "Meliha Diken",
+      "short": "Diken",
+      "tournaments": 2,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 149020,
+      "name": "Nursel Yaren Sencel",
+      "short": "Sencel",
+      "tournaments": 7,
+      "first": 2016,
+      "last": 2026
+    },
+    {
+      "id": 151283,
+      "name": "Tugba Ozdemir",
+      "short": "Tugba O.",
+      "tournaments": 17,
+      "first": 2015,
+      "last": 2018
+    },
+    {
+      "id": 151699,
+      "name": "Ebru Karayilan",
+      "short": "Karayilan",
+      "tournaments": 4,
+      "first": 2016,
+      "last": 2018
+    },
+    {
+      "id": 151702,
+      "name": "Merve Celebi",
+      "short": "Celebi",
+      "tournaments": 14,
+      "first": 2018,
+      "last": 2026
+    },
+    {
+      "id": 157485,
+      "name": "Bugra Eryildiz",
+      "short": "Eryildiz",
+      "tournaments": 7,
+      "first": 2017,
+      "last": 2019
+    },
+    {
+      "id": 157486,
+      "name": "Yaren Cakmak",
+      "short": "Cakmak",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 163374,
+      "name": "Suzan Dilara Gedikoglu",
+      "short": "Gedikoglu",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 163377,
+      "name": "Aysun Suna Alan",
+      "short": "Alan",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 163384,
+      "name": "Basak Döner",
+      "short": "DÃ¶ner",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 163385,
+      "name": "Belinay Sari",
+      "short": "Sari",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 163388,
+      "name": "Müge Ocakci",
+      "short": "Ocakci",
+      "tournaments": 6,
+      "first": 2018,
+      "last": 2024
+    },
+    {
+      "id": 165222,
+      "name": "Aysu Ceylan",
+      "short": "Ceylan",
+      "tournaments": 2,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 167104,
+      "name": "Kamuran Oyku Keskin",
+      "short": "Keskin",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 172494,
+      "name": "Ayse Dil",
+      "short": "Dil",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 179378,
+      "name": "Doga Ocal",
+      "short": "Ocal",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 180534,
+      "name": "Ilknur Melis Durasi",
+      "short": "Durasi",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    },
+    {
+      "id": 190939,
+      "name": "Ecem Aksoy",
+      "short": "Aksoy",
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
+    },
+    {
+      "id": 192218,
+      "name": "Su Simdim",
+      "short": "Simdim",
+      "tournaments": 12,
+      "first": 2022,
+      "last": 2026
+    },
+    {
+      "id": 192219,
+      "name": "Ceylin Sayar",
+      "short": "Ceylin",
+      "tournaments": 5,
+      "first": 2022,
+      "last": 2024
+    },
+    {
+      "id": 200429,
+      "name": "Asli Tecimer",
+      "short": "Tecimer",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 201296,
+      "name": "Idil Gur",
+      "short": "Idil G.",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 209232,
+      "name": "Yasemin Yildirim",
+      "short": "Yildirim",
+      "tournaments": 3,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 209233,
+      "name": "Bahar Dogan",
+      "short": "Dogan",
+      "tournaments": 5,
+      "first": 2025,
+      "last": 2026
+    },
+    {
+      "id": 214361,
+      "name": "Alisa Solak",
+      "short": "Alisa Solak",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 220056,
+      "name": "Irem Yener",
+      "short": "Yener",
+      "tournaments": 2,
+      "first": 2025,
+      "last": 2026
+    }
+  ],
+  "edges": [
+    {
+      "a": 104651,
+      "b": 125207,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 115402,
+      "b": 115409,
+      "t": 3,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 115409,
+      "b": 144307,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 119688,
+      "b": 144020,
+      "t": 15,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 125204,
+      "b": 125205,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125204,
+      "b": 125206,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125204,
+      "b": 144020,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 125204,
+      "b": 148070,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 125204,
+      "b": 151702,
+      "t": 2,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 125205,
+      "b": 125207,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125206,
+      "b": 125207,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 125217,
+      "b": 125297,
+      "t": 1,
+      "f": 2009,
+      "l": 2009
+    },
+    {
+      "a": 132166,
+      "b": 157486,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 133315,
+      "b": 133316,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 133318,
+      "b": 133319,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 133318,
+      "b": 144307,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 133318,
+      "b": 151283,
+      "t": 16,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 133318,
+      "b": 151699,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 133320,
+      "b": 133321,
+      "t": 1,
+      "f": 2010,
+      "l": 2010
+    },
+    {
+      "a": 141550,
+      "b": 146268,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 142265,
+      "b": 142266,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142267,
+      "b": 142268,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 142267,
+      "b": 144020,
+      "t": 29,
+      "f": 2015,
+      "l": 2017
+    },
+    {
+      "a": 142267,
+      "b": 144307,
+      "t": 3,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 142267,
+      "b": 148070,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 142267,
+      "b": 151702,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 144020,
+      "b": 144307,
+      "t": 5,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 144020,
+      "b": 146979,
+      "t": 7,
+      "f": 2017,
+      "l": 2018
+    },
+    {
+      "a": 144020,
+      "b": 192218,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 144020,
+      "b": 200429,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 144307,
+      "b": 151702,
+      "t": 3,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 144307,
+      "b": 163374,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 144307,
+      "b": 172494,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 146268,
+      "b": 146313,
+      "t": 1,
+      "f": 2015,
+      "l": 2015
+    },
+    {
+      "a": 146278,
+      "b": 146939,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 146313,
+      "b": 149020,
+      "t": 1,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146979,
+      "b": 151699,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 146979,
+      "b": 157485,
+      "t": 7,
+      "f": 2017,
+      "l": 2019
+    },
+    {
+      "a": 147450,
+      "b": 163388,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 149020,
+      "b": 151702,
+      "t": 4,
+      "f": 2024,
+      "l": 2026
+    },
+    {
+      "a": 149020,
+      "b": 192218,
+      "t": 2,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 151283,
+      "b": 151699,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 151702,
+      "b": 163388,
+      "t": 4,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163377,
+      "b": 163385,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163377,
+      "b": 165222,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163384,
+      "b": 163385,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 163388,
+      "b": 180534,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    },
+    {
+      "a": 165222,
+      "b": 167104,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 179378,
+      "b": 190939,
+      "t": 1,
+      "f": 2022,
+      "l": 2022
+    },
+    {
+      "a": 192218,
+      "b": 192219,
+      "t": 5,
+      "f": 2022,
+      "l": 2024
+    },
+    {
+      "a": 192218,
+      "b": 209233,
+      "t": 4,
+      "f": 2025,
+      "l": 2026
+    },
+    {
+      "a": 201296,
+      "b": 209232,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 209232,
+      "b": 209233,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 209232,
+      "b": 220056,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    },
+    {
+      "a": 214361,
+      "b": 220056,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    }
+  ]
+}

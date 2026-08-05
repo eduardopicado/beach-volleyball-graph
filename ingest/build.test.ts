@@ -201,6 +201,45 @@ describe('sliceByCountryAndGender', () => {
     expect(node).toMatchObject({ tournaments: 2, first: 2023, last: 2024 });
   });
 
+  it('orders nodes by id, not by a mutable field like tournament count', () => {
+    // Three players, all BRA-M. Player 20 is by far the most active (3
+    // tournaments), 10 the least (1) — the opposite of ascending id order.
+    // Under the old "most active first" sort this would come back as
+    // [20, 15, 10]; a single new tournament for any one of them would then
+    // reorder the whole array. Sorting by id is immune to that.
+    const p = normalisePlayers([player(10, '0', 'BRA'), player(15, '0', 'BRA'), player(20, '0', 'BRA')]);
+    const t = normaliseTournaments([tournament('t1', 2023), tournament('t2', 2024), tournament('t3', 2025)]);
+    const { partnerships, appearances } = aggregatePartnerships(
+      [entry('t1', 10, 20), entry('t2', 15, 20), entry('t3', 15, 20)],
+      t,
+      p,
+    );
+    const slices = sliceByCountryAndGender(partnerships, appearances, p, t, 2);
+    const bra = slices.find((s) => s.country === 'BRA' && s.gender === 'M')!;
+    expect(bra.nodes.map((n) => n.id)).toEqual([10, 15, 20]);
+  });
+
+  it('orders edges by their (a, b) pair, the same immutable key used to build it', () => {
+    const p = normalisePlayers([
+      player(10, '0', 'BRA'),
+      player(15, '0', 'BRA'),
+      player(20, '0', 'BRA'),
+      player(30, '0', 'BRA'),
+    ]);
+    const t = normaliseTournaments([tournament('t1', 2023)]);
+    // Written out of order, and the pair with the most shared tournaments
+    // (10-30, entered twice) is listed last — it would sort first under the
+    // old "strongest partnership first" order.
+    const { partnerships, appearances } = aggregatePartnerships(
+      [entry('t1', 20, 30), entry('t1', 10, 15), entry('t1', 10, 30)],
+      t,
+      p,
+    );
+    const slices = sliceByCountryAndGender(partnerships, appearances, p, t, 2);
+    const bra = slices.find((s) => s.country === 'BRA' && s.gender === 'M')!;
+    expect(bra.edges.map((e) => `${e.a}-${e.b}`)).toEqual(['10-15', '10-30', '20-30']);
+  });
+
   it('honours the minimum node count', () => {
     expect(run([entry('t1', 1, 2)], 3)).toHaveLength(0);
     expect(run([entry('t1', 1, 2)], 2)).toHaveLength(1);

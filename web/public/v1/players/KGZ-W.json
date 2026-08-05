@@ -1,0 +1,20 @@
+{
+  "country": "KGZ",
+  "gender": "W",
+  "players": [
+    {
+      "id": 188844,
+      "name": "Aiturgan Aitbekova",
+      "dob": "2006-09-21",
+      "height": 185,
+      "weight": 78
+    },
+    {
+      "id": 188852,
+      "name": "Roza Rasulbek Kyzy",
+      "dob": "2005-10-04",
+      "height": 182,
+      "weight": 80
+    }
+  ]
+}

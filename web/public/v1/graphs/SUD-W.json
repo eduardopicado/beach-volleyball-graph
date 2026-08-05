@@ -1,0 +1,55 @@
+{
+  "country": "SUD",
+  "countryName": "Sudan",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 162796,
+      "name": "Manask Abdalla",
+      "short": "Manask",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 163106,
+      "name": "Ebtisam Rakhis",
+      "short": "Ebtisam",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 168206,
+      "name": "Eslam Rezgalla",
+      "short": "ESLAM",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    },
+    {
+      "id": 168351,
+      "name": "Fayha Dldoom",
+      "short": "Dldoom",
+      "tournaments": 1,
+      "first": 2018,
+      "last": 2018
+    }
+  ],
+  "edges": [
+    {
+      "a": 162796,
+      "b": 163106,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 168206,
+      "b": 168351,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    }
+  ]
+}

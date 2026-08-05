@@ -1,0 +1,55 @@
+{
+  "country": "TKM",
+  "countryName": "Turkmenistan",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 158437,
+      "name": "Kakajan Ovsharov",
+      "short": "Ovsharov",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172135,
+      "name": "Davut Berdimuhammaedov",
+      "short": "Berdimuhammaedov",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172138,
+      "name": "Yusup Gurbanov",
+      "short": "Gurbanov",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 172139,
+      "name": "Yrsgal Rasulov",
+      "short": "Rasulov",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    }
+  ],
+  "edges": [
+    {
+      "a": 158437,
+      "b": 172139,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 172135,
+      "b": 172138,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "country": "GAM",
+  "gender": "M",
+  "players": [
+    {
+      "id": 150652,
+      "name": "Pa Alieu Njie",
+      "dob": "1999-12-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161611,
+      "name": "Amadou Jarju",
+      "dob": "1997-11-15",
+      "height": 195,
+      "weight": 75
+    },
+    {
+      "id": 169807,
+      "name": "Jahara Koita",
+      "dob": "2001-03-26",
+      "height": 201,
+      "weight": 83
+    },
+    {
+      "id": 175142,
+      "name": "Mbye Babou Jarra",
+      "dob": "1999-05-21",
+      "height": 178,
+      "weight": 72
+    },
+    {
+      "id": 175144,
+      "name": "Sainey Jawo",
+      "dob": "1999-12-30",
+      "height": 205,
+      "weight": 81
+    },
+    {
+      "id": 184622,
+      "name": "Momodou Ngum",
+      "dob": "2004-05-02",
+      "height": 189,
+      "weight": 78
+    },
+    {
+      "id": 184625,
+      "name": "Omar Jarra",
+      "dob": "2006-06-01",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 189345,
+      "name": "Laity Nyabally",
+      "dob": "2005-03-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 193543,
+      "name": "Mario Dampha",
+      "dob": "2004-04-04",
+      "height": 183,
+      "weight": 74
+    },
+    {
+      "id": 212889,
+      "name": "Bah Musa",
+      "dob": "2009-11-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 224007,
+      "name": "Bakary Ensa Kanyi",
+      "dob": "2008-12-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226293,
+      "name": "Abdallah Bah",
+      "dob": "2011-02-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 234382,
+      "name": "Omar Bojang",
+      "dob": "2012-12-27",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

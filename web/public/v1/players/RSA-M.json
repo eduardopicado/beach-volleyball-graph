@@ -1,0 +1,1084 @@
+{
+  "country": "RSA",
+  "gender": "M",
+  "players": [
+    {
+      "id": 100542,
+      "name": "Sean Heyes",
+      "dob": "1971-06-30",
+      "height": 186,
+      "weight": 80
+    },
+    {
+      "id": 100548,
+      "name": "David \"The Hodge\" Hodge",
+      "dob": "1973-03-16",
+      "height": 194,
+      "weight": 85
+    },
+    {
+      "id": 100572,
+      "name": "Jason Smith",
+      "dob": "1969-03-21",
+      "height": 184,
+      "weight": 87
+    },
+    {
+      "id": 100573,
+      "name": "Sebastian \"Bassie\" Prinz",
+      "dob": "1972-03-13",
+      "height": 192,
+      "weight": 89
+    },
+    {
+      "id": 100574,
+      "name": "Duncan \"Lofty\" Leroux",
+      "dob": "1971-12-07",
+      "height": 195,
+      "weight": 89
+    },
+    {
+      "id": 100683,
+      "name": "Craig \"P.C. The Kid\" Watkins",
+      "dob": "1972-06-08",
+      "height": 190,
+      "weight": 89
+    },
+    {
+      "id": 100835,
+      "name": "Gershon Rorich",
+      "dob": "1973-10-23",
+      "height": 196,
+      "weight": null
+    },
+    {
+      "id": 100836,
+      "name": "Adrian \"Gosh\" Strijdom",
+      "dob": "1972-02-08",
+      "height": 181,
+      "weight": 76
+    },
+    {
+      "id": 101304,
+      "name": "Bevin \"B.Boy\" Zealand",
+      "dob": "1972-10-19",
+      "height": 168,
+      "weight": 60
+    },
+    {
+      "id": 101314,
+      "name": "Marvin \"The Sky Pilot\" Farr",
+      "dob": "1969-10-11",
+      "height": 194,
+      "weight": 86
+    },
+    {
+      "id": 101315,
+      "name": "Casey Augoustides",
+      "dob": "1970-12-14",
+      "height": 181,
+      "weight": 82
+    },
+    {
+      "id": 101316,
+      "name": "Marcus Brauer",
+      "dob": "1972-02-22",
+      "height": 189,
+      "weight": 75
+    },
+    {
+      "id": 101317,
+      "name": "Mark Albertyn",
+      "dob": "1970-11-09",
+      "height": 196,
+      "weight": 89
+    },
+    {
+      "id": 101318,
+      "name": "David Weyers",
+      "dob": "1969-10-29",
+      "height": 179,
+      "weight": 74
+    },
+    {
+      "id": 101319,
+      "name": "Justin Powers",
+      "dob": "1968-12-20",
+      "height": 192,
+      "weight": 85
+    },
+    {
+      "id": 101320,
+      "name": "Dominic Shane Goliath",
+      "dob": "1976-03-14",
+      "height": 174,
+      "weight": 69
+    },
+    {
+      "id": 101321,
+      "name": "Thomas \"Tom\" Henke",
+      "dob": "1967-11-14",
+      "height": 180,
+      "weight": 80
+    },
+    {
+      "id": 101322,
+      "name": "Pierre Haupt",
+      "dob": "1972-02-21",
+      "height": 196,
+      "weight": 83
+    },
+    {
+      "id": 101323,
+      "name": "Graeme Mentor",
+      "dob": "1969-03-12",
+      "height": 191,
+      "weight": 77
+    },
+    {
+      "id": 101324,
+      "name": "Seraj \"Sammy\" Toefy",
+      "dob": "1972-06-10",
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "id": 101325,
+      "name": "Ulric Hargreaves",
+      "dob": "1974-04-11",
+      "height": 188,
+      "weight": 70
+    },
+    {
+      "id": 101326,
+      "name": "Nathan Davenhill",
+      "dob": "1974-04-26",
+      "height": 187,
+      "weight": 80
+    },
+    {
+      "id": 101327,
+      "name": "Joel \"Leb\" Peter",
+      "dob": "1972-01-23",
+      "height": 178,
+      "weight": 76
+    },
+    {
+      "id": 101328,
+      "name": "Thomas \"A.B.T.\" Abt",
+      "dob": "1975-04-23",
+      "height": 190,
+      "weight": 85
+    },
+    {
+      "id": 101329,
+      "name": "Hugh \"Hugh Boy\" Alexander",
+      "dob": "1967-11-30",
+      "height": 185,
+      "weight": 70
+    },
+    {
+      "id": 101330,
+      "name": "Quinton Mpno \"Swat\" Mpepele",
+      "dob": "1973-08-24",
+      "height": 183,
+      "weight": 76
+    },
+    {
+      "id": 101331,
+      "name": "Grant Viljoen",
+      "dob": "1970-03-13",
+      "height": 190,
+      "weight": 92
+    },
+    {
+      "id": 101332,
+      "name": "Steven Kruger",
+      "dob": "1970-06-26",
+      "height": 200,
+      "weight": 90
+    },
+    {
+      "id": 101334,
+      "name": "Dan Farr",
+      "dob": "1971-11-02",
+      "height": 193,
+      "weight": 83
+    },
+    {
+      "id": 101335,
+      "name": "Gary Fortuin",
+      "dob": "1973-01-20",
+      "height": 194,
+      "weight": 85
+    },
+    {
+      "id": 101336,
+      "name": "Rashid Toefy",
+      "dob": "1970-09-19",
+      "height": 178,
+      "weight": 65
+    },
+    {
+      "id": 101555,
+      "name": "Ryan \"Stick\" Fowlds",
+      "dob": "1972-06-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101687,
+      "name": "Louw Franken",
+      "dob": "1972-12-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101694,
+      "name": "Colin Pocock",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101695,
+      "name": "Andrew Pocock",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101696,
+      "name": "Ryan Wentzel",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101697,
+      "name": "Vernel Leslie",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101698,
+      "name": "Dorian Botsis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101699,
+      "name": "Richard Payne",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101700,
+      "name": "Shane James",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101701,
+      "name": "Douglas Payne",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 101702,
+      "name": "Paul Smajda",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104624,
+      "name": "Wesley Daniels",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104625,
+      "name": "Leslie Naidoo",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104626,
+      "name": "Leon Alberts",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104627,
+      "name": "Garrith West",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104628,
+      "name": "Ralph Thompson",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104629,
+      "name": "James Wyper",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104632,
+      "name": "David Jones",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104633,
+      "name": "Andile Masinga",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104634,
+      "name": "Paul Stevens",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104635,
+      "name": "Peter McGonicle",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104636,
+      "name": "Costa Koukourakis",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 104637,
+      "name": "Jerome Fredericks",
+      "dob": "1975-03-23",
+      "height": 193,
+      "weight": 96
+    },
+    {
+      "id": 104641,
+      "name": "Freedom Chiya",
+      "dob": "1979-07-11",
+      "height": 186,
+      "weight": 92
+    },
+    {
+      "id": 104642,
+      "name": "Alwie Lester",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105174,
+      "name": "Aleksander Popovic",
+      "dob": "1983-07-15",
+      "height": 183,
+      "weight": 75
+    },
+    {
+      "id": 105176,
+      "name": "Krisendra Narainsamy",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105180,
+      "name": "Kiruben Naiker",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105183,
+      "name": "Naveen Surendra",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105190,
+      "name": "Germaine Krynaw",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105191,
+      "name": "Ivan Solomons",
+      "dob": "1978-06-06",
+      "height": 194,
+      "weight": 98
+    },
+    {
+      "id": 105192,
+      "name": "Grant Goldschmidt",
+      "dob": "1983-04-16",
+      "height": 195,
+      "weight": 88
+    },
+    {
+      "id": 105194,
+      "name": "Quinton Mepele",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105195,
+      "name": "Vusi Ndimanda",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 105196,
+      "name": "Robin Kohler",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117670,
+      "name": "Neil Kohler",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117671,
+      "name": "Alan Quinton",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117674,
+      "name": "Shaien Govender",
+      "dob": "1982-09-08",
+      "height": 173,
+      "weight": 72
+    },
+    {
+      "id": 117675,
+      "name": "Krisendren Narawnsamy",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117708,
+      "name": "Egon Goliath",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117709,
+      "name": "Ricardo Stevens",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117710,
+      "name": "Ivan Solomans",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117715,
+      "name": "Sheraaz abrahams",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 117722,
+      "name": "Jaques Sassman",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 118558,
+      "name": "Patrik Flisberg",
+      "dob": "1972-09-28",
+      "height": 190,
+      "weight": 88
+    },
+    {
+      "id": 131969,
+      "name": "Leo Williams",
+      "dob": "1985-05-09",
+      "height": 198,
+      "weight": 96
+    },
+    {
+      "id": 139972,
+      "name": "Dean Layters",
+      "dob": "1993-02-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 139973,
+      "name": "Carlos Van Nelson",
+      "dob": "1993-09-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145168,
+      "name": "Keifer Govender",
+      "dob": "1991-10-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145403,
+      "name": "Ivan Solomans",
+      "dob": "1978-06-06",
+      "height": 194,
+      "weight": 96
+    },
+    {
+      "id": 145473,
+      "name": "Colin Pocock",
+      "dob": "1972-06-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 145482,
+      "name": "Sven Mollgaard",
+      "dob": "1980-03-20",
+      "height": 193,
+      "weight": 86
+    },
+    {
+      "id": 145484,
+      "name": "Clinton Stemmet",
+      "dob": "1988-06-29",
+      "height": 187,
+      "weight": 86
+    },
+    {
+      "id": 145485,
+      "name": "Jamaine Naidoo",
+      "dob": "1986-09-29",
+      "height": 187,
+      "weight": 87
+    },
+    {
+      "id": 145493,
+      "name": "leslie Naidoo",
+      "dob": "1979-05-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 155970,
+      "name": "Warren Sieberts",
+      "dob": "1979-11-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 160362,
+      "name": "Jonas Mothobi",
+      "dob": "1995-10-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 161816,
+      "name": "Lukholo Jooste",
+      "dob": "2000-03-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164402,
+      "name": "Lukholo Jooste",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 164403,
+      "name": "Aviwe Bulela Mamfanya",
+      "dob": "2000-06-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168285,
+      "name": "Mthokozisi Mndingi",
+      "dob": "1994-05-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 168820,
+      "name": "Alistair Glossop",
+      "dob": "1984-02-27",
+      "height": 188,
+      "weight": 82
+    },
+    {
+      "id": 181381,
+      "name": "Charl Labuschgne",
+      "dob": "1975-12-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181382,
+      "name": "Danilo Von Ludwiger",
+      "dob": "2002-07-01",
+      "height": 195,
+      "weight": 91
+    },
+    {
+      "id": 181383,
+      "name": "Dennis Thiel",
+      "dob": "1988-05-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181384,
+      "name": "Enrique Paulsen",
+      "dob": "1975-09-25",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181385,
+      "name": "Jordan Mentor",
+      "dob": "2000-06-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181386,
+      "name": "Jureaux Caesar",
+      "dob": "1993-04-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181387,
+      "name": "Jurgen Martin",
+      "dob": "1969-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181388,
+      "name": "Kyle Fernandez",
+      "dob": "1994-04-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181390,
+      "name": "Muhammad Stegmann",
+      "dob": "1997-01-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181391,
+      "name": "Santhrasegran Subramoney",
+      "dob": "1961-06-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181392,
+      "name": "Shai Zeeberg",
+      "dob": "2001-01-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181393,
+      "name": "Terence Gray",
+      "dob": "1975-02-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181435,
+      "name": "Nico Fischer",
+      "dob": "1969-08-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181436,
+      "name": "Tapiwa Gondo",
+      "dob": "2001-10-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181437,
+      "name": "Wolf Ayen",
+      "dob": "1970-11-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181438,
+      "name": "Ikhona Betela",
+      "dob": "2001-08-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181440,
+      "name": "simeon Wilmans",
+      "dob": "1974-01-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181474,
+      "name": "Joshua Fredericks",
+      "dob": "2007-04-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181475,
+      "name": "Joshua Fredericks",
+      "dob": "2007-04-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181476,
+      "name": "Vinesh Naidoo",
+      "dob": "1982-05-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181477,
+      "name": "Mingallon Joan",
+      "dob": "1989-07-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181478,
+      "name": "Yaaseen Sedick",
+      "dob": "1994-07-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181479,
+      "name": "Tawanda Mafuva",
+      "dob": "1986-12-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181480,
+      "name": "Keith Machakaire",
+      "dob": "1994-06-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181481,
+      "name": "Tapiwa Gondo",
+      "dob": "2001-10-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181482,
+      "name": "Marco Dewey",
+      "dob": "2000-07-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181495,
+      "name": "Jovan Vasic",
+      "dob": "1970-07-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181496,
+      "name": "Vigo Leroux",
+      "dob": "1972-08-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181521,
+      "name": "Leon Grobelaar",
+      "dob": "1971-06-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181522,
+      "name": "Kiresh Harilal",
+      "dob": "1976-08-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181523,
+      "name": "Lubabalo Mnguni",
+      "dob": "1996-04-29",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181524,
+      "name": "Songezo Mnguni",
+      "dob": "2001-06-04",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181525,
+      "name": "Sandile Ngcobo",
+      "dob": "2000-01-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181526,
+      "name": "Sashir Thakurpersadh",
+      "dob": "1981-06-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181527,
+      "name": "Renaldo Venketase",
+      "dob": "1985-07-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181528,
+      "name": "Beaton Michael",
+      "dob": "2003-09-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181529,
+      "name": "Aiden Pillay",
+      "dob": "2003-07-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181530,
+      "name": "Ardel Shaikally",
+      "dob": "1995-10-11",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181531,
+      "name": "Loueshan Gungarajh",
+      "dob": "1992-01-15",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181532,
+      "name": "Mikesh Rampursad",
+      "dob": "1994-09-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181533,
+      "name": "Neven Maharaj",
+      "dob": "1993-05-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181534,
+      "name": "Sifiso Gumede",
+      "dob": "1997-03-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181535,
+      "name": "Sfundo Mpuku",
+      "dob": "2000-08-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181536,
+      "name": "Lushail Govender",
+      "dob": "1996-08-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181573,
+      "name": "Hayden Eaves",
+      "dob": "2002-02-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181574,
+      "name": "Sholto Sims",
+      "dob": "1974-06-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181575,
+      "name": "Rafiq Devillirs",
+      "dob": "1973-11-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181576,
+      "name": "Antonio Rossouw",
+      "dob": "1982-02-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181577,
+      "name": "Abraham Louie",
+      "dob": "1970-11-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181578,
+      "name": "Lilita Lobi",
+      "dob": "2009-04-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181579,
+      "name": "Phumelela Nanto",
+      "dob": "2001-08-13",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181580,
+      "name": "Siphesihle Turumon",
+      "dob": "1998-08-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181595,
+      "name": "Shuaib Devilliers",
+      "dob": "2002-01-31",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181596,
+      "name": "Gamiet Devilliers",
+      "dob": "2000-01-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184593,
+      "name": "Heiko Egon Guther",
+      "dob": "2003-04-14",
+      "height": 206,
+      "weight": 108
+    },
+    {
+      "id": 184594,
+      "name": "Marco Steffen Franze",
+      "dob": "2004-09-03",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 184879,
+      "name": "Thandolwethu Ngobese",
+      "dob": "1997-03-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 192434,
+      "name": "Valaitham Deloshem",
+      "dob": "2006-11-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 194555,
+      "name": "Kemoloile Otsweleng",
+      "dob": "2003-07-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 194882,
+      "name": "Deloshen Valaitham",
+      "dob": "2006-11-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 228378,
+      "name": "ANDOR THOR GYULAI",
+      "dob": "2007-09-02",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

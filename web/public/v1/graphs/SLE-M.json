@@ -1,0 +1,168 @@
+{
+  "country": "SLE",
+  "countryName": "Sierra Leone",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 135844,
+      "name": "Momodu Samura",
+      "short": "Samura",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 136367,
+      "name": "Patrick Lombi",
+      "short": "Lombi",
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
+    },
+    {
+      "id": 139768,
+      "name": "Patrick Lombi",
+      "short": "Lombi",
+      "tournaments": 11,
+      "first": 2012,
+      "last": 2017
+    },
+    {
+      "id": 139964,
+      "name": "Ishmail Bangura",
+      "short": "Bangura",
+      "tournaments": 2,
+      "first": 2012,
+      "last": 2019
+    },
+    {
+      "id": 142105,
+      "name": "Abu Bakarr Kamara",
+      "short": "Kamara",
+      "tournaments": 10,
+      "first": 2013,
+      "last": 2017
+    },
+    {
+      "id": 146995,
+      "name": "James Kaingbanja",
+      "short": "Kaingbanja",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 147050,
+      "name": "Bangalie Tarawalie",
+      "short": "Tarawalie",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 150565,
+      "name": "John Kamara",
+      "short": "Kamara John",
+      "tournaments": 1,
+      "first": 2019,
+      "last": 2019
+    },
+    {
+      "id": 176574,
+      "name": "Mohamed Karim Kamara",
+      "short": "Kamara Mohamed",
+      "tournaments": 1,
+      "first": 2021,
+      "last": 2021
+    },
+    {
+      "id": 184613,
+      "name": "Kamara Musa",
+      "short": "Musa",
+      "tournaments": 3,
+      "first": 2021,
+      "last": 2024
+    },
+    {
+      "id": 192383,
+      "name": "Ahmed Aruna",
+      "short": "Aruna Ahmed",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 202287,
+      "name": "Jalloh Alie",
+      "short": "Alie",
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
+    }
+  ],
+  "edges": [
+    {
+      "a": 135844,
+      "b": 139768,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 136367,
+      "b": 142105,
+      "t": 1,
+      "f": 2017,
+      "l": 2017
+    },
+    {
+      "a": 139768,
+      "b": 139964,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 139768,
+      "b": 142105,
+      "t": 9,
+      "f": 2013,
+      "l": 2017
+    },
+    {
+      "a": 139964,
+      "b": 150565,
+      "t": 1,
+      "f": 2019,
+      "l": 2019
+    },
+    {
+      "a": 146995,
+      "b": 147050,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 176574,
+      "b": 184613,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
+      "a": 184613,
+      "b": 192383,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 184613,
+      "b": 202287,
+      "t": 1,
+      "f": 2024,
+      "l": 2024
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "country": "NAM",
+  "gender": "W",
+  "players": [
+    {
+      "id": 134935,
+      "name": "Elizabeth Röttcher",
+      "dob": "1969-11-07",
+      "height": 162,
+      "weight": null
+    },
+    {
+      "id": 134937,
+      "name": "Julia Laggner",
+      "dob": "1993-04-17",
+      "height": 177,
+      "weight": null
+    },
+    {
+      "id": 134938,
+      "name": "Corinna Wahl",
+      "dob": "1992-09-17",
+      "height": 164,
+      "weight": null
+    },
+    {
+      "id": 142409,
+      "name": "Saskia Henckert",
+      "dob": "1994-12-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146119,
+      "name": "Kim Seebach",
+      "dob": "1996-11-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146120,
+      "name": "Stephanie Monique Palmhert",
+      "dob": "1997-08-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 149868,
+      "name": "Rosemarie Hennes",
+      "dob": null,
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 157096,
+      "name": "Kristin Schulz",
+      "dob": "1998-09-24",
+      "height": 172,
+      "weight": null
+    },
+    {
+      "id": 157097,
+      "name": "Michaela Boehringer",
+      "dob": "1999-10-29",
+      "height": 160,
+      "weight": 54
+    },
+    {
+      "id": 188206,
+      "name": "Romy Lück",
+      "dob": "2005-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188207,
+      "name": "Piroschka Lück",
+      "dob": "2007-12-07",
+      "height": 173,
+      "weight": 63
+    },
+    {
+      "id": 226373,
+      "name": "Carmen Heide Curschmann",
+      "dob": "1998-08-03",
+      "height": 177,
+      "weight": null
+    },
+    {
+      "id": 226376,
+      "name": "Almut Hoffmann",
+      "dob": "1992-09-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 226377,
+      "name": "Maike Schuyling Van Doorn",
+      "dob": "2001-04-11",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

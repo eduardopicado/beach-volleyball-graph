@@ -1,0 +1,356 @@
+{
+  "country": "TAN",
+  "gender": "M",
+  "players": [
+    {
+      "id": 151099,
+      "name": "Ford Edward",
+      "dob": "1992-01-11",
+      "height": 189,
+      "weight": 80
+    },
+    {
+      "id": 167574,
+      "name": "Wilson Magaiwa",
+      "dob": "2001-12-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 169041,
+      "name": "Shukuru Ally Said",
+      "dob": "1984-07-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 172457,
+      "name": "Baraka Mabeyo",
+      "dob": "1999-08-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 176898,
+      "name": "Said Alhaji Issa",
+      "dob": "1993-10-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178250,
+      "name": "Geofrey David Kitila",
+      "dob": "1994-03-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 178694,
+      "name": "Michael Thomas Mg'onbe",
+      "dob": "2002-02-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180497,
+      "name": "Joseph Mafuru",
+      "dob": "2000-04-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180737,
+      "name": "Juri Lenihan",
+      "dob": "1979-04-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180899,
+      "name": "Muksin Hussein",
+      "dob": "1999-08-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180900,
+      "name": "Ezekiel Rabson",
+      "dob": "1998-08-14",
+      "height": 196,
+      "weight": 65
+    },
+    {
+      "id": 180902,
+      "name": "Nashon Maneno",
+      "dob": "2001-02-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180903,
+      "name": "Andrea Chiogelo",
+      "dob": "2000-06-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180912,
+      "name": "Raymond Bwachele",
+      "dob": "1997-03-20",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180913,
+      "name": "Wenceslaus Rugalema",
+      "dob": "1993-08-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180914,
+      "name": "Asheri Kapaya",
+      "dob": "2000-02-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180936,
+      "name": "Ibrahim Emmanuel",
+      "dob": "2000-08-21",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180937,
+      "name": "Emmanuel Ngowi",
+      "dob": "1996-03-18",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180938,
+      "name": "Lameck David",
+      "dob": "1998-02-14",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180939,
+      "name": "Ramadhan Mase",
+      "dob": "2000-01-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180944,
+      "name": "Caroli Deogratius",
+      "dob": "2002-12-24",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180945,
+      "name": "Katunzi Kalokola",
+      "dob": "1997-03-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180946,
+      "name": "Abbas Chindamba",
+      "dob": "1996-04-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180947,
+      "name": "Nuhu Noor",
+      "dob": "1996-07-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180948,
+      "name": "Anold Rugemeleza",
+      "dob": "1996-03-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180953,
+      "name": "Anold Deogratius",
+      "dob": "1989-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180954,
+      "name": "Lucas Msanja",
+      "dob": "1996-04-23",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180955,
+      "name": "Nestory Joseph",
+      "dob": "1991-10-07",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180956,
+      "name": "Husseni Msanja",
+      "dob": "2001-01-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180957,
+      "name": "Hassani Msanja",
+      "dob": "2001-01-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 180960,
+      "name": "Deodatus Mhandiki",
+      "dob": "1998-03-28",
+      "height": 195,
+      "weight": 75
+    },
+    {
+      "id": 180961,
+      "name": "Mustapha Lazi",
+      "dob": "2004-09-04",
+      "height": 178,
+      "weight": 71
+    },
+    {
+      "id": 180962,
+      "name": "Johanes Baitubaki",
+      "dob": "1997-03-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181547,
+      "name": "Nasoro Bakari",
+      "dob": "1996-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181552,
+      "name": "Wilson Paul",
+      "dob": "2001-10-16",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181561,
+      "name": "Emanuel Matiku",
+      "dob": "1992-08-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181562,
+      "name": "Victor Mwombeki",
+      "dob": "1994-05-05",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181563,
+      "name": "Nasibu Bilal",
+      "dob": "1997-08-26",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181564,
+      "name": "Boniface Mushi",
+      "dob": "1992-04-12",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181565,
+      "name": "Hashimu Ahungu",
+      "dob": "1992-09-08",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181566,
+      "name": "Innocent Swai",
+      "dob": "1993-11-09",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181567,
+      "name": "Abdul Yusuph",
+      "dob": "1994-10-19",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 181863,
+      "name": "Lameck Suligi",
+      "dob": "2003-02-14",
+      "height": 197,
+      "weight": 74
+    },
+    {
+      "id": 181864,
+      "name": "Ramadhan Ramadhan",
+      "dob": "2003-02-01",
+      "height": 198,
+      "weight": 75
+    },
+    {
+      "id": 188098,
+      "name": "Abbas Ussi",
+      "dob": "2003-05-01",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 188755,
+      "name": "KHAMIS SADALA",
+      "dob": "1997-06-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 203537,
+      "name": "David Everist Neeke",
+      "dob": "1996-06-29",
+      "height": 195,
+      "weight": 90
+    },
+    {
+      "id": 203629,
+      "name": "Seleman Hassan Ramadhan",
+      "dob": "2004-04-10",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 204537,
+      "name": "Omary Bure Hassan",
+      "dob": "2003-03-23",
+      "height": 198,
+      "weight": 74
+    },
+    {
+      "id": 214524,
+      "name": "Allan Gradstone Mori",
+      "dob": "2001-04-14",
+      "height": null,
+      "weight": null
+    }
+  ]
+}

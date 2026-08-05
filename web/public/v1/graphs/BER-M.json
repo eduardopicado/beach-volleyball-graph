@@ -1,0 +1,32 @@
+{
+  "country": "BER",
+  "countryName": "Bermuda",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 118312,
+      "name": "Ian Bucci",
+      "short": "Bucci",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    },
+    {
+      "id": 118313,
+      "name": "Matthew Sinclair",
+      "short": "Sinclair",
+      "tournaments": 1,
+      "first": 2006,
+      "last": 2006
+    }
+  ],
+  "edges": [
+    {
+      "a": 118312,
+      "b": 118313,
+      "t": 1,
+      "f": 2006,
+      "l": 2006
+    }
+  ]
+}

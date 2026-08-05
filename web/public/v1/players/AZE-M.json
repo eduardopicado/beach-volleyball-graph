@@ -1,0 +1,69 @@
+{
+  "country": "AZE",
+  "gender": "M",
+  "players": [
+    {
+      "id": 104434,
+      "name": "Neilton Moises Santos Merces",
+      "dob": "1984-04-13",
+      "height": null,
+      "weight": 90
+    },
+    {
+      "id": 132429,
+      "name": "Vadim Kutukov",
+      "dob": "1986-12-17",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 146361,
+      "name": "Bernardo Wermelinger Romano",
+      "dob": "1980-03-07",
+      "height": null,
+      "weight": 90
+    },
+    {
+      "id": 147362,
+      "name": "Leonid Gritsai",
+      "dob": "1990-05-25",
+      "height": 197,
+      "weight": 93
+    },
+    {
+      "id": 147364,
+      "name": "Artem Fedorov",
+      "dob": "1989-04-06",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 197088,
+      "name": "Muhammad Aslanli",
+      "dob": "2008-07-27",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 197089,
+      "name": "Nariman Bayramli",
+      "dob": "2007-06-28",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 197122,
+      "name": "Ibrahim Mammadov",
+      "dob": "2008-05-02",
+      "height": null,
+      "weight": null
+    },
+    {
+      "id": 203502,
+      "name": "Heydar Mammadlı",
+      "dob": "1999-07-23",
+      "height": 190,
+      "weight": 78
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "country": "GHA",
+  "countryName": "Ghana",
+  "gender": "W",
+  "nodes": [
+    {
+      "id": 139871,
+      "name": "Benedicta Adjei",
+      "short": "Adjei",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 139872,
+      "name": "Josephine Akosua Amponsah",
+      "short": "Amponsah",
+      "tournaments": 1,
+      "first": 2012,
+      "last": 2012
+    },
+    {
+      "id": 141588,
+      "name": "Beatrice Ampadu",
+      "short": "Ampadu",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 141754,
+      "name": "Ellen Bleboo",
+      "short": "Bleboo",
+      "tournaments": 1,
+      "first": 2013,
+      "last": 2013
+    },
+    {
+      "id": 148590,
+      "name": "Doris Douduwa Essel",
+      "short": "Douduwa Essel",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 148591,
+      "name": "Esther Essumang",
+      "short": "Essumang",
+      "tournaments": 1,
+      "first": 2014,
+      "last": 2014
+    },
+    {
+      "id": 173031,
+      "name": "Rashaka Katadat",
+      "short": "Katadat",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    },
+    {
+      "id": 188700,
+      "name": "Benedicta Mawuse Morti",
+      "short": "Mawuse",
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
+    }
+  ],
+  "edges": [
+    {
+      "a": 139871,
+      "b": 139872,
+      "t": 1,
+      "f": 2012,
+      "l": 2012
+    },
+    {
+      "a": 141588,
+      "b": 141754,
+      "t": 1,
+      "f": 2013,
+      "l": 2013
+    },
+    {
+      "a": 148590,
+      "b": 148591,
+      "t": 1,
+      "f": 2014,
+      "l": 2014
+    },
+    {
+      "a": 173031,
+      "b": 188700,
+      "t": 1,
+      "f": 2025,
+      "l": 2025
+    }
+  ]
+}

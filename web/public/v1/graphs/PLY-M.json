@@ -1,0 +1,55 @@
+{
+  "country": "PLY",
+  "countryName": "French Polynesia",
+  "gender": "M",
+  "nodes": [
+    {
+      "id": 189941,
+      "name": "Jérémie Paraue",
+      "short": "Paraue J.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 189942,
+      "name": "Raihau Mare",
+      "short": "Mare R.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199525,
+      "name": "Christophe Ariitai",
+      "short": "Ariitai C.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    },
+    {
+      "id": 199526,
+      "name": "Hevanoa Vaki",
+      "short": "Vaki H.",
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
+    }
+  ],
+  "edges": [
+    {
+      "a": 189941,
+      "b": 189942,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    },
+    {
+      "a": 199525,
+      "b": 199526,
+      "t": 1,
+      "f": 2023,
+      "l": 2023
+    }
+  ]
+}
