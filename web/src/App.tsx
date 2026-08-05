@@ -3,7 +3,8 @@ import type { Gender, GraphFile, Manifest, PlayersFile } from './schema';
 import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, plural } from './lib/format';
-import { Controls } from './components/Controls';
+import { Controls, MIN_TOGETHER_OPTIONS } from './components/Controls';
+import { parseMinTogether } from './lib/params';
 import type { GraphEdge, GraphNode } from './schema';
 import { GENDER_LABEL } from './schema';
 import { sliceSlug, slugFromPath } from './lib/slug';
@@ -28,7 +29,6 @@ function readUrl(): {
   const params = new URLSearchParams(location.search);
   const gender = params.get('gender');
   const player = Number(params.get('player'));
-  const min = Number(params.get('min'));
   return {
     // The prerendered path ("/brazil-men/") is the canonical form; the query
     // parameters stay supported so older links keep working.
@@ -36,7 +36,7 @@ function readUrl(): {
     country: params.get('country'),
     gender: gender === 'M' || gender === 'W' ? gender : null,
     player: Number.isFinite(player) && player > 0 ? player : null,
-    min: Number.isFinite(min) && min >= 1 ? min : null,
+    min: parseMinTogether(params.get('min'), MIN_TOGETHER_OPTIONS),
   };
 }
 
