@@ -8,4 +8,5 @@ dist/
 # so the repo stays a source-of-truth for code only.
 web/public/v1/
 web/public/v1.tmp/
+web/public/v1.old/
 ingest/.cache/

@@ -32,6 +32,8 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.resolve(HERE, '../web/public');
 const OUT_DIR = path.join(PUBLIC_DIR, DATA_VERSION);
 const TMP_DIR = path.join(PUBLIC_DIR, `${DATA_VERSION}.tmp`);
+/** Where the previous tree is parked during the swap. See the publish step. */
+const OLD_DIR = path.join(PUBLIC_DIR, `${DATA_VERSION}.old`);
 
 /** Slices smaller than this have no graph worth drawing. */
 const MIN_NODES = 2;
@@ -40,9 +42,26 @@ function log(step: string, detail: string) {
   console.log(`[${new Date().toISOString().slice(11, 19)}] ${step.padEnd(12)} ${detail}`);
 }
 
+/**
+ * Recover from a run that was killed mid-swap.
+ *
+ * The publish step parks the previous tree at `OLD_DIR` for the instant it
+ * takes to rename the new one into place. A SIGKILL in that window (a
+ * cancelled CI job, an OOM) leaves no `OUT_DIR` and a complete `OLD_DIR`, and
+ * the process is gone before any handler can put it back — so the next run has
+ * to, before its own swap reaches for `OLD_DIR` and deletes the only copy.
+ */
+async function recoverInterruptedSwap() {
+  if (existsSync(OUT_DIR) || !existsSync(OLD_DIR)) return;
+  await rename(OLD_DIR, OUT_DIR);
+  console.warn('  ! restored data left behind by an interrupted publish');
+}
+
 async function main() {
   const startedAt = Date.now();
   const generatedAt = new Date().toISOString();
+
+  await recoverInterruptedSwap();
 
   // --- Stage 0: federations (for country display names) --------------------
   const federations = await fetchFederations();
@@ -188,16 +207,37 @@ async function main() {
     throw new Error(`Expected ${slices.length} graph files, wrote ${written} — refusing to publish`);
   }
 
-  if (existsSync(OUT_DIR)) await rm(OUT_DIR, { recursive: true, force: true });
-  await rename(TMP_DIR, OUT_DIR);
+  // Swap the new tree in, then delete the old one — never the other way round.
+  // `rm` the live directory first and the window between the two calls is a
+  // window with no data at all: interrupt the process there (CI cancelled, disk
+  // full, Ctrl-C) and what is left is not "last week's data", it is nothing,
+  // with the freshly built replacement still sitting under a name nothing
+  // serves. Renaming the old tree aside keeps a complete directory at OUT_DIR
+  // at every instant except the moment of the rename itself, which is atomic
+  // within a filesystem.
+  await rm(OLD_DIR, { recursive: true, force: true });
+  const hadPrevious = existsSync(OUT_DIR);
+  if (hadPrevious) await rename(OUT_DIR, OLD_DIR);
+  try {
+    await rename(TMP_DIR, OUT_DIR);
+  } catch (err) {
+    // Put the previous data back rather than leaving the site with none.
+    if (hadPrevious) await rename(OLD_DIR, OUT_DIR).catch(() => {});
+    throw err;
+  }
+  await rm(OLD_DIR, { recursive: true, force: true });
 
   log('published', `${OUT_DIR} (${written * 2 + 1} files) in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
   log('config', `age-group world championships ${INCLUDE_AGE_GROUP ? 'included' : 'excluded'}`);
 }
 
 main().catch(async (err) => {
-  // Leave whatever is already published untouched.
+  // Leave whatever is already published untouched. If the failure landed
+  // mid-swap, the previous tree is parked at OLD_DIR — put it back rather than
+  // discarding it, so a failed run still leaves the site with data to serve.
   await rm(TMP_DIR, { recursive: true, force: true }).catch(() => {});
+  await recoverInterruptedSwap().catch(() => {});
+  await rm(OLD_DIR, { recursive: true, force: true }).catch(() => {});
   console.error('\nIngest failed — existing data left in place.');
   console.error(err);
   process.exit(1);
