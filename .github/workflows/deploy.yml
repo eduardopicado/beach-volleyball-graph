@@ -176,6 +176,12 @@ jobs:
 
   deploy:
     needs: build
+    # Explicit, for the same reason build has its own override above: the
+    # default success() considers the whole transitive job graph, not just
+    # this job's direct needs, so ingest being skipped (a code-only push) was
+    # enough to skip this job too even though build itself had just succeeded
+    # — caught live: two merges in a row built fine and never deployed.
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
