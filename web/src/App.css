@@ -1,5 +1,12 @@
 .app {
-  max-width: 1240px;
+  /* Wide rather than full-bleed: the graph and table are the content that
+     actually wants the extra room (the graph fits itself to whatever width
+     it gets, up to its natural 1:1 scale — see fitToView's cap in layout.ts —
+     so a wider container means more of a populous country is readable
+     without zooming), while the masthead intro and footer caveat cap their
+     own line length independently (see the ch-based max-widths below) and
+     wouldn't benefit from stretching further regardless of this value. */
+  max-width: 1720px;
   margin: 0 auto;
   padding: 28px 20px 56px;
   display: flex;
