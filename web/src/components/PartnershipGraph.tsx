@@ -506,7 +506,6 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
               <dd>{seasonSpan(hover.node.first, hover.node.last)}</dd>
             </div>
           </dl>
-          <span className="hint">Click for profile</span>
         </div>
       )}
     </div>
