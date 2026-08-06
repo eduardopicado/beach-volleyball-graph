@@ -1455,7 +1455,7 @@
       "id": 147931,
       "name": "Milan Sievers",
       "short": "Sievers",
-      "tournaments": 70,
+      "tournaments": 71,
       "first": 2016,
       "last": 2026
     },
@@ -1623,7 +1623,7 @@
       "id": 160092,
       "name": "Johannes Kirsten",
       "short": "Kirsten",
-      "tournaments": 38,
+      "tournaments": 40,
       "first": 2021,
       "last": 2026
     },
@@ -1663,7 +1663,7 @@
       "id": 164619,
       "name": "Jonas Reinhardt",
       "short": "Reinhardt",
-      "tournaments": 56,
+      "tournaments": 57,
       "first": 2021,
       "last": 2026
     },
@@ -2303,7 +2303,7 @@
       "id": 211379,
       "name": "Nicola Kössler",
       "short": "Kössler",
-      "tournaments": 29,
+      "tournaments": 31,
       "first": 2024,
       "last": 2026
     },
@@ -4797,9 +4797,9 @@
     {
       "a": 147931,
       "b": 164619,
-      "t": 20,
+      "t": 21,
       "f": 2021,
-      "l": 2022
+      "l": 2026
     },
     {
       "a": 147931,
@@ -5056,7 +5056,7 @@
     {
       "a": 160092,
       "b": 211379,
-      "t": 28,
+      "t": 30,
       "f": 2024,
       "l": 2026
     },

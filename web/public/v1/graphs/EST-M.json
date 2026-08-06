@@ -327,7 +327,7 @@
       "id": 143530,
       "name": "Urmas Piik",
       "short": "Piik",
-      "tournaments": 26,
+      "tournaments": 28,
       "first": 2023,
       "last": 2026
     },
@@ -527,7 +527,7 @@
       "id": 201782,
       "name": "Armin Kender",
       "short": "Kender",
-      "tournaments": 13,
+      "tournaments": 15,
       "first": 2024,
       "last": 2026
     },
@@ -974,7 +974,7 @@
     {
       "a": 143530,
       "b": 201782,
-      "t": 5,
+      "t": 7,
       "f": 2026,
       "l": 2026
     },

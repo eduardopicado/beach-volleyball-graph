@@ -1255,9 +1255,9 @@
       "id": 169015,
       "name": "Leonie Freytag",
       "short": "Freytag",
-      "tournaments": 3,
+      "tournaments": 4,
       "first": 2021,
-      "last": 2021
+      "last": 2026
     },
     {
       "id": 169016,
@@ -1295,9 +1295,9 @@
       "id": 169547,
       "name": "Astrid Munkwitz",
       "short": "Munkwitz",
-      "tournaments": 3,
+      "tournaments": 4,
       "first": 2019,
-      "last": 2021
+      "last": 2026
     },
     {
       "id": 169551,
@@ -4086,6 +4086,13 @@
       "t": 2,
       "f": 2021,
       "l": 2021
+    },
+    {
+      "a": 169015,
+      "b": 169547,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
     },
     {
       "a": 169016,
