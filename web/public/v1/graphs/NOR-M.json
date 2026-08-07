@@ -759,7 +759,7 @@
       "id": 124762,
       "name": "Jørn Olav Gamlemoen",
       "short": "Gamlemoen",
-      "tournaments": 85,
+      "tournaments": 83,
       "first": 2009,
       "last": 2026
     },
@@ -775,7 +775,7 @@
       "id": 125064,
       "name": "Svein Oddmund Solhaug",
       "short": "Solhaug",
-      "tournaments": 147,
+      "tournaments": 146,
       "first": 2009,
       "last": 2026
     },
@@ -935,7 +935,7 @@
       "id": 143189,
       "name": "Mathias Berntsen",
       "short": "Berntsen",
-      "tournaments": 197,
+      "tournaments": 196,
       "first": 2014,
       "last": 2026
     },
@@ -959,7 +959,7 @@
       "id": 144493,
       "name": "Christian Helland",
       "short": "Helland",
-      "tournaments": 59,
+      "tournaments": 57,
       "first": 2014,
       "last": 2024
     },
@@ -991,7 +991,7 @@
       "id": 148655,
       "name": "Erlend Henriksveen",
       "short": "Henriksveen",
-      "tournaments": 104,
+      "tournaments": 100,
       "first": 2018,
       "last": 2026
     },
@@ -1023,7 +1023,7 @@
       "id": 151319,
       "name": "Vegard Løkken",
       "short": "Løkken",
-      "tournaments": 100,
+      "tournaments": 96,
       "first": 2018,
       "last": 2026
     },
@@ -1063,7 +1063,7 @@
       "id": 151474,
       "name": "Emil Øfstaas",
       "short": "Ofstaas",
-      "tournaments": 32,
+      "tournaments": 31,
       "first": 2019,
       "last": 2026
     },
@@ -1095,7 +1095,7 @@
       "id": 157029,
       "name": "Nils Gunnar Ringøen",
       "short": "Ringøen",
-      "tournaments": 117,
+      "tournaments": 114,
       "first": 2018,
       "last": 2026
     },
@@ -1151,7 +1151,7 @@
       "id": 172619,
       "name": "Markus Mol",
       "short": "Mol, M.",
-      "tournaments": 114,
+      "tournaments": 112,
       "first": 2019,
       "last": 2025
     },
@@ -1167,7 +1167,7 @@
       "id": 179497,
       "name": "Syver Drolsum Klungsøyr",
       "short": "Klungsøyr",
-      "tournaments": 27,
+      "tournaments": 26,
       "first": 2022,
       "last": 2026
     },
@@ -2723,7 +2723,7 @@
     {
       "a": 124762,
       "b": 144493,
-      "t": 39,
+      "t": 37,
       "f": 2017,
       "l": 2022
     },
@@ -2877,8 +2877,8 @@
     {
       "a": 125064,
       "b": 157029,
-      "t": 38,
-      "f": 2020,
+      "t": 37,
+      "f": 2021,
       "l": 2024
     },
     {
@@ -3283,8 +3283,8 @@
     {
       "a": 143189,
       "b": 157029,
-      "t": 4,
-      "f": 2020,
+      "t": 3,
+      "f": 2021,
       "l": 2022
     },
     {
@@ -3346,7 +3346,7 @@
     {
       "a": 148655,
       "b": 151319,
-      "t": 100,
+      "t": 96,
       "f": 2018,
       "l": 2026
     },
@@ -3443,13 +3443,6 @@
     },
     {
       "a": 151474,
-      "b": 179497,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 151474,
       "b": 190549,
       "t": 2,
       "f": 2023,
@@ -3500,7 +3493,7 @@
     {
       "a": 157029,
       "b": 172619,
-      "t": 20,
+      "t": 18,
       "f": 2019,
       "l": 2024
     },

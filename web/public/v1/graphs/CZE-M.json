@@ -135,9 +135,9 @@
       "id": 101778,
       "name": "Petr Benes",
       "short": "Benes P.",
-      "tournaments": 76,
+      "tournaments": 75,
       "first": 1997,
-      "last": 2020
+      "last": 2013
     },
     {
       "id": 101779,
@@ -295,9 +295,9 @@
       "id": 103552,
       "name": "Miroslav Svoboda",
       "short": "Svoboda",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2001,
-      "last": 2020
+      "last": 2011
     },
     {
       "id": 103555,
@@ -359,7 +359,7 @@
       "id": 104772,
       "name": "Jindrich Weiss",
       "short": "Weiss",
-      "tournaments": 61,
+      "tournaments": 58,
       "first": 2004,
       "last": 2021
     },
@@ -367,7 +367,7 @@
       "id": 104977,
       "name": "Robert Kufa",
       "short": "Kufa, R.",
-      "tournaments": 161,
+      "tournaments": 157,
       "first": 2005,
       "last": 2024
     },
@@ -383,7 +383,7 @@
       "id": 104984,
       "name": "Martin Tichy",
       "short": "Tichy",
-      "tournaments": 120,
+      "tournaments": 119,
       "first": 2004,
       "last": 2021
     },
@@ -423,7 +423,7 @@
       "id": 117899,
       "name": "Jan Dumek",
       "short": "Dumek",
-      "tournaments": 283,
+      "tournaments": 280,
       "first": 2006,
       "last": 2026
     },
@@ -711,7 +711,7 @@
       "id": 132798,
       "name": "David Lenc",
       "short": "Lenc",
-      "tournaments": 86,
+      "tournaments": 84,
       "first": 2010,
       "last": 2023
     },
@@ -775,7 +775,7 @@
       "id": 137346,
       "name": "Ondrej Perusic",
       "short": "Perusic",
-      "tournaments": 138,
+      "tournaments": 137,
       "first": 2012,
       "last": 2026
     },
@@ -807,9 +807,9 @@
       "id": 138819,
       "name": "Michal Studnicny",
       "short": "Studnicny",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2012,
-      "last": 2020
+      "last": 2012
     },
     {
       "id": 138834,
@@ -855,7 +855,7 @@
       "id": 139869,
       "name": "Martin Pihera",
       "short": "Pihera",
-      "tournaments": 77,
+      "tournaments": 72,
       "first": 2017,
       "last": 2026
     },
@@ -863,15 +863,15 @@
       "id": 142008,
       "name": "Marcel Myslivecek",
       "short": "Myslivecek",
-      "tournaments": 48,
+      "tournaments": 46,
       "first": 2013,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 147876,
       "name": "Vaclav Bercik",
       "short": "Bercik, V.",
-      "tournaments": 172,
+      "tournaments": 169,
       "first": 2014,
       "last": 2026
     },
@@ -879,7 +879,7 @@
       "id": 147877,
       "name": "Jakub Gala",
       "short": "Gala",
-      "tournaments": 49,
+      "tournaments": 46,
       "first": 2014,
       "last": 2023
     },
@@ -887,7 +887,7 @@
       "id": 148440,
       "name": "Jakub Vala",
       "short": "Vala",
-      "tournaments": 83,
+      "tournaments": 81,
       "first": 2016,
       "last": 2026
     },
@@ -895,15 +895,15 @@
       "id": 148902,
       "name": "Dominik Samec",
       "short": "Samec",
-      "tournaments": 26,
+      "tournaments": 24,
       "first": 2016,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 149583,
       "name": "Tomas Pala",
       "short": "Pala",
-      "tournaments": 155,
+      "tournaments": 151,
       "first": 2015,
       "last": 2026
     },
@@ -911,7 +911,7 @@
       "id": 150633,
       "name": "Donovan Dzavoronok",
       "short": "Dzavoronok",
-      "tournaments": 12,
+      "tournaments": 10,
       "first": 2013,
       "last": 2023
     },
@@ -951,7 +951,7 @@
       "id": 154123,
       "name": "Jiri Sedlak",
       "short": "Sedlak",
-      "tournaments": 109,
+      "tournaments": 106,
       "first": 2018,
       "last": 2026
     },
@@ -959,8 +959,8 @@
       "id": 154124,
       "name": "Stepan Havlin",
       "short": "Havlin",
-      "tournaments": 15,
-      "first": 2020,
+      "tournaments": 13,
+      "first": 2021,
       "last": 2022
     },
     {
@@ -975,7 +975,7 @@
       "id": 156061,
       "name": "Dominik Pavoucek",
       "short": "Pavoucek",
-      "tournaments": 9,
+      "tournaments": 7,
       "first": 2019,
       "last": 2021
     },
@@ -996,18 +996,10 @@
       "last": 2013
     },
     {
-      "id": 157049,
-      "name": "Tomas Pavelek",
-      "short": "Pavelek T.",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 157877,
       "name": "Patrik Manas",
       "short": "Manas",
-      "tournaments": 28,
+      "tournaments": 25,
       "first": 2018,
       "last": 2022
     },
@@ -1015,31 +1007,23 @@
       "id": 157878,
       "name": "Tadeas Tezzele",
       "short": "Tezzele",
-      "tournaments": 18,
+      "tournaments": 16,
       "first": 2019,
       "last": 2025
-    },
-    {
-      "id": 157879,
-      "name": "Marek Holecek",
-      "short": "Holecek",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 157956,
       "name": "Matyas Dzavoronok",
       "short": "Dzavoronok",
-      "tournaments": 97,
-      "first": 2020,
+      "tournaments": 95,
+      "first": 2021,
       "last": 2026
     },
     {
       "id": 158972,
       "name": "Martin Sramek",
       "short": "Sramek",
-      "tournaments": 37,
+      "tournaments": 33,
       "first": 2017,
       "last": 2021
     },
@@ -1055,7 +1039,7 @@
       "id": 160834,
       "name": "Frantisek Knobloch",
       "short": "Knobloch",
-      "tournaments": 76,
+      "tournaments": 73,
       "first": 2018,
       "last": 2024
     },
@@ -1063,15 +1047,15 @@
       "id": 160905,
       "name": "Martin Barta",
       "short": "Barta",
-      "tournaments": 6,
-      "first": 2020,
+      "tournaments": 5,
+      "first": 2021,
       "last": 2021
     },
     {
       "id": 160906,
       "name": "Ondrej Redl",
       "short": "Redl",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2018,
       "last": 2021
     },
@@ -1079,7 +1063,7 @@
       "id": 162704,
       "name": "Martin Melmuka",
       "short": "Melmuka",
-      "tournaments": 61,
+      "tournaments": 58,
       "first": 2018,
       "last": 2025
     },
@@ -1092,66 +1076,26 @@
       "last": 2022
     },
     {
-      "id": 164261,
-      "name": "Stanislav Vachousek",
-      "short": "Vachousek",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 164296,
       "name": "Ondrej Sotola",
       "short": "Sotola",
-      "tournaments": 128,
+      "tournaments": 123,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 166252,
-      "name": "Roman Mares",
-      "short": "Mares",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
-      "id": 166725,
-      "name": "Jan Charousek",
-      "short": "Charousek",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 166881,
       "name": "Vit Beneš",
       "short": "Benes",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2018,
       "last": 2021
-    },
-    {
-      "id": 168586,
-      "name": "Ondrej Krelina",
-      "short": "Krelina",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
-      "id": 168593,
-      "name": "Lukas Spozdil",
-      "short": "Spozdil",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 168597,
       "name": "Adam Miroslav Stocek",
       "short": "Stocek",
-      "tournaments": 80,
+      "tournaments": 79,
       "first": 2019,
       "last": 2026
     },
@@ -1159,23 +1103,15 @@
       "id": 168598,
       "name": "Tomas Maixner",
       "short": "Maixner",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 168605,
-      "name": "Jan Bil",
-      "short": "Bil",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 168606,
       "name": "Jakub Sepka",
       "short": "Sepka",
-      "tournaments": 115,
+      "tournaments": 113,
       "first": 2018,
       "last": 2026
     },
@@ -1183,7 +1119,7 @@
       "id": 168657,
       "name": "Jindrich Zavadil",
       "short": "Zavadil",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2018,
       "last": 2026
     },
@@ -1196,34 +1132,26 @@
       "last": 2008
     },
     {
-      "id": 168980,
-      "name": "Martin Neprasek",
-      "short": "Neprasek",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 169586,
       "name": "Tadeas Trousil",
       "short": "Trousil",
-      "tournaments": 81,
-      "first": 2020,
+      "tournaments": 80,
+      "first": 2021,
       "last": 2026
     },
     {
       "id": 169596,
       "name": "Matyas Jachnicki",
       "short": "Jachnicki",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 169597,
       "name": "Frantisek Pihera",
       "short": "Pihera",
-      "tournaments": 69,
+      "tournaments": 66,
       "first": 2019,
       "last": 2026
     },
@@ -1231,41 +1159,33 @@
       "id": 173414,
       "name": "Ondrej Herman",
       "short": "Herman",
-      "tournaments": 17,
-      "first": 2020,
+      "tournaments": 16,
+      "first": 2022,
       "last": 2023
     },
     {
       "id": 173415,
       "name": "Tomas Semerad",
       "short": "Semerad",
-      "tournaments": 132,
-      "first": 2020,
+      "tournaments": 130,
+      "first": 2021,
       "last": 2026
     },
     {
       "id": 173575,
       "name": "Jan Bercik",
       "short": "Bercik, J.",
-      "tournaments": 80,
-      "first": 2020,
+      "tournaments": 79,
+      "first": 2021,
       "last": 2026
     },
     {
       "id": 173576,
       "name": "Matej Ruml",
       "short": "Ruml",
-      "tournaments": 25,
-      "first": 2020,
+      "tournaments": 24,
+      "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 173637,
-      "name": "Martin Hladik",
-      "short": "Hladik",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 174027,
@@ -1279,8 +1199,8 @@
       "id": 174032,
       "name": "Matyas Jezek",
       "short": "Jezek",
-      "tournaments": 36,
-      "first": 2020,
+      "tournaments": 35,
+      "first": 2023,
       "last": 2026
     },
     {
@@ -1295,24 +1215,24 @@
       "id": 177292,
       "name": "Jan Stefko",
       "short": "Stefko",
-      "tournaments": 15,
-      "first": 2020,
+      "tournaments": 13,
+      "first": 2021,
       "last": 2025
     },
     {
       "id": 178227,
       "name": "Jan Mrkous",
       "short": "Mrkous",
-      "tournaments": 69,
-      "first": 2020,
+      "tournaments": 66,
+      "first": 2021,
       "last": 2026
     },
     {
       "id": 178308,
       "name": "Adam Waber",
       "short": "Waber",
-      "tournaments": 66,
-      "first": 2020,
+      "tournaments": 63,
+      "first": 2021,
       "last": 2026
     },
     {
@@ -1332,35 +1252,11 @@
       "last": 2026
     },
     {
-      "id": 178996,
-      "name": "Josef Havlas",
-      "short": "Havlas",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
-      "id": 178997,
-      "name": "Lukas Krist",
-      "short": "Krist",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
-      "id": 178998,
-      "name": "Vladimir Eder",
-      "short": "Eder",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 179007,
       "name": "Ondrej Pohl",
       "short": "Pohl",
-      "tournaments": 19,
-      "first": 2020,
+      "tournaments": 18,
+      "first": 2022,
       "last": 2026
     },
     {
@@ -1375,32 +1271,32 @@
       "id": 179063,
       "name": "Lukas Kittel",
       "short": "Kittel",
-      "tournaments": 46,
-      "first": 2020,
+      "tournaments": 44,
+      "first": 2021,
       "last": 2024
     },
     {
       "id": 179064,
       "name": "David Kittel",
       "short": "Kittel",
-      "tournaments": 18,
-      "first": 2020,
+      "tournaments": 17,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 179528,
       "name": "Krystof Nemec",
       "short": "Nemec",
-      "tournaments": 16,
-      "first": 2020,
+      "tournaments": 15,
+      "first": 2022,
       "last": 2026
     },
     {
       "id": 179529,
       "name": "Vaclav Kurka",
       "short": "Kurka",
-      "tournaments": 45,
-      "first": 2020,
+      "tournaments": 44,
+      "first": 2021,
       "last": 2026
     },
     {
@@ -1412,36 +1308,20 @@
       "last": 2023
     },
     {
-      "id": 180075,
-      "name": "Matej Sepka",
-      "short": "Sepka",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 180076,
       "name": "Krystof Volf",
       "short": "Volf",
-      "tournaments": 2,
-      "first": 2020,
+      "tournaments": 1,
+      "first": 2021,
       "last": 2021
     },
     {
       "id": 180077,
       "name": "Jan Leden",
       "short": "Leden",
-      "tournaments": 2,
-      "first": 2020,
-      "last": 2021
-    },
-    {
-      "id": 180095,
-      "name": "Jakub Novak",
-      "short": "Novak",
       "tournaments": 1,
-      "first": 2020,
-      "last": 2020
+      "first": 2021,
+      "last": 2021
     },
     {
       "id": 181632,
@@ -2048,13 +1928,6 @@
       "l": 2013
     },
     {
-      "a": 101778,
-      "b": 178308,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 101779,
       "b": 103337,
       "t": 2,
@@ -2209,13 +2082,6 @@
       "l": 2011
     },
     {
-      "a": 103552,
-      "b": 138819,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 103555,
       "b": 103556,
       "t": 1,
@@ -2302,7 +2168,7 @@
     {
       "a": 104772,
       "b": 104984,
-      "t": 31,
+      "t": 30,
       "f": 2008,
       "l": 2021
     },
@@ -2344,7 +2210,7 @@
     {
       "a": 104772,
       "b": 150633,
-      "t": 6,
+      "t": 5,
       "f": 2018,
       "l": 2021
     },
@@ -2361,20 +2227,6 @@
       "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 104772,
-      "b": 157956,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 104772,
-      "b": 158972,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 104977,
@@ -2421,9 +2273,9 @@
     {
       "a": 104977,
       "b": 132798,
-      "t": 7,
+      "t": 6,
       "f": 2010,
-      "l": 2020
+      "l": 2018
     },
     {
       "a": 104977,
@@ -2455,15 +2307,8 @@
     },
     {
       "a": 104977,
-      "b": 178227,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 104977,
       "b": 178308,
-      "t": 29,
+      "t": 27,
       "f": 2021,
       "l": 2022
     },
@@ -2554,7 +2399,7 @@
     {
       "a": 117899,
       "b": 147876,
-      "t": 78,
+      "t": 75,
       "f": 2017,
       "l": 2023
     },
@@ -2868,13 +2713,6 @@
     },
     {
       "a": 132798,
-      "b": 177292,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 132798,
       "b": 181633,
       "t": 1,
       "f": 2023,
@@ -3016,7 +2854,7 @@
     {
       "a": 139869,
       "b": 164296,
-      "t": 21,
+      "t": 16,
       "f": 2019,
       "l": 2021
     },
@@ -3050,17 +2888,10 @@
     },
     {
       "a": 142008,
-      "b": 148902,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 142008,
       "b": 149583,
-      "t": 7,
+      "t": 6,
       "f": 2015,
-      "l": 2020
+      "l": 2016
     },
     {
       "a": 147876,
@@ -3107,7 +2938,7 @@
     {
       "a": 147877,
       "b": 156061,
-      "t": 5,
+      "t": 3,
       "f": 2020,
       "l": 2020
     },
@@ -3128,7 +2959,7 @@
     {
       "a": 147877,
       "b": 177292,
-      "t": 6,
+      "t": 5,
       "f": 2021,
       "l": 2023
     },
@@ -3142,8 +2973,8 @@
     {
       "a": 148440,
       "b": 149583,
-      "t": 21,
-      "f": 2020,
+      "t": 20,
+      "f": 2021,
       "l": 2022
     },
     {
@@ -3177,8 +3008,8 @@
     {
       "a": 148440,
       "b": 168597,
-      "t": 27,
-      "f": 2020,
+      "t": 26,
+      "f": 2022,
       "l": 2023
     },
     {
@@ -3205,7 +3036,7 @@
     {
       "a": 149583,
       "b": 158972,
-      "t": 11,
+      "t": 8,
       "f": 2017,
       "l": 2020
     },
@@ -3218,24 +3049,10 @@
     },
     {
       "a": 149583,
-      "b": 169596,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 149583,
       "b": 179064,
       "t": 17,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 150633,
-      "b": 157878,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 150633,
@@ -3268,7 +3085,7 @@
     {
       "a": 154123,
       "b": 157877,
-      "t": 23,
+      "t": 20,
       "f": 2018,
       "l": 2021
     },
@@ -3309,16 +3126,9 @@
     },
     {
       "a": 154124,
-      "b": 157956,
+      "b": 166881,
       "t": 1,
       "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 154124,
-      "b": 166881,
-      "t": 2,
-      "f": 2020,
       "l": 2021
     },
     {
@@ -3357,13 +3167,6 @@
       "l": 2026
     },
     {
-      "a": 157049,
-      "b": 168605,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 157877,
       "b": 157878,
       "t": 1,
@@ -3379,13 +3182,6 @@
     },
     {
       "a": 157878,
-      "b": 162704,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 157878,
       "b": 173575,
       "t": 4,
       "f": 2022,
@@ -3397,13 +3193,6 @@
       "t": 8,
       "f": 2023,
       "l": 2025
-    },
-    {
-      "a": 157879,
-      "b": 168593,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 157956,
@@ -3427,16 +3216,9 @@
       "l": 2021
     },
     {
-      "a": 158972,
-      "b": 168980,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 160834,
       "b": 162704,
-      "t": 18,
+      "t": 16,
       "f": 2018,
       "l": 2022
     },
@@ -3450,15 +3232,15 @@
     {
       "a": 160834,
       "b": 179063,
-      "t": 36,
+      "t": 35,
       "f": 2021,
       "l": 2024
     },
     {
       "a": 160905,
       "b": 160906,
-      "t": 6,
-      "f": 2020,
+      "t": 5,
+      "f": 2021,
       "l": 2021
     },
     {
@@ -3488,27 +3270,6 @@
       "t": 2,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 164261,
-      "b": 173637,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 166252,
-      "b": 180095,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 166725,
-      "b": 168586,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 166881,
@@ -3548,8 +3309,8 @@
     {
       "a": 168606,
       "b": 173415,
-      "t": 62,
-      "f": 2020,
+      "t": 60,
+      "f": 2021,
       "l": 2023
     },
     {
@@ -3565,20 +3326,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 168657,
-      "b": 180075,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 169586,
-      "b": 169597,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 169586,
@@ -3625,7 +3372,7 @@
     {
       "a": 169597,
       "b": 178227,
-      "t": 67,
+      "t": 65,
       "f": 2021,
       "l": 2026
     },
@@ -3637,13 +3384,6 @@
       "l": 2023
     },
     {
-      "a": 173414,
-      "b": 179007,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 173415,
       "b": 181633,
       "t": 6,
@@ -3653,8 +3393,8 @@
     {
       "a": 173575,
       "b": 173576,
-      "t": 9,
-      "f": 2020,
+      "t": 8,
+      "f": 2022,
       "l": 2025
     },
     {
@@ -3686,13 +3426,6 @@
       "l": 2026
     },
     {
-      "a": 174032,
-      "b": 178996,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 175537,
       "b": 209236,
       "t": 3,
@@ -3719,13 +3452,6 @@
       "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 178997,
-      "b": 178998,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 179007,
@@ -3763,20 +3489,6 @@
       "l": 2026
     },
     {
-      "a": 179063,
-      "b": 179064,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 179528,
-      "b": 179529,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 179529,
       "b": 181633,
       "t": 44,
@@ -3793,8 +3505,8 @@
     {
       "a": 180076,
       "b": 180077,
-      "t": 2,
-      "f": 2020,
+      "t": 1,
+      "f": 2021,
       "l": 2021
     },
     {

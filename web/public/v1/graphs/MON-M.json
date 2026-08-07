@@ -23,7 +23,7 @@
       "id": 167626,
       "name": "Pascal Ferry",
       "short": "Ferry P.",
-      "tournaments": 35,
+      "tournaments": 32,
       "first": 2019,
       "last": 2026
     },
@@ -31,7 +31,7 @@
       "id": 167627,
       "name": "Vincent Ferry",
       "short": "Ferry V.",
-      "tournaments": 34,
+      "tournaments": 32,
       "first": 2019,
       "last": 2026
     }
@@ -47,7 +47,7 @@
     {
       "a": 167626,
       "b": 167627,
-      "t": 34,
+      "t": 32,
       "f": 2019,
       "l": 2026
     }

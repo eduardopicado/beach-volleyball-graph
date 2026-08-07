@@ -1287,7 +1287,7 @@
       "id": 153921,
       "name": "Joao Pedrosa",
       "short": "Pedrosa",
-      "tournaments": 95,
+      "tournaments": 93,
       "first": 2019,
       "last": 2026
     },
@@ -1319,7 +1319,7 @@
       "id": 164474,
       "name": "Hugo Campos",
       "short": "Campos",
-      "tournaments": 95,
+      "tournaments": 93,
       "first": 2019,
       "last": 2026
     },
@@ -1335,8 +1335,8 @@
       "id": 166321,
       "name": "Filipe Leite",
       "short": "Leite",
-      "tournaments": 5,
-      "first": 2020,
+      "tournaments": 4,
+      "first": 2021,
       "last": 2023
     },
     {
@@ -1375,8 +1375,8 @@
       "id": 169663,
       "name": "Guilherme Bragança Sapage de Barbosa Maia",
       "short": "Maia, G.",
-      "tournaments": 5,
-      "first": 2020,
+      "tournaments": 4,
+      "first": 2021,
       "last": 2023
     },
     {
@@ -2462,7 +2462,7 @@
     {
       "a": 153921,
       "b": 164474,
-      "t": 95,
+      "t": 93,
       "f": 2019,
       "l": 2026
     },
@@ -2483,8 +2483,8 @@
     {
       "a": 166321,
       "b": 169663,
-      "t": 5,
-      "f": 2020,
+      "t": 4,
+      "f": 2021,
       "l": 2023
     },
     {

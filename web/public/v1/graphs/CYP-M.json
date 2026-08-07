@@ -263,7 +263,7 @@
       "id": 144042,
       "name": "Charalampos Zorbis",
       "short": "Zorbis",
-      "tournaments": 11,
+      "tournaments": 10,
       "first": 2014,
       "last": 2022
     },
@@ -343,7 +343,7 @@
       "id": 153767,
       "name": "Antonios Liotatis",
       "short": "Liotatis",
-      "tournaments": 24,
+      "tournaments": 23,
       "first": 2017,
       "last": 2022
     },
@@ -641,7 +641,7 @@
     {
       "a": 144042,
       "b": 153767,
-      "t": 9,
+      "t": 8,
       "f": 2021,
       "l": 2022
     },

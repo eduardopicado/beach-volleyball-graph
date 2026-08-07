@@ -71,17 +71,17 @@
       "id": 102182,
       "name": "Balazs Buday",
       "short": "Buday",
-      "tournaments": 9,
+      "tournaments": 6,
       "first": 1999,
-      "last": 2021
+      "last": 2000
     },
     {
       "id": 118110,
       "name": "Balázs Bagics",
       "short": "Bagics",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2006,
-      "last": 2021
+      "last": 2007
     },
     {
       "id": 118111,
@@ -111,9 +111,9 @@
       "id": 118159,
       "name": "Richárd Honti",
       "short": "Honti",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2006,
-      "last": 2021
+      "last": 2010
     },
     {
       "id": 118160,
@@ -212,14 +212,6 @@
       "last": 2008
     },
     {
-      "id": 121405,
-      "name": "Gábor Nacsa",
-      "short": "Nacsa",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 124400,
       "name": "Gábor Nacsa",
       "short": "Nacsa",
@@ -231,17 +223,17 @@
       "id": 132087,
       "name": "Gergely Takács",
       "short": "Takács",
-      "tournaments": 10,
+      "tournaments": 8,
       "first": 2010,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 132108,
       "name": "András Tóth",
       "short": "Tóth",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2010,
-      "last": 2021
+      "last": 2010
     },
     {
       "id": 135444,
@@ -252,20 +244,12 @@
       "last": 2011
     },
     {
-      "id": 135483,
-      "name": "István Molnár",
-      "short": "Molnár",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 143311,
       "name": "Zoltán Berkes",
       "short": "Berkes",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 143312,
@@ -279,15 +263,15 @@
       "id": 143483,
       "name": "Viktor Erik Bán",
       "short": "Bán",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 147060,
       "name": "Izsák Soós",
       "short": "Soós",
-      "tournaments": 22,
+      "tournaments": 18,
       "first": 2015,
       "last": 2022
     },
@@ -295,15 +279,15 @@
       "id": 147705,
       "name": "Tamás Meszlényi",
       "short": "Meszlényi",
-      "tournaments": 13,
+      "tournaments": 9,
       "first": 2015,
-      "last": 2021
+      "last": 2017
     },
     {
       "id": 154004,
       "name": "Bence Attila Stréli",
       "short": "Stréli",
-      "tournaments": 111,
+      "tournaments": 105,
       "first": 2017,
       "last": 2026
     },
@@ -311,7 +295,7 @@
       "id": 157680,
       "name": "Marcell Mikuláss Koch",
       "short": "Mikuláss Koch",
-      "tournaments": 7,
+      "tournaments": 3,
       "first": 2019,
       "last": 2022
     },
@@ -335,7 +319,7 @@
       "id": 158172,
       "name": "Botond Oláh",
       "short": "Oláh",
-      "tournaments": 27,
+      "tournaments": 23,
       "first": 2018,
       "last": 2026
     },
@@ -343,7 +327,7 @@
       "id": 158173,
       "name": "Balázs Benk?",
       "short": "Benkö",
-      "tournaments": 22,
+      "tournaments": 18,
       "first": 2018,
       "last": 2025
     },
@@ -351,25 +335,17 @@
       "id": 160651,
       "name": "Levente Pető",
       "short": "Pető",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 161607,
       "name": "Artúr Hajós",
       "short": "Hajós",
-      "tournaments": 88,
+      "tournaments": 82,
       "first": 2017,
       "last": 2026
-    },
-    {
-      "id": 163407,
-      "name": "Nicholas Kiss",
-      "short": "Kiss",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 163408,
@@ -380,58 +356,18 @@
       "last": 2019
     },
     {
-      "id": 163409,
-      "name": "Dániel Kiss",
-      "short": "Kiss",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 163410,
-      "name": "Mihály Farkas",
-      "short": "Farkas",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 163411,
-      "name": "Simon Oszlányi",
-      "short": "Oszlányi",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 167107,
-      "name": "Zoltán Krekk",
-      "short": "Krekk",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 167109,
       "name": "Boldizsár Kovács",
       "short": "Kovács",
-      "tournaments": 5,
-      "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 168702,
-      "name": "Bernát Sándor",
-      "short": "Sándor",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2018,
+      "last": 2018
     },
     {
       "id": 168703,
       "name": "Domonkos Dóczi",
       "short": "Dóczi",
-      "tournaments": 71,
+      "tournaments": 68,
       "first": 2021,
       "last": 2026
     },
@@ -439,55 +375,31 @@
       "id": 168704,
       "name": "Márton Udvarhelyi",
       "short": "Udvarhelyi",
-      "tournaments": 22,
+      "tournaments": 18,
       "first": 2021,
       "last": 2026
-    },
-    {
-      "id": 168741,
-      "name": "Róbert Márk Suba",
-      "short": "Suba",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 169942,
       "name": "Jamil Ghazal",
       "short": "Ghazal",
-      "tournaments": 8,
+      "tournaments": 3,
       "first": 2019,
       "last": 2026
-    },
-    {
-      "id": 170111,
-      "name": "Bence Sándor",
-      "short": "Sándor",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 170850,
-      "name": "Dávid Tompa",
-      "short": "Tompa",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 173078,
       "name": "Péter Solti",
       "short": "Solti",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 173588,
       "name": "Csanád Petik",
       "short": "Petik",
-      "tournaments": 28,
+      "tournaments": 24,
       "first": 2021,
       "last": 2024
     },
@@ -495,71 +407,23 @@
       "id": 179311,
       "name": "Mátyás Papp",
       "short": "Papp",
-      "tournaments": 21,
-      "first": 2020,
+      "tournaments": 16,
+      "first": 2021,
       "last": 2024
-    },
-    {
-      "id": 179312,
-      "name": "Bence Dóra",
-      "short": "Dóra",
-      "tournaments": 5,
-      "first": 2020,
-      "last": 2021
     },
     {
       "id": 179398,
       "name": "Vilmos Szabó",
       "short": "Szabó",
-      "tournaments": 6,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 181686,
-      "name": "Benedek Kun",
-      "short": "Kun",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181687,
-      "name": "Zoltán Szabó",
-      "short": "Szabó Z.",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181688,
-      "name": "Zoltán Mészáros",
-      "short": "Mészáros",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181689,
-      "name": "Lajos Bodnár",
-      "short": "Bodnár",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181690,
-      "name": "Szilárd Szigeti",
-      "short": "Szigeti",
       "tournaments": 2,
       "first": 2021,
-      "last": 2021
+      "last": 2022
     },
     {
       "id": 181691,
       "name": "Viktor Szalai",
       "short": "Szalai",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -567,103 +431,23 @@
       "id": 181692,
       "name": "Bence Tari",
       "short": "Tari",
-      "tournaments": 43,
-      "first": 2021,
+      "tournaments": 40,
+      "first": 2023,
       "last": 2026
-    },
-    {
-      "id": 181693,
-      "name": "Péter Kelemen",
-      "short": "Kelemen",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181694,
-      "name": "István Filius",
-      "short": "Filius",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181695,
-      "name": "Gergely Oláh",
-      "short": "Oláh",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181696,
-      "name": "Máté Márió Horváth",
-      "short": "Horváth",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 181697,
       "name": "Boldizsár Borbély",
       "short": "Borbély",
-      "tournaments": 48,
-      "first": 2021,
+      "tournaments": 45,
+      "first": 2022,
       "last": 2026
     },
     {
       "id": 181698,
       "name": "Balázs Éliás",
       "short": "Éliás",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181699,
-      "name": "Alex Rása",
-      "short": "Rása",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181700,
-      "name": "Sebestyén Domján",
-      "short": "Domján",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181701,
-      "name": "Levente Dóra",
-      "short": "Dóra",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181702,
-      "name": "Balázs Budai",
-      "short": "Budai",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181703,
-      "name": "Gábor Boros",
-      "short": "Boros",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181704,
-      "name": "Tamás Krankovits",
-      "short": "Krankovits",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -671,7 +455,7 @@
       "id": 181705,
       "name": "Barnabás Apró",
       "short": "Apró",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -679,47 +463,23 @@
       "id": 181706,
       "name": "Ákos Veress",
       "short": "Veress",
-      "tournaments": 41,
-      "first": 2021,
+      "tournaments": 38,
+      "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 181707,
-      "name": "Richárd Török",
-      "short": "Török",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181708,
-      "name": "Tamás Szalai",
-      "short": "Szalai",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181709,
-      "name": "Barnabás Szetey",
-      "short": "Szetey",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 181710,
       "name": "Lukas Niemeier",
       "short": "Niemeier",
-      "tournaments": 53,
-      "first": 2021,
+      "tournaments": 50,
+      "first": 2023,
       "last": 2026
     },
     {
       "id": 181711,
       "name": "Csanád Frányó",
       "short": "Frányó",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2021,
       "last": 2023
     },
@@ -727,65 +487,25 @@
       "id": 182045,
       "name": "Balázs Ferenc Fazekas",
       "short": "Fazekas",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2021,
       "last": 2024
-    },
-    {
-      "id": 182046,
-      "name": "Patrik Hubicska",
-      "short": "Hubicska",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 182047,
       "name": "Bálint Bogáncs",
       "short": "Bogáncs",
-      "tournaments": 31,
-      "first": 2021,
+      "tournaments": 29,
+      "first": 2024,
       "last": 2026
-    },
-    {
-      "id": 182048,
-      "name": "Barnabás Máté Busz",
-      "short": "Busz",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182049,
-      "name": "Máté Tamás Molnár",
-      "short": "Molnár",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 182108,
       "name": "Levente Polgár",
       "short": "Polgár",
-      "tournaments": 17,
-      "first": 2021,
+      "tournaments": 16,
+      "first": 2022,
       "last": 2025
-    },
-    {
-      "id": 182326,
-      "name": "Ábel Tordai",
-      "short": "Tordai",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182327,
-      "name": "Dániel Polgár",
-      "short": "Polgár",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 202020,
@@ -897,25 +617,11 @@
       "l": 1999
     },
     {
-      "a": 102182,
-      "b": 167107,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 118110,
       "b": 118111,
       "t": 5,
       "f": 2006,
       "l": 2007
-    },
-    {
-      "a": 118110,
-      "b": 182045,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 118157,
@@ -974,13 +680,6 @@
       "l": 2008
     },
     {
-      "a": 118159,
-      "b": 163410,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 118160,
       "b": 120280,
       "t": 3,
@@ -1007,27 +706,6 @@
       "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 121405,
-      "b": 132087,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 121405,
-      "b": 132108,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 121405,
-      "b": 167109,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 124400,
@@ -1065,20 +743,6 @@
       "l": 2018
     },
     {
-      "a": 132087,
-      "b": 182326,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 135483,
-      "b": 181686,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 143311,
       "b": 147060,
       "t": 1,
@@ -1086,25 +750,11 @@
       "l": 2018
     },
     {
-      "a": 143311,
-      "b": 147705,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 143483,
       "b": 163408,
       "t": 1,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 143483,
-      "b": 173078,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 147060,
@@ -1123,7 +773,7 @@
     {
       "a": 147060,
       "b": 179311,
-      "t": 8,
+      "t": 4,
       "f": 2021,
       "l": 2022
     },
@@ -1137,7 +787,7 @@
     {
       "a": 154004,
       "b": 161607,
-      "t": 75,
+      "t": 69,
       "f": 2017,
       "l": 2026
     },
@@ -1172,7 +822,7 @@
     {
       "a": 157680,
       "b": 179398,
-      "t": 6,
+      "t": 2,
       "f": 2021,
       "l": 2022
     },
@@ -1200,15 +850,15 @@
     {
       "a": 158172,
       "b": 168703,
-      "t": 7,
+      "t": 4,
       "f": 2021,
       "l": 2022
     },
     {
       "a": 158172,
       "b": 169942,
-      "t": 3,
-      "f": 2020,
+      "t": 2,
+      "f": 2026,
       "l": 2026
     },
     {
@@ -1217,13 +867,6 @@
       "t": 6,
       "f": 2018,
       "l": 2019
-    },
-    {
-      "a": 158173,
-      "b": 169942,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 158173,
@@ -1249,9 +892,9 @@
     {
       "a": 160651,
       "b": 167109,
-      "t": 2,
+      "t": 1,
       "f": 2018,
-      "l": 2021
+      "l": 2018
     },
     {
       "a": 161607,
@@ -1280,76 +923,6 @@
       "t": 2,
       "f": 2025,
       "l": 2026
-    },
-    {
-      "a": 163407,
-      "b": 181693,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163409,
-      "b": 181699,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163410,
-      "b": 181687,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163410,
-      "b": 181700,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163411,
-      "b": 181687,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163411,
-      "b": 181700,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 167107,
-      "b": 181688,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 167109,
-      "b": 179312,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 167109,
-      "b": 181700,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 168702,
-      "b": 168741,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 168703,
@@ -1403,7 +976,7 @@
     {
       "a": 168704,
       "b": 173588,
-      "t": 6,
+      "t": 2,
       "f": 2021,
       "l": 2022
     },
@@ -1436,39 +1009,11 @@
       "l": 2019
     },
     {
-      "a": 170111,
-      "b": 182047,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 170850,
-      "b": 181687,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 170850,
-      "b": 181689,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 173588,
       "b": 182108,
       "t": 4,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 179311,
-      "b": 179312,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 179311,
@@ -1492,52 +1037,17 @@
       "l": 2024
     },
     {
-      "a": 179312,
-      "b": 181701,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181687,
-      "b": 181695,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181688,
-      "b": 181702,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181689,
-      "b": 181703,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181690,
-      "b": 181704,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 181691,
       "b": 181705,
-      "t": 4,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 181692,
       "b": 181706,
-      "t": 21,
-      "f": 2021,
+      "t": 18,
+      "f": 2023,
       "l": 2025
     },
     {
@@ -1546,27 +1056,6 @@
       "t": 17,
       "f": 2025,
       "l": 2026
-    },
-    {
-      "a": 181694,
-      "b": 181707,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181695,
-      "b": 181708,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181696,
-      "b": 181709,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 181697,
@@ -1578,8 +1067,8 @@
     {
       "a": 181697,
       "b": 181710,
-      "t": 26,
-      "f": 2021,
+      "t": 23,
+      "f": 2023,
       "l": 2025
     },
     {
@@ -1599,7 +1088,7 @@
     {
       "a": 181698,
       "b": 181711,
-      "t": 4,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
@@ -1611,32 +1100,11 @@
       "l": 2025
     },
     {
-      "a": 182045,
-      "b": 182046,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 182047,
       "b": 202025,
       "t": 5,
       "f": 2025,
       "l": 2026
-    },
-    {
-      "a": 182048,
-      "b": 182049,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 182108,
-      "b": 182327,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 182108,

@@ -383,9 +383,9 @@
       "id": 103811,
       "name": "Pavel Karpukhin",
       "short": "Karpukhin",
-      "tournaments": 55,
+      "tournaments": 53,
       "first": 2002,
-      "last": 2021
+      "last": 2015
     },
     {
       "id": 103990,
@@ -615,7 +615,7 @@
       "id": 117669,
       "name": "Alexander Likholetov",
       "short": "Likholetov",
-      "tournaments": 93,
+      "tournaments": 89,
       "first": 2005,
       "last": 2021
     },
@@ -751,7 +751,7 @@
       "id": 120577,
       "name": "Valeriy Samoday",
       "short": "Samoday",
-      "tournaments": 69,
+      "tournaments": 62,
       "first": 2008,
       "last": 2021
     },
@@ -887,9 +887,9 @@
       "id": 120851,
       "name": "Anton Safonov",
       "short": "Safonov",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2008,
-      "last": 2021
+      "last": 2015
     },
     {
       "id": 120898,
@@ -951,7 +951,7 @@
       "id": 124028,
       "name": "Andrey Bolgov",
       "short": "Bolgov",
-      "tournaments": 23,
+      "tournaments": 20,
       "first": 2009,
       "last": 2021
     },
@@ -959,7 +959,7 @@
       "id": 124030,
       "name": "Ruslan Bykanov",
       "short": "Bykanov",
-      "tournaments": 93,
+      "tournaments": 89,
       "first": 2009,
       "last": 2021
     },
@@ -983,7 +983,7 @@
       "id": 124622,
       "name": "Daniil Kuvichka",
       "short": "Kuvichka",
-      "tournaments": 36,
+      "tournaments": 30,
       "first": 2009,
       "last": 2022
     },
@@ -991,7 +991,7 @@
       "id": 124623,
       "name": "Grigoriy Goncharov",
       "short": "Goncharov",
-      "tournaments": 34,
+      "tournaments": 30,
       "first": 2009,
       "last": 2021
     },
@@ -1007,17 +1007,9 @@
       "id": 131860,
       "name": "Konstantin Semenov",
       "short": "Semenov",
-      "tournaments": 154,
+      "tournaments": 153,
       "first": 2009,
       "last": 2023
-    },
-    {
-      "id": 131939,
-      "name": "Albert Stroev",
-      "short": "Stroev",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 132129,
@@ -1055,9 +1047,9 @@
       "id": 132228,
       "name": "Vasili Andrianov",
       "short": "Andrianov",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2011,
-      "last": 2021
+      "last": 2012
     },
     {
       "id": 132482,
@@ -1068,18 +1060,10 @@
       "last": 2017
     },
     {
-      "id": 132483,
-      "name": "Sergey Alfimov",
-      "short": "Alfimov",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 132588,
       "name": "Maksim Hudyakov",
       "short": "Hudyakov",
-      "tournaments": 72,
+      "tournaments": 68,
       "first": 2011,
       "last": 2022
     },
@@ -1103,9 +1087,9 @@
       "id": 135586,
       "name": "Nikita Kuzmin",
       "short": "Kuzmin",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2011,
-      "last": 2021
+      "last": 2011
     },
     {
       "id": 135587,
@@ -1119,9 +1103,9 @@
       "id": 135858,
       "name": "Anton Ermishenkov",
       "short": "Ermishenkov",
-      "tournaments": 8,
+      "tournaments": 6,
       "first": 2012,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 136158,
@@ -1143,7 +1127,7 @@
       "id": 139166,
       "name": "Igor Velichko",
       "short": "Velichko",
-      "tournaments": 61,
+      "tournaments": 55,
       "first": 2012,
       "last": 2023
     },
@@ -1175,7 +1159,7 @@
       "id": 141537,
       "name": "Artem Yarzutkin",
       "short": "Yarzutkin",
-      "tournaments": 88,
+      "tournaments": 86,
       "first": 2013,
       "last": 2021
     },
@@ -1191,7 +1175,7 @@
       "id": 143169,
       "name": "Ilya Leshukov",
       "short": "Leshukov",
-      "tournaments": 88,
+      "tournaments": 87,
       "first": 2014,
       "last": 2023
     },
@@ -1207,7 +1191,7 @@
       "id": 145647,
       "name": "Taras Myskiv",
       "short": "Myskiv",
-      "tournaments": 64,
+      "tournaments": 61,
       "first": 2014,
       "last": 2023
     },
@@ -1215,7 +1199,7 @@
       "id": 145648,
       "name": "Petr Bakhnar",
       "short": "Bakhnar",
-      "tournaments": 53,
+      "tournaments": 46,
       "first": 2016,
       "last": 2021
     },
@@ -1231,9 +1215,9 @@
       "id": 146568,
       "name": "Vasilii Ivanov",
       "short": "Ivanov",
-      "tournaments": 29,
+      "tournaments": 25,
       "first": 2014,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 146569,
@@ -1255,7 +1239,7 @@
       "id": 146615,
       "name": "Aleksandr Kramarenko",
       "short": "Kramarenko",
-      "tournaments": 29,
+      "tournaments": 26,
       "first": 2016,
       "last": 2022
     },
@@ -1271,7 +1255,7 @@
       "id": 147531,
       "name": "Nikita Liamin",
       "short": "Liamin",
-      "tournaments": 85,
+      "tournaments": 82,
       "first": 2014,
       "last": 2022
     },
@@ -1279,55 +1263,39 @@
       "id": 147652,
       "name": "Sergey Gorbenko",
       "short": "Gorbenko",
-      "tournaments": 32,
+      "tournaments": 30,
       "first": 2014,
       "last": 2020
-    },
-    {
-      "id": 148517,
-      "name": "Maxim Adonin",
-      "short": "Adonin",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 148704,
       "name": "Vladislav Ermilov",
       "short": "Ermilov",
-      "tournaments": 12,
+      "tournaments": 8,
       "first": 2018,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 148705,
       "name": "Anton Kislytsyn",
       "short": "Kislytsyn",
-      "tournaments": 53,
+      "tournaments": 47,
       "first": 2018,
       "last": 2023
-    },
-    {
-      "id": 151296,
-      "name": "Sergey Kostrov",
-      "short": "Kostrov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 151298,
       "name": "Vadim Smorchkov",
       "short": "Smorchkov",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2020,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 151861,
       "name": "Vladislav Mikhalev",
       "short": "Mikhalev",
-      "tournaments": 18,
+      "tournaments": 13,
       "first": 2018,
       "last": 2021
     },
@@ -1335,31 +1303,23 @@
       "id": 151862,
       "name": "Denis Shekunov",
       "short": "Shekunov",
-      "tournaments": 8,
+      "tournaments": 4,
       "first": 2018,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 151863,
       "name": "Anton Saraev",
       "short": "Saraev",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2016,
-      "last": 2021
-    },
-    {
-      "id": 152115,
-      "name": "Konstantin Subbotin",
-      "short": "Subbotin",
-      "tournaments": 1,
-      "first": 2021,
       "last": 2021
     },
     {
       "id": 156766,
       "name": "Alexey Gusev",
       "short": "Gusev",
-      "tournaments": 32,
+      "tournaments": 24,
       "first": 2018,
       "last": 2021
     },
@@ -1367,23 +1327,15 @@
       "id": 156770,
       "name": "Pavel Shustrov",
       "short": "Shustrov",
-      "tournaments": 32,
+      "tournaments": 24,
       "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 156773,
-      "name": "Nikolay Chukhnenkov",
-      "short": "Chukhnenkov",
-      "tournaments": 3,
-      "first": 2021,
       "last": 2021
     },
     {
       "id": 156775,
       "name": "Maksim Abramov",
       "short": "Abramov",
-      "tournaments": 31,
+      "tournaments": 24,
       "first": 2019,
       "last": 2021
     },
@@ -1391,23 +1343,15 @@
       "id": 156779,
       "name": "Artur Salmanov",
       "short": "Salmanov",
-      "tournaments": 28,
+      "tournaments": 22,
       "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 156873,
-      "name": "Alexander Uzhegov",
-      "short": "Uzhegov",
-      "tournaments": 2,
-      "first": 2021,
       "last": 2021
     },
     {
       "id": 162242,
       "name": "Aleksei Arkhipov",
       "short": "Arkhipov",
-      "tournaments": 15,
+      "tournaments": 11,
       "first": 2020,
       "last": 2023
     },
@@ -1415,7 +1359,7 @@
       "id": 164583,
       "name": "Aleksandr Martynenko",
       "short": "Martynenko",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -1423,7 +1367,7 @@
       "id": 166139,
       "name": "Vsevolod Bobrikov",
       "short": "Bobrikov",
-      "tournaments": 19,
+      "tournaments": 14,
       "first": 2018,
       "last": 2021
     },
@@ -1431,7 +1375,7 @@
       "id": 166149,
       "name": "Dmitrii Veretiuk",
       "short": "Veretiuk",
-      "tournaments": 16,
+      "tournaments": 13,
       "first": 2018,
       "last": 2023
     },
@@ -1444,106 +1388,26 @@
       "last": 2018
     },
     {
-      "id": 166594,
-      "name": "Nikita Evert",
-      "short": "Evert",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 169415,
       "name": "Egor Kirillov",
       "short": "Kirillov",
-      "tournaments": 7,
+      "tournaments": 3,
       "first": 2020,
-      "last": 2021
-    },
-    {
-      "id": 170466,
-      "name": "Daniil Kurochkin",
-      "short": "Kurochkin",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 170740,
-      "name": "Ivan Osipov",
-      "short": "Osipov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 171758,
       "name": "Viktor Markov",
       "short": "Markov",
-      "tournaments": 25,
+      "tournaments": 19,
       "first": 2021,
       "last": 2022
-    },
-    {
-      "id": 172813,
-      "name": "Ivan Osipov",
-      "short": "Osipov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173937,
-      "name": "Vadim Zaycev",
-      "short": "Zaycev",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173938,
-      "name": "Nikolay Volkov",
-      "short": "Volkov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173939,
-      "name": "Evgeny Volkov",
-      "short": "Volkov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173941,
-      "name": "Leonid Yuditskiy",
-      "short": "Yuditskiy",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175486,
-      "name": "Lev Leonov",
-      "short": "Leonov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 178024,
-      "name": "Daniil Shapkin",
-      "short": "Shapkin",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 178035,
       "name": "Kirill Kranin",
       "short": "Kranin",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2020,
       "last": 2020
     },
@@ -1551,7 +1415,7 @@
       "id": 178078,
       "name": "Vladislav Panchenko",
       "short": "Panchenko",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -1559,14 +1423,6 @@
       "id": 178079,
       "name": "Ivan Chuprinov",
       "short": "Chuprinov",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 178098,
-      "name": "Kirill Filistovich",
-      "short": "Filistovich",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
@@ -1575,7 +1431,7 @@
       "id": 178959,
       "name": "Egor Zharovin",
       "short": "Zharovin",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -1583,31 +1439,7 @@
       "id": 178960,
       "name": "Aleksandr Rukhmanov",
       "short": "Rukhmanov",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 179466,
-      "name": "Vadim Afanasev",
-      "short": "Afanasev",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 179469,
-      "name": "Fedor Sabaev",
-      "short": "Sabaev",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 179754,
-      "name": "Ilya Shulyak",
-      "short": "Shulyak",
-      "tournaments": 3,
       "first": 2021,
       "last": 2021
     },
@@ -1615,94 +1447,14 @@
       "id": 180975,
       "name": "Vladislav Aksenov",
       "short": "Aksenov",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 181142,
-      "name": "Andreii Kvochko",
-      "short": "Kvochko",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181593,
-      "name": "Kirill Polovnikov",
-      "short": "Polovnikov",
       "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182202,
-      "name": "Gleb Chuev",
-      "short": "Chuev G.",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182203,
-      "name": "Daniil Chuev",
-      "short": "Chuev D.",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182204,
-      "name": "Andreii Kostrov",
-      "short": "Kostrov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182205,
-      "name": "Dmitrii Zhuravlev",
-      "short": "Zhuravlev",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182206,
-      "name": "Egor Kureshov",
-      "short": "Kureshov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182235,
-      "name": "Nikita Ivanov",
-      "short": "Ivanov",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 182251,
       "name": "Marat Islamov",
       "short": "Islamov",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182959,
-      "name": "Dmitrii Shcherbak",
-      "short": "Shcherbak",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 182960,
-      "name": "Sergey Muratov",
-      "short": "Muratov",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
@@ -2575,13 +2327,6 @@
       "l": 2015
     },
     {
-      "a": 103811,
-      "b": 148517,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 103990,
       "b": 103992,
       "t": 4,
@@ -2913,7 +2658,7 @@
     {
       "a": 117669,
       "b": 124030,
-      "t": 15,
+      "t": 11,
       "f": 2014,
       "l": 2021
     },
@@ -3151,7 +2896,7 @@
     {
       "a": 120577,
       "b": 145648,
-      "t": 19,
+      "t": 12,
       "f": 2020,
       "l": 2021
     },
@@ -3296,13 +3041,6 @@
       "l": 2013
     },
     {
-      "a": 120851,
-      "b": 132228,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 120898,
       "b": 120899,
       "t": 1,
@@ -3354,7 +3092,7 @@
     {
       "a": 124028,
       "b": 151863,
-      "t": 4,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
@@ -3424,7 +3162,7 @@
     {
       "a": 124622,
       "b": 148705,
-      "t": 33,
+      "t": 27,
       "f": 2018,
       "l": 2022
     },
@@ -3445,22 +3183,15 @@
     {
       "a": 124623,
       "b": 162242,
-      "t": 7,
+      "t": 3,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 131860,
       "b": 143169,
-      "t": 34,
+      "t": 33,
       "f": 2018,
-      "l": 2021
-    },
-    {
-      "a": 131939,
-      "b": 178098,
-      "t": 1,
-      "f": 2021,
       "l": 2021
     },
     {
@@ -3527,20 +3258,6 @@
       "l": 2017
     },
     {
-      "a": 132483,
-      "b": 156779,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 132483,
-      "b": 156873,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 132588,
       "b": 139166,
       "t": 7,
@@ -3550,16 +3267,9 @@
     {
       "a": 132588,
       "b": 146615,
-      "t": 14,
+      "t": 11,
       "f": 2020,
       "l": 2022
-    },
-    {
-      "a": 132588,
-      "b": 179754,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 134969,
@@ -3590,13 +3300,6 @@
       "l": 2011
     },
     {
-      "a": 135586,
-      "b": 178024,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 135858,
       "b": 156766,
       "t": 1,
@@ -3606,9 +3309,9 @@
     {
       "a": 135858,
       "b": 156775,
-      "t": 5,
+      "t": 3,
       "f": 2019,
-      "l": 2021
+      "l": 2019
     },
     {
       "a": 139166,
@@ -3641,23 +3344,9 @@
     {
       "a": 139166,
       "b": 147531,
-      "t": 8,
+      "t": 6,
       "f": 2018,
-      "l": 2021
-    },
-    {
-      "a": 139166,
-      "b": 166149,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 139166,
-      "b": 171758,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
+      "l": 2019
     },
     {
       "a": 141533,
@@ -3718,7 +3407,7 @@
     {
       "a": 141537,
       "b": 166149,
-      "t": 3,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
@@ -3774,7 +3463,7 @@
     {
       "a": 145647,
       "b": 147531,
-      "t": 33,
+      "t": 32,
       "f": 2018,
       "l": 2022
     },
@@ -3788,7 +3477,7 @@
     {
       "a": 145647,
       "b": 171758,
-      "t": 21,
+      "t": 19,
       "f": 2021,
       "l": 2022
     },
@@ -3829,13 +3518,6 @@
     },
     {
       "a": 146568,
-      "b": 151862,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 146568,
       "b": 156775,
       "t": 1,
       "f": 2020,
@@ -3872,35 +3554,14 @@
     {
       "a": 147652,
       "b": 178035,
-      "t": 5,
+      "t": 3,
       "f": 2020,
       "l": 2020
     },
     {
-      "a": 148704,
-      "b": 169415,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 151296,
-      "b": 171758,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 151298,
-      "b": 181593,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 151861,
       "b": 166139,
-      "t": 18,
+      "t": 13,
       "f": 2018,
       "l": 2021
     },
@@ -3919,16 +3580,9 @@
       "l": 2018
     },
     {
-      "a": 152115,
-      "b": 179754,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 156766,
       "b": 156770,
-      "t": 31,
+      "t": 23,
       "f": 2018,
       "l": 2021
     },
@@ -3940,16 +3594,9 @@
       "l": 2018
     },
     {
-      "a": 156773,
-      "b": 166594,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 156775,
       "b": 156779,
-      "t": 26,
+      "t": 21,
       "f": 2019,
       "l": 2021
     },
@@ -3963,41 +3610,6 @@
     {
       "a": 164583,
       "b": 178960,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 170466,
-      "b": 175486,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 170740,
-      "b": 179466,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 172813,
-      "b": 179466,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 173937,
-      "b": 173941,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 173938,
-      "b": 173939,
       "t": 1,
       "f": 2021,
       "l": 2021
@@ -4005,55 +3617,13 @@
     {
       "a": 178078,
       "b": 178079,
-      "t": 3,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 178959,
       "b": 182251,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 179469,
-      "b": 181142,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 179754,
-      "b": 182235,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 180975,
-      "b": 182204,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 182202,
-      "b": 182203,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 182205,
-      "b": 182206,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 182959,
-      "b": 182960,
       "t": 1,
       "f": 2021,
       "l": 2021

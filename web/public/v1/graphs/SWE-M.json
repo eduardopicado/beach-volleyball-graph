@@ -703,7 +703,7 @@
       "id": 132518,
       "name": "Jakob Wijk Tegenrot",
       "short": "Wijk Tegenrot",
-      "tournaments": 24,
+      "tournaments": 22,
       "first": 2010,
       "last": 2026
     },
@@ -775,9 +775,9 @@
       "id": 140743,
       "name": "Peter Lundgren",
       "short": "Lundgren",
-      "tournaments": 15,
+      "tournaments": 13,
       "first": 2018,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 141852,
@@ -799,7 +799,7 @@
       "id": 144497,
       "name": "Martin Appelgren",
       "short": "Appelgren",
-      "tournaments": 116,
+      "tournaments": 112,
       "first": 2015,
       "last": 2026
     },
@@ -807,7 +807,7 @@
       "id": 144516,
       "name": "Alexander Herrmann",
       "short": "Herrmann",
-      "tournaments": 62,
+      "tournaments": 58,
       "first": 2017,
       "last": 2022
     },
@@ -879,7 +879,7 @@
       "id": 160555,
       "name": "David Åhman",
       "short": "Åhman",
-      "tournaments": 109,
+      "tournaments": 107,
       "first": 2018,
       "last": 2026
     },
@@ -895,7 +895,7 @@
       "id": 166274,
       "name": "Jonatan Hellvig",
       "short": "Hellvig",
-      "tournaments": 109,
+      "tournaments": 107,
       "first": 2018,
       "last": 2026
     },
@@ -1772,9 +1772,9 @@
     {
       "a": 132518,
       "b": 140743,
-      "t": 15,
+      "t": 13,
       "f": 2018,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 132518,
@@ -1870,7 +1870,7 @@
     {
       "a": 144497,
       "b": 144516,
-      "t": 43,
+      "t": 39,
       "f": 2017,
       "l": 2022
     },
@@ -2010,7 +2010,7 @@
     {
       "a": 160555,
       "b": 166274,
-      "t": 108,
+      "t": 106,
       "f": 2018,
       "l": 2026
     },

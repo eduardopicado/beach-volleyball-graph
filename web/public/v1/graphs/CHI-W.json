@@ -119,7 +119,7 @@
       "id": 123341,
       "name": "Maria del Pilar Mardones",
       "short": "Mardones",
-      "tournaments": 41,
+      "tournaments": 40,
       "first": 2013,
       "last": 2023
     },
@@ -127,7 +127,7 @@
       "id": 134715,
       "name": "Maria Francisca Rivas Zapata",
       "short": "Rivas Zapata",
-      "tournaments": 55,
+      "tournaments": 54,
       "first": 2013,
       "last": 2024
     },
@@ -135,7 +135,7 @@
       "id": 135093,
       "name": "Chris Vorpahl Villablanca",
       "short": "Chris",
-      "tournaments": 30,
+      "tournaments": 29,
       "first": 2020,
       "last": 2023
     },
@@ -175,7 +175,7 @@
       "id": 156215,
       "name": "Paula Ignacia Vallejos",
       "short": "Paula Vallejos",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2018,
       "last": 2025
     },
@@ -380,7 +380,7 @@
     {
       "a": 123341,
       "b": 156215,
-      "t": 2,
+      "t": 1,
       "f": 2020,
       "l": 2020
     },
@@ -401,7 +401,7 @@
     {
       "a": 134715,
       "b": 135093,
-      "t": 30,
+      "t": 29,
       "f": 2020,
       "l": 2023
     },

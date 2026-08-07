@@ -543,7 +543,7 @@
       "id": 124736,
       "name": "Ane Guro Tveit Hjortland",
       "short": "Hjortland",
-      "tournaments": 85,
+      "tournaments": 84,
       "first": 2009,
       "last": 2021
     },
@@ -591,7 +591,7 @@
       "id": 132957,
       "name": "Oda Johanne Ulveseth",
       "short": "Ulveseth",
-      "tournaments": 64,
+      "tournaments": 63,
       "first": 2011,
       "last": 2021
     },
@@ -679,7 +679,7 @@
       "id": 142091,
       "name": "Sunniva Helland-Hansen",
       "short": "Sunniva",
-      "tournaments": 121,
+      "tournaments": 119,
       "first": 2014,
       "last": 2026
     },
@@ -711,7 +711,7 @@
       "id": 144473,
       "name": "Ingrid Tunby-Lunde",
       "short": "Lunde",
-      "tournaments": 80,
+      "tournaments": 78,
       "first": 2014,
       "last": 2025
     },
@@ -839,7 +839,7 @@
       "id": 153151,
       "name": "Frida Berntsen",
       "short": "Berntsen",
-      "tournaments": 90,
+      "tournaments": 88,
       "first": 2018,
       "last": 2026
     },
@@ -1775,7 +1775,7 @@
     {
       "a": 124736,
       "b": 144473,
-      "t": 5,
+      "t": 4,
       "f": 2019,
       "l": 2020
     },
@@ -1824,9 +1824,9 @@
     {
       "a": 132957,
       "b": 144473,
-      "t": 50,
+      "t": 49,
       "f": 2016,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 132957,
@@ -1957,7 +1957,7 @@
     {
       "a": 142091,
       "b": 153151,
-      "t": 3,
+      "t": 1,
       "f": 2020,
       "l": 2020
     },

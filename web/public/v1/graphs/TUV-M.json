@@ -23,9 +23,9 @@
       "id": 165882,
       "name": "Ata Taunteang Biira",
       "short": "Ata",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2020,
-      "last": 2023
+      "last": 2020
     },
     {
       "id": 171788,
@@ -47,7 +47,7 @@
       "id": 190080,
       "name": "Ampex Isaac",
       "short": "Isaac",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2023,
       "last": 2023
     },
@@ -81,13 +81,6 @@
       "t": 1,
       "f": 2020,
       "l": 2020
-    },
-    {
-      "a": 165882,
-      "b": 190080,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 171788,

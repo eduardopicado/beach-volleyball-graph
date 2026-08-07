@@ -710,13 +710,6 @@
       "weight": 90
     },
     {
-      "id": 132665,
-      "name": "Ulve Steidl",
-      "dob": "1993-06-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 132937,
       "name": "Anton Menner",
       "dob": "1994-07-25",
@@ -808,13 +801,6 @@
       "weight": 103
     },
     {
-      "id": 142318,
-      "name": "Daniel Pittl",
-      "dob": "1987-06-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 142319,
       "name": "Simon Baldauf",
       "dob": "1990-04-17",
@@ -864,13 +850,6 @@
       "weight": 78
     },
     {
-      "id": 143423,
-      "name": "Christian Rainer",
-      "dob": "1992-08-08",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 143888,
       "name": "Lauris Dine Ochaya",
       "dob": "1998-02-09",
@@ -897,27 +876,6 @@
       "dob": "1996-06-24",
       "height": 193,
       "weight": 85
-    },
-    {
-      "id": 146227,
-      "name": "Fabian Kriener",
-      "dob": "1995-12-31",
-      "height": 194,
-      "weight": 80
-    },
-    {
-      "id": 147593,
-      "name": "Lukas Rohm",
-      "dob": "1987-04-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147594,
-      "name": "Maximilian Fischer",
-      "dob": "1990-06-22",
-      "height": null,
-      "weight": null
     },
     {
       "id": 147892,
@@ -955,32 +913,11 @@
       "weight": 88
     },
     {
-      "id": 153029,
-      "name": "Manuel Blaha",
-      "dob": "1987-10-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 153032,
-      "name": "Gregor Wagner",
-      "dob": "1984-12-18",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 154009,
       "name": "Theo Reiter",
       "dob": "2000-01-16",
       "height": 180,
       "weight": 78
-    },
-    {
-      "id": 154038,
-      "name": "Liam Ochaya",
-      "dob": "2001-03-16",
-      "height": null,
-      "weight": null
     },
     {
       "id": 156099,
@@ -1004,27 +941,6 @@
       "weight": 83
     },
     {
-      "id": 156710,
-      "name": "Dummy1 Dummy1",
-      "dob": "2001-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156716,
-      "name": "Dummy2 Dummy2",
-      "dob": "2001-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156718,
-      "name": "Michael Pekar",
-      "dob": "1995-09-05",
-      "height": 197,
-      "weight": 97
-    },
-    {
       "id": 157102,
       "name": "Laurenz Leitner",
       "dob": "2000-06-09",
@@ -1032,23 +948,9 @@
       "weight": 90
     },
     {
-      "id": 157615,
-      "name": "Stefan Riegler",
-      "dob": "1995-07-12",
-      "height": 197,
-      "weight": 87
-    },
-    {
       "id": 160574,
       "name": "Hannes Butter",
       "dob": "1989-09-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164475,
-      "name": "Adonis Alagic",
-      "dob": "2001-08-11",
       "height": null,
       "weight": null
     },
@@ -1060,37 +962,9 @@
       "weight": 82
     },
     {
-      "id": 164910,
-      "name": "Paul Brabek",
-      "dob": "2000-06-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164916,
-      "name": "Julian Hiedl",
-      "dob": "2002-04-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164918,
-      "name": "Noel Krassnig",
-      "dob": "2002-09-30",
-      "height": 198,
-      "weight": 93
-    },
-    {
       "id": 164919,
       "name": "Niels Antoni",
       "dob": "2002-06-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 166106,
-      "name": "Maximilian Philipp Wolfgang Schober",
-      "dob": "2001-04-26",
       "height": null,
       "weight": null
     },
@@ -1100,13 +974,6 @@
       "dob": "2001-03-13",
       "height": 194,
       "weight": 90
-    },
-    {
-      "id": 166203,
-      "name": "Maximilian Schedl",
-      "dob": "2001-01-01",
-      "height": null,
-      "weight": null
     },
     {
       "id": 169104,
@@ -1121,13 +988,6 @@
       "dob": "2002-07-06",
       "height": 188,
       "weight": 88
-    },
-    {
-      "id": 170265,
-      "name": "Tobias Pöllhuber",
-      "dob": "2003-01-30",
-      "height": null,
-      "weight": null
     },
     {
       "id": 170520,
@@ -1151,23 +1011,9 @@
       "weight": 98
     },
     {
-      "id": 172605,
-      "name": "Jacob Kitzinger",
-      "dob": "2003-08-21",
-      "height": 186,
-      "weight": 79
-    },
-    {
       "id": 173750,
       "name": "Matthias Köstler",
       "dob": "1997-02-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173753,
-      "name": "Florian Mader",
-      "dob": "1994-12-31",
       "height": null,
       "weight": null
     },
@@ -1193,39 +1039,11 @@
       "weight": 90
     },
     {
-      "id": 176817,
-      "name": "Johannes Pekar",
-      "dob": "1993-10-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 177669,
-      "name": "Julian Zehner",
-      "dob": "2004-01-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178914,
-      "name": "Thomas Krestan",
-      "dob": "1994-05-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 180106,
       "name": "Matthias Mostböck",
       "dob": "1997-10-27",
       "height": 196,
       "weight": 83
-    },
-    {
-      "id": 180107,
-      "name": "Raphael Trauth",
-      "dob": "2000-03-01",
-      "height": null,
-      "weight": null
     },
     {
       "id": 180795,
@@ -1238,13 +1056,6 @@
       "id": 181938,
       "name": "Elias Holzinger",
       "dob": "2004-08-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182192,
-      "name": "Christoph Bernegger",
-      "dob": "1997-11-13",
       "height": null,
       "weight": null
     },
@@ -1263,51 +1074,9 @@
       "weight": null
     },
     {
-      "id": 183073,
-      "name": "Jakob Ojinnaka",
-      "dob": "2003-09-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183074,
-      "name": "Florian Winder",
-      "dob": "2000-10-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183511,
-      "name": "Lukas Karasek",
-      "dob": "1997-05-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183837,
-      "name": "Daniel Eder",
-      "dob": "1996-03-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183838,
-      "name": "Felix Leitner",
-      "dob": "1997-08-22",
-      "height": 185,
-      "weight": 80
-    },
-    {
       "id": 183841,
       "name": "Timo Zwicklhuber",
       "dob": "2004-06-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183844,
-      "name": "Tobias Ranneth",
-      "dob": "2003-06-23",
       "height": null,
       "weight": null
     },

@@ -759,7 +759,7 @@
       "id": 143290,
       "name": "Yurii Bokshan",
       "short": "Bokshan",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2014,
       "last": 2021
     },
@@ -783,7 +783,7 @@
       "id": 147076,
       "name": "Mykhailo Skukis",
       "short": "Skukis",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2021,
       "last": 2021
     },
@@ -1034,14 +1034,6 @@
       "tournaments": 10,
       "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 190901,
-      "name": "Heorhii Ivanov",
-      "short": "Ivanov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 192246,
@@ -1848,7 +1840,7 @@
     {
       "a": 143290,
       "b": 147076,
-      "t": 4,
+      "t": 3,
       "f": 2021,
       "l": 2021
     },

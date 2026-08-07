@@ -167,7 +167,7 @@
       "id": 121302,
       "name": "Sean Faiga",
       "short": "Faiga",
-      "tournaments": 122,
+      "tournaments": 119,
       "first": 2013,
       "last": 2022
     },
@@ -175,7 +175,7 @@
       "id": 124703,
       "name": "Netanel Amiram Ohana",
       "short": "Ohana",
-      "tournaments": 128,
+      "tournaments": 125,
       "first": 2012,
       "last": 2023
     },
@@ -255,7 +255,7 @@
       "id": 157479,
       "name": "Ofri Masuri",
       "short": "Masuri, O.",
-      "tournaments": 42,
+      "tournaments": 39,
       "first": 2018,
       "last": 2021
     },
@@ -311,7 +311,7 @@
       "id": 168348,
       "name": "Eylon Elazar",
       "short": "Elazar",
-      "tournaments": 144,
+      "tournaments": 141,
       "first": 2018,
       "last": 2026
     },
@@ -654,7 +654,7 @@
     {
       "a": 121302,
       "b": 124703,
-      "t": 30,
+      "t": 27,
       "f": 2017,
       "l": 2021
     },
@@ -773,7 +773,7 @@
     {
       "a": 157479,
       "b": 168348,
-      "t": 28,
+      "t": 25,
       "f": 2019,
       "l": 2021
     },

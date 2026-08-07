@@ -215,7 +215,7 @@
       "id": 124261,
       "name": "Stefan Basta",
       "short": "Basta",
-      "tournaments": 39,
+      "tournaments": 38,
       "first": 2010,
       "last": 2023
     },
@@ -284,18 +284,10 @@
       "last": 2025
     },
     {
-      "id": 139236,
-      "name": "Miljan Kikovic",
-      "short": "Kikovic",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 139351,
       "name": "Djordje Klasnic",
       "short": "Klasnic",
-      "tournaments": 159,
+      "tournaments": 154,
       "first": 2012,
       "last": 2026
     },
@@ -303,7 +295,7 @@
       "id": 139352,
       "name": "Lazar Kolaric",
       "short": "Kolaric",
-      "tournaments": 131,
+      "tournaments": 130,
       "first": 2015,
       "last": 2024
     },
@@ -327,7 +319,7 @@
       "id": 144025,
       "name": "Ivan Lozic",
       "short": "Lozic",
-      "tournaments": 8,
+      "tournaments": 4,
       "first": 2019,
       "last": 2021
     },
@@ -343,7 +335,7 @@
       "id": 144726,
       "name": "Damjan Pusonjic",
       "short": "Pusonjic",
-      "tournaments": 19,
+      "tournaments": 17,
       "first": 2018,
       "last": 2021
     },
@@ -367,7 +359,7 @@
       "id": 148878,
       "name": "Luka Gutesa",
       "short": "Gutesa",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2020,
       "last": 2020
     },
@@ -375,7 +367,7 @@
       "id": 157844,
       "name": "Aleksandar Gavrilov",
       "short": "Gavrilov",
-      "tournaments": 37,
+      "tournaments": 33,
       "first": 2018,
       "last": 2022
     },
@@ -383,7 +375,7 @@
       "id": 157845,
       "name": "Milos Milic",
       "short": "Milic",
-      "tournaments": 51,
+      "tournaments": 47,
       "first": 2018,
       "last": 2022
     },
@@ -399,7 +391,7 @@
       "id": 170024,
       "name": "Vukasin Rajkovic",
       "short": "Rajkovic",
-      "tournaments": 37,
+      "tournaments": 35,
       "first": 2018,
       "last": 2022
     },
@@ -609,7 +601,7 @@
     {
       "a": 124261,
       "b": 139352,
-      "t": 36,
+      "t": 35,
       "f": 2015,
       "l": 2023
     },
@@ -656,13 +648,6 @@
       "l": 2025
     },
     {
-      "a": 139236,
-      "b": 148878,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 139351,
       "b": 139352,
       "t": 87,
@@ -686,7 +671,7 @@
     {
       "a": 139351,
       "b": 157845,
-      "t": 26,
+      "t": 22,
       "f": 2019,
       "l": 2020
     },
@@ -728,8 +713,8 @@
     {
       "a": 144025,
       "b": 157844,
-      "t": 7,
-      "f": 2020,
+      "t": 3,
+      "f": 2021,
       "l": 2021
     },
     {
@@ -749,7 +734,7 @@
     {
       "a": 144726,
       "b": 170024,
-      "t": 13,
+      "t": 11,
       "f": 2018,
       "l": 2021
     },

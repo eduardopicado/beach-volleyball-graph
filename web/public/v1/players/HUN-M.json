@@ -185,13 +185,6 @@
       "weight": null
     },
     {
-      "id": 121405,
-      "name": "Gábor Nacsa",
-      "dob": "1984-04-25",
-      "height": 195,
-      "weight": 90
-    },
-    {
       "id": 124400,
       "name": "Gábor Nacsa",
       "dob": "1984-04-25",
@@ -218,13 +211,6 @@
       "dob": "1991-03-21",
       "height": 198,
       "weight": 90
-    },
-    {
-      "id": 135483,
-      "name": "István Molnár",
-      "dob": "1984-11-20",
-      "height": 197,
-      "weight": 96
     },
     {
       "id": 143311,
@@ -318,13 +304,6 @@
       "weight": 93
     },
     {
-      "id": 163407,
-      "name": "Nicholas Kiss",
-      "dob": "1990-09-07",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 163408,
       "name": "Bálint Rozgonyi",
       "dob": "1998-11-22",
@@ -332,44 +311,9 @@
       "weight": null
     },
     {
-      "id": 163409,
-      "name": "Dániel Kiss",
-      "dob": "1995-04-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 163410,
-      "name": "Mihály Farkas",
-      "dob": "1989-01-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 163411,
-      "name": "Simon Oszlányi",
-      "dob": "1994-08-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 167107,
-      "name": "Zoltán Krekk",
-      "dob": "1988-07-24",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 167109,
       "name": "Boldizsár Kovács",
       "dob": "1988-11-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168702,
-      "name": "Bernát Sándor",
-      "dob": "2004-03-07",
       "height": null,
       "weight": null
     },
@@ -388,32 +332,11 @@
       "weight": 72
     },
     {
-      "id": 168741,
-      "name": "Róbert Márk Suba",
-      "dob": "2004-12-16",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169942,
       "name": "Jamil Ghazal",
       "dob": "2000-02-02",
       "height": 188,
       "weight": 93
-    },
-    {
-      "id": 170111,
-      "name": "Bence Sándor",
-      "dob": "2001-08-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 170850,
-      "name": "Dávid Tompa",
-      "dob": "1999-03-13",
-      "height": null,
-      "weight": null
     },
     {
       "id": 173078,
@@ -437,53 +360,11 @@
       "weight": 72
     },
     {
-      "id": 179312,
-      "name": "Bence Dóra",
-      "dob": "1994-11-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179398,
       "name": "Vilmos Szabó",
       "dob": "2002-08-11",
       "height": 190,
       "weight": 80
-    },
-    {
-      "id": 181686,
-      "name": "Benedek Kun",
-      "dob": "1998-11-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181687,
-      "name": "Zoltán Szabó",
-      "dob": "1986-10-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181688,
-      "name": "Zoltán Mészáros",
-      "dob": "1987-03-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181689,
-      "name": "Lajos Bodnár",
-      "dob": "1995-09-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181690,
-      "name": "Szilárd Szigeti",
-      "dob": "1991-11-17",
-      "height": null,
-      "weight": null
     },
     {
       "id": 181691,
@@ -500,34 +381,6 @@
       "weight": 85
     },
     {
-      "id": 181693,
-      "name": "Péter Kelemen",
-      "dob": "1984-07-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181694,
-      "name": "István Filius",
-      "dob": "1987-12-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181695,
-      "name": "Gergely Oláh",
-      "dob": "1995-10-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181696,
-      "name": "Máté Márió Horváth",
-      "dob": "1998-12-03",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 181697,
       "name": "Boldizsár Borbély",
       "dob": "2005-02-08",
@@ -538,48 +391,6 @@
       "id": 181698,
       "name": "Balázs Éliás",
       "dob": "2003-08-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181699,
-      "name": "Alex Rása",
-      "dob": "1993-10-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181700,
-      "name": "Sebestyén Domján",
-      "dob": "1990-02-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181701,
-      "name": "Levente Dóra",
-      "dob": "1997-03-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181702,
-      "name": "Balázs Budai",
-      "dob": "1998-03-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181703,
-      "name": "Gábor Boros",
-      "dob": "1990-08-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181704,
-      "name": "Tamás Krankovits",
-      "dob": "1982-06-23",
       "height": null,
       "weight": null
     },
@@ -596,27 +407,6 @@
       "dob": "2006-07-07",
       "height": 183,
       "weight": 68
-    },
-    {
-      "id": 181707,
-      "name": "Richárd Török",
-      "dob": "1998-05-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181708,
-      "name": "Tamás Szalai",
-      "dob": "1993-05-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181709,
-      "name": "Barnabás Szetey",
-      "dob": "1996-08-25",
-      "height": null,
-      "weight": null
     },
     {
       "id": 181710,
@@ -640,13 +430,6 @@
       "weight": 93
     },
     {
-      "id": 182046,
-      "name": "Patrik Hubicska",
-      "dob": "1995-02-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182047,
       "name": "Bálint Bogáncs",
       "dob": "2003-08-01",
@@ -654,39 +437,11 @@
       "weight": 78
     },
     {
-      "id": 182048,
-      "name": "Barnabás Máté Busz",
-      "dob": "2003-03-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182049,
-      "name": "Máté Tamás Molnár",
-      "dob": "2003-08-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182108,
       "name": "Levente Polgár",
       "dob": "2005-04-23",
       "height": 193,
       "weight": 81
-    },
-    {
-      "id": 182326,
-      "name": "Ábel Tordai",
-      "dob": "1999-10-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182327,
-      "name": "Dániel Polgár",
-      "dob": "2003-04-28",
-      "height": null,
-      "weight": null
     },
     {
       "id": 202020,

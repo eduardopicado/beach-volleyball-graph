@@ -615,7 +615,7 @@
       "id": 103310,
       "name": "Raul Mesa",
       "short": "Mesa",
-      "tournaments": 175,
+      "tournaments": 170,
       "first": 2001,
       "last": 2022
     },
@@ -623,7 +623,7 @@
       "id": 103311,
       "name": "Pablo Herrera Allepuz",
       "short": "Herrera",
-      "tournaments": 309,
+      "tournaments": 308,
       "first": 2001,
       "last": 2024
     },
@@ -807,9 +807,9 @@
       "id": 104400,
       "name": "German Lopez",
       "short": "Lopez",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2003,
-      "last": 2021
+      "last": 2003
     },
     {
       "id": 104573,
@@ -831,9 +831,9 @@
       "id": 104870,
       "name": "Noe De Mena",
       "short": "De Mena",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2007,
-      "last": 2021
+      "last": 2007
     },
     {
       "id": 105033,
@@ -847,9 +847,9 @@
       "id": 105034,
       "name": "Inocencio Lario Carrillo",
       "short": "Lario",
-      "tournaments": 138,
+      "tournaments": 137,
       "first": 2005,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 110494,
@@ -887,7 +887,7 @@
       "id": 116710,
       "name": "Adrián Gavira Collado",
       "short": "Gavira",
-      "tournaments": 292,
+      "tournaments": 291,
       "first": 2005,
       "last": 2026
     },
@@ -903,9 +903,9 @@
       "id": 117406,
       "name": "Christian García",
       "short": "García",
-      "tournaments": 126,
+      "tournaments": 121,
       "first": 2005,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 117943,
@@ -943,9 +943,9 @@
       "id": 118709,
       "name": "Hugo Huesca",
       "short": "Huesca",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2007,
-      "last": 2021
+      "last": 2008
     },
     {
       "id": 118714,
@@ -983,9 +983,9 @@
       "id": 119238,
       "name": "Francisco Tomás",
       "short": "Tomás",
-      "tournaments": 48,
+      "tournaments": 45,
       "first": 2007,
-      "last": 2021
+      "last": 2017
     },
     {
       "id": 120026,
@@ -1135,9 +1135,9 @@
       "id": 120702,
       "name": "Víctor Bouza Ferreiro",
       "short": "Bouza",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2008,
-      "last": 2021
+      "last": 2008
     },
     {
       "id": 120703,
@@ -1167,9 +1167,9 @@
       "id": 120868,
       "name": "Diego Mahia Cernadas",
       "short": "Mahia",
-      "tournaments": 10,
+      "tournaments": 2,
       "first": 2008,
-      "last": 2021
+      "last": 2009
     },
     {
       "id": 120891,
@@ -1183,7 +1183,7 @@
       "id": 122267,
       "name": "César Menéndez Ortego",
       "short": "Menéndez",
-      "tournaments": 76,
+      "tournaments": 72,
       "first": 2009,
       "last": 2021
     },
@@ -1244,14 +1244,6 @@
       "last": 2012
     },
     {
-      "id": 135534,
-      "name": "Manuel de Amo Fernández-Echevarría",
-      "short": "Manu de Amo",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 135584,
       "name": "Rubén Rodríguez Suárez",
       "short": "Rodríguez",
@@ -1266,14 +1258,6 @@
       "tournaments": 1,
       "first": 2011,
       "last": 2011
-    },
-    {
-      "id": 136765,
-      "name": "Sergio Ramírez",
-      "short": "Ramírez",
-      "tournaments": 8,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 137410,
@@ -1300,28 +1284,12 @@
       "last": 2014
     },
     {
-      "id": 141923,
-      "name": "José Alejandro Acedo Hernández",
-      "short": "Acedo",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 141941,
       "name": "Javier Monfort Minaya",
       "short": "Monfort",
-      "tournaments": 67,
+      "tournaments": 60,
       "first": 2013,
       "last": 2023
-    },
-    {
-      "id": 143719,
-      "name": "Luis Vives Marín",
-      "short": "Vives",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 144297,
@@ -1335,7 +1303,7 @@
       "id": 144315,
       "name": "Javier Huerta Pastor",
       "short": "Huerta P.",
-      "tournaments": 121,
+      "tournaments": 116,
       "first": 2014,
       "last": 2025
     },
@@ -1343,7 +1311,7 @@
       "id": 145561,
       "name": "Vicente Monfort Minaya",
       "short": "Minaya",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2014,
       "last": 2023
     },
@@ -1351,7 +1319,7 @@
       "id": 145946,
       "name": "Óscar Jiménez Gutiérrez",
       "short": "Jiménez",
-      "tournaments": 45,
+      "tournaments": 38,
       "first": 2014,
       "last": 2023
     },
@@ -1359,121 +1327,33 @@
       "id": 145947,
       "name": "Alejandro Huerta Pastor",
       "short": "Huerta A.",
-      "tournaments": 163,
+      "tournaments": 158,
       "first": 2014,
       "last": 2026
-    },
-    {
-      "id": 149717,
-      "name": "David Jarque Rodríguez",
-      "short": "Jarque",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 151178,
       "name": "Stefano Nassini Hidalgo",
       "short": "Nassini",
-      "tournaments": 8,
-      "first": 2016,
-      "last": 2021
-    },
-    {
-      "id": 151179,
-      "name": "Francisco Antonio Moreno Agüera",
-      "short": "Moreno",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2016,
+      "last": 2016
     },
     {
       "id": 151220,
       "name": "Daniel Moreno Ferrer",
       "short": "Moreno",
-      "tournaments": 53,
+      "tournaments": 43,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 152064,
-      "name": "Jaime Dehesa Chico",
-      "short": "Dehesa",
-      "tournaments": 8,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152080,
-      "name": "Pablo Gómez Parga",
-      "short": "Gómez P",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152107,
-      "name": "Mario Tomás Ripoll",
-      "short": "Tomás Ripoll",
-      "tournaments": 7,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152108,
-      "name": "Félix J Pérez García",
-      "short": "Pérez G",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152145,
-      "name": "Imanol Egaña Pérez",
-      "short": "I Egaña",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152146,
-      "name": "Iosu Egaña Pérez",
-      "short": "Egaña I",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 152152,
-      "name": "Víctor Valadés Cerrato",
-      "short": "Valadés",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 153221,
       "name": "Nathan Matos",
       "short": "Matos",
-      "tournaments": 48,
-      "first": 2020,
+      "tournaments": 44,
+      "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 153224,
-      "name": "Óscar Fernández Celis",
-      "short": "Fdez Celis",
-      "tournaments": 6,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 153665,
-      "name": "Jonathan Arriola",
-      "short": "Arriola",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 153666,
@@ -1487,7 +1367,7 @@
       "id": 153782,
       "name": "Pablo Pérez Suárez",
       "short": "Pérez",
-      "tournaments": 100,
+      "tournaments": 89,
       "first": 2018,
       "last": 2026
     },
@@ -1500,108 +1380,28 @@
       "last": 2026
     },
     {
-      "id": 154033,
-      "name": "Carlos Gomariz",
-      "short": "Gomariz",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 156668,
       "name": "Sergi Reñé Giralt",
       "short": "Reñé",
-      "tournaments": 33,
+      "tournaments": 28,
       "first": 2019,
       "last": 2023
-    },
-    {
-      "id": 156670,
-      "name": "Daniel Macarro Tortajada",
-      "short": "Macarro",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 156672,
-      "name": "Javier Sánchez Carreres",
-      "short": "J. Sanchez",
-      "tournaments": 6,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 157250,
       "name": "Antonio Burgal",
       "short": "Burgal",
-      "tournaments": 11,
+      "tournaments": 5,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 157255,
-      "name": "Aitor Lizarazu",
-      "short": "Lizarazu",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 157261,
-      "name": "Joaquín Sacristán Marzal",
-      "short": "Sacristán",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 157684,
       "name": "Roberto Sanfélix",
       "short": "Sanfélix",
-      "tournaments": 52,
+      "tournaments": 42,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 157687,
-      "name": "Jesús Morant",
-      "short": "Morant",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 158024,
-      "name": "Zdravko Kamenov",
-      "short": "Kamenov",
-      "tournaments": 8,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 163773,
-      "name": "Guillermo Gómez Díaz",
-      "short": "Gómez Díaz",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 164507,
-      "name": "Christian Koller",
-      "short": "Koller",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 164616,
-      "name": "Daniel Retuerto",
-      "short": "Retuerto",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 166835,
@@ -1615,55 +1415,23 @@
       "id": 168484,
       "name": "Francisco Duque Grijalvo",
       "short": "Duque",
-      "tournaments": 19,
+      "tournaments": 12,
       "first": 2019,
       "last": 2022
-    },
-    {
-      "id": 168886,
-      "name": "Joan Muñoz Pérez",
-      "short": "Muñoz P",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 168887,
-      "name": "Daniel Cano Rodríguez",
-      "short": "Cano",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 169743,
-      "name": "Alejandro Yuste",
-      "short": "Yuste",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 169744,
       "name": "Antonio Saucedo Amodeo",
       "short": "Saucedo",
-      "tournaments": 55,
+      "tournaments": 49,
       "first": 2021,
       "last": 2026
-    },
-    {
-      "id": 169833,
-      "name": "Pablo Lasterra",
-      "short": "Lasterra",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 169834,
       "name": "Iván Rodríguez González",
       "short": "Rodríguez Glez",
-      "tournaments": 25,
+      "tournaments": 17,
       "first": 2019,
       "last": 2026
     },
@@ -1671,17 +1439,9 @@
       "id": 169835,
       "name": "Alonso Población",
       "short": "Población",
-      "tournaments": 25,
+      "tournaments": 16,
       "first": 2019,
       "last": 2025
-    },
-    {
-      "id": 169837,
-      "name": "José Osado Carrasco",
-      "short": "Osado",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 169838,
@@ -1692,50 +1452,18 @@
       "last": 2026
     },
     {
-      "id": 169839,
-      "name": "Javier Pérez Redondo",
-      "short": "Pérez Redondo",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 169842,
       "name": "Jorge Pascual",
       "short": "Pascual",
-      "tournaments": 18,
-      "first": 2021,
+      "tournaments": 13,
+      "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 169845,
-      "name": "Jorge Asensio",
-      "short": "Asensio",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 169848,
-      "name": "Daniel Díaz Saiz",
-      "short": "Díaz Saiz",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 170338,
-      "name": "Víctor Fernández Rodríguez",
-      "short": "Fdez Rguez",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 173172,
       "name": "Gabriel Gutiérrez Méndez",
       "short": "Gutiérrez M",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2021,
       "last": 2022
     },
@@ -1743,385 +1471,97 @@
       "id": 173190,
       "name": "Óscar Feltrer",
       "short": "Feltrer",
-      "tournaments": 18,
-      "first": 2021,
+      "tournaments": 17,
+      "first": 2022,
       "last": 2024
-    },
-    {
-      "id": 173226,
-      "name": "Filippo Brentegani",
-      "short": "Brentegani",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 173227,
-      "name": "Simone Natali",
-      "short": "Natali",
-      "tournaments": 8,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 173228,
-      "name": "Robert Assen",
-      "short": "Assen",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173229,
-      "name": "Filippo Cichocki",
-      "short": "Cichocki",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 173230,
       "name": "Pavlo Kosarevych",
       "short": "Kosarevych",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2026
-    },
-    {
-      "id": 173233,
-      "name": "Raúl Herrero",
-      "short": "Herrero",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 173561,
-      "name": "Roberto Moronta",
-      "short": "Moronta",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175272,
-      "name": "Héctor Gallardo Dorador",
-      "short": "Gallardo D",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175302,
-      "name": "Elio José Carrodeguas",
-      "short": "Carrodeguas",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175303,
-      "name": "Dexter Edwards",
-      "short": "Edwards",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175538,
-      "name": "Carlos Camacho",
-      "short": "C Camacho",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 178848,
-      "name": "Paul Rosa Ruiz",
-      "short": "Rosa",
       "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 178863,
-      "name": "Álvaro Bernal Rodríguez",
-      "short": "Bernal R",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
+      "first": 2025,
+      "last": 2026
     },
     {
       "id": 179343,
       "name": "Álvaro Viera Iglesias",
       "short": "Viera",
-      "tournaments": 63,
+      "tournaments": 57,
       "first": 2021,
       "last": 2026
-    },
-    {
-      "id": 181713,
-      "name": "Alberto Fole Cuadrado",
-      "short": "Fole",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 181715,
       "name": "Santiago Moronta",
       "short": "Moronta S",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2026
-    },
-    {
-      "id": 181735,
-      "name": "David De Juan Milla",
-      "short": "De Juan",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181736,
-      "name": "Luis Serrano Cerame",
-      "short": "Serrano C",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181737,
-      "name": "Gonzalo López Pérez",
-      "short": "López Pérez",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181740,
-      "name": "Daniel Oberthür",
-      "short": "Oberthür",
       "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 183248,
-      "name": "Daniel Pino Barbero",
-      "short": "Pino",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 183249,
-      "name": "Adrián Pérez Gómez",
-      "short": "Pérez Gómez",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2025,
+      "last": 2026
     },
     {
       "id": 183250,
       "name": "Diego Vázquez Naya",
       "short": "Vázquez N",
-      "tournaments": 5,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2023,
       "last": 2023
-    },
-    {
-      "id": 183251,
-      "name": "Alexander Pérez Cordero",
-      "short": "Pérez Cordero",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 183252,
-      "name": "Rodrigo González Rivas",
-      "short": "González Rivas",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 183253,
       "name": "Tomás Agost Granero",
       "short": "Agost",
-      "tournaments": 9,
-      "first": 2021,
+      "tournaments": 8,
+      "first": 2025,
       "last": 2026
     },
     {
       "id": 183295,
       "name": "Javier Yuste Amate",
       "short": "Yuste J",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 183904,
-      "name": "Andrés Gimeno García",
-      "short": "Gimeno G",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 184213,
       "name": "Iván Tokarev",
       "short": "Tokarev",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
       "last": 2022
-    },
-    {
-      "id": 184353,
-      "name": "Diego Román Martínez",
-      "short": "Román M",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 184354,
       "name": "Blai Vilanova Alapont",
       "short": "Vilanova",
-      "tournaments": 5,
-      "first": 2021,
+      "tournaments": 4,
+      "first": 2023,
       "last": 2025
-    },
-    {
-      "id": 184355,
-      "name": "Jorge Ruiz Del Río",
-      "short": "Ruiz del Río",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184356,
-      "name": "Fabián Corona Mediavilla",
-      "short": "Corona",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184357,
-      "name": "Andrés Felipe Castrillón",
-      "short": "Castrillón",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184358,
-      "name": "Jesús Borrueco",
-      "short": "Borrueco",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184359,
-      "name": "Gonzalo González Espósito",
-      "short": "Glez Espósito G",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184360,
-      "name": "Manuel González Espósito",
-      "short": "Glez Espósito M",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184383,
-      "name": "Marcos Valera Santana",
-      "short": "Valera",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 185883,
-      "name": "Raúl Carvajal Cabello",
-      "short": "Carvajal",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 185884,
-      "name": "Salvador Luna Moreno",
-      "short": "Luna",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 185885,
-      "name": "Alberto Villar Villar",
-      "short": "Villar",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 185886,
       "name": "Ian Tomeu Martí Raskova",
       "short": "Martí",
-      "tournaments": 3,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 185887,
       "name": "Llorenç Truyols Galmés",
       "short": "Truyols",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 185888,
-      "name": "Pedro Dupuy de Lome Nascimento",
-      "short": "Dupuy de Lome",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 185889,
       "name": "Eduardo Pachón Arroyo",
       "short": "Pachón",
-      "tournaments": 2,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 185890,
-      "name": "David Martín García",
-      "short": "Martín G",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 185891,
-      "name": "Xavier Pérez Martín",
-      "short": "Pérez M",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 186528,
@@ -3090,16 +2530,9 @@
     {
       "a": 103310,
       "b": 145561,
-      "t": 2,
-      "f": 2021,
-      "l": 2022
-    },
-    {
-      "a": 103310,
-      "b": 145946,
       "t": 1,
-      "f": 2021,
-      "l": 2021
+      "f": 2022,
+      "l": 2022
     },
     {
       "a": 103310,
@@ -3109,23 +2542,9 @@
       "l": 2016
     },
     {
-      "a": 103310,
-      "b": 153782,
-      "t": 2,
-      "f": 2021,
-      "l": 2022
-    },
-    {
-      "a": 103310,
-      "b": 156668,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 103311,
       "b": 116710,
-      "t": 227,
+      "t": 226,
       "f": 2009,
       "l": 2024
     },
@@ -3347,20 +2766,6 @@
       "l": 2004
     },
     {
-      "a": 104400,
-      "b": 117406,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 104400,
-      "b": 153224,
-      "t": 5,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 104858,
       "b": 124784,
       "t": 1,
@@ -3373,27 +2778,6 @@
       "t": 5,
       "f": 2007,
       "l": 2007
-    },
-    {
-      "a": 104870,
-      "b": 152080,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 104870,
-      "b": 152107,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 104870,
-      "b": 156668,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 105033,
@@ -3429,13 +2813,6 @@
       "t": 3,
       "f": 2017,
       "l": 2017
-    },
-    {
-      "a": 105034,
-      "b": 135534,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 105034,
@@ -3492,27 +2869,6 @@
       "t": 1,
       "f": 2006,
       "l": 2006
-    },
-    {
-      "a": 117406,
-      "b": 119238,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 117406,
-      "b": 156668,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 117406,
-      "b": 169744,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 117943,
@@ -3576,13 +2932,6 @@
       "t": 2,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 118709,
-      "b": 173228,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 118991,
@@ -3683,25 +3032,11 @@
       "l": 2008
     },
     {
-      "a": 120702,
-      "b": 120868,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 120703,
       "b": 120704,
       "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 120868,
-      "b": 173227,
-      "t": 7,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 122267,
@@ -3713,7 +3048,7 @@
     {
       "a": 122267,
       "b": 145947,
-      "t": 33,
+      "t": 29,
       "f": 2019,
       "l": 2021
     },
@@ -3739,13 +3074,6 @@
       "l": 2012
     },
     {
-      "a": 135534,
-      "b": 163773,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 135584,
       "b": 135585,
       "t": 1,
@@ -3753,32 +3081,11 @@
       "l": 2011
     },
     {
-      "a": 136765,
-      "b": 158024,
-      "t": 8,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 137410,
       "b": 139656,
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 141923,
-      "b": 175538,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 141941,
-      "b": 144315,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 141941,
@@ -3790,16 +3097,9 @@
     {
       "a": 141941,
       "b": 153782,
-      "t": 37,
-      "f": 2020,
-      "l": 2023
-    },
-    {
-      "a": 143719,
-      "b": 183253,
-      "t": 1,
+      "t": 31,
       "f": 2021,
-      "l": 2021
+      "l": 2023
     },
     {
       "a": 144297,
@@ -3811,7 +3111,7 @@
     {
       "a": 144315,
       "b": 145946,
-      "t": 27,
+      "t": 25,
       "f": 2019,
       "l": 2022
     },
@@ -3832,7 +3132,7 @@
     {
       "a": 144315,
       "b": 168484,
-      "t": 10,
+      "t": 8,
       "f": 2019,
       "l": 2021
     },
@@ -3879,46 +3179,11 @@
       "l": 2023
     },
     {
-      "a": 145946,
-      "b": 168484,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 145946,
-      "b": 173226,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 145947,
       "b": 156668,
-      "t": 18,
+      "t": 17,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 149717,
-      "b": 181735,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 151178,
-      "b": 151179,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 151178,
-      "b": 156672,
-      "t": 6,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 151220,
@@ -3930,93 +3195,16 @@
     {
       "a": 151220,
       "b": 157684,
-      "t": 49,
-      "f": 2020,
+      "t": 39,
+      "f": 2022,
       "l": 2026
-    },
-    {
-      "a": 152064,
-      "b": 152107,
-      "t": 6,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152064,
-      "b": 152145,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152064,
-      "b": 163773,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152108,
-      "b": 173230,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152108,
-      "b": 181713,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152145,
-      "b": 152146,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152145,
-      "b": 157255,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152145,
-      "b": 169833,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152145,
-      "b": 178848,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152152,
-      "b": 164616,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 153221,
       "b": 153782,
-      "t": 36,
-      "f": 2020,
+      "t": 35,
+      "f": 2024,
       "l": 2026
-    },
-    {
-      "a": 153221,
-      "b": 156668,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 153221,
@@ -4033,20 +3221,6 @@
       "l": 2024
     },
     {
-      "a": 153224,
-      "b": 163773,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 153665,
-      "b": 168886,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 153782,
       "b": 157684,
       "t": 3,
@@ -4055,23 +3229,16 @@
     },
     {
       "a": 153782,
-      "b": 158024,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 153782,
       "b": 168484,
-      "t": 2,
+      "t": 1,
       "f": 2019,
-      "l": 2021
+      "l": 2019
     },
     {
       "a": 153782,
       "b": 173190,
-      "t": 18,
-      "f": 2021,
+      "t": 17,
+      "f": 2022,
       "l": 2024
     },
     {
@@ -4089,24 +3256,10 @@
       "l": 2026
     },
     {
-      "a": 156670,
-      "b": 169837,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157250,
-      "b": 169835,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 157250,
       "b": 169842,
-      "t": 2,
-      "f": 2021,
+      "t": 1,
+      "f": 2022,
       "l": 2022
     },
     {
@@ -4117,93 +3270,23 @@
       "l": 2026
     },
     {
-      "a": 157250,
-      "b": 175272,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157250,
-      "b": 183250,
-      "t": 3,
-      "f": 2021,
-      "l": 2022
-    },
-    {
-      "a": 157255,
-      "b": 169833,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157261,
-      "b": 158024,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157687,
-      "b": 168887,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157687,
-      "b": 183904,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 163773,
-      "b": 170338,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 168484,
       "b": 169744,
-      "t": 5,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 168484,
-      "b": 173226,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 169743,
-      "b": 179343,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 169743,
-      "b": 183295,
-      "t": 2,
+      "t": 3,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 169744,
       "b": 179343,
-      "t": 49,
-      "f": 2021,
+      "t": 46,
+      "f": 2023,
       "l": 2026
     },
     {
       "a": 169834,
       "b": 169835,
-      "t": 24,
+      "t": 16,
       "f": 2019,
       "l": 2025
     },
@@ -4220,34 +3303,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 169839,
-      "b": 173230,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 169842,
-      "b": 173227,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 169842,
-      "b": 178848,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 169842,
-      "b": 181740,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 169842,
@@ -4278,60 +3333,11 @@
       "l": 2022
     },
     {
-      "a": 169845,
-      "b": 169848,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 170338,
-      "b": 183248,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 173172,
       "b": 179343,
-      "t": 4,
+      "t": 3,
       "f": 2021,
       "l": 2022
-    },
-    {
-      "a": 173229,
-      "b": 173233,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 173561,
-      "b": 181715,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 175302,
-      "b": 175303,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 178863,
-      "b": 179343,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 178863,
-      "b": 184353,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 179343,
@@ -4339,34 +3345,6 @@
       "t": 8,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 181736,
-      "b": 181737,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181740,
-      "b": 184354,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 183249,
-      "b": 183250,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 183251,
-      "b": 183252,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 183253,
@@ -4384,52 +3362,10 @@
     },
     {
       "a": 184213,
-      "b": 185886,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 184213,
       "b": 185887,
       "t": 1,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 184355,
-      "b": 184356,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 184357,
-      "b": 184358,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 184359,
-      "b": 184360,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 185883,
-      "b": 185884,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 185886,
-      "b": 185887,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 185886,
@@ -4439,25 +3375,11 @@
       "l": 2022
     },
     {
-      "a": 185888,
-      "b": 185889,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 185889,
       "b": 202073,
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 185890,
-      "b": 185891,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 190706,

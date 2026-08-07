@@ -7,8 +7,8 @@
       "id": 114505,
       "name": "Gilbert Alfred",
       "short": "Alfred",
-      "tournaments": 6,
-      "first": 2018,
+      "tournaments": 4,
+      "first": 2023,
       "last": 2024
     },
     {
@@ -20,28 +20,12 @@
       "last": 2023
     },
     {
-      "id": 136617,
-      "name": "Pascal Ava",
-      "short": "Ava",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 136618,
       "name": "Jean David Gregory Benedict Howard Carcasse",
       "short": "Carcasse",
-      "tournaments": 7,
-      "first": 2021,
+      "tournaments": 6,
+      "first": 2023,
       "last": 2025
-    },
-    {
-      "id": 136619,
-      "name": "Yannick Bouti",
-      "short": "Bouti",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 136620,
@@ -52,108 +36,12 @@
       "last": 2025
     },
     {
-      "id": 138644,
-      "name": "Olivier Harel",
-      "short": "Harel",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 146342,
-      "name": "Jean Adrien Billy Adele",
-      "short": "Adele",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 146344,
-      "name": "Jean Adrien Billy Bauda",
-      "short": "Bauda",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 169814,
-      "name": "William Esther",
-      "short": "Esther",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 172465,
       "name": "Bhoomeshwarsing Doobraz",
       "short": "Doobraz",
-      "tournaments": 4,
-      "first": 2018,
+      "tournaments": 2,
+      "first": 2023,
       "last": 2023
-    },
-    {
-      "id": 173599,
-      "name": "Cedric Maximilien Oscar Beguinot",
-      "short": "Beguinot",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 179192,
-      "name": "Adam Abdoollah Augustin",
-      "short": "Apollon",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 179201,
-      "name": "Jean Patrice Cedric Tse Yuk Hin",
-      "short": "Cedric",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 179202,
-      "name": "Avishen G.Ramigadu",
-      "short": "Ramigadu",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 179278,
-      "name": "Hensley Jack Casimir",
-      "short": "Casimir",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 181466,
-      "name": "Fabrice Henry",
-      "short": "Henry",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 181467,
-      "name": "Shane Arekion",
-      "short": "Arekion",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 181468,
-      "name": "Julien Nursimloo",
-      "short": "Nursimloo",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     }
   ],
   "edges": [
@@ -167,8 +55,8 @@
     {
       "a": 114505,
       "b": 172465,
-      "t": 4,
-      "f": 2018,
+      "t": 2,
+      "f": 2023,
       "l": 2023
     },
     {
@@ -179,60 +67,11 @@
       "l": 2023
     },
     {
-      "a": 136617,
-      "b": 179202,
-      "t": 2,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 136618,
       "b": 136620,
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 136619,
-      "b": 179278,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 138644,
-      "b": 181466,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 146342,
-      "b": 179192,
-      "t": 2,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 146344,
-      "b": 173599,
-      "t": 2,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 169814,
-      "b": 179201,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 181467,
-      "b": 181468,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
     }
   ]
 }

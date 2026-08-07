@@ -79,9 +79,9 @@
       "id": 104957,
       "name": "Kadri Puri",
       "short": "Puri",
-      "tournaments": 31,
+      "tournaments": 26,
       "first": 2004,
-      "last": 2022
+      "last": 2009
     },
     {
       "id": 104958,
@@ -148,14 +148,6 @@
       "last": 2010
     },
     {
-      "id": 121633,
-      "name": "Kadri Puri",
-      "short": "Puri",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 132156,
       "name": "Anu Vukicevic",
       "short": "Anu",
@@ -183,7 +175,7 @@
       "id": 143851,
       "name": "Heleene Hollas",
       "short": "Hollas, H.",
-      "tournaments": 116,
+      "tournaments": 114,
       "first": 2016,
       "last": 2026
     },
@@ -191,7 +183,7 @@
       "id": 143852,
       "name": "Liisa Remmelg",
       "short": "Remmelg",
-      "tournaments": 116,
+      "tournaments": 114,
       "first": 2016,
       "last": 2026
     },
@@ -207,9 +199,9 @@
       "id": 148497,
       "name": "Juudit Kure-Pohhomov",
       "short": "Kure-Pohhomov",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2021
+      "last": 2016
     },
     {
       "id": 157778,
@@ -244,27 +236,19 @@
       "last": 2026
     },
     {
-      "id": 174413,
-      "name": "Renate Pikk",
-      "short": "Pikk",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 179208,
       "name": "Annemar Rimmel",
       "short": "Rimmel",
-      "tournaments": 3,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 179209,
       "name": "Merike Errit",
       "short": "Errit",
-      "tournaments": 9,
-      "first": 2021,
+      "tournaments": 7,
+      "first": 2024,
       "last": 2026
     },
     {
@@ -549,7 +533,7 @@
     {
       "a": 143851,
       "b": 143852,
-      "t": 116,
+      "t": 114,
       "f": 2016,
       "l": 2026
     },
@@ -559,13 +543,6 @@
       "t": 1,
       "f": 2016,
       "l": 2016
-    },
-    {
-      "a": 148497,
-      "b": 174413,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 166395,
@@ -591,8 +568,8 @@
     {
       "a": 179208,
       "b": 179209,
-      "t": 3,
-      "f": 2021,
+      "t": 1,
+      "f": 2024,
       "l": 2024
     },
     {

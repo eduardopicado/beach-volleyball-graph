@@ -486,13 +486,6 @@
       "weight": null
     },
     {
-      "id": 137285,
-      "name": "Andris Dolzenko",
-      "dob": "1994-08-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 137286,
       "name": "Maris Lancmanis",
       "dob": "1995-02-19",
@@ -563,13 +556,6 @@
       "weight": null
     },
     {
-      "id": 143891,
-      "name": "Maris Orups",
-      "dob": "1983-05-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 143901,
       "name": "Karlis Celmins",
       "dob": "1985-04-29",
@@ -584,30 +570,9 @@
       "weight": null
     },
     {
-      "id": 143934,
-      "name": "Rihards Vilmanis",
-      "dob": "1978-09-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 143935,
-      "name": "Artis Danieks",
-      "dob": "1987-07-22",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 143936,
       "name": "Kaspars Salmins",
       "dob": "1982-09-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 143937,
-      "name": "Arnis Tunte",
-      "dob": "1987-07-07",
       "height": null,
       "weight": null
     },
@@ -668,13 +633,6 @@
       "weight": null
     },
     {
-      "id": 148898,
-      "name": "Girts Zile",
-      "dob": "1994-03-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 149675,
       "name": "Atvars Vilde",
       "dob": "1991-10-03",
@@ -687,13 +645,6 @@
       "dob": "1988-04-28",
       "height": 193,
       "weight": 82
-    },
-    {
-      "id": 150891,
-      "name": "Ugis Pukitis",
-      "dob": "1987-11-08",
-      "height": null,
-      "weight": null
     },
     {
       "id": 151386,
@@ -745,37 +696,9 @@
       "weight": 82
     },
     {
-      "id": 153943,
-      "name": "Edgars Igaunis",
-      "dob": "1989-04-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 155306,
-      "name": "Edijs Grins",
-      "dob": "1992-10-09",
-      "height": 195,
-      "weight": 90
-    },
-    {
       "id": 156967,
       "name": "Aleks Kulesevics",
       "dob": "1993-02-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156970,
-      "name": "Janis Gabranovs",
-      "dob": "1988-11-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 157195,
-      "name": "Maris Cima",
-      "dob": "1961-04-28",
       "height": null,
       "weight": null
     },
@@ -804,13 +727,6 @@
       "id": 159414,
       "name": "Matiss Gabdullins",
       "dob": "1992-11-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 162774,
-      "name": "Andrejs Cernuho",
-      "dob": "1983-09-06",
       "height": null,
       "weight": null
     },
@@ -850,13 +766,6 @@
       "weight": null
     },
     {
-      "id": 166847,
-      "name": "Artūrs Hirkovskis",
-      "dob": "1989-02-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 166848,
       "name": "Mārtiņš Birze",
       "dob": "1997-03-18",
@@ -864,23 +773,9 @@
       "weight": null
     },
     {
-      "id": 166850,
-      "name": "Emīls Bērziņš",
-      "dob": "1999-10-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 167516,
       "name": "Ardis Daniels BriedÄ«tis",
       "dob": "2000-07-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168763,
-      "name": "Pauls Ņikitins",
-      "dob": "1987-05-08",
       "height": null,
       "weight": null
     },
@@ -913,23 +808,9 @@
       "weight": null
     },
     {
-      "id": 173505,
-      "name": "Trents Natans Jankovskis",
-      "dob": "2002-02-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 173506,
       "name": "Markuss Graudins",
       "dob": "2003-08-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173507,
-      "name": "Leo Saulitis",
-      "dob": "2003-07-02",
       "height": null,
       "weight": null
     },
@@ -955,34 +836,6 @@
       "weight": null
     },
     {
-      "id": 174127,
-      "name": "Martins Civkors",
-      "dob": "1985-09-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175298,
-      "name": "Mārtiņš Auziņš",
-      "dob": "2002-05-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175307,
-      "name": "Jānis Māgurs",
-      "dob": "1988-10-22",
-      "height": 180,
-      "weight": 81
-    },
-    {
-      "id": 175308,
-      "name": "Mārcis Māgurs",
-      "dob": "1984-05-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179113,
       "name": "Sandis Berzins",
       "dob": "2003-05-29",
@@ -993,34 +846,6 @@
       "id": 179122,
       "name": "Kristians Fokerots",
       "dob": "2005-01-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179125,
-      "name": "Davis Storkis",
-      "dob": "2003-07-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179127,
-      "name": "Klavs Vilde",
-      "dob": "2003-11-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179130,
-      "name": "Davids Tatarincevs",
-      "dob": "2005-05-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179131,
-      "name": "Ivars Tabors",
-      "dob": "2004-02-11",
       "height": null,
       "weight": null
     },
@@ -1039,109 +864,11 @@
       "weight": 89
     },
     {
-      "id": 179137,
-      "name": "Valerijs Farbtuhs",
-      "dob": "2002-02-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179138,
-      "name": "Eriks Muiznieks",
-      "dob": "2002-02-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179185,
-      "name": "Rūdolfs Šadrins",
-      "dob": "1992-10-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179187,
-      "name": "Marts Bičevskis",
-      "dob": "2002-04-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179282,
-      "name": "Martins Dāvis Vēvers",
-      "dob": "2003-06-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179283,
-      "name": "Kārlis Kalniņš",
-      "dob": "1988-12-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179284,
-      "name": "Jānis Purviņš",
-      "dob": "1988-03-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179358,
-      "name": "Edvins Vigulis",
-      "dob": "2004-09-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179361,
-      "name": "Sandis Vilcans",
-      "dob": "2003-07-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181678,
-      "name": "Hugo Straustiņš",
-      "dob": "2004-10-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181716,
-      "name": "Sandijs Ābolkalns",
-      "dob": "1996-04-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181717,
-      "name": "Tomass Ralfs Ābolkalns",
-      "dob": "1999-07-22",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 181719,
       "name": "Toms Liepa",
       "dob": "2004-12-21",
       "height": 200,
       "weight": 92
-    },
-    {
-      "id": 181724,
-      "name": "Druvis Bičevskis",
-      "dob": "2005-02-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181725,
-      "name": "Roberts Riņķis",
-      "dob": "2004-06-14",
-      "height": null,
-      "weight": null
     },
     {
       "id": 181726,
@@ -1165,55 +892,6 @@
       "weight": null
     },
     {
-      "id": 182029,
-      "name": "Kristaps Liepa",
-      "dob": "2002-01-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182032,
-      "name": "Andis Bertāns",
-      "dob": "1992-06-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182033,
-      "name": "Marģers Kietis",
-      "dob": "1987-05-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182034,
-      "name": "Dāvis Vīksne",
-      "dob": "2003-05-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182037,
-      "name": "Džonatans Baumanis",
-      "dob": "2004-09-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182038,
-      "name": "Kaspars Kronbergs",
-      "dob": "2004-04-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182039,
-      "name": "Vladislavs Dombrovskis",
-      "dob": "2002-05-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182241,
       "name": "Mārtiņš Sproģis",
       "dob": "1998-07-26",
@@ -1221,65 +899,9 @@
       "weight": null
     },
     {
-      "id": 182244,
-      "name": "Jānis Ozoliņš",
-      "dob": "1992-12-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182245,
-      "name": "Aigars Jonass",
-      "dob": "1995-03-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182246,
-      "name": "Viesturs Pastars",
-      "dob": "2003-09-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182247,
-      "name": "Aleksandrs Birks",
-      "dob": "2003-04-03",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182249,
       "name": "Markuss Maculēvičs",
       "dob": "2006-06-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182252,
-      "name": "Hugo Verlis",
-      "dob": "2004-02-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182253,
-      "name": "Jēkabs Ekhards",
-      "dob": "2001-09-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182593,
-      "name": "Raivis Zuļģis",
-      "dob": "1993-09-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182594,
-      "name": "Emīls Reinis Āboltiņš",
-      "dob": "2004-11-12",
       "height": null,
       "weight": null
     },

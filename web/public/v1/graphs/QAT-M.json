@@ -63,7 +63,7 @@
       "id": 116317,
       "name": "Denis Messelmani",
       "short": "Messelmani",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2019,
       "last": 2021
     },
@@ -95,7 +95,7 @@
       "id": 118859,
       "name": "Youssef Oughlaf",
       "short": "Youssef",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -127,7 +127,7 @@
       "id": 122792,
       "name": "Ziad Abdelmajid Benlouaer",
       "short": "Ziad",
-      "tournaments": 14,
+      "tournaments": 13,
       "first": 2017,
       "last": 2021
     },
@@ -135,9 +135,9 @@
       "id": 123898,
       "name": "Mahdi Badreddin Sammoud",
       "short": "Mahdi",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2019,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 132808,
@@ -159,7 +159,7 @@
       "id": 145121,
       "name": "Assam Ahmed Mahmoud",
       "short": "M.ESSAM",
-      "tournaments": 28,
+      "tournaments": 27,
       "first": 2014,
       "last": 2023
     },
@@ -191,7 +191,7 @@
       "id": 146481,
       "name": "Ahmed Tijan",
       "short": "Ahmed",
-      "tournaments": 148,
+      "tournaments": 147,
       "first": 2014,
       "last": 2026
     },
@@ -199,7 +199,7 @@
       "id": 146488,
       "name": "Cherif Younousse",
       "short": "Cherif",
-      "tournaments": 158,
+      "tournaments": 157,
       "first": 2014,
       "last": 2026
     },
@@ -207,7 +207,7 @@
       "id": 147562,
       "name": "João Gusson Neto",
       "short": "Gusson",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -223,46 +223,22 @@
       "id": 161462,
       "name": "Ahmed M A Ali Nassir",
       "short": "NASSIR",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 161463,
-      "name": "Hamad Jassim M A Al Kuwari",
-      "short": "Jassim",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 161615,
       "name": "Abdallah Ibrahim Nassim",
       "short": "Abdallah",
-      "tournaments": 27,
+      "tournaments": 26,
       "first": 2021,
       "last": 2023
-    },
-    {
-      "id": 169313,
-      "name": "Moubarak Alkuwari",
-      "short": "M. Alkuwari",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 169327,
       "name": "Mohamed Widatalla",
       "short": "Waleed",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 174587,
-      "name": "Abdullah Hassanein",
-      "short": "Abdullah",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
@@ -376,7 +352,7 @@
     {
       "a": 116317,
       "b": 147562,
-      "t": 2,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
@@ -397,7 +373,7 @@
     {
       "a": 118859,
       "b": 161615,
-      "t": 2,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
@@ -439,9 +415,9 @@
     {
       "a": 122792,
       "b": 145121,
-      "t": 2,
+      "t": 1,
       "f": 2017,
-      "l": 2021
+      "l": 2017
     },
     {
       "a": 122792,
@@ -453,9 +429,9 @@
     {
       "a": 123898,
       "b": 145121,
-      "t": 3,
+      "t": 2,
       "f": 2019,
-      "l": 2021
+      "l": 2020
     },
     {
       "a": 132808,
@@ -523,7 +499,7 @@
     {
       "a": 146481,
       "b": 146488,
-      "t": 122,
+      "t": 121,
       "f": 2014,
       "l": 2026
     },
@@ -542,22 +518,8 @@
       "l": 2026
     },
     {
-      "a": 161462,
-      "b": 161463,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 161615,
       "b": 182403,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 169313,
-      "b": 174587,
       "t": 1,
       "f": 2021,
       "l": 2021

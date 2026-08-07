@@ -215,7 +215,7 @@
       "id": 146635,
       "name": "Sarah Cools",
       "short": "Cools",
-      "tournaments": 34,
+      "tournaments": 33,
       "first": 2017,
       "last": 2025
     },
@@ -255,7 +255,7 @@
       "id": 152049,
       "name": "Lisa Van Den Vonder",
       "short": "Vd Vonder",
-      "tournaments": 40,
+      "tournaments": 39,
       "first": 2018,
       "last": 2026
     },
@@ -634,7 +634,7 @@
     {
       "a": 146635,
       "b": 152049,
-      "t": 31,
+      "t": 30,
       "f": 2018,
       "l": 2024
     },

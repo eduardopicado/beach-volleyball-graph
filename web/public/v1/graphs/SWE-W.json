@@ -503,9 +503,9 @@
       "id": 147001,
       "name": "Sofia Wahlén",
       "short": "Wahlén",
-      "tournaments": 15,
+      "tournaments": 14,
       "first": 2018,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 147066,
@@ -639,9 +639,9 @@
       "id": 164890,
       "name": "Sara Cavretti",
       "short": "Cavretti",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2018,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 168085,
@@ -1423,9 +1423,9 @@
     {
       "a": 147001,
       "b": 164890,
-      "t": 3,
+      "t": 2,
       "f": 2018,
-      "l": 2020
+      "l": 2018
     },
     {
       "a": 147066,

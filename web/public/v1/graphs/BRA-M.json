@@ -775,7 +775,7 @@
       "id": 104074,
       "name": "Oscar Brandão",
       "short": "Oscar",
-      "tournaments": 77,
+      "tournaments": 76,
       "first": 2002,
       "last": 2025
     },
@@ -1471,7 +1471,7 @@
       "id": 149569,
       "name": "Luccas Alves de Lima",
       "short": "Luccas",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2015,
       "last": 2021
     },
@@ -1767,8 +1767,8 @@
       "id": 179292,
       "name": "Julio Cesar Da Costa",
       "short": "Julio Cesar",
-      "tournaments": 5,
-      "first": 2020,
+      "tournaments": 1,
+      "first": 2021,
       "last": 2021
     },
     {
@@ -5128,8 +5128,8 @@
     {
       "a": 149569,
       "b": 179292,
-      "t": 5,
-      "f": 2020,
+      "t": 1,
+      "f": 2021,
       "l": 2021
     },
     {

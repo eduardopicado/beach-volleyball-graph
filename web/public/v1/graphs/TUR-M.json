@@ -399,7 +399,7 @@
       "id": 132173,
       "name": "Murat Giginoglu",
       "short": "Murat G.",
-      "tournaments": 150,
+      "tournaments": 147,
       "first": 2010,
       "last": 2021
     },
@@ -407,7 +407,7 @@
       "id": 132175,
       "name": "Selçuk Sekerci",
       "short": "Sekerci",
-      "tournaments": 104,
+      "tournaments": 101,
       "first": 2010,
       "last": 2021
     },
@@ -415,7 +415,7 @@
       "id": 132253,
       "name": "Volkan Gögtepe",
       "short": "Gögtepe V.",
-      "tournaments": 107,
+      "tournaments": 104,
       "first": 2010,
       "last": 2021
     },
@@ -575,7 +575,7 @@
       "id": 144384,
       "name": "Safa Urlu",
       "short": "Urlu",
-      "tournaments": 106,
+      "tournaments": 103,
       "first": 2014,
       "last": 2023
     },
@@ -1146,7 +1146,7 @@
     {
       "a": 132173,
       "b": 132253,
-      "t": 79,
+      "t": 76,
       "f": 2014,
       "l": 2021
     },
@@ -1195,7 +1195,7 @@
     {
       "a": 132175,
       "b": 144384,
-      "t": 25,
+      "t": 22,
       "f": 2018,
       "l": 2021
     },

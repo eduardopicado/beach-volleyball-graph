@@ -87,17 +87,9 @@
       "id": 173766,
       "name": "Tamara Miljevic",
       "short": "Miljevic",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 173767,
-      "name": "Marija Miljevic",
-      "short": "Miljevic",
       "tournaments": 1,
-      "first": 2020,
-      "last": 2020
+      "first": 2019,
+      "last": 2019
     },
     {
       "id": 194207,
@@ -186,13 +178,6 @@
       "t": 1,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 173766,
-      "b": 173767,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 194207,

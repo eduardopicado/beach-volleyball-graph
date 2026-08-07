@@ -87,7 +87,7 @@
       "id": 138628,
       "name": "Ahmed Alhousni",
       "short": "Ahmed",
-      "tournaments": 63,
+      "tournaments": 60,
       "first": 2012,
       "last": 2026
     },
@@ -135,7 +135,7 @@
       "id": 152853,
       "name": "Haitham Alshereiqi",
       "short": "Haitham",
-      "tournaments": 52,
+      "tournaments": 49,
       "first": 2018,
       "last": 2025
     },
@@ -143,7 +143,7 @@
       "id": 152854,
       "name": "Mazin Alhashmi",
       "short": "Mazin",
-      "tournaments": 62,
+      "tournaments": 59,
       "first": 2018,
       "last": 2026
     },
@@ -151,7 +151,7 @@
       "id": 152884,
       "name": "Nouh Al-Jalbubi",
       "short": "Nouh",
-      "tournaments": 38,
+      "tournaments": 35,
       "first": 2018,
       "last": 2023
     },
@@ -397,7 +397,7 @@
     {
       "a": 138628,
       "b": 152884,
-      "t": 5,
+      "t": 2,
       "f": 2021,
       "l": 2021
     },
@@ -439,7 +439,7 @@
     {
       "a": 152853,
       "b": 152854,
-      "t": 9,
+      "t": 6,
       "f": 2021,
       "l": 2022
     },

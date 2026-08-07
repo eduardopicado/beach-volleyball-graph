@@ -543,7 +543,7 @@
       "id": 104972,
       "name": "Ayumi Shiratori",
       "short": "Kusano",
-      "tournaments": 93,
+      "tournaments": 92,
       "first": 2004,
       "last": 2021
     },
@@ -575,7 +575,7 @@
       "id": 117847,
       "name": "Takemi Nishibori",
       "short": "Take",
-      "tournaments": 280,
+      "tournaments": 275,
       "first": 2006,
       "last": 2026
     },
@@ -615,7 +615,7 @@
       "id": 120099,
       "name": "Miyuki Matsumura",
       "short": "Miyuki",
-      "tournaments": 39,
+      "tournaments": 37,
       "first": 2009,
       "last": 2024
     },
@@ -663,7 +663,7 @@
       "id": 122247,
       "name": "Sayaka Mizoe",
       "short": "Mizoe",
-      "tournaments": 202,
+      "tournaments": 196,
       "first": 2009,
       "last": 2026
     },
@@ -711,7 +711,7 @@
       "id": 123916,
       "name": "Azusa Futami",
       "short": "Futami",
-      "tournaments": 69,
+      "tournaments": 68,
       "first": 2016,
       "last": 2021
     },
@@ -719,7 +719,7 @@
       "id": 125420,
       "name": "Sakurako Fujii",
       "short": "Sakurako",
-      "tournaments": 127,
+      "tournaments": 121,
       "first": 2009,
       "last": 2025
     },
@@ -735,7 +735,7 @@
       "id": 133551,
       "name": "Megumi Murakami",
       "short": "Murakami",
-      "tournaments": 112,
+      "tournaments": 108,
       "first": 2011,
       "last": 2024
     },
@@ -743,7 +743,7 @@
       "id": 135227,
       "name": "Chiyo Hatabe",
       "short": "Chiyo",
-      "tournaments": 67,
+      "tournaments": 65,
       "first": 2011,
       "last": 2026
     },
@@ -799,7 +799,7 @@
       "id": 142857,
       "name": "Satono Ishitsubo",
       "short": "Ishitsubo",
-      "tournaments": 59,
+      "tournaments": 54,
       "first": 2013,
       "last": 2021
     },
@@ -823,8 +823,8 @@
       "id": 146165,
       "name": "Maho Yabumi",
       "short": "Yabumi",
-      "tournaments": 38,
-      "first": 2021,
+      "tournaments": 37,
+      "first": 2022,
       "last": 2026
     },
     {
@@ -855,7 +855,7 @@
       "id": 147691,
       "name": "Erika Habaguchi",
       "short": "Habaguchi",
-      "tournaments": 26,
+      "tournaments": 25,
       "first": 2014,
       "last": 2022
     },
@@ -863,7 +863,7 @@
       "id": 150057,
       "name": "Miki Ishii",
       "short": "Ishii",
-      "tournaments": 143,
+      "tournaments": 142,
       "first": 2015,
       "last": 2026
     },
@@ -871,7 +871,7 @@
       "id": 150058,
       "name": "Akiko Hasegawa",
       "short": "Akiko",
-      "tournaments": 142,
+      "tournaments": 136,
       "first": 2015,
       "last": 2024
     },
@@ -911,7 +911,7 @@
       "id": 155914,
       "name": "Reika Murakami",
       "short": "Reika",
-      "tournaments": 163,
+      "tournaments": 156,
       "first": 2016,
       "last": 2026
     },
@@ -919,7 +919,7 @@
       "id": 155924,
       "name": "Yukako Suzuki",
       "short": "Suzuki",
-      "tournaments": 64,
+      "tournaments": 63,
       "first": 2016,
       "last": 2021
     },
@@ -927,7 +927,7 @@
       "id": 155925,
       "name": "Kaho Sakaguchi",
       "short": "Kaho",
-      "tournaments": 84,
+      "tournaments": 77,
       "first": 2016,
       "last": 2021
     },
@@ -935,7 +935,7 @@
       "id": 156856,
       "name": "Miyu Sakamoto",
       "short": "Sakamoto",
-      "tournaments": 29,
+      "tournaments": 23,
       "first": 2018,
       "last": 2023
     },
@@ -943,15 +943,15 @@
       "id": 156896,
       "name": "Sayaka Yamada",
       "short": "Yamada",
-      "tournaments": 37,
-      "first": 2021,
+      "tournaments": 31,
+      "first": 2022,
       "last": 2026
     },
     {
       "id": 157546,
       "name": "Asami Shiba",
       "short": "Shiba",
-      "tournaments": 135,
+      "tournaments": 130,
       "first": 2018,
       "last": 2026
     },
@@ -959,23 +959,15 @@
       "id": 157550,
       "name": "Mayu Sawame",
       "short": "Sawame",
-      "tournaments": 44,
+      "tournaments": 38,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 157551,
-      "name": "Kaori Inoue",
-      "short": "Inoue",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 157552,
       "name": "Yurika Toda",
       "short": "Yurika",
-      "tournaments": 100,
+      "tournaments": 94,
       "first": 2018,
       "last": 2026
     },
@@ -999,7 +991,7 @@
       "id": 160641,
       "name": "Suzuka Hashimoto",
       "short": "Suzuka",
-      "tournaments": 127,
+      "tournaments": 120,
       "first": 2017,
       "last": 2024
     },
@@ -1031,7 +1023,7 @@
       "id": 168072,
       "name": "Harumi Sakai",
       "short": "Sakai",
-      "tournaments": 71,
+      "tournaments": 67,
       "first": 2020,
       "last": 2026
     },
@@ -1039,7 +1031,7 @@
       "id": 168073,
       "name": "Kana Motomura",
       "short": "Motomura",
-      "tournaments": 75,
+      "tournaments": 71,
       "first": 2018,
       "last": 2026
     },
@@ -1047,9 +1039,9 @@
       "id": 168074,
       "name": "Haruka Arai",
       "short": "Arai",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2019,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 168077,
@@ -1087,7 +1079,7 @@
       "id": 172195,
       "name": "Paurine Emiri Oto",
       "short": "Oto",
-      "tournaments": 19,
+      "tournaments": 14,
       "first": 2019,
       "last": 2026
     },
@@ -1111,7 +1103,7 @@
       "id": 172468,
       "name": "Riko Tsujimura",
       "short": "Riko",
-      "tournaments": 92,
+      "tournaments": 86,
       "first": 2019,
       "last": 2026
     },
@@ -1151,7 +1143,7 @@
       "id": 181658,
       "name": "Ren Matsumoto",
       "short": "Ren",
-      "tournaments": 72,
+      "tournaments": 69,
       "first": 2021,
       "last": 2026
     },
@@ -1159,32 +1151,24 @@
       "id": 181659,
       "name": "Non Matsumoto",
       "short": "Non",
-      "tournaments": 72,
+      "tournaments": 69,
       "first": 2021,
       "last": 2026
-    },
-    {
-      "id": 184687,
-      "name": "Mayo Ohmoto",
-      "short": "Ohmoto",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 185921,
       "name": "Saya Noguchi",
       "short": "Noguchi",
-      "tournaments": 6,
-      "first": 2021,
+      "tournaments": 5,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 185922,
       "name": "Sakura Ito",
       "short": "Sakura",
-      "tournaments": 30,
-      "first": 2021,
+      "tournaments": 29,
+      "first": 2023,
       "last": 2026
     },
     {
@@ -2082,7 +2066,7 @@
     {
       "a": 104972,
       "b": 160641,
-      "t": 10,
+      "t": 9,
       "f": 2020,
       "l": 2021
     },
@@ -2124,15 +2108,15 @@
     {
       "a": 117847,
       "b": 122247,
-      "t": 62,
+      "t": 61,
       "f": 2013,
       "l": 2021
     },
     {
       "a": 117847,
       "b": 156896,
-      "t": 29,
-      "f": 2021,
+      "t": 25,
+      "f": 2023,
       "l": 2024
     },
     {
@@ -2208,7 +2192,7 @@
     {
       "a": 120099,
       "b": 147691,
-      "t": 6,
+      "t": 5,
       "f": 2019,
       "l": 2022
     },
@@ -2218,13 +2202,6 @@
       "t": 2,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 120099,
-      "b": 172468,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 120099,
@@ -2278,9 +2255,9 @@
     {
       "a": 122247,
       "b": 125420,
-      "t": 6,
+      "t": 1,
       "f": 2009,
-      "l": 2021
+      "l": 2009
     },
     {
       "a": 122247,
@@ -2425,14 +2402,14 @@
     {
       "a": 123916,
       "b": 150058,
-      "t": 68,
+      "t": 67,
       "f": 2017,
       "l": 2021
     },
     {
       "a": 125420,
       "b": 133551,
-      "t": 37,
+      "t": 36,
       "f": 2021,
       "l": 2023
     },
@@ -2536,13 +2513,6 @@
     },
     {
       "a": 133551,
-      "b": 172195,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 133551,
       "b": 172468,
       "t": 5,
       "f": 2022,
@@ -2585,15 +2555,8 @@
     },
     {
       "a": 135227,
-      "b": 155925,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 135227,
       "b": 157552,
-      "t": 39,
+      "t": 38,
       "f": 2019,
       "l": 2026
     },
@@ -2642,7 +2605,7 @@
     {
       "a": 142857,
       "b": 157546,
-      "t": 56,
+      "t": 51,
       "f": 2018,
       "l": 2021
     },
@@ -2666,13 +2629,6 @@
       "t": 31,
       "f": 2022,
       "l": 2024
-    },
-    {
-      "a": 146165,
-      "b": 168074,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 146165,
@@ -2747,9 +2703,9 @@
     {
       "a": 150057,
       "b": 155924,
-      "t": 5,
+      "t": 4,
       "f": 2017,
-      "l": 2021
+      "l": 2017
     },
     {
       "a": 150057,
@@ -2782,7 +2738,7 @@
     {
       "a": 150058,
       "b": 157552,
-      "t": 52,
+      "t": 47,
       "f": 2021,
       "l": 2023
     },
@@ -2817,7 +2773,7 @@
     {
       "a": 155914,
       "b": 155925,
-      "t": 53,
+      "t": 52,
       "f": 2019,
       "l": 2021
     },
@@ -2838,7 +2794,7 @@
     {
       "a": 155914,
       "b": 160641,
-      "t": 61,
+      "t": 55,
       "f": 2021,
       "l": 2024
     },
@@ -2873,14 +2829,14 @@
     {
       "a": 155925,
       "b": 172468,
-      "t": 6,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 156856,
       "b": 157550,
-      "t": 28,
+      "t": 22,
       "f": 2018,
       "l": 2023
     },
@@ -2890,13 +2846,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 156896,
-      "b": 172195,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 156896,
@@ -2962,13 +2911,6 @@
       "l": 2026
     },
     {
-      "a": 157551,
-      "b": 184687,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 157552,
       "b": 185922,
       "t": 2,
@@ -2985,7 +2927,7 @@
     {
       "a": 168072,
       "b": 168073,
-      "t": 42,
+      "t": 38,
       "f": 2020,
       "l": 2023
     },
@@ -3174,15 +3116,15 @@
     {
       "a": 181658,
       "b": 181659,
-      "t": 72,
+      "t": 69,
       "f": 2021,
       "l": 2026
     },
     {
       "a": 185921,
       "b": 185922,
-      "t": 3,
-      "f": 2021,
+      "t": 2,
+      "f": 2024,
       "l": 2024
     },
     {

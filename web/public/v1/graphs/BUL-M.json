@@ -143,9 +143,9 @@
       "id": 104613,
       "name": "Milen Stoyanov",
       "short": "Stoyanov M.",
-      "tournaments": 16,
+      "tournaments": 15,
       "first": 2004,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 104614,
@@ -167,9 +167,9 @@
       "id": 117791,
       "name": "Miroslav Gradinarov",
       "short": "Gradinarov",
-      "tournaments": 11,
+      "tournaments": 10,
       "first": 2012,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 117793,
@@ -183,15 +183,15 @@
       "id": 118486,
       "name": "Valentin Bratoev",
       "short": "V. Bratoev",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 118487,
       "name": "Georgi Bratoev",
       "short": "G. Bratoev",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2021,
       "last": 2026
     },
@@ -276,28 +276,12 @@
       "last": 2021
     },
     {
-      "id": 135371,
-      "name": "Todor Valchev",
-      "short": "Valchev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 136485,
       "name": "Zlatan Yordanov",
       "short": "Yordanov",
       "tournaments": 1,
       "first": 2010,
       "last": 2010
-    },
-    {
-      "id": 137567,
-      "name": "Radostin Denkov",
-      "short": "Denkov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 140943,
@@ -311,7 +295,7 @@
       "id": 144035,
       "name": "Dimitar Kalchev",
       "short": "Kalchev",
-      "tournaments": 29,
+      "tournaments": 28,
       "first": 2014,
       "last": 2026
     },
@@ -351,7 +335,7 @@
       "id": 148756,
       "name": "Hristo Kolev",
       "short": "Kolev",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2021,
       "last": 2026
     },
@@ -407,7 +391,7 @@
       "id": 175810,
       "name": "Mario Iliev",
       "short": "Iliev",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2021,
       "last": 2026
     },
@@ -418,22 +402,6 @@
       "tournaments": 2,
       "first": 2024,
       "last": 2025
-    },
-    {
-      "id": 179090,
-      "name": "Denimir Dimitrov",
-      "short": "Dimitrov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 179400,
-      "name": "Manol Yanev",
-      "short": "Yanev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 179402,
@@ -447,31 +415,23 @@
       "id": 179542,
       "name": "Stefan Vartigov",
       "short": "Vartigov",
-      "tournaments": 4,
-      "first": 2022,
+      "tournaments": 3,
+      "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 179784,
-      "name": "Martin Nakov",
-      "short": "Nakov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 180587,
       "name": "Dimitar Dimitrov",
       "short": "D. Dimitrov",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 181034,
       "name": "Dimitar Mehandzhiyski",
       "short": "Mehandzhiyski",
-      "tournaments": 27,
+      "tournaments": 26,
       "first": 2021,
       "last": 2026
     },
@@ -535,129 +495,17 @@
       "id": 181815,
       "name": "Viktor Bodurov",
       "short": "Bodurov",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 181816,
-      "name": "Boris Nachev",
-      "short": "Nachev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 182773,
-      "name": "Alexander Popov",
-      "short": "Popov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 182783,
       "name": "Alexander Tsanev",
       "short": "Tsanev",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 182784,
-      "name": "Yasen Stanev",
-      "short": "Stanev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191003,
-      "name": "Aleksandar Kehayov",
-      "short": "Kehayov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191004,
-      "name": "Nikolay Georgiev",
-      "short": "Georgiev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191005,
-      "name": "Kiril Penelov",
-      "short": "Penelov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191006,
-      "name": "Ivelin Iliev",
-      "short": "Iliev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191007,
-      "name": "Georgi Valov",
-      "short": "Valov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191008,
-      "name": "Pier Lalev",
-      "short": "Lalev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191009,
-      "name": "Kristiyan Mitov",
-      "short": "Mitov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191010,
-      "name": "Dimitar Partalev",
-      "short": "Partalev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191011,
-      "name": "Stefan Tsvetanov",
-      "short": "Tsvetanov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191012,
-      "name": "Radi Randev",
-      "short": "Randev",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191013,
-      "name": "Tsvetomir Tsvetanov",
-      "short": "Tsvetanov",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 191686,
@@ -820,9 +668,9 @@
     {
       "a": 104613,
       "b": 117791,
-      "t": 4,
+      "t": 3,
       "f": 2021,
-      "l": 2022
+      "l": 2021
     },
     {
       "a": 117791,
@@ -879,20 +727,6 @@
       "t": 1,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 118486,
-      "b": 179090,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 118487,
-      "b": 148756,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 119127,
@@ -979,20 +813,6 @@
       "l": 2021
     },
     {
-      "a": 135371,
-      "b": 175810,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 137567,
-      "b": 181034,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 140943,
       "b": 181220,
       "t": 2,
@@ -1019,13 +839,6 @@
       "t": 2,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 144035,
-      "b": 180587,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 144035,
@@ -1105,13 +918,6 @@
       "l": 2025
     },
     {
-      "a": 179400,
-      "b": 179784,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 179402,
       "b": 181034,
       "t": 1,
@@ -1124,13 +930,6 @@
       "t": 3,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 179542,
-      "b": 182773,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 180587,
@@ -1175,60 +974,11 @@
       "l": 2021
     },
     {
-      "a": 181815,
-      "b": 181816,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 182783,
-      "b": 182784,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 182783,
       "b": 191703,
       "t": 1,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 191004,
-      "b": 191005,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 191006,
-      "b": 191007,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 191008,
-      "b": 191009,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 191010,
-      "b": 191011,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 191012,
-      "b": 191013,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 191686,

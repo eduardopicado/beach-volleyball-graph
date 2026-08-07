@@ -439,9 +439,9 @@
       "id": 119347,
       "name": "Athina Papafotiou",
       "short": "Papafotiou",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2007,
-      "last": 2022
+      "last": 2009
     },
     {
       "id": 119351,
@@ -455,7 +455,7 @@
       "id": 120567,
       "name": "Pigi Anna Metheniti",
       "short": "Metheniti",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2008,
       "last": 2023
     },
@@ -540,14 +540,6 @@
       "last": 2023
     },
     {
-      "id": 134727,
-      "name": "Evangelia Merteki",
-      "short": "Merteki",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 139889,
       "name": "Georgia Paraskaki",
       "short": "Paraskaki",
@@ -564,14 +556,6 @@
       "last": 2021
     },
     {
-      "id": 143064,
-      "name": "Anthi Vasilantonaki",
-      "short": "Vasilantonaki",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 144202,
       "name": "Tatiana Moldovanidi",
       "short": "Moldovanidi",
@@ -583,7 +567,7 @@
       "id": 146196,
       "name": "Ioanna Parisaki",
       "short": "Parisaki",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2014,
       "last": 2025
     },
@@ -591,7 +575,7 @@
       "id": 146199,
       "name": "Dimitra Manavi",
       "short": "Manavi",
-      "tournaments": 97,
+      "tournaments": 96,
       "first": 2014,
       "last": 2026
     },
@@ -623,7 +607,7 @@
       "id": 148564,
       "name": "Vasiliki Matiadi",
       "short": "Matiadi",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2017,
       "last": 2024
     },
@@ -631,7 +615,7 @@
       "id": 151594,
       "name": "Athina Georgopoulou",
       "short": "Georgopoulou",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
       "last": 2022
     },
@@ -647,7 +631,7 @@
       "id": 162241,
       "name": "Dionysia Matiou",
       "short": "Matiou",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2018,
       "last": 2023
     },
@@ -655,7 +639,7 @@
       "id": 165049,
       "name": "Dimitra Karagkouni",
       "short": "Karagkouni, D.",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2019,
       "last": 2022
     },
@@ -663,17 +647,9 @@
       "id": 167348,
       "name": "Elisavet Triantafillidi",
       "short": "Triantafyllidi",
-      "tournaments": 25,
+      "tournaments": 24,
       "first": 2022,
       "last": 2025
-    },
-    {
-      "id": 167395,
-      "name": "Moschoula Patakopoulou",
-      "short": "Patakopoulou Mo",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 168227,
@@ -684,18 +660,10 @@
       "last": 2019
     },
     {
-      "id": 168760,
-      "name": "Anastasia Fokianou",
-      "short": "Fokianou Anastasia",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 168761,
       "name": "Ifigeneia Sampati",
       "short": "Sabati",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2019,
       "last": 2025
     },
@@ -735,7 +703,7 @@
       "id": 168977,
       "name": "Mirto Kalamaridou",
       "short": "Kalamaridou",
-      "tournaments": 50,
+      "tournaments": 49,
       "first": 2021,
       "last": 2026
     },
@@ -743,7 +711,7 @@
       "id": 173494,
       "name": "Ioanna Perdikaki",
       "short": "Perdikaki",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
       "last": 2023
     },
@@ -751,7 +719,7 @@
       "id": 173495,
       "name": "Georgia Maria Antonakaki",
       "short": "Antonakaki",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
       "last": 2023
     },
@@ -783,7 +751,7 @@
       "id": 188986,
       "name": "Ilektra Agriodimou",
       "short": "Agriodimou",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
       "last": 2022
     },
@@ -791,7 +759,7 @@
       "id": 189729,
       "name": "Rodanthi Mariatou Metaxa",
       "short": "Mariatou, R.",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
       "last": 2022
     },
@@ -799,25 +767,9 @@
       "id": 190191,
       "name": "Eleni Chantzi",
       "short": "Chantzi",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 190430,
-      "name": "Polytimi Trigonidou",
-      "short": "Trigonidou",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 190546,
-      "name": "Chrysanthi Christodoulou",
-      "short": "Christodoulou, C.",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 190547,
@@ -826,22 +778,6 @@
       "tournaments": 1,
       "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 190993,
-      "name": "Angela Papa",
-      "short": "Papa Angela",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 191146,
-      "name": "Chara Spyropoulou",
-      "short": "Spyropoulou, Chara",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 192617,
@@ -1335,13 +1271,6 @@
       "l": 2009
     },
     {
-      "a": 119347,
-      "b": 143064,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 120567,
       "b": 120568,
       "t": 1,
@@ -1358,7 +1287,7 @@
     {
       "a": 120567,
       "b": 167348,
-      "t": 2,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -1428,7 +1357,7 @@
     {
       "a": 146196,
       "b": 148564,
-      "t": 2,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -1463,7 +1392,7 @@
     {
       "a": 146199,
       "b": 168977,
-      "t": 37,
+      "t": 36,
       "f": 2021,
       "l": 2023
     },
@@ -1519,7 +1448,7 @@
     {
       "a": 151594,
       "b": 189729,
-      "t": 2,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -1538,13 +1467,6 @@
       "l": 2023
     },
     {
-      "a": 162241,
-      "b": 190191,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 165049,
       "b": 168812,
       "t": 1,
@@ -1554,13 +1476,6 @@
     {
       "a": 165049,
       "b": 188986,
-      "t": 2,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 167395,
-      "b": 168760,
       "t": 1,
       "f": 2022,
       "l": 2022
@@ -1573,13 +1488,6 @@
       "l": 2024
     },
     {
-      "a": 168761,
-      "b": 190546,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 168810,
       "b": 168811,
       "t": 1,
@@ -1589,7 +1497,7 @@
     {
       "a": 173494,
       "b": 173495,
-      "t": 3,
+      "t": 2,
       "f": 2022,
       "l": 2023
     },
@@ -1606,13 +1514,6 @@
       "t": 1,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 190430,
-      "b": 190993,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 192617,

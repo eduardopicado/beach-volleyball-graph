@@ -7,7 +7,7 @@
       "id": 133936,
       "name": "JÓNA Guðlaug Vigfúsdóttir",
       "short": "Vigfusdottir",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2021,
       "last": 2021
     },
@@ -15,7 +15,7 @@
       "id": 144063,
       "name": "Elísabet Einarsdottir",
       "short": "Einarsdottir",
-      "tournaments": 17,
+      "tournaments": 16,
       "first": 2019,
       "last": 2021
     },
@@ -23,7 +23,7 @@
       "id": 144064,
       "name": "Thelma Dögg Gretarsdottir",
       "short": "Grétarsdóttir",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2021,
       "last": 2021
     },
@@ -31,7 +31,7 @@
       "id": 144065,
       "name": "Berglind Gígja Jónsdóttir",
       "short": "Jónsdóttir",
-      "tournaments": 17,
+      "tournaments": 16,
       "first": 2019,
       "last": 2021
     }
@@ -40,14 +40,14 @@
     {
       "a": 133936,
       "b": 144064,
-      "t": 13,
+      "t": 12,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 144063,
       "b": 144065,
-      "t": 17,
+      "t": 16,
       "f": 2019,
       "l": 2021
     }

@@ -39,9 +39,9 @@
       "id": 140399,
       "name": "Margarita Guzman",
       "short": "Margarita G",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2013,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 141681,
@@ -55,9 +55,9 @@
       "id": 155110,
       "name": "Diana Rios",
       "short": "Diana",
-      "tournaments": 14,
+      "tournaments": 13,
       "first": 2016,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 155111,
@@ -156,9 +156,9 @@
     {
       "a": 140399,
       "b": 155110,
-      "t": 2,
+      "t": 1,
       "f": 2022,
-      "l": 2023
+      "l": 2022
     },
     {
       "a": 155110,

@@ -135,7 +135,7 @@
       "id": 132075,
       "name": "Line Trans Hansen",
       "short": "Trans",
-      "tournaments": 39,
+      "tournaments": 37,
       "first": 2010,
       "last": 2021
     },
@@ -143,7 +143,7 @@
       "id": 132631,
       "name": "Cecilie Køllner Olsen",
       "short": "Olsen",
-      "tournaments": 53,
+      "tournaments": 52,
       "first": 2016,
       "last": 2024
     },
@@ -151,7 +151,7 @@
       "id": 144475,
       "name": "Helle Søndergård",
       "short": "Sondergard",
-      "tournaments": 33,
+      "tournaments": 32,
       "first": 2016,
       "last": 2020
     },
@@ -159,7 +159,7 @@
       "id": 144487,
       "name": "Simone Marie Okholm Hansen",
       "short": "Okholm",
-      "tournaments": 36,
+      "tournaments": 35,
       "first": 2017,
       "last": 2021
     },
@@ -191,7 +191,7 @@
       "id": 147933,
       "name": "Signe Zibrandtsen Haaning",
       "short": "Zibrandtsen",
-      "tournaments": 17,
+      "tournaments": 16,
       "first": 2018,
       "last": 2021
     },
@@ -231,7 +231,7 @@
       "id": 158176,
       "name": "Sofia Nørager Bisgaard",
       "short": "Bisgaard",
-      "tournaments": 117,
+      "tournaments": 116,
       "first": 2018,
       "last": 2026
     },
@@ -239,7 +239,7 @@
       "id": 158177,
       "name": "Clara Windeleff",
       "short": "Windeleff",
-      "tournaments": 62,
+      "tournaments": 60,
       "first": 2018,
       "last": 2026
     },
@@ -263,7 +263,7 @@
       "id": 162931,
       "name": "Freja Holme Barkler",
       "short": "Barkler",
-      "tournaments": 10,
+      "tournaments": 9,
       "first": 2019,
       "last": 2022
     },
@@ -271,8 +271,8 @@
       "id": 164457,
       "name": "Astrid Elisabeth Mellmølle",
       "short": "Mellmølle",
-      "tournaments": 17,
-      "first": 2020,
+      "tournaments": 16,
+      "first": 2025,
       "last": 2026
     },
     {
@@ -319,7 +319,7 @@
       "id": 180987,
       "name": "Asta Kjærgaard",
       "short": "Kjærgaard",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2021,
       "last": 2022
     },
@@ -530,7 +530,7 @@
     {
       "a": 132075,
       "b": 158177,
-      "t": 12,
+      "t": 10,
       "f": 2019,
       "l": 2021
     },
@@ -551,7 +551,7 @@
     {
       "a": 132631,
       "b": 158176,
-      "t": 35,
+      "t": 34,
       "f": 2018,
       "l": 2021
     },
@@ -577,13 +577,6 @@
       "l": 2018
     },
     {
-      "a": 144475,
-      "b": 164457,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 144487,
       "b": 146878,
       "t": 1,
@@ -593,9 +586,9 @@
     {
       "a": 144487,
       "b": 147933,
-      "t": 2,
+      "t": 1,
       "f": 2019,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 144487,
@@ -740,7 +733,7 @@
     {
       "a": 162931,
       "b": 180987,
-      "t": 3,
+      "t": 2,
       "f": 2021,
       "l": 2021
     },

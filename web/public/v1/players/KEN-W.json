@@ -3,39 +3,11 @@
   "gender": "W",
   "players": [
     {
-      "id": 112742,
-      "name": "Judith Tarus",
-      "dob": "1986-06-26",
-      "height": 170,
-      "weight": 65
-    },
-    {
       "id": 118369,
       "name": "Brackcides Khadambi",
       "dob": "1984-05-14",
       "height": 180,
       "weight": 70
-    },
-    {
-      "id": 118370,
-      "name": "Edinah Rotich",
-      "dob": "1981-03-27",
-      "height": 180,
-      "weight": 73
-    },
-    {
-      "id": 124315,
-      "name": "Florence Bosire",
-      "dob": "1988-09-26",
-      "height": 175,
-      "weight": 60
-    },
-    {
-      "id": 124319,
-      "name": "Elizabeth Wanyama",
-      "dob": "1987-05-27",
-      "height": 174,
-      "weight": 68
     },
     {
       "id": 124540,
@@ -45,60 +17,11 @@
       "weight": 68
     },
     {
-      "id": 124544,
-      "name": "Linnet Mukambi",
-      "dob": "1991-05-02",
-      "height": 170,
-      "weight": 57
-    },
-    {
-      "id": 133054,
-      "name": "Loice Tarus",
-      "dob": "1989-08-21",
-      "height": 178,
-      "weight": 60
-    },
-    {
-      "id": 134614,
-      "name": "Jane Jepkemboi",
-      "dob": "1986-07-17",
-      "height": 178,
-      "weight": 75
-    },
-    {
       "id": 134617,
       "name": "Gladys Wangui",
       "dob": "1981-04-27",
       "height": 169,
       "weight": 60
-    },
-    {
-      "id": 135057,
-      "name": "Eunice J. Maiyo",
-      "dob": "1980-12-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 137826,
-      "name": "Loice Jepkoisgei",
-      "dob": "1989-08-21",
-      "height": 175,
-      "weight": 64
-    },
-    {
-      "id": 138057,
-      "name": "Nancy Mulonza",
-      "dob": "1983-03-29",
-      "height": 175,
-      "weight": 68
-    },
-    {
-      "id": 140547,
-      "name": "Catherine Simiyu",
-      "dob": "1985-02-07",
-      "height": 150,
-      "weight": 70
     },
     {
       "id": 142061,
@@ -108,25 +31,11 @@
       "weight": 75
     },
     {
-      "id": 144617,
-      "name": "Leonida Kasaya",
-      "dob": "1993-10-10",
-      "height": 168,
-      "weight": 67
-    },
-    {
       "id": 164744,
       "name": "Yvonne Wavinya Kiitha",
       "dob": "1996-02-22",
       "height": 158,
       "weight": 64
-    },
-    {
-      "id": 170122,
-      "name": "Lorine Chebet Kaei",
-      "dob": "1999-10-08",
-      "height": 179,
-      "weight": 69
     },
     {
       "id": 172146,
@@ -136,13 +45,6 @@
       "weight": null
     },
     {
-      "id": 174878,
-      "name": "Agripina Khayesi Kundu",
-      "dob": "1993-04-24",
-      "height": 155,
-      "weight": 63
-    },
-    {
       "id": 175455,
       "name": "Phosca Nekesa Kasisi",
       "dob": "1993-02-14",
@@ -150,165 +52,11 @@
       "weight": 65
     },
     {
-      "id": 178765,
-      "name": "Ivy Enane",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178780,
-      "name": "Faith Oilakin",
-      "dob": "1996-05-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178782,
-      "name": "Leah Okumu",
-      "dob": "1995-12-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178789,
-      "name": "Marion Wambulwa",
-      "dob": "2001-08-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179658,
-      "name": "Sarah Mutoro Wafula",
-      "dob": "1994-04-02",
-      "height": null,
-      "weight": 78
-    },
-    {
-      "id": 179678,
-      "name": "Veronica Mukhwana Makokha",
-      "dob": "1998-06-02",
-      "height": 170,
-      "weight": 68
-    },
-    {
-      "id": 179789,
-      "name": "Betty Namalwa Sifuna",
-      "dob": "2002-11-18",
-      "height": 162,
-      "weight": 65
-    },
-    {
-      "id": 179827,
-      "name": "Joan Nanjala Barasa",
-      "dob": "1994-08-20",
-      "height": 170,
-      "weight": 70
-    },
-    {
       "id": 179830,
       "name": "Mercy Iminza Likhayo",
       "dob": "2002-04-03",
       "height": 185,
       "weight": 84
-    },
-    {
-      "id": 179835,
-      "name": "Peris Kanus Cheptepkeny",
-      "dob": "1993-05-17",
-      "height": 182,
-      "weight": 80
-    },
-    {
-      "id": 179851,
-      "name": "Jane Mumbua",
-      "dob": "1994-12-01",
-      "height": 173,
-      "weight": 60
-    },
-    {
-      "id": 179854,
-      "name": "Veronica Adhiambo Oluoch",
-      "dob": "1999-06-05",
-      "height": 180,
-      "weight": 67
-    },
-    {
-      "id": 179877,
-      "name": "Metrine Wabwile",
-      "dob": "1997-01-03",
-      "height": 160,
-      "weight": 65
-    },
-    {
-      "id": 181989,
-      "name": "Maurine Wekesa",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181990,
-      "name": "Naomi Wafula",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181991,
-      "name": "Brenda Wafula",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181992,
-      "name": "Mildred Cherop",
-      "dob": "2001-10-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181993,
-      "name": "Linet Awino",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181994,
-      "name": "Abigael Jepchirchir",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181995,
-      "name": "Naomi Millicent",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181996,
-      "name": "Mishi Kibwana",
-      "dob": "2000-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 185145,
-      "name": "Lilian Odoyo",
-      "dob": "1997-12-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 185146,
-      "name": "Jane Atieno Agaya",
-      "dob": "1998-12-04",
-      "height": null,
-      "weight": null
     },
     {
       "id": 185151,
@@ -321,83 +69,6 @@
       "id": 187378,
       "name": "Angelina Gambo",
       "dob": "1995-04-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199444,
-      "name": "Juma Faith",
-      "dob": "1999-08-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199445,
-      "name": "GRACE MARTHA",
-      "dob": "1997-07-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199451,
-      "name": "Ruth Kareji",
-      "dob": "2000-12-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199452,
-      "name": "Milka Okoth",
-      "dob": "1994-10-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199470,
-      "name": "Lilian Bitutu",
-      "dob": "1995-12-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199471,
-      "name": "Marcella Kiende",
-      "dob": "1994-07-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199472,
-      "name": "Mitchel Barasa",
-      "dob": "2002-10-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199473,
-      "name": "marion omondi",
-      "dob": "2002-09-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199474,
-      "name": "Faith Nabifwo",
-      "dob": "2000-03-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199496,
-      "name": "Abigael Chebet",
-      "dob": "2007-11-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 199497,
-      "name": "Sharon Chepkogei",
-      "dob": "2006-09-03",
       "height": null,
       "weight": null
     }

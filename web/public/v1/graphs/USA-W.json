@@ -1671,7 +1671,7 @@
       "id": 138634,
       "name": "Traci Callahan",
       "short": "Callahan",
-      "tournaments": 25,
+      "tournaments": 24,
       "first": 2014,
       "last": 2021
     },
@@ -1727,7 +1727,7 @@
       "id": 139838,
       "name": "Christian Jones",
       "short": "Jones",
-      "tournaments": 22,
+      "tournaments": 21,
       "first": 2014,
       "last": 2021
     },
@@ -2015,7 +2015,7 @@
       "id": 154557,
       "name": "Anna Donlan",
       "short": "Donlan",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2022,
       "last": 2025
     },
@@ -2095,7 +2095,7 @@
       "id": 157794,
       "name": "Corinne Quiggle",
       "short": "Quiggle",
-      "tournaments": 107,
+      "tournaments": 106,
       "first": 2018,
       "last": 2026
     },
@@ -2559,7 +2559,7 @@
       "id": 168341,
       "name": "Nicole Nourse",
       "short": "Nourse N.",
-      "tournaments": 36,
+      "tournaments": 35,
       "first": 2018,
       "last": 2022
     },
@@ -2567,7 +2567,7 @@
       "id": 168342,
       "name": "Audrey Nourse",
       "short": "Nourse A.",
-      "tournaments": 35,
+      "tournaments": 34,
       "first": 2018,
       "last": 2022
     },
@@ -2591,7 +2591,7 @@
       "id": 169431,
       "name": "Alexandra Wheeler",
       "short": "Wheeler",
-      "tournaments": 46,
+      "tournaments": 44,
       "first": 2018,
       "last": 2023
     },
@@ -2607,7 +2607,7 @@
       "id": 169891,
       "name": "Melissa Powell",
       "short": "Powell",
-      "tournaments": 60,
+      "tournaments": 59,
       "first": 2018,
       "last": 2025
     },
@@ -2719,7 +2719,7 @@
       "id": 173073,
       "name": "Alaina Chacon",
       "short": "Chacon",
-      "tournaments": 32,
+      "tournaments": 29,
       "first": 2019,
       "last": 2026
     },
@@ -2743,23 +2743,15 @@
       "id": 173362,
       "name": "Jade Race",
       "short": "Race",
-      "tournaments": 76,
+      "tournaments": 75,
       "first": 2019,
       "last": 2026
-    },
-    {
-      "id": 174761,
-      "name": "Erin Malesic",
-      "short": "Malesic",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 174957,
       "name": "Jennifer Katona",
       "short": "Katona",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2023,
       "last": 2024
     },
@@ -2807,7 +2799,7 @@
       "id": 178041,
       "name": "Katie Lindstrom",
       "short": "Lindstrom",
-      "tournaments": 41,
+      "tournaments": 39,
       "first": 2021,
       "last": 2026
     },
@@ -2919,7 +2911,7 @@
       "id": 183869,
       "name": "Lydia Smith",
       "short": "Smith",
-      "tournaments": 16,
+      "tournaments": 15,
       "first": 2021,
       "last": 2023
     },
@@ -3127,7 +3119,7 @@
       "id": 199431,
       "name": "Kelsey Bradbury",
       "short": "Bradbury",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2023,
       "last": 2025
     },
@@ -6737,7 +6729,7 @@
     {
       "a": 138634,
       "b": 139838,
-      "t": 5,
+      "t": 4,
       "f": 2020,
       "l": 2021
     },
@@ -7542,7 +7534,7 @@
     {
       "a": 157794,
       "b": 169431,
-      "t": 15,
+      "t": 14,
       "f": 2020,
       "l": 2021
     },
@@ -8186,7 +8178,7 @@
     {
       "a": 168341,
       "b": 168342,
-      "t": 35,
+      "t": 34,
       "f": 2018,
       "l": 2022
     },
@@ -8252,13 +8244,6 @@
       "t": 3,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 169431,
-      "b": 169891,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 169431,
@@ -8585,7 +8570,7 @@
     {
       "a": 173362,
       "b": 183869,
-      "t": 13,
+      "t": 12,
       "f": 2021,
       "l": 2023
     },
@@ -8704,7 +8689,7 @@
     {
       "a": 174957,
       "b": 178041,
-      "t": 5,
+      "t": 3,
       "f": 2023,
       "l": 2024
     },

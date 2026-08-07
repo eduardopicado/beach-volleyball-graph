@@ -7,7 +7,7 @@
       "id": 175324,
       "name": "Mira Adra",
       "short": "Adra",
-      "tournaments": 33,
+      "tournaments": 32,
       "first": 2021,
       "last": 2024
     },
@@ -15,7 +15,7 @@
       "id": 175389,
       "name": "Aya Maria Matar",
       "short": "Aya",
-      "tournaments": 32,
+      "tournaments": 31,
       "first": 2021,
       "last": 2022
     },
@@ -23,7 +23,7 @@
       "id": 181323,
       "name": "Mirna Cheikho",
       "short": "Mirna",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2021,
       "last": 2022
     },
@@ -31,7 +31,7 @@
       "id": 181346,
       "name": "Hamzeh Mirvat",
       "short": "Mirvat",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2021,
       "last": 2022
     },
@@ -48,7 +48,7 @@
     {
       "a": 175324,
       "b": 175389,
-      "t": 32,
+      "t": 31,
       "f": 2021,
       "l": 2022
     },
@@ -62,7 +62,7 @@
     {
       "a": 181323,
       "b": 181346,
-      "t": 7,
+      "t": 6,
       "f": 2021,
       "l": 2022
     }

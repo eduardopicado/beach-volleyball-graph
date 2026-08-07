@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-06T13:43:16.108Z",
-  "sourceVersion": "113651",
+  "generatedAt": "2026-08-07T01:55:07.248Z",
+  "sourceVersion": "113677",
   "seasons": {
     "from": 1987,
     "to": 2026
   },
   "totals": {
-    "tournaments": 2163,
-    "players": 15622,
-    "partnerships": 18901
+    "tournaments": 1823,
+    "players": 14340,
+    "partnerships": 17498
   },
   "tiers": {
-    "FIVB World Tour": 1517,
+    "FIVB World Tour": 1177,
     "Olympic Games": 22,
     "World Championships": 30,
     "Age-group World Championships": 88,
@@ -72,7 +72,7 @@
       "iso2": "AR",
       "genders": {
         "M": {
-          "nodes": 156,
+          "nodes": 155,
           "edges": 173
         },
         "W": {
@@ -98,12 +98,12 @@
       "iso2": "AU",
       "genders": {
         "M": {
-          "nodes": 236,
-          "edges": 316
+          "nodes": 232,
+          "edges": 313
         },
         "W": {
-          "nodes": 183,
-          "edges": 280
+          "nodes": 176,
+          "edges": 276
         }
       }
     },
@@ -113,12 +113,12 @@
       "iso2": "AT",
       "genders": {
         "M": {
-          "nodes": 200,
-          "edges": 383
+          "nodes": 167,
+          "edges": 338
         },
         "W": {
-          "nodes": 183,
-          "edges": 241
+          "nodes": 149,
+          "edges": 198
         }
       }
     },
@@ -165,7 +165,7 @@
       "iso2": "BY",
       "genders": {
         "M": {
-          "nodes": 38,
+          "nodes": 37,
           "edges": 31
         },
         "W": {
@@ -255,7 +255,7 @@
           "edges": 513
         },
         "W": {
-          "nodes": 233,
+          "nodes": 232,
           "edges": 410
         }
       }
@@ -266,12 +266,12 @@
       "iso2": "BG",
       "genders": {
         "M": {
-          "nodes": 91,
-          "edges": 73
+          "nodes": 72,
+          "edges": 59
         },
         "W": {
-          "nodes": 46,
-          "edges": 53
+          "nodes": 40,
+          "edges": 48
         }
       }
     },
@@ -311,7 +311,7 @@
       "iso2": "CM",
       "genders": {
         "M": {
-          "nodes": 25,
+          "nodes": 24,
           "edges": 24
         },
         "W": {
@@ -327,7 +327,7 @@
       "genders": {
         "M": {
           "nodes": 247,
-          "edges": 356
+          "edges": 355
         },
         "W": {
           "nodes": 269,
@@ -565,12 +565,12 @@
       "iso2": "CZ",
       "genders": {
         "M": {
-          "nodes": 222,
-          "edges": 319
+          "nodes": 207,
+          "edges": 295
         },
         "W": {
-          "nodes": 195,
-          "edges": 261
+          "nodes": 194,
+          "edges": 258
         }
       }
     },
@@ -580,12 +580,12 @@
       "iso2": "DK",
       "genders": {
         "M": {
-          "nodes": 63,
+          "nodes": 62,
           "edges": 82
         },
         "W": {
           "nodes": 46,
-          "edges": 61
+          "edges": 60
         }
       }
     },
@@ -655,7 +655,7 @@
       "iso2": "GB",
       "genders": {
         "M": {
-          "nodes": 66,
+          "nodes": 65,
           "edges": 64
         },
         "W": {
@@ -674,8 +674,8 @@
           "edges": 82
         },
         "W": {
-          "nodes": 51,
-          "edges": 35
+          "nodes": 49,
+          "edges": 34
         }
       }
     },
@@ -730,12 +730,12 @@
       "iso2": "FR",
       "genders": {
         "M": {
-          "nodes": 260,
-          "edges": 308
+          "nodes": 210,
+          "edges": 248
         },
         "W": {
-          "nodes": 212,
-          "edges": 242
+          "nodes": 163,
+          "edges": 200
         }
       }
     },
@@ -797,12 +797,12 @@
       "iso2": "DE",
       "genders": {
         "M": {
-          "nodes": 316,
-          "edges": 480
+          "nodes": 274,
+          "edges": 435
         },
         "W": {
-          "nodes": 225,
-          "edges": 387
+          "nodes": 197,
+          "edges": 344
         }
       }
     },
@@ -853,12 +853,12 @@
       "iso2": "GR",
       "genders": {
         "M": {
-          "nodes": 113,
-          "edges": 116
+          "nodes": 106,
+          "edges": 111
         },
         "W": {
-          "nodes": 111,
-          "edges": 106
+          "nodes": 103,
+          "edges": 101
         }
       }
     },
@@ -950,12 +950,12 @@
       "iso2": "HU",
       "genders": {
         "M": {
-          "nodes": 107,
-          "edges": 116
+          "nodes": 72,
+          "edges": 80
         },
         "W": {
-          "nodes": 138,
-          "edges": 141
+          "nodes": 93,
+          "edges": 98
         }
       }
     },
@@ -1043,12 +1043,12 @@
       "iso2": "IT",
       "genders": {
         "M": {
-          "nodes": 437,
-          "edges": 601
+          "nodes": 411,
+          "edges": 562
         },
         "W": {
-          "nodes": 287,
-          "edges": 380
+          "nodes": 249,
+          "edges": 338
         }
       }
     },
@@ -1073,12 +1073,12 @@
       "iso2": "JP",
       "genders": {
         "M": {
-          "nodes": 145,
-          "edges": 246
+          "nodes": 141,
+          "edges": 227
         },
         "W": {
-          "nodes": 177,
-          "edges": 268
+          "nodes": 175,
+          "edges": 262
         }
       }
     },
@@ -1103,12 +1103,12 @@
       "iso2": "KE",
       "genders": {
         "M": {
-          "nodes": 96,
-          "edges": 64
+          "nodes": 12,
+          "edges": 8
         },
         "W": {
-          "nodes": 57,
-          "edges": 41
+          "nodes": 10,
+          "edges": 8
         }
       }
     },
@@ -1155,12 +1155,12 @@
       "iso2": "LV",
       "genders": {
         "M": {
-          "nodes": 210,
-          "edges": 276
+          "nodes": 156,
+          "edges": 216
         },
         "W": {
-          "nodes": 119,
-          "edges": 131
+          "nodes": 92,
+          "edges": 107
         }
       }
     },
@@ -1171,7 +1171,7 @@
       "genders": {
         "M": {
           "nodes": 31,
-          "edges": 23
+          "edges": 22
         },
         "W": {
           "nodes": 5,
@@ -1211,12 +1211,12 @@
       "iso2": "LT",
       "genders": {
         "M": {
-          "nodes": 112,
-          "edges": 104
+          "nodes": 62,
+          "edges": 66
         },
         "W": {
-          "nodes": 94,
-          "edges": 89
+          "nodes": 59,
+          "edges": 62
         }
       }
     },
@@ -1304,12 +1304,12 @@
       "iso2": "MU",
       "genders": {
         "M": {
-          "nodes": 19,
-          "edges": 11
+          "nodes": 5,
+          "edges": 4
         },
         "W": {
-          "nodes": 25,
-          "edges": 21
+          "nodes": 6,
+          "edges": 4
         }
       }
     },
@@ -1361,7 +1361,7 @@
       "genders": {
         "M": {
           "nodes": 63,
-          "edges": 50
+          "edges": 49
         },
         "W": {
           "nodes": 25,
@@ -1375,12 +1375,12 @@
       "iso2": "MZ",
       "genders": {
         "M": {
-          "nodes": 39,
-          "edges": 37
+          "nodes": 23,
+          "edges": 20
         },
         "W": {
-          "nodes": 30,
-          "edges": 30
+          "nodes": 21,
+          "edges": 16
         }
       }
     },
@@ -1405,12 +1405,12 @@
       "iso2": "NL",
       "genders": {
         "M": {
-          "nodes": 164,
-          "edges": 257
+          "nodes": 141,
+          "edges": 233
         },
         "W": {
-          "nodes": 167,
-          "edges": 281
+          "nodes": 156,
+          "edges": 260
         }
       }
     },
@@ -1420,12 +1420,12 @@
       "iso2": "NZ",
       "genders": {
         "M": {
-          "nodes": 94,
-          "edges": 121
+          "nodes": 87,
+          "edges": 114
         },
         "W": {
-          "nodes": 92,
-          "edges": 99
+          "nodes": 82,
+          "edges": 88
         }
       }
     },
@@ -1514,7 +1514,7 @@
       "genders": {
         "M": {
           "nodes": 174,
-          "edges": 340
+          "edges": 339
         },
         "W": {
           "nodes": 129,
@@ -1599,12 +1599,12 @@
       "iso2": "PL",
       "genders": {
         "M": {
-          "nodes": 240,
-          "edges": 349
+          "nodes": 209,
+          "edges": 298
         },
         "W": {
-          "nodes": 165,
-          "edges": 253
+          "nodes": 142,
+          "edges": 207
         }
       }
     },
@@ -1644,8 +1644,8 @@
       "iso2": "QA",
       "genders": {
         "M": {
-          "nodes": 39,
-          "edges": 39
+          "nodes": 36,
+          "edges": 37
         },
         "W": {
           "nodes": 10,
@@ -1674,12 +1674,12 @@
       "iso2": "RU",
       "genders": {
         "M": {
-          "nodes": 217,
-          "edges": 333
+          "nodes": 186,
+          "edges": 307
         },
         "W": {
-          "nodes": 149,
-          "edges": 200
+          "nodes": 120,
+          "edges": 173
         }
       }
     },
@@ -1756,7 +1756,7 @@
       "iso2": "GB",
       "genders": {
         "M": {
-          "nodes": 14,
+          "nodes": 13,
           "edges": 14
         },
         "W": {
@@ -1786,12 +1786,12 @@
       "iso2": "RS",
       "genders": {
         "M": {
-          "nodes": 55,
-          "edges": 52
+          "nodes": 54,
+          "edges": 51
         },
         "W": {
-          "nodes": 14,
-          "edges": 12
+          "nodes": 13,
+          "edges": 11
         }
       }
     },
@@ -1850,8 +1850,8 @@
           "edges": 78
         },
         "W": {
-          "nodes": 49,
-          "edges": 46
+          "nodes": 48,
+          "edges": 45
         }
       }
     },
@@ -1861,8 +1861,8 @@
       "iso2": "ZA",
       "genders": {
         "M": {
-          "nodes": 154,
-          "edges": 172
+          "nodes": 99,
+          "edges": 105
         },
         "W": {
           "nodes": 50,
@@ -1891,12 +1891,12 @@
       "iso2": "ES",
       "genders": {
         "M": {
-          "nodes": 289,
-          "edges": 316
+          "nodes": 219,
+          "edges": 242
         },
         "W": {
-          "nodes": 228,
-          "edges": 263
+          "nodes": 156,
+          "edges": 194
         }
       }
     },
@@ -1988,12 +1988,12 @@
       "iso2": "CH",
       "genders": {
         "M": {
-          "nodes": 215,
-          "edges": 288
+          "nodes": 208,
+          "edges": 273
         },
         "W": {
-          "nodes": 176,
-          "edges": 266
+          "nodes": 168,
+          "edges": 249
         }
       }
     },
@@ -2029,12 +2029,12 @@
       "iso2": "TZ",
       "genders": {
         "M": {
-          "nodes": 50,
-          "edges": 32
+          "nodes": 11,
+          "edges": 9
         },
         "W": {
-          "nodes": 40,
-          "edges": 21
+          "nodes": 6,
+          "edges": 3
         }
       }
     },
@@ -2085,8 +2085,8 @@
       "iso2": "TN",
       "genders": {
         "M": {
-          "nodes": 14,
-          "edges": 7
+          "nodes": 12,
+          "edges": 6
         },
         "W": {
           "nodes": 2,
@@ -2127,7 +2127,7 @@
       "genders": {
         "M": {
           "nodes": 7,
-          "edges": 6
+          "edges": 5
         },
         "W": {
           "nodes": 2,
@@ -2171,11 +2171,11 @@
       "iso2": "UA",
       "genders": {
         "M": {
-          "nodes": 146,
+          "nodes": 145,
           "edges": 134
         },
         "W": {
-          "nodes": 72,
+          "nodes": 71,
           "edges": 73
         }
       }
@@ -2197,12 +2197,12 @@
       "iso2": "US",
       "genders": {
         "M": {
-          "nodes": 456,
-          "edges": 679
+          "nodes": 454,
+          "edges": 677
         },
         "W": {
-          "nodes": 485,
-          "edges": 803
+          "nodes": 484,
+          "edges": 802
         }
       }
     },
@@ -2258,7 +2258,7 @@
       "genders": {
         "M": {
           "nodes": 85,
-          "edges": 97
+          "edges": 96
         },
         "W": {
           "nodes": 57,

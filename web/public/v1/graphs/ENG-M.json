@@ -255,7 +255,7 @@
       "id": 148991,
       "name": "Mark Baechli",
       "short": "Baechli",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2020,
       "last": 2020
     },
@@ -263,7 +263,7 @@
       "id": 149832,
       "name": "Issa Batrane",
       "short": "Batrane",
-      "tournaments": 169,
+      "tournaments": 168,
       "first": 2016,
       "last": 2026
     },
@@ -271,7 +271,7 @@
       "id": 149846,
       "name": "Mark Garcia-Kidd",
       "short": "Garcia-Kidd",
-      "tournaments": 39,
+      "tournaments": 38,
       "first": 2016,
       "last": 2022
     },
@@ -303,7 +303,7 @@
       "id": 156657,
       "name": "Joaquin Bello",
       "short": "Bello, Jo.",
-      "tournaments": 159,
+      "tournaments": 153,
       "first": 2016,
       "last": 2026
     },
@@ -311,7 +311,7 @@
       "id": 156658,
       "name": "Javier Bello",
       "short": "Bello, Ja.",
-      "tournaments": 160,
+      "tournaments": 154,
       "first": 2016,
       "last": 2026
     },
@@ -343,7 +343,7 @@
       "id": 164797,
       "name": "Frederick Bialokoz",
       "short": "Bialokoz",
-      "tournaments": 163,
+      "tournaments": 162,
       "first": 2018,
       "last": 2026
     },
@@ -353,14 +353,6 @@
       "short": "Drysdale-Anderson",
       "tournaments": 7,
       "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 170695,
-      "name": "Karsten Webb",
-      "short": "Webb",
-      "tournaments": 1,
-      "first": 2023,
       "last": 2023
     },
     {
@@ -802,7 +794,7 @@
     {
       "a": 148991,
       "b": 149846,
-      "t": 4,
+      "t": 3,
       "f": 2020,
       "l": 2020
     },
@@ -823,7 +815,7 @@
     {
       "a": 149832,
       "b": 164797,
-      "t": 147,
+      "t": 146,
       "f": 2019,
       "l": 2026
     },
@@ -865,7 +857,7 @@
     {
       "a": 156657,
       "b": 156658,
-      "t": 159,
+      "t": 153,
       "f": 2016,
       "l": 2026
     },

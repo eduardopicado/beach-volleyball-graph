@@ -1247,7 +1247,7 @@
       "id": 137670,
       "name": "Shanice Marcelle",
       "short": "Marcelle",
-      "tournaments": 41,
+      "tournaments": 40,
       "first": 2007,
       "last": 2023
     },
@@ -1359,7 +1359,7 @@
       "id": 140550,
       "name": "Megan McNamara",
       "short": "Megan",
-      "tournaments": 84,
+      "tournaments": 83,
       "first": 2013,
       "last": 2023
     },
@@ -1367,7 +1367,7 @@
       "id": 140551,
       "name": "Nicole McNamara",
       "short": "Nicole",
-      "tournaments": 84,
+      "tournaments": 83,
       "first": 2013,
       "last": 2023
     },
@@ -1551,7 +1551,7 @@
       "id": 156806,
       "name": "Laura Condotta",
       "short": "Condotta",
-      "tournaments": 45,
+      "tournaments": 44,
       "first": 2017,
       "last": 2022
     },
@@ -1575,7 +1575,7 @@
       "id": 161787,
       "name": "Darby Dunn",
       "short": "Dunn",
-      "tournaments": 64,
+      "tournaments": 63,
       "first": 2017,
       "last": 2026
     },
@@ -1599,7 +1599,7 @@
       "id": 162675,
       "name": "Lea Monkhouse",
       "short": "Monkhouse",
-      "tournaments": 71,
+      "tournaments": 70,
       "first": 2017,
       "last": 2026
     },
@@ -1703,7 +1703,7 @@
       "id": 174103,
       "name": "Alina Dormann",
       "short": "Dormann",
-      "tournaments": 37,
+      "tournaments": 36,
       "first": 2019,
       "last": 2022
     },
@@ -1839,7 +1839,7 @@
       "id": 186139,
       "name": "Olivia Grace Furlan",
       "short": "Furlan",
-      "tournaments": 17,
+      "tournaments": 16,
       "first": 2022,
       "last": 2024
     },
@@ -3679,7 +3679,7 @@
     {
       "a": 137670,
       "b": 162675,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -3833,7 +3833,7 @@
     {
       "a": 140550,
       "b": 140551,
-      "t": 84,
+      "t": 83,
       "f": 2013,
       "l": 2023
     },
@@ -4120,7 +4120,7 @@
     {
       "a": 156806,
       "b": 174103,
-      "t": 3,
+      "t": 2,
       "f": 2019,
       "l": 2020
     },
@@ -4162,7 +4162,7 @@
     {
       "a": 161787,
       "b": 186139,
-      "t": 12,
+      "t": 11,
       "f": 2022,
       "l": 2023
     },

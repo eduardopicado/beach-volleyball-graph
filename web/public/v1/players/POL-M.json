@@ -745,13 +745,6 @@
       "weight": 69
     },
     {
-      "id": 142678,
-      "name": "Rafal Szymura",
-      "dob": "1995-08-29",
-      "height": 196,
-      "weight": 93
-    },
-    {
       "id": 142782,
       "name": "Jakub Jetke",
       "dob": "1996-08-29",
@@ -808,13 +801,6 @@
       "weight": null
     },
     {
-      "id": 144881,
-      "name": "Marcin Kapusniak",
-      "dob": "1989-01-09",
-      "height": 197,
-      "weight": 96
-    },
-    {
       "id": 146844,
       "name": "Adam Lenc",
       "dob": "1998-08-08",
@@ -841,13 +827,6 @@
       "dob": "1987-06-28",
       "height": 190,
       "weight": 85
-    },
-    {
-      "id": 147538,
-      "name": "Mateusz Zarankiewicz",
-      "dob": "1989-08-17",
-      "height": null,
-      "weight": null
     },
     {
       "id": 148426,
@@ -890,13 +869,6 @@
       "dob": "1999-05-30",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 153467,
-      "name": "Maciej Madej",
-      "dob": "1995-08-15",
-      "height": 190,
-      "weight": 82
     },
     {
       "id": 154217,
@@ -990,27 +962,6 @@
       "weight": null
     },
     {
-      "id": 163053,
-      "name": "Tomasz Maziarek",
-      "dob": "1988-11-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 163063,
-      "name": "Rafal Maluchnik",
-      "dob": "1995-05-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 163077,
-      "name": "Bobrowski Kacper",
-      "dob": "1997-10-08",
-      "height": 186,
-      "weight": 75
-    },
-    {
       "id": 163182,
       "name": "Adrian Bialecki",
       "dob": "1993-05-13",
@@ -1032,25 +983,11 @@
       "weight": null
     },
     {
-      "id": 163425,
-      "name": "Mateusz Michalak",
-      "dob": "2000-12-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 163569,
       "name": "Milosz Kruk",
       "dob": "2000-09-18",
       "height": 200,
       "weight": 94
-    },
-    {
-      "id": 163713,
-      "name": "Maciej Stepien",
-      "dob": "1994-06-22",
-      "height": null,
-      "weight": null
     },
     {
       "id": 163714,
@@ -1060,44 +997,9 @@
       "weight": null
     },
     {
-      "id": 163976,
-      "name": "Pawel Pietkiewicz",
-      "dob": "1986-05-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164201,
-      "name": "Tomasz Dudek",
-      "dob": "1990-11-17",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 164208,
       "name": "Kamil Warzocha",
       "dob": "1995-10-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164210,
-      "name": "Tobiasz Kaniewski",
-      "dob": "1993-11-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164217,
-      "name": "Jakub Sulima",
-      "dob": "1993-09-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164219,
-      "name": "Igor Kownacki",
-      "dob": "1999-06-19",
       "height": null,
       "weight": null
     },
@@ -1112,13 +1014,6 @@
       "id": 164336,
       "name": "Maciej Okrzeja",
       "dob": "1993-04-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164337,
-      "name": "Janusz Prus",
-      "dob": "1993-07-18",
       "height": null,
       "weight": null
     },
@@ -1165,20 +1060,6 @@
       "weight": null
     },
     {
-      "id": 169420,
-      "name": "Mikolaj Pawlowski",
-      "dob": "1989-04-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 169500,
-      "name": "Paweł Jedynak",
-      "dob": "1996-07-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169567,
       "name": "Mateusz Florczyk",
       "dob": "2001-06-04",
@@ -1196,13 +1077,6 @@
       "id": 169647,
       "name": "Jakub Kurowski",
       "dob": "2002-04-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 170391,
-      "name": "Blazej Podlesny",
-      "dob": "1995-09-13",
       "height": null,
       "weight": null
     },
@@ -1277,13 +1151,6 @@
       "weight": null
     },
     {
-      "id": 179424,
-      "name": "Wiktor Mielczarek",
-      "dob": "1998-01-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179443,
       "name": "Aleksander Czachorowski",
       "dob": "2004-12-12",
@@ -1312,30 +1179,9 @@
       "weight": null
     },
     {
-      "id": 179576,
-      "name": "Bartosz Dudek",
-      "dob": "1984-09-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179577,
-      "name": "Bartlomiej Korycinski",
-      "dob": "1990-08-17",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179582,
       "name": "Bartosz Sobstyl",
       "dob": "1994-06-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179583,
-      "name": "Adam Sobstyl",
-      "dob": "1997-06-13",
       "height": null,
       "weight": null
     },
@@ -1345,48 +1191,6 @@
       "dob": "1994-06-09",
       "height": 192,
       "weight": 91
-    },
-    {
-      "id": 181608,
-      "name": "Michal Glowacki",
-      "dob": "1996-02-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181609,
-      "name": "Damian Zaleski",
-      "dob": "1982-08-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181610,
-      "name": "Mariusz Magnuszewski",
-      "dob": "1997-09-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181611,
-      "name": "Wojtek Iwanowicz",
-      "dob": "1981-05-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181612,
-      "name": "Mariusz Szlejter",
-      "dob": "1981-10-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182454,
-      "name": "Kuba Guzik",
-      "dob": "1996-12-03",
-      "height": null,
-      "weight": null
     },
     {
       "id": 182455,
@@ -1406,13 +1210,6 @@
       "id": 182951,
       "name": "Mikolaj Kaczmarek",
       "dob": "2001-01-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183105,
-      "name": "Jakub Skrajny",
-      "dob": "1999-08-17",
       "height": null,
       "weight": null
     },
@@ -1443,20 +1240,6 @@
       "dob": "1990-07-30",
       "height": 184,
       "weight": 76
-    },
-    {
-      "id": 193354,
-      "name": "Jan Lesiuk",
-      "dob": "1996-06-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 193355,
-      "name": "Patryk Szwaradzki",
-      "dob": "1995-06-27",
-      "height": null,
-      "weight": null
     },
     {
       "id": 201998,

@@ -735,9 +735,9 @@
       "id": 117581,
       "name": "Francisco Cacheda",
       "short": "Cacheda",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2005,
-      "last": 2021
+      "last": 2005
     },
     {
       "id": 117582,
@@ -903,9 +903,9 @@
       "id": 120401,
       "name": "Ignacio Batallan",
       "short": "Batallan-Garzón",
-      "tournaments": 9,
+      "tournaments": 6,
       "first": 2008,
-      "last": 2021
+      "last": 2012
     },
     {
       "id": 120933,
@@ -1012,14 +1012,6 @@
       "last": 2014
     },
     {
-      "id": 142414,
-      "name": "Lucas Barreda Frank",
-      "short": "Barreda",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 142939,
       "name": "Santiago Aulisi",
       "short": "Aulisi",
@@ -1071,7 +1063,7 @@
       "id": 153214,
       "name": "Fernando David Guiñazú",
       "short": "Guiñazú",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2021,
       "last": 2025
     },
@@ -1127,7 +1119,7 @@
       "id": 176932,
       "name": "Victor Luis San Martin",
       "short": "San Martin",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2021,
       "last": 2021
     },
@@ -2341,7 +2333,7 @@
     {
       "a": 153214,
       "b": 176932,
-      "t": 4,
+      "t": 2,
       "f": 2021,
       "l": 2021
     },

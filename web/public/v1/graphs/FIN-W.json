@@ -279,7 +279,7 @@
       "id": 139765,
       "name": "Ida Sinisalo",
       "short": "Sinisalo, I.",
-      "tournaments": 58,
+      "tournaments": 56,
       "first": 2012,
       "last": 2026
     },
@@ -311,7 +311,7 @@
       "id": 159972,
       "name": "Aliisa Vuorinen",
       "short": "Vuorinen",
-      "tournaments": 22,
+      "tournaments": 21,
       "first": 2018,
       "last": 2026
     },
@@ -319,7 +319,7 @@
       "id": 164526,
       "name": "Valma Vilhelmiina Prihti",
       "short": "Prihti",
-      "tournaments": 57,
+      "tournaments": 56,
       "first": 2018,
       "last": 2026
     },
@@ -335,7 +335,7 @@
       "id": 169504,
       "name": "Katja Metsäkoivu",
       "short": "Metsäkoivu K.",
-      "tournaments": 30,
+      "tournaments": 27,
       "first": 2019,
       "last": 2023
     },
@@ -343,7 +343,7 @@
       "id": 169505,
       "name": "Tuuli Metsäkoivu",
       "short": "Metsäkoivu T.",
-      "tournaments": 48,
+      "tournaments": 45,
       "first": 2019,
       "last": 2024
     },
@@ -375,7 +375,7 @@
       "id": 173839,
       "name": "Anna Rantala",
       "short": "Rantala",
-      "tournaments": 31,
+      "tournaments": 29,
       "first": 2019,
       "last": 2024
     },
@@ -812,7 +812,7 @@
     {
       "a": 139765,
       "b": 173839,
-      "t": 8,
+      "t": 6,
       "f": 2019,
       "l": 2021
     },
@@ -847,7 +847,7 @@
     {
       "a": 159972,
       "b": 164526,
-      "t": 16,
+      "t": 15,
       "f": 2018,
       "l": 2023
     },
@@ -861,7 +861,7 @@
     {
       "a": 169504,
       "b": 169505,
-      "t": 30,
+      "t": 27,
       "f": 2019,
       "l": 2023
     },

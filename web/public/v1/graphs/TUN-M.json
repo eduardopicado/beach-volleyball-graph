@@ -36,14 +36,6 @@
       "last": 1998
     },
     {
-      "id": 136630,
-      "name": "Tarek Jenhani",
-      "short": "Jenhani T.",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 142118,
       "name": "Arfaoui Chokri",
       "short": "Arfaoui.C",
@@ -106,14 +98,6 @@
       "tournaments": 1,
       "first": 2021,
       "last": 2021
-    },
-    {
-      "id": 180657,
-      "name": "Ahmed Gritli",
-      "short": "Gritli",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     }
   ],
   "edges": [
@@ -130,13 +114,6 @@
       "t": 1,
       "f": 1998,
       "l": 1998
-    },
-    {
-      "a": 136630,
-      "b": 180657,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 142118,

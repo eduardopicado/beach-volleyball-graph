@@ -84,14 +84,6 @@
       "last": 2008
     },
     {
-      "id": 121541,
-      "name": "Monika Potokar",
-      "short": "Potokar",
-      "tournaments": 2,
-      "first": 2020,
-      "last": 2020
-    },
-    {
       "id": 122364,
       "name": "Martina Jakob",
       "short": "Jakob",
@@ -119,7 +111,7 @@
       "id": 137272,
       "name": "Tjasa Jancar",
       "short": "Jancar",
-      "tournaments": 50,
+      "tournaments": 48,
       "first": 2015,
       "last": 2022
     },
@@ -183,7 +175,7 @@
       "id": 148492,
       "name": "Nina Lovsin",
       "short": "Lovsin, N.",
-      "tournaments": 43,
+      "tournaments": 39,
       "first": 2015,
       "last": 2022
     },
@@ -199,7 +191,7 @@
       "id": 153211,
       "name": "Tajda Lovsin",
       "short": "Lovsin, T.",
-      "tournaments": 123,
+      "tournaments": 120,
       "first": 2016,
       "last": 2026
     },
@@ -207,7 +199,7 @@
       "id": 153482,
       "name": "Spela Morgan",
       "short": "Morgan",
-      "tournaments": 14,
+      "tournaments": 12,
       "first": 2016,
       "last": 2022
     },
@@ -255,7 +247,7 @@
       "id": 157819,
       "name": "Katarina Fabjan",
       "short": "Fabjan, K.",
-      "tournaments": 22,
+      "tournaments": 19,
       "first": 2018,
       "last": 2020
     },
@@ -263,7 +255,7 @@
       "id": 157826,
       "name": "Nika Hrovat",
       "short": "Hrovat",
-      "tournaments": 15,
+      "tournaments": 12,
       "first": 2018,
       "last": 2021
     },
@@ -271,7 +263,7 @@
       "id": 157828,
       "name": "Nika Benedik Bevc",
       "short": "Benedik Bevc",
-      "tournaments": 15,
+      "tournaments": 12,
       "first": 2018,
       "last": 2021
     },
@@ -287,7 +279,7 @@
       "id": 157843,
       "name": "Tjasa Kotnik",
       "short": "Kotnik",
-      "tournaments": 139,
+      "tournaments": 134,
       "first": 2017,
       "last": 2026
     },
@@ -295,15 +287,15 @@
       "id": 157870,
       "name": "Zala Spoljaric",
       "short": "Spoljaric",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 157871,
       "name": "Lana Zuzek",
       "short": "Zuzek",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2019,
       "last": 2021
     },
@@ -327,7 +319,7 @@
       "id": 168659,
       "name": "Klara Kregar",
       "short": "Kregar",
-      "tournaments": 35,
+      "tournaments": 32,
       "first": 2018,
       "last": 2022
     },
@@ -447,13 +439,6 @@
       "l": 2008
     },
     {
-      "a": 121541,
-      "b": 157843,
-      "t": 2,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 122364,
       "b": 122365,
       "t": 31,
@@ -484,9 +469,9 @@
     {
       "a": 137272,
       "b": 148492,
-      "t": 3,
+      "t": 1,
       "f": 2015,
-      "l": 2020
+      "l": 2015
     },
     {
       "a": 137272,
@@ -575,9 +560,9 @@
     {
       "a": 148492,
       "b": 157843,
-      "t": 6,
+      "t": 4,
       "f": 2018,
-      "l": 2021
+      "l": 2018
     },
     {
       "a": 148492,
@@ -603,14 +588,14 @@
     {
       "a": 153211,
       "b": 153482,
-      "t": 4,
+      "t": 2,
       "f": 2016,
-      "l": 2021
+      "l": 2017
     },
     {
       "a": 153211,
       "b": 157843,
-      "t": 84,
+      "t": 83,
       "f": 2021,
       "l": 2026
     },
@@ -645,14 +630,14 @@
     {
       "a": 157819,
       "b": 168659,
-      "t": 22,
+      "t": 19,
       "f": 2018,
       "l": 2020
     },
     {
       "a": 157826,
       "b": 157828,
-      "t": 15,
+      "t": 12,
       "f": 2018,
       "l": 2021
     },
@@ -673,9 +658,9 @@
     {
       "a": 157870,
       "b": 157871,
-      "t": 2,
+      "t": 1,
       "f": 2019,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 164915,

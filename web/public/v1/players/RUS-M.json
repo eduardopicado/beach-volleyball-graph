@@ -885,13 +885,6 @@
       "weight": 100
     },
     {
-      "id": 131939,
-      "name": "Albert Stroev",
-      "dob": "1986-06-28",
-      "height": null,
-      "weight": 198
-    },
-    {
       "id": 132129,
       "name": "Iaroslav Rudykh",
       "dob": "1991-12-01",
@@ -930,13 +923,6 @@
       "id": 132482,
       "name": "Petr Korolev",
       "dob": "1981-07-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132483,
-      "name": "Sergey Alfimov",
-      "dob": "1986-06-19",
       "height": null,
       "weight": null
     },
@@ -1123,13 +1109,6 @@
       "weight": null
     },
     {
-      "id": 148517,
-      "name": "Maxim Adonin",
-      "dob": "1985-11-11",
-      "height": 190,
-      "weight": 90
-    },
-    {
       "id": 148704,
       "name": "Vladislav Ermilov",
       "dob": "1992-12-06",
@@ -1140,13 +1119,6 @@
       "id": 148705,
       "name": "Anton Kislytsyn",
       "dob": "1993-02-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 151296,
-      "name": "Sergey Kostrov",
-      "dob": "1996-12-17",
       "height": null,
       "weight": null
     },
@@ -1179,13 +1151,6 @@
       "weight": null
     },
     {
-      "id": 152115,
-      "name": "Konstantin Subbotin",
-      "dob": "1992-06-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 156766,
       "name": "Alexey Gusev",
       "dob": "2000-08-07",
@@ -1200,13 +1165,6 @@
       "weight": 80
     },
     {
-      "id": 156773,
-      "name": "Nikolay Chukhnenkov",
-      "dob": "2000-05-08",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 156775,
       "name": "Maksim Abramov",
       "dob": "2000-02-25",
@@ -1217,13 +1175,6 @@
       "id": 156779,
       "name": "Artur Salmanov",
       "dob": "2000-05-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156873,
-      "name": "Alexander Uzhegov",
-      "dob": "1994-09-05",
       "height": null,
       "weight": null
     },
@@ -1263,13 +1214,6 @@
       "weight": null
     },
     {
-      "id": 166594,
-      "name": "Nikita Evert",
-      "dob": "1999-06-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169415,
       "name": "Egor Kirillov",
       "dob": "1996-05-09",
@@ -1277,72 +1221,9 @@
       "weight": null
     },
     {
-      "id": 170466,
-      "name": "Daniil Kurochkin",
-      "dob": "2003-04-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 170740,
-      "name": "Ivan Osipov",
-      "dob": "2002-11-12",
-      "height": null,
-      "weight": 87
-    },
-    {
       "id": 171758,
       "name": "Viktor Markov",
       "dob": "1996-09-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 172813,
-      "name": "Ivan Osipov",
-      "dob": "2002-11-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173937,
-      "name": "Vadim Zaycev",
-      "dob": "1994-11-05",
-      "height": 187,
-      "weight": 85
-    },
-    {
-      "id": 173938,
-      "name": "Nikolay Volkov",
-      "dob": "1989-03-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173939,
-      "name": "Evgeny Volkov",
-      "dob": "1989-03-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173941,
-      "name": "Leonid Yuditskiy",
-      "dob": "1994-06-30",
-      "height": 188,
-      "weight": 88
-    },
-    {
-      "id": 175486,
-      "name": "Lev Leonov",
-      "dob": "2002-08-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178024,
-      "name": "Daniil Shapkin",
-      "dob": "1996-10-04",
       "height": null,
       "weight": null
     },
@@ -1368,13 +1249,6 @@
       "weight": null
     },
     {
-      "id": 178098,
-      "name": "Kirill Filistovich",
-      "dob": "1995-05-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 178959,
       "name": "Egor Zharovin",
       "dob": "2003-12-20",
@@ -1389,27 +1263,6 @@
       "weight": 87
     },
     {
-      "id": 179466,
-      "name": "Vadim Afanasev",
-      "dob": "2003-07-16",
-      "height": 192,
-      "weight": 73
-    },
-    {
-      "id": 179469,
-      "name": "Fedor Sabaev",
-      "dob": "2005-06-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179754,
-      "name": "Ilya Shulyak",
-      "dob": "2001-10-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 180975,
       "name": "Vladislav Aksenov",
       "dob": "1988-04-10",
@@ -1417,79 +1270,9 @@
       "weight": null
     },
     {
-      "id": 181142,
-      "name": "Andreii Kvochko",
-      "dob": "2005-04-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181593,
-      "name": "Kirill Polovnikov",
-      "dob": "2001-07-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182202,
-      "name": "Gleb Chuev",
-      "dob": "2004-03-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182203,
-      "name": "Daniil Chuev",
-      "dob": "2004-03-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182204,
-      "name": "Andreii Kostrov",
-      "dob": "1991-08-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182205,
-      "name": "Dmitrii Zhuravlev",
-      "dob": "1982-06-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182206,
-      "name": "Egor Kureshov",
-      "dob": "1995-10-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182235,
-      "name": "Nikita Ivanov",
-      "dob": "2000-09-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182251,
       "name": "Marat Islamov",
       "dob": "2003-02-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182959,
-      "name": "Dmitrii Shcherbak",
-      "dob": "1982-03-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182960,
-      "name": "Sergey Muratov",
-      "dob": "1978-02-21",
       "height": null,
       "weight": null
     },

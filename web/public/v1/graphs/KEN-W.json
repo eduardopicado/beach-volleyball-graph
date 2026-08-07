@@ -4,147 +4,43 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 112742,
-      "name": "Judith Tarus",
-      "short": "Tarus",
-      "tournaments": 6,
-      "first": 2019,
-      "last": 2021
-    },
-    {
       "id": 118369,
       "name": "Brackcides Khadambi",
       "short": "Khadambi",
-      "tournaments": 13,
-      "first": 2019,
+      "tournaments": 5,
+      "first": 2021,
       "last": 2024
-    },
-    {
-      "id": 118370,
-      "name": "Edinah Rotich",
-      "short": "Rotich",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 124315,
-      "name": "Florence Bosire",
-      "short": "moraa",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 124319,
-      "name": "Elizabeth Wanyama",
-      "short": "Wanyama",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     },
     {
       "id": 124540,
       "name": "Gaudencia Makokha",
       "short": "Makokha",
-      "tournaments": 17,
+      "tournaments": 10,
       "first": 2013,
       "last": 2026
-    },
-    {
-      "id": 124544,
-      "name": "Linnet Mukambi",
-      "short": "Jillian",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 133054,
-      "name": "Loice Tarus",
-      "short": "Lj Tarus",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 134614,
-      "name": "Jane Jepkemboi",
-      "short": "jay jay",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
     },
     {
       "id": 134617,
       "name": "Gladys Wangui",
       "short": "Gladys",
-      "tournaments": 10,
-      "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 135057,
-      "name": "Eunice J. Maiyo",
-      "short": "Maiyo",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 137826,
-      "name": "Loice Jepkoisgei",
-      "short": "L. Tarus",
       "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 138057,
-      "name": "Nancy Mulonza",
-      "short": "Nancy",
-      "tournaments": 6,
-      "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 140547,
-      "name": "Catherine Simiyu",
-      "short": "Cathy",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
+      "first": 2021,
+      "last": 2021
     },
     {
       "id": 142061,
       "name": "Naomie Too",
       "short": "Too",
-      "tournaments": 11,
+      "tournaments": 5,
       "first": 2013,
       "last": 2023
-    },
-    {
-      "id": 144617,
-      "name": "Leonida Kasaya",
-      "short": "Kasaya",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 164744,
       "name": "Yvonne Wavinya Kiitha",
       "short": "Wavinya",
-      "tournaments": 11,
-      "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 170122,
-      "name": "Lorine Chebet Kaei",
-      "short": "Lorine",
-      "tournaments": 1,
-      "first": 2023,
+      "tournaments": 3,
+      "first": 2021,
       "last": 2023
     },
     {
@@ -156,211 +52,27 @@
       "last": 2024
     },
     {
-      "id": 174878,
-      "name": "Agripina Khayesi Kundu",
-      "short": "Kundu",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
       "id": 175455,
       "name": "Phosca Nekesa Kasisi",
       "short": "Phosca",
-      "tournaments": 11,
-      "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 178765,
-      "name": "Ivy Enane",
-      "short": "Cheryl",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 178780,
-      "name": "Faith Oilakin",
-      "short": "Ayah",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 178782,
-      "name": "Leah Okumu",
-      "short": "Adhiambo",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 178789,
-      "name": "Marion Wambulwa",
-      "short": "Marion",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 179658,
-      "name": "Sarah Mutoro Wafula",
-      "short": "Sarah",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 179678,
-      "name": "Veronica Mukhwana Makokha",
-      "short": "Vero",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 179789,
-      "name": "Betty Namalwa Sifuna",
-      "short": "betty",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 179827,
-      "name": "Joan Nanjala Barasa",
-      "short": "Barasa",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2021,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 179830,
       "name": "Mercy Iminza Likhayo",
       "short": "Likhayo",
-      "tournaments": 4,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 179835,
-      "name": "Peris Kanus Cheptepkeny",
-      "short": "Kanus",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2023
-    },
-    {
-      "id": 179851,
-      "name": "Jane Mumbua",
-      "short": "Jane",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2023
-    },
-    {
-      "id": 179854,
-      "name": "Veronica Adhiambo Oluoch",
-      "short": "Adhiambo",
-      "tournaments": 6,
-      "first": 2019,
-      "last": 2021
-    },
-    {
-      "id": 179877,
-      "name": "Metrine Wabwile",
-      "short": "Metrine",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 181989,
-      "name": "Maurine Wekesa",
-      "short": "Wekesa",
-      "tournaments": 6,
-      "first": 2019,
-      "last": 2021
-    },
-    {
-      "id": 181990,
-      "name": "Naomi Wafula",
-      "short": "Wafula",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 181991,
-      "name": "Brenda Wafula",
-      "short": "Wafula",
-      "tournaments": 5,
-      "first": 2019,
-      "last": 2020
-    },
-    {
-      "id": 181992,
-      "name": "Mildred Cherop",
-      "short": "Cherop",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 181993,
-      "name": "Linet Awino",
-      "short": "Awino",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 181994,
-      "name": "Abigael Jepchirchir",
-      "short": "Jepchirchir",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 181995,
-      "name": "Naomi Millicent",
-      "short": "Millicent",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 181996,
-      "name": "Mishi Kibwana",
-      "short": "Kibwana",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 185145,
-      "name": "Lilian Odoyo",
-      "short": "AKINYI",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 185146,
-      "name": "Jane Atieno Agaya",
-      "short": "Jane",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 185151,
       "name": "Marion Makonjo Indeche",
       "short": "INDECHE",
-      "tournaments": 2,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2025,
       "last": 2025
     },
     {
@@ -370,157 +82,20 @@
       "tournaments": 1,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 199444,
-      "name": "Juma Faith",
-      "short": "Nanyama",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199445,
-      "name": "GRACE MARTHA",
-      "short": "ACHIENG",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199451,
-      "name": "Ruth Kareji",
-      "short": "Kareji",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199452,
-      "name": "Milka Okoth",
-      "short": "Milka",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199470,
-      "name": "Lilian Bitutu",
-      "short": "Bogonko",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199471,
-      "name": "Marcella Kiende",
-      "short": "Kiende",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199472,
-      "name": "Mitchel Barasa",
-      "short": "mitchel",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199473,
-      "name": "marion omondi",
-      "short": "Hezel",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199474,
-      "name": "Faith Nabifwo",
-      "short": "Wekesa",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199496,
-      "name": "Abigael Chebet",
-      "short": "Chebet",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199497,
-      "name": "Sharon Chepkogei",
-      "short": "Chepkogei",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     }
   ],
   "edges": [
     {
-      "a": 112742,
-      "b": 133054,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 112742,
-      "b": 134617,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 118369,
       "b": 124540,
-      "t": 11,
-      "f": 2019,
-      "l": 2024
-    },
-    {
-      "a": 118369,
-      "b": 137826,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 118369,
-      "b": 164744,
-      "t": 1,
+      "t": 5,
       "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 118370,
-      "b": 135057,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 124315,
-      "b": 179658,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 124319,
-      "b": 170122,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
+      "l": 2024
     },
     {
       "a": 124540,
       "b": 142061,
-      "t": 5,
+      "t": 4,
       "f": 2013,
       "l": 2023
     },
@@ -539,46 +114,11 @@
       "l": 2026
     },
     {
-      "a": 124544,
-      "b": 134617,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 134614,
-      "b": 140547,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 134617,
-      "b": 138057,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 134617,
       "b": 142061,
       "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 134617,
-      "b": 175455,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 138057,
-      "b": 179789,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
     },
     {
       "a": 142061,
@@ -588,32 +128,11 @@
       "l": 2023
     },
     {
-      "a": 142061,
-      "b": 174878,
-      "t": 4,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 142061,
-      "b": 179854,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 144617,
-      "b": 174878,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
       "a": 164744,
       "b": 175455,
-      "t": 9,
-      "f": 2019,
-      "l": 2023
+      "t": 2,
+      "f": 2021,
+      "l": 2022
     },
     {
       "a": 172146,
@@ -621,132 +140,6 @@
       "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 178765,
-      "b": 181996,
-      "t": 4,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 178780,
-      "b": 181991,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 178782,
-      "b": 181990,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 178789,
-      "b": 199474,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 179678,
-      "b": 181993,
-      "t": 4,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 179827,
-      "b": 179835,
-      "t": 2,
-      "f": 2021,
-      "l": 2023
-    },
-    {
-      "a": 179827,
-      "b": 185151,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 179830,
-      "b": 179851,
-      "t": 2,
-      "f": 2021,
-      "l": 2023
-    },
-    {
-      "a": 179830,
-      "b": 181989,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 179854,
-      "b": 181989,
-      "t": 5,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 179877,
-      "b": 181992,
-      "t": 4,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 181994,
-      "b": 181995,
-      "t": 4,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 185145,
-      "b": 185146,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 199444,
-      "b": 199445,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 199451,
-      "b": 199452,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 199470,
-      "b": 199471,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 199472,
-      "b": 199473,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 199496,
-      "b": 199497,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     }
   ]
 }

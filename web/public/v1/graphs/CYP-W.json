@@ -31,15 +31,15 @@
       "id": 124021,
       "name": "Manolina Konstantinou",
       "short": "Konstantinou",
-      "tournaments": 9,
+      "tournaments": 7,
       "first": 2010,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 124022,
       "name": "Mariota Angelopoulou",
       "short": "Angelopoulou",
-      "tournaments": 25,
+      "tournaments": 24,
       "first": 2010,
       "last": 2021
     },
@@ -79,7 +79,7 @@
       "id": 139383,
       "name": "Zoi Konstantopoulou",
       "short": "Konstantopoulou",
-      "tournaments": 26,
+      "tournaments": 24,
       "first": 2012,
       "last": 2022
     },
@@ -223,7 +223,7 @@
       "id": 161109,
       "name": "Daria Gusarova",
       "short": "Gusarova D.",
-      "tournaments": 36,
+      "tournaments": 35,
       "first": 2017,
       "last": 2024
     },
@@ -275,9 +275,9 @@
     {
       "a": 124021,
       "b": 139383,
-      "t": 3,
+      "t": 1,
       "f": 2018,
-      "l": 2020
+      "l": 2018
     },
     {
       "a": 124022,
@@ -289,7 +289,7 @@
     {
       "a": 124022,
       "b": 161109,
-      "t": 15,
+      "t": 14,
       "f": 2017,
       "l": 2020
     },

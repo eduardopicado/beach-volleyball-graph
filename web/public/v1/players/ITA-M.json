@@ -661,13 +661,6 @@
       "weight": 80
     },
     {
-      "id": 103731,
-      "name": "Matteo Alberti",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 103743,
       "name": "Diego Nota",
       "dob": "1979-08-10",
@@ -2047,13 +2040,6 @@
       "weight": null
     },
     {
-      "id": 150435,
-      "name": "Marco Vitelli",
-      "dob": "1996-04-04",
-      "height": 203,
-      "weight": 94
-    },
-    {
       "id": 151113,
       "name": "Andrea Abbiati",
       "dob": "1986-02-05",
@@ -2243,20 +2229,6 @@
       "weight": null
     },
     {
-      "id": 164448,
-      "name": "Lorenzo Rossi",
-      "dob": "1990-01-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164516,
-      "name": "Joshua Kessler",
-      "dob": "1990-12-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 164781,
       "name": "Mauro Sacripanti",
       "dob": "1998-05-15",
@@ -2269,20 +2241,6 @@
       "dob": "1977-02-25",
       "height": 187,
       "weight": 85
-    },
-    {
-      "id": 165086,
-      "name": "Andrea Dall'Olio",
-      "dob": "1990-09-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 165087,
-      "name": "Anthony Major",
-      "dob": "1993-07-14",
-      "height": null,
-      "weight": null
     },
     {
       "id": 165099,
@@ -2309,20 +2267,6 @@
       "id": 167208,
       "name": "Filippo Boesso",
       "dob": "1993-08-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 167521,
-      "name": "Marco Algeri",
-      "dob": "1978-12-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 167635,
-      "name": "Tommaso Pizzileo",
-      "dob": "1995-09-15",
       "height": null,
       "weight": null
     },
@@ -2397,13 +2341,6 @@
       "weight": 95
     },
     {
-      "id": 169649,
-      "name": "Filippo Fusco",
-      "dob": "2002-11-06",
-      "height": 189,
-      "weight": 77
-    },
-    {
       "id": 169854,
       "name": "Lorenzo PANERATI",
       "dob": "1999-04-15",
@@ -2411,30 +2348,9 @@
       "weight": null
     },
     {
-      "id": 170439,
-      "name": "Luca Lesca",
-      "dob": "1994-09-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 170441,
       "name": "Federico Geromin",
       "dob": "1996-06-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 170450,
-      "name": "Francesco Margaritelli",
-      "dob": "1995-02-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 170452,
-      "name": "Andrea Torre",
-      "dob": "1992-10-24",
       "height": null,
       "weight": null
     },
@@ -2488,25 +2404,11 @@
       "weight": null
     },
     {
-      "id": 174366,
-      "name": "Simone Cherin",
-      "dob": "2001-08-16",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 174835,
       "name": "Andrea Lancianese",
       "dob": "2002-07-09",
       "height": 203,
       "weight": null
-    },
-    {
-      "id": 174872,
-      "name": "Daniele Sablone",
-      "dob": "1991-06-01",
-      "height": 194,
-      "weight": 80
     },
     {
       "id": 175341,
@@ -2523,37 +2425,9 @@
       "weight": 77
     },
     {
-      "id": 178551,
-      "name": "Luca Mincione",
-      "dob": "1983-03-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179037,
-      "name": "Luca Ciccarelli",
-      "dob": "1993-10-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179038,
       "name": "Alberto Moro",
       "dob": "2003-03-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179086,
-      "name": "Fabrizio Bontà",
-      "dob": "1986-12-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179087,
-      "name": "Edoardo Frangi",
-      "dob": "1989-06-26",
       "height": null,
       "weight": null
     },
@@ -2603,48 +2477,6 @@
       "id": 183129,
       "name": "Matteo Camerani",
       "dob": "2002-06-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183806,
-      "name": "Marco Tascone",
-      "dob": "1986-12-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183808,
-      "name": "Francesco Michieli",
-      "dob": "1995-09-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183809,
-      "name": "Alessandro Marta",
-      "dob": "1997-09-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183810,
-      "name": "Andrea Boniotti",
-      "dob": "1985-05-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183811,
-      "name": "Daniel Cerri",
-      "dob": "1993-01-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 183813,
-      "name": "Nicolo' Pozzi",
-      "dob": "2003-03-02",
       "height": null,
       "weight": null
     },
@@ -2726,13 +2558,6 @@
       "weight": null
     },
     {
-      "id": 192139,
-      "name": "Manuele Lucconi",
-      "dob": "1999-02-09",
-      "height": 194,
-      "weight": null
-    },
-    {
       "id": 192140,
       "name": "Simone Podestà",
       "dob": "2001-07-27",
@@ -2745,13 +2570,6 @@
       "dob": "1996-03-16",
       "height": 198,
       "weight": 95
-    },
-    {
-      "id": 192142,
-      "name": "Michel Arbaney",
-      "dob": "1984-06-02",
-      "height": null,
-      "weight": null
     },
     {
       "id": 192143,

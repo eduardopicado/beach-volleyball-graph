@@ -31,7 +31,7 @@
       "id": 175142,
       "name": "Mbye Babou Jarra",
       "short": "Jarra",
-      "tournaments": 17,
+      "tournaments": 16,
       "first": 2019,
       "last": 2022
     },
@@ -39,7 +39,7 @@
       "id": 175144,
       "name": "Sainey Jawo",
       "short": "Jawo",
-      "tournaments": 31,
+      "tournaments": 30,
       "first": 2019,
       "last": 2026
     },
@@ -140,7 +140,7 @@
     {
       "a": 175142,
       "b": 175144,
-      "t": 17,
+      "t": 16,
       "f": 2019,
       "l": 2022
     },

@@ -111,7 +111,7 @@
       "id": 118100,
       "name": "Michael Watson",
       "short": "Watson",
-      "tournaments": 36,
+      "tournaments": 35,
       "first": 2006,
       "last": 2025
     },
@@ -191,7 +191,7 @@
       "id": 120529,
       "name": "Sam O'Dea",
       "short": "O'Dea, S.",
-      "tournaments": 103,
+      "tournaments": 100,
       "first": 2008,
       "last": 2026
     },
@@ -231,15 +231,15 @@
       "id": 124998,
       "name": "Johann Timmer",
       "short": "Timmer",
-      "tournaments": 16,
+      "tournaments": 14,
       "first": 2009,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 132041,
       "name": "Ben O'Dea",
       "short": "O'Dea B.",
-      "tournaments": 86,
+      "tournaments": 83,
       "first": 2010,
       "last": 2026
     },
@@ -271,7 +271,7 @@
       "id": 135512,
       "name": "Thomas Hartles",
       "short": "Hartles",
-      "tournaments": 73,
+      "tournaments": 70,
       "first": 2011,
       "last": 2025
     },
@@ -295,7 +295,7 @@
       "id": 138958,
       "name": "Bradley Fuller",
       "short": "Fuller",
-      "tournaments": 59,
+      "tournaments": 55,
       "first": 2012,
       "last": 2026
     },
@@ -327,7 +327,7 @@
       "id": 141383,
       "name": "Thomas Heijs",
       "short": "Heijs",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2023,
       "last": 2023
     },
@@ -359,7 +359,7 @@
       "id": 146805,
       "name": "Gregory David Vukets",
       "short": "Vukets",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2014,
       "last": 2024
     },
@@ -391,7 +391,7 @@
       "id": 155803,
       "name": "Daniel Kilpatrick",
       "short": "Kilpatrick",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2016,
       "last": 2026
     },
@@ -399,7 +399,7 @@
       "id": 160610,
       "name": "Alani Nicklin",
       "short": "Nicklin",
-      "tournaments": 70,
+      "tournaments": 66,
       "first": 2017,
       "last": 2024
     },
@@ -407,7 +407,7 @@
       "id": 161083,
       "name": "Giles Black",
       "short": "Black",
-      "tournaments": 22,
+      "tournaments": 18,
       "first": 2022,
       "last": 2026
     },
@@ -415,7 +415,7 @@
       "id": 162167,
       "name": "Joshua Tiplady",
       "short": "Tiplady",
-      "tournaments": 10,
+      "tournaments": 6,
       "first": 2023,
       "last": 2026
     },
@@ -423,7 +423,7 @@
       "id": 163816,
       "name": "Thomas Reid",
       "short": "Reid",
-      "tournaments": 40,
+      "tournaments": 36,
       "first": 2022,
       "last": 2026
     },
@@ -455,7 +455,7 @@
       "id": 166551,
       "name": "Perry Preston",
       "short": "Preston",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2022,
       "last": 2025
     },
@@ -471,7 +471,7 @@
       "id": 166735,
       "name": "John McManaway",
       "short": "McManaway",
-      "tournaments": 32,
+      "tournaments": 28,
       "first": 2018,
       "last": 2026
     },
@@ -479,7 +479,7 @@
       "id": 166737,
       "name": "James Sadlier",
       "short": "Sadlier",
-      "tournaments": 18,
+      "tournaments": 15,
       "first": 2023,
       "last": 2026
     },
@@ -487,7 +487,7 @@
       "id": 173888,
       "name": "Eric Dean Stratton",
       "short": "Stratton",
-      "tournaments": 7,
+      "tournaments": 3,
       "first": 2023,
       "last": 2025
     },
@@ -519,7 +519,7 @@
       "id": 178418,
       "name": "Campbell Forsyth",
       "short": "Forsyth",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2022,
       "last": 2024
     },
@@ -527,7 +527,7 @@
       "id": 180606,
       "name": "Kyle Alan Smith",
       "short": "Smith, K.",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
       "last": 2023
     },
@@ -535,7 +535,7 @@
       "id": 186698,
       "name": "Juraj Krajci",
       "short": "Krajci",
-      "tournaments": 39,
+      "tournaments": 35,
       "first": 2022,
       "last": 2026
     },
@@ -551,7 +551,7 @@
       "id": 187305,
       "name": "Charlie Dalton",
       "short": "Dalton",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
       "last": 2023
     },
@@ -564,27 +564,11 @@
       "last": 2022
     },
     {
-      "id": 187666,
-      "name": "Jeremy Nielsen",
-      "short": "Nielsen",
-      "tournaments": 2,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 187844,
-      "name": "Henry Li",
-      "short": "Li",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
       "id": 199000,
       "name": "Michael Tyler",
       "short": "Tyler",
-      "tournaments": 14,
-      "first": 2023,
+      "tournaments": 12,
+      "first": 2024,
       "last": 2026
     },
     {
@@ -594,22 +578,6 @@
       "tournaments": 8,
       "first": 2023,
       "last": 2024
-    },
-    {
-      "id": 199356,
-      "name": "Sean Thurlow",
-      "short": "Thurlow",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199357,
-      "name": "Anton Teptsov",
-      "short": "Teptsov",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     },
     {
       "id": 199358,
@@ -623,40 +591,16 @@
       "id": 199359,
       "name": "Finn Howard",
       "short": "Howard",
-      "tournaments": 3,
-      "first": 2023,
-      "last": 2025
-    },
-    {
-      "id": 199361,
-      "name": "Mateo Roa",
-      "short": "Roa",
       "tournaments": 2,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199362,
-      "name": "Nathan Davies",
-      "short": "Davies",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 199363,
-      "name": "Ben Blakemore",
-      "short": "Blakemore",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
+      "first": 2025,
+      "last": 2025
     },
     {
       "id": 199597,
       "name": "Jamie Julian",
       "short": "Julian",
-      "tournaments": 3,
-      "first": 2023,
+      "tournaments": 2,
+      "first": 2025,
       "last": 2025
     },
     {
@@ -886,7 +830,7 @@
     {
       "a": 118100,
       "b": 187305,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -977,7 +921,7 @@
     {
       "a": 120529,
       "b": 132041,
-      "t": 38,
+      "t": 35,
       "f": 2010,
       "l": 2026
     },
@@ -1054,9 +998,9 @@
     {
       "a": 124998,
       "b": 146805,
-      "t": 3,
+      "t": 1,
       "f": 2022,
-      "l": 2023
+      "l": 2022
     },
     {
       "a": 132041,
@@ -1138,7 +1082,7 @@
     {
       "a": 135512,
       "b": 141383,
-      "t": 5,
+      "t": 2,
       "f": 2023,
       "l": 2023
     },
@@ -1180,7 +1124,7 @@
     {
       "a": 138958,
       "b": 160610,
-      "t": 18,
+      "t": 14,
       "f": 2023,
       "l": 2023
     },
@@ -1221,13 +1165,6 @@
     },
     {
       "a": 146805,
-      "b": 166737,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 146805,
       "b": 178418,
       "t": 2,
       "f": 2023,
@@ -1250,8 +1187,8 @@
     {
       "a": 155803,
       "b": 166737,
-      "t": 2,
-      "f": 2023,
+      "t": 1,
+      "f": 2024,
       "l": 2024
     },
     {
@@ -1278,7 +1215,7 @@
     {
       "a": 161083,
       "b": 162167,
-      "t": 7,
+      "t": 3,
       "f": 2023,
       "l": 2023
     },
@@ -1327,7 +1264,7 @@
     {
       "a": 163816,
       "b": 166735,
-      "t": 19,
+      "t": 15,
       "f": 2023,
       "l": 2024
     },
@@ -1361,24 +1298,10 @@
     },
     {
       "a": 166551,
-      "b": 178418,
-      "t": 2,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 166551,
       "b": 199000,
       "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 166551,
-      "b": 199597,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 166681,
@@ -1404,7 +1327,7 @@
     {
       "a": 166737,
       "b": 178418,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -1432,7 +1355,7 @@
     {
       "a": 173888,
       "b": 186698,
-      "t": 5,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -1456,13 +1379,6 @@
       "t": 1,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 180606,
-      "b": 199359,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 186698,
@@ -1508,24 +1424,10 @@
     },
     {
       "a": 199000,
-      "b": 199361,
-      "t": 2,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 199000,
       "b": 219673,
       "t": 3,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 199356,
-      "b": 199357,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 199358,
@@ -1547,13 +1449,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 199362,
-      "b": 199363,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 199597,

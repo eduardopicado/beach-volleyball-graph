@@ -351,7 +351,7 @@
       "id": 148483,
       "name": "Dimitriy Korotkov",
       "short": "Korotkov",
-      "tournaments": 80,
+      "tournaments": 79,
       "first": 2016,
       "last": 2026
     },
@@ -359,7 +359,7 @@
       "id": 149120,
       "name": "Mart Tiisaar",
       "short": "Tiisaar",
-      "tournaments": 153,
+      "tournaments": 152,
       "first": 2016,
       "last": 2026
     },
@@ -367,7 +367,7 @@
       "id": 155460,
       "name": "Kusti Nõlvak",
       "short": "Nõlvak",
-      "tournaments": 112,
+      "tournaments": 111,
       "first": 2016,
       "last": 2025
     },
@@ -407,7 +407,7 @@
       "id": 168984,
       "name": "Timo Ander Lõhmus",
       "short": "Lõhmus",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2019,
       "last": 2021
     },
@@ -1002,8 +1002,8 @@
     {
       "a": 148483,
       "b": 168984,
-      "t": 7,
-      "f": 2020,
+      "t": 6,
+      "f": 2021,
       "l": 2021
     },
     {
@@ -1023,7 +1023,7 @@
     {
       "a": 149120,
       "b": 155460,
-      "t": 108,
+      "t": 107,
       "f": 2016,
       "l": 2024
     },

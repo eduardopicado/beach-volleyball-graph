@@ -935,7 +935,7 @@
       "id": 102904,
       "name": "Adam Roberts",
       "short": "Roberts",
-      "tournaments": 120,
+      "tournaments": 117,
       "first": 2000,
       "last": 2026
     },
@@ -1311,7 +1311,7 @@
       "id": 113734,
       "name": "David McKienzie",
       "short": "McKienzie",
-      "tournaments": 23,
+      "tournaments": 20,
       "first": 2013,
       "last": 2023
     },
@@ -1935,7 +1935,7 @@
       "id": 137420,
       "name": "Ian Satterfield",
       "short": "Satterfield",
-      "tournaments": 20,
+      "tournaments": 18,
       "first": 2011,
       "last": 2026
     },
@@ -2300,14 +2300,6 @@
       "last": 2019
     },
     {
-      "id": 153472,
-      "name": "Cody Kessel",
-      "short": "Kessel",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 153856,
       "name": "Raffe Paulis",
       "short": "Paulis",
@@ -2343,7 +2335,7 @@
       "id": 156158,
       "name": "Michael Boag",
       "short": "Boag",
-      "tournaments": 40,
+      "tournaments": 37,
       "first": 2018,
       "last": 2022
     },
@@ -2359,7 +2351,7 @@
       "id": 156222,
       "name": "Benjamin Vaught",
       "short": "Vaught",
-      "tournaments": 54,
+      "tournaments": 51,
       "first": 2016,
       "last": 2026
     },
@@ -2399,7 +2391,7 @@
       "id": 157394,
       "name": "Timothy Brewster",
       "short": "Brewster",
-      "tournaments": 108,
+      "tournaments": 105,
       "first": 2018,
       "last": 2026
     },
@@ -2471,7 +2463,7 @@
       "id": 161662,
       "name": "Christopher Luers",
       "short": "Luers",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2017,
       "last": 2022
     },
@@ -2487,7 +2479,7 @@
       "id": 162451,
       "name": "Logan Webber",
       "short": "Webber",
-      "tournaments": 85,
+      "tournaments": 84,
       "first": 2018,
       "last": 2026
     },
@@ -2719,7 +2711,7 @@
       "id": 167917,
       "name": "Travis Mewhirter",
       "short": "Mewhirter",
-      "tournaments": 55,
+      "tournaments": 52,
       "first": 2018,
       "last": 2025
     },
@@ -2866,14 +2858,6 @@
       "tournaments": 11,
       "first": 2024,
       "last": 2026
-    },
-    {
-      "id": 176783,
-      "name": "Jonathan Ferrari",
-      "short": "Ferrari",
-      "tournaments": 2,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 178711,
@@ -4992,13 +4976,6 @@
     },
     {
       "a": 102904,
-      "b": 137420,
-      "t": 2,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 102904,
       "b": 138626,
       "t": 1,
       "f": 2018,
@@ -5119,7 +5096,7 @@
     {
       "a": 102904,
       "b": 167917,
-      "t": 20,
+      "t": 19,
       "f": 2019,
       "l": 2021
     },
@@ -5609,7 +5586,7 @@
     {
       "a": 113734,
       "b": 156222,
-      "t": 15,
+      "t": 12,
       "f": 2022,
       "l": 2023
     },
@@ -7310,7 +7287,7 @@
     {
       "a": 156158,
       "b": 157394,
-      "t": 15,
+      "t": 14,
       "f": 2019,
       "l": 2021
     },
@@ -7331,7 +7308,7 @@
     {
       "a": 156158,
       "b": 167917,
-      "t": 5,
+      "t": 3,
       "f": 2019,
       "l": 2020
     },
@@ -7463,13 +7440,6 @@
     },
     {
       "a": 157394,
-      "b": 176783,
-      "t": 2,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 157394,
       "b": 192695,
       "t": 3,
       "f": 2024,
@@ -7590,8 +7560,8 @@
     {
       "a": 161662,
       "b": 162451,
-      "t": 2,
-      "f": 2020,
+      "t": 1,
+      "f": 2022,
       "l": 2022
     },
     {

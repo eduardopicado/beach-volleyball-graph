@@ -311,7 +311,7 @@
       "id": 134836,
       "name": "Daniel Thomsen",
       "short": "Thomsen",
-      "tournaments": 40,
+      "tournaments": 38,
       "first": 2017,
       "last": 2022
     },
@@ -319,7 +319,7 @@
       "id": 136993,
       "name": "Morten Overgaard",
       "short": "Overgaard",
-      "tournaments": 21,
+      "tournaments": 20,
       "first": 2014,
       "last": 2020
     },
@@ -343,7 +343,7 @@
       "id": 144472,
       "name": "Kristoffer Abell",
       "short": "Abell",
-      "tournaments": 122,
+      "tournaments": 120,
       "first": 2014,
       "last": 2026
     },
@@ -351,7 +351,7 @@
       "id": 144474,
       "name": "Mads Rosager",
       "short": "Rosager",
-      "tournaments": 47,
+      "tournaments": 46,
       "first": 2014,
       "last": 2020
     },
@@ -412,18 +412,10 @@
       "last": 2024
     },
     {
-      "id": 148602,
-      "name": "Morten Kim Fog",
-      "short": "Fog",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 157019,
       "name": "Jacob Stein Brinck",
       "short": "Brinck",
-      "tournaments": 71,
+      "tournaments": 69,
       "first": 2018,
       "last": 2026
     },
@@ -447,7 +439,7 @@
       "id": 174994,
       "name": "Nicolai Hovmann Overgaard",
       "short": "Houmann",
-      "tournaments": 54,
+      "tournaments": 52,
       "first": 2019,
       "last": 2026
     },
@@ -785,7 +777,7 @@
     {
       "a": 134836,
       "b": 136993,
-      "t": 9,
+      "t": 8,
       "f": 2019,
       "l": 2020
     },
@@ -813,7 +805,7 @@
     {
       "a": 134836,
       "b": 157019,
-      "t": 7,
+      "t": 6,
       "f": 2021,
       "l": 2021
     },
@@ -897,8 +889,8 @@
     {
       "a": 144472,
       "b": 174994,
-      "t": 6,
-      "f": 2020,
+      "t": 4,
+      "f": 2021,
       "l": 2021
     },
     {
@@ -925,7 +917,7 @@
     {
       "a": 144474,
       "b": 157019,
-      "t": 24,
+      "t": 23,
       "f": 2018,
       "l": 2020
     },

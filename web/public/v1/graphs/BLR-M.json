@@ -175,7 +175,7 @@
       "id": 118972,
       "name": "Aliaksandr Dziadkou",
       "short": "Dziadkou",
-      "tournaments": 125,
+      "tournaments": 124,
       "first": 2007,
       "last": 2026
     },
@@ -255,7 +255,7 @@
       "id": 152942,
       "name": "Ilya Abramenka",
       "short": "Abramenka",
-      "tournaments": 10,
+      "tournaments": 8,
       "first": 2019,
       "last": 2021
     },
@@ -263,7 +263,7 @@
       "id": 156205,
       "name": "Pavel Piatrushka",
       "short": "Piatrushka",
-      "tournaments": 47,
+      "tournaments": 46,
       "first": 2016,
       "last": 2026
     },
@@ -279,7 +279,7 @@
       "id": 169957,
       "name": "Andrei Mitrafanau",
       "short": "Mitrafanau",
-      "tournaments": 8,
+      "tournaments": 6,
       "first": 2020,
       "last": 2021
     },
@@ -290,14 +290,6 @@
       "tournaments": 3,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 181088,
-      "name": "Aliaksandr Bialkevich",
-      "short": "Bialkevich",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 240681,
@@ -466,7 +458,7 @@
     {
       "a": 118972,
       "b": 156205,
-      "t": 45,
+      "t": 44,
       "f": 2018,
       "l": 2026
     },
@@ -508,7 +500,7 @@
     {
       "a": 152942,
       "b": 169957,
-      "t": 8,
+      "t": 6,
       "f": 2020,
       "l": 2021
     },

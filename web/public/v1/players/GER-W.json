@@ -416,13 +416,6 @@
       "weight": 70
     },
     {
-      "id": 104783,
-      "name": "Anne Friedrich",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 105038,
       "name": "Katarina Schillerwein",
       "dob": "1987-04-18",
@@ -584,13 +577,6 @@
       "weight": null
     },
     {
-      "id": 120334,
-      "name": "Anne Matthes",
-      "dob": "1985-04-30",
-      "height": 182,
-      "weight": 66
-    },
-    {
       "id": 120458,
       "name": "Lisa Mittenzwei",
       "dob": "1988-10-12",
@@ -724,13 +710,6 @@
       "weight": null
     },
     {
-      "id": 133946,
-      "name": "Laura Mählmann",
-      "dob": "1988-07-18",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 135670,
       "name": "Sandra Ittlinger",
       "dob": "1994-06-24",
@@ -801,13 +780,6 @@
       "weight": 78
     },
     {
-      "id": 142048,
-      "name": "Kristina Schlechter",
-      "dob": "1984-09-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 142053,
       "name": "Natascha Niemczyk",
       "dob": "1990-02-07",
@@ -822,30 +794,9 @@
       "weight": null
     },
     {
-      "id": 143386,
-      "name": "Lena Overländer",
-      "dob": "1996-04-24",
-      "height": 180,
-      "weight": null
-    },
-    {
-      "id": 143387,
-      "name": "Sarah Overländer",
-      "dob": "1996-04-24",
-      "height": 181,
-      "weight": null
-    },
-    {
       "id": 143622,
       "name": "Anna Hoja",
       "dob": "1992-03-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 144011,
-      "name": "Caroline Eggert",
-      "dob": "1989-06-05",
       "height": null,
       "weight": null
     },
@@ -862,13 +813,6 @@
       "dob": "1996-01-29",
       "height": 184,
       "weight": 66
-    },
-    {
-      "id": 147160,
-      "name": "Stefanie Kelm",
-      "dob": "1981-01-28",
-      "height": null,
-      "weight": null
     },
     {
       "id": 147664,
@@ -911,20 +855,6 @@
       "dob": "1998-05-25",
       "height": 184,
       "weight": 68
-    },
-    {
-      "id": 151823,
-      "name": "Anne Domroese",
-      "dob": "1983-11-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 151824,
-      "name": "Kristin Standhardinger",
-      "dob": "1990-06-07",
-      "height": null,
-      "weight": null
     },
     {
       "id": 152140,
@@ -983,20 +913,6 @@
       "weight": null
     },
     {
-      "id": 157403,
-      "name": "Antonia Stautz",
-      "dob": "1993-12-15",
-      "height": 180,
-      "weight": 68
-    },
-    {
-      "id": 158803,
-      "name": "Bianca Meinhardt",
-      "dob": "1987-03-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 161500,
       "name": "Anika Wucherer",
       "dob": "1996-11-12",
@@ -1032,25 +948,11 @@
       "weight": 66
     },
     {
-      "id": 165300,
-      "name": "Rosali Nimz",
-      "dob": "1993-06-15",
-      "height": 179,
-      "weight": 68
-    },
-    {
       "id": 166925,
       "name": "Lea Sophie Kunst",
       "dob": "2001-12-18",
       "height": 186,
       "weight": 75
-    },
-    {
-      "id": 167197,
-      "name": "Sophie Apel",
-      "dob": "1996-09-19",
-      "height": null,
-      "weight": null
     },
     {
       "id": 168101,
@@ -1109,20 +1011,6 @@
       "weight": null
     },
     {
-      "id": 169029,
-      "name": "Viktoria Dörschug",
-      "dob": "2002-10-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 169036,
-      "name": "Charlotta Werscheck",
-      "dob": "1998-08-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169546,
       "name": "Doreen Kauschus",
       "dob": "1986-06-19",
@@ -1137,23 +1025,9 @@
       "weight": null
     },
     {
-      "id": 169551,
-      "name": "Franka Walther",
-      "dob": "1999-04-05",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 175330,
       "name": "Josefin Bluhm",
       "dob": "2000-03-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175482,
-      "name": "Ida Burbulla",
-      "dob": "1994-11-22",
       "height": null,
       "weight": null
     },
@@ -1172,23 +1046,9 @@
       "weight": 68
     },
     {
-      "id": 181617,
-      "name": "Jule Mantsch",
-      "dob": "2004-04-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182336,
       "name": "Kim Viktoria Prade",
       "dob": "2005-04-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182337,
-      "name": "Franka van der Veer",
-      "dob": "2003-01-16",
       "height": null,
       "weight": null
     },
@@ -1221,52 +1081,10 @@
       "weight": 65
     },
     {
-      "id": 182347,
-      "name": "Alexandra Bura",
-      "dob": "1993-03-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182348,
-      "name": "Mariela Paul",
-      "dob": "1998-02-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182350,
-      "name": "Amelie Busch",
-      "dob": "2002-10-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182351,
-      "name": "Samira Winkler",
-      "dob": "2003-09-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182352,
       "name": "Melanie Paul",
       "dob": "2000-10-27",
       "height": 177,
-      "weight": null
-    },
-    {
-      "id": 182353,
-      "name": "Leonie Büdenbender",
-      "dob": "2004-02-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182354,
-      "name": "chiara Nadalin",
-      "dob": "2004-08-16",
-      "height": null,
       "weight": null
     },
     {
@@ -1280,20 +1098,6 @@
       "id": 184132,
       "name": "Louisa Marunde",
       "dob": "2000-07-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 184315,
-      "name": "Annika Frankenberger",
-      "dob": "1991-03-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 184317,
-      "name": "Madleen Piest",
-      "dob": "1995-06-15",
       "height": null,
       "weight": null
     },

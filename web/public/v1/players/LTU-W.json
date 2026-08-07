@@ -122,13 +122,6 @@
       "weight": 62
     },
     {
-      "id": 139170,
-      "name": "Vilte Bogdanovic",
-      "dob": "1993-08-07",
-      "height": 184,
-      "weight": null
-    },
-    {
       "id": 139477,
       "name": "Urte Andriukaityte",
       "dob": "1996-12-18",
@@ -148,13 +141,6 @@
       "dob": "1993-07-21",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 141988,
-      "name": "Ingrida Milkintaite",
-      "dob": "1987-06-26",
-      "height": 172,
-      "weight": 68
     },
     {
       "id": 141990,
@@ -183,13 +169,6 @@
       "dob": "1997-03-22",
       "height": 176,
       "weight": 65
-    },
-    {
-      "id": 146834,
-      "name": "Diana Kancerevyciene",
-      "dob": "1985-12-30",
-      "height": null,
-      "weight": null
     },
     {
       "id": 146863,
@@ -227,13 +206,6 @@
       "weight": 65
     },
     {
-      "id": 156961,
-      "name": "Kristina Majauskaite",
-      "dob": "1987-07-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 162690,
       "name": "Gerda Grudzinskaite",
       "dob": "1999-06-20",
@@ -269,13 +241,6 @@
       "weight": 75
     },
     {
-      "id": 169436,
-      "name": "Vakare Radvilaviciute",
-      "dob": "2003-02-25",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169437,
       "name": "Skalve Krizanauskaite",
       "dob": "2002-07-31",
@@ -290,30 +255,9 @@
       "weight": 85
     },
     {
-      "id": 169442,
-      "name": "Gabija Straseviciute",
-      "dob": "2002-12-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 169443,
       "name": "Melanija Vasiliauskaite",
       "dob": "2003-08-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 169558,
-      "name": "Gabriele Petrauskaite",
-      "dob": "2003-07-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 172101,
-      "name": "Monika Macionyte",
-      "dob": "1998-09-28",
       "height": null,
       "weight": null
     },
@@ -323,27 +267,6 @@
       "dob": "1994-07-22",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 174430,
-      "name": "Margarita Savostenok",
-      "dob": "1992-05-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175096,
-      "name": "Laura Valionyte",
-      "dob": "2003-04-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175269,
-      "name": "Karolina Skilinskiene",
-      "dob": "1991-04-13",
-      "height": 185,
-      "weight": 75
     },
     {
       "id": 175343,
@@ -363,174 +286,6 @@
       "id": 178763,
       "name": "Gerda Berstautaite",
       "dob": "1994-08-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179334,
-      "name": "Auguste Petrauskaite",
-      "dob": "2003-09-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179396,
-      "name": "Ema Bucaite",
-      "dob": "2004-01-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180589,
-      "name": "Gabriele Grigaityte",
-      "dob": "1997-04-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180590,
-      "name": "Kamile Liubartaite",
-      "dob": "1997-07-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180724,
-      "name": "Greta Miliauskyte",
-      "dob": "1995-11-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182668,
-      "name": "Vaiva Dzedulionyte",
-      "dob": "1993-11-26",
-      "height": 165,
-      "weight": 50
-    },
-    {
-      "id": 182881,
-      "name": "Kornelija Sabeckaite",
-      "dob": "1991-03-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182889,
-      "name": "Neringa Meilute",
-      "dob": "2002-01-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182890,
-      "name": "Jolita Cibulskaite",
-      "dob": "2002-04-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182891,
-      "name": "Egle Krapavickaite",
-      "dob": "2003-06-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182892,
-      "name": "Violeta Luksiene",
-      "dob": "1992-10-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182893,
-      "name": "Julija Darguze",
-      "dob": "1988-03-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182894,
-      "name": "Ieva Smitaite",
-      "dob": "2002-08-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182910,
-      "name": "Adrija Ceckauskaite",
-      "dob": "2006-01-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182911,
-      "name": "Darija Baublyte",
-      "dob": "2005-04-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182912,
-      "name": "Gintare Nenortaite",
-      "dob": "1989-03-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182916,
-      "name": "Rugile Vasiliauskaite",
-      "dob": "2004-05-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182917,
-      "name": "Ilina Frolova",
-      "dob": "2004-08-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182918,
-      "name": "Silvija Kaminskaite",
-      "dob": "2001-05-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182919,
-      "name": "Liepa Pagojute",
-      "dob": "2003-11-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182920,
-      "name": "Paulina Levickyte",
-      "dob": "1995-07-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182966,
-      "name": "Agile Astapoviciute",
-      "dob": "2005-01-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182967,
-      "name": "Livija Vilkelyte",
-      "dob": "2006-07-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182968,
-      "name": "Karina Simonaityte",
-      "dob": "2003-04-05",
       "height": null,
       "weight": null
     },

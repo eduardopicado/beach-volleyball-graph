@@ -239,7 +239,7 @@
       "id": 132574,
       "name": "Iryna Makhno",
       "short": "Makhno, Ir.",
-      "tournaments": 161,
+      "tournaments": 159,
       "first": 2010,
       "last": 2026
     },
@@ -247,7 +247,7 @@
       "id": 132575,
       "name": "Inna Makhno",
       "short": "Makhno, In.",
-      "tournaments": 207,
+      "tournaments": 205,
       "first": 2010,
       "last": 2026
     },
@@ -346,14 +346,6 @@
       "tournaments": 2,
       "first": 2015,
       "last": 2015
-    },
-    {
-      "id": 155070,
-      "name": "Viktoriia Khilko",
-      "short": "Khilko",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 156818,
@@ -850,7 +842,7 @@
     {
       "a": 132574,
       "b": 132575,
-      "t": 152,
+      "t": 150,
       "f": 2010,
       "l": 2026
     },
