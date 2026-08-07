@@ -106,12 +106,22 @@ interface MedalCounts {
   bronze: number;
 }
 
-/** Compact tally like "🥇2 🥈1", omitting zero counts. */
+/**
+ * Compact tally like "🥇2 🥈1", omitting zero counts.
+ *
+ * A WORD JOINER (U+2060, zero-width and invisible) sits between each emoji
+ * and its own count: without it, a narrow column can wrap the line right
+ * between them -- the emoji ending one line and its count starting the
+ * next, orphaned from what it's counting. The plain space between groups is
+ * left breakable on purpose, so "🥇2 🥈1 🥉3" can still wrap between medal
+ * kinds when the column is too narrow for all three.
+ */
 export function formatMedals({ gold, silver, bronze }: MedalCounts): string {
+  const WORD_JOINER = '⁠';
   const parts: string[] = [];
-  if (gold) parts.push(`🥇${gold}`);
-  if (silver) parts.push(`🥈${silver}`);
-  if (bronze) parts.push(`🥉${bronze}`);
+  if (gold) parts.push(`🥇${WORD_JOINER}${gold}`);
+  if (silver) parts.push(`🥈${WORD_JOINER}${silver}`);
+  if (bronze) parts.push(`🥉${WORD_JOINER}${bronze}`);
   return parts.join(' ');
 }
 

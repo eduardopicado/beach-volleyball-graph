@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { age, flagEmoji, formatDate, initials, plural, seasonSpan } from './format';
+import { age, flagEmoji, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from './format';
 
 describe('flagEmoji', () => {
   it('maps an ISO-2 code to regional indicators', () => {
@@ -98,5 +98,38 @@ describe('plural', () => {
     expect(plural(2, 'player')).toBe('2 players');
     expect(plural(1, 'entry', 'entries')).toBe('1 entry');
     expect(plural(0, 'entry', 'entries')).toBe('0 entries');
+  });
+});
+
+describe('formatMedals', () => {
+  it('omits zero counts', () => {
+    expect(formatMedals({ gold: 2, silver: 0, bronze: 1 })).toBe('🥇⁠2 🥉⁠1');
+    expect(formatMedals({ gold: 0, silver: 0, bronze: 0 })).toBe('');
+  });
+
+  it('joins an emoji to its own count with a WORD JOINER, not a space', () => {
+    // U+2060: zero-width, but stops a line break from landing between an
+    // emoji and its count and stranding them on separate lines. A plain
+    // space here would be a real, visible gap -- wrong -- and the absence
+    // of any joiner at all is the bug this guards against.
+    const result = formatMedals({ gold: 3, silver: 0, bronze: 0 });
+    expect(result).toBe('🥇⁠3');
+    expect([...result]).toEqual(['🥇', '⁠', '3']);
+  });
+
+  it('still allows a break between different medal kinds', () => {
+    // The space joining groups is a plain, breakable space -- three medal
+    // kinds in a narrow column should be able to wrap between kinds, just
+    // never inside one.
+    const result = formatMedals({ gold: 1, silver: 1, bronze: 1 });
+    expect(result).toContain(' ');
+    expect(result.split(' ')).toHaveLength(3);
+  });
+});
+
+describe('medalAriaLabel', () => {
+  it('spells out each nonzero medal count', () => {
+    expect(medalAriaLabel({ gold: 3, silver: 0, bronze: 1 })).toBe('3 gold medals, 1 bronze medal');
+    expect(medalAriaLabel({ gold: 0, silver: 0, bronze: 0 })).toBe('');
   });
 });
