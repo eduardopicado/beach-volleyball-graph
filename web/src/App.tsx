@@ -234,6 +234,16 @@ export default function App() {
     // Olympic and World Championships tallies are kept separate, same as on
     // the player card: they are not the same prestige, and merging them
     // would hide which is which.
+    //
+    // Each row here is a *player's own* medal count (correctly 1 each for
+    // both members of a winning pair -- that is how many medals they
+    // personally own). Summing that across the whole country counts every
+    // team medal twice, once per teammate, so the country total needs
+    // dividing by 2 to land back on medals-per-event -- the convention
+    // official country medal tables use for team sports (one medal per
+    // event, not one per athlete). Safe to assume exactly 2 credits per
+    // event here: FIVB pairs are always same-federation, so both teammates
+    // fall in this same country x gender slice.
     const oly = { gold: 0, silver: 0, bronze: 0 };
     const wch = { gold: 0, silver: 0, bronze: 0 };
     for (const p of details?.players ?? []) {
@@ -248,6 +258,16 @@ export default function App() {
         wch.bronze += p.worldChamps.bronze;
       }
     }
+    // Rounded, not divided outright: a teammate whose federation tag has
+    // since drifted from their partner's (see the Schalk/Saxton case) can
+    // leave a medal credited on just one side of this slice, which would
+    // otherwise show as a stray ".5".
+    oly.gold = Math.round(oly.gold / 2);
+    oly.silver = Math.round(oly.silver / 2);
+    oly.bronze = Math.round(oly.bronze / 2);
+    wch.gold = Math.round(wch.gold / 2);
+    wch.silver = Math.round(wch.silver / 2);
+    wch.bronze = Math.round(wch.bronze / 2);
     if (oly.gold + oly.silver + oly.bronze > 0) {
       result.push({ label: 'Olympics', value: formatMedals(oly) });
     }
