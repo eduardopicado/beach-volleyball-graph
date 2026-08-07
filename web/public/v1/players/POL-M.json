@@ -346,13 +346,6 @@
       "weight": 80
     },
     {
-      "id": 116360,
-      "name": "Tomasz Sokolowski",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 116544,
       "name": "Jaroslaw Lech",
       "dob": "1984-07-29",
@@ -418,20 +411,6 @@
     {
       "id": 117033,
       "name": "Sikora Tomasz",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 117289,
-      "name": "Pawel Wlodarczyk",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 117290,
-      "name": "Adam Smolenski",
       "dob": null,
       "height": null,
       "weight": null
@@ -516,13 +495,6 @@
     {
       "id": 118733,
       "name": "Grzegorz Pietkiewicz",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 118935,
-      "name": "Milosz Majka",
       "dob": null,
       "height": null,
       "weight": null
@@ -668,13 +640,6 @@
       "weight": null
     },
     {
-      "id": 137233,
-      "name": "Bartlomiej Malec",
-      "dob": "1994-08-24",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 137234,
       "name": "Alex Andryszewski",
       "dob": "1994-02-16",
@@ -787,13 +752,6 @@
       "weight": null
     },
     {
-      "id": 143277,
-      "name": "Bartlomiej Kiernoz",
-      "dob": "1990-07-09",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 144091,
       "name": "Stanislaw Wawrzynczyk",
       "dob": "1990-01-04",
@@ -829,13 +787,6 @@
       "weight": 85
     },
     {
-      "id": 148426,
-      "name": "Maciej Kaszewiak",
-      "dob": "1997-02-18",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 149258,
       "name": "Tomasz Gortych",
       "dob": "1979-07-27",
@@ -855,13 +806,6 @@
       "dob": "1988-09-21",
       "height": 189,
       "weight": 79
-    },
-    {
-      "id": 151314,
-      "name": "Marcin Szczechowicz",
-      "dob": "1994-05-06",
-      "height": 186,
-      "weight": 77
     },
     {
       "id": 152663,
@@ -909,13 +853,6 @@
       "id": 157079,
       "name": "Bartlomiej Krzyzanowski",
       "dob": "1998-02-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 158160,
-      "name": "Maciej Wlodarczyk",
-      "dob": "2000-05-18",
       "height": null,
       "weight": null
     },
@@ -976,13 +913,6 @@
       "weight": 90
     },
     {
-      "id": 163186,
-      "name": "Julian Mituniewicz",
-      "dob": "1994-07-31",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 163569,
       "name": "Milosz Kruk",
       "dob": "2000-09-18",
@@ -1007,13 +937,6 @@
       "id": 164222,
       "name": "Jakub Matyka",
       "dob": "1987-02-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 164336,
-      "name": "Maciej Okrzeja",
-      "dob": "1993-04-20",
       "height": null,
       "weight": null
     },
@@ -1095,25 +1018,11 @@
       "weight": 112
     },
     {
-      "id": 173212,
-      "name": "Oskar Kutyba",
-      "dob": "2001-08-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 173774,
       "name": "Tomasz Jaroszczak",
       "dob": "1996-01-05",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 174214,
-      "name": "Adam Chrobot",
-      "dob": "1985-12-03",
-      "height": 194,
-      "weight": 86
     },
     {
       "id": 174367,
@@ -1172,20 +1081,6 @@
       "weight": null
     },
     {
-      "id": 179575,
-      "name": "Konrad Chudek",
-      "dob": "1994-05-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179582,
-      "name": "Bartosz Sobstyl",
-      "dob": "1994-06-13",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179589,
       "name": "Igor Ciemachowski",
       "dob": "1994-06-09",
@@ -1233,13 +1128,6 @@
       "dob": "2005-07-04",
       "height": 198,
       "weight": 87
-    },
-    {
-      "id": 192516,
-      "name": "Dawid Ogorek",
-      "dob": "1990-07-30",
-      "height": 184,
-      "weight": 76
     },
     {
       "id": 201998,
@@ -1312,13 +1200,6 @@
       "weight": 85
     },
     {
-      "id": 211884,
-      "name": "Adam Stelmaszczyk",
-      "dob": "1990-01-12",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 212001,
       "name": "Wiktor Musiał",
       "dob": "2007-10-15",
@@ -1333,32 +1214,11 @@
       "weight": null
     },
     {
-      "id": 212243,
-      "name": "Pawel Zeszko",
-      "dob": "1992-05-30",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 212244,
       "name": "Miron Piwowarczyk",
       "dob": "2003-09-12",
       "height": 190,
       "weight": 90
-    },
-    {
-      "id": 212246,
-      "name": "Kacper Golebiewski",
-      "dob": "2004-05-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 212247,
-      "name": "Damian Radowski",
-      "dob": "2004-03-14",
-      "height": null,
-      "weight": null
     },
     {
       "id": 212819,
@@ -1382,25 +1242,11 @@
       "weight": 77
     },
     {
-      "id": 220216,
-      "name": "Damian Dudek",
-      "dob": "2006-11-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 221517,
       "name": "Igor Gliszczyński",
       "dob": "2009-06-19",
       "height": 192,
       "weight": 85
-    },
-    {
-      "id": 221519,
-      "name": "Michał Śliwa",
-      "dob": "2009-05-08",
-      "height": null,
-      "weight": null
     },
     {
       "id": 223996,
@@ -1410,13 +1256,6 @@
       "weight": 89
     },
     {
-      "id": 223999,
-      "name": "Hubert Ziajka",
-      "dob": "2010-02-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 224000,
       "name": "Karol Łunio",
       "dob": "2010-05-04",
@@ -1424,46 +1263,11 @@
       "weight": null
     },
     {
-      "id": 225627,
-      "name": "Michał Targoński",
-      "dob": "2006-04-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 225985,
-      "name": "Jędrzej Niepokój",
-      "dob": "2005-06-07",
-      "height": 190,
-      "weight": 85
-    },
-    {
       "id": 232277,
       "name": "Łukasz Czubkowski",
       "dob": "1994-02-16",
       "height": 181,
       "weight": 93
-    },
-    {
-      "id": 233063,
-      "name": "Igor Ziółkowski",
-      "dob": "2004-02-26",
-      "height": 178,
-      "weight": 80
-    },
-    {
-      "id": 241351,
-      "name": "Marek Rogiński",
-      "dob": "1994-07-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 241355,
-      "name": "Jakub Mądry",
-      "dob": "2006-12-28",
-      "height": null,
-      "weight": null
     }
   ]
 }

@@ -4,22 +4,6 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 120611,
-      "name": "Christy Roselin I.Rayar",
-      "short": "India / Rosy",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120612,
-      "name": "Nathiya M.Selvaraj",
-      "short": "India / Nathiya",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
       "id": 120623,
       "name": "Christy Roselin J",
       "short": "Rose",
@@ -63,22 +47,6 @@
       "id": 120628,
       "name": "Rajini Rajini",
       "short": "Rajini",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120633,
-      "name": "Swetha Swetha",
-      "short": "Swetha",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120634,
-      "name": "Pavithra Pavithra",
-      "short": "Pavi",
       "tournaments": 1,
       "first": 2008,
       "last": 2008
@@ -318,13 +286,6 @@
   ],
   "edges": [
     {
-      "a": 120611,
-      "b": 120612,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 120623,
       "b": 120624,
       "t": 1,
@@ -355,13 +316,6 @@
     {
       "a": 120627,
       "b": 120628,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120633,
-      "b": 120634,
       "t": 1,
       "f": 2008,
       "l": 2008

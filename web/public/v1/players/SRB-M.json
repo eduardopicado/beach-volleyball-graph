@@ -178,13 +178,6 @@
       "weight": null
     },
     {
-      "id": 124256,
-      "name": "Nikola Galetin",
-      "dob": "1986-01-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 124261,
       "name": "Stefan Basta",
       "dob": "1990-03-28",
@@ -192,23 +185,9 @@
       "weight": 97
     },
     {
-      "id": 124264,
-      "name": "Nenad Simeunovic",
-      "dob": "1982-04-13",
-      "height": 205,
-      "weight": 90
-    },
-    {
       "id": 124414,
       "name": "Marko Nikolic",
       "dob": "1990-06-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132295,
-      "name": "Goran Maric",
-      "dob": "1981-11-02",
       "height": null,
       "weight": null
     },
@@ -223,13 +202,6 @@
       "id": 133736,
       "name": "Marko Galesev",
       "dob": "1982-12-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 134815,
-      "name": "Nemanja Vidic",
-      "dob": "1985-01-14",
       "height": null,
       "weight": null
     },
@@ -283,37 +255,9 @@
       "weight": null
     },
     {
-      "id": 144301,
-      "name": "Jovan Zivotic",
-      "dob": "1996-01-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 144726,
       "name": "Damjan Pusonjic",
       "dob": "1989-07-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146750,
-      "name": "Stefan Skakic",
-      "dob": "1999-10-19",
-      "height": 196,
-      "weight": 85
-    },
-    {
-      "id": 146751,
-      "name": "Davide Kovač",
-      "dob": "1999-11-19",
-      "height": 199,
-      "weight": 82
-    },
-    {
-      "id": 148878,
-      "name": "Luka Gutesa",
-      "dob": "1990-10-31",
       "height": null,
       "weight": null
     },
@@ -353,13 +297,6 @@
       "weight": null
     },
     {
-      "id": 173633,
-      "name": "Uros Muskinja",
-      "dob": "2002-05-31",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 173634,
       "name": "Marko Makaric",
       "dob": "2001-09-09",
@@ -372,13 +309,6 @@
       "dob": "1999-08-23",
       "height": 195,
       "weight": 77
-    },
-    {
-      "id": 194205,
-      "name": "Predrag Petkovic",
-      "dob": "1987-01-20",
-      "height": null,
-      "weight": null
     }
   ]
 }

@@ -4,14 +4,6 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 199020,
-      "name": "Sumaia Almadhoun",
-      "short": "SU.MAIA",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
       "id": 199021,
       "name": "Damla Yagmur",
       "short": "Damla",
@@ -23,25 +15,25 @@
       "id": 199022,
       "name": "Leyla Mohammad Bahmanzadeh",
       "short": "LEYLA",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2023,
-      "last": 2024
+      "last": 2023
     },
     {
       "id": 203597,
       "name": "Rehanna Al-Tobaishi",
       "short": "Rehanna",
-      "tournaments": 2,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 203602,
       "name": "Sheqaf Ismail",
       "short": "SHEQAF",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2023,
-      "last": 2024
+      "last": 2023
     },
     {
       "id": 204595,
@@ -86,13 +78,6 @@
   ],
   "edges": [
     {
-      "a": 199020,
-      "b": 203597,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 199021,
       "b": 203597,
       "t": 1,
@@ -105,13 +90,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 199022,
-      "b": 203602,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
     },
     {
       "a": 199022,

@@ -47,9 +47,9 @@
       "id": 100947,
       "name": "Nathalie Dambendzet",
       "short": "Dambendzet",
-      "tournaments": 16,
+      "tournaments": 5,
       "first": 1999,
-      "last": 2007
+      "last": 2006
     },
     {
       "id": 101548,
@@ -103,7 +103,7 @@
       "id": 102923,
       "name": "Krisztina Nagy",
       "short": "Nagy",
-      "tournaments": 51,
+      "tournaments": 47,
       "first": 2000,
       "last": 2006
     },
@@ -159,7 +159,7 @@
       "id": 103668,
       "name": "Bernadette Kiss",
       "short": "Kiss",
-      "tournaments": 20,
+      "tournaments": 11,
       "first": 2001,
       "last": 2007
     },
@@ -167,7 +167,7 @@
       "id": 103669,
       "name": "Regina Kiss",
       "short": "Kiss",
-      "tournaments": 24,
+      "tournaments": 15,
       "first": 2001,
       "last": 2007
     },
@@ -215,9 +215,9 @@
       "id": 117959,
       "name": "Zsuzsanna Józsa",
       "short": "Józsa",
-      "tournaments": 16,
+      "tournaments": 3,
       "first": 2006,
-      "last": 2007
+      "last": 2006
     },
     {
       "id": 118163,
@@ -247,7 +247,7 @@
       "id": 123720,
       "name": "Kitti Ancsin",
       "short": "Ancsin",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2011,
       "last": 2011
     },
@@ -255,9 +255,9 @@
       "id": 132121,
       "name": "Eniko Lakatos",
       "short": "Lakatos",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2011,
-      "last": 2018
+      "last": 2011
     },
     {
       "id": 132610,
@@ -295,7 +295,7 @@
       "id": 145313,
       "name": "Szandra Szombathelyi",
       "short": "Szombathelyi, S.",
-      "tournaments": 43,
+      "tournaments": 25,
       "first": 2018,
       "last": 2022
     },
@@ -319,7 +319,7 @@
       "id": 147399,
       "name": "Eszter Lutter",
       "short": "Lutter, E.",
-      "tournaments": 23,
+      "tournaments": 15,
       "first": 2016,
       "last": 2019
     },
@@ -327,7 +327,7 @@
       "id": 148974,
       "name": "Eszter Nagy",
       "short": "Nagy",
-      "tournaments": 13,
+      "tournaments": 7,
       "first": 2024,
       "last": 2025
     },
@@ -343,7 +343,7 @@
       "id": 152477,
       "name": "Lilla Villám",
       "short": "Villám",
-      "tournaments": 64,
+      "tournaments": 29,
       "first": 2021,
       "last": 2026
     },
@@ -351,7 +351,7 @@
       "id": 153707,
       "name": "Dorottya Szabó",
       "short": "Szabó",
-      "tournaments": 30,
+      "tournaments": 15,
       "first": 2016,
       "last": 2024
     },
@@ -375,7 +375,7 @@
       "id": 160066,
       "name": "Brigitta Dénesi",
       "short": "Dénesi",
-      "tournaments": 11,
+      "tournaments": 6,
       "first": 2018,
       "last": 2019
     },
@@ -383,7 +383,7 @@
       "id": 160067,
       "name": "Panna Györi",
       "short": "Györi",
-      "tournaments": 14,
+      "tournaments": 10,
       "first": 2018,
       "last": 2022
     },
@@ -391,15 +391,15 @@
       "id": 162524,
       "name": "Lujza Papp",
       "short": "Papp",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2019
+      "last": 2018
     },
     {
       "id": 163400,
       "name": "Dominika Háfra",
       "short": "Háfra",
-      "tournaments": 12,
+      "tournaments": 8,
       "first": 2018,
       "last": 2019
     },
@@ -407,7 +407,7 @@
       "id": 163406,
       "name": "Eszter Tóth",
       "short": "Tóth",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2019,
       "last": 2019
     },
@@ -415,31 +415,15 @@
       "id": 164824,
       "name": "Borbála Harmat",
       "short": "Harmat",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2018,
       "last": 2019
-    },
-    {
-      "id": 167115,
-      "name": "Anna Faragó",
-      "short": "Faragó",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 167117,
-      "name": "Janka Katona",
-      "short": "Katona",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 167118,
       "name": "Orsolya Orbán",
       "short": "Orbán",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2018,
       "last": 2019
     },
@@ -447,7 +431,7 @@
       "id": 167119,
       "name": "Adrienn Czene",
       "short": "Czene",
-      "tournaments": 16,
+      "tournaments": 8,
       "first": 2018,
       "last": 2022
     },
@@ -455,7 +439,7 @@
       "id": 168695,
       "name": "Hanna Gubik",
       "short": "Gubik",
-      "tournaments": 55,
+      "tournaments": 20,
       "first": 2021,
       "last": 2026
     },
@@ -463,17 +447,17 @@
       "id": 168699,
       "name": "Orsolya Éva Réthelyi",
       "short": "Réthelyi",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 168744,
       "name": "Alíz Hajós",
       "short": "Hajós",
-      "tournaments": 16,
+      "tournaments": 6,
       "first": 2018,
-      "last": 2025
+      "last": 2024
     },
     {
       "id": 169819,
@@ -487,7 +471,7 @@
       "id": 170183,
       "name": "Zsófi Vasvári",
       "short": "Vasvári, Z.",
-      "tournaments": 39,
+      "tournaments": 19,
       "first": 2019,
       "last": 2026
     },
@@ -495,7 +479,7 @@
       "id": 170184,
       "name": "Eszter Vasvári",
       "short": "Vasvári, E.",
-      "tournaments": 34,
+      "tournaments": 15,
       "first": 2021,
       "last": 2026
     },
@@ -503,25 +487,17 @@
       "id": 173093,
       "name": "Csenge Villám",
       "short": "Villám",
-      "tournaments": 10,
-      "first": 2019,
-      "last": 2024
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 173449,
       "name": "Fanni Vecsey",
       "short": "Vecsey",
-      "tournaments": 7,
+      "tournaments": 3,
       "first": 2019,
       "last": 2021
-    },
-    {
-      "id": 174658,
-      "name": "Szilvia Hackl",
-      "short": "Hackl",
-      "tournaments": 1,
-      "first": 2019,
-      "last": 2019
     },
     {
       "id": 179972,
@@ -535,15 +511,15 @@
       "id": 181216,
       "name": "Adrienn Posztós-Szabó",
       "short": "Posztós-Szabó",
-      "tournaments": 18,
+      "tournaments": 8,
       "first": 2021,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 181615,
       "name": "Stefánia Flóra Kun",
       "short": "Kun",
-      "tournaments": 46,
+      "tournaments": 24,
       "first": 2022,
       "last": 2026
     },
@@ -551,7 +527,7 @@
       "id": 181618,
       "name": "Chiara Honti-Majoros",
       "short": "Honti-Majoros",
-      "tournaments": 25,
+      "tournaments": 10,
       "first": 2022,
       "last": 2026
     },
@@ -572,42 +548,18 @@
       "last": 2024
     },
     {
-      "id": 182058,
-      "name": "Dóra Kristóf",
-      "short": "Kristóf",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 182061,
-      "name": "Mirtill Breuer",
-      "short": "Breuer",
-      "tournaments": 4,
-      "first": 2024,
-      "last": 2026
-    },
-    {
       "id": 182100,
       "name": "Zina Panni Németh",
       "short": "Németh",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2024,
-      "last": 2026
+      "last": 2024
     },
     {
       "id": 188605,
       "name": "Laura Kállai",
       "short": "Kállai",
-      "tournaments": 8,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 188606,
-      "name": "Cecília Noémi Jámbor",
-      "short": "Jámbor",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     },
@@ -615,7 +567,7 @@
       "id": 191408,
       "name": "Flóra Zolnai",
       "short": "Zolnai",
-      "tournaments": 19,
+      "tournaments": 5,
       "first": 2024,
       "last": 2026
     },
@@ -631,7 +583,7 @@
       "id": 202017,
       "name": "Kármen Honti-Majoros",
       "short": "Honti-Majoros",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2025,
       "last": 2026
     },
@@ -647,7 +599,7 @@
       "id": 210882,
       "name": "Emese Kiss-Bertók",
       "short": "Kiss-Bertók",
-      "tournaments": 19,
+      "tournaments": 7,
       "first": 2025,
       "last": 2026
     },
@@ -655,23 +607,15 @@
       "id": 210887,
       "name": "Réka Pádár",
       "short": "Pádár",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2025,
       "last": 2026
-    },
-    {
-      "id": 212488,
-      "name": "Réka Antónia Munkácsi",
-      "short": "Munkácsi",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
     },
     {
       "id": 212490,
       "name": "Jázmin Pesti-Tóth",
       "short": "Pesti-Tóth",
-      "tournaments": 16,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     },
@@ -679,7 +623,7 @@
       "id": 213054,
       "name": "Izabella Anna Szabó",
       "short": "Szabó Iz.",
-      "tournaments": 17,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     },
@@ -687,7 +631,7 @@
       "id": 217372,
       "name": "Lilianna Szabó",
       "short": "Szabó Li.",
-      "tournaments": 16,
+      "tournaments": 4,
       "first": 2026,
       "last": 2026
     },
@@ -698,30 +642,6 @@
       "tournaments": 2,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 222942,
-      "name": "Júlia Rácz",
-      "short": "Rácz",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 224703,
-      "name": "Julianna Kis",
-      "short": "Kis",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 224704,
-      "name": "Herta Murányi",
-      "short": "Murányi",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     },
     {
       "id": 225367,
@@ -735,15 +655,7 @@
       "id": 239522,
       "name": "Anna Tóth",
       "short": "Tóth",
-      "tournaments": 3,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 239523,
-      "name": "Panna Kücsön",
-      "short": "Kücsön",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     }
@@ -822,16 +734,9 @@
     {
       "a": 100947,
       "b": 102923,
-      "t": 3,
+      "t": 1,
       "f": 2006,
       "l": 2006
-    },
-    {
-      "a": 100947,
-      "b": 117959,
-      "t": 10,
-      "f": 2006,
-      "l": 2007
     },
     {
       "a": 101548,
@@ -892,7 +797,7 @@
     {
       "a": 102923,
       "b": 117959,
-      "t": 6,
+      "t": 3,
       "f": 2006,
       "l": 2006
     },
@@ -906,7 +811,7 @@
     {
       "a": 103668,
       "b": 103669,
-      "t": 20,
+      "t": 11,
       "f": 2001,
       "l": 2007
     },
@@ -948,16 +853,9 @@
     {
       "a": 123720,
       "b": 132121,
-      "t": 2,
+      "t": 1,
       "f": 2011,
       "l": 2011
-    },
-    {
-      "a": 132121,
-      "b": 147399,
-      "t": 3,
-      "f": 2017,
-      "l": 2018
     },
     {
       "a": 132610,
@@ -976,14 +874,14 @@
     {
       "a": 145313,
       "b": 147399,
-      "t": 19,
+      "t": 14,
       "f": 2018,
       "l": 2019
     },
     {
       "a": 145313,
       "b": 152477,
-      "t": 24,
+      "t": 11,
       "f": 2021,
       "l": 2022
     },
@@ -1011,7 +909,7 @@
     {
       "a": 148974,
       "b": 168695,
-      "t": 12,
+      "t": 6,
       "f": 2025,
       "l": 2025
     },
@@ -1053,7 +951,7 @@
     {
       "a": 152477,
       "b": 181615,
-      "t": 40,
+      "t": 18,
       "f": 2025,
       "l": 2026
     },
@@ -1067,28 +965,28 @@
     {
       "a": 153707,
       "b": 163400,
-      "t": 12,
+      "t": 8,
       "f": 2018,
       "l": 2019
     },
     {
       "a": 153707,
       "b": 167119,
-      "t": 10,
+      "t": 2,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 153707,
       "b": 173449,
-      "t": 5,
+      "t": 2,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 153707,
       "b": 181618,
-      "t": 5,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -1109,14 +1007,14 @@
     {
       "a": 160066,
       "b": 160067,
-      "t": 6,
+      "t": 4,
       "f": 2018,
       "l": 2018
     },
     {
       "a": 160066,
       "b": 163406,
-      "t": 4,
+      "t": 1,
       "f": 2019,
       "l": 2019
     },
@@ -1144,71 +1042,43 @@
     {
       "a": 160067,
       "b": 181216,
-      "t": 4,
+      "t": 2,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 162524,
-      "b": 173093,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
     },
     {
       "a": 164824,
       "b": 167118,
-      "t": 3,
-      "f": 2018,
-      "l": 2019
-    },
-    {
-      "a": 164824,
-      "b": 167119,
-      "t": 2,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 167115,
-      "b": 168744,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 167117,
-      "b": 167119,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 167119,
-      "b": 168744,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 167119,
-      "b": 174658,
       "t": 1,
       "f": 2019,
       "l": 2019
     },
     {
+      "a": 164824,
+      "b": 167119,
+      "t": 1,
+      "f": 2018,
+      "l": 2018
+    },
+    {
+      "a": 167119,
+      "b": 168744,
+      "t": 1,
+      "f": 2021,
+      "l": 2021
+    },
+    {
       "a": 168695,
       "b": 168699,
-      "t": 5,
+      "t": 1,
       "f": 2022,
-      "l": 2023
+      "l": 2022
     },
     {
       "a": 168695,
       "b": 168744,
-      "t": 10,
-      "f": 2021,
+      "t": 4,
+      "f": 2022,
       "l": 2024
     },
     {
@@ -1220,13 +1090,6 @@
     },
     {
       "a": 168695,
-      "b": 173093,
-      "t": 7,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 168695,
       "b": 205705,
       "t": 1,
       "f": 2023,
@@ -1235,30 +1098,23 @@
     {
       "a": 168695,
       "b": 210882,
-      "t": 16,
+      "t": 4,
       "f": 2025,
       "l": 2026
     },
     {
-      "a": 168744,
-      "b": 222942,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
       "a": 170183,
       "b": 170184,
-      "t": 34,
+      "t": 15,
       "f": 2021,
       "l": 2026
     },
     {
       "a": 170183,
       "b": 173449,
-      "t": 2,
+      "t": 1,
       "f": 2019,
-      "l": 2021
+      "l": 2019
     },
     {
       "a": 170183,
@@ -1284,16 +1140,16 @@
     {
       "a": 181216,
       "b": 181618,
-      "t": 12,
-      "f": 2024,
-      "l": 2026
+      "t": 4,
+      "f": 2025,
+      "l": 2025
     },
     {
       "a": 181615,
       "b": 181618,
-      "t": 3,
+      "t": 2,
       "f": 2022,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 181615,
@@ -1304,15 +1160,8 @@
     },
     {
       "a": 181618,
-      "b": 191408,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 181618,
       "b": 202017,
-      "t": 5,
+      "t": 3,
       "f": 2025,
       "l": 2026
     },
@@ -1324,27 +1173,6 @@
       "l": 2024
     },
     {
-      "a": 182058,
-      "b": 182061,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 182061,
-      "b": 182100,
-      "t": 3,
-      "f": 2024,
-      "l": 2026
-    },
-    {
-      "a": 188605,
-      "b": 188606,
-      "t": 7,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 188605,
       "b": 239522,
       "t": 1,
@@ -1353,22 +1181,8 @@
     },
     {
       "a": 191408,
-      "b": 212488,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 191408,
-      "b": 213054,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 191408,
       "b": 217372,
-      "t": 16,
+      "t": 4,
       "f": 2026,
       "l": 2026
     },
@@ -1378,13 +1192,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 202017,
-      "b": 210887,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 210882,
@@ -1410,28 +1217,7 @@
     {
       "a": 212490,
       "b": 213054,
-      "t": 16,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 212490,
-      "b": 217372,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 224703,
-      "b": 224704,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 239522,
-      "b": 239523,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     }

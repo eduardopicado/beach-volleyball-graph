@@ -738,20 +738,6 @@
       "weight": null
     },
     {
-      "id": 117503,
-      "name": "Marco Paulo Freitas Ruel",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 117504,
-      "name": "Ricardo Rosario Mendes Franco",
-      "dob": "1974-07-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 117505,
       "name": "Nuno Xavier Paixao Abreu",
       "dob": null,
@@ -1018,13 +1004,6 @@
       "weight": null
     },
     {
-      "id": 145848,
-      "name": "Tomas Lopes",
-      "dob": "1995-12-24",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 146871,
       "name": "Joao Alves",
       "dob": "1998-02-18",
@@ -1095,20 +1074,6 @@
       "weight": null
     },
     {
-      "id": 147914,
-      "name": "David Marques",
-      "dob": "1994-03-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 148214,
-      "name": "Bruno Santiago",
-      "dob": "1997-07-31",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 152376,
       "name": "Gonçalo Santos",
       "dob": "1996-01-01",
@@ -1172,32 +1137,11 @@
       "weight": 86
     },
     {
-      "id": 166334,
-      "name": "Pedro Dos Reis Albuquerque",
-      "dob": "2001-09-02",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 166335,
       "name": "Rafael Santos",
       "dob": "2001-03-18",
       "height": 185,
       "weight": 75
-    },
-    {
-      "id": 166824,
-      "name": "Vladyslav Tolmachov",
-      "dob": "1998-12-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168909,
-      "name": "Bernardo Embaixador",
-      "dob": "1990-02-01",
-      "height": null,
-      "weight": null
     },
     {
       "id": 169663,
@@ -1214,46 +1158,11 @@
       "weight": null
     },
     {
-      "id": 182063,
-      "name": "Jose Bernardes de Andrade",
-      "dob": "1999-08-21",
-      "height": 194,
-      "weight": 96
-    },
-    {
-      "id": 182216,
-      "name": "Diogo Gomes",
-      "dob": "1996-01-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182787,
-      "name": "Tomas Natario Cadete Teixeira",
-      "dob": "2005-06-16",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182788,
       "name": "Tomas Sousa",
       "dob": "2004-11-25",
       "height": 190,
       "weight": 75
-    },
-    {
-      "id": 192059,
-      "name": "Pedro Silva",
-      "dob": "1994-11-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192060,
-      "name": "Jose Silva",
-      "dob": "1990-03-24",
-      "height": null,
-      "weight": null
     }
   ]
 }

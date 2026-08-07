@@ -47,17 +47,9 @@
       "id": 226751,
       "name": "Abdou Kabirou Mama",
       "short": "Mama",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 231945,
-      "name": "Kora Hosni Docko",
-      "short": "Docko,K",
       "tournaments": 1,
-      "first": 2026,
-      "last": 2026
+      "first": 2025,
+      "last": 2025
     }
   ],
   "edges": [
@@ -81,13 +73,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 226751,
-      "b": 231945,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

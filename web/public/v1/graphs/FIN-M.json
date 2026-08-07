@@ -47,7 +47,7 @@
       "id": 103721,
       "name": "Lauri Hakala",
       "short": "Hakala, L.",
-      "tournaments": 25,
+      "tournaments": 20,
       "first": 2005,
       "last": 2009
     },
@@ -55,7 +55,7 @@
       "id": 103722,
       "name": "Matti Palonen",
       "short": "Palonen",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2008,
       "last": 2009
     },
@@ -79,9 +79,9 @@
       "id": 103926,
       "name": "Pekka Seppänen",
       "short": "Seppänen",
-      "tournaments": 26,
+      "tournaments": 18,
       "first": 2002,
-      "last": 2012
+      "last": 2009
     },
     {
       "id": 103927,
@@ -95,9 +95,9 @@
       "id": 104361,
       "name": "Anssi Hakala",
       "short": "Hakala",
-      "tournaments": 34,
+      "tournaments": 25,
       "first": 2003,
-      "last": 2012
+      "last": 2009
     },
     {
       "id": 104362,
@@ -143,7 +143,7 @@
       "id": 105055,
       "name": "Ilari Sivonen",
       "short": "Sivonen",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2004,
       "last": 2011
     },
@@ -151,7 +151,7 @@
       "id": 105056,
       "name": "Pasi Hyvärinen",
       "short": "Hyvärinen",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2004,
       "last": 2007
     },
@@ -167,9 +167,9 @@
       "id": 114660,
       "name": "Toni Kankaanpää",
       "short": "Kankaanpää",
-      "tournaments": 25,
+      "tournaments": 17,
       "first": 2005,
-      "last": 2008
+      "last": 2007
     },
     {
       "id": 114663,
@@ -223,7 +223,7 @@
       "id": 118583,
       "name": "Jaakko Keskitalo",
       "short": "Keskitalo",
-      "tournaments": 13,
+      "tournaments": 12,
       "first": 2007,
       "last": 2011
     },
@@ -247,7 +247,7 @@
       "id": 119984,
       "name": "Timo Haavisto",
       "short": "Haavisto",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2007,
       "last": 2012
     },
@@ -255,7 +255,7 @@
       "id": 119985,
       "name": "Toni Vahela",
       "short": "Vahela",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2007,
       "last": 2012
     },
@@ -279,7 +279,7 @@
       "id": 120263,
       "name": "Jussi Tommola",
       "short": "Tommola",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2008,
       "last": 2009
     },
@@ -287,7 +287,7 @@
       "id": 120483,
       "name": "Erik Schmidt",
       "short": "Schmidt",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2008,
       "last": 2010
     },
@@ -298,14 +298,6 @@
       "tournaments": 2,
       "first": 2008,
       "last": 2011
-    },
-    {
-      "id": 120801,
-      "name": "Juhani Hakala",
-      "short": "Hakala, J.",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
     },
     {
       "id": 120853,
@@ -327,7 +319,7 @@
       "id": 120869,
       "name": "Teppo Pulkkinen",
       "short": "Pulkkinen",
-      "tournaments": 19,
+      "tournaments": 10,
       "first": 2008,
       "last": 2023
     },
@@ -359,25 +351,25 @@
       "id": 132822,
       "name": "Oskar Söderlund",
       "short": "Söderlund",
-      "tournaments": 2,
-      "first": 2010,
+      "tournaments": 1,
+      "first": 2011,
       "last": 2011
     },
     {
       "id": 132823,
       "name": "Verneri Vetriö",
       "short": "Vetriö",
-      "tournaments": 11,
-      "first": 2010,
-      "last": 2021
+      "tournaments": 1,
+      "first": 2011,
+      "last": 2011
     },
     {
       "id": 133189,
       "name": "Saku Viljamaa",
       "short": "Viljamaa",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2010,
-      "last": 2017
+      "last": 2010
     },
     {
       "id": 135497,
@@ -407,55 +399,39 @@
       "id": 138813,
       "name": "Jyrki Nurminen",
       "short": "Nurminen",
-      "tournaments": 62,
-      "first": 2014,
+      "tournaments": 35,
+      "first": 2017,
       "last": 2024
     },
     {
       "id": 138814,
       "name": "Pekka Piippo",
       "short": "Piippo",
-      "tournaments": 31,
-      "first": 2014,
+      "tournaments": 17,
+      "first": 2017,
       "last": 2024
     },
     {
       "id": 142622,
       "name": "Santeri Siren",
       "short": "Siren",
-      "tournaments": 64,
-      "first": 2014,
+      "tournaments": 34,
+      "first": 2016,
       "last": 2024
     },
     {
       "id": 144087,
       "name": "Miro Määttänen",
       "short": "Määttänen",
-      "tournaments": 5,
-      "first": 2014,
-      "last": 2017
-    },
-    {
-      "id": 144465,
-      "name": "Harri Suonikko",
-      "short": "Suonikko",
-      "tournaments": 10,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 146565,
-      "name": "Ville Sorvoja",
-      "short": "Sorvoja",
-      "tournaments": 3,
-      "first": 2023,
-      "last": 2025
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
     },
     {
       "id": 148896,
       "name": "Pyry Topio",
       "short": "Topio, P.",
-      "tournaments": 67,
+      "tournaments": 16,
       "first": 2019,
       "last": 2026
     },
@@ -463,7 +439,7 @@
       "id": 158106,
       "name": "Vili Topio",
       "short": "Topio, V.",
-      "tournaments": 63,
+      "tournaments": 19,
       "first": 2019,
       "last": 2026
     },
@@ -471,7 +447,7 @@
       "id": 162684,
       "name": "Arttur Pennanen",
       "short": "Pennanen",
-      "tournaments": 31,
+      "tournaments": 15,
       "first": 2022,
       "last": 2026
     },
@@ -479,8 +455,8 @@
       "id": 164785,
       "name": "Valtter Pennanen",
       "short": "Pennanen",
-      "tournaments": 30,
-      "first": 2020,
+      "tournaments": 14,
+      "first": 2022,
       "last": 2026
     },
     {
@@ -503,31 +479,31 @@
       "id": 173840,
       "name": "Jussi Timonen",
       "short": "Timonen",
-      "tournaments": 2,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2023,
       "last": 2023
     },
     {
       "id": 173841,
       "name": "Sakari Peltonen",
       "short": "Peltonen",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2026
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
     },
     {
       "id": 175257,
       "name": "Akseli Kouki",
       "short": "Kouki",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 179449,
       "name": "Samuel Vainio",
       "short": "Vainio",
-      "tournaments": 7,
+      "tournaments": 3,
       "first": 2021,
       "last": 2024
     },
@@ -535,9 +511,9 @@
       "id": 179517,
       "name": "Samu Pulkkinen",
       "short": "Pulkkinen",
-      "tournaments": 9,
+      "tournaments": 2,
       "first": 2021,
-      "last": 2024
+      "last": 2023
     },
     {
       "id": 190671,
@@ -551,7 +527,7 @@
       "id": 195935,
       "name": "Veeti Viljamaa",
       "short": "Viljamaa",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2023,
       "last": 2026
     },
@@ -559,7 +535,7 @@
       "id": 200145,
       "name": "Konsta Viljamaa",
       "short": "Viljamaa",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2024,
       "last": 2026
     },
@@ -567,33 +543,25 @@
       "id": 201201,
       "name": "Oskari Vuorinen",
       "short": "Vuorinen",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 201284,
       "name": "Marko Tuomela",
       "short": "Tuomela",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 201317,
-      "name": "Joona Ilomäki",
-      "short": "ILOMÄKI",
       "tournaments": 1,
-      "first": 2023,
-      "last": 2023
+      "first": 2025,
+      "last": 2025
     },
     {
       "id": 206320,
       "name": "Otto Viitala",
       "short": "Viitala",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2024,
-      "last": 2025
+      "last": 2024
     },
     {
       "id": 211669,
@@ -657,30 +625,23 @@
     {
       "a": 103721,
       "b": 103926,
-      "t": 4,
+      "t": 3,
       "f": 2006,
-      "l": 2009
+      "l": 2006
     },
     {
       "a": 103721,
       "b": 104361,
-      "t": 16,
+      "t": 13,
       "f": 2005,
       "l": 2009
     },
     {
       "a": 103721,
       "b": 105055,
-      "t": 2,
+      "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 103721,
-      "b": 114660,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
     },
     {
       "a": 103721,
@@ -692,7 +653,7 @@
     {
       "a": 103722,
       "b": 120263,
-      "t": 4,
+      "t": 2,
       "f": 2008,
       "l": 2009
     },
@@ -727,14 +688,14 @@
     {
       "a": 103926,
       "b": 104361,
-      "t": 5,
+      "t": 2,
       "f": 2003,
-      "l": 2012
+      "l": 2008
     },
     {
       "a": 103926,
       "b": 114660,
-      "t": 8,
+      "t": 4,
       "f": 2006,
       "l": 2006
     },
@@ -747,15 +708,8 @@
     },
     {
       "a": 104361,
-      "b": 105055,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 104361,
       "b": 114660,
-      "t": 12,
+      "t": 10,
       "f": 2006,
       "l": 2007
     },
@@ -790,7 +744,7 @@
     {
       "a": 105055,
       "b": 105056,
-      "t": 6,
+      "t": 5,
       "f": 2004,
       "l": 2007
     },
@@ -800,13 +754,6 @@
       "t": 1,
       "f": 2011,
       "l": 2011
-    },
-    {
-      "a": 114660,
-      "b": 120801,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
     },
     {
       "a": 114663,
@@ -853,7 +800,7 @@
     {
       "a": 118583,
       "b": 120483,
-      "t": 5,
+      "t": 4,
       "f": 2008,
       "l": 2010
     },
@@ -888,7 +835,7 @@
     {
       "a": 119984,
       "b": 119985,
-      "t": 8,
+      "t": 7,
       "f": 2007,
       "l": 2012
     },
@@ -923,14 +870,14 @@
     {
       "a": 120869,
       "b": 138814,
-      "t": 11,
+      "t": 6,
       "f": 2018,
       "l": 2022
     },
     {
       "a": 120869,
       "b": 148896,
-      "t": 6,
+      "t": 2,
       "f": 2023,
       "l": 2023
     },
@@ -944,23 +891,9 @@
     {
       "a": 132822,
       "b": 132823,
-      "t": 2,
-      "f": 2010,
-      "l": 2011
-    },
-    {
-      "a": 132823,
-      "b": 158106,
-      "t": 9,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 133189,
-      "b": 142622,
       "t": 1,
-      "f": 2017,
-      "l": 2017
+      "f": 2011,
+      "l": 2011
     },
     {
       "a": 135497,
@@ -972,86 +905,51 @@
     {
       "a": 138813,
       "b": 138814,
-      "t": 4,
-      "f": 2014,
-      "l": 2018
+      "t": 2,
+      "f": 2017,
+      "l": 2017
     },
     {
       "a": 138813,
       "b": 142622,
-      "t": 58,
+      "t": 33,
       "f": 2018,
       "l": 2024
     },
     {
       "a": 138814,
       "b": 148896,
-      "t": 4,
+      "t": 1,
       "f": 2019,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 138814,
       "b": 158106,
-      "t": 10,
+      "t": 7,
       "f": 2022,
       "l": 2024
     },
     {
       "a": 138814,
       "b": 162684,
-      "t": 2,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
     {
       "a": 142622,
       "b": 144087,
-      "t": 5,
-      "f": 2014,
-      "l": 2017
-    },
-    {
-      "a": 144465,
-      "b": 148896,
-      "t": 10,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 146565,
-      "b": 201317,
       "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 146565,
-      "b": 206320,
-      "t": 2,
-      "f": 2025,
-      "l": 2025
+      "f": 2016,
+      "l": 2016
     },
     {
       "a": 148896,
       "b": 158106,
-      "t": 43,
+      "t": 11,
       "f": 2021,
       "l": 2026
-    },
-    {
-      "a": 148896,
-      "b": 175257,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 148896,
-      "b": 179517,
-      "t": 3,
-      "f": 2024,
-      "l": 2024
     },
     {
       "a": 148896,
@@ -1069,13 +967,6 @@
     },
     {
       "a": 158106,
-      "b": 164785,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 158106,
       "b": 175257,
       "t": 1,
       "f": 2019,
@@ -1084,7 +975,7 @@
     {
       "a": 162684,
       "b": 164785,
-      "t": 29,
+      "t": 14,
       "f": 2022,
       "l": 2026
     },
@@ -1098,23 +989,16 @@
     {
       "a": 173840,
       "b": 173841,
-      "t": 2,
-      "f": 2021,
+      "t": 1,
+      "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 173841,
-      "b": 201201,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 179449,
       "b": 179517,
-      "t": 6,
+      "t": 2,
       "f": 2021,
-      "l": 2024
+      "l": 2023
     },
     {
       "a": 179449,
@@ -1133,16 +1017,16 @@
     {
       "a": 195935,
       "b": 200145,
-      "t": 6,
+      "t": 3,
       "f": 2024,
       "l": 2026
     },
     {
       "a": 201201,
       "b": 201284,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     }
   ]
 }

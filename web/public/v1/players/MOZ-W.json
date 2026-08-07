@@ -31,20 +31,6 @@
       "weight": null
     },
     {
-      "id": 123176,
-      "name": "Joaquina Roque",
-      "dob": "1989-04-10",
-      "height": 171,
-      "weight": 62
-    },
-    {
-      "id": 123187,
-      "name": "Sátira Chongo",
-      "dob": "1990-05-04",
-      "height": 170,
-      "weight": 60
-    },
-    {
       "id": 123217,
       "name": "Silvia Tazama",
       "dob": "1984-09-01",
@@ -55,20 +41,6 @@
       "id": 146659,
       "name": "Vanessa Muianga",
       "dob": "1995-10-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146703,
-      "name": "Lizi Cambula",
-      "dob": "1994-08-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146913,
-      "name": "Fauzia Mussane",
-      "dob": "1994-08-08",
       "height": null,
       "weight": null
     },
@@ -122,32 +94,11 @@
       "weight": 60
     },
     {
-      "id": 178604,
-      "name": "Natalia Intego",
-      "dob": "2001-10-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 178664,
       "name": "Nadia Julio Bango",
       "dob": "2005-07-03",
       "height": 179,
       "weight": 45
-    },
-    {
-      "id": 226913,
-      "name": "Célia Nelson Machava",
-      "dob": "2010-07-03",
-      "height": 175,
-      "weight": 61
-    },
-    {
-      "id": 226915,
-      "name": "Alaina Ana Mahumane",
-      "dob": "2011-02-05",
-      "height": 157,
-      "weight": 52
     }
   ]
 }

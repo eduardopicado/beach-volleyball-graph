@@ -122,13 +122,6 @@
       "weight": 105
     },
     {
-      "id": 104884,
-      "name": "Aleksandar Varga",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 105014,
       "name": "Frane Zanic",
       "dob": null,
@@ -145,20 +138,6 @@
     {
       "id": 115560,
       "name": "Zeljko Nojic",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 115564,
-      "name": "Boris Osmokrovic",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 115565,
-      "name": "Matijaz Urnaut",
       "dob": null,
       "height": null,
       "weight": null
@@ -243,20 +222,6 @@
     {
       "id": 115610,
       "name": "Tima Zukovskij",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 115612,
-      "name": "Dominik Raca",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 116644,
-      "name": "Admir Glavas",
       "dob": null,
       "height": null,
       "weight": null
@@ -360,20 +325,6 @@
       "weight": null
     },
     {
-      "id": 120285,
-      "name": "Matija Brlas",
-      "dob": "1985-08-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120286,
-      "name": "Josip Huljev",
-      "dob": "1987-05-13",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120316,
       "name": "Niksa Dellorco",
       "dob": "1992-05-03",
@@ -437,23 +388,9 @@
       "weight": null
     },
     {
-      "id": 120362,
-      "name": "Damir Paleka",
-      "dob": "1984-03-25",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120363,
       "name": "Luka Radosevic",
       "dob": "1981-08-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120552,
-      "name": "Denis vujcic",
-      "dob": "1990-08-15",
       "height": null,
       "weight": null
     },
@@ -462,13 +399,6 @@
       "name": "Matej Mudrovcic",
       "dob": "1991-01-14",
       "height": null,
-      "weight": null
-    },
-    {
-      "id": 123049,
-      "name": "Tsimafei Zhukouski",
-      "dob": "1989-12-18",
-      "height": 192,
       "weight": null
     },
     {
@@ -521,13 +451,6 @@
       "weight": 82
     },
     {
-      "id": 139534,
-      "name": "Marko Sedlacek",
-      "dob": "1996-07-29",
-      "height": 202,
-      "weight": 95
-    },
-    {
       "id": 141878,
       "name": "Hrvoje Pervan",
       "dob": "1994-12-08",
@@ -547,13 +470,6 @@
       "dob": "1990-04-04",
       "height": 205,
       "weight": 95
-    },
-    {
-      "id": 146442,
-      "name": "Petar Dirlic",
-      "dob": "1997-05-27",
-      "height": 206,
-      "weight": 100
     },
     {
       "id": 148861,
@@ -582,20 +498,6 @@
       "dob": "1981-12-02",
       "height": 193,
       "weight": 97
-    },
-    {
-      "id": 156962,
-      "name": "Ivan Cosic",
-      "dob": "1984-02-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 157876,
-      "name": "Hrvoje Zelenika",
-      "dob": "1992-02-02",
-      "height": null,
-      "weight": null
     },
     {
       "id": 158426,
@@ -640,13 +542,6 @@
       "weight": 85
     },
     {
-      "id": 169836,
-      "name": "Andrej Štorc",
-      "dob": "1990-08-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 170635,
       "name": "Tino Hanžić",
       "dob": "2000-10-24",
@@ -661,44 +556,9 @@
       "weight": 78
     },
     {
-      "id": 174257,
-      "name": "Nikola Scerbakov",
-      "dob": "1995-07-05",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182098,
       "name": "Tin Devald",
       "dob": "2005-12-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182099,
-      "name": "Roko Vlašić",
-      "dob": "2004-03-11",
-      "height": 193,
-      "weight": 75
-    },
-    {
-      "id": 186440,
-      "name": "Dino Šoš",
-      "dob": "2005-01-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 200353,
-      "name": "Jurica Skorin",
-      "dob": "1991-04-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 210069,
-      "name": "Ivan Brletić",
-      "dob": "2005-04-19",
       "height": null,
       "weight": null
     },

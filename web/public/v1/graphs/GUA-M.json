@@ -20,27 +20,19 @@
       "last": 1995
     },
     {
-      "id": 120806,
-      "name": "Julio Anibal Recinos Ocaña",
-      "short": "Recinos",
-      "tournaments": 2,
-      "first": 2008,
-      "last": 2013
-    },
-    {
       "id": 120892,
       "name": "Andy Alexis Leonardo Blanco",
       "short": "Blanco",
-      "tournaments": 9,
-      "first": 2008,
+      "tournaments": 5,
+      "first": 2017,
       "last": 2023
     },
     {
       "id": 121014,
       "name": "Luis Augusto Garcia Betancourt",
       "short": "Garcia",
-      "tournaments": 9,
-      "first": 2013,
+      "tournaments": 5,
+      "first": 2017,
       "last": 2023
     },
     {
@@ -52,28 +44,12 @@
       "last": 2012
     },
     {
-      "id": 138329,
-      "name": "Mark David Andree Alvarez Marroquin",
-      "short": "Alvarez",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 139726,
       "name": "Luis Carlos Orellana Ramirez",
       "short": "Orellana",
       "tournaments": 1,
       "first": 2012,
       "last": 2012
-    },
-    {
-      "id": 140087,
-      "name": "Erik Gerardo Flores Diaz",
-      "short": "Flores",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 217627,
@@ -101,23 +77,9 @@
       "l": 1995
     },
     {
-      "a": 120806,
-      "b": 120892,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120806,
-      "b": 121014,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 120892,
       "b": 121014,
-      "t": 8,
+      "t": 5,
       "f": 2017,
       "l": 2023
     },
@@ -127,13 +89,6 @@
       "t": 1,
       "f": 2012,
       "l": 2012
-    },
-    {
-      "a": 138329,
-      "b": 140087,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 217627,

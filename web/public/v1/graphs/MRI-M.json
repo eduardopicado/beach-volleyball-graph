@@ -7,15 +7,15 @@
       "id": 114505,
       "name": "Gilbert Alfred",
       "short": "Alfred",
-      "tournaments": 4,
-      "first": 2023,
+      "tournaments": 2,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 122856,
       "name": "Evans Sauteur",
       "short": "Sauteur",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2023,
       "last": 2023
     },
@@ -23,7 +23,7 @@
       "id": 136618,
       "name": "Jean David Gregory Benedict Howard Carcasse",
       "short": "Carcasse",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2023,
       "last": 2025
     },
@@ -34,14 +34,6 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 172465,
-      "name": "Bhoomeshwarsing Doobraz",
-      "short": "Doobraz",
-      "tournaments": 2,
-      "first": 2023,
-      "last": 2023
     }
   ],
   "edges": [
@@ -53,16 +45,9 @@
       "l": 2024
     },
     {
-      "a": 114505,
-      "b": 172465,
-      "t": 2,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 122856,
       "b": 136618,
-      "t": 3,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },

@@ -31,7 +31,7 @@
       "id": 102996,
       "name": "Pia Hove",
       "short": "Hove",
-      "tournaments": 18,
+      "tournaments": 11,
       "first": 2005,
       "last": 2007
     },
@@ -47,7 +47,7 @@
       "id": 104341,
       "name": "Stine Andreasen Lollesgaard",
       "short": "Andreasen",
-      "tournaments": 65,
+      "tournaments": 40,
       "first": 2003,
       "last": 2010
     },
@@ -63,9 +63,9 @@
       "id": 104738,
       "name": "Tine Rose Eriksen",
       "short": "Eriksen",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2004,
-      "last": 2009
+      "last": 2008
     },
     {
       "id": 104740,
@@ -87,7 +87,7 @@
       "id": 118647,
       "name": "Lotte Vestergaard",
       "short": "Vestergaard",
-      "tournaments": 58,
+      "tournaments": 35,
       "first": 2007,
       "last": 2010
     },
@@ -95,7 +95,7 @@
       "id": 119715,
       "name": "Charlotte Dyhr",
       "short": "Dyhr",
-      "tournaments": 17,
+      "tournaments": 12,
       "first": 2007,
       "last": 2010
     },
@@ -103,7 +103,7 @@
       "id": 121519,
       "name": "Lærke Mygind Grønfeldt",
       "short": "Grønfeldt",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2017,
       "last": 2018
     },
@@ -111,8 +111,8 @@
       "id": 121570,
       "name": "Eva Mielskov Bang",
       "short": "Bang",
-      "tournaments": 6,
-      "first": 2009,
+      "tournaments": 1,
+      "first": 2016,
       "last": 2016
     },
     {
@@ -127,15 +127,15 @@
       "id": 124734,
       "name": "Juliane Daugaard",
       "short": "Daugaard",
-      "tournaments": 4,
-      "first": 2009,
+      "tournaments": 1,
+      "first": 2010,
       "last": 2010
     },
     {
       "id": 132075,
       "name": "Line Trans Hansen",
       "short": "Trans",
-      "tournaments": 37,
+      "tournaments": 21,
       "first": 2010,
       "last": 2021
     },
@@ -143,23 +143,23 @@
       "id": 132631,
       "name": "Cecilie Køllner Olsen",
       "short": "Olsen",
-      "tournaments": 52,
+      "tournaments": 16,
       "first": 2016,
-      "last": 2024
+      "last": 2021
     },
     {
       "id": 144475,
       "name": "Helle Søndergård",
       "short": "Sondergard",
-      "tournaments": 32,
+      "tournaments": 18,
       "first": 2016,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 144487,
       "name": "Simone Marie Okholm Hansen",
       "short": "Okholm",
-      "tournaments": 35,
+      "tournaments": 16,
       "first": 2017,
       "last": 2021
     },
@@ -175,7 +175,7 @@
       "id": 146878,
       "name": "Anneka Hastings",
       "short": "Hastings",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
@@ -183,47 +183,47 @@
       "id": 147199,
       "name": "Emilie Glad Bak",
       "short": "Bak",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2019
+      "last": 2018
     },
     {
       "id": 147933,
       "name": "Signe Zibrandtsen Haaning",
       "short": "Zibrandtsen",
-      "tournaments": 16,
+      "tournaments": 6,
       "first": 2018,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 156345,
       "name": "Maria Elisabeth Tyndeskov",
       "short": "Tyndeskov",
-      "tournaments": 23,
+      "tournaments": 14,
       "first": 2017,
-      "last": 2021
+      "last": 2020
     },
     {
       "id": 156448,
       "name": "Pernille Witt",
       "short": "Witt",
-      "tournaments": 3,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 156450,
       "name": "Frederikke Schade Jensen",
       "short": "Schade",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2024
+      "last": 2018
     },
     {
       "id": 156451,
       "name": "Sara Stief",
       "short": "Stief",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2018,
       "last": 2020
     },
@@ -231,7 +231,7 @@
       "id": 158176,
       "name": "Sofia Nørager Bisgaard",
       "short": "Bisgaard",
-      "tournaments": 116,
+      "tournaments": 39,
       "first": 2018,
       "last": 2026
     },
@@ -239,71 +239,23 @@
       "id": 158177,
       "name": "Clara Windeleff",
       "short": "Windeleff",
-      "tournaments": 60,
+      "tournaments": 19,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 158591,
-      "name": "Amanda Øster Andersen",
-      "short": "Andersen",
-      "tournaments": 4,
-      "first": 2022,
-      "last": 2024
-    },
-    {
-      "id": 158953,
-      "name": "Trine Bak Jonassen",
-      "short": "Bak",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 162931,
-      "name": "Freja Holme Barkler",
-      "short": "Barkler",
-      "tournaments": 9,
-      "first": 2019,
-      "last": 2022
     },
     {
       "id": 164457,
       "name": "Astrid Elisabeth Mellmølle",
       "short": "Mellmølle",
-      "tournaments": 16,
+      "tournaments": 4,
       "first": 2025,
       "last": 2026
-    },
-    {
-      "id": 168300,
-      "name": "Freja Hvidtfeldt Foged",
-      "short": "Foged",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 168789,
-      "name": "Lise Birk Nielsen",
-      "short": "Birk",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
-    },
-    {
-      "id": 176849,
-      "name": "Tine Sylvest Meyhoff",
-      "short": "Meyhoff",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 179473,
       "name": "Anna Juhl Staal Hauge",
       "short": "Hauge",
-      "tournaments": 10,
+      "tournaments": 6,
       "first": 2023,
       "last": 2025
     },
@@ -311,65 +263,25 @@
       "id": 179479,
       "name": "Frida Meincke Lyø",
       "short": "Lyø",
-      "tournaments": 30,
+      "tournaments": 10,
       "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 180987,
-      "name": "Asta Kjærgaard",
-      "short": "Kjærgaard",
-      "tournaments": 12,
-      "first": 2021,
-      "last": 2022
     },
     {
       "id": 181125,
       "name": "Charlene Manuella Mayo Johnsen",
       "short": "Johnsen",
-      "tournaments": 36,
-      "first": 2021,
-      "last": 2026
-    },
-    {
-      "id": 182051,
-      "name": "Marie Egebjerg Jensen",
-      "short": "Egebjerg",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2023
-    },
-    {
-      "id": 189388,
-      "name": "Vanessa Richards",
-      "short": "Richards",
       "tournaments": 5,
-      "first": 2022,
-      "last": 2024
+      "first": 2024,
+      "last": 2026
     },
     {
       "id": 192226,
       "name": "Cirkeline Roed Høg",
       "short": "Høg",
-      "tournaments": 24,
+      "tournaments": 9,
       "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 192795,
-      "name": "Mille Maxwel Berthou",
-      "short": "Berthou",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 195900,
-      "name": "Rebecca Nøhr Kramer",
-      "short": "Kramer",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     }
   ],
   "edges": [
@@ -390,7 +302,7 @@
     {
       "a": 102996,
       "b": 104341,
-      "t": 16,
+      "t": 9,
       "f": 2005,
       "l": 2006
     },
@@ -425,7 +337,7 @@
     {
       "a": 104341,
       "b": 118647,
-      "t": 48,
+      "t": 30,
       "f": 2007,
       "l": 2010
     },
@@ -439,14 +351,14 @@
     {
       "a": 104738,
       "b": 119715,
-      "t": 5,
+      "t": 4,
       "f": 2008,
-      "l": 2009
+      "l": 2008
     },
     {
       "a": 118647,
       "b": 119715,
-      "t": 10,
+      "t": 5,
       "f": 2010,
       "l": 2010
     },
@@ -460,7 +372,7 @@
     {
       "a": 121519,
       "b": 132631,
-      "t": 4,
+      "t": 3,
       "f": 2017,
       "l": 2017
     },
@@ -473,15 +385,8 @@
     },
     {
       "a": 121570,
-      "b": 124734,
-      "t": 3,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 121570,
       "b": 132631,
-      "t": 3,
+      "t": 1,
       "f": 2016,
       "l": 2016
     },
@@ -523,51 +428,37 @@
     {
       "a": 132075,
       "b": 156345,
-      "t": 20,
+      "t": 13,
       "f": 2017,
       "l": 2019
     },
     {
-      "a": 132075,
-      "b": 158177,
-      "t": 10,
-      "f": 2019,
-      "l": 2021
-    },
-    {
       "a": 132631,
       "b": 147933,
-      "t": 6,
+      "t": 3,
       "f": 2018,
-      "l": 2020
-    },
-    {
-      "a": 132631,
-      "b": 156450,
-      "t": 4,
-      "f": 2023,
-      "l": 2024
+      "l": 2019
     },
     {
       "a": 132631,
       "b": 158176,
-      "t": 34,
+      "t": 8,
       "f": 2018,
       "l": 2021
     },
     {
       "a": 144475,
       "b": 144487,
-      "t": 23,
+      "t": 12,
       "f": 2017,
       "l": 2019
     },
     {
       "a": 144475,
       "b": 147933,
-      "t": 4,
+      "t": 1,
       "f": 2019,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 144475,
@@ -598,39 +489,11 @@
       "l": 2020
     },
     {
-      "a": 144487,
-      "b": 180987,
-      "t": 9,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 146878,
-      "b": 147933,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 147199,
-      "b": 168300,
-      "t": 2,
-      "f": 2019,
-      "l": 2019
-    },
-    {
       "a": 147933,
       "b": 156451,
       "t": 1,
       "f": 2020,
       "l": 2020
-    },
-    {
-      "a": 156345,
-      "b": 156450,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 156448,
@@ -640,13 +503,6 @@
       "l": 2024
     },
     {
-      "a": 156448,
-      "b": 180987,
-      "t": 2,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 156450,
       "b": 156451,
       "t": 1,
@@ -654,109 +510,53 @@
       "l": 2018
     },
     {
-      "a": 156451,
-      "b": 162931,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
       "a": 158176,
       "b": 158177,
-      "t": 32,
+      "t": 13,
       "f": 2021,
       "l": 2025
     },
     {
       "a": 158176,
       "b": 179473,
-      "t": 6,
+      "t": 4,
       "f": 2024,
       "l": 2025
     },
     {
       "a": 158176,
       "b": 179479,
-      "t": 10,
-      "f": 2024,
+      "t": 4,
+      "f": 2025,
       "l": 2025
     },
     {
       "a": 158176,
       "b": 181125,
-      "t": 12,
+      "t": 1,
       "f": 2024,
-      "l": 2025
+      "l": 2024
     },
     {
       "a": 158176,
       "b": 192226,
-      "t": 23,
+      "t": 8,
       "f": 2025,
       "l": 2026
     },
     {
       "a": 158177,
       "b": 164457,
-      "t": 16,
+      "t": 4,
       "f": 2025,
       "l": 2026
     },
     {
       "a": 158177,
       "b": 179473,
-      "t": 3,
+      "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 158591,
-      "b": 162931,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 158591,
-      "b": 189388,
-      "t": 3,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 158953,
-      "b": 195900,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 162931,
-      "b": 180987,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 162931,
-      "b": 181125,
-      "t": 6,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 162931,
-      "b": 182051,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 168789,
-      "b": 176849,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
     },
     {
       "a": 179473,
@@ -768,7 +568,7 @@
     {
       "a": 179479,
       "b": 181125,
-      "t": 18,
+      "t": 4,
       "f": 2025,
       "l": 2026
     },
@@ -778,20 +578,6 @@
       "t": 1,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 179479,
-      "b": 192795,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 182051,
-      "b": 189388,
-      "t": 2,
-      "f": 2022,
-      "l": 2023
     }
   ]
 }

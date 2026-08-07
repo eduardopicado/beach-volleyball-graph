@@ -36,54 +36,6 @@
       "last": 2003
     },
     {
-      "id": 120587,
-      "name": "Pradeep John Maharaja Singh",
-      "short": "Ind",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120589,
-      "name": "Mohan V.Poothathan",
-      "short": "Ind",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120590,
-      "name": "Nixon S.Diraviam",
-      "short": "Ind",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120591,
-      "name": "Ramamoorthy Subramani",
-      "short": "Ind",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120604,
-      "name": "Sunil Kumar Kunhiram.P",
-      "short": "India / Sunil",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120605,
-      "name": "Yoosaf Ibrahim",
-      "short": "India / Yoosaf",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
       "id": 120615,
       "name": "Mohan P",
       "short": "Mohan",
@@ -111,14 +63,6 @@
       "id": 120618,
       "name": "Yoosaf I",
       "short": "Yoosaf",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120620,
-      "name": "Manu V",
-      "short": "Manu",
       "tournaments": 1,
       "first": 2008,
       "last": 2008
@@ -164,22 +108,6 @@
       "last": 2008
     },
     {
-      "id": 120632,
-      "name": "Livingston Livingston",
-      "short": "Livingston",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 133777,
-      "name": "C Rajkumar",
-      "short": "Raj",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
       "id": 133780,
       "name": "C H R Krishnam Raju",
       "short": "Raju",
@@ -194,30 +122,6 @@
       "tournaments": 1,
       "first": 2019,
       "last": 2019
-    },
-    {
-      "id": 142983,
-      "name": "Shankar Vaspari",
-      "short": "Vaspari",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 142984,
-      "name": "mahesh kumar charka",
-      "short": "Mahesh",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 143090,
-      "name": "Yogaraja Chithiraipandi",
-      "short": "Yoga",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
     },
     {
       "id": 145773,
@@ -383,13 +287,6 @@
   "edges": [
     {
       "a": 102058,
-      "b": 120591,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 102058,
       "b": 120616,
       "t": 1,
       "f": 2008,
@@ -401,20 +298,6 @@
       "t": 1,
       "f": 2003,
       "l": 2003
-    },
-    {
-      "a": 102060,
-      "b": 120587,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 102060,
-      "b": 120589,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
     },
     {
       "a": 102060,
@@ -431,29 +314,8 @@
       "l": 2008
     },
     {
-      "a": 120589,
-      "b": 120590,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120604,
-      "b": 120605,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 120617,
       "b": 120618,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120620,
-      "b": 120632,
       "t": 1,
       "f": 2008,
       "l": 2008
@@ -473,13 +335,6 @@
       "l": 2008
     },
     {
-      "a": 133777,
-      "b": 143090,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 133780,
       "b": 172405,
       "t": 1,
@@ -492,13 +347,6 @@
       "t": 1,
       "f": 2019,
       "l": 2019
-    },
-    {
-      "a": 142983,
-      "b": 142984,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
     },
     {
       "a": 155350,

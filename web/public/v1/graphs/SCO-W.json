@@ -7,15 +7,15 @@
       "id": 133249,
       "name": "Lynne Beattie",
       "short": "Beattie",
-      "tournaments": 58,
-      "first": 2016,
+      "tournaments": 31,
+      "first": 2017,
       "last": 2026
     },
     {
       "id": 150830,
       "name": "Melissa Coutts",
       "short": "Coutts",
-      "tournaments": 50,
+      "tournaments": 28,
       "first": 1999,
       "last": 2026
     },
@@ -23,15 +23,15 @@
       "id": 150841,
       "name": "Kathryn Barbour",
       "short": "Barbour",
-      "tournaments": 22,
-      "first": 2021,
+      "tournaments": 9,
+      "first": 2022,
       "last": 2025
     },
     {
       "id": 153177,
       "name": "Mhairi Wallace",
       "short": "Wallace",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2024,
       "last": 2025
     },
@@ -39,9 +39,9 @@
       "id": 164869,
       "name": "Rachel Morrison",
       "short": "Morrison",
-      "tournaments": 26,
-      "first": 2021,
-      "last": 2026
+      "tournaments": 11,
+      "first": 2022,
+      "last": 2025
     },
     {
       "id": 196202,
@@ -56,29 +56,22 @@
     {
       "a": 133249,
       "b": 150830,
-      "t": 49,
-      "f": 2016,
+      "t": 27,
+      "f": 2017,
       "l": 2026
     },
     {
       "a": 133249,
       "b": 153177,
-      "t": 7,
+      "t": 4,
       "f": 2025,
       "l": 2025
     },
     {
-      "a": 133249,
-      "b": 164869,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 150841,
       "b": 164869,
-      "t": 22,
-      "f": 2021,
+      "t": 9,
+      "f": 2022,
       "l": 2025
     },
     {

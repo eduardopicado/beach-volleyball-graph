@@ -23,9 +23,9 @@
       "id": 103850,
       "name": "James Carlton Woods Merren",
       "short": "Woods Merren",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2002,
-      "last": 2005
+      "last": 2002
     },
     {
       "id": 103851,
@@ -34,14 +34,6 @@
       "tournaments": 3,
       "first": 2002,
       "last": 2002
-    },
-    {
-      "id": 117638,
-      "name": "Luis Alberto Baide Reyes",
-      "short": "Baide",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
     }
   ],
   "edges": [
@@ -58,13 +50,6 @@
       "t": 3,
       "f": 2002,
       "l": 2002
-    },
-    {
-      "a": 103850,
-      "b": 117638,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     }
   ]
 }

@@ -31,7 +31,7 @@
       "id": 101300,
       "name": "Emanuel Fernandes",
       "short": "Fernandes",
-      "tournaments": 22,
+      "tournaments": 20,
       "first": 1995,
       "last": 2008
     },
@@ -63,7 +63,7 @@
       "id": 104209,
       "name": "Mario Silva",
       "short": "Silva",
-      "tournaments": 37,
+      "tournaments": 34,
       "first": 2003,
       "last": 2012
     },
@@ -71,7 +71,7 @@
       "id": 118532,
       "name": "Morais Abreu",
       "short": "Abreu",
-      "tournaments": 37,
+      "tournaments": 32,
       "first": 2007,
       "last": 2012
     }
@@ -115,7 +115,7 @@
     {
       "a": 101300,
       "b": 118532,
-      "t": 20,
+      "t": 18,
       "f": 2007,
       "l": 2008
     },
@@ -129,7 +129,7 @@
     {
       "a": 104209,
       "b": 118532,
-      "t": 17,
+      "t": 14,
       "f": 2008,
       "l": 2012
     }

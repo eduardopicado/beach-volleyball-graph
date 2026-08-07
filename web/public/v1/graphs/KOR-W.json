@@ -127,16 +127,16 @@
       "id": 120312,
       "name": "Jee-Yeon Han",
       "short": "HAN Jee-yeon",
-      "tournaments": 3,
-      "first": 2008,
+      "tournaments": 2,
+      "first": 2009,
       "last": 2010
     },
     {
       "id": 120313,
       "name": "Ji-Youn Jung",
       "short": "JUNG Ji-youn",
-      "tournaments": 3,
-      "first": 2008,
+      "tournaments": 2,
+      "first": 2011,
       "last": 2012
     },
     {
@@ -279,9 +279,9 @@
       "id": 173899,
       "name": "Jieun Shin",
       "short": "Jieun",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2019,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 173900,
@@ -311,15 +311,15 @@
       "id": 175164,
       "name": "Jeonga Kim",
       "short": "Kim Jeonga",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 188539,
       "name": "Hobin Lee",
       "short": "Lee Hobin",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
       "last": 2023
     },
@@ -335,9 +335,9 @@
       "id": 191025,
       "name": "Seohyun Ko",
       "short": "Seohyun",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 191026,
@@ -351,9 +351,9 @@
       "id": 191031,
       "name": "Hyunjoo Kim",
       "short": "Hyunjoo",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 192154,
@@ -367,17 +367,9 @@
       "id": 196693,
       "name": "Seyeon Kim",
       "short": "Kim Seyeon",
-      "tournaments": 3,
-      "first": 2022,
+      "tournaments": 2,
+      "first": 2023,
       "last": 2025
-    },
-    {
-      "id": 196694,
-      "name": "Jimin Kang",
-      "short": "Kang Jimin",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 201683,
@@ -391,9 +383,9 @@
       "id": 223432,
       "name": "Gaeun SEO",
       "short": "Gaeun",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 225914,
@@ -402,30 +394,6 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 242555,
-      "name": "Seojin Im",
-      "short": "Seojin",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 242556,
-      "name": "Yewon Kim",
-      "short": "Yewon",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 242557,
-      "name": "Eunhwan Kwon",
-      "short": "Eunhwan",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
@@ -542,13 +510,6 @@
       "l": 2024
     },
     {
-      "a": 120312,
-      "b": 120313,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 120313,
       "b": 120428,
       "t": 1,
@@ -619,13 +580,6 @@
       "l": 2013
     },
     {
-      "a": 163397,
-      "b": 163398,
-      "t": 1,
-      "f": 2017,
-      "l": 2017
-    },
-    {
       "a": 163398,
       "b": 165301,
       "t": 1,
@@ -656,16 +610,9 @@
     {
       "a": 173899,
       "b": 175164,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 173899,
-      "b": 188539,
       "t": 1,
-      "f": 2022,
-      "l": 2022
+      "f": 2025,
+      "l": 2025
     },
     {
       "a": 173899,
@@ -703,13 +650,6 @@
       "l": 2025
     },
     {
-      "a": 191025,
-      "b": 242556,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 191026,
       "b": 225914,
       "t": 1,
@@ -719,23 +659,9 @@
     {
       "a": 191031,
       "b": 223432,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 196693,
-      "b": 196694,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 242555,
-      "b": 242557,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
+      "l": 2025
     }
   ]
 }

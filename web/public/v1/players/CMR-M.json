@@ -3,60 +3,11 @@
   "gender": "M",
   "players": [
     {
-      "id": 168431,
-      "name": "Arnold Fabrice Koe Bassoko",
-      "dob": "2000-10-08",
-      "height": 191,
-      "weight": 90
-    },
-    {
-      "id": 168433,
-      "name": "Ulrich Fotso Fotso",
-      "dob": "2002-03-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 169076,
-      "name": "Kevin Audran Noumbissi Moyo",
-      "dob": "1993-05-22",
-      "height": 194,
-      "weight": 90
-    },
-    {
-      "id": 173002,
-      "name": "Manga Owana Tobie Joss Siloe",
-      "dob": "2001-11-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 173003,
       "name": "Nsangou Lindou Mohamed Lamine",
       "dob": "2002-04-02",
       "height": 190,
       "weight": 90
-    },
-    {
-      "id": 174654,
-      "name": "Cedric Bitouna",
-      "dob": "2000-09-13",
-      "height": 190,
-      "weight": 85
-    },
-    {
-      "id": 176780,
-      "name": "Rodrigue Ncha Tambi",
-      "dob": "1988-07-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 176810,
-      "name": "Yvan Loumboua Ngossengue",
-      "dob": "1991-08-02",
-      "height": null,
-      "weight": null
     },
     {
       "id": 181894,
@@ -66,109 +17,11 @@
       "weight": 85
     },
     {
-      "id": 181895,
-      "name": "Taguemkam Tetso Bernard",
-      "dob": "1999-07-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181896,
-      "name": "Ngalani Ngaleu Julien Franck",
-      "dob": "2002-09-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181957,
-      "name": "Envoug Tsala Joseph",
-      "dob": "1994-07-07",
-      "height": null,
-      "weight": 75
-    },
-    {
-      "id": 183595,
-      "name": "Tobie Joss Siloe Manga Owona",
-      "dob": "2001-10-20",
-      "height": null,
-      "weight": 88
-    },
-    {
-      "id": 183856,
-      "name": "Landry Kavogo Yaoussia",
-      "dob": "2003-05-24",
-      "height": 199,
-      "weight": 78
-    },
-    {
       "id": 188136,
       "name": "Besongngnem Obenda",
       "dob": "1990-09-08",
       "height": 182,
       "weight": 79
-    },
-    {
-      "id": 189409,
-      "name": "Joseph Mbongue Nzeke",
-      "dob": "1991-12-09",
-      "height": 192,
-      "weight": 73
-    },
-    {
-      "id": 189413,
-      "name": "Salim Bouba",
-      "dob": "1996-11-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 201055,
-      "name": "Pierre Pascal Boutsap Yayabakan",
-      "dob": "1997-07-17",
-      "height": null,
-      "weight": 88
-    },
-    {
-      "id": 201069,
-      "name": "Mahamat Adji",
-      "dob": "2004-01-01",
-      "height": 191,
-      "weight": 80
-    },
-    {
-      "id": 201070,
-      "name": "Joseph Ganna",
-      "dob": "2006-03-04",
-      "height": 192,
-      "weight": 80
-    },
-    {
-      "id": 204854,
-      "name": "Juan Kevim Mbira Abouem",
-      "dob": "2009-01-04",
-      "height": 190,
-      "weight": 89
-    },
-    {
-      "id": 208158,
-      "name": "Issa Abdouraman",
-      "dob": "2008-11-18",
-      "height": 186,
-      "weight": 75
-    },
-    {
-      "id": 209764,
-      "name": "Dimitri Messomo Essiane",
-      "dob": "2002-12-14",
-      "height": 192,
-      "weight": 96
-    },
-    {
-      "id": 221046,
-      "name": "Abakar Mahamat Abba Gambo",
-      "dob": "2004-03-22",
-      "height": 199,
-      "weight": 85
     }
   ]
 }

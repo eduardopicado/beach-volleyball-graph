@@ -23,7 +23,7 @@
       "id": 103664,
       "name": "Ana Oblak",
       "short": "Oblak",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2001,
       "last": 2006
     },
@@ -31,7 +31,7 @@
       "id": 103665,
       "name": "Barbara Kristan",
       "short": "Kristan",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2001,
       "last": 2006
     },
@@ -39,7 +39,7 @@
       "id": 104653,
       "name": "Mihela Istenic",
       "short": "Istenic",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2005,
       "last": 2005
     },
@@ -47,7 +47,7 @@
       "id": 104962,
       "name": "Erika Fabjan",
       "short": "Fabjan",
-      "tournaments": 45,
+      "tournaments": 28,
       "first": 2004,
       "last": 2011
     },
@@ -55,9 +55,9 @@
       "id": 104963,
       "name": "Simona Fabjan",
       "short": "Fabjan, S.",
-      "tournaments": 54,
+      "tournaments": 33,
       "first": 2004,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 115592,
@@ -87,23 +87,23 @@
       "id": 122364,
       "name": "Martina Jakob",
       "short": "Jakob",
-      "tournaments": 31,
-      "first": 2009,
+      "tournaments": 7,
+      "first": 2010,
       "last": 2011
     },
     {
       "id": 122365,
       "name": "Andreja Vodeb",
       "short": "Vodeb",
-      "tournaments": 40,
-      "first": 2009,
-      "last": 2013
+      "tournaments": 12,
+      "first": 2010,
+      "last": 2012
     },
     {
       "id": 132761,
       "name": "Sara Sakovic",
       "short": "Sakovic",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2012,
       "last": 2015
     },
@@ -111,24 +111,24 @@
       "id": 137272,
       "name": "Tjasa Jancar",
       "short": "Jancar",
-      "tournaments": 48,
-      "first": 2015,
-      "last": 2022
+      "tournaments": 15,
+      "first": 2017,
+      "last": 2021
     },
     {
       "id": 137589,
       "name": "Nataša Fekonja",
       "short": "Fekonja",
-      "tournaments": 3,
-      "first": 2015,
+      "tournaments": 2,
+      "first": 2016,
       "last": 2016
     },
     {
       "id": 138349,
       "name": "Ana Skarlovnik Petric",
       "short": "Skarlovnik",
-      "tournaments": 7,
-      "first": 2017,
+      "tournaments": 4,
+      "first": 2018,
       "last": 2018
     },
     {
@@ -167,15 +167,15 @@
       "id": 147142,
       "name": "Jelena Pešić",
       "short": "Pesic",
-      "tournaments": 3,
-      "first": 2017,
+      "tournaments": 2,
+      "first": 2018,
       "last": 2018
     },
     {
       "id": 148492,
       "name": "Nina Lovsin",
       "short": "Lovsin, N.",
-      "tournaments": 39,
+      "tournaments": 22,
       "first": 2015,
       "last": 2022
     },
@@ -183,23 +183,23 @@
       "id": 148740,
       "name": "Mojca Pene",
       "short": "Pene",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2017
+      "last": 2016
     },
     {
       "id": 153211,
       "name": "Tajda Lovsin",
       "short": "Lovsin, T.",
-      "tournaments": 120,
+      "tournaments": 48,
       "first": 2016,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 153482,
       "name": "Spela Morgan",
       "short": "Morgan",
-      "tournaments": 12,
+      "tournaments": 6,
       "first": 2016,
       "last": 2022
     },
@@ -207,31 +207,31 @@
       "id": 153924,
       "name": "Nina Kontrec",
       "short": "Kontrec",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2017
+      "last": 2016
     },
     {
       "id": 154048,
       "name": "Kaja Kersnik",
       "short": "Kersnik",
-      "tournaments": 5,
-      "first": 2017,
+      "tournaments": 3,
+      "first": 2018,
       "last": 2018
     },
     {
       "id": 154050,
       "name": "Nika Bevc",
       "short": "Bevc",
-      "tournaments": 3,
-      "first": 2017,
+      "tournaments": 2,
+      "first": 2018,
       "last": 2018
     },
     {
       "id": 154204,
       "name": "Nina Zdešar",
       "short": "Zdešar",
-      "tournaments": 19,
+      "tournaments": 11,
       "first": 2018,
       "last": 2020
     },
@@ -239,7 +239,7 @@
       "id": 154207,
       "name": "Katarina Bulc",
       "short": "Bulc",
-      "tournaments": 19,
+      "tournaments": 11,
       "first": 2018,
       "last": 2020
     },
@@ -247,15 +247,15 @@
       "id": 157819,
       "name": "Katarina Fabjan",
       "short": "Fabjan, K.",
-      "tournaments": 19,
+      "tournaments": 8,
       "first": 2018,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 157826,
       "name": "Nika Hrovat",
       "short": "Hrovat",
-      "tournaments": 12,
+      "tournaments": 7,
       "first": 2018,
       "last": 2021
     },
@@ -263,7 +263,7 @@
       "id": 157828,
       "name": "Nika Benedik Bevc",
       "short": "Benedik Bevc",
-      "tournaments": 12,
+      "tournaments": 7,
       "first": 2018,
       "last": 2021
     },
@@ -271,7 +271,7 @@
       "id": 157842,
       "name": "Lea Gostincar",
       "short": "Gostincar",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2017,
       "last": 2017
     },
@@ -279,56 +279,32 @@
       "id": 157843,
       "name": "Tjasa Kotnik",
       "short": "Kotnik",
-      "tournaments": 134,
+      "tournaments": 47,
       "first": 2017,
-      "last": 2026
-    },
-    {
-      "id": 157870,
-      "name": "Zala Spoljaric",
-      "short": "Spoljaric",
-      "tournaments": 1,
-      "first": 2019,
-      "last": 2019
+      "last": 2025
     },
     {
       "id": 157871,
       "name": "Lana Zuzek",
       "short": "Zuzek",
-      "tournaments": 2,
-      "first": 2019,
+      "tournaments": 1,
+      "first": 2021,
       "last": 2021
     },
     {
       "id": 164915,
       "name": "Maja Marolt",
       "short": "Marolt M.",
-      "tournaments": 13,
-      "first": 2021,
+      "tournaments": 6,
+      "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 167398,
-      "name": "Manica Bulc",
-      "short": "Bulc",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 168659,
       "name": "Klara Kregar",
       "short": "Kregar",
-      "tournaments": 32,
+      "tournaments": 11,
       "first": 2018,
-      "last": 2022
-    },
-    {
-      "id": 179050,
-      "name": "Iza Zbičajnik",
-      "short": "Zbičajnik",
-      "tournaments": 2,
-      "first": 2021,
       "last": 2021
     },
     {
@@ -343,49 +319,17 @@
       "id": 179308,
       "name": "Živa Javornik",
       "short": "Javornik",
-      "tournaments": 31,
+      "tournaments": 14,
       "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 182806,
-      "name": "Rima Posedel",
-      "short": "Posedel",
-      "tournaments": 3,
-      "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 182807,
-      "name": "Zoja Kalar",
-      "short": "Kalar",
-      "tournaments": 2,
-      "first": 2026,
       "last": 2026
     },
     {
       "id": 182811,
       "name": "Anja Puckmeister",
       "short": "Puckmeister",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 224431,
-      "name": "Neja Ferdin",
-      "short": "Ferdin",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 224432,
-      "name": "Anja Potočnik",
-      "short": "Potočnik",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
+      "last": 2022
     }
   ],
   "edges": [
@@ -399,14 +343,14 @@
     {
       "a": 103664,
       "b": 103665,
-      "t": 3,
+      "t": 2,
       "f": 2001,
       "l": 2006
     },
     {
       "a": 103664,
       "b": 104653,
-      "t": 3,
+      "t": 2,
       "f": 2005,
       "l": 2005
     },
@@ -420,16 +364,16 @@
     {
       "a": 104962,
       "b": 104963,
-      "t": 45,
+      "t": 28,
       "f": 2004,
       "l": 2011
     },
     {
       "a": 104963,
       "b": 122365,
-      "t": 9,
+      "t": 5,
       "f": 2012,
-      "l": 2013
+      "l": 2012
     },
     {
       "a": 120639,
@@ -441,16 +385,9 @@
     {
       "a": 122364,
       "b": 122365,
-      "t": 31,
-      "f": 2009,
+      "t": 7,
+      "f": 2010,
       "l": 2011
-    },
-    {
-      "a": 132761,
-      "b": 137589,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
     },
     {
       "a": 132761,
@@ -462,13 +399,6 @@
     {
       "a": 132761,
       "b": 148492,
-      "t": 2,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 137272,
-      "b": 148492,
       "t": 1,
       "f": 2015,
       "l": 2015
@@ -476,16 +406,16 @@
     {
       "a": 137272,
       "b": 157843,
-      "t": 34,
+      "t": 12,
       "f": 2017,
       "l": 2019
     },
     {
       "a": 137272,
       "b": 168659,
-      "t": 13,
+      "t": 3,
       "f": 2021,
-      "l": 2022
+      "l": 2021
     },
     {
       "a": 137589,
@@ -497,8 +427,8 @@
     {
       "a": 138349,
       "b": 147142,
-      "t": 3,
-      "f": 2017,
+      "t": 2,
+      "f": 2018,
       "l": 2018
     },
     {
@@ -511,7 +441,7 @@
     {
       "a": 138349,
       "b": 157843,
-      "t": 3,
+      "t": 1,
       "f": 2018,
       "l": 2018
     },
@@ -532,42 +462,35 @@
     {
       "a": 148492,
       "b": 153211,
-      "t": 8,
+      "t": 7,
       "f": 2018,
       "l": 2019
     },
     {
       "a": 148492,
       "b": 153482,
-      "t": 9,
+      "t": 3,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 148492,
       "b": 154048,
-      "t": 2,
-      "f": 2017,
+      "t": 1,
+      "f": 2018,
       "l": 2018
     },
     {
       "a": 148492,
       "b": 157842,
-      "t": 7,
+      "t": 1,
       "f": 2017,
       "l": 2017
     },
     {
       "a": 148492,
       "b": 157843,
-      "t": 4,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 148492,
-      "b": 167398,
-      "t": 1,
+      "t": 3,
       "f": 2018,
       "l": 2018
     },
@@ -581,9 +504,9 @@
     {
       "a": 148740,
       "b": 153924,
-      "t": 2,
+      "t": 1,
       "f": 2016,
-      "l": 2017
+      "l": 2016
     },
     {
       "a": 153211,
@@ -595,9 +518,9 @@
     {
       "a": 153211,
       "b": 157843,
-      "t": 83,
+      "t": 28,
       "f": 2021,
-      "l": 2026
+      "l": 2024
     },
     {
       "a": 153211,
@@ -609,79 +532,51 @@
     {
       "a": 153211,
       "b": 179308,
-      "t": 26,
-      "f": 2024,
+      "t": 10,
+      "f": 2025,
       "l": 2025
     },
     {
       "a": 154048,
       "b": 154050,
-      "t": 3,
-      "f": 2017,
+      "t": 2,
+      "f": 2018,
       "l": 2018
     },
     {
       "a": 154204,
       "b": 154207,
-      "t": 19,
+      "t": 11,
       "f": 2018,
       "l": 2020
     },
     {
       "a": 157819,
       "b": 168659,
-      "t": 19,
+      "t": 8,
       "f": 2018,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 157826,
       "b": 157828,
-      "t": 12,
+      "t": 7,
       "f": 2018,
       "l": 2021
     },
     {
       "a": 157843,
       "b": 164915,
-      "t": 7,
+      "t": 3,
       "f": 2022,
       "l": 2025
-    },
-    {
-      "a": 157843,
-      "b": 182811,
-      "t": 3,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 157870,
-      "b": 157871,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 164915,
-      "b": 179050,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 164915,
       "b": 179308,
-      "t": 4,
+      "t": 3,
       "f": 2022,
       "l": 2026
-    },
-    {
-      "a": 179308,
-      "b": 182806,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 179308,
@@ -689,20 +584,6 @@
       "t": 1,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 182806,
-      "b": 182807,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 224431,
-      "b": 224432,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     }
   ]
 }

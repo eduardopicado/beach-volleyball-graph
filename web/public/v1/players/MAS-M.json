@@ -24,20 +24,6 @@
       "weight": null
     },
     {
-      "id": 120947,
-      "name": "Naim Mohd Salim",
-      "dob": "1987-04-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120996,
-      "name": "Chong Long Khoo",
-      "dob": "1988-02-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 133766,
       "name": "Elangovan Yogeswaran",
       "dob": "1990-06-09",
@@ -171,13 +157,6 @@
       "weight": 80
     },
     {
-      "id": 177242,
-      "name": "Shon Ngiap Shyang",
-      "dob": "1996-08-17",
-      "height": 190,
-      "weight": 75
-    },
-    {
       "id": 177938,
       "name": "Al Rashid Kungkoy",
       "dob": null,
@@ -213,20 +192,6 @@
       "weight": null
     },
     {
-      "id": 178343,
-      "name": "Weerak Koo Sin",
-      "dob": "1998-08-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 178344,
-      "name": "Mohd Afiq Ahmad Yazi",
-      "dob": "1996-09-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 186575,
       "name": "Looi Kai Xu",
       "dob": "2004-03-28",
@@ -246,20 +211,6 @@
       "dob": "2006-08-17",
       "height": 191,
       "weight": 81
-    },
-    {
-      "id": 201746,
-      "name": "PHAVITHYRANMUNI NAGARAJAN",
-      "dob": "2003-04-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 205223,
-      "name": "MOHD SHUHAIMI MUHAMMAD FARIEZ",
-      "dob": "2006-08-06",
-      "height": null,
-      "weight": null
     },
     {
       "id": 210000,
@@ -316,34 +267,6 @@
       "dob": "2010-07-05",
       "height": 174,
       "weight": 59
-    },
-    {
-      "id": 227611,
-      "name": "TAN YONG JEN",
-      "dob": "2009-06-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 230790,
-      "name": "MUHAMMAD ISMA HAZIQ",
-      "dob": "2005-04-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 232905,
-      "name": "ENG EJEFF",
-      "dob": "2005-05-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 232906,
-      "name": "CHONG SKYREN",
-      "dob": "2008-10-09",
-      "height": null,
-      "weight": null
     }
   ]
 }

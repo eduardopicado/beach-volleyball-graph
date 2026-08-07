@@ -7,7 +7,7 @@
       "id": 146701,
       "name": "Sodji Gnondenou",
       "short": "Gnondenou",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
       "last": 2014
     },
@@ -15,7 +15,7 @@
       "id": 146702,
       "name": "Ballovi Honorine",
       "short": "Honorine",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
       "last": 2014
     },
@@ -34,45 +34,13 @@
       "tournaments": 1,
       "first": 2014,
       "last": 2014
-    },
-    {
-      "id": 226752,
-      "name": "Nambilatou ALASSANE",
-      "short": "Nabi",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 226764,
-      "name": "ADJOUAVI Matha KPEGLO",
-      "short": "Matha",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 231946,
-      "name": "Senan Aline Djotinhekpon",
-      "short": "Djotinhekpon,S",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 239882,
-      "name": "Aichath DIALLO",
-      "short": "Aicha",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
     {
       "a": 146701,
       "b": 146702,
-      "t": 2,
+      "t": 1,
       "f": 2014,
       "l": 2014
     },
@@ -82,20 +50,6 @@
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 226752,
-      "b": 226764,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 231946,
-      "b": 239882,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

@@ -15,7 +15,7 @@
       "id": 103436,
       "name": "Vakhtang Chikovani",
       "short": "Chikovani",
-      "tournaments": 10,
+      "tournaments": 6,
       "first": 2001,
       "last": 2005
     },
@@ -23,7 +23,7 @@
       "id": 115557,
       "name": "Soso Lobzhanidze",
       "short": "Lobzhanidze",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2005,
       "last": 2005
     },
@@ -31,7 +31,7 @@
       "id": 117860,
       "name": "Renato Gomes",
       "short": "Geor",
-      "tournaments": 113,
+      "tournaments": 101,
       "first": 2006,
       "last": 2012
     },
@@ -39,7 +39,7 @@
       "id": 117861,
       "name": "Jorge Terceiro",
       "short": "Gia",
-      "tournaments": 113,
+      "tournaments": 101,
       "first": 2006,
       "last": 2012
     }
@@ -55,14 +55,14 @@
     {
       "a": 103436,
       "b": 115557,
-      "t": 9,
+      "t": 5,
       "f": 2005,
       "l": 2005
     },
     {
       "a": 117860,
       "b": 117861,
-      "t": 113,
+      "t": 101,
       "f": 2006,
       "l": 2012
     }

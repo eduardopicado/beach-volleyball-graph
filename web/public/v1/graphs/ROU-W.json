@@ -7,7 +7,7 @@
       "id": 144110,
       "name": "Ioana-Alexandra Ordean",
       "short": "Ordean",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2019,
       "last": 2019
     },
@@ -15,7 +15,7 @@
       "id": 151588,
       "name": "Adriana-Maria Burtea",
       "short": "Burtea",
-      "tournaments": 20,
+      "tournaments": 16,
       "first": 2016,
       "last": 2026
     },
@@ -23,7 +23,7 @@
       "id": 151589,
       "name": "Beata Vaida",
       "short": "Vaida",
-      "tournaments": 51,
+      "tournaments": 40,
       "first": 2016,
       "last": 2026
     },
@@ -39,9 +39,9 @@
       "id": 156846,
       "name": "Zeynep Koc",
       "short": "Koc",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2018
+      "last": 2016
     },
     {
       "id": 157112,
@@ -68,18 +68,10 @@
       "last": 2019
     },
     {
-      "id": 166950,
-      "name": "Ioana-Rebeca Alexandru",
-      "short": "Alexandru",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 166952,
       "name": "Elena-Andreea Petrosanu",
       "short": "Petrosanu",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2018,
       "last": 2018
     },
@@ -87,23 +79,15 @@
       "id": 167549,
       "name": "Andreea Iustina Corcoz",
       "short": "Corcoz",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2018,
       "last": 2019
-    },
-    {
-      "id": 168334,
-      "name": "Diana-Florentina Milea",
-      "short": "Milea",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     },
     {
       "id": 169358,
       "name": "Francesca Ioana Alupei",
       "short": "Alupei",
-      "tournaments": 19,
+      "tournaments": 13,
       "first": 2025,
       "last": 2026
     },
@@ -116,20 +100,12 @@
       "last": 2018
     },
     {
-      "id": 171677,
-      "name": "Iasmin Gabriela Gird",
-      "short": "Gird",
-      "tournaments": 1,
-      "first": 2019,
-      "last": 2019
-    },
-    {
       "id": 171889,
       "name": "Ioana Sorina Hododi",
       "short": "Hododi",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2024
+      "last": 2019
     },
     {
       "id": 173590,
@@ -143,23 +119,15 @@
       "id": 178050,
       "name": "Alexia Ioana Bradatan",
       "short": "Bradatan",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 179512,
-      "name": "Ioana Teodora Radu",
-      "short": "Radu",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 180667,
       "name": "Ioana Andreea Miu",
       "short": "Miu",
-      "tournaments": 8,
+      "tournaments": 4,
       "first": 2022,
       "last": 2026
     },
@@ -176,14 +144,14 @@
     {
       "a": 144110,
       "b": 151589,
-      "t": 9,
+      "t": 8,
       "f": 2019,
       "l": 2019
     },
     {
       "a": 151588,
       "b": 151589,
-      "t": 20,
+      "t": 16,
       "f": 2016,
       "l": 2026
     },
@@ -197,7 +165,7 @@
     {
       "a": 151589,
       "b": 169358,
-      "t": 19,
+      "t": 13,
       "f": 2025,
       "l": 2026
     },
@@ -209,25 +177,11 @@
       "l": 2016
     },
     {
-      "a": 156846,
-      "b": 166952,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 157112,
       "b": 163434,
       "t": 1,
       "f": 2019,
       "l": 2019
-    },
-    {
-      "a": 166950,
-      "b": 167549,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
     },
     {
       "a": 166952,
@@ -245,38 +199,10 @@
     },
     {
       "a": 167549,
-      "b": 171677,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 167549,
       "b": 171889,
       "t": 1,
       "f": 2019,
       "l": 2019
-    },
-    {
-      "a": 168334,
-      "b": 180667,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 171889,
-      "b": 178050,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 171889,
-      "b": 180667,
-      "t": 3,
-      "f": 2024,
-      "l": 2024
     },
     {
       "a": 173590,
@@ -284,13 +210,6 @@
       "t": 2,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 178050,
-      "b": 179512,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 178050,

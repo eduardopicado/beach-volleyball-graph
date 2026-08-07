@@ -47,25 +47,25 @@
       "id": 139286,
       "name": "Gerard Fischer",
       "short": "Fischer",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2012,
-      "last": 2014
+      "last": 2013
     },
     {
       "id": 139288,
       "name": "Tin Hlupic",
       "short": "Hlupic",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2012,
-      "last": 2014
+      "last": 2013
     },
     {
       "id": 146117,
       "name": "Jan-Eric Sack",
       "short": "Sack",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
-      "last": 2025
+      "last": 2014
     },
     {
       "id": 146118,
@@ -95,23 +95,23 @@
       "id": 188209,
       "name": "Luca Kesselmann",
       "short": "Kesselmann",
-      "tournaments": 3,
-      "first": 2023,
-      "last": 2025
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
     },
     {
       "id": 188238,
       "name": "Max Krafft",
       "short": "Krafft",
-      "tournaments": 15,
-      "first": 2023,
+      "tournaments": 6,
+      "first": 2024,
       "last": 2026
     },
     {
       "id": 200273,
       "name": "Jura Krafft",
       "short": "Krafft",
-      "tournaments": 13,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
     }
@@ -134,9 +134,9 @@
     {
       "a": 139286,
       "b": 139288,
-      "t": 4,
+      "t": 3,
       "f": 2012,
-      "l": 2014
+      "l": 2013
     },
     {
       "a": 146117,
@@ -144,13 +144,6 @@
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 146117,
-      "b": 188209,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 157094,
@@ -162,14 +155,14 @@
     {
       "a": 188209,
       "b": 188238,
-      "t": 2,
-      "f": 2023,
+      "t": 1,
+      "f": 2024,
       "l": 2024
     },
     {
       "a": 188238,
       "b": 200273,
-      "t": 13,
+      "t": 5,
       "f": 2025,
       "l": 2026
     }

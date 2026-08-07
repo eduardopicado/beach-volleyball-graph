@@ -7,7 +7,7 @@
       "id": 118369,
       "name": "Brackcides Khadambi",
       "short": "Khadambi",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2021,
       "last": 2024
     },
@@ -15,32 +15,16 @@
       "id": 124540,
       "name": "Gaudencia Makokha",
       "short": "Makokha",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2013,
-      "last": 2026
-    },
-    {
-      "id": 134617,
-      "name": "Gladys Wangui",
-      "short": "Gladys",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "last": 2025
     },
     {
       "id": 142061,
       "name": "Naomie Too",
       "short": "Too",
-      "tournaments": 5,
-      "first": 2013,
-      "last": 2023
-    },
-    {
-      "id": 164744,
-      "name": "Yvonne Wavinya Kiitha",
-      "short": "Wavinya",
       "tournaments": 3,
-      "first": 2021,
+      "first": 2013,
       "last": 2023
     },
     {
@@ -50,14 +34,6 @@
       "tournaments": 1,
       "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 175455,
-      "name": "Phosca Nekesa Kasisi",
-      "short": "Phosca",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2022
     },
     {
       "id": 179830,
@@ -74,28 +50,20 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 187378,
-      "name": "Angelina Gambo",
-      "short": "Selina",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
     {
       "a": 118369,
       "b": 124540,
-      "t": 5,
+      "t": 3,
       "f": 2021,
       "l": 2024
     },
     {
       "a": 124540,
       "b": 142061,
-      "t": 4,
+      "t": 3,
       "f": 2013,
       "l": 2023
     },
@@ -105,34 +73,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 124540,
-      "b": 187378,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 134617,
-      "b": 142061,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 142061,
-      "b": 164744,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 164744,
-      "b": 175455,
-      "t": 2,
-      "f": 2021,
-      "l": 2022
     },
     {
       "a": 172146,

@@ -31,7 +31,7 @@
       "id": 102179,
       "name": "Pero Krizanovic",
       "short": "Krizanovic",
-      "tournaments": 33,
+      "tournaments": 24,
       "first": 1998,
       "last": 2009
     },
@@ -47,7 +47,7 @@
       "id": 103399,
       "name": "Grga Trimcevski",
       "short": "Trimcevski",
-      "tournaments": 28,
+      "tournaments": 19,
       "first": 2001,
       "last": 2008
     },
@@ -55,7 +55,7 @@
       "id": 103812,
       "name": "Kresimir Peric",
       "short": "Perić",
-      "tournaments": 42,
+      "tournaments": 30,
       "first": 2002,
       "last": 2009
     },
@@ -63,7 +63,7 @@
       "id": 103813,
       "name": "Dejan Laninovic",
       "short": "Laninovic",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2002,
       "last": 2005
     },
@@ -71,7 +71,7 @@
       "id": 104253,
       "name": "Vjekoslan Hanzic",
       "short": "Hanzic",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2003,
       "last": 2005
     },
@@ -87,7 +87,7 @@
       "id": 104681,
       "name": "Berislav Bobus",
       "short": "Bobus",
-      "tournaments": 11,
+      "tournaments": 8,
       "first": 2004,
       "last": 2006
     },
@@ -95,7 +95,7 @@
       "id": 104682,
       "name": "Toni Ivkovic",
       "short": "Ivkovic",
-      "tournaments": 26,
+      "tournaments": 18,
       "first": 2004,
       "last": 2008
     },
@@ -119,7 +119,7 @@
       "id": 104839,
       "name": "Sime Bolic",
       "short": "Bolic",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2004,
       "last": 2005
     },
@@ -127,7 +127,7 @@
       "id": 104840,
       "name": "Juraj Jogunica",
       "short": "Jogunica",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2004,
       "last": 2005
     },
@@ -135,16 +135,8 @@
       "id": 104859,
       "name": "Tomislav Steinocher",
       "short": "Steinocher",
-      "tournaments": 19,
+      "tournaments": 16,
       "first": 2004,
-      "last": 2008
-    },
-    {
-      "id": 104884,
-      "name": "Aleksandar Varga",
-      "short": "Varga",
-      "tournaments": 1,
-      "first": 2008,
       "last": 2008
     },
     {
@@ -167,23 +159,7 @@
       "id": 115560,
       "name": "Zeljko Nojic",
       "short": "Nojic",
-      "tournaments": 5,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 115564,
-      "name": "Boris Osmokrovic",
-      "short": "Osmokrovic",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 115565,
-      "name": "Matijaz Urnaut",
-      "short": "Urnaut",
-      "tournaments": 1,
+      "tournaments": 3,
       "first": 2005,
       "last": 2005
     },
@@ -191,7 +167,7 @@
       "id": 115569,
       "name": "Jegor Zukovskij",
       "short": "Zhukouski",
-      "tournaments": 12,
+      "tournaments": 8,
       "first": 2005,
       "last": 2017
     },
@@ -207,23 +183,23 @@
       "id": 115578,
       "name": "Mirko Sardelic",
       "short": "Sardelic",
-      "tournaments": 5,
-      "first": 2005,
+      "tournaments": 4,
+      "first": 2006,
       "last": 2008
     },
     {
       "id": 115579,
       "name": "Ivan Roca",
       "short": "Roca",
-      "tournaments": 3,
-      "first": 2005,
+      "tournaments": 2,
+      "first": 2006,
       "last": 2006
     },
     {
       "id": 115602,
       "name": "Dejan Kljajic",
       "short": "Kljajic",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2005,
       "last": 2008
     },
@@ -239,7 +215,7 @@
       "id": 115604,
       "name": "Marko Loncar",
       "short": "Loncar",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2005,
       "last": 2008
     },
@@ -255,7 +231,7 @@
       "id": 115606,
       "name": "Krsevan Soric",
       "short": "Soric",
-      "tournaments": 9,
+      "tournaments": 7,
       "first": 2005,
       "last": 2007
     },
@@ -284,27 +260,11 @@
       "last": 2005
     },
     {
-      "id": 115612,
-      "name": "Dominik Raca",
-      "short": "Raca",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 116644,
-      "name": "Admir Glavas",
-      "short": "Glavas",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
       "id": 116645,
       "name": "Mario Grubisic",
       "short": "Grubisic",
-      "tournaments": 2,
-      "first": 2005,
+      "tournaments": 1,
+      "first": 2007,
       "last": 2007
     },
     {
@@ -319,9 +279,9 @@
       "id": 117874,
       "name": "Roman Pelko",
       "short": "Pelko",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2006,
-      "last": 2008
+      "last": 2006
     },
     {
       "id": 117905,
@@ -375,7 +335,7 @@
       "id": 118685,
       "name": "Josip Kovacev",
       "short": "Kovacev",
-      "tournaments": 9,
+      "tournaments": 6,
       "first": 2007,
       "last": 2008
     },
@@ -407,39 +367,23 @@
       "id": 120097,
       "name": "Djordjevic Ivan",
       "short": "Ivan",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2007,
-      "last": 2009
-    },
-    {
-      "id": 120285,
-      "name": "Matija Brlas",
-      "short": "Brlas",
-      "tournaments": 2,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120286,
-      "name": "Josip Huljev",
-      "short": "Huljev",
-      "tournaments": 2,
-      "first": 2008,
       "last": 2008
     },
     {
       "id": 120316,
       "name": "Niksa Dellorco",
       "short": "Dell`Orco",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2008,
-      "last": 2016
+      "last": 2015
     },
     {
       "id": 120317,
       "name": "Ante Jukic",
       "short": "Ante",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2008,
       "last": 2008
     },
@@ -500,25 +444,9 @@
       "last": 2008
     },
     {
-      "id": 120362,
-      "name": "Damir Paleka",
-      "short": "Paki",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
       "id": 120363,
       "name": "Luka Radosevic",
       "short": "Lujo",
-      "tournaments": 2,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120552,
-      "name": "Denis vujcic",
-      "short": "vujcic",
       "tournaments": 1,
       "first": 2008,
       "last": 2008
@@ -527,25 +455,17 @@
       "id": 120872,
       "name": "Matej Mudrovcic",
       "short": "Mudri",
-      "tournaments": 2,
-      "first": 2008,
-      "last": 2016
-    },
-    {
-      "id": 123049,
-      "name": "Tsimafei Zhukouski",
-      "short": "Zhukouski",
       "tournaments": 1,
-      "first": 2015,
-      "last": 2015
+      "first": 2008,
+      "last": 2008
     },
     {
       "id": 123441,
       "name": "Mate Glaurdic",
       "short": "Glaurdic",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2010,
-      "last": 2016
+      "last": 2014
     },
     {
       "id": 135648,
@@ -583,7 +503,7 @@
       "id": 135663,
       "name": "Ivan Zeljkovic",
       "short": "Zeljkovic",
-      "tournaments": 26,
+      "tournaments": 11,
       "first": 2011,
       "last": 2016
     },
@@ -591,17 +511,9 @@
       "id": 139533,
       "name": "Kresimir Karaula",
       "short": "Karaula",
-      "tournaments": 8,
-      "first": 2013,
+      "tournaments": 5,
+      "first": 2015,
       "last": 2018
-    },
-    {
-      "id": 139534,
-      "name": "Marko Sedlacek",
-      "short": "Sedlacek",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
     },
     {
       "id": 141878,
@@ -615,31 +527,23 @@
       "id": 146155,
       "name": "Josip Pribanic",
       "short": "Pribanic",
-      "tournaments": 23,
-      "first": 2016,
-      "last": 2026
+      "tournaments": 10,
+      "first": 2017,
+      "last": 2019
     },
     {
       "id": 146206,
       "name": "Filip Silic",
       "short": "Silic",
-      "tournaments": 30,
-      "first": 2014,
-      "last": 2019
-    },
-    {
-      "id": 146442,
-      "name": "Petar Dirlic",
-      "short": "Dirlic P.",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
+      "tournaments": 12,
+      "first": 2015,
+      "last": 2018
     },
     {
       "id": 148861,
       "name": "Ivan Djordjevic",
       "short": "Ivan",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2015,
       "last": 2018
     },
@@ -647,7 +551,7 @@
       "id": 150595,
       "name": "Marin Jercic",
       "short": "Jercic",
-      "tournaments": 18,
+      "tournaments": 8,
       "first": 2015,
       "last": 2019
     },
@@ -655,33 +559,17 @@
       "id": 156898,
       "name": "Marko Matic",
       "short": "Matic",
-      "tournaments": 2,
-      "first": 2016,
-      "last": 2017
-    },
-    {
-      "id": 156899,
-      "name": "Marko Vujnovic",
-      "short": "Vujnovic",
-      "tournaments": 2,
-      "first": 2016,
-      "last": 2017
-    },
-    {
-      "id": 156962,
-      "name": "Ivan Cosic",
-      "short": "Cosic",
       "tournaments": 1,
       "first": 2016,
       "last": 2016
     },
     {
-      "id": 157876,
-      "name": "Hrvoje Zelenika",
-      "short": "Zelenika",
-      "tournaments": 3,
-      "first": 2019,
-      "last": 2024
+      "id": 156899,
+      "name": "Marko Vujnovic",
+      "short": "Vujnovic",
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
     },
     {
       "id": 158426,
@@ -732,14 +620,6 @@
       "last": 2018
     },
     {
-      "id": 169836,
-      "name": "Andrej Štorc",
-      "short": "Storc",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2019
-    },
-    {
       "id": 170635,
       "name": "Tino Hanžić",
       "short": "Hanžić",
@@ -751,57 +631,17 @@
       "id": 173333,
       "name": "Marko Repek",
       "short": "Repek",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 174257,
-      "name": "Nikola Scerbakov",
-      "short": "Scerbakov",
-      "tournaments": 3,
-      "first": 2019,
-      "last": 2019
     },
     {
       "id": 182098,
       "name": "Tin Devald",
       "short": "Devald",
-      "tournaments": 4,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 182099,
-      "name": "Roko Vlašić",
-      "short": "Vlašić",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 186440,
-      "name": "Dino Šoš",
-      "short": "Šoš",
-      "tournaments": 3,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 200353,
-      "name": "Jurica Skorin",
-      "short": "Skorin",
-      "tournaments": 1,
-      "first": 2024,
-      "last": 2024
-    },
-    {
-      "id": 210069,
-      "name": "Ivan Brletić",
-      "short": "Brletić",
-      "tournaments": 3,
-      "first": 2025,
-      "last": 2025
     },
     {
       "id": 217643,
@@ -838,14 +678,14 @@
     {
       "a": 102179,
       "b": 103812,
-      "t": 6,
+      "t": 4,
       "f": 2008,
       "l": 2009
     },
     {
       "a": 102179,
       "b": 104682,
-      "t": 24,
+      "t": 16,
       "f": 2005,
       "l": 2008
     },
@@ -866,14 +706,14 @@
     {
       "a": 103399,
       "b": 103812,
-      "t": 18,
+      "t": 11,
       "f": 2003,
       "l": 2007
     },
     {
       "a": 103399,
       "b": 115606,
-      "t": 7,
+      "t": 5,
       "f": 2006,
       "l": 2006
     },
@@ -894,14 +734,14 @@
     {
       "a": 103812,
       "b": 104859,
-      "t": 10,
+      "t": 9,
       "f": 2006,
       "l": 2007
     },
     {
       "a": 103812,
       "b": 115560,
-      "t": 5,
+      "t": 3,
       "f": 2005,
       "l": 2005
     },
@@ -915,7 +755,7 @@
     {
       "a": 103813,
       "b": 104253,
-      "t": 3,
+      "t": 2,
       "f": 2003,
       "l": 2005
     },
@@ -929,14 +769,14 @@
     {
       "a": 104681,
       "b": 104859,
-      "t": 7,
+      "t": 5,
       "f": 2004,
       "l": 2005
     },
     {
       "a": 104681,
       "b": 115604,
-      "t": 3,
+      "t": 2,
       "f": 2006,
       "l": 2006
     },
@@ -950,7 +790,7 @@
     {
       "a": 104839,
       "b": 104840,
-      "t": 5,
+      "t": 2,
       "f": 2004,
       "l": 2005
     },
@@ -962,25 +802,11 @@
       "l": 2008
     },
     {
-      "a": 104884,
-      "b": 117874,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 105014,
       "b": 105015,
       "t": 3,
       "f": 2004,
       "l": 2007
-    },
-    {
-      "a": 115564,
-      "b": 115565,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 115569,
@@ -992,7 +818,7 @@
     {
       "a": 115569,
       "b": 118685,
-      "t": 9,
+      "t": 6,
       "f": 2007,
       "l": 2008
     },
@@ -1004,25 +830,11 @@
       "l": 2017
     },
     {
-      "a": 115569,
-      "b": 123049,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
       "a": 115578,
       "b": 115579,
-      "t": 3,
-      "f": 2005,
+      "t": 2,
+      "f": 2006,
       "l": 2006
-    },
-    {
-      "a": 115578,
-      "b": 115612,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 115578,
@@ -1055,7 +867,7 @@
     {
       "a": 115602,
       "b": 117874,
-      "t": 3,
+      "t": 1,
       "f": 2006,
       "l": 2006
     },
@@ -1083,13 +895,6 @@
     {
       "a": 115609,
       "b": 115610,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 116644,
-      "b": 116645,
       "t": 1,
       "f": 2005,
       "l": 2005
@@ -1138,36 +943,15 @@
     },
     {
       "a": 120097,
-      "b": 120316,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 120097,
-      "b": 120552,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120097,
       "b": 120872,
       "t": 1,
       "f": 2008,
       "l": 2008
     },
     {
-      "a": 120285,
-      "b": 120286,
-      "t": 2,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 120316,
       "b": 120317,
-      "t": 2,
+      "t": 1,
       "f": 2008,
       "l": 2008
     },
@@ -1181,9 +965,9 @@
     {
       "a": 120316,
       "b": 148861,
-      "t": 2,
+      "t": 1,
       "f": 2015,
-      "l": 2016
+      "l": 2015
     },
     {
       "a": 120331,
@@ -1205,27 +989,6 @@
       "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 120362,
-      "b": 120363,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120872,
-      "b": 146155,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 123441,
-      "b": 156962,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
     },
     {
       "a": 135648,
@@ -1265,28 +1028,14 @@
     {
       "a": 135663,
       "b": 146206,
-      "t": 22,
-      "f": 2014,
+      "t": 7,
+      "f": 2015,
       "l": 2016
     },
     {
       "a": 139533,
-      "b": 139534,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 139533,
-      "b": 146442,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 139533,
       "b": 150595,
-      "t": 4,
+      "t": 3,
       "f": 2015,
       "l": 2017
     },
@@ -1307,15 +1056,8 @@
     {
       "a": 146155,
       "b": 150595,
-      "t": 8,
+      "t": 4,
       "f": 2018,
-      "l": 2019
-    },
-    {
-      "a": 146155,
-      "b": 157876,
-      "t": 2,
-      "f": 2019,
       "l": 2019
     },
     {
@@ -1326,39 +1068,11 @@
       "l": 2017
     },
     {
-      "a": 146155,
-      "b": 173333,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 146155,
-      "b": 174257,
-      "t": 3,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 146155,
-      "b": 182098,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
-    },
-    {
       "a": 146206,
       "b": 148861,
       "t": 1,
       "f": 2017,
       "l": 2017
-    },
-    {
-      "a": 146206,
-      "b": 150595,
-      "t": 3,
-      "f": 2019,
-      "l": 2019
     },
     {
       "a": 148861,
@@ -1368,25 +1082,11 @@
       "l": 2018
     },
     {
-      "a": 150595,
-      "b": 169836,
-      "t": 2,
-      "f": 2018,
-      "l": 2019
-    },
-    {
       "a": 156898,
       "b": 156899,
-      "t": 2,
-      "f": 2016,
-      "l": 2017
-    },
-    {
-      "a": 157876,
-      "b": 200353,
       "t": 1,
-      "f": 2024,
-      "l": 2024
+      "f": 2016,
+      "l": 2016
     },
     {
       "a": 163016,
@@ -1405,23 +1105,9 @@
     {
       "a": 173333,
       "b": 182098,
-      "t": 2,
+      "t": 1,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 173333,
-      "b": 182099,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 186440,
-      "b": 210069,
-      "t": 3,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 217643,

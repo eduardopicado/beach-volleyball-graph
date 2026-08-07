@@ -7,7 +7,7 @@
       "id": 174380,
       "name": "Logan Jon Mister",
       "short": "Mister",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2025,
       "last": 2026
     },
@@ -15,7 +15,7 @@
       "id": 189639,
       "name": "Andrew Scott Johnson",
       "short": "Johnson",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2025,
       "last": 2026
     }
@@ -24,7 +24,7 @@
     {
       "a": 174380,
       "b": 189639,
-      "t": 3,
+      "t": 2,
       "f": 2025,
       "l": 2026
     }

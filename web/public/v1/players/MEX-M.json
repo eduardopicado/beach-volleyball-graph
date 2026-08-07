@@ -465,27 +465,6 @@
       "weight": 82
     },
     {
-      "id": 135778,
-      "name": "Mauricio Lopez",
-      "dob": "1995-07-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 135940,
-      "name": "Mario Celedon",
-      "dob": "1993-05-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 136972,
-      "name": "Irving Gonzalez",
-      "dob": "1993-01-22",
-      "height": 185,
-      "weight": 90
-    },
-    {
       "id": 138891,
       "name": "Mario Gaytan",
       "dob": "1995-08-07",
@@ -498,20 +477,6 @@
       "dob": "1995-01-21",
       "height": 187,
       "weight": 79
-    },
-    {
-      "id": 142885,
-      "name": "Miguel Angel Cardenas",
-      "dob": "1994-07-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 142997,
-      "name": "Luis Gerardo Bojorquez",
-      "dob": "1995-12-14",
-      "height": 199,
-      "weight": 80
     },
     {
       "id": 145128,
@@ -528,20 +493,6 @@
       "weight": null
     },
     {
-      "id": 145618,
-      "name": "Jesus Gerardo Rodriguez Gonzalez",
-      "dob": "1996-02-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 145619,
-      "name": "Luis Fernando Romero Rodriguez",
-      "dob": "1996-08-16",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 146320,
       "name": "Gonzalo Chavez Cancino",
       "dob": "1995-10-17",
@@ -552,13 +503,6 @@
       "id": 146321,
       "name": "Emilio Gonzalez Betancourt",
       "dob": "1997-06-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146323,
-      "name": "Jose Juan Serrano Santana",
-      "dob": "1984-09-18",
       "height": null,
       "weight": null
     },
@@ -626,27 +570,6 @@
       "weight": null
     },
     {
-      "id": 147834,
-      "name": "Cuauhtemoc Cazarrubias Rios",
-      "dob": "1998-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147836,
-      "name": "Cesar David Velasco Mendez",
-      "dob": "1998-01-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 149247,
-      "name": "Jesus Ernesto Serrano Aragon",
-      "dob": "1994-12-28",
-      "height": 189,
-      "weight": 85
-    },
-    {
       "id": 154208,
       "name": "Edwin Valencia",
       "dob": "1991-06-09",
@@ -673,13 +596,6 @@
       "dob": "1999-03-23",
       "height": 194,
       "weight": 88
-    },
-    {
-      "id": 160595,
-      "name": "Bruno Ricardo Molina Corral",
-      "dob": "1985-01-10",
-      "height": null,
-      "weight": null
     },
     {
       "id": 164443,
@@ -717,20 +633,6 @@
       "weight": null
     },
     {
-      "id": 180988,
-      "name": "Alexander Virgen",
-      "dob": "1996-03-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180989,
-      "name": "Elieser Martinez",
-      "dob": "1996-02-19",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 190082,
       "name": "Ines Antonio Vargas Lares",
       "dob": "2006-07-24",
@@ -759,23 +661,9 @@
       "weight": 72
     },
     {
-      "id": 212332,
-      "name": "Gerardo Enciso",
-      "dob": "2008-07-24",
-      "height": 188,
-      "weight": 73
-    },
-    {
       "id": 217554,
       "name": "Jorman Osuna Valdez",
       "dob": "2000-07-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 227155,
-      "name": "EITHAN º MOLERIO PORTILLO",
-      "dob": "2008-09-25",
       "height": null,
       "weight": null
     },
@@ -792,20 +680,6 @@
       "dob": "2006-02-24",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 230180,
-      "name": "Axel Ortiz Martínez",
-      "dob": "2010-07-19",
-      "height": 180,
-      "weight": 61
-    },
-    {
-      "id": 230182,
-      "name": "Daniel Barajas Vázquez",
-      "dob": "2010-10-22",
-      "height": 174,
-      "weight": 63
     }
   ]
 }

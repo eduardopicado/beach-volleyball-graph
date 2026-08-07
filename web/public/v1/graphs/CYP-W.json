@@ -7,7 +7,7 @@
       "id": 103670,
       "name": "Erika Nyström",
       "short": "Nyström Er.",
-      "tournaments": 233,
+      "tournaments": 169,
       "first": 2001,
       "last": 2024
     },
@@ -31,16 +31,16 @@
       "id": 124021,
       "name": "Manolina Konstantinou",
       "short": "Konstantinou",
-      "tournaments": 7,
-      "first": 2010,
+      "tournaments": 4,
+      "first": 2018,
       "last": 2019
     },
     {
       "id": 124022,
       "name": "Mariota Angelopoulou",
       "short": "Angelopoulou",
-      "tournaments": 24,
-      "first": 2010,
+      "tournaments": 14,
+      "first": 2017,
       "last": 2021
     },
     {
@@ -63,9 +63,9 @@
       "id": 139381,
       "name": "Anthi Parla",
       "short": "Parla",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2012,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 139382,
@@ -79,7 +79,7 @@
       "id": 139383,
       "name": "Zoi Konstantopoulou",
       "short": "Konstantopoulou",
-      "tournaments": 24,
+      "tournaments": 10,
       "first": 2012,
       "last": 2022
     },
@@ -95,7 +95,7 @@
       "id": 139800,
       "name": "Erika Zempyla",
       "short": "Zempyla",
-      "tournaments": 8,
+      "tournaments": 6,
       "first": 2012,
       "last": 2019
     },
@@ -111,7 +111,7 @@
       "id": 146954,
       "name": "Vasiliki Chatzikonstanta",
       "short": "Chatzikonstanta",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2014,
       "last": 2016
     },
@@ -207,31 +207,31 @@
       "id": 153756,
       "name": "Katerina Yiasoumi",
       "short": "Yiasoumi, K.",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2019
+      "last": 2016
     },
     {
       "id": 153757,
       "name": "Anastasia Yiasoumi",
       "short": "Yiasoumi, A.",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2019
+      "last": 2016
     },
     {
       "id": 161109,
       "name": "Daria Gusarova",
       "short": "Gusarova D.",
-      "tournaments": 35,
+      "tournaments": 19,
       "first": 2017,
-      "last": 2024
+      "last": 2023
     },
     {
       "id": 187623,
       "name": "Alexandra Gusarova",
       "short": "Gusarova A.",
-      "tournaments": 9,
+      "tournaments": 3,
       "first": 2022,
       "last": 2024
     }
@@ -240,21 +240,21 @@
     {
       "a": 103670,
       "b": 139383,
-      "t": 6,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
     {
       "a": 103670,
       "b": 161109,
-      "t": 14,
+      "t": 7,
       "f": 2021,
-      "l": 2024
+      "l": 2023
     },
     {
       "a": 103670,
       "b": 187623,
-      "t": 9,
+      "t": 3,
       "f": 2022,
       "l": 2024
     },
@@ -268,8 +268,8 @@
     {
       "a": 124021,
       "b": 124022,
-      "t": 6,
-      "f": 2010,
+      "t": 3,
+      "f": 2018,
       "l": 2019
     },
     {
@@ -282,14 +282,14 @@
     {
       "a": 124022,
       "b": 139383,
-      "t": 4,
+      "t": 2,
       "f": 2019,
       "l": 2021
     },
     {
       "a": 124022,
       "b": 161109,
-      "t": 14,
+      "t": 9,
       "f": 2017,
       "l": 2020
     },
@@ -316,13 +316,6 @@
     },
     {
       "a": 139381,
-      "b": 139383,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 139381,
       "b": 139423,
       "t": 1,
       "f": 2012,
@@ -344,17 +337,10 @@
     },
     {
       "a": 139383,
-      "b": 146954,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 139383,
       "b": 161109,
-      "t": 7,
+      "t": 2,
       "f": 2018,
-      "l": 2020
+      "l": 2018
     },
     {
       "a": 139423,
@@ -373,7 +359,7 @@
     {
       "a": 139800,
       "b": 161109,
-      "t": 3,
+      "t": 1,
       "f": 2019,
       "l": 2019
     },
@@ -422,9 +408,9 @@
     {
       "a": 153756,
       "b": 153757,
-      "t": 4,
+      "t": 1,
       "f": 2016,
-      "l": 2019
+      "l": 2016
     }
   ]
 }

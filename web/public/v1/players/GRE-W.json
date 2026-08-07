@@ -360,13 +360,6 @@
       "weight": 60
     },
     {
-      "id": 118980,
-      "name": "Sofia Kosma",
-      "dob": "1993-11-15",
-      "height": 180,
-      "weight": 60
-    },
-    {
       "id": 119249,
       "name": "Anastasia Katzika",
       "dob": null,
@@ -386,13 +379,6 @@
       "dob": "1989-08-23",
       "height": 180,
       "weight": 67
-    },
-    {
-      "id": 119351,
-      "name": "Athina Tasou",
-      "dob": null,
-      "height": null,
-      "weight": null
     },
     {
       "id": 120567,
@@ -423,20 +409,6 @@
       "weight": null
     },
     {
-      "id": 123530,
-      "name": "Olga Malousari",
-      "dob": "1990-12-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 123531,
-      "name": "Athina Tassou",
-      "dob": "1990-08-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 125188,
       "name": "Tereza Karavi",
       "dob": "1992-01-19",
@@ -447,13 +419,6 @@
       "id": 125189,
       "name": "Christina Pasiali",
       "dob": "1993-04-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 125201,
-      "name": "Konstantina Moraitidou",
-      "dob": "1992-07-24",
       "height": null,
       "weight": null
     },
@@ -484,13 +449,6 @@
       "dob": "1993-07-01",
       "height": 187,
       "weight": 73
-    },
-    {
-      "id": 144202,
-      "name": "Tatiana Moldovanidi",
-      "dob": "1996-02-21",
-      "height": null,
-      "weight": null
     },
     {
       "id": 146196,
@@ -706,20 +664,6 @@
       "id": 222939,
       "name": "Angeliki Charissaki",
       "dob": "2011-07-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 224027,
-      "name": "Grigoria Anna Margaritopoulou",
-      "dob": "2011-12-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 224028,
-      "name": "Maria Margaritopoulou",
-      "dob": "2010-02-12",
       "height": null,
       "weight": null
     }

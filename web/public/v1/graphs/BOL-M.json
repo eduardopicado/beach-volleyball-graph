@@ -36,58 +36,34 @@
       "last": 1998
     },
     {
-      "id": 156329,
-      "name": "Hasan Yusef Tawafsha Schugair",
-      "short": "Hasan",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
       "id": 156330,
       "name": "Luis Gustavo Calvo Liendo",
       "short": "Calvo",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2023
+      "last": 2018
     },
     {
       "id": 156331,
       "name": "Carlos Andres Chacón Espinoza",
       "short": "Chacón",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2018,
       "last": 2023
-    },
-    {
-      "id": 157014,
-      "name": "Rubén Darío Gonzales Ardaya",
-      "short": "Gonzales",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
     },
     {
       "id": 161254,
       "name": "Luis Fabricio Corro",
       "short": "Corro",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2022,
       "last": 2022
-    },
-    {
-      "id": 161255,
-      "name": "Armando Antonio Zeballos",
-      "short": "Zeballos",
-      "tournaments": 4,
-      "first": 2022,
-      "last": 2023
     },
     {
       "id": 175883,
       "name": "Edson Perez",
       "short": "Perez",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2022,
       "last": 2022
     },
@@ -95,17 +71,17 @@
       "id": 175891,
       "name": "Ruddy Salvatierra",
       "short": "Salvatierra",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2023
+      "last": 2021
     },
     {
       "id": 181502,
       "name": "Jorge Gabriel Diaz Canseco",
       "short": "Diaz",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2023
+      "last": 2021
     },
     {
       "id": 182758,
@@ -119,7 +95,7 @@
       "id": 182759,
       "name": "Renzo Joao Zaconeta Sempértegui",
       "short": "Zaconeta",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2021,
       "last": 2023
     }
@@ -147,13 +123,6 @@
       "l": 1994
     },
     {
-      "a": 156329,
-      "b": 157014,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
       "a": 156330,
       "b": 156331,
       "t": 1,
@@ -161,39 +130,18 @@
       "l": 2018
     },
     {
-      "a": 156330,
-      "b": 175891,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 156331,
       "b": 182759,
-      "t": 2,
-      "f": 2022,
+      "t": 1,
+      "f": 2023,
       "l": 2023
     },
     {
       "a": 161254,
       "b": 175883,
-      "t": 6,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 161255,
-      "b": 175891,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 161255,
-      "b": 181502,
       "t": 3,
-      "f": 2023,
-      "l": 2023
+      "f": 2022,
+      "l": 2022
     },
     {
       "a": 175891,

@@ -4,26 +4,10 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 117385,
-      "name": "Mariela Quesada",
-      "short": "Quesada",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117395,
-      "name": "Catalina Fernández",
-      "short": "Fernandez",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
       "id": 117513,
       "name": "Natalia Alfaro",
       "short": "Alfaro",
-      "tournaments": 10,
+      "tournaments": 9,
       "first": 2005,
       "last": 2017
     },
@@ -31,23 +15,7 @@
       "id": 117514,
       "name": "Ingrid Morales",
       "short": "Morales",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117518,
-      "name": "Ivette Alas",
-      "short": "Ivette",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117571,
-      "name": "Carolina Leandro",
-      "short": "Caro",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2005,
       "last": 2005
     },
@@ -183,17 +151,9 @@
       "id": 157015,
       "name": "Angel Williams Paniagua",
       "short": "Williams",
-      "tournaments": 4,
-      "first": 2016,
-      "last": 2025
-    },
-    {
-      "id": 157016,
-      "name": "Laura Mariela Arley Castillo",
-      "short": "Arley",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
+      "tournaments": 2,
+      "first": 2022,
+      "last": 2023
     },
     {
       "id": 158704,
@@ -212,26 +172,18 @@
       "last": 2017
     },
     {
-      "id": 167569,
-      "name": "Camila Villegas González",
-      "short": "C. Villegas",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
       "id": 182011,
       "name": "Ximena Núñez Muñoz",
       "short": "Núñez",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2022,
-      "last": 2025
+      "last": 2023
     },
     {
       "id": 182690,
       "name": "Isabela Rodríguez Fernández",
       "short": "Rodríguez",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
       "last": 2022
     },
@@ -239,8 +191,8 @@
       "id": 182821,
       "name": "Kianny María Araya Quesada",
       "short": "Quesada",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2023,
       "last": 2023
     },
     {
@@ -268,14 +220,6 @@
       "last": 2025
     },
     {
-      "id": 230294,
-      "name": "Larissa Villegas González",
-      "short": "L. Villegas",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
       "id": 233862,
       "name": "Ingrid Verónica Núñez Alvarado",
       "short": "Núñez",
@@ -294,23 +238,9 @@
   ],
   "edges": [
     {
-      "a": 117385,
-      "b": 117518,
-      "t": 2,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117395,
-      "b": 117571,
-      "t": 2,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 117513,
       "b": 117514,
-      "t": 2,
+      "t": 1,
       "f": 2005,
       "l": 2005
     },
@@ -379,17 +309,10 @@
     },
     {
       "a": 157015,
-      "b": 157016,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 157015,
       "b": 182011,
-      "t": 2,
+      "t": 1,
       "f": 2022,
-      "l": 2025
+      "l": 2022
     },
     {
       "a": 157015,
@@ -406,25 +329,11 @@
       "l": 2017
     },
     {
-      "a": 167569,
-      "b": 230294,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
       "a": 182011,
       "b": 183083,
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 182690,
-      "b": 182821,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 182690,

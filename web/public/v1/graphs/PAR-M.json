@@ -4,58 +4,18 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 120509,
-      "name": "Gino Lombardo",
-      "short": "Gino",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
       "id": 120510,
       "name": "Gregorio Godoy",
       "short": "Goyo",
-      "tournaments": 10,
-      "first": 2008,
-      "last": 2025
-    },
-    {
-      "id": 125429,
-      "name": "Luis Riveros",
-      "short": "L. Riveros",
-      "tournaments": 11,
-      "first": 2013,
-      "last": 2018
-    },
-    {
-      "id": 134868,
-      "name": "Mauricio Brizuela",
-      "short": "Mauricio",
-      "tournaments": 7,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 141601,
-      "name": "Elioth Brado Frutos Toews",
-      "short": "Elioth",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 145422,
-      "name": "Renato Ulises Bogarin Caceres",
-      "short": "Renato",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
+      "tournaments": 2,
+      "first": 2017,
+      "last": 2017
     },
     {
       "id": 145745,
       "name": "Roger Daniel Battilana Villamayor",
       "short": "Roger",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2017,
       "last": 2022
     },
@@ -79,7 +39,7 @@
       "id": 161861,
       "name": "Gonzalo Melgarejo",
       "short": "Gonzalo",
-      "tournaments": 12,
+      "tournaments": 7,
       "first": 2018,
       "last": 2026
     },
@@ -87,9 +47,9 @@
       "id": 161955,
       "name": "Jorge Riveros",
       "short": "Riveros",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2018,
-      "last": 2025
+      "last": 2019
     },
     {
       "id": 171351,
@@ -111,7 +71,7 @@
       "id": 178349,
       "name": "Giuliano Massare Canillas",
       "short": "Giuliano",
-      "tournaments": 12,
+      "tournaments": 5,
       "first": 2021,
       "last": 2026
     },
@@ -182,46 +142,11 @@
   ],
   "edges": [
     {
-      "a": 120509,
-      "b": 120510,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120510,
-      "b": 125429,
-      "t": 4,
-      "f": 2016,
-      "l": 2018
-    },
-    {
       "a": 120510,
       "b": 145745,
-      "t": 3,
+      "t": 2,
       "f": 2017,
       "l": 2017
-    },
-    {
-      "a": 120510,
-      "b": 161955,
-      "t": 2,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 125429,
-      "b": 134868,
-      "t": 7,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 141601,
-      "b": 145422,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 145745,
@@ -247,16 +172,9 @@
     {
       "a": 161861,
       "b": 178349,
-      "t": 9,
-      "f": 2023,
+      "t": 4,
+      "f": 2024,
       "l": 2026
-    },
-    {
-      "a": 161955,
-      "b": 178349,
-      "t": 2,
-      "f": 2022,
-      "l": 2023
     },
     {
       "a": 171351,

@@ -23,7 +23,7 @@
       "id": 118083,
       "name": "Georgios Platritis",
       "short": "Platritis",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2006,
       "last": 2008
     },
@@ -39,22 +39,6 @@
       "id": 118088,
       "name": "Chrysostomos Chrisostomides",
       "short": "Chrisostomides",
-      "tournaments": 2,
-      "first": 2006,
-      "last": 2007
-    },
-    {
-      "id": 118089,
-      "name": "Kikis Kyriakou",
-      "short": "Kyriakou",
-      "tournaments": 1,
-      "first": 2006,
-      "last": 2006
-    },
-    {
-      "id": 118090,
-      "name": "Linos Petrides",
-      "short": "Petrides",
       "tournaments": 1,
       "first": 2006,
       "last": 2006
@@ -71,7 +55,7 @@
       "id": 118093,
       "name": "Paris Christofi",
       "short": "Christofi",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2006,
       "last": 2008
     },
@@ -79,9 +63,9 @@
       "id": 118094,
       "name": "Iacovos Koumi",
       "short": "Koumi",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2006,
-      "last": 2007
+      "last": 2006
     },
     {
       "id": 118095,
@@ -92,36 +76,12 @@
       "last": 2007
     },
     {
-      "id": 118096,
-      "name": "Theodoros Tooulias",
-      "short": "Tooulias",
-      "tournaments": 2,
-      "first": 2006,
-      "last": 2007
-    },
-    {
-      "id": 118097,
-      "name": "Petros Hasapis",
-      "short": "Hasapis",
-      "tournaments": 1,
-      "first": 2006,
-      "last": 2006
-    },
-    {
       "id": 118098,
       "name": "Charalambos Savvides",
       "short": "Savvides",
-      "tournaments": 3,
-      "first": 2006,
-      "last": 2007
-    },
-    {
-      "id": 118099,
-      "name": "Marios Chrisostomou",
-      "short": "Chrisostomou",
       "tournaments": 1,
-      "first": 2006,
-      "last": 2006
+      "first": 2007,
+      "last": 2007
     },
     {
       "id": 119598,
@@ -143,7 +103,7 @@
       "id": 119614,
       "name": "Anthimos Economides",
       "short": "Economides",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2007,
       "last": 2007
     },
@@ -151,17 +111,9 @@
       "id": 119615,
       "name": "Efstathiou Konstantinos",
       "short": "Efstathiou",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2007,
       "last": 2011
-    },
-    {
-      "id": 119617,
-      "name": "Pantelis Fellas",
-      "short": "Fellas",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
     },
     {
       "id": 119618,
@@ -175,7 +127,7 @@
       "id": 119619,
       "name": "Achilleas Petrakides",
       "short": "Petrakides",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2007,
       "last": 2007
     },
@@ -191,33 +143,17 @@
       "id": 119623,
       "name": "Kyriakos Adamou",
       "short": "Adamou",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2006,
-      "last": 2007
+      "last": 2006
     },
     {
       "id": 119648,
       "name": "Dimitris Apostolou",
       "short": "Apostolou",
-      "tournaments": 12,
+      "tournaments": 5,
       "first": 2007,
       "last": 2019
-    },
-    {
-      "id": 134207,
-      "name": "Vladimir Knezevic",
-      "short": "Knezevic",
-      "tournaments": 3,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 139204,
-      "name": "Vladimir Knezevic",
-      "short": "Knezevic",
-      "tournaments": 1,
-      "first": 2015,
-      "last": 2015
     },
     {
       "id": 139376,
@@ -239,7 +175,7 @@
       "id": 139379,
       "name": "Minos Agathokleous",
       "short": "Agathokleous",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2012,
       "last": 2014
     },
@@ -255,23 +191,23 @@
       "id": 142278,
       "name": "James Anastasiades",
       "short": "Anastasiades",
-      "tournaments": 2,
-      "first": 2013,
+      "tournaments": 1,
+      "first": 2016,
       "last": 2016
     },
     {
       "id": 144042,
       "name": "Charalampos Zorbis",
       "short": "Zorbis",
-      "tournaments": 10,
+      "tournaments": 3,
       "first": 2014,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 144043,
       "name": "Georgios Chrysostomou",
       "short": "Chrysostomou",
-      "tournaments": 9,
+      "tournaments": 4,
       "first": 2014,
       "last": 2019
     },
@@ -279,7 +215,7 @@
       "id": 145293,
       "name": "Antreas Savvidis",
       "short": "Savvidis",
-      "tournaments": 9,
+      "tournaments": 3,
       "first": 2016,
       "last": 2018
     },
@@ -343,9 +279,9 @@
       "id": 153767,
       "name": "Antonios Liotatis",
       "short": "Liotatis",
-      "tournaments": 23,
-      "first": 2017,
-      "last": 2022
+      "tournaments": 7,
+      "first": 2018,
+      "last": 2021
     },
     {
       "id": 157803,
@@ -359,7 +295,7 @@
       "id": 157814,
       "name": "Sotiris Siapanis",
       "short": "Siapanis",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2016,
       "last": 2021
     },
@@ -380,44 +316,12 @@
       "last": 2016
     },
     {
-      "id": 162954,
-      "name": "Constantinos Skordis",
-      "short": "Skordis",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 164543,
-      "name": "Odysseas Savvides",
-      "short": "Savvides",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 173484,
       "name": "Kanaris Michael",
       "short": "Michael",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
       "last": 2021
-    },
-    {
-      "id": 203041,
-      "name": "George Gurdis",
-      "short": "Gurdis",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 208543,
-      "name": "Alexey Durunda",
-      "short": "Durunda",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
@@ -438,7 +342,7 @@
     {
       "a": 118083,
       "b": 118093,
-      "t": 5,
+      "t": 4,
       "f": 2007,
       "l": 2008
     },
@@ -457,25 +361,11 @@
       "l": 2007
     },
     {
-      "a": 118088,
-      "b": 118096,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 118089,
-      "b": 118090,
+      "a": 118092,
+      "b": 119623,
       "t": 1,
       "f": 2006,
       "l": 2006
-    },
-    {
-      "a": 118092,
-      "b": 119623,
-      "t": 2,
-      "f": 2006,
-      "l": 2007
     },
     {
       "a": 118092,
@@ -492,13 +382,6 @@
       "l": 2006
     },
     {
-      "a": 118094,
-      "b": 119617,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
       "a": 118095,
       "b": 119598,
       "t": 1,
@@ -506,29 +389,8 @@
       "l": 2007
     },
     {
-      "a": 118096,
-      "b": 118097,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
-    },
-    {
-      "a": 118098,
-      "b": 118099,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
-    },
-    {
       "a": 118098,
       "b": 119613,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 118098,
-      "b": 119614,
       "t": 1,
       "f": 2007,
       "l": 2007
@@ -543,7 +405,7 @@
     {
       "a": 119615,
       "b": 119648,
-      "t": 4,
+      "t": 2,
       "f": 2011,
       "l": 2011
     },
@@ -553,27 +415,6 @@
       "t": 1,
       "f": 2007,
       "l": 2007
-    },
-    {
-      "a": 119619,
-      "b": 119648,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 119648,
-      "b": 134207,
-      "t": 3,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 119648,
-      "b": 139204,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
     },
     {
       "a": 119648,
@@ -611,13 +452,6 @@
       "l": 2014
     },
     {
-      "a": 139379,
-      "b": 142278,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 139380,
       "b": 145293,
       "t": 1,
@@ -634,29 +468,29 @@
     {
       "a": 144042,
       "b": 144043,
-      "t": 2,
+      "t": 1,
       "f": 2014,
       "l": 2014
     },
     {
       "a": 144042,
       "b": 153767,
-      "t": 8,
+      "t": 2,
       "f": 2021,
-      "l": 2022
+      "l": 2021
     },
     {
       "a": 144043,
       "b": 153767,
-      "t": 7,
+      "t": 3,
       "f": 2019,
       "l": 2019
     },
     {
       "a": 145293,
       "b": 153767,
-      "t": 8,
-      "f": 2017,
+      "t": 2,
+      "f": 2018,
       "l": 2018
     },
     {
@@ -696,38 +530,10 @@
     },
     {
       "a": 157814,
-      "b": 162954,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157814,
-      "b": 164543,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 157814,
       "b": 173484,
       "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 164543,
-      "b": 173484,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 203041,
-      "b": 208543,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

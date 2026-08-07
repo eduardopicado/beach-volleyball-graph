@@ -7,17 +7,17 @@
       "id": 149637,
       "name": "Kendra Byrd",
       "short": "Byrd",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2020,
-      "last": 2023
+      "last": 2020
     },
     {
       "id": 149672,
       "name": "Tatiana Sablan",
       "short": "Sablan",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2020,
-      "last": 2023
+      "last": 2020
     },
     {
       "id": 154363,
@@ -165,13 +165,6 @@
     }
   ],
   "edges": [
-    {
-      "a": 149637,
-      "b": 149672,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
     {
       "a": 149637,
       "b": 178237,

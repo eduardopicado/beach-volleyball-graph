@@ -31,7 +31,7 @@
       "id": 104354,
       "name": "Delcio Soares",
       "short": "Soares",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2003,
       "last": 2019
     },
@@ -39,15 +39,15 @@
       "id": 118298,
       "name": "Bruno Nhamussa",
       "short": "Nhamussa",
-      "tournaments": 2,
-      "first": 2006,
+      "tournaments": 1,
+      "first": 2007,
       "last": 2007
     },
     {
       "id": 120098,
       "name": "Justino Tovela",
       "short": "Tovela",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2007,
       "last": 2019
     },
@@ -55,7 +55,7 @@
       "id": 135161,
       "name": "Carlos Acacio",
       "short": "Acacio",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
       "last": 2019
     },
@@ -63,32 +63,24 @@
       "id": 146657,
       "name": "aldevino Nguvo",
       "short": "Nguvo",
-      "tournaments": 4,
-      "first": 2014,
+      "tournaments": 3,
+      "first": 2017,
       "last": 2019
-    },
-    {
-      "id": 146914,
-      "name": "Oliveira Matendene",
-      "short": "Matendene",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 146948,
       "name": "Joao Tovela",
       "short": "Tovela",
-      "tournaments": 2,
-      "first": 2014,
+      "tournaments": 1,
+      "first": 2016,
       "last": 2016
     },
     {
       "id": 146949,
       "name": "Osvaldo Mungoi",
       "short": "Mungoi",
-      "tournaments": 7,
-      "first": 2014,
+      "tournaments": 4,
+      "first": 2016,
       "last": 2025
     },
     {
@@ -103,15 +95,15 @@
       "id": 157140,
       "name": "José Alberto Mondlane",
       "short": "Mondlane",
-      "tournaments": 9,
-      "first": 2016,
+      "tournaments": 6,
+      "first": 2017,
       "last": 2025
     },
     {
       "id": 168289,
       "name": "Jorge Monjane",
       "short": "Monjane",
-      "tournaments": 9,
+      "tournaments": 4,
       "first": 2018,
       "last": 2023
     },
@@ -124,34 +116,26 @@
       "last": 2018
     },
     {
-      "id": 178381,
-      "name": "Altino Elisa Abdala",
-      "short": "Altino",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 178671,
       "name": "Rafael Munguambe Junior",
       "short": "Rafael",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 178684,
       "name": "Denilson Sergio Sitoe",
       "short": "Denilson",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 179145,
       "name": "Ainadino Martinho",
       "short": "Ainadino Martinho",
-      "tournaments": 9,
+      "tournaments": 3,
       "first": 2022,
       "last": 2023
     },
@@ -159,8 +143,8 @@
       "id": 181202,
       "name": "Helton Andrade Guvo",
       "short": "Guvo",
-      "tournaments": 3,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2025,
       "last": 2025
     },
     {
@@ -170,22 +154,6 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 230697,
-      "name": "Arnaldo Lourenço Nhantumbo Junior",
-      "short": "Arnaldo",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 233558,
-      "name": "Mauricio Alvaro Jose",
-      "short": "Mauricio",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
@@ -212,13 +180,6 @@
     },
     {
       "a": 104354,
-      "b": 118298,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
-    },
-    {
-      "a": 104354,
       "b": 146657,
       "t": 2,
       "f": 2019,
@@ -234,7 +195,7 @@
     {
       "a": 120098,
       "b": 135161,
-      "t": 2,
+      "t": 1,
       "f": 2019,
       "l": 2019
     },
@@ -246,24 +207,17 @@
       "l": 2017
     },
     {
-      "a": 146657,
-      "b": 146914,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 146948,
       "b": 146949,
-      "t": 2,
-      "f": 2014,
+      "t": 1,
+      "f": 2016,
       "l": 2016
     },
     {
       "a": 146949,
       "b": 157140,
-      "t": 5,
-      "f": 2016,
+      "t": 3,
+      "f": 2023,
       "l": 2025
     },
     {
@@ -283,7 +237,7 @@
     {
       "a": 157140,
       "b": 179145,
-      "t": 2,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -297,23 +251,16 @@
     {
       "a": 168289,
       "b": 179145,
-      "t": 7,
+      "t": 2,
       "f": 2022,
       "l": 2023
-    },
-    {
-      "a": 178381,
-      "b": 181202,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 178671,
       "b": 178684,
-      "t": 2,
+      "t": 1,
       "f": 2022,
-      "l": 2023
+      "l": 2022
     },
     {
       "a": 181202,
@@ -321,13 +268,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 230697,
-      "b": 233558,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

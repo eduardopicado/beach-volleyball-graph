@@ -17,13 +17,6 @@
       "weight": 84
     },
     {
-      "id": 150035,
-      "name": "Mohamed Hichame Benbouali",
-      "dob": "1993-05-18",
-      "height": null,
-      "weight": 72
-    },
-    {
       "id": 153438,
       "name": "Rabahi Djillali",
       "dob": "1998-01-28",
@@ -36,13 +29,6 @@
       "dob": "1998-08-06",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 156421,
-      "name": "Ayyoub Dekkiche",
-      "dob": "1990-04-09",
-      "height": 196,
-      "weight": 79
     },
     {
       "id": 167814,
@@ -71,27 +57,6 @@
       "dob": "2000-01-13",
       "height": 196,
       "weight": 82
-    },
-    {
-      "id": 184367,
-      "name": "Touhami Hany",
-      "dob": "2003-12-08",
-      "height": 182,
-      "weight": 70
-    },
-    {
-      "id": 184443,
-      "name": "Abderaouf Boulfrakh",
-      "dob": "2002-04-27",
-      "height": 183,
-      "weight": 68
-    },
-    {
-      "id": 184463,
-      "name": "Kara Ali Mohamed Elamine",
-      "dob": "2003-07-07",
-      "height": 194,
-      "weight": 75
     }
   ]
 }

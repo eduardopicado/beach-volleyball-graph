@@ -12,25 +12,9 @@
       "last": 2025
     },
     {
-      "id": 200825,
-      "name": "Monica Zammit",
-      "short": "Zammit Munro",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
       "id": 213807,
       "name": "Mikaela Galea",
       "short": "Galea",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 225120,
-      "name": "Jana Kenkovski",
-      "short": "J. Kenkovski",
       "tournaments": 1,
       "first": 2025,
       "last": 2025
@@ -40,13 +24,6 @@
     {
       "a": 200824,
       "b": 213807,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 200825,
-      "b": 225120,
       "t": 1,
       "f": 2025,
       "l": 2025

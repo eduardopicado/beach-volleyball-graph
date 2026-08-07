@@ -4,52 +4,36 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 132916,
-      "name": "Denyse Mutatsipundu",
-      "short": "Mutatsimpundu",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
       "id": 135063,
       "name": "Denise Mutatsimpundu",
       "short": "Mutatsimpundu",
-      "tournaments": 3,
-      "first": 2011,
+      "tournaments": 2,
+      "first": 2013,
       "last": 2017
     },
     {
       "id": 135064,
       "name": "Hakizimana Judith",
       "short": "Judith",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2019,
-      "last": 2023
+      "last": 2019
     },
     {
       "id": 135065,
       "name": "Charlotte Nzayisenga",
       "short": "Nzayisenga",
-      "tournaments": 8,
-      "first": 2011,
-      "last": 2021
-    },
-    {
-      "id": 144531,
-      "name": "Uwineza Emiliene",
-      "short": "Uwineza",
-      "tournaments": 1,
+      "tournaments": 5,
       "first": 2013,
-      "last": 2013
+      "last": 2021
     },
     {
       "id": 147318,
       "name": "Lea Uwimbabazi",
       "short": "Uwimbabazi",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2014,
-      "last": 2023
+      "last": 2014
     },
     {
       "id": 147320,
@@ -71,33 +55,33 @@
       "id": 155339,
       "name": "Seraphine Mukantambara",
       "short": "Seraphine",
-      "tournaments": 3,
-      "first": 2013,
+      "tournaments": 1,
+      "first": 2014,
       "last": 2014
     },
     {
       "id": 164423,
       "name": "Penelope Musabyimana",
       "short": "Musabyimana",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2023
+      "last": 2019
     },
     {
       "id": 172650,
       "name": "Benitha Mukandayisenga",
       "short": "Benitha",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 174089,
       "name": "Munezero Valentine",
       "short": "Munezero",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 175290,
@@ -124,14 +108,6 @@
       "last": 2019
     },
     {
-      "id": 180981,
-      "name": "Yvonne Bayija",
-      "short": "Yvonne",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
       "id": 180984,
       "name": "Claudine Musanabageni",
       "short": "Claudine",
@@ -142,17 +118,10 @@
   ],
   "edges": [
     {
-      "a": 132916,
-      "b": 135065,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
       "a": 135063,
       "b": 135065,
-      "t": 3,
-      "f": 2011,
+      "t": 2,
+      "f": 2013,
       "l": 2017
     },
     {
@@ -163,13 +132,6 @@
       "l": 2019
     },
     {
-      "a": 135064,
-      "b": 164423,
-      "t": 2,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 135065,
       "b": 174089,
       "t": 1,
@@ -177,25 +139,11 @@
       "l": 2021
     },
     {
-      "a": 144531,
-      "b": 155339,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 147318,
       "b": 155339,
-      "t": 2,
+      "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 147318,
-      "b": 180981,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 147320,
@@ -210,20 +158,6 @@
       "t": 1,
       "f": 2019,
       "l": 2019
-    },
-    {
-      "a": 164423,
-      "b": 180981,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 172650,
-      "b": 174089,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 172650,

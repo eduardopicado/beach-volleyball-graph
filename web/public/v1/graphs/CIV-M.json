@@ -4,14 +4,6 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 137571,
-      "name": "Paul Elkana Essoh",
-      "short": "SOA(societe omnisport de l'armée)",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 137572,
       "name": "Sess Aimé Melesse",
       "short": "Melesse",
@@ -20,20 +12,12 @@
       "last": 2018
     },
     {
-      "id": 139962,
-      "name": "Adjoua Max Andre",
-      "short": "Max Andre",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
       "id": 139963,
       "name": "Aquilas Kobon",
       "short": "AS POLICE",
-      "tournaments": 4,
-      "first": 2012,
-      "last": 2018
+      "tournaments": 1,
+      "first": 2017,
+      "last": 2017
     },
     {
       "id": 150289,
@@ -52,26 +36,10 @@
       "last": 2017
     },
     {
-      "id": 181544,
-      "name": "Otchoumou Emmanuel",
-      "short": "Emmanuel",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181545,
-      "name": "Essan Binde Franck Olivier",
-      "short": "Binde Franck Olivier",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 212890,
       "name": "Sandwidi Madi Junior",
       "short": "Sandwidi",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
@@ -79,48 +47,18 @@
       "id": 226524,
       "name": "COULIBALY SEKO ELIEL KPARATIOGO",
       "short": "SEKO",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 227189,
-      "name": "Ehe Emmanuel Beni Exauce Amian",
-      "short": "Emmanuel",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 227190,
-      "name": "Karamoko Diarrassouba",
-      "short": "Karamoko",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
-    {
-      "a": 137571,
-      "b": 139963,
-      "t": 2,
-      "f": 2018,
-      "l": 2018
-    },
     {
       "a": 137572,
       "b": 150289,
       "t": 2,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 139962,
-      "b": 139963,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
     },
     {
       "a": 139963,
@@ -130,25 +68,11 @@
       "l": 2017
     },
     {
-      "a": 181544,
-      "b": 181545,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 212890,
       "b": 226524,
-      "t": 2,
+      "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 227189,
-      "b": 227190,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

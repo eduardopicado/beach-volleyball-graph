@@ -4,58 +4,34 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 116620,
-      "name": "Andrea Jurcic",
-      "short": "Jurcic",
-      "tournaments": 3,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 116621,
-      "name": "Tonka Glavas",
-      "short": "Glavas",
-      "tournaments": 3,
-      "first": 2005,
-      "last": 2005
-    },
-    {
       "id": 120094,
       "name": "Maja Majic",
       "short": "Maja",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2007,
-      "last": 2009
+      "last": 2008
     },
     {
       "id": 120095,
       "name": "Dijana Crnic",
       "short": "Didi",
-      "tournaments": 5,
-      "first": 2007,
-      "last": 2009
-    },
-    {
-      "id": 120553,
-      "name": "Ivana Boras",
-      "short": "Boras",
       "tournaments": 2,
-      "first": 2008,
+      "first": 2007,
       "last": 2008
     },
     {
       "id": 120554,
       "name": "Valentina Vrbanc",
       "short": "Vrbanc",
-      "tournaments": 4,
-      "first": 2008,
-      "last": 2018
+      "tournaments": 1,
+      "first": 2015,
+      "last": 2015
     },
     {
       "id": 123567,
       "name": "Ema Prenc",
       "short": "Prenc",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2015,
       "last": 2015
     },
@@ -63,41 +39,17 @@
       "id": 123569,
       "name": "Matic Martina",
       "short": "Matic",
-      "tournaments": 4,
-      "first": 2009,
-      "last": 2015
-    },
-    {
-      "id": 124594,
-      "name": "Marijana Ribicic",
-      "short": "Ribicic",
       "tournaments": 1,
-      "first": 2009,
-      "last": 2009
+      "first": 2015,
+      "last": 2015
     },
     {
       "id": 124595,
       "name": "Dalida Vernier",
       "short": "Vernier",
-      "tournaments": 12,
-      "first": 2009,
+      "tournaments": 6,
+      "first": 2013,
       "last": 2015
-    },
-    {
-      "id": 131236,
-      "name": "Dalida Vernier",
-      "short": "Vernier",
-      "tournaments": 3,
-      "first": 2010,
-      "last": 2010
-    },
-    {
-      "id": 132131,
-      "name": "Ana Popovic",
-      "short": "Popovic",
-      "tournaments": 4,
-      "first": 2010,
-      "last": 2010
     },
     {
       "id": 132570,
@@ -119,7 +71,7 @@
       "id": 132572,
       "name": "Maja Rosko",
       "short": "Rosko",
-      "tournaments": 21,
+      "tournaments": 9,
       "first": 2014,
       "last": 2018
     },
@@ -159,7 +111,7 @@
       "id": 135660,
       "name": "Sara Radanovic",
       "short": "Radanovic",
-      "tournaments": 7,
+      "tournaments": 6,
       "first": 2011,
       "last": 2017
     },
@@ -175,14 +127,6 @@
       "id": 136824,
       "name": "Martina Šamadan",
       "short": "Samadan",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 137271,
-      "name": "Ivana Sculac",
-      "short": "Sculac",
       "tournaments": 1,
       "first": 2013,
       "last": 2013
@@ -223,7 +167,7 @@
       "id": 143687,
       "name": "Jurja Vlašic",
       "short": "Vlašic",
-      "tournaments": 10,
+      "tournaments": 5,
       "first": 2013,
       "last": 2017
     },
@@ -239,7 +183,7 @@
       "id": 147433,
       "name": "Dina Becic",
       "short": "Becic, D.",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2015,
       "last": 2017
     },
@@ -255,24 +199,16 @@
       "id": 150814,
       "name": "Antea Tadic",
       "short": "Tadic",
-      "tournaments": 8,
+      "tournaments": 3,
       "first": 2015,
       "last": 2015
-    },
-    {
-      "id": 153183,
-      "name": "Franka Jakolis",
-      "short": "Franka",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
     },
     {
       "id": 153184,
       "name": "Ana Sutalo",
       "short": "Ana",
-      "tournaments": 2,
-      "first": 2016,
+      "tournaments": 1,
+      "first": 2018,
       "last": 2018
     },
     {
@@ -330,60 +266,14 @@
       "tournaments": 3,
       "first": 2017,
       "last": 2018
-    },
-    {
-      "id": 173269,
-      "name": "Lucijana Terze",
-      "short": "Terze",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 179205,
-      "name": "Lea Rasic",
-      "short": "Rasic",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 202086,
-      "name": "Lucija Šoš",
-      "short": "Šoš",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 221309,
-      "name": "Tonka Biuk",
-      "short": "Biuk",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
     }
   ],
   "edges": [
     {
-      "a": 116620,
-      "b": 116621,
-      "t": 3,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 120094,
       "b": 120095,
-      "t": 5,
-      "f": 2007,
-      "l": 2009
-    },
-    {
-      "a": 120553,
-      "b": 120554,
       "t": 2,
-      "f": 2008,
+      "f": 2007,
       "l": 2008
     },
     {
@@ -394,53 +284,11 @@
       "l": 2015
     },
     {
-      "a": 120554,
-      "b": 132572,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 123567,
-      "b": 123569,
-      "t": 2,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 123569,
-      "b": 124595,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
       "a": 123569,
       "b": 147433,
-      "t": 3,
+      "t": 1,
       "f": 2015,
       "l": 2015
-    },
-    {
-      "a": 124594,
-      "b": 124595,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 124595,
-      "b": 132131,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
-      "a": 124595,
-      "b": 132572,
-      "t": 2,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 124595,
@@ -452,7 +300,7 @@
     {
       "a": 124595,
       "b": 143687,
-      "t": 3,
+      "t": 2,
       "f": 2013,
       "l": 2014
     },
@@ -462,13 +310,6 @@
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 131236,
-      "b": 132131,
-      "t": 3,
-      "f": 2010,
-      "l": 2010
     },
     {
       "a": 132570,
@@ -501,14 +342,14 @@
     {
       "a": 132572,
       "b": 143687,
-      "t": 6,
+      "t": 2,
       "f": 2017,
       "l": 2017
     },
     {
       "a": 132572,
       "b": 150814,
-      "t": 8,
+      "t": 3,
       "f": 2015,
       "l": 2015
     },
@@ -570,13 +411,6 @@
     },
     {
       "a": 135660,
-      "b": 137271,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 135660,
       "b": 140914,
       "t": 1,
       "f": 2016,
@@ -599,13 +433,6 @@
     {
       "a": 143687,
       "b": 147433,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 153183,
-      "b": 153184,
       "t": 1,
       "f": 2016,
       "l": 2016
@@ -637,20 +464,6 @@
       "t": 2,
       "f": 2017,
       "l": 2018
-    },
-    {
-      "a": 173269,
-      "b": 179205,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 202086,
-      "b": 221309,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
     }
   ]
 }

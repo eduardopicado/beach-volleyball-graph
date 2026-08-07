@@ -7,31 +7,15 @@
       "id": 150652,
       "name": "Pa Alieu Njie",
       "short": "Pa Alieu",
-      "tournaments": 10,
+      "tournaments": 4,
       "first": 2023,
       "last": 2024
-    },
-    {
-      "id": 161611,
-      "name": "Amadou Jarju",
-      "short": "Jarju",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 169807,
-      "name": "Jahara Koita",
-      "short": "Koita",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2023
     },
     {
       "id": 175142,
       "name": "Mbye Babou Jarra",
       "short": "Jarra",
-      "tournaments": 16,
+      "tournaments": 9,
       "first": 2019,
       "last": 2022
     },
@@ -39,57 +23,33 @@
       "id": 175144,
       "name": "Sainey Jawo",
       "short": "Jawo",
-      "tournaments": 30,
+      "tournaments": 13,
       "first": 2019,
-      "last": 2026
-    },
-    {
-      "id": 184622,
-      "name": "Momodou Ngum",
-      "short": "Modou",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184625,
-      "name": "Omar Jarra",
-      "short": "Omar",
-      "tournaments": 2,
-      "first": 2021,
       "last": 2024
     },
     {
       "id": 189345,
       "name": "Laity Nyabally",
       "short": "Nyabally",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2026
+      "tournaments": 1,
+      "first": 2023,
+      "last": 2023
     },
     {
       "id": 193543,
       "name": "Mario Dampha",
       "short": "Mario",
-      "tournaments": 3,
-      "first": 2023,
-      "last": 2026
-    },
-    {
-      "id": 212889,
-      "name": "Bah Musa",
-      "short": "Musa",
       "tournaments": 1,
-      "first": 2024,
-      "last": 2024
+      "first": 2023,
+      "last": 2023
     },
     {
       "id": 224007,
       "name": "Bakary Ensa Kanyi",
       "short": "Bakary",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 226293,
@@ -112,58 +72,16 @@
     {
       "a": 150652,
       "b": 175144,
-      "t": 10,
+      "t": 4,
       "f": 2023,
       "l": 2024
-    },
-    {
-      "a": 161611,
-      "b": 169807,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 169807,
-      "b": 175144,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 169807,
-      "b": 184622,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 175142,
       "b": 175144,
-      "t": 16,
+      "t": 9,
       "f": 2019,
       "l": 2022
-    },
-    {
-      "a": 175144,
-      "b": 189345,
-      "t": 3,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 184625,
-      "b": 189345,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 184625,
-      "b": 212889,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
     },
     {
       "a": 189345,
@@ -171,13 +89,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 193543,
-      "b": 224007,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 224007,

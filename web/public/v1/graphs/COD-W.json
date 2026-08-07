@@ -12,76 +12,28 @@
       "last": 2018
     },
     {
-      "id": 173354,
-      "name": "Ngamasata Maleluka",
-      "short": "Maleluka",
-      "tournaments": 1,
-      "first": 2019,
-      "last": 2019
-    },
-    {
-      "id": 175319,
-      "name": "Irene Mpeti Lelo",
-      "short": "Mpeti",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 175348,
-      "name": "Benedicte Tetila Monge",
-      "short": "Benedicte",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 175357,
-      "name": "Christelle Makiese Ndongo",
-      "short": "Makiese",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 175583,
-      "name": "Monge Tetila",
-      "short": "Tetila",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 175585,
       "name": "Mianda Ania Dorcas",
       "short": "Mianda",
-      "tournaments": 4,
-      "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 189910,
-      "name": "Menezes Bompetshi Amba",
-      "short": "Amba",
       "tournaments": 1,
-      "first": 2024,
-      "last": 2024
+      "first": 2018,
+      "last": 2018
     },
     {
       "id": 212586,
       "name": "EKETE MOSEKA",
       "short": "Honorine",
-      "tournaments": 3,
-      "first": 2024,
-      "last": 2026
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
     },
     {
       "id": 224098,
       "name": "MATATANU MAYALA",
       "short": "KERENE",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     }
   ],
   "edges": [
@@ -93,46 +45,11 @@
       "l": 2018
     },
     {
-      "a": 173354,
-      "b": 175585,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 175319,
-      "b": 175357,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 175348,
-      "b": 175585,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 175583,
-      "b": 175585,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 189910,
-      "b": 212586,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
       "a": 212586,
       "b": 224098,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     }
   ]
 }

@@ -24,13 +24,6 @@
       "weight": 80
     },
     {
-      "id": 101282,
-      "name": "Yong Lu",
-      "dob": "1972-03-04",
-      "height": 188,
-      "weight": 83
-    },
-    {
       "id": 102047,
       "name": "Ting Li",
       "dob": "1979-11-16",
@@ -384,13 +377,6 @@
       "id": 138252,
       "name": "Wuqin Lin",
       "dob": "1988-11-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 138651,
-      "name": "Zhiwu Lin",
-      "dob": "1990-10-10",
       "height": null,
       "weight": null
     },
@@ -843,20 +829,6 @@
       "weight": null
     },
     {
-      "id": 210517,
-      "name": "Guobao Liu",
-      "dob": "1999-08-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 210518,
-      "name": "Yihang Zhou",
-      "dob": "2004-07-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 210519,
       "name": "Gaocheng Zhu",
       "dob": "2000-12-04",
@@ -878,37 +850,9 @@
       "weight": null
     },
     {
-      "id": 210522,
-      "name": "Pinhong Chen",
-      "dob": "2001-10-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 210523,
-      "name": "Zheng Chen",
-      "dob": "2003-06-14",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 213587,
       "name": "Chen Yang",
       "dob": "2008-02-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 214304,
-      "name": "Huafeng Tan",
-      "dob": "2006-11-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 214305,
-      "name": "Qian Wang",
-      "dob": "2007-09-18",
       "height": null,
       "weight": null
     },
@@ -941,37 +885,9 @@
       "weight": null
     },
     {
-      "id": 232842,
-      "name": "Jinxin Hu",
-      "dob": "2004-02-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 232843,
-      "name": "Wanghao Lu",
-      "dob": "2004-10-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 241476,
       "name": "Shaoquan Dong",
       "dob": "2007-07-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 241477,
-      "name": "Haodong Ma",
-      "dob": "2004-03-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 241508,
-      "name": "Junkai Yu",
-      "dob": "2006-12-15",
       "height": null,
       "weight": null
     }

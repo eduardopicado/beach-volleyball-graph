@@ -79,7 +79,7 @@
       "id": 103641,
       "name": "Wing Hung Tse",
       "short": "Tse",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2001,
       "last": 2010
     },
@@ -151,7 +151,7 @@
       "id": 133536,
       "name": "Wing Tung To",
       "short": "W.T. TO",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2023,
       "last": 2026
     },
@@ -159,7 +159,7 @@
       "id": 133549,
       "name": "Wing Man To",
       "short": "W. M. To",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2026,
       "last": 2026
     },
@@ -183,7 +183,7 @@
       "id": 138117,
       "name": "Yung Yung Koo",
       "short": "Y.Y. KOO",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2019,
       "last": 2020
     },
@@ -199,8 +199,8 @@
       "id": 146056,
       "name": "Tsz Hung Tsang",
       "short": "Hung",
-      "tournaments": 2,
-      "first": 2016,
+      "tournaments": 1,
+      "first": 2017,
       "last": 2017
     },
     {
@@ -215,23 +215,15 @@
       "id": 146494,
       "name": "Wai Yan Au Yeung",
       "short": "W.Y. AU YEUNG",
-      "tournaments": 16,
+      "tournaments": 15,
       "first": 2018,
       "last": 2020
-    },
-    {
-      "id": 153881,
-      "name": "Oi Yan Yue",
-      "short": "Yue Oi Yan",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
     },
     {
       "id": 155884,
       "name": "Wing Laam Ng",
       "short": "W.L.Ng",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2017,
       "last": 2019
     },
@@ -239,7 +231,7 @@
       "id": 161937,
       "name": "Cheuk Yee Kong",
       "short": "C.Y. KONG",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2003,
       "last": 2010
     },
@@ -247,7 +239,7 @@
       "id": 167255,
       "name": "Ngok Ling Tsang",
       "short": "N.L. Tsang",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2026,
       "last": 2026
     },
@@ -255,8 +247,8 @@
       "id": 167261,
       "name": "Man Ching Wong",
       "short": "M.C. Wong",
-      "tournaments": 13,
-      "first": 2018,
+      "tournaments": 9,
+      "first": 2019,
       "last": 2026
     },
     {
@@ -266,14 +258,6 @@
       "tournaments": 1,
       "first": 2023,
       "last": 2023
-    },
-    {
-      "id": 189824,
-      "name": "Yu Sze Leung",
-      "short": "Y. S. LEUNG",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     },
     {
       "id": 189828,
@@ -298,14 +282,6 @@
       "tournaments": 1,
       "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 233448,
-      "name": "Wing Tung Tiffany Yeung",
-      "short": "W. T. YEUNG",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     },
     {
       "id": 234213,
@@ -370,7 +346,7 @@
     {
       "a": 103641,
       "b": 161937,
-      "t": 8,
+      "t": 7,
       "f": 2003,
       "l": 2010
     },
@@ -398,7 +374,7 @@
     {
       "a": 133536,
       "b": 133549,
-      "t": 7,
+      "t": 4,
       "f": 2026,
       "l": 2026
     },
@@ -426,7 +402,7 @@
     {
       "a": 138117,
       "b": 146494,
-      "t": 5,
+      "t": 4,
       "f": 2019,
       "l": 2020
     },
@@ -436,13 +412,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 146056,
-      "b": 153881,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
     },
     {
       "a": 146056,
@@ -461,14 +430,14 @@
     {
       "a": 155884,
       "b": 167261,
-      "t": 2,
-      "f": 2018,
+      "t": 1,
+      "f": 2019,
       "l": 2019
     },
     {
       "a": 167255,
       "b": 167261,
-      "t": 8,
+      "t": 5,
       "f": 2026,
       "l": 2026
     },
@@ -478,13 +447,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 189824,
-      "b": 233448,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 189828,

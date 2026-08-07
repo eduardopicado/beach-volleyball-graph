@@ -119,7 +119,7 @@
       "id": 125190,
       "name": "Artur Vasiljev",
       "short": "Vasiljev",
-      "tournaments": 66,
+      "tournaments": 37,
       "first": 2009,
       "last": 2026
     },
@@ -127,9 +127,9 @@
       "id": 125191,
       "name": "Andzej Savostenok",
       "short": "Savostenok",
-      "tournaments": 11,
+      "tournaments": 1,
       "first": 2010,
-      "last": 2026
+      "last": 2010
     },
     {
       "id": 125395,
@@ -143,7 +143,7 @@
       "id": 132870,
       "name": "Robert Juchnevic",
       "short": "Juchnevic",
-      "tournaments": 48,
+      "tournaments": 29,
       "first": 2018,
       "last": 2026
     },
@@ -151,7 +151,7 @@
       "id": 137390,
       "name": "Gilbertas Kerpe",
       "short": "Kerpe",
-      "tournaments": 11,
+      "tournaments": 3,
       "first": 2012,
       "last": 2022
     },
@@ -159,7 +159,7 @@
       "id": 137392,
       "name": "Arnas Rumsevicius",
       "short": "Rumsevicius",
-      "tournaments": 126,
+      "tournaments": 66,
       "first": 2012,
       "last": 2026
     },
@@ -167,7 +167,7 @@
       "id": 142156,
       "name": "Lukas Kazdailis",
       "short": "Kazdailis",
-      "tournaments": 52,
+      "tournaments": 33,
       "first": 2013,
       "last": 2019
     },
@@ -175,16 +175,16 @@
       "id": 143518,
       "name": "Edvinas Vaskelis",
       "short": "Vaskelis",
-      "tournaments": 6,
-      "first": 2014,
-      "last": 2021
+      "tournaments": 1,
+      "first": 2016,
+      "last": 2016
     },
     {
       "id": 143522,
       "name": "Matas Navickas",
       "short": "Navickas",
-      "tournaments": 12,
-      "first": 2014,
+      "tournaments": 3,
+      "first": 2016,
       "last": 2019
     },
     {
@@ -199,7 +199,7 @@
       "id": 147629,
       "name": "Tomas Stasevicius",
       "short": "Stasevicius",
-      "tournaments": 29,
+      "tournaments": 11,
       "first": 2022,
       "last": 2024
     },
@@ -223,7 +223,7 @@
       "id": 153204,
       "name": "Audrius Knasas",
       "short": "Knasas",
-      "tournaments": 75,
+      "tournaments": 39,
       "first": 2016,
       "last": 2026
     },
@@ -231,15 +231,15 @@
       "id": 153205,
       "name": "Aurimas Mazuras",
       "short": "Mazuras",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2016,
-      "last": 2019
+      "last": 2016
     },
     {
       "id": 153798,
       "name": "Artur Vincelovic",
       "short": "Vincelovic",
-      "tournaments": 23,
+      "tournaments": 5,
       "first": 2022,
       "last": 2022
     },
@@ -247,73 +247,33 @@
       "id": 157093,
       "name": "Linas Petravicius",
       "short": "Petravicius",
-      "tournaments": 8,
-      "first": 2021,
+      "tournaments": 2,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 158153,
       "name": "Patrikas Stankevicius",
       "short": "Stankevicius",
-      "tournaments": 61,
-      "first": 2017,
-      "last": 2025
+      "tournaments": 32,
+      "first": 2018,
+      "last": 2024
     },
     {
       "id": 162773,
       "name": "Marius Malinauskas",
       "short": "Malinauskas",
-      "tournaments": 26,
+      "tournaments": 6,
       "first": 2018,
-      "last": 2019
-    },
-    {
-      "id": 164501,
-      "name": "Justinas Abramaitis",
-      "short": "Abramaitis",
-      "tournaments": 1,
-      "first": 2019,
       "last": 2019
     },
     {
       "id": 166714,
       "name": "Mantas Donela",
       "short": "Donela",
-      "tournaments": 19,
+      "tournaments": 7,
       "first": 2022,
       "last": 2024
-    },
-    {
-      "id": 169468,
-      "name": "Emilis Bartkus",
-      "short": "Bartkus",
-      "tournaments": 2,
-      "first": 2022,
-      "last": 2023
-    },
-    {
-      "id": 170130,
-      "name": "Kestutis Gudauskas",
-      "short": "Gudauskas",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 170773,
-      "name": "Galdikas Laurynas",
-      "short": "Galdikas",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 174939,
-      "name": "Vytautas Slapsinskas",
-      "short": "Slapsinskas",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 175387,
@@ -324,66 +284,18 @@
       "last": 2024
     },
     {
-      "id": 181922,
-      "name": "Rapolas Gilys",
-      "short": "Gilys",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 181924,
       "name": "Karolis Palubinskas",
       "short": "Palubinskas",
-      "tournaments": 38,
+      "tournaments": 18,
       "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 182601,
-      "name": "Aivaras Balkauskas",
-      "short": "Balkauskas",
-      "tournaments": 2,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 182667,
-      "name": "Redas Mastebrockis",
-      "short": "Mastebrockis",
-      "tournaments": 2,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 182829,
-      "name": "Arnas Pileckis",
-      "short": "Pileckis",
-      "tournaments": 4,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 190363,
-      "name": "Tomas Vysniauskas",
-      "short": "Vysniauskas",
-      "tournaments": 3,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 192796,
-      "name": "Jokubas Losys",
-      "short": "Losys",
-      "tournaments": 46,
-      "first": 2025,
       "last": 2026
     },
     {
       "id": 201536,
       "name": "Povilas Piesina",
       "short": "Piesina",
-      "tournaments": 28,
+      "tournaments": 13,
       "first": 2024,
       "last": 2026
     },
@@ -391,7 +303,7 @@
       "id": 201537,
       "name": "Dovydas Sinkevicius",
       "short": "Sinkevicius",
-      "tournaments": 44,
+      "tournaments": 9,
       "first": 2025,
       "last": 2026
     },
@@ -399,103 +311,31 @@
       "id": 201538,
       "name": "Raigardas Macionis",
       "short": "Macionis",
-      "tournaments": 44,
+      "tournaments": 9,
       "first": 2025,
       "last": 2026
-    },
-    {
-      "id": 205289,
-      "name": "Jonas Grikstas",
-      "short": "Grikstas",
-      "tournaments": 31,
-      "first": 2025,
-      "last": 2025
     },
     {
       "id": 211969,
       "name": "Tomas Poplavskij",
       "short": "Poplavskij",
-      "tournaments": 3,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 214632,
-      "name": "Emilis Bendikas",
-      "short": "Bendikas",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 214633,
-      "name": "Lukas Grigaliūnas",
-      "short": "Grigaliūnas",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 214634,
-      "name": "Tautvydas Galubickas",
-      "short": "Galubickas",
       "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
     {
-      "id": 214648,
-      "name": "Rokas Lukosevicius",
-      "short": "Lukosevicius",
-      "tournaments": 5,
-      "first": 2025,
-      "last": 2026
-    },
-    {
       "id": 223905,
       "name": "Laimonas Alisauskas",
       "short": "Alisauskas",
-      "tournaments": 7,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 224679,
-      "name": "Danielius Sumeika",
-      "short": "Sumeika",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 225587,
-      "name": "Emilis Sanda",
-      "short": "Sanda",
-      "tournaments": 4,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 225588,
-      "name": "Kristupas Kancevicius",
-      "short": "Kancevicius",
-      "tournaments": 4,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 239923,
-      "name": "Povilas Vileniskis",
-      "short": "Vileniskis",
       "tournaments": 2,
-      "first": 2026,
+      "first": 2025,
       "last": 2026
     },
     {
       "id": 241665,
       "name": "Lukas Gumbelevicius",
       "short": "Gumbelevicius",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     }
@@ -637,16 +477,9 @@
     {
       "a": 125190,
       "b": 132870,
-      "t": 48,
+      "t": 29,
       "f": 2018,
       "l": 2026
-    },
-    {
-      "a": 125190,
-      "b": 137392,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 125190,
@@ -658,16 +491,9 @@
     {
       "a": 125190,
       "b": 162773,
-      "t": 17,
+      "t": 5,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 125191,
-      "b": 192796,
-      "t": 10,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 137390,
@@ -678,85 +504,64 @@
     },
     {
       "a": 137390,
-      "b": 153205,
-      "t": 6,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 137390,
       "b": 157093,
-      "t": 4,
+      "t": 2,
       "f": 2022,
       "l": 2022
     },
     {
       "a": 137392,
       "b": 142156,
-      "t": 51,
+      "t": 32,
       "f": 2013,
       "l": 2019
     },
     {
       "a": 137392,
       "b": 147629,
-      "t": 28,
+      "t": 11,
       "f": 2022,
       "l": 2024
     },
     {
       "a": 137392,
       "b": 153798,
-      "t": 23,
+      "t": 5,
       "f": 2022,
       "l": 2022
     },
     {
       "a": 137392,
-      "b": 158153,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 137392,
       "b": 181924,
-      "t": 18,
+      "t": 11,
       "f": 2025,
       "l": 2026
     },
     {
       "a": 137392,
       "b": 201536,
-      "t": 10,
+      "t": 6,
       "f": 2024,
-      "l": 2025
+      "l": 2024
     },
     {
       "a": 143518,
       "b": 143522,
-      "t": 2,
-      "f": 2014,
+      "t": 1,
+      "f": 2016,
       "l": 2016
-    },
-    {
-      "a": 143518,
-      "b": 157093,
-      "t": 4,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 143522,
       "b": 158153,
-      "t": 2,
-      "f": 2017,
+      "t": 1,
+      "f": 2018,
       "l": 2018
     },
     {
       "a": 143522,
       "b": 162773,
-      "t": 8,
+      "t": 1,
       "f": 2019,
       "l": 2019
     },
@@ -766,13 +571,6 @@
       "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 147629,
-      "b": 169468,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 147650,
@@ -791,121 +589,30 @@
     {
       "a": 153204,
       "b": 158153,
-      "t": 57,
+      "t": 31,
       "f": 2019,
       "l": 2024
     },
     {
       "a": 153204,
       "b": 201536,
-      "t": 17,
+      "t": 7,
       "f": 2025,
       "l": 2026
-    },
-    {
-      "a": 158153,
-      "b": 201538,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 162773,
-      "b": 164501,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
     },
     {
       "a": 166714,
       "b": 181924,
-      "t": 19,
+      "t": 7,
       "f": 2022,
       "l": 2024
     },
     {
-      "a": 169468,
-      "b": 170773,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 170130,
-      "b": 174939,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 181922,
-      "b": 181924,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 182601,
-      "b": 182667,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 182829,
-      "b": 190363,
-      "t": 3,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 182829,
-      "b": 192796,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 192796,
-      "b": 201537,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 192796,
-      "b": 205289,
-      "t": 31,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 192796,
-      "b": 225588,
-      "t": 3,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 201536,
-      "b": 224679,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 201537,
       "b": 201538,
-      "t": 43,
+      "t": 9,
       "f": 2025,
       "l": 2026
-    },
-    {
-      "a": 201538,
-      "b": 225588,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 211969,
@@ -913,53 +620,11 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 211969,
-      "b": 225587,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 214632,
-      "b": 214633,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 214634,
-      "b": 214648,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 214648,
-      "b": 223905,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 214648,
-      "b": 225587,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 223905,
-      "b": 239923,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
     },
     {
       "a": 223905,
       "b": 241665,
-      "t": 2,
+      "t": 1,
       "f": 2026,
       "l": 2026
     }

@@ -290,13 +290,6 @@
       "weight": 93
     },
     {
-      "id": 103807,
-      "name": "Martin Jonsson",
-      "dob": "1975-07-22",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 103863,
       "name": "Hannes Brinkborg",
       "dob": "1978-07-09",
@@ -472,20 +465,6 @@
       "weight": 79
     },
     {
-      "id": 118171,
-      "name": "Tobias Prytz",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 118172,
-      "name": "Jens Olsson",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 118623,
       "name": "Magnus Nordlander",
       "dob": null,
@@ -549,30 +528,9 @@
       "weight": null
     },
     {
-      "id": 124866,
-      "name": "Erik Andersson",
-      "dob": "1976-10-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 125006,
       "name": "Simon Ekbäck Nordström",
       "dob": "1985-09-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 125114,
-      "name": "Henrik Löfgren",
-      "dob": "1977-07-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 125115,
-      "name": "Per Chaikiat",
-      "dob": "1981-06-29",
       "height": null,
       "weight": null
     },
@@ -587,27 +545,6 @@
       "id": 125326,
       "name": "Ashur Ibrahim",
       "dob": "1989-12-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 131971,
-      "name": "Jens Jacobsson",
-      "dob": "1986-08-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132098,
-      "name": "Stefan Karlsson",
-      "dob": "1974-08-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132102,
-      "name": "Magnus Johansson",
-      "dob": "1977-06-10",
       "height": null,
       "weight": null
     },
@@ -631,20 +568,6 @@
       "dob": "1992-03-23",
       "height": 194,
       "weight": 80
-    },
-    {
-      "id": 132852,
-      "name": "Stefan Struvert",
-      "dob": "1978-10-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132853,
-      "name": "Johan Ström",
-      "dob": "1979-06-10",
-      "height": null,
-      "weight": null
     },
     {
       "id": 136448,
@@ -773,13 +696,6 @@
       "weight": null
     },
     {
-      "id": 164884,
-      "name": "Jonas Åberg",
-      "dob": "1991-11-12",
-      "height": 193,
-      "weight": 97
-    },
-    {
       "id": 166274,
       "name": "Jonatan Hellvig",
       "dob": "2001-10-05",
@@ -794,30 +710,9 @@
       "weight": null
     },
     {
-      "id": 168232,
-      "name": "Philip Franzon",
-      "dob": "1994-12-30",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 168894,
       "name": "Martin Johansson",
       "dob": "1991-07-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 171233,
-      "name": "Leon Vincent",
-      "dob": "1998-07-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 171234,
-      "name": "Isak Cameron",
-      "dob": "1997-10-13",
       "height": null,
       "weight": null
     },
@@ -827,13 +722,6 @@
       "dob": "2005-02-13",
       "height": 200,
       "weight": 88
-    },
-    {
-      "id": 177962,
-      "name": "Carl Petersson",
-      "dob": "1995-10-03",
-      "height": 186,
-      "weight": 85
     },
     {
       "id": 178014,
@@ -965,20 +853,6 @@
       "id": 240138,
       "name": "Otto Bornäs",
       "dob": "2003-09-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 240399,
-      "name": "Daniel Enström",
-      "dob": "1989-07-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 240546,
-      "name": "Leo Constantin",
-      "dob": "2005-10-29",
       "height": null,
       "weight": null
     }

@@ -4,54 +4,6 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 139724,
-      "name": "Luis David Adames Figueroa",
-      "short": "Adames",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 139967,
-      "name": "Julio Cesar Romano Almonte",
-      "short": "Romano",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 146609,
-      "name": "Alex Edward Medina Aquiles",
-      "short": "Medina",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146610,
-      "name": "Luis Antonio Castillo Rodriguez",
-      "short": "Castillo",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 173167,
-      "name": "Oscar Jose Martinez Lopez",
-      "short": "Martinez",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 182041,
-      "name": "Hayerling Francisco De Jesus Goris",
-      "short": "De Jesus",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 200623,
       "name": "Melvin Antonio de Jesus Albino",
       "short": "De Jesus",
@@ -66,59 +18,15 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 225997,
-      "name": "Franklin Alejandro Segura Mendez",
-      "short": "Segura",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 233992,
-      "name": "Francisco Antonio De Jesus Fernandez",
-      "short": "De Jesus",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
-    {
-      "a": 139724,
-      "b": 139967,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 146609,
-      "b": 146610,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 173167,
-      "b": 182041,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
     {
       "a": 200623,
       "b": 210057,
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 225997,
-      "b": 233992,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

@@ -7,7 +7,7 @@
       "id": 118584,
       "name": "Robin Miedzybrodzki",
       "short": "Miedzybrodzki",
-      "tournaments": 69,
+      "tournaments": 44,
       "first": 2007,
       "last": 2018
     },
@@ -15,71 +15,55 @@
       "id": 139712,
       "name": "Seain Cook",
       "short": "Cook",
-      "tournaments": 15,
-      "first": 2016,
+      "tournaments": 5,
+      "first": 2018,
       "last": 2026
     },
     {
       "id": 139716,
       "name": "James McHardy",
       "short": "McHardy",
-      "tournaments": 31,
+      "tournaments": 8,
       "first": 2022,
       "last": 2026
-    },
-    {
-      "id": 146876,
-      "name": "Graham Riddle",
-      "short": "Riddle",
-      "tournaments": 2,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 146880,
       "name": "Barry McGuigan",
       "short": "McGuigan",
-      "tournaments": 5,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 151775,
       "name": "Ben McHardy",
       "short": "McHardy",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2024
+      "last": 2022
     },
     {
       "id": 152440,
       "name": "Connor Boyle",
       "short": "Boyle",
-      "tournaments": 15,
-      "first": 2021,
+      "tournaments": 3,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 156674,
       "name": "Ross McKelvie",
       "short": "McKelvie",
-      "tournaments": 63,
+      "tournaments": 16,
       "first": 2021,
       "last": 2026
-    },
-    {
-      "id": 156675,
-      "name": "Stewart Caldwell",
-      "short": "Caldwell",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 163686,
       "name": "Callum Stewart",
       "short": "Stewart",
-      "tournaments": 38,
+      "tournaments": 9,
       "first": 2021,
       "last": 2023
     },
@@ -87,7 +71,7 @@
       "id": 176411,
       "name": "Euan Mackenzie Fraser",
       "short": "Fraser",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -95,7 +79,7 @@
       "id": 181582,
       "name": "Murray Paterson",
       "short": "Paterson",
-      "tournaments": 15,
+      "tournaments": 4,
       "first": 2026,
       "last": 2026
     },
@@ -103,7 +87,7 @@
       "id": 203403,
       "name": "Keir Paterson",
       "short": "Paterson",
-      "tournaments": 14,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     }
@@ -112,14 +96,14 @@
     {
       "a": 118584,
       "b": 139712,
-      "t": 8,
-      "f": 2016,
+      "t": 2,
+      "f": 2018,
       "l": 2018
     },
     {
       "a": 139712,
       "b": 176411,
-      "t": 6,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -132,37 +116,23 @@
     },
     {
       "a": 139716,
-      "b": 146876,
-      "t": 2,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 139716,
-      "b": 151775,
+      "b": 152440,
       "t": 1,
       "f": 2022,
       "l": 2022
     },
     {
       "a": 139716,
-      "b": 152440,
-      "t": 2,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 139716,
       "b": 156674,
-      "t": 26,
+      "t": 7,
       "f": 2024,
       "l": 2026
     },
     {
       "a": 146880,
       "b": 152440,
-      "t": 5,
-      "f": 2021,
+      "t": 1,
+      "f": 2022,
       "l": 2022
     },
     {
@@ -173,37 +143,16 @@
       "l": 2022
     },
     {
-      "a": 151775,
-      "b": 156674,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 152440,
-      "b": 156675,
-      "t": 5,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152440,
-      "b": 163686,
-      "t": 3,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 156674,
       "b": 163686,
-      "t": 36,
+      "t": 9,
       "f": 2021,
       "l": 2023
     },
     {
       "a": 181582,
       "b": 203403,
-      "t": 14,
+      "t": 3,
       "f": 2026,
       "l": 2026
     }

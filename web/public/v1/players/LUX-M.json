@@ -3,13 +3,6 @@
   "gender": "M",
   "players": [
     {
-      "id": 117025,
-      "name": "Francis Manderscheid",
-      "dob": "1979-03-31",
-      "height": 197,
-      "weight": 90
-    },
-    {
       "id": 117026,
       "name": "Laurent Schoder",
       "dob": "1984-04-18",
@@ -52,30 +45,9 @@
       "weight": 85
     },
     {
-      "id": 169733,
-      "name": "Maciej Complak",
-      "dob": "1987-07-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 189806,
-      "name": "Felix Terwindt",
-      "dob": "1991-05-11",
-      "height": 185,
-      "weight": 80
-    },
-    {
       "id": 189847,
       "name": "Colin Hilbert",
       "dob": "1998-04-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 210848,
-      "name": "Piotr WOLANSKI",
-      "dob": "1986-10-10",
       "height": null,
       "weight": null
     }

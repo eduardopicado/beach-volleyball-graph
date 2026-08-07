@@ -34,22 +34,6 @@
       "tournaments": 1,
       "first": 2008,
       "last": 2008
-    },
-    {
-      "id": 146141,
-      "name": "Isuru Madushan Siddihaluge",
-      "short": "Siddihaluge",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146142,
-      "name": "Thantrige Perera Mallawa",
-      "short": "Mallawa",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     }
   ],
   "edges": [
@@ -61,25 +45,11 @@
       "l": 2008
     },
     {
-      "a": 120781,
-      "b": 120790,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 120790,
       "b": 120791,
       "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 146141,
-      "b": 146142,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     }
   ]
 }

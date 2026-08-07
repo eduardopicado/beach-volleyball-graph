@@ -151,7 +151,7 @@
       "id": 125281,
       "name": "Cristobal Martinez",
       "short": "Martinez",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2012,
       "last": 2013
     },
@@ -159,23 +159,23 @@
       "id": 125323,
       "name": "Rodrigo Salinas",
       "short": "Salinas",
-      "tournaments": 10,
-      "first": 2012,
+      "tournaments": 5,
+      "first": 2013,
       "last": 2016
     },
     {
       "id": 125328,
       "name": "Matías Tobar",
       "short": "Tobar",
-      "tournaments": 4,
-      "first": 2014,
+      "tournaments": 3,
+      "first": 2015,
       "last": 2016
     },
     {
       "id": 125329,
       "name": "Marco Grimalt",
       "short": "Grimalt M.",
-      "tournaments": 185,
+      "tournaments": 134,
       "first": 2011,
       "last": 2026
     },
@@ -183,7 +183,7 @@
       "id": 134415,
       "name": "Esteban Grimalt",
       "short": "Grimalt E.",
-      "tournaments": 186,
+      "tournaments": 134,
       "first": 2011,
       "last": 2026
     },
@@ -231,7 +231,7 @@
       "id": 161784,
       "name": "Gaspar Lammel Romo",
       "short": "Lammel",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2018,
       "last": 2019
     },
@@ -239,15 +239,15 @@
       "id": 161785,
       "name": "Vicente Orlando Droguett Torrealba",
       "short": "Droguett",
-      "tournaments": 73,
+      "tournaments": 32,
       "first": 2018,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 161899,
       "name": "Ignacio Alejandro Zavala Vuletich",
       "short": "Zavala",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
       "last": 2019
     },
@@ -271,23 +271,15 @@
       "id": 167456,
       "name": "Martín Iglesias",
       "short": "Iglesias",
-      "tournaments": 16,
-      "first": 2018,
+      "tournaments": 10,
+      "first": 2019,
       "last": 2023
-    },
-    {
-      "id": 167457,
-      "name": "Esteban Aranda",
-      "short": "Aranda",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 172387,
       "name": "Noe Aravena",
       "short": "Aravena",
-      "tournaments": 45,
+      "tournaments": 23,
       "first": 2021,
       "last": 2024
     },
@@ -295,15 +287,15 @@
       "id": 172914,
       "name": "Fernando Quintero",
       "short": "Quintero",
-      "tournaments": 28,
+      "tournaments": 9,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 172916,
       "name": "Thomas Acevedo",
       "short": "Acevedo",
-      "tournaments": 17,
+      "tournaments": 9,
       "first": 2022,
       "last": 2024
     },
@@ -311,7 +303,7 @@
       "id": 184342,
       "name": "Maximiliano Cordova de Halleux",
       "short": "Max",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2021,
       "last": 2023
     },
@@ -351,8 +343,8 @@
       "id": 212942,
       "name": "George Hargreaves Arentsen",
       "short": "Hargreaves",
-      "tournaments": 3,
-      "first": 2024,
+      "tournaments": 2,
+      "first": 2025,
       "last": 2025
     },
     {
@@ -460,8 +452,8 @@
     {
       "a": 125281,
       "b": 125323,
-      "t": 4,
-      "f": 2012,
+      "t": 1,
+      "f": 2013,
       "l": 2013
     },
     {
@@ -474,16 +466,9 @@
     {
       "a": 125323,
       "b": 125328,
-      "t": 4,
-      "f": 2014,
+      "t": 3,
+      "f": 2015,
       "l": 2016
-    },
-    {
-      "a": 125323,
-      "b": 134415,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
     },
     {
       "a": 125323,
@@ -495,7 +480,7 @@
     {
       "a": 125329,
       "b": 134415,
-      "t": 185,
+      "t": 134,
       "f": 2011,
       "l": 2026
     },
@@ -523,7 +508,7 @@
     {
       "a": 161784,
       "b": 161899,
-      "t": 2,
+      "t": 1,
       "f": 2019,
       "l": 2019
     },
@@ -537,16 +522,16 @@
     {
       "a": 161785,
       "b": 172387,
-      "t": 44,
+      "t": 22,
       "f": 2021,
       "l": 2024
     },
     {
       "a": 161785,
       "b": 172914,
-      "t": 27,
+      "t": 8,
       "f": 2024,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 161909,
@@ -554,13 +539,6 @@
       "t": 1,
       "f": 2017,
       "l": 2017
-    },
-    {
-      "a": 167456,
-      "b": 167457,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
     },
     {
       "a": 167456,
@@ -572,7 +550,7 @@
     {
       "a": 167456,
       "b": 172916,
-      "t": 11,
+      "t": 6,
       "f": 2022,
       "l": 2022
     },
@@ -600,7 +578,7 @@
     {
       "a": 172916,
       "b": 184342,
-      "t": 5,
+      "t": 2,
       "f": 2023,
       "l": 2023
     },
@@ -621,8 +599,8 @@
     {
       "a": 212941,
       "b": 212942,
-      "t": 3,
-      "f": 2024,
+      "t": 2,
+      "f": 2025,
       "l": 2025
     },
     {

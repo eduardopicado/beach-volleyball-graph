@@ -4,366 +4,44 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 168431,
-      "name": "Arnold Fabrice Koe Bassoko",
-      "short": "BASSOKO",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 168433,
-      "name": "Ulrich Fotso Fotso",
-      "short": "Fotso",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 169076,
-      "name": "Kevin Audran Noumbissi Moyo",
-      "short": "Moyo",
-      "tournaments": 13,
-      "first": 2024,
-      "last": 2025
-    },
-    {
-      "id": 173002,
-      "name": "Manga Owana Tobie Joss Siloe",
-      "short": "J. Manga",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2021
-    },
-    {
       "id": 173003,
       "name": "Nsangou Lindou Mohamed Lamine",
       "short": "Nsangou",
-      "tournaments": 43,
-      "first": 2019,
-      "last": 2026
-    },
-    {
-      "id": 174654,
-      "name": "Cedric Bitouna",
-      "short": "Bitouna",
       "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 176780,
-      "name": "Rodrigue Ncha Tambi",
-      "short": "Ncha",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2021
-    },
-    {
-      "id": 176810,
-      "name": "Yvan Loumboua Ngossengue",
-      "short": "Ngossengue",
-      "tournaments": 4,
-      "first": 2019,
-      "last": 2021
+      "first": 2024,
+      "last": 2024
     },
     {
       "id": 181894,
       "name": "Ngueuche Bruno Angafor",
       "short": "Bruno",
-      "tournaments": 38,
-      "first": 2021,
+      "tournaments": 4,
+      "first": 2022,
       "last": 2024
-    },
-    {
-      "id": 181895,
-      "name": "Taguemkam Tetso Bernard",
-      "short": "Bernard",
-      "tournaments": 6,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 181896,
-      "name": "Ngalani Ngaleu Julien Franck",
-      "short": "NGALANI",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181957,
-      "name": "Envoug Tsala Joseph",
-      "short": "TSALA",
-      "tournaments": 7,
-      "first": 2021,
-      "last": 2022
-    },
-    {
-      "id": 183595,
-      "name": "Tobie Joss Siloe Manga Owona",
-      "short": "Manga",
-      "tournaments": 21,
-      "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 183856,
-      "name": "Landry Kavogo Yaoussia",
-      "short": "Landry",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 188136,
       "name": "Besongngnem Obenda",
       "short": "Ob",
-      "tournaments": 51,
-      "first": 2022,
-      "last": 2026
-    },
-    {
-      "id": 189409,
-      "name": "Joseph Mbongue Nzeke",
-      "short": "Mbongue Nzeke",
-      "tournaments": 17,
-      "first": 2024,
-      "last": 2026
-    },
-    {
-      "id": 189413,
-      "name": "Salim Bouba",
-      "short": "Bouba",
-      "tournaments": 13,
-      "first": 2024,
-      "last": 2025
-    },
-    {
-      "id": 201055,
-      "name": "Pierre Pascal Boutsap Yayabakan",
-      "short": "Boutsap",
-      "tournaments": 18,
-      "first": 2023,
-      "last": 2024
-    },
-    {
-      "id": 201069,
-      "name": "Mahamat Adji",
-      "short": "Adji",
       "tournaments": 6,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 201070,
-      "name": "Joseph Ganna",
-      "short": "Ganna",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 204854,
-      "name": "Juan Kevim Mbira Abouem",
-      "short": "Mbira Abouem",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 208158,
-      "name": "Issa Abdouraman",
-      "short": "Issa",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 209764,
-      "name": "Dimitri Messomo Essiane",
-      "short": "Messomo",
-      "tournaments": 4,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 221046,
-      "name": "Abakar Mahamat Abba Gambo",
-      "short": "Gambo",
-      "tournaments": 3,
-      "first": 2026,
-      "last": 2026
+      "first": 2022,
+      "last": 2024
     }
   ],
   "edges": [
     {
-      "a": 168431,
-      "b": 168433,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 169076,
-      "b": 189413,
-      "t": 13,
-      "f": 2024,
-      "l": 2025
-    },
-    {
-      "a": 173002,
-      "b": 173003,
-      "t": 2,
-      "f": 2019,
-      "l": 2021
-    },
-    {
-      "a": 173003,
-      "b": 181895,
-      "t": 3,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 173003,
-      "b": 183595,
-      "t": 11,
-      "f": 2022,
-      "l": 2023
-    },
-    {
       "a": 173003,
       "b": 188136,
-      "t": 11,
-      "f": 2024,
-      "l": 2026
-    },
-    {
-      "a": 173003,
-      "b": 189409,
-      "t": 5,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 173003,
-      "b": 201055,
-      "t": 15,
+      "t": 2,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 173003,
-      "b": 208158,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 174654,
-      "b": 176810,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 176780,
-      "b": 176810,
-      "t": 2,
-      "f": 2019,
-      "l": 2021
-    },
-    {
-      "a": 181894,
-      "b": 181957,
-      "t": 4,
-      "f": 2021,
-      "l": 2022
     },
     {
       "a": 181894,
       "b": 188136,
-      "t": 35,
-      "f": 2022,
-      "l": 2024
-    },
-    {
-      "a": 181895,
-      "b": 181957,
-      "t": 5,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 181896,
-      "b": 183856,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 183595,
-      "b": 188136,
-      "t": 11,
-      "f": 2022,
-      "l": 2026
-    },
-    {
-      "a": 183595,
-      "b": 201069,
-      "t": 6,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 183595,
-      "b": 209764,
-      "t": 2,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 188136,
-      "b": 201055,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 189409,
-      "b": 201055,
-      "t": 12,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 189409,
-      "b": 209764,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 201069,
-      "b": 209764,
       "t": 4,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 201069,
-      "b": 221046,
-      "t": 3,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 201070,
-      "b": 204854,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
+      "f": 2022,
+      "l": 2024
     }
   ]
 }

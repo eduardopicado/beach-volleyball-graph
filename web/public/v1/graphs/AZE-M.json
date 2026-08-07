@@ -7,117 +7,34 @@
       "id": 104434,
       "name": "Neilton Moises Santos Merces",
       "short": "Santos",
-      "tournaments": 64,
+      "tournaments": 23,
       "first": 2003,
       "last": 2015
-    },
-    {
-      "id": 132429,
-      "name": "Vadim Kutukov",
-      "short": "Vadim",
-      "tournaments": 1,
-      "first": 2024,
-      "last": 2024
     },
     {
       "id": 146361,
       "name": "Bernardo Wermelinger Romano",
       "short": "Romano",
-      "tournaments": 11,
-      "first": 2014,
+      "tournaments": 1,
+      "first": 2015,
       "last": 2015
     },
     {
       "id": 147362,
       "name": "Leonid Gritsai",
       "short": "Gritsai",
-      "tournaments": 11,
-      "first": 2014,
+      "tournaments": 1,
+      "first": 2015,
       "last": 2015
-    },
-    {
-      "id": 147364,
-      "name": "Artem Fedorov",
-      "short": "Fedorov",
-      "tournaments": 5,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 197088,
-      "name": "Muhammad Aslanli",
-      "short": "Muhammad A.",
-      "tournaments": 5,
-      "first": 2024,
-      "last": 2026
-    },
-    {
-      "id": 197089,
-      "name": "Nariman Bayramli",
-      "short": "Nariman B.",
-      "tournaments": 2,
-      "first": 2024,
-      "last": 2025
-    },
-    {
-      "id": 197122,
-      "name": "Ibrahim Mammadov",
-      "short": "Mammadov I.",
-      "tournaments": 4,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 203502,
-      "name": "Heydar Mammadlı",
-      "short": "Mammadlı",
-      "tournaments": 2,
-      "first": 2024,
-      "last": 2025
     }
   ],
   "edges": [
     {
-      "a": 104434,
-      "b": 147364,
-      "t": 5,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 132429,
-      "b": 203502,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
       "a": 146361,
       "b": 147362,
-      "t": 11,
-      "f": 2014,
+      "t": 1,
+      "f": 2015,
       "l": 2015
-    },
-    {
-      "a": 197088,
-      "b": 197089,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 197088,
-      "b": 197122,
-      "t": 4,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 197089,
-      "b": 203502,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     }
   ]
 }

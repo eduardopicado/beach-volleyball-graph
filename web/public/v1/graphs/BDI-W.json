@@ -4,52 +4,44 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 183939,
-      "name": "Ange Delicia Igiraneza",
-      "short": "Igiraneza",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
       "id": 183952,
       "name": "Karen Noppen",
       "short": "Noppen",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2023,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 191910,
       "name": "Gynette Kamwemwe",
       "short": "KAMWEMWE",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2023,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 191914,
       "name": "Delly Drice Kaze",
       "short": "KAZE",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2023,
-      "last": 2026
+      "last": 2023
     },
     {
       "id": 192200,
       "name": "Pamella Irakoze",
       "short": "Irakoze",
-      "tournaments": 4,
-      "first": 2023,
-      "last": 2026
+      "tournaments": 2,
+      "first": 2024,
+      "last": 2025
     },
     {
       "id": 192742,
       "name": "Emmanuelie Ndayikengurukiye",
       "short": "NDAYIKENGURUKIYE",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2023,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 193298,
@@ -63,17 +55,9 @@
       "id": 194227,
       "name": "Nadia Buntubwimana",
       "short": "BUNTUBWIMANA",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
-    },
-    {
-      "id": 194228,
-      "name": "Orlyne Dushime",
-      "short": "DUSHIME",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
+      "last": 2025
     },
     {
       "id": 223517,
@@ -103,33 +87,26 @@
       "id": 226574,
       "name": "NSHIMIRIMANA Nasalette",
       "short": "Nasalette",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 226575,
       "name": "NIHORIMBERE Penelope",
       "short": "Penelope",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     }
   ],
   "edges": [
     {
-      "a": 183939,
-      "b": 192200,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 183952,
       "b": 191910,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 183952,
@@ -141,30 +118,16 @@
     {
       "a": 191910,
       "b": 191914,
-      "t": 2,
+      "t": 1,
       "f": 2023,
-      "l": 2024
-    },
-    {
-      "a": 191914,
-      "b": 194227,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
+      "l": 2023
     },
     {
       "a": 192200,
       "b": 192742,
-      "t": 3,
+      "t": 2,
       "f": 2024,
-      "l": 2026
-    },
-    {
-      "a": 192742,
-      "b": 194228,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
+      "l": 2025
     },
     {
       "a": 193298,
@@ -190,9 +153,9 @@
     {
       "a": 226574,
       "b": 226575,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     }
   ]
 }

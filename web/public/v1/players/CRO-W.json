@@ -3,20 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 116620,
-      "name": "Andrea Jurcic",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 116621,
-      "name": "Tonka Glavas",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120094,
       "name": "Maja Majic",
       "dob": null,
@@ -27,13 +13,6 @@
       "id": 120095,
       "name": "Dijana Crnic",
       "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120553,
-      "name": "Ivana Boras",
-      "dob": "1992-05-10",
       "height": null,
       "weight": null
     },
@@ -59,32 +38,11 @@
       "weight": null
     },
     {
-      "id": 124594,
-      "name": "Marijana Ribicic",
-      "dob": "1979-02-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 124595,
       "name": "Dalida Vernier",
       "dob": "1978-12-10",
       "height": 174,
       "weight": 68
-    },
-    {
-      "id": 131236,
-      "name": "Dalida Vernier",
-      "dob": "1978-12-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132131,
-      "name": "Ana Popovic",
-      "dob": "1978-02-18",
-      "height": null,
-      "weight": null
     },
     {
       "id": 132570,
@@ -157,13 +115,6 @@
       "weight": 82
     },
     {
-      "id": 137271,
-      "name": "Ivana Sculac",
-      "dob": "1995-01-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 139385,
       "name": "Martina Kovacevic",
       "dob": "1994-11-14",
@@ -227,13 +178,6 @@
       "weight": null
     },
     {
-      "id": 153183,
-      "name": "Franka Jakolis",
-      "dob": "1998-07-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 153184,
       "name": "Ana Sutalo",
       "dob": "1998-06-08",
@@ -288,34 +232,6 @@
       "dob": "1994-11-29",
       "height": 180,
       "weight": 73
-    },
-    {
-      "id": 173269,
-      "name": "Lucijana Terze",
-      "dob": "2004-09-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179205,
-      "name": "Lea Rasic",
-      "dob": "2004-12-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 202086,
-      "name": "Lucija Šoš",
-      "dob": "2009-03-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 221309,
-      "name": "Tonka Biuk",
-      "dob": "2009-02-01",
-      "height": null,
-      "weight": null
     }
   ]
 }

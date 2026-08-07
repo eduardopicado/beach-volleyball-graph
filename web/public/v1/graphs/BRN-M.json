@@ -119,9 +119,9 @@
       "id": 120981,
       "name": "Ayman Haroon",
       "short": "AYMAN",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2008,
-      "last": 2019
+      "last": 2008
     },
     {
       "id": 120982,
@@ -154,14 +154,6 @@
       "tournaments": 1,
       "first": 2008,
       "last": 2008
-    },
-    {
-      "id": 173075,
-      "name": "MOHAMED Abdulla",
-      "short": "ABDULLA",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2019
     }
   ],
   "edges": [
@@ -234,13 +226,6 @@
       "t": 1,
       "f": 2007,
       "l": 2007
-    },
-    {
-      "a": 120981,
-      "b": 173075,
-      "t": 2,
-      "f": 2019,
-      "l": 2019
     },
     {
       "a": 120982,

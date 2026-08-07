@@ -3,23 +3,9 @@
   "gender": "M",
   "players": [
     {
-      "id": 134445,
-      "name": "Jorge Mario Cabrera Garavito",
-      "dob": "1984-06-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 138762,
       "name": "Alex Yhan Cuesta Murillo",
       "dob": "1976-06-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 141682,
-      "name": "Julian Castro",
-      "dob": "1995-05-09",
       "height": null,
       "weight": null
     },
@@ -29,41 +15,6 @@
       "dob": "1992-10-11",
       "height": null,
       "weight": 82
-    },
-    {
-      "id": 141687,
-      "name": "Alex David Racero Orozco",
-      "dob": "1992-12-15",
-      "height": 191,
-      "weight": 87
-    },
-    {
-      "id": 141688,
-      "name": "Miguel Piñeros",
-      "dob": "1996-09-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 145824,
-      "name": "Diego Camilo Corredor",
-      "dob": "1992-09-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147008,
-      "name": "Juan David Paternina",
-      "dob": "1988-08-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147132,
-      "name": "Jorge Luis Manjarres",
-      "dob": "1988-11-27",
-      "height": null,
-      "weight": null
     },
     {
       "id": 156070,
@@ -101,13 +52,6 @@
       "weight": 93
     },
     {
-      "id": 162175,
-      "name": "Gunter Perea",
-      "dob": "1995-07-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182169,
       "name": "Andres Felipe Castillo Zambrano",
       "dob": "2002-01-14",
@@ -118,13 +62,6 @@
       "id": 182170,
       "name": "Wilder Mosquera Caicedo",
       "dob": "2002-11-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 185779,
-      "name": "Juan Carlos Noriega Rojas",
-      "dob": "2001-08-18",
       "height": null,
       "weight": null
     },

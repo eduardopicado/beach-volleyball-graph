@@ -47,7 +47,7 @@
       "id": 100675,
       "name": "Juan Miguel Rossell Milanes",
       "short": "Rossell",
-      "tournaments": 91,
+      "tournaments": 87,
       "first": 1995,
       "last": 2005
     },
@@ -55,7 +55,7 @@
       "id": 100676,
       "name": "Francisco \"Francis\" Alvarez Cutiño",
       "short": "Alvarez",
-      "tournaments": 97,
+      "tournaments": 93,
       "first": 1995,
       "last": 2007
     },
@@ -135,7 +135,7 @@
       "id": 116046,
       "name": "Wilfredo Villar Casazayas",
       "short": "Villar",
-      "tournaments": 24,
+      "tournaments": 19,
       "first": 2005,
       "last": 2006
     },
@@ -143,23 +143,23 @@
       "id": 116047,
       "name": "Adrian Calderon Diaz",
       "short": "Adrian",
-      "tournaments": 6,
-      "first": 2005,
+      "tournaments": 3,
+      "first": 2006,
       "last": 2006
     },
     {
       "id": 116048,
       "name": "Liancen Estrada Joa",
       "short": "Lian",
-      "tournaments": 2,
-      "first": 2005,
+      "tournaments": 1,
+      "first": 2006,
       "last": 2006
     },
     {
       "id": 117858,
       "name": "Lansen Estrada Jova",
       "short": "chino",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2006,
       "last": 2006
     },
@@ -167,7 +167,7 @@
       "id": 118576,
       "name": "Leonel Munder Misiñan",
       "short": "Munder",
-      "tournaments": 13,
+      "tournaments": 10,
       "first": 2007,
       "last": 2007
     },
@@ -183,39 +183,15 @@
       "id": 120928,
       "name": "Karell Piña Ventoza",
       "short": "Piña",
-      "tournaments": 3,
-      "first": 2008,
-      "last": 2018
-    },
-    {
-      "id": 120929,
-      "name": "Javier Jimenez Scull",
-      "short": "Jimenez",
       "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 139758,
-      "name": "Parada Ulloa Jose Carlos",
-      "short": "Parada",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 139759,
-      "name": "Ribeaux Ferrer Daniel R",
-      "short": "Ribeaux",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
+      "first": 2017,
+      "last": 2017
     },
     {
       "id": 139762,
       "name": "Nivaldo Nadhir Dias Gomez",
       "short": "Nivaldo",
-      "tournaments": 21,
+      "tournaments": 17,
       "first": 2015,
       "last": 2018
     },
@@ -223,7 +199,7 @@
       "id": 148569,
       "name": "Sergio Reynaldo Gonzalez Bayard",
       "short": "Gonzalez",
-      "tournaments": 27,
+      "tournaments": 21,
       "first": 2008,
       "last": 2019
     },
@@ -239,33 +215,17 @@
       "id": 164066,
       "name": "Luis Enrique Reyes Rodriguez",
       "short": "Reyes",
-      "tournaments": 6,
-      "first": 2018,
+      "tournaments": 3,
+      "first": 2019,
       "last": 2019
     },
     {
       "id": 167628,
       "name": "Jorge Luis Alayo Moliner",
       "short": "Alayo",
-      "tournaments": 29,
+      "tournaments": 22,
       "first": 2019,
       "last": 2025
-    },
-    {
-      "id": 167629,
-      "name": "Miguel Angel Ayon Picayo",
-      "short": "Ayon",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 172792,
-      "name": "Yosvany Carrasco Delgado",
-      "short": "Carrasco",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 173077,
@@ -279,7 +239,7 @@
       "id": 181857,
       "name": "Noslen Diaz Amaro",
       "short": "Diaz",
-      "tournaments": 28,
+      "tournaments": 21,
       "first": 2022,
       "last": 2025
     },
@@ -367,21 +327,21 @@
     {
       "a": 100675,
       "b": 116046,
-      "t": 13,
+      "t": 9,
       "f": 2005,
       "l": 2005
     },
     {
       "a": 100676,
       "b": 116046,
-      "t": 11,
+      "t": 10,
       "f": 2006,
       "l": 2006
     },
     {
       "a": 100676,
       "b": 118576,
-      "t": 13,
+      "t": 10,
       "f": 2007,
       "l": 2007
     },
@@ -430,14 +390,14 @@
     {
       "a": 116047,
       "b": 116048,
-      "t": 2,
-      "f": 2005,
+      "t": 1,
+      "f": 2006,
       "l": 2006
     },
     {
       "a": 116047,
       "b": 117858,
-      "t": 4,
+      "t": 2,
       "f": 2006,
       "l": 2006
     },
@@ -450,43 +410,22 @@
     },
     {
       "a": 120928,
-      "b": 120929,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120928,
       "b": 151619,
       "t": 1,
       "f": 2017,
       "l": 2017
     },
     {
-      "a": 120928,
-      "b": 164066,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 139758,
-      "b": 139759,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
       "a": 139762,
       "b": 148569,
-      "t": 21,
+      "t": 17,
       "f": 2015,
       "l": 2018
     },
     {
       "a": 148569,
       "b": 164066,
-      "t": 5,
+      "t": 3,
       "f": 2019,
       "l": 2019
     },
@@ -500,16 +439,9 @@
     {
       "a": 167628,
       "b": 181857,
-      "t": 28,
+      "t": 21,
       "f": 2022,
       "l": 2025
-    },
-    {
-      "a": 167629,
-      "b": 172792,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 210559,

@@ -4,18 +4,10 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 124619,
-      "name": "Nina Skaric",
-      "short": "Skaric",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2019
-    },
-    {
       "id": 133720,
       "name": "Milena Matic",
       "short": "Matic",
-      "tournaments": 27,
+      "tournaments": 18,
       "first": 2015,
       "last": 2019
     },
@@ -23,31 +15,15 @@
       "id": 136815,
       "name": "Katarina Raicevic",
       "short": "Raicevic",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2018,
       "last": 2018
-    },
-    {
-      "id": 139353,
-      "name": "Kristina Vasic",
-      "short": "Vasic",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 139354,
-      "name": "Milana Stojanoski",
-      "short": "Stojanoski",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
     },
     {
       "id": 146757,
       "name": "Tijana Basic",
       "short": "Basic",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2014,
       "last": 2017
     },
@@ -55,15 +31,15 @@
       "id": 146758,
       "name": "Irena Drobnjak",
       "short": "Drobnjak",
-      "tournaments": 6,
+      "tournaments": 1,
       "first": 2014,
-      "last": 2018
+      "last": 2014
     },
     {
       "id": 147367,
       "name": "Natasa Masulovic",
       "short": "Masulovic",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2018,
       "last": 2019
     },
@@ -71,7 +47,7 @@
       "id": 148877,
       "name": "Marija Milosevic",
       "short": "Milosevic",
-      "tournaments": 18,
+      "tournaments": 16,
       "first": 2015,
       "last": 2018
     },
@@ -82,14 +58,6 @@
       "tournaments": 1,
       "first": 2018,
       "last": 2018
-    },
-    {
-      "id": 173766,
-      "name": "Tamara Miljevic",
-      "short": "Miljevic",
-      "tournaments": 1,
-      "first": 2019,
-      "last": 2019
     },
     {
       "id": 194207,
@@ -110,25 +78,11 @@
   ],
   "edges": [
     {
-      "a": 124619,
-      "b": 147367,
-      "t": 2,
-      "f": 2019,
-      "l": 2019
-    },
-    {
       "a": 133720,
       "b": 146757,
       "t": 1,
       "f": 2017,
       "l": 2017
-    },
-    {
-      "a": 133720,
-      "b": 146758,
-      "t": 3,
-      "f": 2018,
-      "l": 2018
     },
     {
       "a": 133720,
@@ -140,37 +94,23 @@
     {
       "a": 133720,
       "b": 148877,
-      "t": 17,
+      "t": 15,
       "f": 2015,
       "l": 2018
     },
     {
-      "a": 133720,
-      "b": 173766,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
       "a": 136815,
       "b": 147367,
-      "t": 3,
+      "t": 1,
       "f": 2018,
       "l": 2018
     },
     {
-      "a": 139353,
-      "b": 139354,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
       "a": 146757,
       "b": 146758,
-      "t": 3,
+      "t": 1,
       "f": 2014,
-      "l": 2016
+      "l": 2014
     },
     {
       "a": 148877,

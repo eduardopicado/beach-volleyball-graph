@@ -7,7 +7,7 @@
       "id": 101765,
       "name": "Aliaksandr Kavalenka",
       "short": "Kavalenka",
-      "tournaments": 99,
+      "tournaments": 51,
       "first": 1997,
       "last": 2018
     },
@@ -79,7 +79,7 @@
       "id": 103905,
       "name": "Vasili Kurdziuk",
       "short": "Kurdziuk",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2002,
       "last": 2006
     },
@@ -87,9 +87,9 @@
       "id": 103906,
       "name": "Andrei Zharykau",
       "short": "Zharykau",
-      "tournaments": 56,
+      "tournaments": 32,
       "first": 2002,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 103984,
@@ -159,15 +159,15 @@
       "id": 114571,
       "name": "Aleh Akhrem",
       "short": "Akhrem",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2004,
-      "last": 2005
+      "last": 2004
     },
     {
       "id": 116392,
       "name": "Siarhei Karpau",
       "short": "Karpau",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2005,
       "last": 2006
     },
@@ -175,7 +175,7 @@
       "id": 118972,
       "name": "Aliaksandr Dziadkou",
       "short": "Dziadkou",
-      "tournaments": 124,
+      "tournaments": 51,
       "first": 2007,
       "last": 2026
     },
@@ -183,7 +183,7 @@
       "id": 118973,
       "name": "Yauhen Vishneuski",
       "short": "Vishneuski",
-      "tournaments": 14,
+      "tournaments": 4,
       "first": 2007,
       "last": 2014
     },
@@ -207,15 +207,15 @@
       "id": 132191,
       "name": "Yauheni Yesaulenka",
       "short": "Yesaulenka",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2010,
-      "last": 2012
+      "last": 2010
     },
     {
       "id": 132192,
       "name": "Anton Dedkov",
       "short": "Dedkov",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2010,
       "last": 2014
     },
@@ -223,8 +223,8 @@
       "id": 139024,
       "name": "Anton Sinhayeuski",
       "short": "Sinhayeuski",
-      "tournaments": 5,
-      "first": 2012,
+      "tournaments": 3,
+      "first": 2013,
       "last": 2014
     },
     {
@@ -252,51 +252,11 @@
       "last": 2016
     },
     {
-      "id": 152942,
-      "name": "Ilya Abramenka",
-      "short": "Abramenka",
-      "tournaments": 8,
-      "first": 2019,
-      "last": 2021
-    },
-    {
       "id": 156205,
       "name": "Pavel Piatrushka",
       "short": "Piatrushka",
-      "tournaments": 46,
+      "tournaments": 18,
       "first": 2016,
-      "last": 2026
-    },
-    {
-      "id": 156206,
-      "name": "Anton Ivannikau",
-      "short": "Ivannikau",
-      "tournaments": 3,
-      "first": 2018,
-      "last": 2019
-    },
-    {
-      "id": 169957,
-      "name": "Andrei Mitrafanau",
-      "short": "Mitrafanau",
-      "tournaments": 6,
-      "first": 2020,
-      "last": 2021
-    },
-    {
-      "id": 171604,
-      "name": "Andrei Balyka",
-      "short": "Balyka",
-      "tournaments": 3,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 240681,
-      "name": "Ivan Yarmosh",
-      "short": "Yarmosh",
-      "tournaments": 3,
-      "first": 2026,
       "last": 2026
     }
   ],
@@ -325,9 +285,9 @@
     {
       "a": 101765,
       "b": 103906,
-      "t": 35,
+      "t": 19,
       "f": 2007,
-      "l": 2013
+      "l": 2012
     },
     {
       "a": 101765,
@@ -339,14 +299,14 @@
     {
       "a": 101765,
       "b": 114571,
-      "t": 6,
+      "t": 2,
       "f": 2004,
-      "l": 2005
+      "l": 2004
     },
     {
       "a": 101765,
       "b": 118972,
-      "t": 51,
+      "t": 23,
       "f": 2014,
       "l": 2018
     },
@@ -395,21 +355,21 @@
     {
       "a": 103905,
       "b": 103906,
-      "t": 5,
+      "t": 4,
       "f": 2002,
       "l": 2006
     },
     {
       "a": 103906,
       "b": 116392,
-      "t": 3,
+      "t": 2,
       "f": 2005,
       "l": 2006
     },
     {
       "a": 103906,
       "b": 118972,
-      "t": 15,
+      "t": 7,
       "f": 2010,
       "l": 2011
     },
@@ -451,29 +411,29 @@
     {
       "a": 118972,
       "b": 118973,
-      "t": 14,
+      "t": 4,
       "f": 2007,
       "l": 2014
     },
     {
       "a": 118972,
       "b": 156205,
-      "t": 44,
+      "t": 17,
       "f": 2018,
       "l": 2026
     },
     {
       "a": 132191,
       "b": 132192,
-      "t": 2,
+      "t": 1,
       "f": 2010,
-      "l": 2012
+      "l": 2010
     },
     {
       "a": 132192,
       "b": 139024,
-      "t": 5,
-      "f": 2012,
+      "t": 3,
+      "f": 2013,
       "l": 2014
     },
     {
@@ -489,34 +449,6 @@
       "t": 1,
       "f": 2016,
       "l": 2016
-    },
-    {
-      "a": 152942,
-      "b": 156206,
-      "t": 2,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 152942,
-      "b": 169957,
-      "t": 6,
-      "f": 2020,
-      "l": 2021
-    },
-    {
-      "a": 156205,
-      "b": 156206,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 171604,
-      "b": 240681,
-      "t": 3,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

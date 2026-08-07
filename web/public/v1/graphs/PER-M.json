@@ -47,31 +47,15 @@
       "id": 139774,
       "name": "Jose Vargas",
       "short": "Japon",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2012,
-      "last": 2013
-    },
-    {
-      "id": 141482,
-      "name": "Franco Castillo",
-      "short": "Franco",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 141487,
-      "name": "Paul Alexander Williams Torres",
-      "short": "Williams",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 145397,
       "name": "Jimy Heredia",
       "short": "Heredia",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2014,
       "last": 2016
     },
@@ -79,7 +63,7 @@
       "id": 145400,
       "name": "Luis Bramont-Arias",
       "short": "Bramont-Arias",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
       "last": 2014
     },
@@ -139,23 +123,9 @@
       "l": 2012
     },
     {
-      "a": 139774,
-      "b": 141482,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 139774,
-      "b": 141487,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 145397,
       "b": 145400,
-      "t": 2,
+      "t": 1,
       "f": 2014,
       "l": 2014
     },

@@ -157,13 +157,6 @@
       "weight": null
     },
     {
-      "id": 114699,
-      "name": "Player Denmark",
-      "dob": "1972-02-21",
-      "height": 196,
-      "weight": 94
-    },
-    {
       "id": 114703,
       "name": "Kristian F. Knudsen",
       "dob": "1979-08-01",
@@ -199,27 +192,6 @@
       "weight": null
     },
     {
-      "id": 119953,
-      "name": "Martin Nielsen",
-      "dob": "1979-07-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120062,
-      "name": "Thomas Haugaard Jensen",
-      "dob": "1975-06-09",
-      "height": 190,
-      "weight": 85
-    },
-    {
-      "id": 120063,
-      "name": "Daniel Blytner",
-      "dob": "1979-01-26",
-      "height": 193,
-      "weight": 105
-    },
-    {
       "id": 120722,
       "name": "Oliver Venndt Kaszas",
       "dob": "1991-07-27",
@@ -234,23 +206,9 @@
       "weight": null
     },
     {
-      "id": 120924,
-      "name": "Peter Scholer",
-      "dob": "1990-11-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120962,
       "name": "Peter Michael Keldsen",
       "dob": "1977-07-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 124321,
-      "name": "Jonathan Lilliendal",
-      "dob": "1987-04-20",
       "height": null,
       "weight": null
     },
@@ -339,27 +297,6 @@
       "weight": 80
     },
     {
-      "id": 147556,
-      "name": "Rasmus Mikelsons",
-      "dob": "1998-05-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147585,
-      "name": "Mathias Spendrup Petersen",
-      "dob": "1998-04-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 147623,
-      "name": "Markus Sorensen",
-      "dob": "1996-08-18",
-      "height": 193,
-      "weight": 92
-    },
-    {
       "id": 157019,
       "name": "Jacob Stein Brinck",
       "dob": "1999-02-24",
@@ -409,13 +346,6 @@
       "weight": 92
     },
     {
-      "id": 187551,
-      "name": "Andreas Sejer Kofod Brinck",
-      "dob": "2006-06-30",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 187554,
       "name": "Villads Lundby Andersen",
       "dob": "2006-09-01",
@@ -428,13 +358,6 @@
       "dob": "2005-11-04",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 195947,
-      "name": "Joakim Engelbrecht",
-      "dob": "1996-11-27",
-      "height": 191,
-      "weight": 76
     }
   ]
 }

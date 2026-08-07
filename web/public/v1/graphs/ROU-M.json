@@ -44,41 +44,9 @@
       "last": 1999
     },
     {
-      "id": 124402,
-      "name": "Vardai Ioan",
-      "short": "Vardai",
-      "tournaments": 1,
-      "first": 2011,
-      "last": 2011
-    },
-    {
-      "id": 124405,
-      "name": "Lelea Vasile Catalin",
-      "short": "Lelea",
-      "tournaments": 1,
-      "first": 2011,
-      "last": 2011
-    },
-    {
-      "id": 125484,
-      "name": "Bogdan Mehedinteanu",
-      "short": "Mehedinteanu",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 132154,
       "name": "Tudorel Farcas",
       "short": "Farcas",
-      "tournaments": 4,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 138837,
-      "name": "Bogdan Constantin Bratosin",
-      "short": "Bratosin",
       "tournaments": 1,
       "first": 2018,
       "last": 2018
@@ -127,7 +95,7 @@
       "id": 159635,
       "name": "Bogdan Necula",
       "short": "Necula",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2018,
       "last": 2018
     },
@@ -135,7 +103,7 @@
       "id": 163432,
       "name": "Eduard Popa",
       "short": "Popa",
-      "tournaments": 7,
+      "tournaments": 2,
       "first": 2025,
       "last": 2026
     },
@@ -151,7 +119,7 @@
       "id": 173638,
       "name": "Andrei Grigore",
       "short": "Grigore",
-      "tournaments": 7,
+      "tournaments": 2,
       "first": 2025,
       "last": 2026
     }
@@ -179,28 +147,7 @@
       "l": 1999
     },
     {
-      "a": 124402,
-      "b": 124405,
-      "t": 1,
-      "f": 2011,
-      "l": 2011
-    },
-    {
-      "a": 125484,
-      "b": 132154,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 132154,
-      "b": 159635,
-      "t": 3,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 138837,
       "b": 159635,
       "t": 1,
       "f": 2018,
@@ -230,7 +177,7 @@
     {
       "a": 163432,
       "b": 173638,
-      "t": 7,
+      "t": 2,
       "f": 2025,
       "l": 2026
     }

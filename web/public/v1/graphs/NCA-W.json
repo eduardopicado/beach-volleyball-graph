@@ -15,7 +15,7 @@
       "id": 138668,
       "name": "Mendoza Reyes Swan Valeria",
       "short": "MENDOZA",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2019,
       "last": 2021
     },
@@ -23,31 +23,15 @@
       "id": 144707,
       "name": "Anielka Valeska Alonzo Zapata",
       "short": "Alonzo",
-      "tournaments": 2,
-      "first": 2018,
+      "tournaments": 1,
+      "first": 2019,
       "last": 2019
-    },
-    {
-      "id": 146006,
-      "name": "Katerine  Paola Montealto Mora",
-      "short": "Montealto",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146007,
-      "name": "Camila Romero Hoberg",
-      "short": "Robelo",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 147540,
       "name": "Socorro Margarita Lopez Jalinas",
       "short": "Lopez",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2014,
       "last": 2021
     },
@@ -63,25 +47,9 @@
       "id": 167423,
       "name": "Lourdes Isabella Lugo Molina",
       "short": "Lugo",
-      "tournaments": 2,
-      "first": 2018,
+      "tournaments": 1,
+      "first": 2019,
       "last": 2019
-    },
-    {
-      "id": 191223,
-      "name": "Brisa Nahomi Bermudez Ramos",
-      "short": "RAMOS",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 196825,
-      "name": "Yulimar Franchely Alvarado Mendoza",
-      "short": "Alvarado",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
     }
   ],
   "edges": [
@@ -95,23 +63,16 @@
     {
       "a": 138668,
       "b": 147540,
-      "t": 4,
+      "t": 1,
       "f": 2021,
       "l": 2021
     },
     {
       "a": 144707,
       "b": 167423,
-      "t": 2,
-      "f": 2018,
-      "l": 2019
-    },
-    {
-      "a": 146006,
-      "b": 146007,
       "t": 1,
-      "f": 2014,
-      "l": 2014
+      "f": 2019,
+      "l": 2019
     },
     {
       "a": 147540,
@@ -119,13 +80,6 @@
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 191223,
-      "b": 196825,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     }
   ]
 }

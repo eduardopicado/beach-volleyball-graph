@@ -7,7 +7,7 @@
       "id": 103671,
       "name": "Emilia Nyström",
       "short": "Nyström Em.",
-      "tournaments": 205,
+      "tournaments": 158,
       "first": 2001,
       "last": 2015
     },
@@ -31,7 +31,7 @@
       "id": 104781,
       "name": "Taru Lahti-Liukkonen",
       "short": "Lahti",
-      "tournaments": 173,
+      "tournaments": 112,
       "first": 2006,
       "last": 2025
     },
@@ -47,7 +47,7 @@
       "id": 104856,
       "name": "Kirsi Hyttinen",
       "short": "Hyttinen",
-      "tournaments": 9,
+      "tournaments": 7,
       "first": 2004,
       "last": 2013
     },
@@ -55,8 +55,8 @@
       "id": 114627,
       "name": "Riikka Lehtonen",
       "short": "Lehtonen",
-      "tournaments": 95,
-      "first": 2005,
+      "tournaments": 67,
+      "first": 2006,
       "last": 2021
     },
     {
@@ -68,19 +68,11 @@
       "last": 2010
     },
     {
-      "id": 114635,
-      "name": "Elina Nousiainen",
-      "short": "Nousiainen",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
-    },
-    {
       "id": 115001,
       "name": "Annika Hurtamo",
       "short": "Hurtamo",
-      "tournaments": 3,
-      "first": 2005,
+      "tournaments": 1,
+      "first": 2006,
       "last": 2006
     },
     {
@@ -236,26 +228,10 @@
       "last": 2010
     },
     {
-      "id": 132820,
-      "name": "Oskar Söderlund",
-      "short": "Söderlund",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
-    },
-    {
-      "id": 132821,
-      "name": "Verneri Vetriö",
-      "short": "Vetriö",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
-    },
-    {
       "id": 137416,
       "name": "Anniina Parkkinen",
       "short": "Parkkinen",
-      "tournaments": 114,
+      "tournaments": 70,
       "first": 2014,
       "last": 2026
     },
@@ -271,7 +247,7 @@
       "id": 139764,
       "name": "Niina Ahtiainen",
       "short": "Ahtiainen",
-      "tournaments": 124,
+      "tournaments": 79,
       "first": 2012,
       "last": 2025
     },
@@ -279,7 +255,7 @@
       "id": 139765,
       "name": "Ida Sinisalo",
       "short": "Sinisalo, I.",
-      "tournaments": 56,
+      "tournaments": 26,
       "first": 2012,
       "last": 2026
     },
@@ -292,26 +268,18 @@
       "last": 2012
     },
     {
-      "id": 155096,
-      "name": "Oona-Maria Ojala",
-      "short": "Ojala",
-      "tournaments": 3,
-      "first": 2018,
-      "last": 2023
-    },
-    {
       "id": 158105,
       "name": "Sara Tiihonen",
       "short": "Tiihonen",
-      "tournaments": 7,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 159972,
       "name": "Aliisa Vuorinen",
       "short": "Vuorinen",
-      "tournaments": 21,
+      "tournaments": 12,
       "first": 2018,
       "last": 2026
     },
@@ -319,23 +287,15 @@
       "id": 164526,
       "name": "Valma Vilhelmiina Prihti",
       "short": "Prihti",
-      "tournaments": 56,
+      "tournaments": 37,
       "first": 2018,
       "last": 2026
-    },
-    {
-      "id": 165641,
-      "name": "Emma Tenhunen",
-      "short": "Tenhunen",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2019
     },
     {
       "id": 169504,
       "name": "Katja Metsäkoivu",
       "short": "Metsäkoivu K.",
-      "tournaments": 27,
+      "tournaments": 14,
       "first": 2019,
       "last": 2023
     },
@@ -343,7 +303,7 @@
       "id": 169505,
       "name": "Tuuli Metsäkoivu",
       "short": "Metsäkoivu T.",
-      "tournaments": 45,
+      "tournaments": 18,
       "first": 2019,
       "last": 2024
     },
@@ -351,7 +311,7 @@
       "id": 169604,
       "name": "Mira Järveläinen",
       "short": "Järveläinen",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2023,
       "last": 2023
     },
@@ -359,7 +319,7 @@
       "id": 173488,
       "name": "Sara Sinisalo",
       "short": "Sinisalo, S.",
-      "tournaments": 87,
+      "tournaments": 38,
       "first": 2021,
       "last": 2026
     },
@@ -367,7 +327,7 @@
       "id": 173496,
       "name": "Anniina Muukka",
       "short": "Muukka",
-      "tournaments": 53,
+      "tournaments": 23,
       "first": 2021,
       "last": 2026
     },
@@ -375,7 +335,7 @@
       "id": 173839,
       "name": "Anna Rantala",
       "short": "Rantala",
-      "tournaments": 29,
+      "tournaments": 10,
       "first": 2019,
       "last": 2024
     },
@@ -391,7 +351,7 @@
       "id": 182213,
       "name": "Linnea Hautala",
       "short": "Hautala",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2021,
       "last": 2023
     },
@@ -407,7 +367,7 @@
       "id": 185534,
       "name": "Ester Hirvonen",
       "short": "Hirvonen",
-      "tournaments": 19,
+      "tournaments": 17,
       "first": 2022,
       "last": 2026
     },
@@ -415,7 +375,7 @@
       "id": 185535,
       "name": "Peppiina Mäenpää",
       "short": "Mäenpää",
-      "tournaments": 14,
+      "tournaments": 13,
       "first": 2021,
       "last": 2026
     },
@@ -423,7 +383,7 @@
       "id": 191058,
       "name": "Venla Väärälä",
       "short": "Väärälä",
-      "tournaments": 10,
+      "tournaments": 8,
       "first": 2023,
       "last": 2026
     },
@@ -431,7 +391,7 @@
       "id": 198053,
       "name": "Milja Henriksson",
       "short": "Henriksson",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2025,
       "last": 2025
     },
@@ -439,7 +399,7 @@
       "id": 200346,
       "name": "Elina Pirttimäki",
       "short": "Pirttimäki",
-      "tournaments": 22,
+      "tournaments": 7,
       "first": 2023,
       "last": 2025
     },
@@ -447,7 +407,7 @@
       "id": 200792,
       "name": "Kirsi Aaltola",
       "short": "AALTOLA",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2023,
       "last": 2023
     },
@@ -455,7 +415,7 @@
       "id": 201032,
       "name": "Ida-Maria Mämmi",
       "short": "Mämmi",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2023,
       "last": 2026
     },
@@ -463,23 +423,15 @@
       "id": 201254,
       "name": "Essi Nirhamo",
       "short": "Nirhamo",
-      "tournaments": 9,
+      "tournaments": 6,
       "first": 2024,
       "last": 2025
-    },
-    {
-      "id": 201444,
-      "name": "Maragda Calsapeu Casagrande",
-      "short": "Casagrande",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
     },
     {
       "id": 201445,
       "name": "Noora Huhtala",
       "short": "Huhtala",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
@@ -487,31 +439,31 @@
       "id": 201500,
       "name": "Annika Waris",
       "short": "Waris",
-      "tournaments": 7,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 206059,
       "name": "Eeva Johansson",
       "short": "Johansson",
-      "tournaments": 2,
-      "first": 2025,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 206313,
       "name": "Anni Viitala",
       "short": "Viitala",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2025
+      "last": 2024
     },
     {
       "id": 211367,
       "name": "Sara Tuominen",
       "short": "Tuominen",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
@@ -519,39 +471,31 @@
       "id": 211507,
       "name": "Jutta Tavaila",
       "short": "Tavaila",
-      "tournaments": 6,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 222523,
-      "name": "Sanni Määttä",
-      "short": "Määttä",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2025
     },
     {
       "id": 223138,
       "name": "Anna Laaksonen",
       "short": "Laaksonen",
-      "tournaments": 2,
-      "first": 2025,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 223144,
       "name": "Maisa Kyröläinen",
       "short": "Kyröläinen",
-      "tournaments": 8,
-      "first": 2025,
+      "tournaments": 4,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 223145,
       "name": "Nelli Waldén",
       "short": "Waldén",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     }
@@ -560,9 +504,9 @@
     {
       "a": 103671,
       "b": 104781,
-      "t": 2,
+      "t": 1,
       "f": 2012,
-      "l": 2013
+      "l": 2012
     },
     {
       "a": 104284,
@@ -581,14 +525,14 @@
     {
       "a": 104781,
       "b": 104856,
-      "t": 2,
+      "t": 1,
       "f": 2013,
       "l": 2013
     },
     {
       "a": 104781,
       "b": 114627,
-      "t": 53,
+      "t": 38,
       "f": 2011,
       "l": 2017
     },
@@ -609,14 +553,14 @@
     {
       "a": 104781,
       "b": 137416,
-      "t": 43,
+      "t": 26,
       "f": 2014,
       "l": 2022
     },
     {
       "a": 104781,
       "b": 139764,
-      "t": 72,
+      "t": 44,
       "f": 2022,
       "l": 2025
     },
@@ -636,13 +580,6 @@
     },
     {
       "a": 104856,
-      "b": 114635,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 104856,
       "b": 124629,
       "t": 3,
       "f": 2009,
@@ -651,8 +588,8 @@
     {
       "a": 114627,
       "b": 115001,
-      "t": 3,
-      "f": 2005,
+      "t": 1,
+      "f": 2006,
       "l": 2006
     },
     {
@@ -665,14 +602,14 @@
     {
       "a": 114627,
       "b": 137416,
-      "t": 2,
+      "t": 1,
       "f": 2017,
       "l": 2017
     },
     {
       "a": 114627,
       "b": 139764,
-      "t": 36,
+      "t": 25,
       "f": 2018,
       "l": 2021
     },
@@ -761,16 +698,9 @@
       "l": 2011
     },
     {
-      "a": 132820,
-      "b": 132821,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
       "a": 137416,
       "b": 139764,
-      "t": 7,
+      "t": 4,
       "f": 2017,
       "l": 2022
     },
@@ -784,37 +714,37 @@
     {
       "a": 137416,
       "b": 164526,
-      "t": 41,
+      "t": 26,
       "f": 2021,
       "l": 2026
     },
     {
       "a": 137416,
       "b": 173488,
-      "t": 18,
+      "t": 9,
       "f": 2022,
       "l": 2023
     },
     {
       "a": 139764,
       "b": 139765,
-      "t": 9,
+      "t": 6,
       "f": 2012,
       "l": 2017
     },
     {
       "a": 139765,
       "b": 173488,
-      "t": 39,
+      "t": 13,
       "f": 2021,
       "l": 2022
     },
     {
       "a": 139765,
       "b": 173839,
-      "t": 6,
+      "t": 3,
       "f": 2019,
-      "l": 2021
+      "l": 2020
     },
     {
       "a": 139765,
@@ -824,65 +754,51 @@
       "l": 2026
     },
     {
-      "a": 155096,
-      "b": 165641,
-      "t": 2,
-      "f": 2018,
-      "l": 2019
-    },
-    {
-      "a": 155096,
-      "b": 182213,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 158105,
       "b": 201500,
-      "t": 7,
-      "f": 2023,
+      "t": 1,
+      "f": 2024,
       "l": 2024
     },
     {
       "a": 159972,
       "b": 164526,
-      "t": 15,
+      "t": 11,
       "f": 2018,
       "l": 2023
     },
     {
       "a": 159972,
       "b": 211507,
-      "t": 6,
+      "t": 1,
       "f": 2026,
       "l": 2026
     },
     {
       "a": 169504,
       "b": 169505,
-      "t": 27,
+      "t": 14,
       "f": 2019,
       "l": 2023
     },
     {
       "a": 169505,
       "b": 200346,
-      "t": 18,
+      "t": 4,
       "f": 2023,
       "l": 2024
     },
     {
       "a": 169604,
       "b": 191058,
-      "t": 3,
+      "t": 2,
       "f": 2023,
       "l": 2023
     },
     {
       "a": 173488,
       "b": 173496,
-      "t": 23,
+      "t": 10,
       "f": 2023,
       "l": 2025
     },
@@ -903,21 +819,21 @@
     {
       "a": 173488,
       "b": 223144,
-      "t": 6,
+      "t": 4,
       "f": 2026,
       "l": 2026
     },
     {
       "a": 173496,
       "b": 173839,
-      "t": 20,
+      "t": 5,
       "f": 2022,
       "l": 2023
     },
     {
       "a": 173496,
       "b": 185534,
-      "t": 8,
+      "t": 6,
       "f": 2024,
       "l": 2026
     },
@@ -938,7 +854,7 @@
     {
       "a": 173839,
       "b": 201254,
-      "t": 3,
+      "t": 2,
       "f": 2024,
       "l": 2024
     },
@@ -952,7 +868,7 @@
     {
       "a": 185534,
       "b": 185535,
-      "t": 10,
+      "t": 9,
       "f": 2022,
       "l": 2025
     },
@@ -987,28 +903,21 @@
     {
       "a": 191058,
       "b": 201445,
-      "t": 2,
+      "t": 1,
       "f": 2025,
       "l": 2025
     },
     {
       "a": 198053,
       "b": 211367,
-      "t": 2,
+      "t": 1,
       "f": 2025,
       "l": 2025
     },
     {
       "a": 200346,
-      "b": 200792,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 200346,
       "b": 201254,
-      "t": 3,
+      "t": 2,
       "f": 2024,
       "l": 2025
     },
@@ -1020,49 +929,14 @@
       "l": 2023
     },
     {
-      "a": 201032,
-      "b": 201444,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 201254,
       "b": 206313,
-      "t": 4,
+      "t": 2,
       "f": 2024,
       "l": 2024
     },
     {
-      "a": 201444,
-      "b": 206059,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 206313,
-      "b": 222523,
-      "t": 2,
-      "f": 2025,
-      "l": 2025
-    },
-    {
       "a": 223138,
-      "b": 223144,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 223138,
-      "b": 223145,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 223144,
       "b": 223145,
       "t": 1,
       "f": 2026,

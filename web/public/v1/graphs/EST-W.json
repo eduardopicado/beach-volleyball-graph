@@ -47,7 +47,7 @@
       "id": 102650,
       "name": "Mari-Liis \"Mari\" Graumann",
       "short": "Graumann",
-      "tournaments": 42,
+      "tournaments": 28,
       "first": 1999,
       "last": 2011
     },
@@ -71,15 +71,15 @@
       "id": 104951,
       "name": "Katre Laanes",
       "short": "Laanes",
-      "tournaments": 3,
-      "first": 2005,
+      "tournaments": 1,
+      "first": 2006,
       "last": 2006
     },
     {
       "id": 104957,
       "name": "Kadri Puri",
       "short": "Puri",
-      "tournaments": 26,
+      "tournaments": 18,
       "first": 2004,
       "last": 2009
     },
@@ -87,7 +87,7 @@
       "id": 104958,
       "name": "Oksana Bosjanok",
       "short": "Bosjanok",
-      "tournaments": 9,
+      "tournaments": 8,
       "first": 2004,
       "last": 2008
     },
@@ -95,7 +95,7 @@
       "id": 116569,
       "name": "Polina Bratuhhina",
       "short": "Bratuhhina P.",
-      "tournaments": 34,
+      "tournaments": 24,
       "first": 2005,
       "last": 2012
     },
@@ -103,7 +103,7 @@
       "id": 116570,
       "name": "Natalja Bratuhhina",
       "short": "Bratuhhina N.",
-      "tournaments": 40,
+      "tournaments": 27,
       "first": 2005,
       "last": 2012
     },
@@ -111,15 +111,15 @@
       "id": 118154,
       "name": "Anna-Kristina Nosko",
       "short": "Nosko",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2006,
-      "last": 2007
+      "last": 2006
     },
     {
       "id": 119276,
       "name": "Kristel Kiens",
       "short": "Kiens",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2007,
       "last": 2009
     },
@@ -127,31 +127,15 @@
       "id": 119277,
       "name": "Kertti Kulm",
       "short": "Kulm",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2007,
       "last": 2009
-    },
-    {
-      "id": 121621,
-      "name": "Natalja Bratuhhina",
-      "short": "Bratuhhina N",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
-    },
-    {
-      "id": 121622,
-      "name": "Polina Bratuhhina",
-      "short": "Bratuhhina P",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
     },
     {
       "id": 132156,
       "name": "Anu Vukicevic",
       "short": "Anu",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2010,
       "last": 2011
     },
@@ -159,23 +143,15 @@
       "id": 137446,
       "name": "Anett Hollas",
       "short": "Hollas, A.",
-      "tournaments": 2,
-      "first": 2014,
-      "last": 2016
-    },
-    {
-      "id": 139631,
-      "name": "Liisel Nelis",
-      "short": "Nelis",
       "tournaments": 1,
-      "first": 2014,
-      "last": 2014
+      "first": 2016,
+      "last": 2016
     },
     {
       "id": 143851,
       "name": "Heleene Hollas",
       "short": "Hollas, H.",
-      "tournaments": 114,
+      "tournaments": 56,
       "first": 2016,
       "last": 2026
     },
@@ -183,7 +159,7 @@
       "id": 143852,
       "name": "Liisa Remmelg",
       "short": "Remmelg",
-      "tournaments": 114,
+      "tournaments": 56,
       "first": 2016,
       "last": 2026
     },
@@ -212,18 +188,10 @@
       "last": 2016
     },
     {
-      "id": 166395,
-      "name": "Anna-Liisa Peetmaa",
-      "short": "Peetmaa",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
       "id": 169783,
       "name": "Eva Liisa Kuivonen",
       "short": "Kuivonen",
-      "tournaments": 53,
+      "tournaments": 23,
       "first": 2022,
       "last": 2026
     },
@@ -231,9 +199,9 @@
       "id": 174412,
       "name": "Maret Kuuse",
       "short": "Kuuse",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 179208,
@@ -247,7 +215,7 @@
       "id": 179209,
       "name": "Merike Errit",
       "short": "Errit",
-      "tournaments": 7,
+      "tournaments": 2,
       "first": 2024,
       "last": 2026
     },
@@ -255,7 +223,7 @@
       "id": 179427,
       "name": "Liisa-Lotta Jürgenson",
       "short": "Jürgenson",
-      "tournaments": 53,
+      "tournaments": 23,
       "first": 2022,
       "last": 2026
     },
@@ -263,9 +231,9 @@
       "id": 181630,
       "name": "Laura Liisa Maiste",
       "short": "Maiste",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 182736,
@@ -274,22 +242,6 @@
       "tournaments": 1,
       "first": 2024,
       "last": 2024
-    },
-    {
-      "id": 188570,
-      "name": "Elina Lebedeva",
-      "short": "Lebedeva",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 188572,
-      "name": "Salme Adeele Hollas",
-      "short": "Hollas",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     },
     {
       "id": 190817,
@@ -308,34 +260,26 @@
       "last": 2022
     },
     {
-      "id": 192475,
-      "name": "Lidia Lellsaar",
-      "short": "Lellsaar",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
       "id": 197471,
       "name": "Marta-Mia Ploomipuu",
       "short": "Ploomipuu",
-      "tournaments": 7,
-      "first": 2024,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 197472,
       "name": "Hannemai Hanimägi",
       "short": "Hanimägi",
-      "tournaments": 7,
-      "first": 2024,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 202559,
       "name": "Keira Liina Lukas",
       "short": "Lukas",
-      "tournaments": 8,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     },
@@ -343,23 +287,23 @@
       "id": 204597,
       "name": "Emma Lust",
       "short": "Lust",
-      "tournaments": 6,
-      "first": 2025,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 204598,
       "name": "Kirke Liise Lukas",
       "short": "Lukas",
-      "tournaments": 6,
-      "first": 2025,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 213988,
       "name": "Sandra Lepp",
       "short": "Lepp",
-      "tournaments": 7,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -367,7 +311,7 @@
       "id": 225572,
       "name": "Lenna Kuusik",
       "short": "Kuusik",
-      "tournaments": 6,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     },
@@ -375,22 +319,6 @@
       "id": 230927,
       "name": "Susanna Elisabeth RIKAND",
       "short": "Rikand",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 239828,
-      "name": "Keiti Kruusmann",
-      "short": "Kruusmann",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 239829,
-      "name": "Karmen Mereküla",
-      "short": "Mereküla",
       "tournaments": 1,
       "first": 2026,
       "last": 2026
@@ -435,28 +363,28 @@
     {
       "a": 102650,
       "b": 104951,
-      "t": 3,
-      "f": 2005,
+      "t": 1,
+      "f": 2006,
       "l": 2006
     },
     {
       "a": 102650,
       "b": 116569,
-      "t": 8,
+      "t": 3,
       "f": 2009,
       "l": 2009
     },
     {
       "a": 102650,
       "b": 116570,
-      "t": 12,
+      "t": 9,
       "f": 2007,
       "l": 2009
     },
     {
       "a": 102650,
       "b": 132156,
-      "t": 9,
+      "t": 5,
       "f": 2010,
       "l": 2011
     },
@@ -470,58 +398,37 @@
     {
       "a": 104957,
       "b": 116569,
-      "t": 9,
+      "t": 7,
       "f": 2006,
       "l": 2009
     },
     {
       "a": 104957,
       "b": 116570,
-      "t": 9,
+      "t": 3,
       "f": 2009,
       "l": 2009
     },
     {
-      "a": 104958,
-      "b": 118154,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
       "a": 116569,
       "b": 116570,
-      "t": 17,
+      "t": 14,
       "f": 2005,
       "l": 2012
     },
     {
       "a": 116570,
       "b": 118154,
-      "t": 2,
+      "t": 1,
       "f": 2006,
       "l": 2006
     },
     {
       "a": 119276,
       "b": 119277,
-      "t": 3,
+      "t": 2,
       "f": 2007,
       "l": 2009
-    },
-    {
-      "a": 121621,
-      "b": 121622,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
-      "a": 137446,
-      "b": 139631,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 137446,
@@ -533,7 +440,7 @@
     {
       "a": 143851,
       "b": 143852,
-      "t": 114,
+      "t": 56,
       "f": 2016,
       "l": 2026
     },
@@ -545,25 +452,18 @@
       "l": 2016
     },
     {
-      "a": 166395,
-      "b": 192475,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
       "a": 169783,
       "b": 179427,
-      "t": 53,
+      "t": 23,
       "f": 2022,
       "l": 2026
     },
     {
       "a": 174412,
       "b": 181630,
-      "t": 3,
+      "t": 2,
       "f": 2024,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 179208,
@@ -575,7 +475,7 @@
     {
       "a": 179209,
       "b": 225572,
-      "t": 6,
+      "t": 1,
       "f": 2026,
       "l": 2026
     },
@@ -587,13 +487,6 @@
       "l": 2024
     },
     {
-      "a": 188570,
-      "b": 188572,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 190817,
       "b": 190822,
       "t": 1,
@@ -603,14 +496,14 @@
     {
       "a": 197471,
       "b": 197472,
-      "t": 7,
-      "f": 2024,
+      "t": 1,
+      "f": 2026,
       "l": 2026
     },
     {
       "a": 202559,
       "b": 213988,
-      "t": 7,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -624,13 +517,6 @@
     {
       "a": 204597,
       "b": 204598,
-      "t": 6,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 239828,
-      "b": 239829,
       "t": 1,
       "f": 2026,
       "l": 2026

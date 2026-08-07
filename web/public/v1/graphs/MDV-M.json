@@ -4,120 +4,52 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 117740,
-      "name": "Mohamed Sajid",
-      "short": "Sajid",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 135217,
       "name": "Sajid Ismail",
       "short": "Ismail",
-      "tournaments": 8,
-      "first": 2018,
-      "last": 2025
-    },
-    {
-      "id": 135218,
-      "name": "Adam Asfag",
-      "short": "Asfag",
       "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 154265,
-      "name": "Shiunaz Abdul Waahid",
-      "short": "Shiunaz",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 155248,
       "name": "Adam Naseem",
       "short": "Adam",
-      "tournaments": 7,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2025
+      "last": 2022
     },
     {
       "id": 163468,
       "name": "Ahmed Mohamed",
       "short": "Ahmed",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2024
+      "last": 2022
     },
     {
       "id": 163469,
       "name": "Mohamed Ali",
       "short": "Ali",
-      "tournaments": 3,
-      "first": 2018,
-      "last": 2024
-    },
-    {
-      "id": 167590,
-      "name": "Shamaail Hussain",
-      "short": "Shamaail",
-      "tournaments": 4,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 200423,
-      "name": "IBRAHIM ATHIF ALI",
-      "short": "ATHIF ALI",
-      "tournaments": 4,
-      "first": 2023,
-      "last": 2023
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
     }
   ],
   "edges": [
     {
-      "a": 117740,
-      "b": 135218,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 135217,
-      "b": 135218,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 135217,
       "b": 155248,
-      "t": 7,
-      "f": 2022,
-      "l": 2025
-    },
-    {
-      "a": 154265,
-      "b": 163469,
       "t": 1,
-      "f": 2018,
-      "l": 2018
+      "f": 2022,
+      "l": 2022
     },
     {
       "a": 163468,
       "b": 163469,
-      "t": 2,
+      "t": 1,
       "f": 2022,
-      "l": 2024
-    },
-    {
-      "a": 167590,
-      "b": 200423,
-      "t": 4,
-      "f": 2023,
-      "l": 2023
+      "l": 2022
     }
   ]
 }

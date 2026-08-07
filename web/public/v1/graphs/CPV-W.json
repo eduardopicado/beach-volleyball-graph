@@ -15,7 +15,7 @@
       "id": 170818,
       "name": "Ludmila Sofia Oliveira Varela",
       "short": "Lu",
-      "tournaments": 10,
+      "tournaments": 5,
       "first": 2024,
       "last": 2026
     },
@@ -23,7 +23,7 @@
       "id": 173574,
       "name": "Janice Anilda Oliveira Varela",
       "short": "Jany",
-      "tournaments": 10,
+      "tournaments": 5,
       "first": 2024,
       "last": 2026
     },
@@ -31,9 +31,9 @@
       "id": 181413,
       "name": "Sandrina Benany Vieira Monteiro Silva",
       "short": "Sandriny",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 209041,
@@ -71,9 +71,9 @@
       "id": 230740,
       "name": "ADLA MARINA TAVARES DE PINA",
       "short": "ADLA",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 230741,
@@ -111,16 +111,16 @@
     {
       "a": 170818,
       "b": 173574,
-      "t": 10,
+      "t": 5,
       "f": 2024,
       "l": 2026
     },
     {
       "a": 181413,
       "b": 230740,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 209041,

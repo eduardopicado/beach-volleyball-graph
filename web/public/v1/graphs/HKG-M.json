@@ -71,7 +71,7 @@
       "id": 134478,
       "name": "Pui Lam Wong",
       "short": "P.L. WONG",
-      "tournaments": 31,
+      "tournaments": 15,
       "first": 2018,
       "last": 2026
     },
@@ -79,23 +79,15 @@
       "id": 138134,
       "name": "Kei Loi Chong",
       "short": "Chong",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 141858,
-      "name": "Kam Lung Chui",
-      "short": "K.L. CHUI",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 145254,
       "name": "Tsz Ho Kelvin Lau",
       "short": "Kelvin",
-      "tournaments": 10,
+      "tournaments": 9,
       "first": 2018,
       "last": 2018
     },
@@ -103,7 +95,7 @@
       "id": 151592,
       "name": "Ming Kam Yiu",
       "short": "Yiu Ming Kam",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2017,
       "last": 2023
     },
@@ -116,26 +108,10 @@
       "last": 2017
     },
     {
-      "id": 160900,
-      "name": "Pok Man Yeung",
-      "short": "P.M. YEUNG",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 161801,
-      "name": "Yin Chun Lee",
-      "short": "Y. C. LEE",
-      "tournaments": 5,
-      "first": 2026,
-      "last": 2026
-    },
-    {
       "id": 162508,
       "name": "Kin Wang Tse",
       "short": "K.W. TSE",
-      "tournaments": 13,
+      "tournaments": 1,
       "first": 2020,
       "last": 2020
     },
@@ -143,25 +119,17 @@
       "id": 167034,
       "name": "Sze Hang Kan",
       "short": "S. H. Kan",
-      "tournaments": 4,
-      "first": 2018,
+      "tournaments": 3,
+      "first": 2023,
       "last": 2026
-    },
-    {
-      "id": 167035,
-      "name": "Yat Hong Kwok",
-      "short": "Y. H. Kwok",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 172181,
       "name": "Cheuk Yin LAU",
       "short": "C. Y. Lau",
-      "tournaments": 7,
+      "tournaments": 2,
       "first": 2023,
-      "last": 2026
+      "last": 2023
     },
     {
       "id": 172182,
@@ -183,7 +151,7 @@
       "id": 192605,
       "name": "Cheuk Hei Lee",
       "short": "C. H. Lee",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2023,
       "last": 2026
     },
@@ -191,7 +159,7 @@
       "id": 199729,
       "name": "Lit Fung Lee",
       "short": "L.F. Lee",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2023,
       "last": 2026
     },
@@ -268,21 +236,21 @@
     {
       "a": 134478,
       "b": 138134,
-      "t": 5,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
     {
       "a": 134478,
       "b": 145254,
-      "t": 10,
+      "t": 9,
       "f": 2018,
       "l": 2018
     },
     {
       "a": 134478,
       "b": 162508,
-      "t": 13,
+      "t": 1,
       "f": 2020,
       "l": 2020
     },
@@ -301,20 +269,6 @@
       "l": 2020
     },
     {
-      "a": 134478,
-      "b": 192605,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 141858,
-      "b": 160900,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 151592,
       "b": 151593,
       "t": 1,
@@ -324,23 +278,9 @@
     {
       "a": 151592,
       "b": 199729,
-      "t": 3,
+      "t": 2,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 161801,
-      "b": 172181,
-      "t": 5,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 167034,
-      "b": 167035,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
     },
     {
       "a": 167034,
@@ -366,7 +306,7 @@
     {
       "a": 192605,
       "b": 199729,
-      "t": 4,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },

@@ -4,42 +4,10 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 139568,
-      "name": "Khadidiatou Donde",
-      "short": "Donde",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 139569,
-      "name": "Mbayang Seck",
-      "short": "Seck",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 147739,
-      "name": "Mbayang Seck",
-      "short": "Mbayang",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 147740,
-      "name": "Siga Tine",
-      "short": "Tine",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 200459,
       "name": "Diouma Ndior",
       "short": "Diouma",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
@@ -47,7 +15,7 @@
       "id": 200460,
       "name": "Dieynaba Thiam",
       "short": "Dieynaba",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
       "last": 2025
     },
@@ -86,23 +54,9 @@
   ],
   "edges": [
     {
-      "a": 139568,
-      "b": 139569,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 147739,
-      "b": 147740,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 200459,
       "b": 200460,
-      "t": 2,
+      "t": 1,
       "f": 2025,
       "l": 2025
     },

@@ -185,25 +185,11 @@
       "weight": 81
     },
     {
-      "id": 116765,
-      "name": "Carlos Rodriguez",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 116766,
       "name": "Leonard Alexis Colina Chourio",
       "dob": "1982-09-24",
       "height": 189,
       "weight": 80
-    },
-    {
-      "id": 116767,
-      "name": "David Noda",
-      "dob": null,
-      "height": null,
-      "weight": null
     },
     {
       "id": 116770,
@@ -260,41 +246,6 @@
       "dob": "1987-01-29",
       "height": 185,
       "weight": 76
-    },
-    {
-      "id": 119152,
-      "name": "Luis Guillen",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 119211,
-      "name": "Vicente Salazar",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 119212,
-      "name": "Henry Jose Rojas Estangel",
-      "dob": "1992-11-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 119213,
-      "name": "Yoalbis Lopez",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 119214,
-      "name": "Willi Sanchez",
-      "dob": null,
-      "height": null,
-      "weight": null
     },
     {
       "id": 122626,
@@ -374,13 +325,6 @@
       "weight": null
     },
     {
-      "id": 138729,
-      "name": "Gerardo Mendez",
-      "dob": "1992-12-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 139355,
       "name": "Jonathan Golindano",
       "dob": "1989-04-01",
@@ -409,13 +353,6 @@
       "weight": 74
     },
     {
-      "id": 142191,
-      "name": "Angel Luis Sandoval Infante",
-      "dob": "1995-11-09",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 142875,
       "name": "Pedro Castillo",
       "dob": "1993-11-19",
@@ -423,44 +360,9 @@
       "weight": 80
     },
     {
-      "id": 142876,
-      "name": "Jesus Catillo",
-      "dob": "1992-02-10",
-      "height": 180,
-      "weight": 76
-    },
-    {
       "id": 143057,
       "name": "Edwar Osorio",
       "dob": "1996-03-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146735,
-      "name": "Anderson Anderson Hernández",
-      "dob": "1998-01-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146736,
-      "name": "Leonardo Alvarado",
-      "dob": "1998-02-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146738,
-      "name": "Franyeiber Catari",
-      "dob": "1998-01-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146739,
-      "name": "José Villalobos",
-      "dob": "1998-07-16",
       "height": null,
       "weight": null
     },
@@ -472,72 +374,9 @@
       "weight": null
     },
     {
-      "id": 156226,
-      "name": "Jose Gonzalez",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156248,
-      "name": "Oscar Osorio",
-      "dob": "1996-12-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 161862,
-      "name": "Jose Alejandro Osorio Ladera",
-      "dob": "0200-10-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 161865,
-      "name": "Gabriel Efrain Gonzalez Hernandez",
-      "dob": "2000-11-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 162489,
-      "name": "Richard Brizuela",
-      "dob": "2000-04-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 162490,
-      "name": "Carlos Tellez",
-      "dob": "2000-03-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168338,
-      "name": "Raymon David Zambrano Rivas",
-      "dob": "2001-05-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168411,
-      "name": "Juan Escalona",
-      "dob": "1990-01-04",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 180920,
       "name": "Miguel Andres Mendez Palencia",
       "dob": "1996-12-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181669,
-      "name": "Yonny Jose Marquez Bandres",
-      "dob": "1989-03-31",
       "height": null,
       "weight": null
     },
@@ -580,20 +419,6 @@
       "id": 238036,
       "name": "Diego Alejandro Hernandez Perez",
       "dob": "2009-05-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 238037,
-      "name": "Moises David Yepez Ramirez",
-      "dob": "2009-07-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 238039,
-      "name": "Johnny Jose Antonio Caldera Perez",
-      "dob": "2009-10-02",
       "height": null,
       "weight": null
     }

@@ -7,7 +7,7 @@
       "id": 101840,
       "name": "Oliver  \"Oli\" Indra",
       "short": "Indra",
-      "tournaments": 72,
+      "tournaments": 45,
       "first": 1997,
       "last": 2008
     },
@@ -31,7 +31,7 @@
       "id": 104722,
       "name": "Matthias Wachter",
       "short": "Wachter",
-      "tournaments": 60,
+      "tournaments": 33,
       "first": 2004,
       "last": 2008
     },
@@ -78,7 +78,7 @@
     {
       "a": 101840,
       "b": 104722,
-      "t": 60,
+      "t": 33,
       "f": 2004,
       "l": 2008
     },

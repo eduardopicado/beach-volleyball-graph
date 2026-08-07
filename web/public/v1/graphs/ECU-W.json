@@ -7,25 +7,25 @@
       "id": 134537,
       "name": "Ariana Estefanía Vilela Becerra",
       "short": "Ariana",
-      "tournaments": 9,
-      "first": 2015,
-      "last": 2025
+      "tournaments": 4,
+      "first": 2022,
+      "last": 2024
     },
     {
       "id": 145870,
       "name": "Mishelle Molina Pacheco",
       "short": "Mishelle",
-      "tournaments": 6,
+      "tournaments": 2,
       "first": 2014,
-      "last": 2022
+      "last": 2014
     },
     {
       "id": 147028,
       "name": "Valeria Briggitte Batioja Ocampo",
       "short": "Briggitte",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2014,
-      "last": 2022
+      "last": 2014
     },
     {
       "id": 155930,
@@ -47,25 +47,25 @@
       "id": 168772,
       "name": "Karelys Simisterra Ortiz",
       "short": "Karelys",
-      "tournaments": 11,
+      "tournaments": 6,
       "first": 2018,
-      "last": 2025
+      "last": 2024
     },
     {
       "id": 178422,
       "name": "Stephany Valeska Cherrez Yucailla",
       "short": "Stephany",
-      "tournaments": 5,
-      "first": 2021,
+      "tournaments": 3,
+      "first": 2022,
       "last": 2024
     },
     {
       "id": 193630,
       "name": "Isabel Alejandra Loayza Garcia",
       "short": "Isabel",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2025
+      "last": 2022
     },
     {
       "id": 196866,
@@ -92,14 +92,6 @@
       "last": 2024
     },
     {
-      "id": 211276,
-      "name": "Raphaela Román Espinoza",
-      "short": "Raphaela",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
       "id": 213388,
       "name": "Carla Nuñez Folleco",
       "short": "Nuñez",
@@ -119,17 +111,10 @@
   "edges": [
     {
       "a": 134537,
-      "b": 145870,
-      "t": 2,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 134537,
       "b": 168772,
-      "t": 6,
-      "f": 2021,
-      "l": 2025
+      "t": 3,
+      "f": 2022,
+      "l": 2023
     },
     {
       "a": 134537,
@@ -141,9 +126,9 @@
     {
       "a": 145870,
       "b": 147028,
-      "t": 4,
+      "t": 2,
       "f": 2014,
-      "l": 2022
+      "l": 2014
     },
     {
       "a": 155930,
@@ -162,8 +147,8 @@
     {
       "a": 168772,
       "b": 178422,
-      "t": 3,
-      "f": 2021,
+      "t": 1,
+      "f": 2024,
       "l": 2024
     },
     {
@@ -179,13 +164,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 193630,
-      "b": 211276,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 210716,

@@ -23,9 +23,9 @@
       "id": 100599,
       "name": "Anne Cecelia \"Tiger\" Siroky",
       "short": "Siroky",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 1994,
-      "last": 2005
+      "last": 1994
     },
     {
       "id": 100603,
@@ -79,7 +79,7 @@
       "id": 102562,
       "name": "Leigh-Ann Naidoo",
       "short": "Naidoo",
-      "tournaments": 28,
+      "tournaments": 24,
       "first": 1999,
       "last": 2007
     },
@@ -95,7 +95,7 @@
       "id": 117657,
       "name": "Vitalila Nel",
       "short": "Nel",
-      "tournaments": 21,
+      "tournaments": 13,
       "first": 2005,
       "last": 2008
     },
@@ -140,38 +140,6 @@
       "last": 2005
     },
     {
-      "id": 117664,
-      "name": "Raycine Sunker",
-      "short": "Sunker",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117665,
-      "name": "Taryn Sunker",
-      "short": "Sunker",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117666,
-      "name": "Michelle Haskins",
-      "short": "Haskins",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117668,
-      "name": "Jillian Zealand",
-      "short": "Zealand",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
       "id": 117672,
       "name": "Joanne Schaffers",
       "short": "Schaffers",
@@ -180,65 +148,9 @@
       "last": 2005
     },
     {
-      "id": 117673,
-      "name": "Jan Williams",
-      "short": "Williams",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
       "id": 117676,
       "name": "sthembile cele",
       "short": "cele",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117677,
-      "name": "Candice Vardhan",
-      "short": "Vardhan",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117678,
-      "name": "Frenchy Mathatho",
-      "short": "Frenchy",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117679,
-      "name": "Shounese Billings",
-      "short": "Billings",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117680,
-      "name": "Uniyt lushozi",
-      "short": "unity",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117681,
-      "name": "Elise Eland",
-      "short": "Eland",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117682,
-      "name": "Anita Frederickson",
-      "short": "Nita",
       "tournaments": 1,
       "first": 2005,
       "last": 2005
@@ -271,7 +183,7 @@
       "id": 118747,
       "name": "Judith Augoustides",
       "short": "Augoustides",
-      "tournaments": 20,
+      "tournaments": 16,
       "first": 2007,
       "last": 2008
     },
@@ -279,7 +191,7 @@
       "id": 123445,
       "name": "Palesa Sekhonyana",
       "short": "Sekhonyana",
-      "tournaments": 14,
+      "tournaments": 7,
       "first": 2005,
       "last": 2015
     },
@@ -295,17 +207,9 @@
       "id": 139974,
       "name": "Liezle Peterson",
       "short": "Peterson",
-      "tournaments": 2,
-      "first": 2012,
-      "last": 2014
-    },
-    {
-      "id": 139975,
-      "name": "Christin Decalme",
-      "short": "Decalme",
       "tournaments": 1,
-      "first": 2012,
-      "last": 2012
+      "first": 2014,
+      "last": 2014
     },
     {
       "id": 145167,
@@ -351,7 +255,7 @@
       "id": 147698,
       "name": "Luciana Pierangeli",
       "short": "Pierangeli",
-      "tournaments": 28,
+      "tournaments": 27,
       "first": 2014,
       "last": 2025
     },
@@ -359,7 +263,7 @@
       "id": 147699,
       "name": "Simone Sittig",
       "short": "Sittig",
-      "tournaments": 28,
+      "tournaments": 27,
       "first": 2014,
       "last": 2025
     },
@@ -434,13 +338,6 @@
       "l": 1999
     },
     {
-      "a": 100599,
-      "b": 117678,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 100694,
       "b": 100968,
       "t": 1,
@@ -477,29 +374,22 @@
     },
     {
       "a": 102562,
-      "b": 117659,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 102562,
       "b": 118747,
-      "t": 10,
+      "t": 7,
       "f": 2007,
       "l": 2007
     },
     {
       "a": 117657,
       "b": 118747,
-      "t": 10,
-      "f": 2007,
+      "t": 9,
+      "f": 2008,
       "l": 2008
     },
     {
       "a": 117657,
       "b": 123445,
-      "t": 11,
+      "t": 4,
       "f": 2005,
       "l": 2007
     },
@@ -539,27 +429,6 @@
       "l": 2025
     },
     {
-      "a": 117664,
-      "b": 117665,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117666,
-      "b": 117668,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117672,
-      "b": 117673,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 117672,
       "b": 117711,
       "t": 1,
@@ -568,28 +437,7 @@
     },
     {
       "a": 117676,
-      "b": 117677,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117676,
       "b": 117712,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117679,
-      "b": 117681,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 117680,
-      "b": 117682,
       "t": 1,
       "f": 2005,
       "l": 2005
@@ -607,13 +455,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 139974,
-      "b": 139975,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
     },
     {
       "a": 139974,
@@ -646,7 +487,7 @@
     {
       "a": 147698,
       "b": 147699,
-      "t": 28,
+      "t": 27,
       "f": 2014,
       "l": 2025
     },

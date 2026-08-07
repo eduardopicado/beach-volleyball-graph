@@ -12,60 +12,12 @@
       "last": 2021
     },
     {
-      "id": 135050,
-      "name": "Ibrahim Odour",
-      "short": "Odour",
-      "tournaments": 3,
-      "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 147668,
-      "name": "Maxwell Ekunoit",
-      "short": "Ekunoit",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 147687,
-      "name": "Mica Kimaru",
-      "short": "Mica",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 150210,
-      "name": "James Mwaniki",
-      "short": "Mwaniki",
-      "tournaments": 2,
-      "first": 2019,
-      "last": 2021
-    },
-    {
-      "id": 176814,
-      "name": "Naftali Kipkemboi Chumba",
-      "short": "Chumba",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
       "id": 176815,
       "name": "Brian Kipkirui Melly",
       "short": "Melly",
-      "tournaments": 4,
-      "first": 2021,
-      "last": 2026
-    },
-    {
-      "id": 177625,
-      "name": "Enock Mogeni Some",
-      "short": "Mogeni",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2023
+      "tournaments": 1,
+      "first": 2024,
+      "last": 2024
     },
     {
       "id": 178606,
@@ -95,8 +47,8 @@
       "id": 179692,
       "name": "Wilson Cheruiyot",
       "short": "Waibei",
-      "tournaments": 2,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     }
   ],
@@ -107,41 +59,6 @@
       "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 135050,
-      "b": 150210,
-      "t": 2,
-      "f": 2019,
-      "l": 2021
-    },
-    {
-      "a": 135050,
-      "b": 179692,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 147668,
-      "b": 147687,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 176814,
-      "b": 176815,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 176815,
-      "b": 177625,
-      "t": 2,
-      "f": 2021,
-      "l": 2023
     },
     {
       "a": 176815,

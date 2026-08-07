@@ -7,7 +7,7 @@
       "id": 120935,
       "name": "Elodie Li Yuk Lo",
       "short": "Li Yuk Lo",
-      "tournaments": 23,
+      "tournaments": 19,
       "first": 2008,
       "last": 2012
     },
@@ -15,7 +15,7 @@
       "id": 120936,
       "name": "Natacha Rigobert",
       "short": "Rigobert",
-      "tournaments": 25,
+      "tournaments": 20,
       "first": 2008,
       "last": 2023
     },
@@ -31,7 +31,7 @@
       "id": 146709,
       "name": "Valentine Paul",
       "short": "Paul",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2023,
       "last": 2024
     },
@@ -47,7 +47,7 @@
       "id": 172464,
       "name": "Liza Bonne",
       "short": "Bonne",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2023,
       "last": 2024
     }
@@ -56,14 +56,14 @@
     {
       "a": 120935,
       "b": 120936,
-      "t": 23,
+      "t": 19,
       "f": 2008,
       "l": 2012
     },
     {
       "a": 120936,
       "b": 172464,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -77,7 +77,7 @@
     {
       "a": 146709,
       "b": 172464,
-      "t": 7,
+      "t": 4,
       "f": 2023,
       "l": 2024
     }

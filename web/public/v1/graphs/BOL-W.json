@@ -28,42 +28,18 @@
       "last": 1998
     },
     {
-      "id": 117564,
-      "name": "Faviola Flores Tapia",
-      "short": "Flores Tapia",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117565,
-      "name": "Claudia Pavisic Antezana",
-      "short": "Pavisic",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 142964,
-      "name": "Carla Valda",
-      "short": "Valda",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 146073,
       "name": "Fernanda Maida Eterovic",
       "short": "MAIDA",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2014,
-      "last": 2016
+      "last": 2014
     },
     {
       "id": 146759,
       "name": "Melanie Vargas González",
       "short": "Mela",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2014,
       "last": 2019
     },
@@ -87,31 +63,15 @@
       "id": 167780,
       "name": "Maria Isabel Chacon Espinoza",
       "short": "Isa",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2021,
-      "last": 2023
-    },
-    {
-      "id": 171270,
-      "name": "Nicole Tovar",
-      "short": "TOVAR",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 171271,
-      "name": "Dayra Toranzos",
-      "short": "Dayra",
-      "tournaments": 3,
-      "first": 2022,
       "last": 2023
     },
     {
       "id": 178506,
       "name": "Maria Jose Galindo Quiroga",
       "short": "Galindo",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2021,
       "last": 2023
     },
@@ -124,28 +84,12 @@
       "last": 2022
     },
     {
-      "id": 184864,
-      "name": "Mariel Torres",
-      "short": "Torres",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 188479,
       "name": "Jeisy Velasquez",
       "short": "Velasquez",
       "tournaments": 1,
       "first": 2022,
       "last": 2022
-    },
-    {
-      "id": 195357,
-      "name": "Maria Belen Peredo Mayorga",
-      "short": "PEREDO",
-      "tournaments": 2,
-      "first": 2023,
-      "last": 2023
     }
   ],
   "edges": [
@@ -164,25 +108,11 @@
       "l": 1998
     },
     {
-      "a": 117564,
-      "b": 117565,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 142964,
-      "b": 184864,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 146073,
       "b": 146759,
-      "t": 3,
+      "t": 1,
       "f": 2014,
-      "l": 2016
+      "l": 2014
     },
     {
       "a": 146759,
@@ -201,22 +131,8 @@
     {
       "a": 167780,
       "b": 178506,
-      "t": 4,
-      "f": 2021,
-      "l": 2023
-    },
-    {
-      "a": 171270,
-      "b": 171271,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 171271,
-      "b": 195357,
       "t": 2,
-      "f": 2023,
+      "f": 2021,
       "l": 2023
     },
     {

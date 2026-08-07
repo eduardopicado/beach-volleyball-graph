@@ -39,7 +39,7 @@
       "id": 115685,
       "name": "Kin Teng Tam",
       "short": "Tam K. T.",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2023,
       "last": 2023
     },
@@ -47,23 +47,23 @@
       "id": 149343,
       "name": "On Ieng Leong",
       "short": "Leong O. I.",
-      "tournaments": 4,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 149344,
       "name": "Weng Sam Law",
       "short": "Law W. S.",
-      "tournaments": 4,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2026,
       "last": 2026
     },
     {
       "id": 199654,
       "name": "Keng Lai Lei",
       "short": "LEI K. L.",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2023,
       "last": 2023
     }
@@ -86,15 +86,15 @@
     {
       "a": 115685,
       "b": 199654,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
     {
       "a": 149343,
       "b": 149344,
-      "t": 4,
-      "f": 2023,
+      "t": 1,
+      "f": 2026,
       "l": 2026
     }
   ]

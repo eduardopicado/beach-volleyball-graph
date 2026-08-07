@@ -23,7 +23,7 @@
       "id": 118825,
       "name": "Chad Mowrey",
       "short": "Mowrey",
-      "tournaments": 12,
+      "tournaments": 5,
       "first": 2007,
       "last": 2007
     },
@@ -31,7 +31,7 @@
       "id": 118826,
       "name": "Christian Tuyay",
       "short": "Kimo",
-      "tournaments": 12,
+      "tournaments": 5,
       "first": 2007,
       "last": 2007
     },
@@ -55,7 +55,7 @@
       "id": 165041,
       "name": "Anthony Lemuel Jr. Arbasto",
       "short": "Arbasto",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2019,
       "last": 2023
     },
@@ -63,7 +63,7 @@
       "id": 165042,
       "name": "Jude Garcia",
       "short": "Garcia",
-      "tournaments": 10,
+      "tournaments": 2,
       "first": 2022,
       "last": 2025
     },
@@ -103,7 +103,7 @@
       "id": 168060,
       "name": "Alnakran Abdilla",
       "short": "Abdilla",
-      "tournaments": 19,
+      "tournaments": 14,
       "first": 2018,
       "last": 2026
     },
@@ -111,7 +111,7 @@
       "id": 168061,
       "name": "Edwin TOLENTINO",
       "short": "TOLENTINO",
-      "tournaments": 7,
+      "tournaments": 5,
       "first": 2018,
       "last": 2026
     },
@@ -127,7 +127,7 @@
       "id": 173235,
       "name": "James Buytrago",
       "short": "Buytrago",
-      "tournaments": 20,
+      "tournaments": 13,
       "first": 2019,
       "last": 2025
     },
@@ -143,7 +143,7 @@
       "id": 177582,
       "name": "Jaron Requinton",
       "short": "JARON",
-      "tournaments": 12,
+      "tournaments": 3,
       "first": 2022,
       "last": 2025
     },
@@ -167,7 +167,7 @@
       "id": 185233,
       "name": "Andre Joseph Pareja",
       "short": "PAREJA",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2024,
       "last": 2024
     },
@@ -183,7 +183,7 @@
       "id": 201244,
       "name": "Rancel Varga",
       "short": "Varga",
-      "tournaments": 18,
+      "tournaments": 13,
       "first": 2023,
       "last": 2025
     },
@@ -207,7 +207,7 @@
       "id": 216832,
       "name": "Lerry John Francisco",
       "short": "Francisco",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2024,
       "last": 2026
     },
@@ -231,7 +231,7 @@
     {
       "a": 118825,
       "b": 118826,
-      "t": 12,
+      "t": 5,
       "f": 2007,
       "l": 2007
     },
@@ -259,7 +259,7 @@
     {
       "a": 165041,
       "b": 165042,
-      "t": 3,
+      "t": 1,
       "f": 2022,
       "l": 2022
     },
@@ -276,13 +276,6 @@
       "t": 1,
       "f": 2023,
       "l": 2023
-    },
-    {
-      "a": 165042,
-      "b": 173235,
-      "t": 6,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 165042,
@@ -308,7 +301,7 @@
     {
       "a": 168060,
       "b": 173235,
-      "t": 4,
+      "t": 3,
       "f": 2025,
       "l": 2025
     },
@@ -322,23 +315,23 @@
     {
       "a": 168060,
       "b": 177582,
-      "t": 7,
+      "t": 2,
       "f": 2022,
-      "l": 2025
+      "l": 2023
     },
     {
       "a": 168060,
       "b": 185233,
-      "t": 5,
+      "t": 4,
       "f": 2024,
       "l": 2024
     },
     {
       "a": 168060,
       "b": 201244,
-      "t": 3,
+      "t": 1,
       "f": 2024,
-      "l": 2025
+      "l": 2024
     },
     {
       "a": 168060,
@@ -356,13 +349,6 @@
     },
     {
       "a": 168061,
-      "b": 173235,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 168061,
       "b": 216831,
       "t": 1,
       "f": 2024,
@@ -371,7 +357,7 @@
     {
       "a": 168061,
       "b": 216832,
-      "t": 4,
+      "t": 3,
       "f": 2025,
       "l": 2026
     },
@@ -385,22 +371,8 @@
     {
       "a": 173235,
       "b": 201244,
-      "t": 9,
+      "t": 8,
       "f": 2023,
-      "l": 2025
-    },
-    {
-      "a": 177582,
-      "b": 201244,
-      "t": 4,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 177582,
-      "b": 216832,
-      "t": 2,
-      "f": 2025,
       "l": 2025
     },
     {

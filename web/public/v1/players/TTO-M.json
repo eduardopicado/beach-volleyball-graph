@@ -3,20 +3,6 @@
   "gender": "M",
   "players": [
     {
-      "id": 115376,
-      "name": "Kevin Edwards",
-      "dob": "1980-12-12",
-      "height": 173,
-      "weight": 61
-    },
-    {
-      "id": 117978,
-      "name": "David Thomas",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 117985,
       "name": "Kevin Edwards",
       "dob": "1980-12-12",
@@ -45,23 +31,9 @@
       "weight": 58
     },
     {
-      "id": 137506,
-      "name": "Akim Bushe",
-      "dob": "1992-04-28",
-      "height": 196,
-      "weight": 84
-    },
-    {
       "id": 138379,
       "name": "Fabien Whitfield",
       "dob": "1987-12-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 138723,
-      "name": "Tevin Joseph",
-      "dob": "1992-10-28",
       "height": null,
       "weight": null
     },
@@ -87,37 +59,9 @@
       "weight": 75
     },
     {
-      "id": 146611,
-      "name": "Marcus Moore",
-      "dob": "1998-08-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146612,
-      "name": "Nathanael Noreiga",
-      "dob": "1998-11-25",
-      "height": 196,
-      "weight": null
-    },
-    {
       "id": 146640,
       "name": "Tevin Edwards",
       "dob": "1996-10-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146690,
-      "name": "Steffon Hutson",
-      "dob": "1994-08-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 146691,
-      "name": "Keon De Leon",
-      "dob": "1994-03-03",
       "height": null,
       "weight": null
     },
@@ -141,20 +85,6 @@
       "dob": "1991-08-12",
       "height": 182,
       "weight": 76
-    },
-    {
-      "id": 175020,
-      "name": "Nicholas Williams",
-      "dob": "2004-09-12",
-      "height": 187,
-      "weight": 83
-    },
-    {
-      "id": 182087,
-      "name": "Joshua Persaud",
-      "dob": "2001-04-14",
-      "height": null,
-      "weight": 182
     },
     {
       "id": 191469,

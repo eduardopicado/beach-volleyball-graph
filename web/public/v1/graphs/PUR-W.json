@@ -135,7 +135,7 @@
       "id": 101405,
       "name": "Lyann Puig",
       "short": "Puig",
-      "tournaments": 9,
+      "tournaments": 7,
       "first": 1996,
       "last": 2006
     },
@@ -143,7 +143,7 @@
       "id": 101568,
       "name": "Yarleen Santiago",
       "short": "Santiago",
-      "tournaments": 19,
+      "tournaments": 5,
       "first": 2010,
       "last": 2011
     },
@@ -183,7 +183,7 @@
       "id": 112811,
       "name": "Dariam Acevedo",
       "short": "Acevedo",
-      "tournaments": 24,
+      "tournaments": 8,
       "first": 2009,
       "last": 2011
     },
@@ -191,7 +191,7 @@
       "id": 113535,
       "name": "Yarleen Santiago",
       "short": "Santiago",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2009,
       "last": 2010
     },
@@ -199,7 +199,7 @@
       "id": 117795,
       "name": "Yamileska Yantin",
       "short": "Yantin",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2006,
       "last": 2006
     },
@@ -231,7 +231,7 @@
       "id": 144900,
       "name": "Lina Bernier",
       "short": "Bernier",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2014,
       "last": 2014
     },
@@ -239,7 +239,7 @@
       "id": 146156,
       "name": "Valeria Alexandra Cajigas Medina",
       "short": "Cajigas",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
       "last": 2014
     },
@@ -271,16 +271,16 @@
       "id": 158155,
       "name": "Maria Claudia Gonzalez Valentin",
       "short": "Gonzalez",
-      "tournaments": 24,
-      "first": 2020,
+      "tournaments": 14,
+      "first": 2023,
       "last": 2026
     },
     {
       "id": 161681,
       "name": "Allanis Navas Sanchez",
       "short": "Navas",
-      "tournaments": 24,
-      "first": 2020,
+      "tournaments": 14,
+      "first": 2023,
       "last": 2026
     },
     {
@@ -327,22 +327,6 @@
       "id": 224842,
       "name": "Itzamar Arana Martinez",
       "short": "Arana",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 227203,
-      "name": "Ana Isabel Barcias  Aponte",
-      "short": "Barcias",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 227204,
-      "name": "Coralys Perez Ortiz",
-      "short": "Perez",
       "tournaments": 1,
       "first": 2025,
       "last": 2025
@@ -464,14 +448,14 @@
     {
       "a": 101405,
       "b": 117795,
-      "t": 6,
+      "t": 4,
       "f": 2006,
       "l": 2006
     },
     {
       "a": 101568,
       "b": 112811,
-      "t": 19,
+      "t": 5,
       "f": 2010,
       "l": 2011
     },
@@ -492,7 +476,7 @@
     {
       "a": 112811,
       "b": 113535,
-      "t": 5,
+      "t": 3,
       "f": 2009,
       "l": 2010
     },
@@ -520,7 +504,7 @@
     {
       "a": 144900,
       "b": 146156,
-      "t": 2,
+      "t": 1,
       "f": 2014,
       "l": 2014
     },
@@ -534,8 +518,8 @@
     {
       "a": 158155,
       "b": 161681,
-      "t": 24,
-      "f": 2020,
+      "t": 14,
+      "f": 2023,
       "l": 2026
     },
     {
@@ -555,13 +539,6 @@
     {
       "a": 207464,
       "b": 224842,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 227203,
-      "b": 227204,
       "t": 1,
       "f": 2025,
       "l": 2025

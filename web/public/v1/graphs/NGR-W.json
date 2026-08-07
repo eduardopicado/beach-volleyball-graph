@@ -4,122 +4,10 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 120862,
-      "name": "Adeola Okegere",
-      "short": "Oke",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120865,
-      "name": "Rebecca Ebiare Adama",
-      "short": "Rebecca",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120958,
-      "name": "Olomiye Temitope Tosin",
-      "short": "Olomiye",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120959,
-      "name": "Ogunfuwa Olubusayo Oluwaseun",
-      "short": "busayo",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 122211,
-      "name": "Aminat Omowunmi Lawal",
-      "short": "Amin",
-      "tournaments": 2,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 122218,
-      "name": "Kafilat Omotosho",
-      "short": "Kafi",
-      "tournaments": 1,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 122224,
-      "name": "Aminat Adesola Omotoye",
-      "short": "Fatty",
-      "tournaments": 1,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 122246,
-      "name": "Tolulope Busola Awobajo",
-      "short": "Tolu",
-      "tournaments": 1,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 125202,
-      "name": "Olaiya Modupe Sandra",
-      "short": "Dupsy",
-      "tournaments": 1,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 134574,
-      "name": "Priscilla Agera",
-      "short": "Agera",
-      "tournaments": 1,
-      "first": 2015,
-      "last": 2015
-    },
-    {
-      "id": 137291,
-      "name": "Jummai Bitrus",
-      "short": "Bitrus",
-      "tournaments": 5,
-      "first": 2012,
-      "last": 2014
-    },
-    {
-      "id": 137301,
-      "name": "Isabela Eyetsonetan",
-      "short": "Eyetsonetan",
-      "tournaments": 5,
-      "first": 2012,
-      "last": 2015
-    },
-    {
-      "id": 139303,
-      "name": "Mercy Promise",
-      "short": "Promise",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
-      "id": 142115,
-      "name": "Annorugwa Tochukowu",
-      "short": "Tochukowu",
-      "tournaments": 4,
-      "first": 2013,
-      "last": 2014
-    },
-    {
       "id": 142820,
       "name": "Bukky Oluwatosin C.",
       "short": "Bukky",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2014,
       "last": 2014
     },
@@ -127,41 +15,17 @@
       "id": 142825,
       "name": "Francisca Ikhiede",
       "short": "Franco",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 146172,
-      "name": "Hajara Audu",
-      "short": "Audu",
-      "tournaments": 3,
-      "first": 2014,
-      "last": 2016
+      "last": 2019
     },
     {
       "id": 147670,
       "name": "Tochukwu Nnoruga",
       "short": "Nnoruga",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2014,
-      "last": 2023
-    },
-    {
-      "id": 147692,
-      "name": "Abiola Akinkunmi",
-      "short": "Akinkunmi",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 156306,
-      "name": "Francisca Ikhedia",
-      "short": "Ikhedia",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
+      "last": 2019
     },
     {
       "id": 163008,
@@ -183,171 +47,31 @@
       "id": 183524,
       "name": "Esther Onyinye Mbah",
       "short": "Esther M",
-      "tournaments": 5,
-      "first": 2021,
-      "last": 2025
-    },
-    {
-      "id": 183528,
-      "name": "Aishat Toyosi Abdulraheem",
-      "short": "Aishat A",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 183537,
-      "name": "Frances Ifeoma Mordi",
-      "short": "Ifeoma M",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "tournaments": 2,
+      "first": 2023,
+      "last": 2024
     },
     {
       "id": 184699,
       "name": "Naomi Ayenejeyi Yaro",
       "short": "Naomi",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2023
-    },
-    {
-      "id": 208075,
-      "name": "Joy Lawrence",
-      "short": "Joy",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 208084,
-      "name": "Blessing Anebi  ANEBI",
-      "short": "Blessing",
       "tournaments": 1,
-      "first": 2025,
-      "last": 2025
+      "first": 2023,
+      "last": 2023
     },
     {
       "id": 209700,
       "name": "Pamela Miyoum Bawa",
       "short": "Pamela",
-      "tournaments": 5,
+      "tournaments": 1,
       "first": 2024,
-      "last": 2026
-    },
-    {
-      "id": 226689,
-      "name": "Sunday Ohiama Rosemary",
-      "short": "Rosemary",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 226774,
-      "name": "Odoh Ifechukwu Faustina",
-      "short": "Faustina",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 226775,
-      "name": "BAKARE ZAINAB TEMITOPE",
-      "short": "ZAINAB",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
+      "last": 2024
     }
   ],
   "edges": [
     {
-      "a": 120862,
-      "b": 120865,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 120958,
-      "b": 120959,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
-      "a": 122211,
-      "b": 122246,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 122211,
-      "b": 125202,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 122218,
-      "b": 122224,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
-      "a": 134574,
-      "b": 137301,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 137291,
-      "b": 137301,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 137291,
-      "b": 139303,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 137291,
-      "b": 142115,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 137291,
-      "b": 146172,
-      "t": 2,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 137301,
-      "b": 142115,
-      "t": 3,
-      "f": 2013,
-      "l": 2014
-    },
-    {
       "a": 142820,
       "b": 147670,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 142820,
-      "b": 147692,
       "t": 1,
       "f": 2014,
       "l": 2014
@@ -355,16 +79,9 @@
     {
       "a": 142825,
       "b": 147670,
-      "t": 3,
-      "f": 2019,
-      "l": 2023
-    },
-    {
-      "a": 146172,
-      "b": 156306,
       "t": 1,
-      "f": 2016,
-      "l": 2016
+      "f": 2019,
+      "l": 2019
     },
     {
       "a": 163008,
@@ -376,44 +93,16 @@
     {
       "a": 183524,
       "b": 184699,
-      "t": 2,
-      "f": 2021,
+      "t": 1,
+      "f": 2023,
       "l": 2023
     },
     {
       "a": 183524,
       "b": 209700,
-      "t": 3,
+      "t": 1,
       "f": 2024,
-      "l": 2025
-    },
-    {
-      "a": 183528,
-      "b": 183537,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 208075,
-      "b": 209700,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 208084,
-      "b": 226774,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
-      "a": 226689,
-      "b": 226775,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
+      "l": 2024
     }
   ]
 }

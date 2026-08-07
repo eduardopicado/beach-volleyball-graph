@@ -3,20 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 117385,
-      "name": "Mariela Quesada",
-      "dob": "1987-07-08",
-      "height": 178,
-      "weight": 70
-    },
-    {
-      "id": 117395,
-      "name": "Catalina Fernández",
-      "dob": "1986-12-12",
-      "height": 180,
-      "weight": 68
-    },
-    {
       "id": 117513,
       "name": "Natalia Alfaro",
       "dob": "1987-04-08",
@@ -29,20 +15,6 @@
       "dob": "1975-05-29",
       "height": 170,
       "weight": 62
-    },
-    {
-      "id": 117518,
-      "name": "Ivette Alas",
-      "dob": "1971-08-14",
-      "height": 168,
-      "weight": 55
-    },
-    {
-      "id": 117571,
-      "name": "Carolina Leandro",
-      "dob": "1976-02-23",
-      "height": 165,
-      "weight": 58
     },
     {
       "id": 124384,
@@ -164,13 +136,6 @@
       "weight": 64
     },
     {
-      "id": 157016,
-      "name": "Laura Mariela Arley Castillo",
-      "dob": "1999-09-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 158704,
       "name": "Lucia Matarrita Soto",
       "dob": "2001-01-27",
@@ -183,13 +148,6 @@
       "dob": "1999-05-14",
       "height": 163,
       "weight": 54
-    },
-    {
-      "id": 167569,
-      "name": "Camila Villegas González",
-      "dob": "2001-05-12",
-      "height": null,
-      "weight": null
     },
     {
       "id": 182011,
@@ -230,13 +188,6 @@
       "id": 201056,
       "name": "Laura Valentina Molina Alvarado",
       "dob": "2006-10-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 230294,
-      "name": "Larissa Villegas González",
-      "dob": "2003-04-15",
       "height": null,
       "weight": null
     },

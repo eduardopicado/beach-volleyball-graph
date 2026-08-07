@@ -3,27 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 122661,
-      "name": "Nyengeterai Danai Guyo",
-      "dob": "1991-08-03",
-      "height": 170,
-      "weight": 68
-    },
-    {
-      "id": 135707,
-      "name": "Vuyiswa Kimberley Dhlomo",
-      "dob": "1989-09-20",
-      "height": 170,
-      "weight": 58
-    },
-    {
-      "id": 135710,
-      "name": "Christine Tendai Manyanya",
-      "dob": "1992-04-09",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 141632,
       "name": "Princess Noxolo Moyo",
       "dob": "1995-03-20",
@@ -31,37 +10,9 @@
       "weight": null
     },
     {
-      "id": 141633,
-      "name": "Charity Chikore",
-      "dob": "1993-01-23",
-      "height": 177,
-      "weight": 81
-    },
-    {
-      "id": 141634,
-      "name": "Mathilda Tafadzwa Dube",
-      "dob": "1993-01-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 141665,
       "name": "Progress Gasa",
       "dob": "1995-01-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 187802,
-      "name": "Hellen Matembedza",
-      "dob": "2003-08-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 189842,
-      "name": "Joyce Ruvimbo Makamba",
-      "dob": "2004-10-17",
       "height": null,
       "weight": null
     }

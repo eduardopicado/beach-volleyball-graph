@@ -44,22 +44,6 @@
       "last": 2012
     },
     {
-      "id": 123995,
-      "name": "Grecia Herrada",
-      "short": "Herrada",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 132734,
-      "name": "Katerinne Mabel Olemar",
-      "short": "Olemar",
-      "tournaments": 2,
-      "first": 2013,
-      "last": 2013
-    },
-    {
       "id": 132735,
       "name": "Sandra Chumacero",
       "short": "Chumacero",
@@ -76,36 +60,12 @@
       "last": 2012
     },
     {
-      "id": 136846,
-      "name": "Ingrid Herrada Garcia",
-      "short": "Herrada",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
       "id": 138595,
       "name": "Alexandra Machado",
       "short": "Alexandra",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2012,
-      "last": 2013
-    },
-    {
-      "id": 141472,
-      "name": "Katia Garcia",
-      "short": "Katia",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
-      "id": 141473,
-      "name": "Alexandra Carrasco",
-      "short": "Alexandra",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 145806,
@@ -143,17 +103,17 @@
       "id": 155858,
       "name": "Lisbeth Allcca Merino",
       "short": "Allcca",
-      "tournaments": 12,
+      "tournaments": 9,
       "first": 2018,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 155859,
       "name": "Claudia Gaona Arevalo",
       "short": "Gaona",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2023,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 164878,
@@ -203,32 +163,11 @@
       "l": 2012
     },
     {
-      "a": 123995,
-      "b": 132734,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 136066,
       "b": 138595,
       "t": 1,
       "f": 2012,
       "l": 2012
-    },
-    {
-      "a": 136846,
-      "b": 141472,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 138595,
-      "b": 141473,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
     },
     {
       "a": 145806,
@@ -247,9 +186,9 @@
     {
       "a": 155858,
       "b": 155859,
-      "t": 10,
+      "t": 7,
       "f": 2023,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 155858,

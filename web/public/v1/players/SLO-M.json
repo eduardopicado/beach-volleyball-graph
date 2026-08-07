@@ -115,13 +115,6 @@
       "weight": 82
     },
     {
-      "id": 114950,
-      "name": "Andrej Tot",
-      "dob": "1982-08-27",
-      "height": 195,
-      "weight": 94
-    },
-    {
       "id": 114955,
       "name": "Tomislav Šmuc",
       "dob": "1976-06-23",
@@ -171,13 +164,6 @@
       "weight": 94
     },
     {
-      "id": 119031,
-      "name": "Matevž Kamnik",
-      "dob": "1987-11-24",
-      "height": 202,
-      "weight": 97
-    },
-    {
       "id": 119321,
       "name": "Klemen Ponikvar",
       "dob": "1989-09-11",
@@ -197,13 +183,6 @@
       "dob": "1985-07-05",
       "height": 195,
       "weight": 93
-    },
-    {
-      "id": 121983,
-      "name": "Jure Ivartnik",
-      "dob": "1986-10-19",
-      "height": 183,
-      "weight": 78
     },
     {
       "id": 121985,
@@ -276,20 +255,6 @@
       "weight": 73
     },
     {
-      "id": 148068,
-      "name": "Aleksander Tepic",
-      "dob": "1998-11-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 148552,
-      "name": "Simon Kosir",
-      "dob": "1995-07-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 148553,
       "name": "Jernej Tomazin",
       "dob": "1994-04-12",
@@ -302,13 +267,6 @@
       "dob": "1996-01-21",
       "height": 187,
       "weight": 86
-    },
-    {
-      "id": 150940,
-      "name": "Anze Bahc",
-      "dob": "1990-10-14",
-      "height": null,
-      "weight": null
     },
     {
       "id": 153282,
@@ -409,20 +367,6 @@
       "weight": 78
     },
     {
-      "id": 164912,
-      "name": "Črt Rozman",
-      "dob": "2002-05-06",
-      "height": 192,
-      "weight": 92
-    },
-    {
-      "id": 164913,
-      "name": "Klemen Sen",
-      "dob": "2002-06-10",
-      "height": 192,
-      "weight": 90
-    },
-    {
       "id": 168747,
       "name": "Rok Možič",
       "dob": "2002-01-17",
@@ -435,20 +379,6 @@
       "dob": "1979-03-19",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 179413,
-      "name": "Miha Okorn",
-      "dob": "2005-06-11",
-      "height": 187,
-      "weight": 78
-    },
-    {
-      "id": 179414,
-      "name": "Luka Marovt",
-      "dob": "2005-01-13",
-      "height": 195,
-      "weight": 83
     },
     {
       "id": 186972,
@@ -486,13 +416,6 @@
       "weight": null
     },
     {
-      "id": 200036,
-      "name": "Maks Šluga",
-      "dob": "2003-12-25",
-      "height": 200,
-      "weight": 91
-    },
-    {
       "id": 200038,
       "name": "Mark Pečnik",
       "dob": "1998-11-26",
@@ -503,20 +426,6 @@
       "id": 206469,
       "name": "Maj Nanut",
       "dob": "2000-10-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 211065,
-      "name": "Valentin Predan",
-      "dob": "2009-09-29",
-      "height": 186,
-      "weight": 84
-    },
-    {
-      "id": 211066,
-      "name": "Peter Bregar",
-      "dob": "2009-02-16",
       "height": null,
       "weight": null
     },

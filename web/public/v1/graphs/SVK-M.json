@@ -23,9 +23,9 @@
       "id": 102169,
       "name": "Peter 'Kimo' Kimijan",
       "short": "Kimijan",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2000,
-      "last": 2008
+      "last": 2002
     },
     {
       "id": 102170,
@@ -39,8 +39,8 @@
       "id": 102583,
       "name": "Martin \"Kapu\" Kapusta",
       "short": "Kapusta",
-      "tournaments": 3,
-      "first": 2007,
+      "tournaments": 1,
+      "first": 2011,
       "last": 2011
     },
     {
@@ -55,9 +55,9 @@
       "id": 102614,
       "name": "Peter \"Fischer\" Varga",
       "short": "Varga",
-      "tournaments": 46,
+      "tournaments": 30,
       "first": 2000,
-      "last": 2010
+      "last": 2009
     },
     {
       "id": 102832,
@@ -71,7 +71,7 @@
       "id": 102900,
       "name": "Radoslav Dvorsky",
       "short": "Rado",
-      "tournaments": 32,
+      "tournaments": 20,
       "first": 2003,
       "last": 2006
     },
@@ -87,7 +87,7 @@
       "id": 103000,
       "name": "Karol Sramek",
       "short": "Sramek",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2003,
       "last": 2007
     },
@@ -103,9 +103,9 @@
       "id": 103275,
       "name": "Martin Suja",
       "short": "Suja",
-      "tournaments": 8,
+      "tournaments": 4,
       "first": 2006,
-      "last": 2010
+      "last": 2009
     },
     {
       "id": 103279,
@@ -135,49 +135,33 @@
       "id": 104216,
       "name": "Michal Litva",
       "short": "Litva",
-      "tournaments": 57,
+      "tournaments": 33,
       "first": 2003,
-      "last": 2010
+      "last": 2009
     },
     {
       "id": 104620,
       "name": "Miloslav Rousek",
       "short": "Rousek",
-      "tournaments": 10,
+      "tournaments": 7,
       "first": 2004,
       "last": 2008
-    },
-    {
-      "id": 112263,
-      "name": "Martin Balej",
-      "short": "Balej",
-      "tournaments": 1,
-      "first": 2006,
-      "last": 2006
     },
     {
       "id": 117896,
       "name": "Marek Jany",
       "short": "Jany",
-      "tournaments": 28,
-      "first": 2006,
+      "tournaments": 8,
+      "first": 2022,
       "last": 2024
-    },
-    {
-      "id": 117897,
-      "name": "Ivan Valent",
-      "short": "Valent",
-      "tournaments": 1,
-      "first": 2006,
-      "last": 2006
     },
     {
       "id": 118106,
       "name": "Dominik Mracko",
       "short": "Mracko",
-      "tournaments": 8,
+      "tournaments": 4,
       "first": 2006,
-      "last": 2011
+      "last": 2007
     },
     {
       "id": 118211,
@@ -207,9 +191,9 @@
       "id": 119284,
       "name": "Matej Herich",
       "short": "Herich",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2007,
-      "last": 2008
+      "last": 2007
     },
     {
       "id": 119285,
@@ -223,23 +207,23 @@
       "id": 119287,
       "name": "Matej Patak",
       "short": "Patak",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2007,
-      "last": 2010
+      "last": 2008
     },
     {
       "id": 119973,
       "name": "Igor Horvath",
       "short": "Horvath",
-      "tournaments": 16,
-      "first": 2007,
-      "last": 2018
+      "tournaments": 6,
+      "first": 2008,
+      "last": 2015
     },
     {
       "id": 120071,
       "name": "Jan Namesansky",
       "short": "Namesansky",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2007,
       "last": 2018
     },
@@ -247,25 +231,17 @@
       "id": 120072,
       "name": "Peter Gyurovszky",
       "short": "Gyurovszky",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2007,
-      "last": 2009
-    },
-    {
-      "id": 120123,
-      "name": "Marek Patuc",
-      "short": "Patuc",
-      "tournaments": 2,
-      "first": 2010,
-      "last": 2010
+      "last": 2007
     },
     {
       "id": 120569,
       "name": "Matej Hukel",
       "short": "Hukel",
-      "tournaments": 9,
+      "tournaments": 4,
       "first": 2008,
-      "last": 2016
+      "last": 2015
     },
     {
       "id": 120570,
@@ -276,36 +252,12 @@
       "last": 2008
     },
     {
-      "id": 120671,
-      "name": "Onderej Vavrinec",
-      "short": "Vavrinec",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120675,
-      "name": "Samuel Siska",
-      "short": "Siska",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 123733,
-      "name": "Andrej Patuc",
-      "short": "Patuc",
-      "tournaments": 2,
-      "first": 2010,
-      "last": 2010
-    },
-    {
       "id": 124855,
       "name": "Oliver Cizmazia",
       "short": "Cizmazia",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2009,
-      "last": 2016
+      "last": 2014
     },
     {
       "id": 124856,
@@ -327,9 +279,9 @@
       "id": 125166,
       "name": "Michal Kollar",
       "short": "Kollar",
-      "tournaments": 10,
+      "tournaments": 5,
       "first": 2010,
-      "last": 2019
+      "last": 2015
     },
     {
       "id": 132097,
@@ -343,15 +295,15 @@
       "id": 132184,
       "name": "Robert Majzel",
       "short": "Majzel",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2010,
-      "last": 2018
+      "last": 2011
     },
     {
       "id": 132185,
       "name": "Tomas Krisko",
       "short": "Krisko",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2010,
       "last": 2010
     },
@@ -375,31 +327,15 @@
       "id": 139373,
       "name": "Jakub Ihnat",
       "short": "Ihnat",
-      "tournaments": 2,
-      "first": 2015,
-      "last": 2016
-    },
-    {
-      "id": 145075,
-      "name": "Michal Gréč",
-      "short": "Grec",
       "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 146905,
-      "name": "Marian Lukac",
-      "short": "Lukac",
-      "tournaments": 7,
-      "first": 2023,
-      "last": 2026
+      "first": 2015,
+      "last": 2015
     },
     {
       "id": 150235,
       "name": "Lubos Nemec",
       "short": "Nemec",
-      "tournaments": 80,
+      "tournaments": 27,
       "first": 2018,
       "last": 2026
     },
@@ -407,71 +343,39 @@
       "id": 152482,
       "name": "Patrik Pokopec",
       "short": "Pokopec",
-      "tournaments": 11,
+      "tournaments": 3,
       "first": 2018,
       "last": 2019
-    },
-    {
-      "id": 154405,
-      "name": "Peter Kviecinsky",
-      "short": "Kviecinsky",
-      "tournaments": 2,
-      "first": 2016,
-      "last": 2018
     },
     {
       "id": 155009,
       "name": "Kamil Pavlinsky",
       "short": "Pavlinsky",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
-    },
-    {
-      "id": 156092,
-      "name": "Jakub Nano",
-      "short": "Nano",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
     },
     {
       "id": 156684,
       "name": "Marek Ludha",
       "short": "Ludha",
-      "tournaments": 8,
-      "first": 2021,
+      "tournaments": 2,
+      "first": 2022,
       "last": 2023
-    },
-    {
-      "id": 164458,
-      "name": "Matus Sima",
-      "short": "Sima",
-      "tournaments": 6,
-      "first": 2024,
-      "last": 2026
     },
     {
       "id": 166978,
       "name": "Martin Petro",
       "short": "Petro",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 179391,
-      "name": "Martin Bielka",
-      "short": "Bielka",
-      "tournaments": 4,
-      "first": 2023,
-      "last": 2023
     },
     {
       "id": 179392,
       "name": "Adrian Petruf",
       "short": "Petruf",
-      "tournaments": 42,
+      "tournaments": 18,
       "first": 2023,
       "last": 2026
     },
@@ -479,64 +383,24 @@
       "id": 182265,
       "name": "Dominik Jancok",
       "short": "Jancok",
-      "tournaments": 8,
-      "first": 2023,
-      "last": 2026
-    },
-    {
-      "id": 182268,
-      "name": "Denis Lapos",
-      "short": "Lapos",
-      "tournaments": 5,
-      "first": 2023,
+      "tournaments": 1,
+      "first": 2024,
       "last": 2024
     },
     {
       "id": 187187,
       "name": "Marian Klimo",
       "short": "Klimo",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 187194,
       "name": "Patrik Marcok",
       "short": "Marcok",
-      "tournaments": 8,
+      "tournaments": 6,
       "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 190743,
-      "name": "Alexander Juraj Slavik",
-      "short": "Slavik",
-      "tournaments": 1,
-      "first": 2024,
-      "last": 2024
-    },
-    {
-      "id": 196727,
-      "name": "Viktor Vnuk",
-      "short": "Vnuk",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 239934,
-      "name": "Lukas Hunady",
-      "short": "Hunady",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 239935,
-      "name": "Kevin Kalma",
-      "short": "Kalma",
-      "tournaments": 1,
-      "first": 2026,
       "last": 2026
     }
   ],
@@ -577,13 +441,6 @@
       "l": 2001
     },
     {
-      "a": 102169,
-      "b": 117896,
-      "t": 3,
-      "f": 2006,
-      "l": 2008
-    },
-    {
       "a": 102170,
       "b": 102832,
       "t": 2,
@@ -596,13 +453,6 @@
       "t": 1,
       "f": 2003,
       "l": 2003
-    },
-    {
-      "a": 102583,
-      "b": 104620,
-      "t": 2,
-      "f": 2007,
-      "l": 2007
     },
     {
       "a": 102583,
@@ -621,7 +471,7 @@
     {
       "a": 102614,
       "b": 103000,
-      "t": 4,
+      "t": 2,
       "f": 2007,
       "l": 2007
     },
@@ -635,28 +485,28 @@
     {
       "a": 102614,
       "b": 104216,
-      "t": 21,
+      "t": 11,
       "f": 2007,
       "l": 2009
     },
     {
       "a": 102614,
       "b": 104620,
-      "t": 6,
+      "t": 5,
       "f": 2004,
       "l": 2008
     },
     {
       "a": 102614,
       "b": 120569,
-      "t": 5,
+      "t": 2,
       "f": 2009,
-      "l": 2010
+      "l": 2009
     },
     {
       "a": 102900,
       "b": 104216,
-      "t": 30,
+      "t": 18,
       "f": 2003,
       "l": 2006
     },
@@ -690,52 +540,24 @@
     },
     {
       "a": 103275,
-      "b": 117896,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
-      "a": 103275,
       "b": 119973,
-      "t": 6,
+      "t": 3,
       "f": 2008,
       "l": 2009
     },
     {
       "a": 104216,
-      "b": 117896,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
-      "a": 104216,
       "b": 118106,
-      "t": 5,
+      "t": 4,
       "f": 2006,
       "l": 2007
     },
     {
-      "a": 112263,
-      "b": 117897,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
-    },
-    {
-      "a": 117896,
-      "b": 125166,
-      "t": 3,
-      "f": 2015,
-      "l": 2019
-    },
-    {
       "a": 117896,
       "b": 150235,
-      "t": 18,
+      "t": 6,
       "f": 2022,
-      "l": 2024
+      "l": 2023
     },
     {
       "a": 117896,
@@ -747,23 +569,9 @@
     {
       "a": 117896,
       "b": 182265,
-      "t": 2,
+      "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 118106,
-      "b": 119973,
-      "t": 2,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 118106,
-      "b": 125166,
-      "t": 1,
-      "f": 2011,
-      "l": 2011
     },
     {
       "a": 118211,
@@ -780,13 +588,6 @@
       "l": 2007
     },
     {
-      "a": 119284,
-      "b": 120671,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 119285,
       "b": 119287,
       "t": 1,
@@ -796,37 +597,30 @@
     {
       "a": 119287,
       "b": 120071,
-      "t": 2,
+      "t": 1,
       "f": 2008,
-      "l": 2010
+      "l": 2008
     },
     {
       "a": 119973,
       "b": 120569,
-      "t": 2,
+      "t": 1,
       "f": 2015,
       "l": 2015
     },
     {
       "a": 119973,
-      "b": 124855,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 119973,
       "b": 125166,
-      "t": 5,
+      "t": 2,
       "f": 2010,
-      "l": 2018
+      "l": 2010
     },
     {
       "a": 120071,
       "b": 120072,
-      "t": 3,
+      "t": 1,
       "f": 2007,
-      "l": 2009
+      "l": 2007
     },
     {
       "a": 120071,
@@ -843,25 +637,11 @@
       "l": 2018
     },
     {
-      "a": 120123,
-      "b": 123733,
-      "t": 2,
-      "f": 2010,
-      "l": 2010
-    },
-    {
       "a": 120569,
       "b": 120570,
       "t": 1,
       "f": 2008,
       "l": 2008
-    },
-    {
-      "a": 120569,
-      "b": 139373,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
     },
     {
       "a": 124855,
@@ -899,127 +679,43 @@
       "l": 2015
     },
     {
-      "a": 125166,
-      "b": 154405,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
       "a": 132184,
       "b": 132185,
-      "t": 2,
+      "t": 1,
       "f": 2010,
       "l": 2010
     },
     {
-      "a": 132184,
-      "b": 145075,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 146905,
-      "b": 164458,
-      "t": 6,
-      "f": 2024,
-      "l": 2026
-    },
-    {
-      "a": 146905,
-      "b": 196727,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 150235,
       "b": 152482,
-      "t": 11,
+      "t": 3,
       "f": 2018,
       "l": 2019
     },
     {
       "a": 150235,
-      "b": 156684,
-      "t": 5,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 150235,
       "b": 179392,
-      "t": 41,
+      "t": 18,
       "f": 2023,
-      "l": 2026
-    },
-    {
-      "a": 150235,
-      "b": 182265,
-      "t": 5,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 154405,
-      "b": 156092,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 155009,
-      "b": 166978,
-      "t": 2,
-      "f": 2026,
       "l": 2026
     },
     {
       "a": 155009,
       "b": 187194,
-      "t": 7,
+      "t": 5,
       "f": 2025,
       "l": 2026
     },
     {
       "a": 156684,
       "b": 187187,
-      "t": 2,
+      "t": 1,
       "f": 2022,
-      "l": 2023
+      "l": 2022
     },
     {
       "a": 166978,
       "b": 187194,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 179391,
-      "b": 182268,
-      "t": 4,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 179392,
-      "b": 182265,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 182268,
-      "b": 190743,
-      "t": 1,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 239934,
-      "b": 239935,
       "t": 1,
       "f": 2026,
       "l": 2026

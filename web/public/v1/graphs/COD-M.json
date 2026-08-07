@@ -12,22 +12,6 @@
       "last": 2021
     },
     {
-      "id": 168452,
-      "name": "Albert Mubenga Nyembwe",
-      "short": "NYEMBWE",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 168453,
-      "name": "CHRISTANVIE LAMBU",
-      "short": "LAMBU",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2021
-    },
-    {
       "id": 175335,
       "name": "Luamba Perpetu Sala Sala",
       "short": "Perpetu",
@@ -36,44 +20,20 @@
       "last": 2021
     },
     {
-      "id": 181663,
-      "name": "Moise Kitamba Yumbu",
-      "short": "Moise",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181664,
-      "name": "Lituase Mansieto",
-      "short": "JOSUE",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181665,
-      "name": "Ngoy Mavula",
-      "short": "John",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
       "id": 212596,
       "name": "Mulapwa Sakeni Jonathan",
       "short": "Jonathan",
-      "tournaments": 3,
-      "first": 2024,
-      "last": 2026
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
     },
     {
       "id": 212597,
       "name": "Mutendi Nzazi",
       "short": "Gloire",
-      "tournaments": 3,
-      "first": 2024,
-      "last": 2026
+      "tournaments": 1,
+      "first": 2025,
+      "last": 2025
     }
   ],
   "edges": [
@@ -85,32 +45,11 @@
       "l": 2021
     },
     {
-      "a": 168452,
-      "b": 168453,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 168453,
-      "b": 181665,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 181663,
-      "b": 181664,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
       "a": 212596,
       "b": 212597,
-      "t": 3,
-      "f": 2024,
-      "l": 2026
+      "t": 1,
+      "f": 2025,
+      "l": 2025
     }
   ]
 }

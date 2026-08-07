@@ -100,22 +100,6 @@
       "last": 2004
     },
     {
-      "id": 117930,
-      "name": "Roman Dudicov",
-      "short": "Dudikoff",
-      "tournaments": 3,
-      "first": 2007,
-      "last": 2014
-    },
-    {
-      "id": 117931,
-      "name": "Evgheni Tcacenco",
-      "short": "Tkachenko",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 119678,
       "name": "Voleanin Grigorii",
       "short": "Grimm",
@@ -127,33 +111,17 @@
       "id": 119679,
       "name": "Anton Voleanin",
       "short": "Voleanin",
-      "tournaments": 8,
+      "tournaments": 5,
       "first": 2007,
-      "last": 2015
+      "last": 2013
     },
     {
       "id": 119680,
       "name": "Grigorii Voleanin",
       "short": "Grimm",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2007,
       "last": 2013
-    },
-    {
-      "id": 119977,
-      "name": "Iulian Cravet",
-      "short": "Jaceon",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
-    },
-    {
-      "id": 119978,
-      "name": "Iulian Cravet",
-      "short": "Jaceon",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
     },
     {
       "id": 142944,
@@ -172,42 +140,18 @@
       "last": 2013
     },
     {
-      "id": 143950,
-      "name": "Eugeniu Popadiuc",
-      "short": "Popadiuc",
-      "tournaments": 2,
-      "first": 2016,
-      "last": 2018
-    },
-    {
-      "id": 143951,
-      "name": "Fiodor Majarov",
-      "short": "Majarov",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
-      "id": 147004,
-      "name": "Iulian Cravet",
-      "short": "Jaceon",
-      "tournaments": 1,
-      "first": 2015,
-      "last": 2015
-    },
-    {
       "id": 152533,
       "name": "Timofei Chisleacov",
       "short": "Chisleacov",
-      "tournaments": 9,
-      "first": 2018,
+      "tournaments": 2,
+      "first": 2021,
       "last": 2022
     },
     {
       "id": 152662,
       "name": "Maxim Voleanin",
       "short": "Voleanin",
-      "tournaments": 15,
+      "tournaments": 3,
       "first": 2021,
       "last": 2026
     },
@@ -215,23 +159,15 @@
       "id": 154663,
       "name": "Maxim Korsakov",
       "short": "Korsakov",
-      "tournaments": 9,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 172825,
-      "name": "Adrian Cecoi",
-      "short": "Cecoi",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 190329,
       "name": "Egor Dobcis",
       "short": "Dobcis",
-      "tournaments": 9,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -239,7 +175,7 @@
       "id": 202184,
       "name": "Artur Zuev",
       "short": "Zuev",
-      "tournaments": 6,
+      "tournaments": 1,
       "first": 2026,
       "last": 2026
     }
@@ -302,27 +238,6 @@
       "l": 2005
     },
     {
-      "a": 117930,
-      "b": 117931,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 117930,
-      "b": 119977,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 117930,
-      "b": 119978,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
       "a": 119678,
       "b": 119679,
       "t": 1,
@@ -332,7 +247,7 @@
     {
       "a": 119679,
       "b": 119680,
-      "t": 5,
+      "t": 3,
       "f": 2007,
       "l": 2011
     },
@@ -344,13 +259,6 @@
       "l": 2013
     },
     {
-      "a": 119679,
-      "b": 147004,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
       "a": 119680,
       "b": 143185,
       "t": 1,
@@ -358,44 +266,23 @@
       "l": 2013
     },
     {
-      "a": 143950,
-      "b": 143951,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 143950,
-      "b": 152533,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
       "a": 152533,
       "b": 152662,
-      "t": 8,
+      "t": 2,
       "f": 2021,
       "l": 2022
     },
     {
       "a": 152662,
-      "b": 172825,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 152662,
       "b": 202184,
-      "t": 6,
+      "t": 1,
       "f": 2026,
       "l": 2026
     },
     {
       "a": 154663,
       "b": 190329,
-      "t": 9,
+      "t": 2,
       "f": 2026,
       "l": 2026
     }

@@ -143,13 +143,6 @@
       "weight": null
     },
     {
-      "id": 116697,
-      "name": "Rando Ringmets",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 117508,
       "name": "Martin Ruul",
       "dob": "1986-10-06",
@@ -230,13 +223,6 @@
       "id": 120565,
       "name": "Ilmar Mõtus",
       "dob": "1978-06-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120566,
-      "name": "Rait Rikberg",
-      "dob": "1982-08-30",
       "height": null,
       "weight": null
     },
@@ -332,13 +318,6 @@
       "weight": null
     },
     {
-      "id": 158122,
-      "name": "Siim Tammearu",
-      "dob": "1999-06-13",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 158123,
       "name": "Märt Tammearu",
       "dob": "2001-03-17",
@@ -370,20 +349,6 @@
       "id": 173516,
       "name": "Kaur Erik Kais",
       "dob": "2002-07-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182737,
-      "name": "Tristan Täht",
-      "dob": "2005-06-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 182738,
-      "name": "Mati Juus",
-      "dob": "2005-07-20",
       "height": null,
       "weight": null
     },
@@ -430,13 +395,6 @@
       "weight": null
     },
     {
-      "id": 190809,
-      "name": "Aaron Oliver Aaviste",
-      "dob": "1995-09-14",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 190811,
       "name": "Siim Rantanen",
       "dob": "1993-03-05",
@@ -449,13 +407,6 @@
       "dob": "1995-04-06",
       "height": 190,
       "weight": 98
-    },
-    {
-      "id": 193485,
-      "name": "Egert Roodi",
-      "dob": "2004-02-12",
-      "height": null,
-      "weight": null
     },
     {
       "id": 201782,
@@ -479,38 +430,10 @@
       "weight": null
     },
     {
-      "id": 203694,
-      "name": "Artur Tšuhnenkov",
-      "dob": "2007-12-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 211918,
-      "name": "Maksim Povjakel",
-      "dob": "2009-07-08",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 211954,
       "name": "tobias penasse",
       "dob": "2007-01-16",
       "height": 183,
-      "weight": null
-    },
-    {
-      "id": 212198,
-      "name": "Daniil Verhogljad",
-      "dob": "2008-04-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 213984,
-      "name": "Tobias Louis Laffranque",
-      "dob": "2008-07-14",
-      "height": null,
       "weight": null
     },
     {
@@ -535,58 +458,9 @@
       "weight": null
     },
     {
-      "id": 224082,
-      "name": "Andri Koitla",
-      "dob": "2009-08-04",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 225481,
       "name": "Kaspar Vares",
       "dob": "2009-10-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 226284,
-      "name": "Jaani Konrad",
-      "dob": "2009-08-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 230955,
-      "name": "Mattias Meresaar",
-      "dob": "2009-09-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 241455,
-      "name": "Aleksei Voltšihhin",
-      "dob": "2006-02-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 242305,
-      "name": "Demjan Volõnski",
-      "dob": "2006-03-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 242310,
-      "name": "Aare Aasmäe",
-      "dob": "1991-09-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 242311,
-      "name": "Margus Õun",
-      "dob": "1991-06-11",
       "height": null,
       "weight": null
     }

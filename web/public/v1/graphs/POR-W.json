@@ -39,9 +39,9 @@
       "id": 100959,
       "name": "Carla Alexandra Freitas Leite",
       "short": "Carla Freitas",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 1995,
-      "last": 2005
+      "last": 2001
     },
     {
       "id": 100960,
@@ -159,7 +159,7 @@
       "id": 101528,
       "name": "Ana Rita Gomes Costa",
       "short": "Gomes",
-      "tournaments": 18,
+      "tournaments": 17,
       "first": 1996,
       "last": 2009
     },
@@ -199,7 +199,7 @@
       "id": 101995,
       "name": "Rosa Costa",
       "short": "Costa",
-      "tournaments": 11,
+      "tournaments": 8,
       "first": 1997,
       "last": 2007
     },
@@ -239,7 +239,7 @@
       "id": 102000,
       "name": "Ana Sofia Freches Fonseca",
       "short": "Ana Freches",
-      "tournaments": 28,
+      "tournaments": 15,
       "first": 1997,
       "last": 2014
     },
@@ -383,7 +383,7 @@
       "id": 103145,
       "name": "Joana Fereira",
       "short": "Fereira",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2000,
       "last": 2007
     },
@@ -431,7 +431,7 @@
       "id": 103574,
       "name": "Sandra Castro",
       "short": "Castro",
-      "tournaments": 15,
+      "tournaments": 11,
       "first": 2001,
       "last": 2007
     },
@@ -479,17 +479,17 @@
       "id": 104940,
       "name": "Mariana Couto",
       "short": "Couto",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2004,
-      "last": 2005
+      "last": 2004
     },
     {
       "id": 104941,
       "name": "Juliana Moreira",
       "short": "Moreira",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2004,
-      "last": 2005
+      "last": 2004
     },
     {
       "id": 105112,
@@ -527,7 +527,7 @@
       "id": 114602,
       "name": "Ana Paulo",
       "short": "Ana Paulo",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2007,
       "last": 2007
     },
@@ -535,15 +535,15 @@
       "id": 114615,
       "name": "Maria Francisca Esteves",
       "short": "Francisca",
-      "tournaments": 6,
+      "tournaments": 4,
       "first": 2007,
-      "last": 2010
+      "last": 2008
     },
     {
       "id": 114616,
       "name": "Susana Monteiro",
       "short": "Susana",
-      "tournaments": 21,
+      "tournaments": 8,
       "first": 2007,
       "last": 2009
     },
@@ -551,7 +551,7 @@
       "id": 115576,
       "name": "Juliana Antunes",
       "short": "Antunes",
-      "tournaments": 37,
+      "tournaments": 19,
       "first": 2005,
       "last": 2022
     },
@@ -559,7 +559,7 @@
       "id": 116750,
       "name": "Teresa Serra",
       "short": "Teresa Serra",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2005,
       "last": 2007
     },
@@ -567,7 +567,7 @@
       "id": 116751,
       "name": "Maria Serra",
       "short": "Margarida Serra",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2005,
       "last": 2007
     },
@@ -575,9 +575,9 @@
       "id": 116752,
       "name": "Octavia Oliveira",
       "short": "Octavia Oliveira",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2005,
-      "last": 2008
+      "last": 2007
     },
     {
       "id": 116753,
@@ -594,14 +594,6 @@
       "tournaments": 3,
       "first": 2005,
       "last": 2007
-    },
-    {
-      "id": 116755,
-      "name": "Daniela Reis",
-      "short": "Daniela Reis",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
     },
     {
       "id": 116756,
@@ -655,25 +647,25 @@
       "id": 118308,
       "name": "Fabiola Gomes",
       "short": "Fabiola",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2006,
-      "last": 2022
+      "last": 2006
     },
     {
       "id": 118680,
       "name": "Raquel Lacerda",
       "short": "Lacerda, R.",
-      "tournaments": 27,
+      "tournaments": 9,
       "first": 2007,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 118684,
       "name": "Joana Vasconcelos",
       "short": "Joana",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2007,
-      "last": 2008
+      "last": 2007
     },
     {
       "id": 118730,
@@ -695,7 +687,7 @@
       "id": 120557,
       "name": "Ana Catarina Carvalho",
       "short": "Catarina",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2008,
       "last": 2009
     },
@@ -703,33 +695,17 @@
       "id": 121188,
       "name": "Carla Sousa",
       "short": "Carla",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2015,
       "last": 2015
-    },
-    {
-      "id": 121189,
-      "name": "Catarina Martins",
-      "short": "C. Martins",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
     },
     {
       "id": 121192,
       "name": "Daniela Loureiro",
       "short": "Daniela",
-      "tournaments": 4,
-      "first": 2005,
+      "tournaments": 2,
+      "first": 2018,
       "last": 2022
-    },
-    {
-      "id": 121194,
-      "name": "Joana Martins Resende",
-      "short": "Joana",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
     },
     {
       "id": 125099,
@@ -767,9 +743,9 @@
       "id": 132917,
       "name": "Marta Hurst",
       "short": "Hurst",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2010,
-      "last": 2023
+      "last": 2010
     },
     {
       "id": 132918,
@@ -783,17 +759,9 @@
       "id": 133337,
       "name": "Tania Oliveira",
       "short": "Oliveira",
-      "tournaments": 6,
-      "first": 2015,
+      "tournaments": 4,
+      "first": 2019,
       "last": 2022
-    },
-    {
-      "id": 139540,
-      "name": "Ana Monteiro",
-      "short": "Monteiro",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
     },
     {
       "id": 142907,
@@ -802,14 +770,6 @@
       "tournaments": 1,
       "first": 2014,
       "last": 2014
-    },
-    {
-      "id": 143215,
-      "name": "Beatriz Santos",
-      "short": "Beatriz",
-      "tournaments": 2,
-      "first": 2010,
-      "last": 2010
     },
     {
       "id": 143216,
@@ -823,7 +783,7 @@
       "id": 143217,
       "name": "Gabriela Ramos Coelho",
       "short": "Coelho",
-      "tournaments": 20,
+      "tournaments": 10,
       "first": 2013,
       "last": 2023
     },
@@ -863,7 +823,7 @@
       "id": 143223,
       "name": "Vanessa Da Costa Paquete",
       "short": "Paquete",
-      "tournaments": 22,
+      "tournaments": 12,
       "first": 2013,
       "last": 2019
     },
@@ -887,17 +847,17 @@
       "id": 143322,
       "name": "Brigida Ferreira",
       "short": "Brigida",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2018,
-      "last": 2021
+      "last": 2018
     },
     {
       "id": 143326,
       "name": "Margarida Bras Maia",
       "short": "M. Maia",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2023
+      "last": 2021
     },
     {
       "id": 143708,
@@ -906,14 +866,6 @@
       "tournaments": 2,
       "first": 2013,
       "last": 2014
-    },
-    {
-      "id": 145834,
-      "name": "Ines Monsanto de Barros Pereira",
-      "short": "Ines",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     },
     {
       "id": 145837,
@@ -959,25 +911,25 @@
       "id": 146870,
       "name": "Ines Castro",
       "short": "Castro",
-      "tournaments": 36,
-      "first": 2014,
+      "tournaments": 18,
+      "first": 2021,
       "last": 2024
     },
     {
       "id": 146919,
       "name": "Beatriz Silva Pinheiro",
       "short": "Pinheiro",
-      "tournaments": 40,
-      "first": 2014,
+      "tournaments": 22,
+      "first": 2019,
       "last": 2024
     },
     {
       "id": 147527,
       "name": "Barbara Freitas",
       "short": "Freitas",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2014,
-      "last": 2023
+      "last": 2014
     },
     {
       "id": 153163,
@@ -991,9 +943,9 @@
       "id": 153197,
       "name": "Mariana Nora",
       "short": "Nora",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2022
+      "last": 2021
     },
     {
       "id": 153923,
@@ -1007,25 +959,17 @@
       "id": 160584,
       "name": "Ines Vasco",
       "short": "Ines",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2023,
       "last": 2023
     },
     {
       "id": 160589,
       "name": "Matilde Calado Rodrigues",
       "short": "Calado",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2019,
-      "last": 2023
-    },
-    {
-      "id": 160591,
-      "name": "Amanda De Oliveira Cavalcanti",
-      "short": "Cavalcanti",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
+      "last": 2021
     },
     {
       "id": 160602,
@@ -1036,36 +980,28 @@
       "last": 2021
     },
     {
-      "id": 166308,
-      "name": "Matilde Mouta",
-      "short": "Matilde",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 168930,
       "name": "Carolina Bras Maia",
       "short": "C. Maia",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2021,
-      "last": 2023
+      "last": 2021
     },
     {
       "id": 177574,
       "name": "Ana De Melo Monteiro",
       "short": "A. Monteiro",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 177605,
       "name": "Margarida Nogueira Gomes Azevedo Santos",
       "short": "Santos",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 182214,
@@ -1074,46 +1010,6 @@
       "tournaments": 2,
       "first": 2021,
       "last": 2023
-    },
-    {
-      "id": 192062,
-      "name": "Maria Sarmento",
-      "short": "Sarmento",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 192063,
-      "name": "Iris Rodrigues",
-      "short": "Rodrigues",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 192064,
-      "name": "Ines Pereira",
-      "short": "Pereira",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 192066,
-      "name": "Catarina Barros",
-      "short": "Barros",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 192067,
-      "name": "Johanna Hietala",
-      "short": "Hietala",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
     }
   ],
   "edges": [
@@ -1214,13 +1110,6 @@
       "t": 1,
       "f": 1998,
       "l": 1998
-    },
-    {
-      "a": 100959,
-      "b": 116755,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 100960,
@@ -1358,7 +1247,7 @@
     {
       "a": 101528,
       "b": 120557,
-      "t": 4,
+      "t": 3,
       "f": 2008,
       "l": 2009
     },
@@ -1400,7 +1289,7 @@
     {
       "a": 101995,
       "b": 102000,
-      "t": 5,
+      "t": 3,
       "f": 2005,
       "l": 2006
     },
@@ -1421,7 +1310,7 @@
     {
       "a": 101995,
       "b": 103145,
-      "t": 2,
+      "t": 1,
       "f": 2007,
       "l": 2007
     },
@@ -1442,7 +1331,7 @@
     {
       "a": 102000,
       "b": 115576,
-      "t": 17,
+      "t": 6,
       "f": 2010,
       "l": 2014
     },
@@ -1512,14 +1401,14 @@
     {
       "a": 103574,
       "b": 114602,
-      "t": 3,
+      "t": 2,
       "f": 2007,
       "l": 2007
     },
     {
       "a": 103574,
       "b": 115576,
-      "t": 8,
+      "t": 5,
       "f": 2005,
       "l": 2006
     },
@@ -1540,16 +1429,9 @@
     {
       "a": 104940,
       "b": 104941,
-      "t": 2,
-      "f": 2004,
-      "l": 2005
-    },
-    {
-      "a": 104940,
-      "b": 121192,
       "t": 1,
-      "f": 2005,
-      "l": 2005
+      "f": 2004,
+      "l": 2004
     },
     {
       "a": 105112,
@@ -1575,28 +1457,28 @@
     {
       "a": 114615,
       "b": 115576,
-      "t": 6,
+      "t": 4,
       "f": 2007,
-      "l": 2010
+      "l": 2008
     },
     {
       "a": 114616,
       "b": 118680,
-      "t": 21,
+      "t": 8,
       "f": 2007,
       "l": 2009
     },
     {
       "a": 115576,
       "b": 133337,
-      "t": 6,
-      "f": 2015,
+      "t": 4,
+      "f": 2019,
       "l": 2022
     },
     {
       "a": 116750,
       "b": 116751,
-      "t": 4,
+      "t": 3,
       "f": 2005,
       "l": 2007
     },
@@ -1610,9 +1492,9 @@
     {
       "a": 116752,
       "b": 118684,
-      "t": 2,
+      "t": 1,
       "f": 2007,
-      "l": 2008
+      "l": 2007
     },
     {
       "a": 116756,
@@ -1636,46 +1518,11 @@
       "l": 2006
     },
     {
-      "a": 118308,
-      "b": 153197,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 118680,
-      "b": 121188,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 118680,
-      "b": 121189,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
-    },
-    {
       "a": 118680,
       "b": 121192,
       "t": 1,
       "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 118680,
-      "b": 132917,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 118680,
-      "b": 143215,
-      "t": 2,
-      "f": 2010,
-      "l": 2010
     },
     {
       "a": 118730,
@@ -1694,16 +1541,9 @@
     {
       "a": 121192,
       "b": 143322,
-      "t": 2,
-      "f": 2018,
-      "l": 2021
-    },
-    {
-      "a": 121194,
-      "b": 139540,
       "t": 1,
-      "f": 2013,
-      "l": 2013
+      "f": 2018,
+      "l": 2018
     },
     {
       "a": 125099,
@@ -1743,9 +1583,9 @@
     {
       "a": 143217,
       "b": 143223,
-      "t": 18,
+      "t": 8,
       "f": 2013,
-      "l": 2019
+      "l": 2018
     },
     {
       "a": 143217,
@@ -1784,13 +1624,6 @@
     },
     {
       "a": 143326,
-      "b": 160589,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 143326,
       "b": 168930,
       "t": 1,
       "f": 2021,
@@ -1802,13 +1635,6 @@
       "t": 1,
       "f": 2014,
       "l": 2014
-    },
-    {
-      "a": 145834,
-      "b": 160591,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 145837,
@@ -1834,23 +1660,9 @@
     {
       "a": 146870,
       "b": 146919,
-      "t": 36,
-      "f": 2014,
+      "t": 18,
+      "f": 2021,
       "l": 2024
-    },
-    {
-      "a": 147527,
-      "b": 168930,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 147527,
-      "b": 192062,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 153923,
@@ -1858,13 +1670,6 @@
       "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 160584,
-      "b": 166308,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 160584,
@@ -1883,20 +1688,6 @@
     {
       "a": 177574,
       "b": 177605,
-      "t": 2,
-      "f": 2022,
-      "l": 2023
-    },
-    {
-      "a": 192063,
-      "b": 192064,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 192066,
-      "b": 192067,
       "t": 1,
       "f": 2022,
       "l": 2022

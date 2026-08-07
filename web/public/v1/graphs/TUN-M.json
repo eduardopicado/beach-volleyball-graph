@@ -55,7 +55,7 @@
       "id": 150101,
       "name": "choaib Belhaj Salah",
       "short": "Belhaj",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2015,
       "last": 2016
     },
@@ -63,41 +63,9 @@
       "id": 150102,
       "name": "Mohamed Arafet Naceur",
       "short": "Naceur",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2015,
       "last": 2016
-    },
-    {
-      "id": 168392,
-      "name": "Yassine Belhadj Amor",
-      "short": "B. Amor Y",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 168393,
-      "name": "Adem Elmeddeb",
-      "short": "Elmeddeb.A",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 169813,
-      "name": "Adem MEDDEB",
-      "short": "MEDDEB",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 174438,
-      "name": "Omar Ksida",
-      "short": "Ksida.O",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
     }
   ],
   "edges": [
@@ -125,23 +93,9 @@
     {
       "a": 150101,
       "b": 150102,
-      "t": 3,
+      "t": 2,
       "f": 2015,
       "l": 2016
-    },
-    {
-      "a": 168392,
-      "b": 168393,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 169813,
-      "b": 174438,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     }
   ]
 }

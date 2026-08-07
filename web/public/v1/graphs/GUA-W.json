@@ -12,22 +12,6 @@
       "last": 2016
     },
     {
-      "id": 120803,
-      "name": "Blanca Elizabeth Recinos Ocaña",
-      "short": "Blanqui",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120804,
-      "name": "Susana Eloisa Alvarado Gómez",
-      "short": "Alvarado",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
       "id": 132286,
       "name": "Maria Renee Andreu Rivas",
       "short": "M.Andreu",
@@ -55,9 +39,9 @@
       "id": 138403,
       "name": "Estefanie Bethancourth Guerra",
       "short": "Guerra",
-      "tournaments": 8,
-      "first": 2014,
-      "last": 2022
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2021
     },
     {
       "id": 139198,
@@ -71,9 +55,9 @@
       "id": 139960,
       "name": "Natalia Maria Giron Boesche",
       "short": "N. Giron",
-      "tournaments": 8,
-      "first": 2014,
-      "last": 2022
+      "tournaments": 3,
+      "first": 2019,
+      "last": 2021
     },
     {
       "id": 173300,
@@ -109,13 +93,6 @@
       "l": 2016
     },
     {
-      "a": 120803,
-      "b": 120804,
-      "t": 1,
-      "f": 2008,
-      "l": 2008
-    },
-    {
       "a": 132286,
       "b": 139198,
       "t": 1,
@@ -132,9 +109,9 @@
     {
       "a": 138403,
       "b": 139960,
-      "t": 8,
-      "f": 2014,
-      "l": 2022
+      "t": 3,
+      "f": 2019,
+      "l": 2021
     },
     {
       "a": 173300,

@@ -167,79 +167,55 @@
       "id": 103844,
       "name": "Andi Ardiansyam",
       "short": "Ardiansyam",
-      "tournaments": 18,
+      "tournaments": 13,
       "first": 2002,
-      "last": 2008
+      "last": 2007
     },
     {
       "id": 118535,
       "name": "Andy Ardiyansah",
       "short": "Andy",
-      "tournaments": 5,
-      "first": 2007,
+      "tournaments": 4,
+      "first": 2009,
       "last": 2010
     },
     {
       "id": 118536,
       "name": "Koko Prasetyo Darkuncoro",
       "short": "Koko",
-      "tournaments": 27,
+      "tournaments": 21,
       "first": 2002,
       "last": 2018
-    },
-    {
-      "id": 119681,
-      "name": "Agung Santoso",
-      "short": "Agung",
-      "tournaments": 3,
-      "first": 2007,
-      "last": 2009
     },
     {
       "id": 119682,
       "name": "Suratna Suratna",
       "short": "Suratna",
-      "tournaments": 6,
-      "first": 2007,
+      "tournaments": 4,
+      "first": 2009,
       "last": 2010
     },
     {
       "id": 125616,
       "name": "Dian Putra Santosa",
       "short": "Dian",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2009,
-      "last": 2014
-    },
-    {
-      "id": 125617,
-      "name": "Naci Subagja",
-      "short": "Naci",
-      "tournaments": 1,
-      "first": 2009,
-      "last": 2009
-    },
-    {
-      "id": 135424,
-      "name": "Fahriansyah Fahriansyah",
-      "short": "Fahri",
-      "tournaments": 2,
-      "first": 2014,
-      "last": 2015
+      "last": 2010
     },
     {
       "id": 135481,
       "name": "Ade Rachmawan",
       "short": "Candra",
-      "tournaments": 18,
-      "first": 2014,
+      "tournaments": 12,
+      "first": 2017,
       "last": 2022
     },
     {
       "id": 142853,
       "name": "Rendy Licardo",
       "short": "Rendy Verdian",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2013,
       "last": 2022
     },
@@ -247,15 +223,15 @@
       "id": 142854,
       "name": "Mohammad Ashfiya",
       "short": "Ashfiya",
-      "tournaments": 21,
+      "tournaments": 13,
       "first": 2013,
-      "last": 2023
+      "last": 2022
     },
     {
       "id": 154704,
       "name": "Gilang Ramadhan",
       "short": "Gilang",
-      "tournaments": 12,
+      "tournaments": 8,
       "first": 2018,
       "last": 2022
     },
@@ -263,7 +239,7 @@
       "id": 154705,
       "name": "Danangsyah Pribadi",
       "short": "Danang",
-      "tournaments": 21,
+      "tournaments": 15,
       "first": 2018,
       "last": 2025
     },
@@ -271,14 +247,6 @@
       "id": 161378,
       "name": "Ilham Akbar",
       "short": "Ilham",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
-    },
-    {
-      "id": 161480,
-      "name": "Muchamad Fauzi Setiawan",
-      "short": "Fauzi",
       "tournaments": 1,
       "first": 2017,
       "last": 2017
@@ -319,15 +287,7 @@
       "id": 175433,
       "name": "I Ketut Ardana",
       "short": "Ardana",
-      "tournaments": 3,
-      "first": 2024,
-      "last": 2024
-    },
-    {
-      "id": 175434,
-      "name": "YOGI HERMAWAN",
-      "short": "YOGI",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2024,
       "last": 2024
     },
@@ -337,22 +297,6 @@
       "short": "Sofyan",
       "tournaments": 8,
       "first": 2024,
-      "last": 2026
-    },
-    {
-      "id": 217279,
-      "name": "Imam Ahmad Faisal",
-      "short": "Imam",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 229191,
-      "name": "Fairuz Bayhaqli",
-      "short": "Fairuz",
-      "tournaments": 1,
-      "first": 2026,
       "last": 2026
     }
   ],
@@ -472,23 +416,16 @@
     {
       "a": 103844,
       "b": 118536,
-      "t": 13,
+      "t": 8,
       "f": 2006,
-      "l": 2008
+      "l": 2007
     },
     {
       "a": 118535,
       "b": 118536,
-      "t": 5,
-      "f": 2007,
+      "t": 4,
+      "f": 2009,
       "l": 2010
-    },
-    {
-      "a": 118536,
-      "b": 135481,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 118536,
@@ -498,20 +435,6 @@
       "l": 2018
     },
     {
-      "a": 119681,
-      "b": 119682,
-      "t": 2,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 119681,
-      "b": 125617,
-      "t": 1,
-      "f": 2009,
-      "l": 2009
-    },
-    {
       "a": 119682,
       "b": 125616,
       "t": 4,
@@ -519,39 +442,18 @@
       "l": 2010
     },
     {
-      "a": 125616,
-      "b": 135424,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 135424,
-      "b": 142854,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
-      "a": 135481,
-      "b": 142853,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
       "a": 135481,
       "b": 142854,
-      "t": 16,
+      "t": 12,
       "f": 2017,
       "l": 2022
     },
     {
       "a": 142853,
       "b": 142854,
-      "t": 2,
+      "t": 1,
       "f": 2013,
-      "l": 2014
+      "l": 2013
     },
     {
       "a": 142853,
@@ -561,25 +463,11 @@
       "l": 2022
     },
     {
-      "a": 142853,
-      "b": 161480,
-      "t": 1,
-      "f": 2017,
-      "l": 2017
-    },
-    {
-      "a": 142854,
-      "b": 154705,
-      "t": 2,
-      "f": 2023,
-      "l": 2023
-    },
-    {
       "a": 154704,
       "b": 154705,
-      "t": 11,
+      "t": 7,
       "f": 2018,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 154705,
@@ -615,20 +503,6 @@
       "t": 1,
       "f": 2024,
       "l": 2024
-    },
-    {
-      "a": 175433,
-      "b": 175434,
-      "t": 2,
-      "f": 2024,
-      "l": 2024
-    },
-    {
-      "a": 217279,
-      "b": 229191,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

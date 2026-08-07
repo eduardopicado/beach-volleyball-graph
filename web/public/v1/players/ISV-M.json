@@ -31,37 +31,9 @@
       "weight": 98
     },
     {
-      "id": 139211,
-      "name": "Carlos Rosa",
-      "dob": "1996-07-10",
-      "height": 170,
-      "weight": 73
-    },
-    {
-      "id": 139217,
-      "name": "Ajai Sweeney",
-      "dob": "1996-02-07",
-      "height": 178,
-      "weight": 59
-    },
-    {
-      "id": 150630,
-      "name": "Bradley Riding-Connors",
-      "dob": "1989-10-13",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 155475,
       "name": "Dillon Lesniak",
       "dob": "1990-05-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 155476,
-      "name": "Jake Dietrich",
-      "dob": "1988-11-22",
       "height": null,
       "weight": null
     },
@@ -92,20 +64,6 @@
       "dob": "1995-03-20",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 221282,
-      "name": "Zayden Turner",
-      "dob": "2010-05-12",
-      "height": 175,
-      "weight": 143
-    },
-    {
-      "id": 233777,
-      "name": "Chikai Pogson",
-      "dob": "2009-09-11",
-      "height": 185,
-      "weight": 69
     }
   ]
 }

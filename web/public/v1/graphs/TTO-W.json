@@ -20,14 +20,6 @@
       "last": 2006
     },
     {
-      "id": 122507,
-      "name": "Malika Charles",
-      "short": "Malika",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
-    },
-    {
       "id": 138376,
       "name": "Ayana Dyette",
       "short": "Dyette",
@@ -36,65 +28,25 @@
       "last": 2015
     },
     {
-      "id": 141693,
-      "name": "La Teisha Joseph",
-      "short": "Joseph",
+      "id": 142269,
+      "name": "Chelsi Ward",
+      "short": "Ward",
       "tournaments": 1,
       "first": 2013,
       "last": 2013
     },
     {
-      "id": 142269,
-      "name": "Chelsi Ward",
-      "short": "Ward",
-      "tournaments": 2,
-      "first": 2013,
-      "last": 2014
-    },
-    {
       "id": 142273,
       "name": "Malika Davidson",
       "short": "Davidson",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2013,
       "last": 2015
-    },
-    {
-      "id": 146613,
-      "name": "Kaylon Cruikshank",
-      "short": "Kaylon",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146692,
-      "name": "Kaylon Cruickshank",
-      "short": "Kaylon",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 147153,
       "name": "Nicolette De Mille",
       "short": "Nicolette",
-      "tournaments": 3,
-      "first": 2014,
-      "last": 2016
-    },
-    {
-      "id": 156234,
-      "name": "Asma Charles",
-      "short": "Charles",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
-      "id": 156247,
-      "name": "Danielle Noel",
-      "short": "Noel",
       "tournaments": 1,
       "first": 2016,
       "last": 2016
@@ -106,30 +58,6 @@
       "tournaments": 1,
       "first": 2016,
       "last": 2016
-    },
-    {
-      "id": 168356,
-      "name": "Britney Choon",
-      "short": "Choon",
-      "tournaments": 3,
-      "first": 2018,
-      "last": 2021
-    },
-    {
-      "id": 168357,
-      "name": "Tsyan Selvon",
-      "short": "Selvon",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 175063,
-      "name": "Adalia Badroe",
-      "short": "Badroe",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
     },
     {
       "id": 191067,
@@ -157,13 +85,6 @@
       "l": 2006
     },
     {
-      "a": 122507,
-      "b": 141693,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 138376,
       "b": 142273,
       "t": 1,
@@ -173,23 +94,9 @@
     {
       "a": 142269,
       "b": 142273,
-      "t": 2,
+      "t": 1,
       "f": 2013,
-      "l": 2014
-    },
-    {
-      "a": 146613,
-      "b": 147153,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 146692,
-      "b": 147153,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
+      "l": 2013
     },
     {
       "a": 147153,
@@ -197,27 +104,6 @@
       "t": 1,
       "f": 2016,
       "l": 2016
-    },
-    {
-      "a": 156234,
-      "b": 156247,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 168356,
-      "b": 168357,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 168356,
-      "b": 175063,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 191067,

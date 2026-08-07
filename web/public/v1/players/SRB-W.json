@@ -3,13 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 124619,
-      "name": "Nina Skaric",
-      "dob": "1991-06-25",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 133720,
       "name": "Milena Matic",
       "dob": "1992-04-13",
@@ -22,20 +15,6 @@
       "dob": "1994-07-25",
       "height": 184,
       "weight": 62
-    },
-    {
-      "id": 139353,
-      "name": "Kristina Vasic",
-      "dob": "1995-07-27",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 139354,
-      "name": "Milana Stojanoski",
-      "dob": "1996-04-19",
-      "height": null,
-      "weight": null
     },
     {
       "id": 146757,
@@ -69,13 +48,6 @@
       "id": 170715,
       "name": "Marija Vojnovic",
       "dob": "1987-02-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 173766,
-      "name": "Tamara Miljevic",
-      "dob": "1999-09-25",
       "height": null,
       "weight": null
     },

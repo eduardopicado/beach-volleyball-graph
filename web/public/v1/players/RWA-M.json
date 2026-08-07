@@ -24,20 +24,6 @@
       "weight": 79
     },
     {
-      "id": 142601,
-      "name": "Sylvestre Ndayisabye",
-      "dob": "1996-10-05",
-      "height": 178,
-      "weight": 67
-    },
-    {
-      "id": 142609,
-      "name": "Elias Ndagano",
-      "dob": "1996-04-09",
-      "height": 186,
-      "weight": 68
-    },
-    {
       "id": 143490,
       "name": "Alfred Muvunyi",
       "dob": "1995-11-01",
@@ -50,27 +36,6 @@
       "dob": "1995-11-26",
       "height": 195,
       "weight": 90
-    },
-    {
-      "id": 144522,
-      "name": "Mutabazi Elie",
-      "dob": "1979-01-06",
-      "height": 186,
-      "weight": 82
-    },
-    {
-      "id": 144523,
-      "name": "Christophe Mukunzi",
-      "dob": "1991-08-02",
-      "height": 199,
-      "weight": 85
-    },
-    {
-      "id": 144524,
-      "name": "Kwizera Pierre Marchal",
-      "dob": "1987-08-21",
-      "height": 190,
-      "weight": 78
     },
     {
       "id": 145193,
@@ -108,32 +73,11 @@
       "weight": null
     },
     {
-      "id": 177981,
-      "name": "Gloire Niyonkuru",
-      "dob": "1996-06-18",
-      "height": 189,
-      "weight": 80
-    },
-    {
-      "id": 181185,
-      "name": "Vincent Mbonigaba",
-      "dob": "1998-07-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 181190,
       "name": "Merci Gisubizo",
       "dob": "2004-12-23",
       "height": 200,
       "weight": 70
-    },
-    {
-      "id": 209658,
-      "name": "MANDELA NZIRIMO",
-      "dob": "1999-01-20",
-      "height": null,
-      "weight": null
     }
   ]
 }

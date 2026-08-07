@@ -31,57 +31,49 @@
       "id": 181863,
       "name": "Lameck Suligi",
       "short": "Lameck",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 181864,
       "name": "Ramadhan Ramadhan",
       "short": "Ramadhan",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 188098,
       "name": "Abbas Ussi",
       "short": "Ussi",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 188755,
       "name": "KHAMIS SADALA",
       "short": "SADALA",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2025,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 203537,
       "name": "David Everist Neeke",
       "short": "Evarist",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2021,
-      "last": 2026
-    },
-    {
-      "id": 203629,
-      "name": "Seleman Hassan Ramadhan",
-      "short": "Sele",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 204537,
       "name": "Omary Bure Hassan",
       "short": "Bure",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 214524,
@@ -124,9 +116,9 @@
     {
       "a": 181863,
       "b": 181864,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 181864,
@@ -138,23 +130,16 @@
     {
       "a": 188098,
       "b": 188755,
-      "t": 2,
+      "t": 1,
       "f": 2025,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 203537,
       "b": 204537,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 203629,
-      "b": 204537,
       "t": 1,
-      "f": 2026,
-      "l": 2026
+      "f": 2025,
+      "l": 2025
     }
   ]
 }

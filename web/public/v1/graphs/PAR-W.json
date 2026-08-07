@@ -7,23 +7,23 @@
       "id": 134439,
       "name": "Patricia Carolina Caballero Peña",
       "short": "Pati",
-      "tournaments": 22,
+      "tournaments": 9,
       "first": 2013,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 135186,
       "name": "Gabriela Filippo",
       "short": "Filippo",
-      "tournaments": 17,
+      "tournaments": 10,
       "first": 2015,
-      "last": 2022
+      "last": 2019
     },
     {
       "id": 141366,
       "name": "Michelle Sharon Valiente Amarilla",
       "short": "Michelle",
-      "tournaments": 95,
+      "tournaments": 50,
       "first": 2013,
       "last": 2026
     },
@@ -31,7 +31,7 @@
       "id": 145418,
       "name": "Erika Sofia Mongelos Bobadilla",
       "short": "Erika",
-      "tournaments": 59,
+      "tournaments": 32,
       "first": 2014,
       "last": 2025
     },
@@ -63,7 +63,7 @@
       "id": 156402,
       "name": "Giuliana Poletti Corrales",
       "short": "Corrales",
-      "tournaments": 35,
+      "tournaments": 25,
       "first": 2017,
       "last": 2026
     },
@@ -79,7 +79,7 @@
       "id": 163289,
       "name": "laura ovelar",
       "short": "laura",
-      "tournaments": 13,
+      "tournaments": 7,
       "first": 2019,
       "last": 2024
     },
@@ -95,9 +95,9 @@
       "id": 182528,
       "name": "Fiorella Nunez Quintana",
       "short": "Fio",
-      "tournaments": 11,
+      "tournaments": 9,
       "first": 2021,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 183045,
@@ -111,9 +111,9 @@
       "id": 188480,
       "name": "Denisse Alvarez",
       "short": "Denisse",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2022,
-      "last": 2026
+      "last": 2022
     },
     {
       "id": 188748,
@@ -176,49 +176,42 @@
     {
       "a": 134439,
       "b": 135186,
-      "t": 2,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 134439,
-      "b": 141366,
-      "t": 18,
-      "f": 2013,
-      "l": 2020
-    },
-    {
-      "a": 134439,
-      "b": 145418,
-      "t": 2,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 135186,
-      "b": 141366,
-      "t": 4,
-      "f": 2015,
-      "l": 2016
-    },
-    {
-      "a": 135186,
-      "b": 145418,
-      "t": 10,
-      "f": 2015,
-      "l": 2022
-    },
-    {
-      "a": 135186,
-      "b": 156402,
       "t": 1,
-      "f": 2018,
-      "l": 2018
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 134439,
+      "b": 141366,
+      "t": 6,
+      "f": 2013,
+      "l": 2019
+    },
+    {
+      "a": 134439,
+      "b": 145418,
+      "t": 2,
+      "f": 2016,
+      "l": 2016
+    },
+    {
+      "a": 135186,
+      "b": 141366,
+      "t": 3,
+      "f": 2015,
+      "l": 2016
+    },
+    {
+      "a": 135186,
+      "b": 145418,
+      "t": 6,
+      "f": 2015,
+      "l": 2019
     },
     {
       "a": 141366,
       "b": 145418,
-      "t": 44,
+      "t": 20,
       "f": 2014,
       "l": 2025
     },
@@ -232,16 +225,9 @@
     {
       "a": 141366,
       "b": 156402,
-      "t": 26,
+      "t": 20,
       "f": 2017,
       "l": 2026
-    },
-    {
-      "a": 141366,
-      "b": 163289,
-      "t": 3,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 145418,
@@ -267,7 +253,7 @@
     {
       "a": 156402,
       "b": 163289,
-      "t": 7,
+      "t": 4,
       "f": 2019,
       "l": 2024
     },
@@ -295,9 +281,9 @@
     {
       "a": 182528,
       "b": 188480,
-      "t": 3,
+      "t": 1,
       "f": 2022,
-      "l": 2026
+      "l": 2022
     },
     {
       "a": 182528,

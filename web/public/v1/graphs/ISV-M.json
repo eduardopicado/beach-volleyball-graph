@@ -36,44 +36,12 @@
       "last": 2021
     },
     {
-      "id": 139211,
-      "name": "Carlos Rosa",
-      "short": "Rosa",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 139217,
-      "name": "Ajai Sweeney",
-      "short": "Sweeney",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 150630,
-      "name": "Bradley Riding-Connors",
-      "short": "Riding-Connors",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
-    },
-    {
       "id": 155475,
       "name": "Dillon Lesniak",
       "short": "Lesniak",
       "tournaments": 2,
       "first": 2016,
       "last": 2018
-    },
-    {
-      "id": 155476,
-      "name": "Jake Dietrich",
-      "short": "Dietrich",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
     },
     {
       "id": 157986,
@@ -87,7 +55,7 @@
       "id": 167044,
       "name": "Bryce Mayer",
       "short": "Mayer",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
     },
@@ -103,24 +71,8 @@
       "id": 208804,
       "name": "Tyler Penberthy",
       "short": "Penberthy",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 221282,
-      "name": "Zayden Turner",
-      "short": "Turner",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 233777,
-      "name": "Chikai Pogson",
-      "short": "Pogson",
-      "tournaments": 1,
-      "first": 2026,
       "last": 2026
     }
   ],
@@ -147,20 +99,6 @@
       "l": 2021
     },
     {
-      "a": 139211,
-      "b": 139217,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 150630,
-      "b": 155476,
-      "t": 1,
-      "f": 2017,
-      "l": 2017
-    },
-    {
       "a": 155475,
       "b": 157986,
       "t": 2,
@@ -170,15 +108,8 @@
     {
       "a": 167044,
       "b": 208804,
-      "t": 6,
+      "t": 5,
       "f": 2025,
-      "l": 2026
-    },
-    {
-      "a": 221282,
-      "b": 233777,
-      "t": 1,
-      "f": 2026,
       "l": 2026
     }
   ]

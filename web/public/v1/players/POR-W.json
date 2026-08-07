@@ -521,13 +521,6 @@
       "weight": null
     },
     {
-      "id": 116755,
-      "name": "Daniela Reis",
-      "dob": "1970-06-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 116756,
       "name": "Andreia Anselmo",
       "dob": "1982-01-27",
@@ -619,25 +612,11 @@
       "weight": null
     },
     {
-      "id": 121189,
-      "name": "Catarina Martins",
-      "dob": "1986-11-16",
-      "height": 180,
-      "weight": 73
-    },
-    {
       "id": 121192,
       "name": "Daniela Loureiro",
       "dob": "1987-08-17",
       "height": 166,
       "weight": 58
-    },
-    {
-      "id": 121194,
-      "name": "Joana Martins Resende",
-      "dob": "1991-02-23",
-      "height": 175,
-      "weight": 70
     },
     {
       "id": 125099,
@@ -689,23 +668,9 @@
       "weight": null
     },
     {
-      "id": 139540,
-      "name": "Ana Monteiro",
-      "dob": "1993-07-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 142907,
       "name": "Francisca Silva",
       "dob": "1996-12-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 143215,
-      "name": "Beatriz Santos",
-      "dob": "1995-08-10",
       "height": null,
       "weight": null
     },
@@ -790,13 +755,6 @@
       "id": 143708,
       "name": "Ana Martins",
       "dob": "1996-03-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 145834,
-      "name": "Ines Monsanto de Barros Pereira",
-      "dob": "1998-07-01",
       "height": null,
       "weight": null
     },
@@ -892,23 +850,9 @@
       "weight": null
     },
     {
-      "id": 160591,
-      "name": "Amanda De Oliveira Cavalcanti",
-      "dob": "2002-01-20",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 160602,
       "name": "Mafalda Porto",
       "dob": "2001-06-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 166308,
-      "name": "Matilde Mouta",
-      "dob": "2003-11-01",
       "height": null,
       "weight": null
     },
@@ -937,41 +881,6 @@
       "id": 182214,
       "name": "Eunice Xavier",
       "dob": "2001-11-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192062,
-      "name": "Maria Sarmento",
-      "dob": "1995-11-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192063,
-      "name": "Iris Rodrigues",
-      "dob": "2005-01-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192064,
-      "name": "Ines Pereira",
-      "dob": "2005-12-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192066,
-      "name": "Catarina Barros",
-      "dob": "2005-06-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192067,
-      "name": "Johanna Hietala",
-      "dob": "1997-09-05",
       "height": null,
       "weight": null
     }

@@ -31,7 +31,7 @@
       "id": 100634,
       "name": "Ni Putu Timy Yudhani Rahayu",
       "short": "Timy",
-      "tournaments": 35,
+      "tournaments": 34,
       "first": 1994,
       "last": 2007
     },
@@ -279,7 +279,7 @@
       "id": 105169,
       "name": "Devota Saveriana Rahawarin",
       "short": "Rahawarin",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2005,
       "last": 2009
     },
@@ -303,7 +303,7 @@
       "id": 118645,
       "name": "Yokbeth Kapasiang",
       "short": "Yokbeth",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2007,
       "last": 2009
     },
@@ -311,7 +311,7 @@
       "id": 118646,
       "name": "Ayu Siam",
       "short": "Ayu",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2007,
       "last": 2009
     },
@@ -343,16 +343,16 @@
       "id": 135433,
       "name": "Dhita Juliana",
       "short": "Dhita",
-      "tournaments": 13,
-      "first": 2017,
+      "tournaments": 8,
+      "first": 2018,
       "last": 2023
     },
     {
       "id": 135473,
       "name": "Putu Utami",
       "short": "Putu",
-      "tournaments": 11,
-      "first": 2017,
+      "tournaments": 7,
+      "first": 2018,
       "last": 2022
     },
     {
@@ -364,26 +364,10 @@
       "last": 2017
     },
     {
-      "id": 143024,
-      "name": "Nanda Ragillia",
-      "short": "Nanda",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 148598,
-      "name": "Riski Dwi Andriani",
-      "short": "Dwi Andriani",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 150503,
       "name": "Yokebed Eka",
       "short": "Yokebed",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2018,
       "last": 2023
     },
@@ -391,7 +375,7 @@
       "id": 154422,
       "name": "Desi Ratnasari",
       "short": "Desi",
-      "tournaments": 9,
+      "tournaments": 5,
       "first": 2018,
       "last": 2024
     },
@@ -541,7 +525,7 @@
     {
       "a": 100634,
       "b": 105169,
-      "t": 4,
+      "t": 3,
       "f": 2005,
       "l": 2007
     },
@@ -695,7 +679,7 @@
     {
       "a": 105169,
       "b": 118645,
-      "t": 2,
+      "t": 1,
       "f": 2007,
       "l": 2007
     },
@@ -709,7 +693,7 @@
     {
       "a": 118645,
       "b": 118646,
-      "t": 2,
+      "t": 1,
       "f": 2007,
       "l": 2007
     },
@@ -730,21 +714,14 @@
     {
       "a": 135433,
       "b": 135473,
-      "t": 11,
-      "f": 2017,
+      "t": 7,
+      "f": 2018,
       "l": 2022
     },
     {
       "a": 135433,
-      "b": 150503,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
-    },
-    {
-      "a": 135433,
       "b": 154422,
-      "t": 2,
+      "t": 1,
       "f": 2023,
       "l": 2023
     },
@@ -756,16 +733,9 @@
       "l": 2017
     },
     {
-      "a": 143024,
-      "b": 148598,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 150503,
       "b": 154422,
-      "t": 5,
+      "t": 2,
       "f": 2018,
       "l": 2019
     },
@@ -779,8 +749,8 @@
     {
       "a": 154422,
       "b": 161549,
-      "t": 3,
-      "f": 2023,
+      "t": 2,
+      "f": 2024,
       "l": 2024
     },
     {

@@ -31,7 +31,7 @@
       "id": 162731,
       "name": "James Chilia",
       "short": "Chilia",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2017,
       "last": 2018
     },
@@ -47,9 +47,9 @@
       "id": 165266,
       "name": "Donny Aru",
       "short": "Aru",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2017,
-      "last": 2018
+      "last": 2017
     }
   ],
   "edges": [
@@ -77,13 +77,6 @@
     {
       "a": 162731,
       "b": 162732,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 162731,
-      "b": 165266,
       "t": 1,
       "f": 2018,
       "l": 2018

@@ -71,7 +71,7 @@
       "id": 102155,
       "name": "Tamara Larrea Peraza",
       "short": "Larrea Peraza",
-      "tournaments": 103,
+      "tournaments": 96,
       "first": 1998,
       "last": 2008
     },
@@ -95,7 +95,7 @@
       "id": 102871,
       "name": "Dalixia Fernandez Grasset",
       "short": "Fernandez Grasset",
-      "tournaments": 103,
+      "tournaments": 95,
       "first": 2000,
       "last": 2009
     },
@@ -111,7 +111,7 @@
       "id": 103485,
       "name": "Milagros Victoria Crespo Valle",
       "short": "M. Crespo",
-      "tournaments": 82,
+      "tournaments": 76,
       "first": 2001,
       "last": 2008
     },
@@ -127,71 +127,15 @@
       "id": 104227,
       "name": "Imara Esteves Ribalta",
       "short": "Esteves Ribalta",
-      "tournaments": 78,
+      "tournaments": 72,
       "first": 2003,
       "last": 2009
-    },
-    {
-      "id": 116045,
-      "name": "Ion Canet Betancourt",
-      "short": "Canet Betancourt",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 116051,
-      "name": "Atria Rodriguez Mejias",
-      "short": "Atria",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 116052,
-      "name": "Yarianna Machado Zuñiga",
-      "short": "Machado",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 116053,
-      "name": "Kirenia Vallar Bell",
-      "short": "Bell",
-      "tournaments": 2,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117434,
-      "name": "Yarianna Machado Zuniga",
-      "short": "Yari",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 120812,
-      "name": "Onayamis Simal",
-      "short": "Onayamis",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
-    },
-    {
-      "id": 120813,
-      "name": "Anaisa Alvarez",
-      "short": "Anaisa",
-      "tournaments": 1,
-      "first": 2008,
-      "last": 2008
     },
     {
       "id": 139684,
       "name": "Lidianny Echeverria Benitez",
       "short": "Lidy",
-      "tournaments": 20,
+      "tournaments": 8,
       "first": 2017,
       "last": 2022
     },
@@ -199,57 +143,25 @@
       "id": 139686,
       "name": "Mailen Deliz Tamayo",
       "short": "Maylen",
-      "tournaments": 12,
-      "first": 2012,
+      "tournaments": 9,
+      "first": 2018,
       "last": 2021
     },
     {
       "id": 144259,
       "name": "Yanisleidis Sanchez Vinent",
       "short": "Sanchez",
-      "tournaments": 9,
-      "first": 2019,
+      "tournaments": 3,
+      "first": 2021,
       "last": 2021
     },
     {
       "id": 148574,
       "name": "Leila Consuelo Martinez Ortega",
       "short": "Leila",
-      "tournaments": 21,
-      "first": 2012,
+      "tournaments": 14,
+      "first": 2017,
       "last": 2022
-    },
-    {
-      "id": 167631,
-      "name": "Amanda Gisell Armenteros Kindelan",
-      "short": "Amanda",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 181856,
-      "name": "Dayani Zerqueira Morera",
-      "short": "Dayi",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 196984,
-      "name": "Charlot Deroncele Nahomi",
-      "short": "Charlot",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
-      "id": 200667,
-      "name": "Maykelin Drik Cardona",
-      "short": "Drik",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
     }
   ],
   "edges": [
@@ -312,7 +224,7 @@
     {
       "a": 102155,
       "b": 102871,
-      "t": 87,
+      "t": 81,
       "f": 2000,
       "l": 2008
     },
@@ -322,13 +234,6 @@
       "t": 8,
       "f": 2002,
       "l": 2002
-    },
-    {
-      "a": 102155,
-      "b": 116051,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 102531,
@@ -352,13 +257,6 @@
       "l": 2009
     },
     {
-      "a": 102871,
-      "b": 116045,
-      "t": 2,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 103246,
       "b": 103485,
       "t": 1,
@@ -368,65 +266,30 @@
     {
       "a": 103485,
       "b": 104227,
-      "t": 73,
+      "t": 67,
       "f": 2003,
-      "l": 2008
-    },
-    {
-      "a": 116052,
-      "b": 116053,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 116053,
-      "b": 117434,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 120812,
-      "b": 120813,
-      "t": 1,
-      "f": 2008,
       "l": 2008
     },
     {
       "a": 139684,
       "b": 144259,
-      "t": 9,
-      "f": 2019,
+      "t": 3,
+      "f": 2021,
       "l": 2021
     },
     {
       "a": 139684,
       "b": 148574,
-      "t": 11,
+      "t": 5,
       "f": 2017,
       "l": 2022
     },
     {
       "a": 139686,
       "b": 148574,
-      "t": 12,
-      "f": 2012,
+      "t": 9,
+      "f": 2018,
       "l": 2021
-    },
-    {
-      "a": 167631,
-      "b": 181856,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 196984,
-      "b": 200667,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     }
   ]
 }

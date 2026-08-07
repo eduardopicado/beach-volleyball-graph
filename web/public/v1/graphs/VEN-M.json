@@ -175,9 +175,9 @@
       "id": 104318,
       "name": "Farid Mussa",
       "short": "Mussa",
-      "tournaments": 122,
+      "tournaments": 49,
       "first": 2003,
-      "last": 2021
+      "last": 2012
     },
     {
       "id": 104514,
@@ -191,15 +191,15 @@
       "id": 105129,
       "name": "Cesar Castro",
       "short": "Castro",
-      "tournaments": 35,
+      "tournaments": 12,
       "first": 2004,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 116763,
       "name": "Jackson Henriquez",
       "short": "Henriquez",
-      "tournaments": 162,
+      "tournaments": 78,
       "first": 2005,
       "last": 2021
     },
@@ -207,40 +207,24 @@
       "id": 116764,
       "name": "Jesus Villafañe",
       "short": "Fañe",
-      "tournaments": 167,
+      "tournaments": 79,
       "first": 2005,
       "last": 2021
-    },
-    {
-      "id": 116765,
-      "name": "Carlos Rodriguez",
-      "short": "Carlos",
-      "tournaments": 4,
-      "first": 2009,
-      "last": 2009
     },
     {
       "id": 116766,
       "name": "Leonard Alexis Colina Chourio",
       "short": "Leon",
-      "tournaments": 82,
+      "tournaments": 25,
       "first": 2009,
       "last": 2016
-    },
-    {
-      "id": 116767,
-      "name": "David Noda",
-      "short": "Noda",
-      "tournaments": 14,
-      "first": 2008,
-      "last": 2008
     },
     {
       "id": 116770,
       "name": "Fernando Ramos",
       "short": "Ramos",
-      "tournaments": 68,
-      "first": 2008,
+      "tournaments": 11,
+      "first": 2009,
       "last": 2013
     },
     {
@@ -263,9 +247,9 @@
       "id": 117509,
       "name": "Christian Daniel Romero Camacho",
       "short": "Christian",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2005,
-      "last": 2021
+      "last": 2005
     },
     {
       "id": 118044,
@@ -279,7 +263,7 @@
       "id": 118045,
       "name": "Jensen Del Nogal",
       "short": "Jensen",
-      "tournaments": 31,
+      "tournaments": 4,
       "first": 2006,
       "last": 2012
     },
@@ -287,87 +271,47 @@
       "id": 119150,
       "name": "Jhonlenn Cruz Barreto Pena",
       "short": "Jhonlenn",
-      "tournaments": 20,
+      "tournaments": 2,
       "first": 2007,
-      "last": 2019
+      "last": 2008
     },
     {
       "id": 119151,
       "name": "Hernan Tovar",
       "short": "Hernan",
-      "tournaments": 13,
-      "first": 2007,
-      "last": 2025
-    },
-    {
-      "id": 119152,
-      "name": "Luis Guillen",
-      "short": "Guille",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
-    },
-    {
-      "id": 119211,
-      "name": "Vicente Salazar",
-      "short": "Vicente",
-      "tournaments": 5,
-      "first": 2007,
-      "last": 2021
-    },
-    {
-      "id": 119212,
-      "name": "Henry Jose Rojas Estangel",
-      "short": "Henry",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
-    },
-    {
-      "id": 119213,
-      "name": "Yoalbis Lopez",
-      "short": "Yoalbis",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
-    },
-    {
-      "id": 119214,
-      "name": "Willi Sanchez",
-      "short": "Will",
-      "tournaments": 1,
-      "first": 2007,
-      "last": 2007
+      "tournaments": 6,
+      "first": 2022,
+      "last": 2024
     },
     {
       "id": 122626,
       "name": "Nestor Alberto Gonzalez Jerez",
       "short": "Nestor",
-      "tournaments": 29,
-      "first": 2010,
+      "tournaments": 2,
+      "first": 2012,
       "last": 2012
     },
     {
       "id": 125497,
       "name": "Vicente Salazar",
       "short": "Chente",
-      "tournaments": 4,
-      "first": 2009,
-      "last": 2011
+      "tournaments": 1,
+      "first": 2010,
+      "last": 2010
     },
     {
       "id": 125498,
       "name": "Gerardo Mendez",
       "short": "Gerardo",
-      "tournaments": 13,
-      "first": 2009,
-      "last": 2014
+      "tournaments": 3,
+      "first": 2010,
+      "last": 2013
     },
     {
       "id": 129963,
       "name": "Igor Spencer Hernandez Colina",
       "short": "Hernandez Colina",
-      "tournaments": 150,
+      "tournaments": 74,
       "first": 2000,
       "last": 2016
     },
@@ -407,15 +351,15 @@
       "id": 138080,
       "name": "Carlos Rangel",
       "short": "Charly",
-      "tournaments": 61,
+      "tournaments": 15,
       "first": 2013,
-      "last": 2025
+      "last": 2024
     },
     {
       "id": 138621,
       "name": "Vicente Salasar",
       "short": "El Chino",
-      "tournaments": 18,
+      "tournaments": 5,
       "first": 2012,
       "last": 2014
     },
@@ -428,18 +372,10 @@
       "last": 2012
     },
     {
-      "id": 138729,
-      "name": "Gerardo Mendez",
-      "short": "Conejo",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
       "id": 139355,
       "name": "Jonathan Golindano",
       "short": "Golindano",
-      "tournaments": 33,
+      "tournaments": 8,
       "first": 2013,
       "last": 2017
     },
@@ -447,49 +383,33 @@
       "id": 141872,
       "name": "Jose Gregorio Gomez",
       "short": "Tigrito",
-      "tournaments": 54,
+      "tournaments": 16,
       "first": 2013,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 141875,
       "name": "Ronald Daniel Fayola Hurtado",
       "short": "Fayola",
-      "tournaments": 40,
+      "tournaments": 5,
       "first": 2013,
-      "last": 2021
+      "last": 2015
     },
     {
       "id": 141944,
       "name": "Rolando Hernandez",
       "short": "Peter",
-      "tournaments": 52,
-      "first": 2013,
-      "last": 2024
-    },
-    {
-      "id": 142191,
-      "name": "Angel Luis Sandoval Infante",
-      "short": "Angel",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
+      "tournaments": 12,
+      "first": 2014,
+      "last": 2023
     },
     {
       "id": 142875,
       "name": "Pedro Castillo",
       "short": "Pedro",
-      "tournaments": 4,
+      "tournaments": 2,
       "first": 2013,
       "last": 2021
-    },
-    {
-      "id": 142876,
-      "name": "Jesus Catillo",
-      "short": "Guaya",
-      "tournaments": 1,
-      "first": 2013,
-      "last": 2013
     },
     {
       "id": 143057,
@@ -500,38 +420,6 @@
       "last": 2013
     },
     {
-      "id": 146735,
-      "name": "Anderson Anderson Hernández",
-      "short": "Ander",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146736,
-      "name": "Leonardo Alvarado",
-      "short": "Leo",
-      "tournaments": 2,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146738,
-      "name": "Franyeiber Catari",
-      "short": "Frany",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146739,
-      "name": "José Villalobos",
-      "short": "Villa",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 154622,
       "name": "alejandro jose sanoja",
       "short": "alejandro",
@@ -540,81 +428,9 @@
       "last": 2013
     },
     {
-      "id": 156226,
-      "name": "Jose Gonzalez",
-      "short": "Jose",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
-      "id": 156248,
-      "name": "Oscar Osorio",
-      "short": "Oscar",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
-      "id": 161862,
-      "name": "Jose Alejandro Osorio Ladera",
-      "short": "Osorio",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
-    },
-    {
-      "id": 161865,
-      "name": "Gabriel Efrain Gonzalez Hernandez",
-      "short": "Gabo",
-      "tournaments": 2,
-      "first": 2017,
-      "last": 2018
-    },
-    {
-      "id": 162489,
-      "name": "Richard Brizuela",
-      "short": "Richard",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
-    },
-    {
-      "id": 162490,
-      "name": "Carlos Tellez",
-      "short": "Carlos",
-      "tournaments": 1,
-      "first": 2017,
-      "last": 2017
-    },
-    {
-      "id": 168338,
-      "name": "Raymon David Zambrano Rivas",
-      "short": "Raymon",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
-      "id": 168411,
-      "name": "Juan Escalona",
-      "short": "Ven",
-      "tournaments": 1,
-      "first": 2018,
-      "last": 2018
-    },
-    {
       "id": 180920,
       "name": "Miguel Andres Mendez Palencia",
       "short": "Miguel",
-      "tournaments": 2,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 181669,
-      "name": "Yonny Jose Marquez Bandres",
-      "short": "Yonny",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
@@ -663,22 +479,6 @@
       "id": 238036,
       "name": "Diego Alejandro Hernandez Perez",
       "short": "Hernandez",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 238037,
-      "name": "Moises David Yepez Ramirez",
-      "short": "Yepez",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 238039,
-      "name": "Johnny Jose Antonio Caldera Perez",
-      "short": "Caldera",
       "tournaments": 1,
       "first": 2026,
       "last": 2026
@@ -842,49 +642,28 @@
     {
       "a": 104318,
       "b": 105129,
-      "t": 12,
+      "t": 7,
       "f": 2004,
-      "l": 2008
+      "l": 2007
     },
     {
       "a": 104318,
       "b": 116763,
-      "t": 76,
+      "t": 23,
       "f": 2007,
-      "l": 2013
+      "l": 2012
     },
     {
       "a": 104318,
       "b": 116764,
-      "t": 13,
+      "t": 9,
       "f": 2008,
       "l": 2011
     },
     {
       "a": 104318,
-      "b": 116770,
-      "t": 14,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 104318,
-      "b": 119150,
-      "t": 1,
-      "f": 2019,
-      "l": 2019
-    },
-    {
-      "a": 104318,
-      "b": 119211,
-      "t": 2,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 104318,
       "b": 129963,
-      "t": 16,
+      "t": 7,
       "f": 2005,
       "l": 2011
     },
@@ -897,13 +676,6 @@
     },
     {
       "a": 105129,
-      "b": 116763,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 105129,
       "b": 116764,
       "t": 1,
       "f": 2012,
@@ -912,14 +684,14 @@
     {
       "a": 105129,
       "b": 116766,
-      "t": 7,
+      "t": 1,
       "f": 2012,
       "l": 2012
     },
     {
       "a": 105129,
       "b": 116770,
-      "t": 10,
+      "t": 2,
       "f": 2011,
       "l": 2011
     },
@@ -931,38 +703,24 @@
       "l": 2008
     },
     {
-      "a": 105129,
-      "b": 139355,
-      "t": 3,
-      "f": 2013,
-      "l": 2013
-    },
-    {
       "a": 116763,
       "b": 116764,
-      "t": 46,
+      "t": 24,
       "f": 2005,
       "l": 2021
     },
     {
       "a": 116763,
       "b": 116766,
-      "t": 25,
+      "t": 12,
       "f": 2013,
       "l": 2014
     },
     {
       "a": 116763,
       "b": 129963,
-      "t": 38,
+      "t": 19,
       "f": 2006,
-      "l": 2011
-    },
-    {
-      "a": 116764,
-      "b": 116767,
-      "t": 14,
-      "f": 2008,
       "l": 2008
     },
     {
@@ -975,65 +733,37 @@
     {
       "a": 116764,
       "b": 129963,
-      "t": 89,
+      "t": 42,
       "f": 2008,
       "l": 2014
     },
     {
       "a": 116764,
-      "b": 138080,
-      "t": 22,
-      "f": 2018,
-      "l": 2019
-    },
-    {
-      "a": 116764,
       "b": 138621,
-      "t": 3,
+      "t": 2,
       "f": 2013,
       "l": 2014
     },
     {
-      "a": 116765,
-      "b": 119150,
-      "t": 4,
-      "f": 2009,
-      "l": 2009
-    },
-    {
       "a": 116766,
       "b": 116770,
-      "t": 27,
+      "t": 7,
       "f": 2009,
       "l": 2010
     },
     {
       "a": 116766,
       "b": 129963,
-      "t": 7,
+      "t": 4,
       "f": 2015,
       "l": 2016
     },
     {
       "a": 116766,
       "b": 138080,
-      "t": 8,
+      "t": 1,
       "f": 2015,
       "l": 2015
-    },
-    {
-      "a": 116766,
-      "b": 141875,
-      "t": 9,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 116770,
-      "b": 119150,
-      "t": 13,
-      "f": 2008,
-      "l": 2008
     },
     {
       "a": 116770,
@@ -1041,13 +771,6 @@
       "t": 1,
       "f": 2013,
       "l": 2013
-    },
-    {
-      "a": 116770,
-      "b": 138621,
-      "t": 2,
-      "f": 2012,
-      "l": 2012
     },
     {
       "a": 116770,
@@ -1062,13 +785,6 @@
       "t": 1,
       "f": 2005,
       "l": 2005
-    },
-    {
-      "a": 117509,
-      "b": 181669,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
     },
     {
       "a": 118044,
@@ -1087,72 +803,37 @@
     {
       "a": 118045,
       "b": 122626,
-      "t": 29,
-      "f": 2010,
+      "t": 2,
+      "f": 2012,
       "l": 2012
     },
     {
       "a": 119151,
-      "b": 119152,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 119151,
       "b": 138080,
-      "t": 2,
+      "t": 1,
       "f": 2024,
-      "l": 2025
-    },
-    {
-      "a": 119151,
-      "b": 141944,
-      "t": 10,
-      "f": 2021,
       "l": 2024
     },
     {
       "a": 119151,
-      "b": 168411,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 119211,
-      "b": 119212,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
-      "a": 119211,
-      "b": 125497,
-      "t": 2,
-      "f": 2010,
-      "l": 2010
-    },
-    {
-      "a": 119213,
-      "b": 119214,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
+      "b": 141944,
+      "t": 5,
+      "f": 2022,
+      "l": 2023
     },
     {
       "a": 125497,
       "b": 125498,
-      "t": 4,
-      "f": 2009,
-      "l": 2011
+      "t": 1,
+      "f": 2010,
+      "l": 2010
     },
     {
       "a": 125498,
       "b": 138621,
-      "t": 9,
+      "t": 2,
       "f": 2013,
-      "l": 2014
+      "l": 2013
     },
     {
       "a": 133196,
@@ -1171,23 +852,16 @@
     {
       "a": 138080,
       "b": 139355,
-      "t": 8,
+      "t": 2,
       "f": 2014,
       "l": 2017
     },
     {
       "a": 138080,
       "b": 141872,
-      "t": 18,
+      "t": 10,
       "f": 2018,
       "l": 2019
-    },
-    {
-      "a": 138080,
-      "b": 141875,
-      "t": 11,
-      "f": 2013,
-      "l": 2014
     },
     {
       "a": 138621,
@@ -1197,78 +871,29 @@
       "l": 2012
     },
     {
-      "a": 138621,
-      "b": 138729,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 138621,
-      "b": 139355,
-      "t": 3,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 139355,
-      "b": 141875,
-      "t": 9,
+      "b": 141944,
+      "t": 5,
       "f": 2015,
       "l": 2016
     },
     {
-      "a": 139355,
-      "b": 141944,
-      "t": 9,
-      "f": 2015,
-      "l": 2017
-    },
-    {
       "a": 141872,
       "b": 141875,
-      "t": 9,
+      "t": 4,
       "f": 2013,
-      "l": 2021
+      "l": 2015
     },
     {
       "a": 141872,
       "b": 141944,
-      "t": 32,
+      "t": 2,
       "f": 2014,
-      "l": 2018
-    },
-    {
-      "a": 141875,
-      "b": 141944,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 141875,
-      "b": 146736,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
+      "l": 2016
     },
     {
       "a": 141875,
       "b": 154622,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 141944,
-      "b": 142191,
-      "t": 1,
-      "f": 2013,
-      "l": 2013
-    },
-    {
-      "a": 142875,
-      "b": 142876,
       "t": 1,
       "f": 2013,
       "l": 2013
@@ -1283,51 +908,9 @@
     {
       "a": 142875,
       "b": 180920,
-      "t": 2,
+      "t": 1,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 146735,
-      "b": 146736,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 146738,
-      "b": 146739,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 156226,
-      "b": 156248,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
-      "a": 161862,
-      "b": 161865,
-      "t": 1,
-      "f": 2017,
-      "l": 2017
-    },
-    {
-      "a": 161865,
-      "b": 168338,
-      "t": 1,
-      "f": 2018,
-      "l": 2018
-    },
-    {
-      "a": 162489,
-      "b": 162490,
-      "t": 1,
-      "f": 2017,
-      "l": 2017
     },
     {
       "a": 209003,
@@ -1346,13 +929,6 @@
     {
       "a": 238035,
       "b": 238036,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
-    },
-    {
-      "a": 238037,
-      "b": 238039,
       "t": 1,
       "f": 2026,
       "l": 2026

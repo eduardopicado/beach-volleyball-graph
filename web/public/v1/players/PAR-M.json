@@ -3,46 +3,11 @@
   "gender": "M",
   "players": [
     {
-      "id": 120509,
-      "name": "Gino Lombardo",
-      "dob": "1980-06-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120510,
       "name": "Gregorio Godoy",
       "dob": "1985-09-20",
       "height": 187,
       "weight": 82
-    },
-    {
-      "id": 125429,
-      "name": "Luis Riveros",
-      "dob": "1984-03-11",
-      "height": 192,
-      "weight": 92
-    },
-    {
-      "id": 134868,
-      "name": "Mauricio Brizuela",
-      "dob": "1982-07-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 141601,
-      "name": "Elioth Brado Frutos Toews",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 145422,
-      "name": "Renato Ulises Bogarin Caceres",
-      "dob": "1999-10-12",
-      "height": null,
-      "weight": null
     },
     {
       "id": 145745,

@@ -7,7 +7,7 @@
       "id": 117023,
       "name": "Norma Zambon",
       "short": "Zambon",
-      "tournaments": 14,
+      "tournaments": 8,
       "first": 2005,
       "last": 2008
     },
@@ -15,7 +15,7 @@
       "id": 117024,
       "name": "Jeanne Schneider",
       "short": "Schneider",
-      "tournaments": 14,
+      "tournaments": 8,
       "first": 2005,
       "last": 2008
     },
@@ -32,7 +32,7 @@
     {
       "a": 117023,
       "b": 117024,
-      "t": 14,
+      "t": 8,
       "f": 2005,
       "l": 2008
     }

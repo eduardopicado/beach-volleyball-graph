@@ -39,49 +39,17 @@
       "id": 172326,
       "name": "BECHAR SALIMA",
       "short": "SALIMA",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 172327,
       "name": "Melissa Soualmi",
       "short": "Melissa",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2021
-    },
-    {
-      "id": 178747,
-      "name": "Amira Bechar",
-      "short": "Bechar",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 184128,
-      "name": "Wissem Djouhri",
-      "short": "Djouhri Wissem",
-      "tournaments": 1,
-      "first": 2021,
-      "last": 2021
-    },
-    {
-      "id": 224254,
-      "name": "Meriem Tilmatine",
-      "short": "Tilmatine",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
-    },
-    {
-      "id": 224256,
-      "name": "Dyna Saheb",
-      "short": "Saheb",
-      "tournaments": 2,
-      "first": 2025,
-      "last": 2026
+      "last": 2019
     }
   ],
   "edges": [
@@ -102,23 +70,9 @@
     {
       "a": 172326,
       "b": 172327,
-      "t": 2,
-      "f": 2019,
-      "l": 2021
-    },
-    {
-      "a": 178747,
-      "b": 184128,
       "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 224254,
-      "b": 224256,
-      "t": 2,
-      "f": 2025,
-      "l": 2026
+      "f": 2019,
+      "l": 2019
     }
   ]
 }

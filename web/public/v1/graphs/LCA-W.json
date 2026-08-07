@@ -23,7 +23,7 @@
       "id": 141930,
       "name": "Skye Faucher Mondesir",
       "short": "Skye",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2014,
       "last": 2014
     },
@@ -31,7 +31,7 @@
       "id": 144360,
       "name": "Dala Noel",
       "short": "Noel",
-      "tournaments": 3,
+      "tournaments": 2,
       "first": 2014,
       "last": 2014
     },
@@ -70,7 +70,7 @@
     {
       "a": 141930,
       "b": 144360,
-      "t": 3,
+      "t": 2,
       "f": 2014,
       "l": 2014
     },

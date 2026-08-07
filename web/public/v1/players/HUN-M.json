@@ -157,34 +157,6 @@
       "weight": null
     },
     {
-      "id": 120280,
-      "name": "Balázs Horváth dr.",
-      "dob": "1980-12-27",
-      "height": 190,
-      "weight": 85
-    },
-    {
-      "id": 120283,
-      "name": "Szabolcs Mike",
-      "dob": "1976-12-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120287,
-      "name": "Zoltán Trenka",
-      "dob": "1977-06-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120288,
-      "name": "Gábor Petheo",
-      "dob": "1971-03-14",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 124400,
       "name": "Gábor Nacsa",
       "dob": "1984-04-25",
@@ -197,34 +169,6 @@
       "dob": "1982-09-23",
       "height": 200,
       "weight": 96
-    },
-    {
-      "id": 132108,
-      "name": "András Tóth",
-      "dob": "1988-12-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 135444,
-      "name": "Tamás Kaszap",
-      "dob": "1991-03-21",
-      "height": 198,
-      "weight": 90
-    },
-    {
-      "id": 143311,
-      "name": "Zoltán Berkes",
-      "dob": "1982-10-23",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 143312,
-      "name": "Máté Leiszt",
-      "dob": "1988-01-04",
-      "height": null,
-      "weight": null
     },
     {
       "id": 143483,
@@ -290,13 +234,6 @@
       "weight": null
     },
     {
-      "id": 160651,
-      "name": "Levente Pető",
-      "dob": "1992-02-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 161607,
       "name": "Artúr Hajós",
       "dob": "2000-08-23",
@@ -307,13 +244,6 @@
       "id": 163408,
       "name": "Bálint Rozgonyi",
       "dob": "1998-11-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 167109,
-      "name": "Boldizsár Kovács",
-      "dob": "1988-11-29",
       "height": null,
       "weight": null
     },
@@ -339,13 +269,6 @@
       "weight": 93
     },
     {
-      "id": 173078,
-      "name": "Péter Solti",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 173588,
       "name": "Csanád Petik",
       "dob": "2002-11-27",
@@ -367,13 +290,6 @@
       "weight": 80
     },
     {
-      "id": 181691,
-      "name": "Viktor Szalai",
-      "dob": "2002-04-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 181692,
       "name": "Bence Tari",
       "dob": "2006-08-25",
@@ -386,20 +302,6 @@
       "dob": "2005-02-08",
       "height": 187,
       "weight": 78
-    },
-    {
-      "id": 181698,
-      "name": "Balázs Éliás",
-      "dob": "2003-08-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 181705,
-      "name": "Barnabás Apró",
-      "dob": "2002-04-09",
-      "height": null,
-      "weight": null
     },
     {
       "id": 181706,
@@ -472,20 +374,6 @@
       "weight": null
     },
     {
-      "id": 210890,
-      "name": "Botond Pelle",
-      "dob": "2010-02-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 212495,
-      "name": "Ádám István File",
-      "dob": "2006-10-14",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 212842,
       "name": "Levente Kiss-Bertók",
       "dob": "2009-09-30",
@@ -496,13 +384,6 @@
       "id": 212843,
       "name": "Bálint Ritter",
       "dob": "2010-03-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 242066,
-      "name": "Mór Benedek Farkas",
-      "dob": "2005-12-21",
       "height": null,
       "weight": null
     }

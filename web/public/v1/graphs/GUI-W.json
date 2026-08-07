@@ -4,18 +4,10 @@
   "gender": "W",
   "nodes": [
     {
-      "id": 135726,
-      "name": "Fatoume Chaloub",
-      "short": "Chaloub",
-      "tournaments": 1,
-      "first": 2012,
-      "last": 2012
-    },
-    {
       "id": 139359,
       "name": "Nene Amie Kante",
       "short": "Amie",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2012,
       "last": 2012
     },
@@ -29,13 +21,6 @@
     }
   ],
   "edges": [
-    {
-      "a": 135726,
-      "b": 139359,
-      "t": 1,
-      "f": 2012,
-      "l": 2012
-    },
     {
       "a": 139359,
       "b": 139360,

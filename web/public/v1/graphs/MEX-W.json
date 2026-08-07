@@ -79,7 +79,7 @@
       "id": 100951,
       "name": "Teresa Galindo Mata",
       "short": "Galindo",
-      "tournaments": 70,
+      "tournaments": 65,
       "first": 1995,
       "last": 2005
     },
@@ -119,9 +119,9 @@
       "id": 102101,
       "name": "Myrna Serrano Ochoa",
       "short": "Serrano Ochoa",
-      "tournaments": 14,
+      "tournaments": 13,
       "first": 1998,
-      "last": 2005
+      "last": 2002
     },
     {
       "id": 102160,
@@ -143,7 +143,7 @@
       "id": 102566,
       "name": "Hilda Gaxiola",
       "short": "Gaxiola",
-      "tournaments": 85,
+      "tournaments": 82,
       "first": 1999,
       "last": 2008
     },
@@ -207,9 +207,9 @@
       "id": 102966,
       "name": "Mayra Garcia",
       "short": "Garcia",
-      "tournaments": 130,
+      "tournaments": 116,
       "first": 2000,
-      "last": 2013
+      "last": 2012
     },
     {
       "id": 102967,
@@ -255,7 +255,7 @@
       "id": 103658,
       "name": "Norma Angelica Escobedo Perez",
       "short": "Escobedo Perez",
-      "tournaments": 10,
+      "tournaments": 3,
       "first": 2001,
       "last": 2007
     },
@@ -287,7 +287,7 @@
       "id": 104109,
       "name": "Martha Revuelta",
       "short": "Revuelta",
-      "tournaments": 55,
+      "tournaments": 36,
       "first": 2002,
       "last": 2021
     },
@@ -303,7 +303,7 @@
       "id": 104111,
       "name": "Rosario Reyes",
       "short": "Reyes",
-      "tournaments": 33,
+      "tournaments": 20,
       "first": 2002,
       "last": 2010
     },
@@ -319,25 +319,17 @@
       "id": 105084,
       "name": "Sandra Escobedo",
       "short": "Escobedo",
-      "tournaments": 3,
+      "tournaments": 1,
       "first": 2004,
-      "last": 2005
+      "last": 2004
     },
     {
       "id": 113495,
       "name": "Vanessa Virgen",
       "short": "Virgen",
-      "tournaments": 8,
+      "tournaments": 7,
       "first": 2005,
       "last": 2014
-    },
-    {
-      "id": 113502,
-      "name": "Sugey Lopez",
-      "short": "Lopez",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
     },
     {
       "id": 113509,
@@ -375,47 +367,23 @@
       "id": 117639,
       "name": "Paulette Cruz",
       "short": "Cruz",
-      "tournaments": 7,
-      "first": 2005,
+      "tournaments": 5,
+      "first": 2006,
       "last": 2021
     },
     {
       "id": 117640,
       "name": "wendy guizar",
       "short": "Guizar",
-      "tournaments": 2,
-      "first": 2005,
+      "tournaments": 1,
+      "first": 2006,
       "last": 2006
-    },
-    {
-      "id": 117641,
-      "name": "alicia barba",
-      "short": "Barba",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117691,
-      "name": "Claudia Mendez",
-      "short": "Mendez",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
-    },
-    {
-      "id": 117692,
-      "name": "laura lopez",
-      "short": "lopez",
-      "tournaments": 1,
-      "first": 2005,
-      "last": 2005
     },
     {
       "id": 118374,
       "name": "Zaira Orellana",
       "short": "Orellana",
-      "tournaments": 12,
+      "tournaments": 11,
       "first": 2015,
       "last": 2021
     },
@@ -455,7 +423,7 @@
       "id": 118573,
       "name": "Candelas Bibiana",
       "short": "Candelas",
-      "tournaments": 102,
+      "tournaments": 77,
       "first": 2007,
       "last": 2015
     },
@@ -479,9 +447,9 @@
       "id": 119624,
       "name": "Xitlali Herrera",
       "short": "Herrera",
-      "tournaments": 13,
+      "tournaments": 7,
       "first": 2008,
-      "last": 2010
+      "last": 2009
     },
     {
       "id": 119626,
@@ -519,9 +487,9 @@
       "id": 125156,
       "name": "Frida Lopez",
       "short": "Frida",
-      "tournaments": 2,
+      "tournaments": 1,
       "first": 2009,
-      "last": 2011
+      "last": 2009
     },
     {
       "id": 125161,
@@ -551,7 +519,7 @@
       "id": 132707,
       "name": "Frida Carol Lopez Olmos",
       "short": "Lopez",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2010,
       "last": 2014
     },
@@ -583,17 +551,9 @@
       "id": 133347,
       "name": "Ana Rios",
       "short": "Rios",
-      "tournaments": 5,
+      "tournaments": 3,
       "first": 2010,
       "last": 2015
-    },
-    {
-      "id": 133363,
-      "name": "Martha Salcedo",
-      "short": "Salcedo",
-      "tournaments": 1,
-      "first": 2010,
-      "last": 2010
     },
     {
       "id": 135776,
@@ -631,17 +591,9 @@
       "id": 140101,
       "name": "Diana Valdez",
       "short": "Valdez",
-      "tournaments": 7,
+      "tournaments": 4,
       "first": 2014,
-      "last": 2021
-    },
-    {
-      "id": 141574,
-      "name": "Ana Patricia Valle",
-      "short": "Valle",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
+      "last": 2019
     },
     {
       "id": 142877,
@@ -671,17 +623,9 @@
       "id": 144324,
       "name": "Gloria Itzel Santoyo Salazar",
       "short": "Santoyo",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2010,
       "last": 2014
-    },
-    {
-      "id": 146400,
-      "name": "Freda Maria Lopez Olmos",
-      "short": "Lopez O.",
-      "tournaments": 1,
-      "first": 2015,
-      "last": 2015
     },
     {
       "id": 147031,
@@ -751,7 +695,7 @@
       "id": 147047,
       "name": "Maria Jose Quintero Preciado",
       "short": "Quintero",
-      "tournaments": 19,
+      "tournaments": 13,
       "first": 2019,
       "last": 2022
     },
@@ -788,22 +732,6 @@
       "last": 2014
     },
     {
-      "id": 147838,
-      "name": "Fernanda Elizabeth Aleman Jaimez",
-      "short": "Aleman",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 147839,
-      "name": "Danya Lizeth Tapia Perez",
-      "short": "Tapia",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
       "id": 154184,
       "name": "Rubi Sandoval",
       "short": "Sandoval",
@@ -820,26 +748,18 @@
       "last": 2016
     },
     {
-      "id": 158799,
-      "name": "Itzel Karina Vargas Mendez",
-      "short": "Vargas",
-      "tournaments": 1,
-      "first": 2023,
-      "last": 2023
-    },
-    {
       "id": 162248,
       "name": "Assul Dayana Lopez Estrada",
       "short": "Lopez",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2017,
-      "last": 2021
+      "last": 2019
     },
     {
       "id": 163423,
       "name": "Atenas Angelica Gutierrez Guzmán",
       "short": "Gutierrez",
-      "tournaments": 51,
+      "tournaments": 32,
       "first": 2018,
       "last": 2026
     },
@@ -871,23 +791,15 @@
       "id": 170896,
       "name": "Alejandra Lisette Villavicencio Rodriguez",
       "short": "Villavicencio",
-      "tournaments": 2,
-      "first": 2018,
-      "last": 2020
-    },
-    {
-      "id": 173469,
-      "name": "Aime Margarita Topete Pardo",
-      "short": "Topete",
       "tournaments": 1,
-      "first": 2022,
-      "last": 2022
+      "first": 2018,
+      "last": 2018
     },
     {
       "id": 176487,
       "name": "Susana Torres García",
       "short": "Torres",
-      "tournaments": 20,
+      "tournaments": 15,
       "first": 2019,
       "last": 2026
     },
@@ -895,7 +807,7 @@
       "id": 176575,
       "name": "Danna Mideli Cortes Sánchez",
       "short": "Cortes",
-      "tournaments": 5,
+      "tournaments": 4,
       "first": 2019,
       "last": 2021
     },
@@ -903,23 +815,15 @@
       "id": 178529,
       "name": "Esperanza Katherine Albarran Castro",
       "short": "Albarran",
-      "tournaments": 13,
-      "first": 2020,
+      "tournaments": 7,
+      "first": 2021,
       "last": 2024
-    },
-    {
-      "id": 178530,
-      "name": "Jazmin Ivonne Arriaga Lugo",
-      "short": "Arriaga",
-      "tournaments": 1,
-      "first": 2020,
-      "last": 2020
     },
     {
       "id": 184726,
       "name": "Maria Jimena Ramirez Campas",
       "short": "Ramirez",
-      "tournaments": 6,
+      "tournaments": 5,
       "first": 2021,
       "last": 2025
     },
@@ -927,7 +831,7 @@
       "id": 184727,
       "name": "Abril Cristina Flores Castro",
       "short": "Flores",
-      "tournaments": 28,
+      "tournaments": 15,
       "first": 2021,
       "last": 2024
     },
@@ -940,26 +844,10 @@
       "last": 2022
     },
     {
-      "id": 187028,
-      "name": "Katherine Alexa Ramirez",
-      "short": "Ramirez",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 187030,
-      "name": "Camila Silva Montemayor",
-      "short": "Silva",
-      "tournaments": 1,
-      "first": 2022,
-      "last": 2022
-    },
-    {
       "id": 199261,
       "name": "Yeray Yamilet Vidaurrazaga Blanco",
       "short": "Vidaurrazaga",
-      "tournaments": 12,
+      "tournaments": 7,
       "first": 2023,
       "last": 2025
     },
@@ -967,7 +855,7 @@
       "id": 199263,
       "name": "Ivanna Rivera Vargas",
       "short": "Rivera",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2023,
       "last": 2024
     },
@@ -978,14 +866,6 @@
       "tournaments": 2,
       "first": 2026,
       "last": 2026
-    },
-    {
-      "id": 211087,
-      "name": "Camila Gonzalez Fiscal",
-      "short": "Gonzalez",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
     },
     {
       "id": 211095,
@@ -1015,8 +895,8 @@
       "id": 222061,
       "name": "Anna Sofía González Cepek",
       "short": "Cepek",
-      "tournaments": 3,
-      "first": 2025,
+      "tournaments": 2,
+      "first": 2026,
       "last": 2026
     },
     {
@@ -1238,7 +1118,7 @@
     {
       "a": 100951,
       "b": 104109,
-      "t": 15,
+      "t": 10,
       "f": 2005,
       "l": 2005
     },
@@ -1278,13 +1158,6 @@
       "l": 2000
     },
     {
-      "a": 102101,
-      "b": 117641,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
       "a": 102160,
       "b": 102507,
       "t": 2,
@@ -1301,7 +1174,7 @@
     {
       "a": 102566,
       "b": 102966,
-      "t": 58,
+      "t": 55,
       "f": 2001,
       "l": 2005
     },
@@ -1350,9 +1223,9 @@
     {
       "a": 102966,
       "b": 118573,
-      "t": 71,
+      "t": 60,
       "f": 2007,
-      "l": 2013
+      "l": 2012
     },
     {
       "a": 103657,
@@ -1364,16 +1237,9 @@
     {
       "a": 103658,
       "b": 104111,
-      "t": 8,
+      "t": 2,
       "f": 2007,
       "l": 2007
-    },
-    {
-      "a": 103658,
-      "b": 105084,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 103946,
@@ -1412,24 +1278,17 @@
     },
     {
       "a": 104109,
-      "b": 113495,
-      "t": 1,
-      "f": 2006,
-      "l": 2006
-    },
-    {
-      "a": 104109,
       "b": 118374,
-      "t": 11,
+      "t": 10,
       "f": 2018,
       "l": 2021
     },
     {
       "a": 104109,
       "b": 118573,
-      "t": 23,
+      "t": 11,
       "f": 2013,
-      "l": 2015
+      "l": 2014
     },
     {
       "a": 104110,
@@ -1441,9 +1300,9 @@
     {
       "a": 104111,
       "b": 105084,
-      "t": 2,
+      "t": 1,
       "f": 2004,
-      "l": 2005
+      "l": 2004
     },
     {
       "a": 104111,
@@ -1454,15 +1313,8 @@
     },
     {
       "a": 104111,
-      "b": 113502,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
-    },
-    {
-      "a": 104111,
       "b": 119624,
-      "t": 12,
+      "t": 7,
       "f": 2008,
       "l": 2009
     },
@@ -1511,16 +1363,9 @@
     {
       "a": 117639,
       "b": 117640,
-      "t": 2,
-      "f": 2005,
-      "l": 2006
-    },
-    {
-      "a": 117639,
-      "b": 146400,
       "t": 1,
-      "f": 2015,
-      "l": 2015
+      "f": 2006,
+      "l": 2006
     },
     {
       "a": 117639,
@@ -1528,13 +1373,6 @@
       "t": 3,
       "f": 2021,
       "l": 2021
-    },
-    {
-      "a": 117691,
-      "b": 117692,
-      "t": 1,
-      "f": 2005,
-      "l": 2005
     },
     {
       "a": 118374,
@@ -1567,7 +1405,7 @@
     {
       "a": 118573,
       "b": 133347,
-      "t": 4,
+      "t": 2,
       "f": 2015,
       "l": 2015
     },
@@ -1577,13 +1415,6 @@
       "t": 1,
       "f": 2007,
       "l": 2007
-    },
-    {
-      "a": 119624,
-      "b": 133363,
-      "t": 1,
-      "f": 2010,
-      "l": 2010
     },
     {
       "a": 119626,
@@ -1628,13 +1459,6 @@
       "l": 2009
     },
     {
-      "a": 125156,
-      "b": 135776,
-      "t": 1,
-      "f": 2011,
-      "l": 2011
-    },
-    {
       "a": 125161,
       "b": 125163,
       "t": 1,
@@ -1658,8 +1482,8 @@
     {
       "a": 132707,
       "b": 144324,
-      "t": 2,
-      "f": 2013,
+      "t": 1,
+      "f": 2014,
       "l": 2014
     },
     {
@@ -1707,16 +1531,9 @@
     {
       "a": 140101,
       "b": 162248,
-      "t": 4,
-      "f": 2017,
-      "l": 2021
-    },
-    {
-      "a": 141574,
-      "b": 158799,
       "t": 1,
-      "f": 2023,
-      "l": 2023
+      "f": 2017,
+      "l": 2017
     },
     {
       "a": 143142,
@@ -1770,7 +1587,7 @@
     {
       "a": 147047,
       "b": 163423,
-      "t": 14,
+      "t": 8,
       "f": 2022,
       "l": 2022
     },
@@ -1798,13 +1615,6 @@
     {
       "a": 147832,
       "b": 147833,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
-      "a": 147838,
-      "b": 147839,
       "t": 1,
       "f": 2014,
       "l": 2014
@@ -1840,14 +1650,14 @@
     {
       "a": 163423,
       "b": 178529,
-      "t": 4,
-      "f": 2020,
+      "t": 3,
+      "f": 2021,
       "l": 2021
     },
     {
       "a": 163423,
       "b": 184727,
-      "t": 23,
+      "t": 11,
       "f": 2023,
       "l": 2024
     },
@@ -1866,58 +1676,30 @@
       "l": 2019
     },
     {
-      "a": 170896,
-      "b": 178530,
-      "t": 1,
-      "f": 2020,
-      "l": 2020
-    },
-    {
-      "a": 173469,
-      "b": 178529,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 176487,
       "b": 176575,
-      "t": 2,
-      "f": 2019,
-      "l": 2020
-    },
-    {
-      "a": 176487,
-      "b": 178529,
       "t": 1,
-      "f": 2023,
-      "l": 2023
+      "f": 2019,
+      "l": 2019
     },
     {
       "a": 176487,
       "b": 199261,
-      "t": 3,
+      "t": 1,
       "f": 2024,
       "l": 2024
     },
     {
       "a": 176487,
       "b": 199263,
-      "t": 4,
+      "t": 3,
       "f": 2023,
       "l": 2024
     },
     {
       "a": 178529,
-      "b": 184727,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 178529,
       "b": 199261,
-      "t": 6,
+      "t": 4,
       "f": 2023,
       "l": 2024
     },
@@ -1931,7 +1713,7 @@
     {
       "a": 184726,
       "b": 199261,
-      "t": 3,
+      "t": 2,
       "f": 2025,
       "l": 2025
     },
@@ -1950,25 +1732,11 @@
       "l": 2022
     },
     {
-      "a": 187028,
-      "b": 187030,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
-    },
-    {
       "a": 207600,
       "b": 222061,
       "t": 2,
       "f": 2026,
       "l": 2026
-    },
-    {
-      "a": 211087,
-      "b": 222061,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
     },
     {
       "a": 211095,

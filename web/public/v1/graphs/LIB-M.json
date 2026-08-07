@@ -23,9 +23,9 @@
       "id": 103464,
       "name": "Munir Aboushi",
       "short": "Aboushi",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2001,
-      "last": 2008
+      "last": 2001
     },
     {
       "id": 103465,
@@ -79,9 +79,9 @@
       "id": 103474,
       "name": "Elie Abo Shedid",
       "short": "Abo Shedid",
-      "tournaments": 13,
+      "tournaments": 4,
       "first": 2001,
-      "last": 2010
+      "last": 2008
     },
     {
       "id": 103475,
@@ -119,9 +119,9 @@
       "id": 103497,
       "name": "Nader Fares",
       "short": "Fares",
-      "tournaments": 13,
+      "tournaments": 4,
       "first": 2001,
-      "last": 2010
+      "last": 2008
     },
     {
       "id": 103564,
@@ -148,76 +148,36 @@
       "last": 2001
     },
     {
-      "id": 118137,
-      "name": "Elias Abi Chedid",
-      "short": "j.l.o.m.l",
-      "tournaments": 3,
-      "first": 2007,
-      "last": 2015
-    },
-    {
-      "id": 118482,
-      "name": "Jean Abi Chedid",
-      "short": "Anfé / john",
-      "tournaments": 9,
-      "first": 2007,
-      "last": 2021
-    },
-    {
-      "id": 145680,
-      "name": "Joe El Azzi",
-      "short": "Joe",
-      "tournaments": 12,
-      "first": 2014,
-      "last": 2021
-    },
-    {
-      "id": 175338,
-      "name": "Salba Chafic",
-      "short": "Chafic",
-      "tournaments": 2,
-      "first": 2022,
-      "last": 2022
-    },
-    {
-      "id": 181229,
-      "name": "Paul Bou Akl",
-      "short": "Paul",
-      "tournaments": 6,
-      "first": 2021,
-      "last": 2022
-    },
-    {
       "id": 181520,
       "name": "Omar Abi Karam",
       "short": "Omar",
-      "tournaments": 4,
-      "first": 2022,
+      "tournaments": 2,
+      "first": 2023,
       "last": 2023
     },
     {
       "id": 181540,
       "name": "Jason El Najjar",
       "short": "Jason",
-      "tournaments": 2,
-      "first": 2022,
+      "tournaments": 1,
+      "first": 2023,
       "last": 2023
     },
     {
       "id": 201849,
       "name": "Hadi El Chabib",
       "short": "Hadi",
-      "tournaments": 6,
+      "tournaments": 3,
       "first": 2023,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 210016,
       "name": "Jad Abi Karam",
       "short": "Jad",
-      "tournaments": 5,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2026
+      "last": 2025
     },
     {
       "id": 212725,
@@ -268,13 +228,6 @@
       "l": 2001
     },
     {
-      "a": 103464,
-      "b": 118482,
-      "t": 3,
-      "f": 2007,
-      "l": 2008
-    },
-    {
       "a": 103468,
       "b": 103469,
       "t": 1,
@@ -305,9 +258,9 @@
     {
       "a": 103474,
       "b": 103497,
-      "t": 12,
+      "t": 3,
       "f": 2007,
-      "l": 2010
+      "l": 2008
     },
     {
       "a": 103476,
@@ -324,53 +277,11 @@
       "l": 2001
     },
     {
-      "a": 103497,
-      "b": 118137,
-      "t": 1,
-      "f": 2007,
-      "l": 2007
-    },
-    {
       "a": 103564,
       "b": 103565,
       "t": 1,
       "f": 2001,
       "l": 2001
-    },
-    {
-      "a": 118137,
-      "b": 145680,
-      "t": 2,
-      "f": 2014,
-      "l": 2015
-    },
-    {
-      "a": 118482,
-      "b": 145680,
-      "t": 6,
-      "f": 2017,
-      "l": 2021
-    },
-    {
-      "a": 145680,
-      "b": 181229,
-      "t": 5,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 175338,
-      "b": 181520,
-      "t": 2,
-      "f": 2022,
-      "l": 2022
-    },
-    {
-      "a": 181229,
-      "b": 181540,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 181520,
@@ -389,9 +300,9 @@
     {
       "a": 201849,
       "b": 210016,
-      "t": 5,
+      "t": 2,
       "f": 2024,
-      "l": 2026
+      "l": 2025
     },
     {
       "a": 212725,

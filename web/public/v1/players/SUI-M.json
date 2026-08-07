@@ -836,25 +836,11 @@
       "weight": 95
     },
     {
-      "id": 119976,
-      "name": "David Lehner",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120018,
       "name": "Rob Jansons",
       "dob": "1977-04-13",
       "height": 203,
       "weight": 100
-    },
-    {
-      "id": 120021,
-      "name": "Prawdzic Alexei",
-      "dob": "1987-07-29",
-      "height": null,
-      "weight": null
     },
     {
       "id": 120478,
@@ -890,13 +876,6 @@
       "dob": "1976-09-12",
       "height": 193,
       "weight": 92
-    },
-    {
-      "id": 123442,
-      "name": "Martin Weber",
-      "dob": "1982-09-19",
-      "height": null,
-      "weight": null
     },
     {
       "id": 125069,
@@ -983,13 +962,6 @@
       "weight": 83
     },
     {
-      "id": 142879,
-      "name": "Manuel Sutter",
-      "dob": "1988-07-25",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 143493,
       "name": "Michiel Zandbergen",
       "dob": "1995-07-08",
@@ -1025,37 +997,9 @@
       "weight": 80
     },
     {
-      "id": 147297,
-      "name": "Marco Back",
-      "dob": "1997-10-21",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 150831,
-      "name": "David Widmer",
-      "dob": "1990-07-31",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 151357,
       "name": "Luca Müller",
       "dob": "1993-05-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 153884,
-      "name": "Reto Willimann",
-      "dob": "1991-04-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 153972,
-      "name": "Robin Muntwyler",
-      "dob": "1997-01-06",
       "height": null,
       "weight": null
     },
@@ -1070,20 +1014,6 @@
       "id": 156575,
       "name": "Irian Mika",
       "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156682,
-      "name": "Yves Roth",
-      "dob": "1997-05-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156683,
-      "name": "Janis Gysin",
-      "dob": "1997-07-22",
       "height": null,
       "weight": null
     },
@@ -1112,27 +1042,6 @@
       "id": 157892,
       "name": "Tim Blum",
       "dob": "1999-06-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 161204,
-      "name": "Remo Spahr",
-      "dob": "1994-06-14",
-      "height": 187,
-      "weight": 87
-    },
-    {
-      "id": 161749,
-      "name": "Simon Mosimann",
-      "dob": "1994-02-12",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 166828,
-      "name": "Noah Eichenberger",
-      "dob": "1987-08-13",
       "height": null,
       "weight": null
     },
@@ -1221,13 +1130,6 @@
       "weight": null
     },
     {
-      "id": 181714,
-      "name": "Luca Amrein",
-      "dob": "1999-07-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182767,
       "name": "Linus Deecke",
       "dob": "2004-02-02",
@@ -1252,20 +1154,6 @@
       "id": 183378,
       "name": "Ben Hensler",
       "dob": "1994-09-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 185862,
-      "name": "Julian Fischer",
-      "dob": "1996-11-04",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 185869,
-      "name": "Mischa von Burg",
-      "dob": "1997-12-17",
       "height": null,
       "weight": null
     },
@@ -1319,13 +1207,6 @@
       "weight": 93
     },
     {
-      "id": 204950,
-      "name": "Ricardo Pfeiffer",
-      "dob": "1987-08-31",
-      "height": 206,
-      "weight": 86
-    },
-    {
       "id": 208066,
       "name": "Tim Pirmin Amrein",
       "dob": "2005-06-02",
@@ -1368,13 +1249,6 @@
       "weight": 90
     },
     {
-      "id": 222235,
-      "name": "Loic Peter",
-      "dob": "2005-04-12",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 222319,
       "name": "Lukas Wymann",
       "dob": "2004-05-14",
@@ -1410,27 +1284,6 @@
       "weight": 85
     },
     {
-      "id": 233643,
-      "name": "Luan Walser",
-      "dob": "2009-09-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236737,
-      "name": "Severin Schmidt",
-      "dob": "2001-03-11",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236738,
-      "name": "Dea Schmidt",
-      "dob": "2002-09-13",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 239250,
       "name": "Romain Dos Santos",
       "dob": "1999-12-11",
@@ -1438,23 +1291,9 @@
       "weight": null
     },
     {
-      "id": 239838,
-      "name": "Samuel Ward",
-      "dob": "1996-08-07",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 239842,
       "name": "Yanick Stutz",
       "dob": "2006-10-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 240892,
-      "name": "Loïc Bortoluzzi",
-      "dob": "2009-07-03",
       "height": null,
       "weight": null
     }

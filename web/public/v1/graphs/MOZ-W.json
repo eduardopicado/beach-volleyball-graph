@@ -36,22 +36,6 @@
       "last": 2004
     },
     {
-      "id": 123176,
-      "name": "Joaquina Roque",
-      "short": "Roque",
-      "tournaments": 2,
-      "first": 2006,
-      "last": 2007
-    },
-    {
-      "id": 123187,
-      "name": "Sátira Chongo",
-      "short": "Chongo",
-      "tournaments": 2,
-      "first": 2006,
-      "last": 2007
-    },
-    {
       "id": 123217,
       "name": "Silvia Tazama",
       "short": "Tazama",
@@ -63,40 +47,24 @@
       "id": 146659,
       "name": "Vanessa Muianga",
       "short": "Vanessa",
-      "tournaments": 15,
+      "tournaments": 8,
       "first": 2017,
       "last": 2025
-    },
-    {
-      "id": 146703,
-      "name": "Lizi Cambula",
-      "short": "Cambula",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146913,
-      "name": "Fauzia Mussane",
-      "short": "Mussane",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 146944,
       "name": "Jessica Moiane",
       "short": "Moiane",
-      "tournaments": 4,
-      "first": 2014,
+      "tournaments": 2,
+      "first": 2016,
       "last": 2017
     },
     {
       "id": 146945,
       "name": "Liocadia Manhica",
       "short": "Manhica",
-      "tournaments": 7,
-      "first": 2014,
+      "tournaments": 5,
+      "first": 2016,
       "last": 2019
     },
     {
@@ -111,7 +79,7 @@
       "id": 168295,
       "name": "Ana Sinaportar",
       "short": "Sinaportar",
-      "tournaments": 12,
+      "tournaments": 5,
       "first": 2018,
       "last": 2023
     },
@@ -119,33 +87,25 @@
       "id": 177275,
       "name": "Angela Dercia Tembe",
       "short": "Angela",
-      "tournaments": 3,
-      "first": 2021,
+      "tournaments": 1,
+      "first": 2022,
       "last": 2022
     },
     {
       "id": 178378,
       "name": "Vania Precina José Miambo",
       "short": "Vania",
-      "tournaments": 3,
-      "first": 2021,
-      "last": 2023
+      "tournaments": 1,
+      "first": 2022,
+      "last": 2022
     },
     {
       "id": 178380,
       "name": "Verónica Carlos Roque",
       "short": "Verónica",
-      "tournaments": 2,
-      "first": 2023,
-      "last": 2025
-    },
-    {
-      "id": 178604,
-      "name": "Natalia Intego",
-      "short": "Natalia",
       "tournaments": 1,
-      "first": 2021,
-      "last": 2021
+      "first": 2025,
+      "last": 2025
     },
     {
       "id": 178664,
@@ -154,22 +114,6 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
-    },
-    {
-      "id": 226913,
-      "name": "Célia Nelson Machava",
-      "short": "Célia",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
-    },
-    {
-      "id": 226915,
-      "name": "Alaina Ana Mahumane",
-      "short": "Alaina",
-      "tournaments": 1,
-      "first": 2026,
-      "last": 2026
     }
   ],
   "edges": [
@@ -195,13 +139,6 @@
       "l": 2004
     },
     {
-      "a": 123176,
-      "b": 123187,
-      "t": 2,
-      "f": 2006,
-      "l": 2007
-    },
-    {
       "a": 146659,
       "b": 146945,
       "t": 2,
@@ -218,22 +155,15 @@
     {
       "a": 146659,
       "b": 168295,
-      "t": 11,
+      "t": 4,
       "f": 2022,
       "l": 2023
     },
     {
-      "a": 146703,
-      "b": 146913,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 146944,
       "b": 146945,
-      "t": 4,
-      "f": 2014,
+      "t": 2,
+      "f": 2016,
       "l": 2017
     },
     {
@@ -253,23 +183,9 @@
     {
       "a": 177275,
       "b": 178378,
-      "t": 2,
-      "f": 2021,
+      "t": 1,
+      "f": 2022,
       "l": 2022
-    },
-    {
-      "a": 177275,
-      "b": 178604,
-      "t": 1,
-      "f": 2021,
-      "l": 2021
-    },
-    {
-      "a": 178378,
-      "b": 178380,
-      "t": 1,
-      "f": 2023,
-      "l": 2023
     },
     {
       "a": 178380,
@@ -277,13 +193,6 @@
       "t": 1,
       "f": 2025,
       "l": 2025
-    },
-    {
-      "a": 226913,
-      "b": 226915,
-      "t": 1,
-      "f": 2026,
-      "l": 2026
     }
   ]
 }

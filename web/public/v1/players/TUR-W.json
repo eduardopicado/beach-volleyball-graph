@@ -3,13 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 104651,
-      "name": "Ebru Algur",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 115402,
       "name": "Güldeniz Önal",
       "dob": "1986-03-25",
@@ -136,30 +129,9 @@
       "weight": null
     },
     {
-      "id": 142265,
-      "name": "Havva Uzun",
-      "dob": "1995-03-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 142266,
-      "name": "Canan Kilic",
-      "dob": "1995-05-03",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 142267,
       "name": "Esra Betul Cetin",
       "dob": "1996-04-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 142268,
-      "name": "Begum Guven",
-      "dob": "1996-01-01",
       "height": null,
       "weight": null
     },
@@ -358,20 +330,6 @@
       "dob": "2007-12-03",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 200429,
-      "name": "Asli Tecimer",
-      "dob": "2000-05-12",
-      "height": 181,
-      "weight": 65
-    },
-    {
-      "id": 201296,
-      "name": "Idil Gur",
-      "dob": "2002-04-16",
-      "height": 181,
-      "weight": 69
     },
     {
       "id": 209232,

@@ -129,25 +129,11 @@
       "weight": null
     },
     {
-      "id": 112263,
-      "name": "Martin Balej",
-      "dob": "1983-07-04",
-      "height": 192,
-      "weight": 84
-    },
-    {
       "id": 117896,
       "name": "Marek Jany",
       "dob": "1979-07-15",
       "height": 191,
       "weight": 90
-    },
-    {
-      "id": 117897,
-      "name": "Ivan Valent",
-      "dob": "1985-09-30",
-      "height": null,
-      "weight": null
     },
     {
       "id": 118106,
@@ -220,13 +206,6 @@
       "weight": null
     },
     {
-      "id": 120123,
-      "name": "Marek Patuc",
-      "dob": "1983-07-09",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120569,
       "name": "Matej Hukel",
       "dob": "1988-08-27",
@@ -239,27 +218,6 @@
       "dob": "1988-10-04",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 120671,
-      "name": "Onderej Vavrinec",
-      "dob": "1991-03-03",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120675,
-      "name": "Samuel Siska",
-      "dob": "1991-01-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 123733,
-      "name": "Andrej Patuc",
-      "dob": "1984-12-30",
-      "height": 202,
-      "weight": 83
     },
     {
       "id": 124855,
@@ -332,20 +290,6 @@
       "weight": null
     },
     {
-      "id": 145075,
-      "name": "Michal Gréč",
-      "dob": "1986-12-16",
-      "height": 193,
-      "weight": 97
-    },
-    {
-      "id": 146905,
-      "name": "Marian Lukac",
-      "dob": "1995-11-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 150235,
       "name": "Lubos Nemec",
       "dob": "1995-03-02",
@@ -360,25 +304,11 @@
       "weight": 80
     },
     {
-      "id": 154405,
-      "name": "Peter Kviecinsky",
-      "dob": "1981-03-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 155009,
       "name": "Kamil Pavlinsky",
       "dob": "1995-08-31",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 156092,
-      "name": "Jakub Nano",
-      "dob": "1984-06-30",
-      "height": 187,
-      "weight": 85
     },
     {
       "id": 156684,
@@ -388,23 +318,9 @@
       "weight": 90
     },
     {
-      "id": 164458,
-      "name": "Matus Sima",
-      "dob": "1999-12-03",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 166978,
       "name": "Martin Petro",
       "dob": "1995-03-05",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 179391,
-      "name": "Martin Bielka",
-      "dob": "2003-09-24",
       "height": null,
       "weight": null
     },
@@ -423,13 +339,6 @@
       "weight": null
     },
     {
-      "id": 182268,
-      "name": "Denis Lapos",
-      "dob": "2005-11-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 187187,
       "name": "Marian Klimo",
       "dob": "1985-09-08",
@@ -442,34 +351,6 @@
       "dob": "1999-12-30",
       "height": 188,
       "weight": 75
-    },
-    {
-      "id": 190743,
-      "name": "Alexander Juraj Slavik",
-      "dob": "2007-02-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 196727,
-      "name": "Viktor Vnuk",
-      "dob": "1997-05-22",
-      "height": 195,
-      "weight": 93
-    },
-    {
-      "id": 239934,
-      "name": "Lukas Hunady",
-      "dob": "2009-09-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 239935,
-      "name": "Kevin Kalma",
-      "dob": "2009-03-25",
-      "height": null,
-      "weight": null
     }
   ]
 }

@@ -346,13 +346,6 @@
       "weight": null
     },
     {
-      "id": 112901,
-      "name": "Ales Holubec",
-      "dob": "1984-03-13",
-      "height": 199,
-      "weight": 90
-    },
-    {
       "id": 113832,
       "name": "Peter Platenik",
       "dob": "1981-03-16",
@@ -384,13 +377,6 @@
       "id": 117904,
       "name": "Pavel Krc",
       "dob": "1975-03-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 117913,
-      "name": "Roman Kozak",
-      "dob": "1985-09-21",
       "height": null,
       "weight": null
     },
@@ -486,32 +472,11 @@
       "weight": 98
     },
     {
-      "id": 120292,
-      "name": "Ondrej Vlcek",
-      "dob": "1986-10-01",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120293,
-      "name": "Tomas Hrdy",
-      "dob": "1983-11-02",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120295,
       "name": "Michal Provaznik",
       "dob": "1975-04-11",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 120507,
-      "name": "Jan Štokr",
-      "dob": "1983-01-16",
-      "height": 205,
-      "weight": 112
     },
     {
       "id": 120519,
@@ -575,13 +540,6 @@
       "dob": "1991-06-03",
       "height": 198,
       "weight": 102
-    },
-    {
-      "id": 125199,
-      "name": "Lukáš Gucký",
-      "dob": "1991-01-21",
-      "height": null,
-      "weight": null
     },
     {
       "id": 129097,
@@ -710,20 +668,6 @@
       "weight": null
     },
     {
-      "id": 138834,
-      "name": "Martin Caban",
-      "dob": "1991-05-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 138835,
-      "name": "Jan Trubak",
-      "dob": "1991-08-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 138836,
       "name": "Libor Leikep",
       "dob": "1988-03-30",
@@ -801,13 +745,6 @@
       "weight": 85
     },
     {
-      "id": 150634,
-      "name": "Daniel Pfeffer",
-      "dob": "1990-04-27",
-      "height": 184,
-      "weight": 80
-    },
-    {
       "id": 153201,
       "name": "Daniel Sedlák",
       "dob": "1998-01-29",
@@ -834,20 +771,6 @@
       "dob": "2000-01-19",
       "height": 193,
       "weight": 85
-    },
-    {
-      "id": 154124,
-      "name": "Stepan Havlin",
-      "dob": "2000-12-14",
-      "height": 190,
-      "weight": 82
-    },
-    {
-      "id": 154863,
-      "name": "Martin Svatek",
-      "dob": "1991-05-12",
-      "height": null,
-      "weight": null
     },
     {
       "id": 156061,
@@ -899,13 +822,6 @@
       "weight": null
     },
     {
-      "id": 160089,
-      "name": "Radovan Makovsky",
-      "dob": "1981-02-08",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 160834,
       "name": "Frantisek Knobloch",
       "dob": "2000-06-14",
@@ -913,32 +829,11 @@
       "weight": 85
     },
     {
-      "id": 160905,
-      "name": "Martin Barta",
-      "dob": "1991-01-07",
-      "height": 202,
-      "weight": 86
-    },
-    {
-      "id": 160906,
-      "name": "Ondrej Redl",
-      "dob": "1992-03-12",
-      "height": 186,
-      "weight": 82
-    },
-    {
       "id": 162704,
       "name": "Martin Melmuka",
       "dob": "1999-08-18",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 163797,
-      "name": "Jiri Mikulenka",
-      "dob": "2001-06-14",
-      "height": 193,
-      "weight": 80
     },
     {
       "id": 164296,
@@ -974,13 +869,6 @@
       "dob": "2002-03-05",
       "height": 190,
       "weight": 81
-    },
-    {
-      "id": 168657,
-      "name": "Jindrich Zavadil",
-      "dob": "2001-12-01",
-      "height": 185,
-      "weight": 98
     },
     {
       "id": 168821,
@@ -1039,13 +927,6 @@
       "weight": null
     },
     {
-      "id": 174027,
-      "name": "Filip Humler",
-      "dob": "1999-07-24",
-      "height": 200,
-      "weight": 95
-    },
-    {
       "id": 174032,
       "name": "Matyas Jezek",
       "dob": "2000-01-30",
@@ -1081,13 +962,6 @@
       "weight": null
     },
     {
-      "id": 178309,
-      "name": "Viktor Dostal",
-      "dob": "2002-04-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 178311,
       "name": "Vojtech Polednik",
       "dob": "2003-08-26",
@@ -1116,13 +990,6 @@
       "weight": null
     },
     {
-      "id": 179064,
-      "name": "David Kittel",
-      "dob": "2000-11-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 179528,
       "name": "Krystof Nemec",
       "dob": "2003-10-14",
@@ -1140,20 +1007,6 @@
       "id": 179910,
       "name": "Jakub Malik",
       "dob": "2003-10-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180076,
-      "name": "Krystof Volf",
-      "dob": "1995-11-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 180077,
-      "name": "Jan Leden",
-      "dob": "1996-08-02",
       "height": null,
       "weight": null
     },
@@ -1193,13 +1046,6 @@
       "weight": null
     },
     {
-      "id": 182378,
-      "name": "Jan Beran",
-      "dob": "2003-08-01",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 190440,
       "name": "Jiri Dostal",
       "dob": "2003-07-23",
@@ -1221,23 +1067,9 @@
       "weight": null
     },
     {
-      "id": 190775,
-      "name": "Krystof Kvicala",
-      "dob": "2005-07-25",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 191893,
       "name": "Theodor Vasut",
       "dob": "2008-09-10",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 192340,
-      "name": "Marek Pohl",
-      "dob": "2005-12-31",
       "height": null,
       "weight": null
     },
@@ -1263,20 +1095,6 @@
       "weight": 108
     },
     {
-      "id": 201811,
-      "name": "Vojtech Novotny",
-      "dob": "2005-12-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 202726,
-      "name": "David Vyoral",
-      "dob": "2006-12-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 203268,
       "name": "Vojtěch Votava",
       "dob": "2007-02-08",
@@ -1298,23 +1116,9 @@
       "weight": null
     },
     {
-      "id": 209571,
-      "name": "Vojtech Andrs",
-      "dob": "2005-06-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 209572,
       "name": "Vitezslav Simek",
       "dob": "2002-04-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 209573,
-      "name": "Simon Tuma",
-      "dob": "2006-07-23",
       "height": null,
       "weight": null
     },
@@ -1403,13 +1207,6 @@
       "weight": null
     },
     {
-      "id": 225334,
-      "name": "Oliver Voldrich",
-      "dob": "2008-03-28",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 225338,
       "name": "Kaspar Strnad",
       "dob": "2008-07-29",
@@ -1427,27 +1224,6 @@
       "id": 227244,
       "name": "Filip Richter",
       "dob": "2007-02-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236090,
-      "name": "Rostislav Kosina",
-      "dob": "2007-10-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236092,
-      "name": "Martin Bizzuto",
-      "dob": "2008-01-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236118,
-      "name": "Andrii Holub",
-      "dob": "2006-12-15",
       "height": null,
       "weight": null
     }

@@ -4,26 +4,10 @@
   "gender": "M",
   "nodes": [
     {
-      "id": 155679,
-      "name": "Victor Isaias Lopes Sanches",
-      "short": "Lopes",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
-      "id": 161671,
-      "name": "Hélio César Lopes Sanches",
-      "short": "Hélio Sanches",
-      "tournaments": 1,
-      "first": 2025,
-      "last": 2025
-    },
-    {
       "id": 175260,
       "name": "Admilson Melo",
       "short": "admilson",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2025,
       "last": 2026
     },
@@ -47,7 +31,7 @@
       "id": 207821,
       "name": "Ivan Mota",
       "short": "Ivan",
-      "tournaments": 4,
+      "tournaments": 3,
       "first": 2025,
       "last": 2026
     },
@@ -126,16 +110,9 @@
   ],
   "edges": [
     {
-      "a": 155679,
-      "b": 161671,
-      "t": 1,
-      "f": 2025,
-      "l": 2025
-    },
-    {
       "a": 175260,
       "b": 207821,
-      "t": 4,
+      "t": 3,
       "f": 2025,
       "l": 2026
     },

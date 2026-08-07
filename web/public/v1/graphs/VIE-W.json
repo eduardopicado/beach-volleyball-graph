@@ -60,36 +60,12 @@
       "last": 2019
     },
     {
-      "id": 135275,
-      "name": "Ngo Vo Thanh Loan",
-      "short": "Ng. Loan",
-      "tournaments": 1,
-      "first": 2015,
-      "last": 2015
-    },
-    {
       "id": 146144,
       "name": "T. Bichvi",
       "short": "T. Bichvi",
       "tournaments": 1,
       "first": 2018,
       "last": 2018
-    },
-    {
-      "id": 148594,
-      "name": "Thi Thu Van Tu",
-      "short": "Tu",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 148595,
-      "name": "Thi Bich Vi Le",
-      "short": "Le",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 148950,
@@ -103,8 +79,8 @@
       "id": 150559,
       "name": "Ngoc Lan Nguyen Vu",
       "short": "V.N.L.Nguyen",
-      "tournaments": 2,
-      "first": 2015,
+      "tournaments": 1,
+      "first": 2022,
       "last": 2022
     },
     {
@@ -114,22 +90,6 @@
       "tournaments": 1,
       "first": 2019,
       "last": 2019
-    },
-    {
-      "id": 156457,
-      "name": "Truc Quynh Anh Pham",
-      "short": "P.T.Q.Anh",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
-    },
-    {
-      "id": 156982,
-      "name": "Le Doan Huynh Yen",
-      "short": "HOCHIMINH CITY",
-      "tournaments": 1,
-      "first": 2016,
-      "last": 2016
     },
     {
       "id": 161381,
@@ -199,17 +159,9 @@
       "id": 189591,
       "name": "Hong Hanh Mai",
       "short": "M.H.HANH",
-      "tournaments": 2,
-      "first": 2022,
-      "last": 2023
-    },
-    {
-      "id": 189592,
-      "name": "Thi My Nga Dinh",
-      "short": "D.T.M.Nga",
       "tournaments": 1,
-      "first": 2022,
-      "last": 2022
+      "first": 2023,
+      "last": 2023
     },
     {
       "id": 199504,
@@ -264,25 +216,11 @@
       "l": 2019
     },
     {
-      "a": 135275,
-      "b": 150559,
-      "t": 1,
-      "f": 2015,
-      "l": 2015
-    },
-    {
       "a": 146144,
       "b": 162136,
       "t": 1,
       "f": 2018,
       "l": 2018
-    },
-    {
-      "a": 148594,
-      "b": 148595,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
     },
     {
       "a": 148950,
@@ -306,13 +244,6 @@
       "l": 2019
     },
     {
-      "a": 156457,
-      "b": 156982,
-      "t": 1,
-      "f": 2016,
-      "l": 2016
-    },
-    {
       "a": 161381,
       "b": 167737,
       "t": 1,
@@ -325,13 +256,6 @@
       "t": 1,
       "f": 2019,
       "l": 2019
-    },
-    {
-      "a": 189591,
-      "b": 189592,
-      "t": 1,
-      "f": 2022,
-      "l": 2022
     },
     {
       "a": 189591,

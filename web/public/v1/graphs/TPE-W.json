@@ -15,47 +15,23 @@
       "id": 134692,
       "name": "Pi Hsin Liu",
       "short": "LIU P.H.",
-      "tournaments": 33,
+      "tournaments": 24,
       "first": 2012,
       "last": 2020
-    },
-    {
-      "id": 138597,
-      "name": "Shu-Fen Wu",
-      "short": "Wu S.F.",
-      "tournaments": 3,
-      "first": 2012,
-      "last": 2012
     },
     {
       "id": 146088,
       "name": "Tzu-Yi Pan",
       "short": "PAN T.Y.",
-      "tournaments": 18,
+      "tournaments": 14,
       "first": 2018,
       "last": 2020
-    },
-    {
-      "id": 146103,
-      "name": "Tzu-Yi Pan",
-      "short": "Pan T Y",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
-    },
-    {
-      "id": 146104,
-      "name": "Yu-Rong Song",
-      "short": "Song Y R",
-      "tournaments": 1,
-      "first": 2014,
-      "last": 2014
     },
     {
       "id": 152984,
       "name": "Nai-Han Kou",
       "short": "KOU N.H.",
-      "tournaments": 32,
+      "tournaments": 24,
       "first": 2010,
       "last": 2020
     },
@@ -63,7 +39,7 @@
       "id": 165038,
       "name": "Ya-Hsuan Yu",
       "short": "YU Y.H.",
-      "tournaments": 18,
+      "tournaments": 14,
       "first": 2018,
       "last": 2020
     },
@@ -71,9 +47,9 @@
       "id": 167048,
       "name": "Hsuan-Tsen Yeh",
       "short": "YEH H.T.",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 167171,
@@ -87,9 +63,9 @@
       "id": 167174,
       "name": "Shih-Wen Kung",
       "short": "KUNG S.W.",
-      "tournaments": 4,
+      "tournaments": 1,
       "first": 2019,
-      "last": 2020
+      "last": 2019
     },
     {
       "id": 173028,
@@ -133,38 +109,24 @@
     },
     {
       "a": 134692,
-      "b": 138597,
-      "t": 3,
-      "f": 2012,
-      "l": 2012
-    },
-    {
-      "a": 134692,
       "b": 152984,
-      "t": 30,
+      "t": 22,
       "f": 2018,
       "l": 2020
     },
     {
       "a": 146088,
       "b": 165038,
-      "t": 18,
+      "t": 14,
       "f": 2018,
       "l": 2020
     },
     {
-      "a": 146103,
-      "b": 146104,
-      "t": 1,
-      "f": 2014,
-      "l": 2014
-    },
-    {
       "a": 167048,
       "b": 167174,
-      "t": 4,
+      "t": 1,
       "f": 2019,
-      "l": 2020
+      "l": 2019
     },
     {
       "a": 167171,

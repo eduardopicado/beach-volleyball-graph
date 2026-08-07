@@ -507,13 +507,6 @@
       "weight": null
     },
     {
-      "id": 117086,
-      "name": "Vladislav Zhloba",
-      "dob": "1982-03-02",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 117090,
       "name": "Dmitry Vasilevsky",
       "dob": null,
@@ -549,13 +542,6 @@
       "weight": 83
     },
     {
-      "id": 118037,
-      "name": "Andrey Kiselev",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 118038,
       "name": "Sergey Kostyukhin",
       "dob": "1989-05-17",
@@ -572,13 +558,6 @@
     {
       "id": 118175,
       "name": "Oleg Uharev",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 119672,
-      "name": "Alexey Lipezin",
       "dob": null,
       "height": null,
       "weight": null
@@ -626,20 +605,6 @@
       "weight": 78
     },
     {
-      "id": 120314,
-      "name": "Pavel Reshetnyak",
-      "dob": "1986-06-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120315,
-      "name": "Viktor Kharchenko",
-      "dob": "1986-05-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120523,
       "name": "Vladimir Moroz",
       "dob": "1985-03-07",
@@ -675,23 +640,9 @@
       "weight": null
     },
     {
-      "id": 120742,
-      "name": "Anton Iorik",
-      "dob": "1991-05-02",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120749,
       "name": "Viacheslav Krasilnikov",
       "dob": "1991-04-28",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120808,
-      "name": "Yury Gushchin",
-      "dob": "1990-05-12",
       "height": null,
       "weight": null
     },
@@ -850,13 +801,6 @@
       "weight": null
     },
     {
-      "id": 124190,
-      "name": "Alexander Sokolov",
-      "dob": "1984-09-27",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 124622,
       "name": "Daniil Kuvichka",
       "dob": "1990-05-10",
@@ -869,13 +813,6 @@
       "dob": "1990-05-03",
       "height": 199,
       "weight": 90
-    },
-    {
-      "id": 125456,
-      "name": "Olefir Bogdan",
-      "dob": "1990-06-10",
-      "height": null,
-      "weight": null
     },
     {
       "id": 131860,
@@ -916,13 +853,6 @@
       "id": 132228,
       "name": "Vasili Andrianov",
       "dob": "1993-02-02",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 132482,
-      "name": "Petr Korolev",
-      "dob": "1981-07-12",
       "height": null,
       "weight": null
     },
@@ -974,13 +904,6 @@
       "dob": "1994-05-30",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 138421,
-      "name": "Alexander Kullo",
-      "dob": "1989-04-07",
-      "height": 198,
-      "weight": 85
     },
     {
       "id": 139166,
@@ -1053,13 +976,6 @@
       "weight": null
     },
     {
-      "id": 146349,
-      "name": "Oleg Velichko",
-      "dob": "1993-01-24",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 146568,
       "name": "Vasilii Ivanov",
       "dob": "1999-07-08",
@@ -1088,13 +1004,6 @@
       "weight": 83
     },
     {
-      "id": 146699,
-      "name": "Kirill Fialkovskiy",
-      "dob": "1996-01-22",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 147531,
       "name": "Nikita Liamin",
       "dob": "1985-10-14",
@@ -1119,13 +1028,6 @@
       "id": 148705,
       "name": "Anton Kislytsyn",
       "dob": "1993-02-19",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 151298,
-      "name": "Vadim Smorchkov",
-      "dob": "1996-04-25",
       "height": null,
       "weight": null
     },
@@ -1214,20 +1116,6 @@
       "weight": null
     },
     {
-      "id": 169415,
-      "name": "Egor Kirillov",
-      "dob": "1996-05-09",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 171758,
-      "name": "Viktor Markov",
-      "dob": "1996-09-24",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 178035,
       "name": "Kirill Kranin",
       "dob": "1998-02-08",
@@ -1263,44 +1151,9 @@
       "weight": 87
     },
     {
-      "id": 180975,
-      "name": "Vladislav Aksenov",
-      "dob": "1988-04-10",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 182251,
       "name": "Marat Islamov",
       "dob": "2003-02-16",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 225289,
-      "name": "German Obukhov",
-      "dob": "2009-07-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 226484,
-      "name": "Vladimir Klimov",
-      "dob": "2009-05-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 234226,
-      "name": "SERGEI ZHELTIKOV",
-      "dob": "2009-04-17",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 239288,
-      "name": "Kirill Aleksandrov",
-      "dob": "2010-04-01",
       "height": null,
       "weight": null
     }

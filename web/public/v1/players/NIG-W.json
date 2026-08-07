@@ -3,13 +3,6 @@
   "gender": "W",
   "players": [
     {
-      "id": 137192,
-      "name": "Djibo Karimou Saadatou",
-      "dob": "1990-09-09",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 139038,
       "name": "Roukeya Insa Garanke",
       "dob": "1995-01-11",
@@ -22,41 +15,6 @@
       "dob": "1995-04-22",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 150313,
-      "name": "Rakiatou Seydou",
-      "dob": "1988-06-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156304,
-      "name": "Soumana Sieni Balkissa",
-      "dob": "1995-09-26",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 156305,
-      "name": "Malam Boukari Salamatou",
-      "dob": "1996-06-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 202239,
-      "name": "KAFAYYATOU SANI ISSOUFOU",
-      "dob": "2005-02-01",
-      "height": 170,
-      "weight": 50
-    },
-    {
-      "id": 208800,
-      "name": "ALI IDI NANA NADIA",
-      "dob": "1997-05-12",
-      "height": 173,
-      "weight": 67
     }
   ]
 }

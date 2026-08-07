@@ -479,13 +479,6 @@
       "weight": null
     },
     {
-      "id": 118263,
-      "name": "Sophie Colditz",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 118264,
       "name": "Liane Lehmann",
       "dob": null,
@@ -584,13 +577,6 @@
       "weight": null
     },
     {
-      "id": 120461,
-      "name": "Stephanie Kestner",
-      "dob": "1986-03-29",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 120750,
       "name": "Chantal Laboureur",
       "dob": "1990-01-04",
@@ -601,20 +587,6 @@
       "id": 120751,
       "name": "Teresa Mersmann",
       "dob": "1990-04-18",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120752,
-      "name": "Laura Feldmann",
-      "dob": "1990-09-15",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 120754,
-      "name": "Bente Heublein",
-      "dob": "1991-07-09",
       "height": null,
       "weight": null
     },
@@ -738,20 +710,6 @@
       "weight": null
     },
     {
-      "id": 137340,
-      "name": "Maxi Batschkus",
-      "dob": "1994-11-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 137341,
-      "name": "Imke Hinrichsen",
-      "dob": "1994-09-23",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 139390,
       "name": "Sarah Schneider",
       "dob": "1996-01-22",
@@ -790,13 +748,6 @@
       "id": 142933,
       "name": "Maria Eckelmann",
       "dob": "1995-03-30",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 143622,
-      "name": "Anna Hoja",
-      "dob": "1992-03-25",
       "height": null,
       "weight": null
     },
@@ -913,13 +864,6 @@
       "weight": null
     },
     {
-      "id": 161500,
-      "name": "Anika Wucherer",
-      "dob": "1996-11-12",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 163413,
       "name": "Hannah Ziemer",
       "dob": "1999-10-25",
@@ -939,13 +883,6 @@
       "dob": "2000-11-14",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 163665,
-      "name": "Alexa Kaminski",
-      "dob": "2000-02-17",
-      "height": 188,
-      "weight": 66
     },
     {
       "id": 166925,
@@ -969,39 +906,11 @@
       "weight": 65
     },
     {
-      "id": 168359,
-      "name": "Antonia Bartholome",
-      "dob": "2000-09-06",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 168371,
       "name": "Paula Schürholz",
       "dob": "2002-01-07",
       "height": 180,
       "weight": 65
-    },
-    {
-      "id": 168769,
-      "name": "Larissa Claaßen",
-      "dob": "1995-03-06",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 168942,
-      "name": "Tessa Hassenstein",
-      "dob": "2002-10-08",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 169015,
-      "name": "Leonie Freytag",
-      "dob": "2002-05-08",
-      "height": 178,
-      "weight": 67
     },
     {
       "id": 169016,
@@ -1021,13 +930,6 @@
       "id": 169547,
       "name": "Astrid Munkwitz",
       "dob": "1992-02-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 175330,
-      "name": "Josefin Bluhm",
-      "dob": "2000-03-10",
       "height": null,
       "weight": null
     },
@@ -1109,13 +1011,6 @@
       "weight": null
     },
     {
-      "id": 190862,
-      "name": "Lilly Faroß",
-      "dob": "2003-10-04",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 191628,
       "name": "Mila Jancar",
       "dob": "2007-01-06",
@@ -1179,13 +1074,6 @@
       "weight": null
     },
     {
-      "id": 210861,
-      "name": "Luisa Durisova",
-      "dob": "2007-09-21",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 213307,
       "name": "Isabel Marie Schattauer",
       "dob": "2005-08-18",
@@ -1221,34 +1109,6 @@
       "weight": null
     },
     {
-      "id": 220559,
-      "name": "Daniela Hülsebusch",
-      "dob": "1989-11-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 220560,
-      "name": "Tanja Hülsebusch",
-      "dob": "1989-11-20",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 220856,
-      "name": "Carlotta Sophia Kahm",
-      "dob": "2010-03-13",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 220857,
-      "name": "Klara Isekenmeier",
-      "dob": "2010-04-20",
-      "height": 185,
-      "weight": null
-    },
-    {
       "id": 221481,
       "name": "Angelina Linke",
       "dob": "2005-03-16",
@@ -1259,27 +1119,6 @@
       "id": 222902,
       "name": "Mieke Joli Luise Hesse",
       "dob": "2004-09-25",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 223848,
-      "name": "Anne Jansen",
-      "dob": "1998-04-29",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 223849,
-      "name": "Tara Fröhlich",
-      "dob": "2004-07-24",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 223853,
-      "name": "Sunna Milz",
-      "dob": "2008-03-22",
       "height": null,
       "weight": null
     },
@@ -1296,13 +1135,6 @@
       "dob": "2005-12-28",
       "height": null,
       "weight": null
-    },
-    {
-      "id": 226516,
-      "name": "Emilia Antonia Bruno",
-      "dob": "2006-05-14",
-      "height": 178,
-      "weight": 67
     },
     {
       "id": 226708,
@@ -1333,27 +1165,6 @@
       "weight": 57
     },
     {
-      "id": 233002,
-      "name": "Lisa Zornow",
-      "dob": "2007-07-22",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 236785,
-      "name": "Ella Feline Schürholz",
-      "dob": "2010-09-16",
-      "height": 172,
-      "weight": null
-    },
-    {
-      "id": 239517,
-      "name": "Sophi Rießner",
-      "dob": "1997-04-15",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 239601,
       "name": "Helene Heidrich",
       "dob": "2009-04-28",
@@ -1371,13 +1182,6 @@
       "id": 239902,
       "name": "Jaimie Krätzer",
       "dob": "2008-03-31",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 239956,
-      "name": "Pauline Meyer",
-      "dob": "2003-04-21",
       "height": null,
       "weight": null
     }

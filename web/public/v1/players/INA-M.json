@@ -164,13 +164,6 @@
       "weight": 81
     },
     {
-      "id": 119681,
-      "name": "Agung Santoso",
-      "dob": "1985-06-05",
-      "height": 184,
-      "weight": 74
-    },
-    {
       "id": 119682,
       "name": "Suratna Suratna",
       "dob": "1984-10-11",
@@ -181,20 +174,6 @@
       "id": 125616,
       "name": "Dian Putra Santosa",
       "dob": "1986-08-14",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 125617,
-      "name": "Naci Subagja",
-      "dob": "1986-12-07",
-      "height": null,
-      "weight": null
-    },
-    {
-      "id": 135424,
-      "name": "Fahriansyah Fahriansyah",
-      "dob": "1992-03-18",
       "height": null,
       "weight": null
     },
@@ -241,13 +220,6 @@
       "weight": null
     },
     {
-      "id": 161480,
-      "name": "Muchamad Fauzi Setiawan",
-      "dob": null,
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 163782,
       "name": "Imtaq Shihab",
       "dob": "1997-03-22",
@@ -283,32 +255,11 @@
       "weight": null
     },
     {
-      "id": 175434,
-      "name": "YOGI HERMAWAN",
-      "dob": "2000-10-11",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 199950,
       "name": "Sofyan Rachman Efendi",
       "dob": "2003-04-06",
       "height": 190,
       "weight": 80
-    },
-    {
-      "id": 217279,
-      "name": "Imam Ahmad Faisal",
-      "dob": "2005-05-14",
-      "height": 197,
-      "weight": 80
-    },
-    {
-      "id": 229191,
-      "name": "Fairuz Bayhaqli",
-      "dob": "2009-05-13",
-      "height": null,
-      "weight": null
     }
   ]
 }
