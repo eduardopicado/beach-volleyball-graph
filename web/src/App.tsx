@@ -249,10 +249,10 @@ export default function App() {
       }
     }
     if (oly.gold + oly.silver + oly.bronze > 0) {
-      result.push({ label: 'Olympic medals', value: formatMedals(oly) });
+      result.push({ label: 'Olympics', value: formatMedals(oly) });
     }
     if (wch.gold + wch.silver + wch.bronze > 0) {
-      result.push({ label: 'World Champs medals', value: formatMedals(wch) });
+      result.push({ label: 'Worlds', value: formatMedals(wch) });
     }
 
     const degrees = nodes.map((n) => (partnersByPlayer.get(n.id)?.length ?? 0));
