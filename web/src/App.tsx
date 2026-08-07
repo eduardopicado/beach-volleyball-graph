@@ -222,13 +222,46 @@ export default function App() {
     const nodes = visibleNodes;
     const edges = visibleEdges;
     if (nodes.length === 0) return [];
+
+    const result: Stat[] = [];
+
+    // A country-wide bonus fact, not about any specific pairing: every
+    // player's medals summed for the whole slice, deliberately unfiltered by
+    // the "min events together" slider above -- a medal already won
+    // shouldn't disappear because that slider hid a player's current edges.
+    // Kept right after the player count (rather than at the end, with the
+    // partnership stats) since it describes the country, not the graph.
+    // Olympic and World Championships tallies are kept separate, same as on
+    // the player card: they are not the same prestige, and merging them
+    // would hide which is which.
+    const oly = { gold: 0, silver: 0, bronze: 0 };
+    const wch = { gold: 0, silver: 0, bronze: 0 };
+    for (const p of details?.players ?? []) {
+      if (p.olympics) {
+        oly.gold += p.olympics.gold;
+        oly.silver += p.olympics.silver;
+        oly.bronze += p.olympics.bronze;
+      }
+      if (p.worldChamps) {
+        wch.gold += p.worldChamps.gold;
+        wch.silver += p.worldChamps.silver;
+        wch.bronze += p.worldChamps.bronze;
+      }
+    }
+    if (oly.gold + oly.silver + oly.bronze > 0) {
+      result.push({ label: 'Olympic medals', value: formatMedals(oly) });
+    }
+    if (wch.gold + wch.silver + wch.bronze > 0) {
+      result.push({ label: 'World Champs medals', value: formatMedals(wch) });
+    }
+
     const degrees = nodes.map((n) => (partnersByPlayer.get(n.id)?.length ?? 0));
     const avg = degrees.reduce((a, b) => a + b, 0) / nodes.length;
     const longest = [...edges].sort((a, b) => b.t - a.t)[0];
     const longestNames = longest
       ? `${nodesById.get(longest.a)?.name ?? '?'} & ${nodesById.get(longest.b)?.name ?? '?'}`
       : '—';
-    const result: Stat[] = [
+    result.push(
       { label: 'Partnerships', value: edges.length.toLocaleString() },
       { label: 'Avg. partners', value: avg.toFixed(1), detail: 'per player' },
       {
@@ -236,34 +269,7 @@ export default function App() {
         value: longest ? `${longest.t}` : '—',
         detail: longest ? `${longestNames} · ${longest.f}–${longest.l}` : undefined,
       },
-    ];
-
-    // Whole-country total, not the partnership-strength-filtered set above: a
-    // medal a player already won doesn't stop counting because the "min
-    // events together" slider hid their current partnerships.
-    let gold = 0;
-    let silver = 0;
-    let bronze = 0;
-    for (const p of details?.players ?? []) {
-      if (p.olympics) {
-        gold += p.olympics.gold;
-        silver += p.olympics.silver;
-        bronze += p.olympics.bronze;
-      }
-      if (p.worldChamps) {
-        gold += p.worldChamps.gold;
-        silver += p.worldChamps.silver;
-        bronze += p.worldChamps.bronze;
-      }
-    }
-    const totalMedals = gold + silver + bronze;
-    if (totalMedals > 0) {
-      result.push({
-        label: 'Total medals',
-        value: totalMedals.toLocaleString(),
-        detail: `${formatMedals({ gold, silver, bronze })} · Olympics & World Champs`,
-      });
-    }
+    );
 
     return result;
   }, [visibleNodes, visibleEdges, partnersByPlayer, nodesById, details]);
