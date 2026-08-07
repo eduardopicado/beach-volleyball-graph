@@ -26,9 +26,24 @@ export const FIVB_ORGANIZER_TYPE = '1';
  * Deliberately excluded, for the record:
  *   7, 8, 11, 12, 34, 47, 48, 55  continental championships / cups / zonal tours
  *   9, 35                          seminars, VIS clinics, test events
+ *   15, 16-21, 28-30, 46           National Tour, all age groups (see below)
  *   19, 36, 45                     snow volleyball
  *   44                             multi-sport games (Commonwealth, Pan Am, FISU)
  *   50                             King of the Court (outside the FIVB tour structure)
+ *
+ * Type 15 was previously mapped to 'world-tour' here, on the theory that it
+ * meant "1-star" and that OrganizerType alone was enough to tell a genuine
+ * FIVB 1-star from a domestic one. Both halves of that were wrong: FIVB's own
+ * schema (https://www.fivb.org/VisSDK/VisWebService/BeachTournamentType.html)
+ * names value 15 `NationalTour` outright — the real 1-star is 42 — and
+ * OrganizerType on National Tour records is not reliable enough to filter by;
+ * a meaningful share of them carry OrganizerType 1 (FIVB) regardless of who
+ * actually ran the event. Every Type-15 tournament this had let through
+ * turned out to be a domestic tour (Australia, Argentina, Poland, New
+ * Zealand, Cameroon, Mauritius, Egypt, Kenya, Estonia, Guinea and more,
+ * checked directly against VIS) inflating those countries' player and
+ * partnership counts — this is what made Australia's total look implausibly
+ * close to Brazil's.
  */
 export const TIER_BY_TYPE: Record<number, Tier> = {
   // --- Olympic ---
@@ -53,9 +68,6 @@ export const TIER_BY_TYPE: Record<number, Tier> = {
   2: 'world-tour', // Challenger
   3: 'world-tour', // World Series (1996)
   6: 'world-tour', // Satellite
-  15: 'world-tour', // 1-star (FIVB-organized only; Type 15 under a national
-  //                  federation is a domestic tour and is filtered out by
-  //                  the OrganizerType check)
   32: 'world-tour', // Major Series
   33: 'world-tour', // World Tour Finals
   38: 'world-tour', // Major
