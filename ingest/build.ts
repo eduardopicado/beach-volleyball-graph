@@ -50,6 +50,7 @@ export interface RejectCounts {
   unknownPlayer: number;
   outOfScopeTournament: number;
   duplicateEntry: number;
+  didNotPlay: number;
 }
 
 // --- Stage 1 normalisation -------------------------------------------------
@@ -159,6 +160,7 @@ export function aggregatePartnerships(
     unknownPlayer: 0,
     outOfScopeTournament: 0,
     duplicateEntry: 0,
+    didNotPlay: 0,
   };
 
   const noteAppearance = (id: number, tournamentNo: string) => {
@@ -188,6 +190,23 @@ export function aggregatePartnerships(
     }
     if (!players.has(a) || !players.has(b)) {
       rejects.unknownPlayer++;
+      continue;
+    }
+
+    // VIS keeps a team's registration row even after it's superseded: a pair
+    // registers, one side pulls out before the event and re-registers with a
+    // different partner, and the original row is never deleted — just marked
+    // Rank 0 ("has not played the tournament", per FIVB's own field
+    // description). Filtering on that, not on Status, is what actually tells
+    // "never competed" apart from "competed and has a real result": a team
+    // that plays into the tournament and can't finish (an injury retirement,
+    // even in the very last match) still keeps its bracket placement and a
+    // real Rank — Status alone doesn't distinguish these, Rank does. Negative
+    // Rank values (qualification/quota eliminations) are real participation
+    // and are kept; `Number('')` also happens to be 0, which is exactly right
+    // for a blank Rank on a row that was never played.
+    if (Number(row.Rank) === 0) {
+      rejects.didNotPlay++;
       continue;
     }
 

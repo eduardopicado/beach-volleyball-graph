@@ -166,6 +166,61 @@ describe('aggregatePartnerships', () => {
     expect(appearances.get(1)!.size).toBe(2);
     expect(appearances.get(2)!.size).toBe(1);
   });
+
+  it('rejects a team entry with Rank 0 -- registered but never played', () => {
+    const { partnerships, appearances, rejects } = aggregatePartnerships(
+      [{ ...entry('t1', 1, 2), Rank: '0' }],
+      tournaments,
+      players,
+    );
+    expect(partnerships.size).toBe(0);
+    expect(appearances.size).toBe(0);
+    expect(rejects.didNotPlay).toBe(1);
+  });
+
+  it('treats a blank Rank the same as 0 -- the shape a withdrawn row actually has', () => {
+    const { rejects } = aggregatePartnerships([{ ...entry('t1', 1, 2), Rank: '' }], tournaments, players);
+    expect(rejects.didNotPlay).toBe(1);
+  });
+
+  it('keeps a negative Rank -- a real qualification/quota elimination, not a no-show', () => {
+    const { partnerships } = aggregatePartnerships(
+      [{ ...entry('t1', 1, 2), Rank: '-2' }, { ...entry('t2', 1, 2), Rank: '-25' }],
+      tournaments,
+      players,
+    );
+    expect(partnerships.get('1:2')!.tournaments.size).toBe(2);
+  });
+
+  it('keeps a real positive Rank', () => {
+    const { partnerships } = aggregatePartnerships(
+      [{ ...entry('t1', 1, 2), Rank: '4' }],
+      tournaments,
+      players,
+    );
+    expect(partnerships.get('1:2')!.tournaments.size).toBe(1);
+  });
+
+  it('resolves a cancelled-then-replaced registration to just the team that played', () => {
+    // The real-world shape this exists for: player 1 registers with player 2,
+    // that registration is superseded before the tournament by a re-pairing
+    // with player 3, and VIS keeps both rows -- the first with Rank 0, the
+    // second with a real result. Without this filter both would count as
+    // real partnerships for the same tournament, double-crediting player 1.
+    const { partnerships, appearances } = aggregatePartnerships(
+      [
+        { ...entry('t1', 1, 2), Rank: '0' }, // withdrawn before playing
+        { ...entry('t1', 1, 3), Rank: '9' }, // the team that actually competed
+      ],
+      normaliseTournaments([tournament('t1', 2023)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA'), player(3, '0', 'BRA')]),
+    );
+    expect(partnerships.has('1:2')).toBe(false);
+    expect(partnerships.get('1:3')!.tournaments.size).toBe(1);
+    // Player 1's own appearance count reflects the one tournament they
+    // actually played, not two.
+    expect(appearances.get(1)!.size).toBe(1);
+  });
 });
 
 describe('sliceByCountryAndGender', () => {

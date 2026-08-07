@@ -146,7 +146,7 @@ async function main() {
   // --- Stage 3: team entries -> partnership edges --------------------------
   const teamRows = await fetchList({
     type: 'GetBeachTeamList',
-    fields: ['No', 'NoTournament', 'NoPlayer1', 'NoPlayer2', 'FederationCode'],
+    fields: ['No', 'NoTournament', 'NoPlayer1', 'NoPlayer2', 'FederationCode', 'Rank'],
     itemTag: 'BeachTeam',
   });
   log('entries', `${teamRows.length} team entries`);
