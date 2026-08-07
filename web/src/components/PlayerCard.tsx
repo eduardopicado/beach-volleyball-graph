@@ -153,13 +153,13 @@ export function PlayerCard({
         </div>
         {detail?.olympics && (
           <div>
-            <dt>Olympic Medals</dt>
+            <dt>Olympics</dt>
             <dd aria-label={medalAriaLabel(detail.olympics)}>{formatMedals(detail.olympics)}</dd>
           </div>
         )}
         {detail?.worldChamps && (
           <div>
-            <dt>World Champs Medals</dt>
+            <dt>Worlds</dt>
             <dd aria-label={medalAriaLabel(detail.worldChamps)}>{formatMedals(detail.worldChamps)}</dd>
           </div>
         )}
