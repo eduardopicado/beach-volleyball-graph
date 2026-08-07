@@ -99,3 +99,27 @@ export function initials(name: string): string {
 }
 
 export const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
+
+interface MedalCounts {
+  gold: number;
+  silver: number;
+  bronze: number;
+}
+
+/** Compact tally like "🥇2 🥈1", omitting zero counts. */
+export function formatMedals({ gold, silver, bronze }: MedalCounts): string {
+  const parts: string[] = [];
+  if (gold) parts.push(`🥇${gold}`);
+  if (silver) parts.push(`🥈${silver}`);
+  if (bronze) parts.push(`🥉${bronze}`);
+  return parts.join(' ');
+}
+
+/** Screen-reader text for `formatMedals`'s emoji tally. */
+export function medalAriaLabel({ gold, silver, bronze }: MedalCounts): string {
+  const parts: string[] = [];
+  if (gold) parts.push(plural(gold, 'gold medal'));
+  if (silver) parts.push(plural(silver, 'silver medal'));
+  if (bronze) parts.push(plural(bronze, 'bronze medal'));
+  return parts.join(', ');
+}

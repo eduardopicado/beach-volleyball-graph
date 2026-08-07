@@ -6,9 +6,9 @@
  * parts (pair canonicalisation, dedupe, slicing) are unit-testable.
  */
 
-import type { Gender, GraphEdge, GraphNode, Tier } from '../web/src/schema.js';
+import type { Gender, GraphEdge, GraphNode, MedalCounts, Tier } from '../web/src/schema.js';
 import { toCentimetres, toKilograms, type VisRow } from './vis.js';
-import { tierFor } from './tiers.js';
+import { tierFor, FIVB_ORGANIZER_TYPE } from './tiers.js';
 import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
 
 export interface Tournament {
@@ -77,6 +77,71 @@ export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
     const no = (row.No ?? '').trim();
     if (!no) continue;
     out.set(no, { no, tier, season, version: (row.Version ?? '').trim() });
+  }
+  return out;
+}
+
+export type MedalCategory = 'olympics' | 'world-champs';
+
+/**
+ * Tournament number -> which medal event it is, restricted to the actual
+ * senior Olympic Games (VIS Type 5) and FIVB World Championships (Type 4).
+ *
+ * The broader `olympics` *tier* used elsewhere also covers the Youth Olympic
+ * Games (Type 43) and the Olympic Qualification Tournament (Type 49) — real
+ * FIVB events, but neither is a medal event, so both are deliberately left
+ * out here even though `tierFor` accepts them.
+ */
+export function medalTournaments(rows: VisRow[]): Map<string, MedalCategory> {
+  const out = new Map<string, MedalCategory>();
+  for (const row of rows) {
+    if (row.OrganizerType !== FIVB_ORGANIZER_TYPE) continue;
+    const no = (row.No ?? '').trim();
+    if (!no) continue;
+    if (row.Type === '5') out.set(no, 'olympics');
+    else if (row.Type === '4') out.set(no, 'world-champs');
+  }
+  return out;
+}
+
+const RANK_TO_MEDAL: Record<number, keyof MedalCounts> = { 1: 'gold', 2: 'silver', 3: 'bronze' };
+
+/**
+ * Per-player medal counts from `Rank` at real Olympic Games / World
+ * Championships matches. A handful of the earliest World Championships
+ * (1997) had no bronze-medal match and awarded two bronzes — both semifinal
+ * losers carry `Rank: 3`, and both are credited here.
+ */
+export function aggregateMedals(
+  teamRows: VisRow[],
+  medals: Map<string, MedalCategory>,
+): Map<number, Record<MedalCategory, MedalCounts>> {
+  const out = new Map<number, Record<MedalCategory, MedalCounts>>();
+
+  const credit = (id: number, category: MedalCategory, medal: keyof MedalCounts) => {
+    let entry = out.get(id);
+    if (!entry) {
+      out.set(
+        id,
+        (entry = {
+          olympics: { gold: 0, silver: 0, bronze: 0 },
+          'world-champs': { gold: 0, silver: 0, bronze: 0 },
+        }),
+      );
+    }
+    entry[category][medal]++;
+  };
+
+  for (const row of teamRows) {
+    const category = medals.get((row.NoTournament ?? '').trim());
+    if (!category) continue;
+    const medal = RANK_TO_MEDAL[Number(row.Rank)];
+    if (!medal) continue;
+    const a = Number(row.NoPlayer1);
+    const b = Number(row.NoPlayer2);
+    if (!Number.isFinite(a) || a <= 0 || !Number.isFinite(b) || b <= 0 || a === b) continue;
+    credit(a, category, medal);
+    credit(b, category, medal);
   }
   return out;
 }
