@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Gender, GraphFile, Manifest, PlayersFile } from './schema';
 import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
-import { flagEmoji, plural } from './lib/format';
+import { flagEmoji, formatMedals, plural } from './lib/format';
 import { Controls, MIN_TOGETHER_OPTIONS } from './components/Controls';
 import { parseMinTogether } from './lib/params';
 import type { GraphEdge, GraphNode } from './schema';
@@ -228,7 +228,7 @@ export default function App() {
     const longestNames = longest
       ? `${nodesById.get(longest.a)?.name ?? '?'} & ${nodesById.get(longest.b)?.name ?? '?'}`
       : '—';
-    return [
+    const result: Stat[] = [
       { label: 'Partnerships', value: edges.length.toLocaleString() },
       { label: 'Avg. partners', value: avg.toFixed(1), detail: 'per player' },
       {
@@ -237,7 +237,36 @@ export default function App() {
         detail: longest ? `${longestNames} · ${longest.f}–${longest.l}` : undefined,
       },
     ];
-  }, [visibleNodes, visibleEdges, partnersByPlayer, nodesById]);
+
+    // Whole-country total, not the partnership-strength-filtered set above: a
+    // medal a player already won doesn't stop counting because the "min
+    // events together" slider hid their current partnerships.
+    let gold = 0;
+    let silver = 0;
+    let bronze = 0;
+    for (const p of details?.players ?? []) {
+      if (p.olympics) {
+        gold += p.olympics.gold;
+        silver += p.olympics.silver;
+        bronze += p.olympics.bronze;
+      }
+      if (p.worldChamps) {
+        gold += p.worldChamps.gold;
+        silver += p.worldChamps.silver;
+        bronze += p.worldChamps.bronze;
+      }
+    }
+    const totalMedals = gold + silver + bronze;
+    if (totalMedals > 0) {
+      result.push({
+        label: 'Total medals',
+        value: totalMedals.toLocaleString(),
+        detail: `${formatMedals({ gold, silver, bronze })} · Olympics & World Champs`,
+      });
+    }
+
+    return result;
+  }, [visibleNodes, visibleEdges, partnersByPlayer, nodesById, details]);
 
   const totalNodes = graph?.nodes.length ?? 0;
   const hidden = totalNodes - visibleNodes.length;
