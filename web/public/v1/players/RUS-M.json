@@ -280,7 +280,12 @@
       "name": "Dmitri Barsuk",
       "dob": "1980-01-20",
       "height": 193,
-      "weight": 86
+      "weight": 86,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102632,
@@ -455,7 +460,12 @@
       "name": "Igor Kolodinsky",
       "dob": "1983-07-07",
       "height": 197,
-      "weight": 92
+      "weight": 92,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 116333,
@@ -644,7 +654,17 @@
       "name": "Viacheslav Krasilnikov",
       "dob": "1991-04-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 120837,
@@ -931,7 +951,17 @@
       "name": "Oleg Stoyanovskiy",
       "dob": "1996-09-26",
       "height": 207,
-      "weight": 112
+      "weight": 112,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 141537,
@@ -1008,7 +1038,12 @@
       "name": "Nikita Liamin",
       "dob": "1985-10-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 147652,

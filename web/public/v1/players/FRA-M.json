@@ -1099,7 +1099,12 @@
       "name": "Arnaud Gauthier-Rat",
       "dob": "1996-10-22",
       "height": 195,
-      "weight": 100
+      "weight": 100,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146849,
@@ -1218,7 +1223,12 @@
       "name": "Téo Rotar",
       "dob": "2004-04-23",
       "height": 204,
-      "weight": 94
+      "weight": 94,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 177303,

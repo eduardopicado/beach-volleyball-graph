@@ -182,7 +182,12 @@
       "name": "Martins Plavins",
       "dob": "1985-05-08",
       "height": 190,
-      "weight": 92
+      "weight": 92,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104356,
@@ -203,7 +208,12 @@
       "name": "Janis Smedins",
       "dob": "1987-07-31",
       "height": 191,
-      "weight": 84
+      "weight": 84,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104450,

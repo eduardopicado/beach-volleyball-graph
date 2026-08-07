@@ -7,21 +7,36 @@
       "name": "Karolyn \"KK\" Kirby",
       "dob": "1961-06-30",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100019,
       "name": "Elizabeth \"Liz\" Masakayan",
       "dob": "1964-12-31",
       "height": 173,
-      "weight": 65
+      "weight": 65,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100074,
       "name": "Nancy Reno",
       "dob": "1965-12-24",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100075,
@@ -133,7 +148,12 @@
       "name": "Lisa Arce",
       "dob": "1969-07-08",
       "height": 180,
-      "weight": 74
+      "weight": 74,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100616,
@@ -196,7 +216,17 @@
       "name": "Holly McPeak",
       "dob": "1969-05-15",
       "height": 170,
-      "weight": 63
+      "weight": 63,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100748,
@@ -371,14 +401,24 @@
       "name": "Annett \"Nettie\" Davis",
       "dob": "1973-09-22",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101718,
       "name": "Jennifer \"Jenny\" Jordan Jonnson",
       "dob": "1973-06-08",
       "height": 175,
-      "weight": 68
+      "weight": 68,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101896,
@@ -392,7 +432,17 @@
       "name": "Elaine   \"Ey\" Youngs",
       "dob": "1970-02-14",
       "height": 183,
-      "weight": 65
+      "weight": 65,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101952,
@@ -476,7 +526,17 @@
       "name": "Misty May-Treanor",
       "dob": "1977-07-30",
       "height": 182,
-      "weight": 68
+      "weight": 68,
+      "olympics": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102869,
@@ -504,7 +564,17 @@
       "name": "Jennifer Kessy",
       "dob": "1977-07-31",
       "height": 180,
-      "weight": 77
+      "weight": 77,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103031,
@@ -553,7 +623,17 @@
       "name": "Kerri Walsh Jennings",
       "dob": "1978-08-15",
       "height": 188,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103268,
@@ -707,7 +787,12 @@
       "name": "Lauren Fendrick",
       "dob": "1982-03-20",
       "height": 188,
-      "weight": 75
+      "weight": 75,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104863,
@@ -798,7 +883,17 @@
       "name": "Alexandra Klineman",
       "dob": "1989-12-30",
       "height": 194,
-      "weight": 73
+      "weight": 73,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 115861,
@@ -931,7 +1026,17 @@
       "name": "April Ross",
       "dob": "1982-06-20",
       "height": 185,
-      "weight": 76
+      "weight": 76,
+      "olympics": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 118470,
@@ -1281,7 +1386,12 @@
       "name": "Sara Hughes",
       "dob": "1995-02-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 135683,
@@ -1407,7 +1517,12 @@
       "name": "Kelly Cheng",
       "dob": "1995-09-18",
       "height": 185,
-      "weight": 72
+      "weight": 72,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 140437,
@@ -1743,7 +1858,12 @@
       "name": "Kristen Cruz",
       "dob": "1997-12-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 162438,
@@ -2324,7 +2444,12 @@
       "name": "Taryn Brasher",
       "dob": "1997-04-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 185992,

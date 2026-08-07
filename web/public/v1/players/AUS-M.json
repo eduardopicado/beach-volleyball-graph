@@ -175,7 +175,12 @@
       "name": "Andrew Schacht",
       "dob": "1973-05-22",
       "height": 191,
-      "weight": 95
+      "weight": 95,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100775,
@@ -287,7 +292,12 @@
       "name": "Joshua \"Josh\" Slack",
       "dob": "1976-12-16",
       "height": 191,
-      "weight": 88
+      "weight": 88,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102552,

@@ -77,14 +77,29 @@
       "name": "Kent Steffes",
       "dob": "1968-06-23",
       "height": 200,
-      "weight": 100
+      "weight": 100,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100133,
       "name": "Michael \"Mike\" Dodd",
       "dob": "1957-08-20",
       "height": 193,
-      "weight": 78
+      "weight": 78,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100134,
@@ -238,7 +253,17 @@
       "name": "Dain Blanton",
       "dob": "1971-11-28",
       "height": 187,
-      "weight": 88
+      "weight": 88,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100340,
@@ -273,7 +298,17 @@
       "name": "Mike \"Whit\" Whitmarsh",
       "dob": "1962-05-18",
       "height": 200,
-      "weight": 97
+      "weight": 97,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100367,
@@ -308,7 +343,12 @@
       "name": "Eric Fonoimoana",
       "dob": "1969-07-06",
       "height": 191,
-      "weight": 100
+      "weight": 100,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100401,
@@ -357,14 +397,29 @@
       "name": "Daxton \"Dax\" Holdren",
       "dob": "1972-04-09",
       "height": 191,
-      "weight": 96
+      "weight": 96,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100425,
       "name": "Todd Rogers",
       "dob": "1973-09-30",
       "height": 187,
-      "weight": 90
+      "weight": 90,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100433,
@@ -413,7 +468,12 @@
       "name": "Karch Kiraly",
       "dob": "1960-11-03",
       "height": 188,
-      "weight": 93
+      "weight": 93,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100545,
@@ -504,7 +564,12 @@
       "name": "Canyon Ceman",
       "dob": "1972-06-21",
       "height": 195,
-      "weight": 94
+      "weight": 94,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100872,
@@ -679,7 +744,12 @@
       "name": "Stein Metzger",
       "dob": "1972-11-17",
       "height": 193,
-      "weight": 95
+      "weight": 95,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102088,
@@ -1099,7 +1169,17 @@
       "name": "Philip Dalhausser",
       "dob": "1980-01-26",
       "height": 205,
-      "weight": 90
+      "weight": 90,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 111142,

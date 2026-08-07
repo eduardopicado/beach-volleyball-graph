@@ -14,21 +14,41 @@
       "name": "Jacqueline Louise \"Jackie\" Cruz Silva",
       "dob": "1962-02-13",
       "height": 170,
-      "weight": 65
+      "weight": 65,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100252,
       "name": "Mônica Rodrigues",
       "dob": "1967-09-20",
       "height": 180,
-      "weight": 75
+      "weight": 75,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100253,
       "name": "Adriana Samuel Ramos",
       "dob": "1966-04-12",
       "height": 178,
-      "weight": 65
+      "weight": 65,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100254,
@@ -49,7 +69,17 @@
       "name": "Adriana Brandão Behar",
       "dob": "1969-02-14",
       "height": 180,
-      "weight": 64
+      "weight": 64,
+      "olympics": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100257,
@@ -63,7 +93,17 @@
       "name": "Sandra Pires Tavares",
       "dob": "1973-06-16",
       "height": 174,
-      "weight": 64
+      "weight": 64,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100259,
@@ -126,7 +166,17 @@
       "name": "Shelda Kelly Bruno Bede",
       "dob": "1973-01-01",
       "height": 165,
-      "weight": 59
+      "weight": 59,
+      "olympics": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100927,
@@ -252,7 +302,12 @@
       "name": "Tatiana Minello",
       "dob": "1970-03-01",
       "height": 168,
-      "weight": 60
+      "weight": 60,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102066,
@@ -434,28 +489,58 @@
       "name": "Talita Da Rocha Antunes",
       "dob": "1982-08-29",
       "height": 181,
-      "weight": 65
+      "weight": 65,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103903,
       "name": "Larissa França Maestrini",
       "dob": "1982-04-14",
       "height": 174,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 103904,
       "name": "Juliana Felisberta  Da Silva",
       "dob": "1983-07-22",
       "height": 177,
-      "weight": 63
+      "weight": 63,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 103997,
       "name": "Taiana Lima",
       "dob": "1984-05-27",
       "height": 175,
-      "weight": 66
+      "weight": 66,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104076,
@@ -476,7 +561,12 @@
       "name": "Carolina Solberg Salgado",
       "dob": "1987-08-06",
       "height": 178,
-      "weight": 67
+      "weight": 67,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104147,
@@ -504,7 +594,17 @@
       "name": "Barbara Seixas de Freitas",
       "dob": "1987-08-03",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104506,
@@ -581,7 +681,12 @@
       "name": "Maria Antonelli",
       "dob": "1984-02-25",
       "height": 176,
-      "weight": 69
+      "weight": 69,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 110086,
@@ -595,7 +700,12 @@
       "name": "Fernanda Alves",
       "dob": "1985-06-29",
       "height": 189,
-      "weight": 74
+      "weight": 74,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 115185,
@@ -609,7 +719,17 @@
       "name": "Agatha Bednarczuk",
       "dob": "1983-06-22",
       "height": 182,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 116266,
@@ -623,7 +743,12 @@
       "name": "Liliane Maestrini",
       "dob": "1987-10-26",
       "height": 183,
-      "weight": 72
+      "weight": 72,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 116895,
@@ -798,7 +923,12 @@
       "name": "Rebecca Cavalcante Barbosa Silva",
       "dob": "1993-04-23",
       "height": 175,
-      "weight": 78
+      "weight": 78,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132695,
@@ -847,7 +977,17 @@
       "name": "Eduarda Santos Lisboa",
       "dob": "1998-08-01",
       "height": 180,
-      "weight": 78
+      "weight": 78,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139280,
@@ -938,7 +1078,17 @@
       "name": "Ana Patricia Silva Ramos",
       "dob": "1997-09-29",
       "height": 194,
-      "weight": 85
+      "weight": 85,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147339,

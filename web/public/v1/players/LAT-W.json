@@ -287,14 +287,24 @@
       "name": "Tina Graudina",
       "dob": "1998-03-09",
       "height": 184,
-      "weight": 72
+      "weight": 72,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 141984,
       "name": "Anastasija Samoilova",
       "dob": "1997-01-19",
       "height": 179,
-      "weight": 68
+      "weight": 68,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 142088,

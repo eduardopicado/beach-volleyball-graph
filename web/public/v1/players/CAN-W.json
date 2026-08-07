@@ -574,7 +574,12 @@
       "name": "Sarah Pavan",
       "dob": "1986-08-16",
       "height": 196,
-      "weight": 72
+      "weight": 72,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 115224,
@@ -931,7 +936,17 @@
       "name": "Melissa Humana-Paredes",
       "dob": "1992-10-10",
       "height": 175,
-      "weight": 63
+      "weight": 63,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 124980,
@@ -1106,7 +1121,12 @@
       "name": "Sophie Bukovec",
       "dob": "1995-09-22",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139522,
@@ -1190,7 +1210,17 @@
       "name": "Brandie Wilkerson",
       "dob": "1992-07-01",
       "height": 179,
-      "weight": null
+      "weight": null,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142101,

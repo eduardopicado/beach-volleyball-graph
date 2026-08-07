@@ -63,14 +63,24 @@
       "name": "Eva Celbova",
       "dob": "1975-03-08",
       "height": 186,
-      "weight": 80
+      "weight": 80,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101547,
       "name": "Sona Novakova Dosoudilova",
       "dob": "1975-10-06",
       "height": 186,
-      "weight": 74
+      "weight": 74,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101821,

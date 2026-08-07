@@ -147,14 +147,24 @@
       "name": "Ahmed Tijan",
       "dob": "1995-04-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146488,
       "name": "Cherif Younousse",
       "dob": "1995-05-22",
       "height": 194,
-      "weight": 85
+      "weight": 85,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 147562,

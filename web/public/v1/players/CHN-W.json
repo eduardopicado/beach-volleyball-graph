@@ -112,7 +112,17 @@
       "name": "Jia Tian",
       "dob": "1981-02-09",
       "height": 177,
-      "weight": 68
+      "weight": 68,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 102337,
@@ -147,7 +157,12 @@
       "name": "Fei Wang",
       "dob": "1981-08-06",
       "height": 183,
-      "weight": 68
+      "weight": 68,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102342,
@@ -308,7 +323,17 @@
       "name": "Xi Zhang",
       "dob": "1985-04-19",
       "height": 183,
-      "weight": 64
+      "weight": 64,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103654,
@@ -336,7 +361,17 @@
       "name": "Jie Wang",
       "dob": "1985-12-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104033,
@@ -350,7 +385,17 @@
       "name": "Chen Xue",
       "dob": "1989-02-18",
       "height": 191,
-      "weight": 75
+      "weight": 75,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104439,

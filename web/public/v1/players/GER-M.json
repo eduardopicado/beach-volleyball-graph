@@ -77,14 +77,24 @@
       "name": "Jörg \"Vince\" Ahmann",
       "dob": "1966-02-12",
       "height": 190,
-      "weight": 87
+      "weight": 87,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100495,
       "name": "Axel \"Hägar\" Hager",
       "dob": "1969-03-14",
       "height": 202,
-      "weight": 95
+      "weight": 95,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100503,
@@ -329,7 +339,12 @@
       "name": "Kjell \"Kelli\" Schneider",
       "dob": "1976-10-04",
       "height": 199,
-      "weight": 88
+      "weight": 88,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101918,
@@ -427,14 +442,34 @@
       "name": "Jonas Reckermann",
       "dob": "1979-05-26",
       "height": 200,
-      "weight": 97
+      "weight": 97,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103217,
       "name": "Julius Brink",
       "dob": "1982-07-06",
       "height": 186,
-      "weight": 86
+      "weight": 86,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103244,
@@ -462,7 +497,12 @@
       "name": "Kay Matysik",
       "dob": "1980-06-18",
       "height": 191,
-      "weight": 88
+      "weight": 88,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103349,
@@ -763,7 +803,12 @@
       "name": "Jonathan Erdmann",
       "dob": "1988-03-12",
       "height": 194,
-      "weight": 96
+      "weight": 96,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 116662,
@@ -1071,7 +1116,17 @@
       "name": "Clemens Wickler",
       "dob": "1995-04-28",
       "height": 190,
-      "weight": 83
+      "weight": 83,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139388,
@@ -1141,7 +1196,12 @@
       "name": "Julius Thole",
       "dob": "1997-05-17",
       "height": null,
-      "weight": null
+      "weight": null,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147930,
@@ -1211,7 +1271,12 @@
       "name": "Nils Ehlers",
       "dob": "1994-02-04",
       "height": 210,
-      "weight": 106
+      "weight": 106,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156568,

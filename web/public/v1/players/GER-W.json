@@ -413,7 +413,17 @@
       "name": "Laura Ludwig",
       "dob": "1986-01-13",
       "height": 181,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 105038,
@@ -469,7 +479,12 @@
       "name": "Britta Büthe",
       "dob": "1988-05-25",
       "height": 185,
-      "weight": 78
+      "weight": 78,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118262,
@@ -518,7 +533,17 @@
       "name": "Kira Walkenhorst",
       "dob": "1990-11-18",
       "height": 184,
-      "weight": 75
+      "weight": 75,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 118955,
@@ -553,7 +578,12 @@
       "name": "Karla Borger",
       "dob": "1988-11-22",
       "height": 179,
-      "weight": 70
+      "weight": 70,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 119316,
@@ -651,7 +681,12 @@
       "name": "Cinja Tillmann",
       "dob": "1991-07-13",
       "height": 174,
-      "weight": 62
+      "weight": 62,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125594,
@@ -819,7 +854,12 @@
       "name": "Svenja Müller",
       "dob": "2001-02-13",
       "height": 192,
-      "weight": 80
+      "weight": 80,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 153268,

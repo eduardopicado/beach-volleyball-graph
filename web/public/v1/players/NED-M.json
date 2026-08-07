@@ -280,7 +280,12 @@
       "name": "Reinder Nummerdor",
       "dob": "1976-09-10",
       "height": 194,
-      "weight": 87
+      "weight": 87,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 116623,
@@ -322,14 +327,29 @@
       "name": "Alexander Brouwer",
       "dob": "1989-11-03",
       "height": 198,
-      "weight": 90
+      "weight": 90,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 119235,
       "name": "Christiaan Varenhorst",
       "dob": "1990-05-06",
       "height": 212,
-      "weight": 106
+      "weight": 106,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 119236,
@@ -371,7 +391,17 @@
       "name": "Robert Meeuwsen",
       "dob": "1988-03-21",
       "height": 207,
-      "weight": 94
+      "weight": 94,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 120073,

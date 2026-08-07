@@ -7,7 +7,12 @@
       "name": "Paulo Roberto \"Paulão\" Moreira da Costa",
       "dob": "1969-04-29",
       "height": 193,
-      "weight": 95
+      "weight": 95,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100043,
@@ -84,7 +89,12 @@
       "name": "Guilherme Luiz Marques",
       "dob": "1969-06-26",
       "height": 193,
-      "weight": 90
+      "weight": 90,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100205,
@@ -112,7 +122,12 @@
       "name": "José Geraldo Loiola",
       "dob": "1970-03-28",
       "height": 194,
-      "weight": 87
+      "weight": 87,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100280,
@@ -133,14 +148,29 @@
       "name": "José Marco \"Zé Marco\" Nóbrega Ferreira de Melo",
       "dob": "1971-03-19",
       "height": 191,
-      "weight": 82
+      "weight": 82,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100427,
       "name": "Emanuel Rego",
       "dob": "1973-04-15",
       "height": 190,
-      "weight": 80
+      "weight": 80,
+      "olympics": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100428,
@@ -175,7 +205,12 @@
       "name": "Rogério \"Pará\" de Souza Ferreira",
       "dob": "1973-09-13",
       "height": 191,
-      "weight": 88
+      "weight": 88,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100565,
@@ -238,7 +273,17 @@
       "name": "Ricardo Alex Costa Santos",
       "dob": "1975-01-06",
       "height": 200,
-      "weight": 103
+      "weight": 103,
+      "olympics": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 101040,
@@ -434,7 +479,12 @@
       "name": "Paulo Emilio Silva Azevedo",
       "dob": "1969-12-14",
       "height": 191,
-      "weight": 85
+      "weight": 85,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101224,
@@ -476,7 +526,17 @@
       "name": "Marcio Henrique Barroso Araujo",
       "dob": "1973-10-12",
       "height": 192,
-      "weight": 90
+      "weight": 90,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 101592,
@@ -497,7 +557,12 @@
       "name": "Harley Marques Silva",
       "dob": "1975-07-06",
       "height": 194,
-      "weight": 85
+      "weight": 85,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102070,
@@ -532,7 +597,12 @@
       "name": "Benjamin Insfran",
       "dob": "1972-04-14",
       "height": 196,
-      "weight": 90
+      "weight": 90,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102083,
@@ -672,7 +742,12 @@
       "name": "Pedro Solberg",
       "dob": "1986-03-27",
       "height": 194,
-      "weight": 95
+      "weight": 95,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104074,
@@ -707,7 +782,17 @@
       "name": "Fabio Luiz de Jesus Magalhães",
       "dob": "1979-03-13",
       "height": 204,
-      "weight": 100
+      "weight": 100,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104436,
@@ -847,7 +932,17 @@
       "name": "Bruno Oscar Schmidt",
       "dob": "1986-10-06",
       "height": 185,
-      "weight": 87
+      "weight": 87,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 117537,
@@ -875,7 +970,17 @@
       "name": "Alison Cerutti",
       "dob": "1985-12-07",
       "height": 203,
-      "weight": 110
+      "weight": 110,
+      "olympics": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118286,
@@ -938,14 +1043,24 @@
       "name": "Álvaro Morais Filho",
       "dob": "1990-11-27",
       "height": 185,
-      "weight": 80
+      "weight": 80,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120551,
       "name": "Vitor Gonçalves Felipe",
       "dob": "1991-03-10",
       "height": 193,
-      "weight": 94
+      "weight": 94,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120895,
@@ -994,7 +1109,12 @@
       "name": "Evandro Gonçalves Oliveira Júnior",
       "dob": "1990-07-17",
       "height": 210,
-      "weight": 105
+      "weight": 105,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135298,
@@ -1113,7 +1233,12 @@
       "name": "George Souto Maior Wanderley",
       "dob": "1996-09-12",
       "height": 190,
-      "weight": 96
+      "weight": 96,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 142890,
@@ -1162,7 +1287,12 @@
       "name": "Andre Loyola Stein",
       "dob": "1994-08-19",
       "height": 201,
-      "weight": 94
+      "weight": 94,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 147010,
@@ -1281,7 +1411,12 @@
       "name": "Renato Andrew Lima de Carvalho",
       "dob": "1999-12-01",
       "height": 192,
-      "weight": 86
+      "weight": 86,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156956,

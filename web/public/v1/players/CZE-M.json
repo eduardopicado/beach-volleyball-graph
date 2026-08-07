@@ -637,7 +637,12 @@
       "name": "Ondrej Perusic",
       "dob": "1994-09-26",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 137347,
@@ -763,7 +768,12 @@
       "name": "David Schweiner",
       "dob": "1994-06-01",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 154123,

@@ -567,14 +567,24 @@
       "name": "Joana Mäder",
       "dob": "1991-10-02",
       "height": 190,
-      "weight": 74
+      "weight": 74,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124999,
       "name": "Anouk Vergé-Dépré",
       "dob": "1992-02-11",
       "height": 185,
-      "weight": 71
+      "weight": 71,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125521,
@@ -595,7 +605,12 @@
       "name": "Tanja Hüberli",
       "dob": "1992-08-27",
       "height": 190,
-      "weight": 74
+      "weight": 74,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132749,
@@ -616,7 +631,12 @@
       "name": "Nina Brunner",
       "dob": "1995-10-14",
       "height": 175,
-      "weight": 65
+      "weight": 65,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135811,

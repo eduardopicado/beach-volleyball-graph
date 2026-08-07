@@ -126,7 +126,12 @@
       "name": "Clemens Doppler",
       "dob": "1980-09-06",
       "height": 200,
-      "weight": 87
+      "weight": 87,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101535,
@@ -308,7 +313,12 @@
       "name": "Alexander Horst",
       "dob": "1982-12-20",
       "height": 185,
-      "weight": 88
+      "weight": 88,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103712,

@@ -7,7 +7,12 @@
       "name": "John Child",
       "dob": "1967-05-04",
       "height": 189,
-      "weight": 93
+      "weight": 93,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100005,
@@ -21,7 +26,12 @@
       "name": "Mark Heese",
       "dob": "1969-08-15",
       "height": 184,
-      "weight": 85
+      "weight": 85,
+      "olympics": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100089,

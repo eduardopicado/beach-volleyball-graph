@@ -14,7 +14,12 @@
       "name": "Martin Alejo Conde",
       "dob": "1971-08-25",
       "height": 186,
-      "weight": 86
+      "weight": 86,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100149,
@@ -182,7 +187,12 @@
       "name": "Mariano \"Mono\" Baracetti",
       "dob": "1974-07-12",
       "height": 194,
-      "weight": 89
+      "weight": 89,
+      "worldChamps": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 101686,

@@ -35,7 +35,17 @@
       "name": "Natalie \"Nat\" Cook",
       "dob": "1975-01-19",
       "height": 181,
-      "weight": 72
+      "weight": 72,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100358,
@@ -49,7 +59,12 @@
       "name": "Kerri-Ann \"Kez\" Pottharst",
       "dob": "1965-06-25",
       "height": 184,
-      "weight": 70
+      "weight": 70,
+      "olympics": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100611,
@@ -224,7 +239,12 @@
       "name": "Nicole Sanderson",
       "dob": "1976-04-01",
       "height": 182,
-      "weight": 66
+      "weight": 66,
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102957,
@@ -441,7 +461,17 @@
       "name": "Mariafe Artacho Del Solar",
       "dob": "1993-10-24",
       "height": 173,
-      "weight": 66
+      "weight": 66,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119356,
@@ -539,7 +569,17 @@
       "name": "Taliqua Clancy",
       "dob": "1992-06-25",
       "height": 184,
-      "weight": 68
+      "weight": 68,
+      "olympics": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "worldChamps": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132933,
