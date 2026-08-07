@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import {
+  aggregateMedals,
   aggregatePartnerships,
+  medalTournaments,
   normalisePlayers,
   normaliseTournaments,
   pairKey,
@@ -302,5 +304,305 @@ describe('sliceByCountryAndGender', () => {
   it('honours the minimum node count', () => {
     expect(run([entry('t1', 1, 2)], 3)).toHaveLength(0);
     expect(run([entry('t1', 1, 2)], 2)).toHaveLength(1);
+  });
+});
+
+describe('medalTournaments', () => {
+  it('keeps only real Olympic Games and World Championships events', () => {
+    const rows: VisRow[] = [
+      { No: '1', OrganizerType: '1', Type: '5' }, // Olympic Games
+      { No: '2', OrganizerType: '1', Type: '4' }, // World Championships
+      { No: '3', OrganizerType: '1', Type: '43' }, // Youth Olympic Games — no Olympic medal
+      { No: '4', OrganizerType: '1', Type: '49' }, // Olympic Qualification Tournament — no medal at all
+      { No: '5', OrganizerType: '1', Type: '52' }, // Beach Pro Tour Elite16 — not a medal event
+      { No: '6', OrganizerType: '5', Type: '5' }, // Type 5, but not FIVB-organized
+    ];
+    const map = medalTournaments(rows);
+    expect(map.get('1')).toBe('olympics');
+    expect(map.get('2')).toBe('world-champs');
+    expect(map.has('3')).toBe(false);
+    expect(map.has('4')).toBe(false);
+    expect(map.has('5')).toBe(false);
+    expect(map.has('6')).toBe(false);
+  });
+});
+
+describe('aggregateMedals', () => {
+  const olympics = medalTournaments([{ No: 't1', OrganizerType: '1', Type: '5' }]);
+  const worlds = medalTournaments([{ No: 't2', OrganizerType: '1', Type: '4' }]);
+  const both = new Map([...olympics, ...worlds]);
+
+  it('credits both players on gold, silver and bronze rows and ignores 4th place', () => {
+    const rows: VisRow[] = [
+      { ...entry('t1', 1, 2), Rank: '1' },
+      { ...entry('t1', 3, 4), Rank: '2' },
+      { ...entry('t1', 5, 6), Rank: '3' },
+      { ...entry('t1', 7, 8), Rank: '4' }, // 4th place — no medal
+    ];
+    const byPlayer = aggregateMedals(rows, both);
+    expect(byPlayer.get(1)!.olympics).toEqual({ gold: 1, silver: 0, bronze: 0 });
+    expect(byPlayer.get(2)!.olympics).toEqual({ gold: 1, silver: 0, bronze: 0 });
+    expect(byPlayer.get(3)!.olympics).toEqual({ gold: 0, silver: 1, bronze: 0 });
+    expect(byPlayer.get(5)!.olympics).toEqual({ gold: 0, silver: 0, bronze: 1 });
+    expect(byPlayer.has(7)).toBe(false);
+  });
+
+  it('keeps Olympic and World Championships tallies separate per player', () => {
+    const rows: VisRow[] = [
+      { ...entry('t1', 1, 2), Rank: '1' }, // Olympic gold
+      { ...entry('t2', 1, 9), Rank: '2' }, // same player, World Champs silver
+    ];
+    const byPlayer = aggregateMedals(rows, both);
+    expect(byPlayer.get(1)!.olympics).toEqual({ gold: 1, silver: 0, bronze: 0 });
+    expect(byPlayer.get(1)!['world-champs']).toEqual({ gold: 0, silver: 1, bronze: 0 });
+  });
+
+  it('ignores rows outside any medal-eligible tournament', () => {
+    const nonMedal = medalTournaments([{ No: 't3', OrganizerType: '1', Type: '52' }]);
+    const rows: VisRow[] = [{ ...entry('t3', 1, 2), Rank: '1' }];
+    expect(aggregateMedals(rows, nonMedal).size).toBe(0);
+  });
+});
+
+// A snapshot of every real Olympic Games (Type 5) and FIVB World
+// Championships (Type 4) medal-round result FIVB's VIS API returns, captured
+// so this test suite validates the medal logic against every actual medal
+// event on record rather than a handful of synthetic cases — there are only
+// 46 of them (16 Olympics, 30 World Championships), so the whole set fits.
+// Cross-checked directly: Rio 2016 men's podium (Cerutti/Schmidt, Nicolai/Lupo,
+// Brouwer/Meeuwsen) and Rome 2022 both golds (Mol/Sørum, Duda/Ana Patrícia)
+// match the real, publicly documented results exactly, and the two 1997 World
+// Championships below are real ties — the bronze-medal match didn't exist yet,
+// so both semifinal losers share Rank 3.
+const REAL_MEDAL_TOURNAMENTS: VisRow[] = [
+  { No: '41', Code: 'MATH2004', OrganizerType: '1', Type: '5' },
+  { No: '43', Code: 'MATL1996', OrganizerType: '1', Type: '5' },
+  { No: '51', Code: 'MBEI2008', OrganizerType: '1', Type: '5' },
+  { No: '62', Code: 'MBER2005', OrganizerType: '1', Type: '4' },
+  { No: '178', Code: 'MGST2007', OrganizerType: '1', Type: '4' },
+  { No: '193', Code: 'MITA2011', OrganizerType: '1', Type: '4' },
+  { No: '211', Code: 'MKLA2001', OrganizerType: '1', Type: '4' },
+  { No: '240', Code: 'MLAX1997', OrganizerType: '1', Type: '4' },
+  { No: '287', Code: 'MMRS1999', OrganizerType: '1', Type: '4' },
+  { No: '347', Code: 'MRIO2003', OrganizerType: '1', Type: '4' },
+  { No: '384', Code: 'MSTA2009', OrganizerType: '1', Type: '4' },
+  { No: '400', Code: 'MSYD2000', OrganizerType: '1', Type: '5' },
+  { No: '478', Code: 'WATH2004', OrganizerType: '1', Type: '5' },
+  { No: '480', Code: 'WATL1996', OrganizerType: '1', Type: '5' },
+  { No: '489', Code: 'WBEI2008', OrganizerType: '1', Type: '5' },
+  { No: '495', Code: 'WBER2005', OrganizerType: '1', Type: '4' },
+  { No: '594', Code: 'WGST2007', OrganizerType: '1', Type: '4' },
+  { No: '611', Code: 'WITA2011', OrganizerType: '1', Type: '4' },
+  { No: '614', Code: 'WKLA2001', OrganizerType: '1', Type: '4' },
+  { No: '635', Code: 'WLAX1997', OrganizerType: '1', Type: '4' },
+  { No: '665', Code: 'WMRS1999', OrganizerType: '1', Type: '4' },
+  { No: '735', Code: 'WRIO2003', OrganizerType: '1', Type: '4' },
+  { No: '782', Code: 'WSTA2009', OrganizerType: '1', Type: '4' },
+  { No: '793', Code: 'WSYD2000', OrganizerType: '1', Type: '5' },
+  { No: '1097', Code: 'MLON2012', OrganizerType: '1', Type: '5' },
+  { No: '1098', Code: 'WLON2012', OrganizerType: '1', Type: '5' },
+  { No: '1364', Code: 'WSTJ2013', OrganizerType: '1', Type: '4' },
+  { No: '1365', Code: 'MSTJ2013', OrganizerType: '1', Type: '4' },
+  { No: '2564', Code: 'MNED2015', OrganizerType: '1', Type: '4' },
+  { No: '2565', Code: 'WNED2015', OrganizerType: '1', Type: '4' },
+  { No: '3690', Code: 'Rio2016M', OrganizerType: '1', Type: '5' },
+  { No: '3691', Code: 'Rio2016W', OrganizerType: '1', Type: '5' },
+  { No: '3895', Code: 'MWCH2017', OrganizerType: '1', Type: '4' },
+  { No: '3896', Code: 'WWCH2017', OrganizerType: '1', Type: '4' },
+  { No: '5022', Code: 'MWCH2019', OrganizerType: '1', Type: '4' },
+  { No: '5023', Code: 'WWCH2019', OrganizerType: '1', Type: '4' },
+  { No: '5872', Code: 'MTOK2020', OrganizerType: '1', Type: '5' },
+  { No: '5873', Code: 'WTOK2020', OrganizerType: '1', Type: '5' },
+  { No: '6295', Code: 'WROM2022', OrganizerType: '1', Type: '4' },
+  { No: '6296', Code: 'MROM2022', OrganizerType: '1', Type: '4' },
+  { No: '6796', Code: 'WWCH2023', OrganizerType: '1', Type: '4' },
+  { No: '6797', Code: 'MWCH2023', OrganizerType: '1', Type: '4' },
+  { No: '7642', Code: 'WPAR2024', OrganizerType: '1', Type: '5' },
+  { No: '7643', Code: 'MPAR2024', OrganizerType: '1', Type: '5' },
+  { No: '8136', Code: 'WWCH2025', OrganizerType: '1', Type: '4' },
+  { No: '8137', Code: 'MWCH2025', OrganizerType: '1', Type: '4' },
+];
+
+const REAL_MEDAL_ROWS: VisRow[] = [
+  { NoTournament: '41', NoPlayer1: '100096', NoPlayer2: '103311', Rank: '2' }, // MATH2004 Javier Bosma Minguez / Pablo Herrera Allepuz
+  { NoTournament: '41', NoPlayer1: '100997', NoPlayer2: '100427', Rank: '1' }, // MATH2004 Ricardo Alex Costa Santos / Emanuel Rego
+  { NoTournament: '41', NoPlayer1: '101846', NoPlayer2: '101847', Rank: '3' }, // MATH2004 Patrick Heuscher / Stefan "Kobi" Kobel
+  { NoTournament: '43', NoPlayer1: '100002', NoPlayer2: '100088', Rank: '3' }, // MATL1996 John Child / Mark Heese
+  { NoTournament: '43', NoPlayer1: '100132', NoPlayer2: '100458', Rank: '1' }, // MATL1996 Kent Steffes / Karch Kiraly
+  { NoTournament: '43', NoPlayer1: '100365', NoPlayer2: '100133', Rank: '2' }, // MATL1996 Mike "Whit" Whitmarsh / Michael "Mike" Dodd
+  { NoTournament: '51', NoPlayer1: '100425', NoPlayer2: '105143', Rank: '1' }, // MBEI2008 Todd Rogers / Philip Dalhausser
+  { NoTournament: '51', NoPlayer1: '100997', NoPlayer2: '100427', Rank: '3' }, // MBEI2008 Ricardo Alex Costa Santos / Emanuel Rego
+  { NoTournament: '51', NoPlayer1: '101591', NoPlayer2: '104207', Rank: '2' }, // MBEI2008 Marcio Henrique Barroso Araujo / Fabio Luiz de Jesus Magalhães
+  { NoTournament: '62', NoPlayer1: '100670', NoPlayer2: '100530', Rank: '2' }, // MBER2005 Sascha Heyer / Paul Laciga
+  { NoTournament: '62', NoPlayer1: '101591', NoPlayer2: '104207', Rank: '1' }, // MBER2005 Marcio Henrique Barroso Araujo / Fabio Luiz de Jesus Magalhães
+  { NoTournament: '62', NoPlayer1: '103217', NoPlayer2: '101917', Rank: '3' }, // MBER2005 Julius Brink / Kjell "Kelli" Schneider
+  { NoTournament: '178', NoPlayer1: '100425', NoPlayer2: '105143', Rank: '1' }, // MGST2007 Todd Rogers / Philip Dalhausser
+  { NoTournament: '178', NoPlayer1: '100695', NoPlayer2: '102551', Rank: '3' }, // MGST2007 Andrew Schacht / Joshua "Josh" Slack
+  { NoTournament: '178', NoPlayer1: '102631', NoPlayer2: '112228', Rank: '2' }, // MGST2007 Dmitri Barsuk / Igor Kolodinsky
+  { NoTournament: '193', NoPlayer1: '103217', NoPlayer2: '103109', Rank: '3' }, // MITA2011 Julius Brink / Jonas Reckermann
+  { NoTournament: '193', NoPlayer1: '101591', NoPlayer2: '100997', Rank: '2' }, // MITA2011 Marcio Henrique Barroso Araujo / Ricardo Alex Costa Santos
+  { NoTournament: '193', NoPlayer1: '100427', NoPlayer2: '118267', Rank: '1' }, // MITA2011 Emanuel Rego / Alison Cerutti
+  { NoTournament: '211', NoPlayer1: '100302', NoPlayer2: '100844', Rank: '3' }, // MKLA2001 Jorre André Kjemperud / Vegard Hoidalen
+  { NoTournament: '211', NoPlayer1: '100997', NoPlayer2: '100218', Rank: '2' }, // MKLA2001 Ricardo Alex Costa Santos / José Geraldo Loiola
+  { NoTournament: '211', NoPlayer1: '101345', NoPlayer2: '100148', Rank: '1' }, // MKLA2001 Mariano "Mono" Baracetti / Martin Alejo Conde
+  { NoTournament: '240', NoPlayer1: '100132', NoPlayer2: '100334', Rank: '3' }, // MLAX1997 Kent Steffes / Dain Blanton
+  { NoTournament: '240', NoPlayer1: '100365', NoPlayer2: '100869', Rank: '2' }, // MLAX1997 Mike "Whit" Whitmarsh / Canyon Ceman
+  { NoTournament: '240', NoPlayer1: '100564', NoPlayer2: '100182', Rank: '1' }, // MLAX1997 Rogério "Pará" de Souza Ferreira / Guilherme Luiz Marques
+  { NoTournament: '240', NoPlayer1: '101204', NoPlayer2: '100021', Rank: '3' }, // MLAX1997 Paulo Emilio Silva Azevedo / Paulo Roberto "Paulão" Moreira da Costa
+  { NoTournament: '287', NoPlayer1: '100427', NoPlayer2: '100218', Rank: '1' }, // MMRS1999 Emanuel Rego / José Geraldo Loiola
+  { NoTournament: '287', NoPlayer1: '100530', NoPlayer2: '100529', Rank: '2' }, // MMRS1999 Paul Laciga / Martin Laciga
+  { NoTournament: '287', NoPlayer1: '100564', NoPlayer2: '100182', Rank: '3' }, // MMRS1999 Rogério "Pará" de Souza Ferreira / Guilherme Luiz Marques
+  { NoTournament: '347', NoPlayer1: '100418', NoPlayer2: '102087', Rank: '2' }, // MRIO2003 Daxton "Dax" Holdren / Stein Metzger
+  { NoTournament: '347', NoPlayer1: '100997', NoPlayer2: '100427', Rank: '1' }, // MRIO2003 Ricardo Alex Costa Santos / Emanuel Rego
+  { NoTournament: '347', NoPlayer1: '102082', NoPlayer2: '101591', Rank: '3' }, // MRIO2003 Benjamin Insfran / Marcio Henrique Barroso Araujo
+  { NoTournament: '384', NoPlayer1: '100425', NoPlayer2: '105143', Rank: '3' }, // MSTA2009 Todd Rogers / Philip Dalhausser
+  { NoTournament: '384', NoPlayer1: '103217', NoPlayer2: '103109', Rank: '1' }, // MSTA2009 Julius Brink / Jonas Reckermann
+  { NoTournament: '384', NoPlayer1: '101669', NoPlayer2: '118267', Rank: '2' }, // MSTA2009 Harley Marques Silva / Alison Cerutti
+  { NoTournament: '400', NoPlayer1: '100334', NoPlayer2: '100393', Rank: '1' }, // MSYD2000 Dain Blanton / Eric Fonoimoana
+  { NoTournament: '400', NoPlayer1: '100426', NoPlayer2: '100997', Rank: '2' }, // MSYD2000 José Marco "Zé Marco" Nóbrega Ferreira de Melo / Ricardo Alex Costa Santos
+  { NoTournament: '400', NoPlayer1: '100494', NoPlayer2: '100495', Rank: '3' }, // MSYD2000 Jörg "Vince" Ahmann / Axel "Hägar" Hager
+  { NoTournament: '478', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '2' }, // WATH2004 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '478', NoPlayer1: '100715', NoPlayer2: '101905', Rank: '3' }, // WATH2004 Holly McPeak / Elaine   "Ey" Youngs
+  { NoTournament: '478', NoPlayer1: '103242', NoPlayer2: '102850', Rank: '1' }, // WATH2004 Kerri Walsh Jennings / Misty May-Treanor
+  { NoTournament: '480', NoPlayer1: '100250', NoPlayer2: '100258', Rank: '1' }, // WATL1996 Jacqueline Louise "Jackie" Cruz Silva / Sandra Pires Tavares
+  { NoTournament: '480', NoPlayer1: '100251', NoPlayer2: '100371', Rank: '3' }, // WATL1996 Natalie "Nat" Cook / Kerri-Ann "Kez" Pottharst
+  { NoTournament: '480', NoPlayer1: '100253', NoPlayer2: '100252', Rank: '2' }, // WATL1996 Adriana Samuel Ramos / Mônica Rodrigues
+  { NoTournament: '489', NoPlayer1: '102166', NoPlayer2: '104032', Rank: '2' }, // WBEI2008 Jia Tian / Jie Wang
+  { NoTournament: '489', NoPlayer1: '103242', NoPlayer2: '102850', Rank: '1' }, // WBEI2008 Kerri Walsh Jennings / Misty May-Treanor
+  { NoTournament: '489', NoPlayer1: '104438', NoPlayer2: '103653', Rank: '3' }, // WBEI2008 Chen Xue / Xi Zhang
+  { NoTournament: '495', NoPlayer1: '102166', NoPlayer2: '102341', Rank: '3' }, // WBER2005 Jia Tian / Fei Wang
+  { NoTournament: '495', NoPlayer1: '103242', NoPlayer2: '102850', Rank: '1' }, // WBER2005 Kerri Walsh Jennings / Misty May-Treanor
+  { NoTournament: '495', NoPlayer1: '103903', NoPlayer2: '103904', Rank: '2' }, // WBER2005 Larissa França Maestrini / Juliana Felisberta  Da Silva
+  { NoTournament: '594', NoPlayer1: '102166', NoPlayer2: '104032', Rank: '2' }, // WGST2007 Jia Tian / Jie Wang
+  { NoTournament: '594', NoPlayer1: '103242', NoPlayer2: '102850', Rank: '1' }, // WGST2007 Kerri Walsh Jennings / Misty May-Treanor
+  { NoTournament: '594', NoPlayer1: '103903', NoPlayer2: '103904', Rank: '3' }, // WGST2007 Larissa França Maestrini / Juliana Felisberta  Da Silva
+  { NoTournament: '611', NoPlayer1: '104438', NoPlayer2: '103653', Rank: '3' }, // WITA2011 Chen Xue / Xi Zhang
+  { NoTournament: '611', NoPlayer1: '102850', NoPlayer2: '103242', Rank: '2' }, // WITA2011 Misty May-Treanor / Kerri Walsh Jennings
+  { NoTournament: '611', NoPlayer1: '103903', NoPlayer2: '103904', Rank: '1' }, // WITA2011 Larissa França Maestrini / Juliana Felisberta  Da Silva
+  { NoTournament: '614', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '1' }, // WKLA2001 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '614', NoPlayer1: '100258', NoPlayer2: '101719', Rank: '2' }, // WKLA2001 Sandra Pires Tavares / Tatiana Minello
+  { NoTournament: '614', NoPlayer1: '101546', NoPlayer2: '101547', Rank: '3' }, // WKLA2001 Eva Celbova / Sona Novakova Dosoudilova
+  { NoTournament: '635', NoPlayer1: '100012', NoPlayer2: '100074', Rank: '3' }, // WLAX1997 Karolyn "KK" Kirby / Nancy Reno
+  { NoTournament: '635', NoPlayer1: '100250', NoPlayer2: '100258', Rank: '1' }, // WLAX1997 Jacqueline Louise "Jackie" Cruz Silva / Sandra Pires Tavares
+  { NoTournament: '635', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '3' }, // WLAX1997 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '635', NoPlayer1: '100615', NoPlayer2: '100715', Rank: '2' }, // WLAX1997 Lisa Arce / Holly McPeak
+  { NoTournament: '665', NoPlayer1: '100019', NoPlayer2: '101905', Rank: '3' }, // WMRS1999 Elizabeth "Liz" Masakayan / Elaine   "Ey" Youngs
+  { NoTournament: '665', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '1' }, // WMRS1999 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '665', NoPlayer1: '101712', NoPlayer2: '101718', Rank: '2' }, // WMRS1999 Annett "Nettie" Davis / Jennifer "Jenny" Jordan Jonnson
+  { NoTournament: '735', NoPlayer1: '100251', NoPlayer2: '102145', Rank: '3' }, // WRIO2003 Natalie "Nat" Cook / Nicole Sanderson
+  { NoTournament: '735', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '2' }, // WRIO2003 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '735', NoPlayer1: '103242', NoPlayer2: '102850', Rank: '1' }, // WRIO2003 Kerri Walsh Jennings / Misty May-Treanor
+  { NoTournament: '782', NoPlayer1: '118426', NoPlayer2: '103011', Rank: '1' }, // WSTA2009 April Ross / Jennifer Kessy
+  { NoTournament: '782', NoPlayer1: '103903', NoPlayer2: '103904', Rank: '2' }, // WSTA2009 Larissa França Maestrini / Juliana Felisberta  Da Silva
+  { NoTournament: '782', NoPlayer1: '103892', NoPlayer2: '105063', Rank: '3' }, // WSTA2009 Talita Da Rocha Antunes / Maria Antonelli
+  { NoTournament: '793', NoPlayer1: '100251', NoPlayer2: '100371', Rank: '1' }, // WSYD2000 Natalie "Nat" Cook / Kerri-Ann "Kez" Pottharst
+  { NoTournament: '793', NoPlayer1: '100256', NoPlayer2: '100926', Rank: '2' }, // WSYD2000 Adriana Brandão Behar / Shelda Kelly Bruno Bede
+  { NoTournament: '793', NoPlayer1: '100258', NoPlayer2: '100253', Rank: '3' }, // WSYD2000 Sandra Pires Tavares / Adriana Samuel Ramos
+  { NoTournament: '1097', NoPlayer1: '100427', NoPlayer2: '118267', Rank: '2' }, // MLON2012 Emanuel Rego / Alison Cerutti
+  { NoTournament: '1097', NoPlayer1: '103217', NoPlayer2: '103109', Rank: '1' }, // MLON2012 Julius Brink / Jonas Reckermann
+  { NoTournament: '1097', NoPlayer1: '104142', NoPlayer2: '104449', Rank: '3' }, // MLON2012 Martins Plavins / Janis Smedins
+  { NoTournament: '1098', NoPlayer1: '103903', NoPlayer2: '103904', Rank: '3' }, // WLON2012 Larissa França Maestrini / Juliana Felisberta  Da Silva
+  { NoTournament: '1098', NoPlayer1: '102850', NoPlayer2: '103242', Rank: '1' }, // WLON2012 Misty May-Treanor / Kerri Walsh Jennings
+  { NoTournament: '1098', NoPlayer1: '103011', NoPlayer2: '118426', Rank: '2' }, // WLON2012 Jennifer Kessy / April Ross
+  { NoTournament: '1364', NoPlayer1: '119108', NoPlayer2: '118261', Rank: '2' }, // WSTJ2013 Karla Borger / Britta Büthe
+  { NoTournament: '1364', NoPlayer1: '104438', NoPlayer2: '103653', Rank: '1' }, // WSTJ2013 Chen Xue / Xi Zhang
+  { NoTournament: '1364', NoPlayer1: '116870', NoPlayer2: '104505', Rank: '3' }, // WSTJ2013 Liliane Maestrini / Barbara Seixas de Freitas
+  { NoTournament: '1365', NoPlayer1: '116660', NoPlayer2: '103348', Rank: '3' }, // MSTJ2013 Jonathan Erdmann / Kay Matysik
+  { NoTournament: '1365', NoPlayer1: '118317', NoPlayer2: '119991', Rank: '1' }, // MSTJ2013 Alexander Brouwer / Robert Meeuwsen
+  { NoTournament: '1365', NoPlayer1: '100997', NoPlayer2: '120550', Rank: '2' }, // MSTJ2013 Ricardo Alex Costa Santos / Álvaro Morais Filho
+  { NoTournament: '2564', NoPlayer1: '116556', NoPlayer2: '119235', Rank: '2' }, // MNED2015 Reinder Nummerdor / Christiaan Varenhorst
+  { NoTournament: '2564', NoPlayer1: '118267', NoPlayer2: '117474', Rank: '1' }, // MNED2015 Alison Cerutti / Bruno Oscar Schmidt
+  { NoTournament: '2564', NoPlayer1: '104073', NoPlayer2: '133285', Rank: '3' }, // MNED2015 Pedro Solberg / Evandro Gonçalves Oliveira Júnior
+  { NoTournament: '2565', NoPlayer1: '105063', NoPlayer2: '103904', Rank: '3' }, // WNED2015 Maria Antonelli / Juliana Felisberta  Da Silva
+  { NoTournament: '2565', NoPlayer1: '104505', NoPlayer2: '115287', Rank: '1' }, // WNED2015 Barbara Seixas de Freitas / Agatha Bednarczuk
+  { NoTournament: '2565', NoPlayer1: '103997', NoPlayer2: '112638', Rank: '2' }, // WNED2015 Taiana Lima / Fernanda Alves
+  { NoTournament: '3690', NoPlayer1: '118267', NoPlayer2: '117474', Rank: '1' }, // Rio2016M Alison Cerutti / Bruno Oscar Schmidt
+  { NoTournament: '3690', NoPlayer1: '118317', NoPlayer2: '119991', Rank: '3' }, // Rio2016M Alexander Brouwer / Robert Meeuwsen
+  { NoTournament: '3690', NoPlayer1: '118194', NoPlayer2: '120774', Rank: '2' }, // Rio2016M Paolo Nicolai / Daniele Lupo
+  { NoTournament: '3691', NoPlayer1: '115287', NoPlayer2: '104505', Rank: '2' }, // Rio2016W Agatha Bednarczuk / Barbara Seixas de Freitas
+  { NoTournament: '3691', NoPlayer1: '103242', NoPlayer2: '118426', Rank: '3' }, // Rio2016W Kerri Walsh Jennings / April Ross
+  { NoTournament: '3691', NoPlayer1: '104461', NoPlayer2: '118951', Rank: '1' }, // Rio2016W Laura Ludwig / Kira Walkenhorst
+  { NoTournament: '3895', NoPlayer1: '120749', NoPlayer2: '147531', Rank: '3' }, // MWCH2017 Viacheslav Krasilnikov / Nikita Liamin
+  { NoTournament: '3895', NoPlayer1: '101534', NoPlayer2: '103677', Rank: '2' }, // MWCH2017 Clemens Doppler / Alexander Horst
+  { NoTournament: '3895', NoPlayer1: '133285', NoPlayer2: '147009', Rank: '1' }, // MWCH2017 Evandro Gonçalves Oliveira Júnior / Andre Loyola Stein
+  { NoTournament: '3896', NoPlayer1: '104461', NoPlayer2: '118951', Rank: '1' }, // WWCH2017 Laura Ludwig / Kira Walkenhorst
+  { NoTournament: '3896', NoPlayer1: '118426', NoPlayer2: '104862', Rank: '2' }, // WWCH2017 April Ross / Lauren Fendrick
+  { NoTournament: '3896', NoPlayer1: '103903', NoPlayer2: '103892', Rank: '3' }, // WWCH2017 Larissa França Maestrini / Talita Da Rocha Antunes
+  { NoTournament: '5022', NoPlayer1: '143192', NoPlayer2: '137127', Rank: '3' }, // MWCH2019 Anders Berntsen Mol / Christian Sandlie Sørum
+  { NoTournament: '5022', NoPlayer1: '147665', NoPlayer2: '139387', Rank: '2' }, // MWCH2019 Julius Thole / Clemens Wickler
+  { NoTournament: '5022', NoPlayer1: '141535', NoPlayer2: '120749', Rank: '1' }, // MWCH2019 Oleg Stoyanovskiy / Viacheslav Krasilnikov
+  { NoTournament: '5023', NoPlayer1: '113895', NoPlayer2: '124979', Rank: '1' }, // WWCH2019 Sarah Pavan / Melissa Humana-Paredes
+  { NoTournament: '5023', NoPlayer1: '125172', NoPlayer2: '118988', Rank: '3' }, // WWCH2019 Taliqua Clancy / Mariafe Artacho Del Solar
+  { NoTournament: '5023', NoPlayer1: '115846', NoPlayer2: '118426', Rank: '2' }, // WWCH2019 Alexandra Klineman / April Ross
+  { NoTournament: '5872', NoPlayer1: '143192', NoPlayer2: '137127', Rank: '1' }, // MTOK2020 Anders Berntsen Mol / Christian Sandlie Sørum
+  { NoTournament: '5872', NoPlayer1: '120749', NoPlayer2: '141535', Rank: '2' }, // MTOK2020 Viacheslav Krasilnikov / Oleg Stoyanovskiy
+  { NoTournament: '5872', NoPlayer1: '146488', NoPlayer2: '146481', Rank: '3' }, // MTOK2020 Cherif Younousse / Ahmed Tijan
+  { NoTournament: '5873', NoPlayer1: '118988', NoPlayer2: '125172', Rank: '2' }, // WTOK2020 Mariafe Artacho Del Solar / Taliqua Clancy
+  { NoTournament: '5873', NoPlayer1: '124999', NoPlayer2: '124153', Rank: '3' }, // WTOK2020 Anouk Vergé-Dépré / Joana Mäder
+  { NoTournament: '5873', NoPlayer1: '118426', NoPlayer2: '115846', Rank: '1' }, // WTOK2020 April Ross / Alexandra Klineman
+  { NoTournament: '6295', NoPlayer1: '153267', NoPlayer2: '125549', Rank: '3' }, // WROM2022 Svenja Müller / Cinja Tillmann
+  { NoTournament: '6295', NoPlayer1: '139087', NoPlayer2: '147073', Rank: '1' }, // WROM2022 Eduarda Santos Lisboa / Ana Patricia Silva Ramos
+  { NoTournament: '6295', NoPlayer1: '139270', NoPlayer2: '141868', Rank: '2' }, // WROM2022 Sophie Bukovec / Brandie Wilkerson
+  { NoTournament: '6296', NoPlayer1: '156493', NoPlayer2: '120551', Rank: '2' }, // MROM2022 Renato Andrew Lima de Carvalho / Vitor Gonçalves Felipe
+  { NoTournament: '6296', NoPlayer1: '147009', NoPlayer2: '142889', Rank: '3' }, // MROM2022 Andre Loyola Stein / George Souto Maior Wanderley
+  { NoTournament: '6296', NoPlayer1: '143192', NoPlayer2: '137127', Rank: '1' }, // MROM2022 Anders Berntsen Mol / Christian Sandlie Sørum
+  { NoTournament: '6796', NoPlayer1: '147073', NoPlayer2: '139087', Rank: '2' }, // WWCH2023 Ana Patricia Silva Ramos / Eduarda Santos Lisboa
+  { NoTournament: '6796', NoPlayer1: '162432', NoPlayer2: '184611', Rank: '3' }, // WWCH2023 Kristen Cruz / Taryn Brasher
+  { NoTournament: '6796', NoPlayer1: '135571', NoPlayer2: '140066', Rank: '1' }, // WWCH2023 Sara Hughes / Kelly Cheng
+  { NoTournament: '6797', NoPlayer1: '160555', NoPlayer2: '166274', Rank: '2' }, // MWCH2023 David Åhman / Jonatan Hellvig
+  { NoTournament: '6797', NoPlayer1: '122846', NoPlayer2: '137237', Rank: '3' }, // MWCH2023 Bartosz Łosiak / Michal Bryl
+  { NoTournament: '6797', NoPlayer1: '137346', NoPlayer2: '153790', Rank: '1' }, // MWCH2023 Ondrej Perusic / David Schweiner
+  { NoTournament: '7642', NoPlayer1: '147073', NoPlayer2: '139087', Rank: '1' }, // WPAR2024 Ana Patricia Silva Ramos / Eduarda Santos Lisboa
+  { NoTournament: '7642', NoPlayer1: '124979', NoPlayer2: '141868', Rank: '2' }, // WPAR2024 Melissa Humana-Paredes / Brandie Wilkerson
+  { NoTournament: '7642', NoPlayer1: '132614', NoPlayer2: '135579', Rank: '3' }, // WPAR2024 Tanja Hüberli / Nina Brunner
+  { NoTournament: '7643', NoPlayer1: '160555', NoPlayer2: '166274', Rank: '1' }, // MPAR2024 David Åhman / Jonatan Hellvig
+  { NoTournament: '7643', NoPlayer1: '143192', NoPlayer2: '137127', Rank: '3' }, // MPAR2024 Anders Berntsen Mol / Christian Sandlie Sørum
+  { NoTournament: '7643', NoPlayer1: '156567', NoPlayer2: '139387', Rank: '2' }, // MPAR2024 Nils Ehlers / Clemens Wickler
+  { NoTournament: '8136', NoPlayer1: '141983', NoPlayer2: '141984', Rank: '1' }, // WWCH2025 Tina Graudina / Anastasija Samoilova
+  { NoTournament: '8136', NoPlayer1: '104079', NoPlayer2: '132686', Rank: '3' }, // WWCH2025 Carolina Solberg Salgado / Rebecca Cavalcante Barbosa Silva
+  { NoTournament: '8136', NoPlayer1: '162432', NoPlayer2: '184611', Rank: '2' }, // WWCH2025 Kristen Cruz / Taryn Brasher
+  { NoTournament: '8137', NoPlayer1: '160555', NoPlayer2: '166274', Rank: '1' }, // MWCH2025 David Åhman / Jonatan Hellvig
+  { NoTournament: '8137', NoPlayer1: '171940', NoPlayer2: '202200', Rank: '2' }, // MWCH2025 Jacob Hölting Nilsson / Elmer Andersson
+  { NoTournament: '8137', NoPlayer1: '175205', NoPlayer2: '146455', Rank: '3' }, // MWCH2025 Téo Rotar / Arnaud Gauthier-Rat
+];
+
+describe('aggregateMedals (real FIVB medal history)', () => {
+  const medals = medalTournaments(REAL_MEDAL_TOURNAMENTS);
+  const byPlayer = aggregateMedals(REAL_MEDAL_ROWS, medals);
+
+  it('recognises every real Olympic Games and World Championships event on record', () => {
+    expect(medals.size).toBe(46);
+    expect([...medals.values()].filter((c) => c === 'olympics')).toHaveLength(16);
+    expect([...medals.values()].filter((c) => c === 'world-champs')).toHaveLength(30);
+  });
+
+  it("matches Kerri Walsh Jennings's known Olympic and World Championships record", () => {
+    // 3 Olympic golds (2004, 2008, 2012) + 1 Olympic bronze (2016, with April
+    // Ross, after Misty May-Treanor had retired), plus 3 World Championships
+    // (2003, 2005, 2007) and a runner-up finish in 2011.
+    const kerri = byPlayer.get(103242)!;
+    expect(kerri.olympics).toEqual({ gold: 3, silver: 0, bronze: 1 });
+    expect(kerri['world-champs']).toEqual({ gold: 3, silver: 1, bronze: 0 });
+  });
+
+  it('credits both teams for the shared 1997 World Championships bronze (no bronze-medal match yet)', () => {
+    const steffesBlanton = byPlayer.get(100132)!; // Kent Steffes, men's MLAX1997
+    expect(steffesBlanton['world-champs'].bronze).toBe(1);
+    const paulao = byPlayer.get(100021)!; // Paulão, the other men's MLAX1997 bronze
+    expect(paulao['world-champs'].bronze).toBe(1);
+    const kirbyReno = byPlayer.get(100012)!; // KK Kirby, women's WLAX1997
+    expect(kirbyReno['world-champs'].bronze).toBe(1);
+  });
+
+  it('gives Mol/Sørum the Tokyo 2020 gold and Rome 2022 World Championships gold', () => {
+    const mol = byPlayer.get(143192)!;
+    expect(mol.olympics.gold).toBeGreaterThanOrEqual(1); // Tokyo 2020
+    expect(mol['world-champs'].gold).toBeGreaterThanOrEqual(1); // Rome 2022
+  });
+
+  it('awards exactly one gold pair (2 players) per medal event', () => {
+    const golds = [...byPlayer.values()].reduce((s, m) => s + m.olympics.gold + m['world-champs'].gold, 0);
+    // 46 events x 2 players per winning pair.
+    expect(golds).toBe(46 * 2);
   });
 });

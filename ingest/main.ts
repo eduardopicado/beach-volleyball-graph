@@ -37,13 +37,15 @@ import { fetchList } from './vis.js';
 import { fetchFederations, countryName, countryIso2 } from './countries.js';
 import { TIER_LABEL, INCLUDE_AGE_GROUP } from './tiers.js';
 import {
+  aggregateMedals,
   aggregatePartnerships,
+  medalTournaments,
   normalisePlayers,
   normaliseTournaments,
   sliceByCountryAndGender,
 } from './build.js';
 import { checkForRegression, type DatasetTotals } from './regression.js';
-import type { Manifest, ManifestCountry, Gender, PlayersFile, GraphFile } from '../web/src/schema.js';
+import type { Manifest, ManifestCountry, Gender, MedalCounts, PlayersFile, GraphFile } from '../web/src/schema.js';
 import { DATA_VERSION } from '../web/src/schema.js';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -58,6 +60,10 @@ const MIN_NODES = 2;
 
 function log(step: string, detail: string) {
   console.log(`[${new Date().toISOString().slice(11, 19)}] ${step.padEnd(12)} ${detail}`);
+}
+
+function hasMedal(counts: MedalCounts): boolean {
+  return counts.gold > 0 || counts.silver > 0 || counts.bronze > 0;
 }
 
 /**
@@ -155,6 +161,13 @@ async function main() {
   log('aggregate', `${partnerships.size} partnerships across ${appearances.size} players`);
   log('rejected', JSON.stringify(rejects));
 
+  // Medal tournaments are picked out of the raw rows directly (Type 5 / 4),
+  // not the broader `olympics`/`world-champs` tiers above — see
+  // medalTournaments() for why those tiers are too wide for this.
+  const medals = medalTournaments(tournamentRows);
+  const medalsByPlayer = aggregateMedals(teamRows, medals);
+  log('medals', `${medalsByPlayer.size} players with an Olympic or World Championships medal`);
+
   // A collapse in matched entries means the upstream shape changed. Better to
   // fail loudly than to publish a graph that quietly lost most of its edges.
   if (partnerships.size < 1000) {
@@ -201,12 +214,15 @@ async function main() {
       gender: slice.gender,
       players: slice.nodes.map((node) => {
         const p = players.get(node.id)!;
+        const m = medalsByPlayer.get(node.id);
         return {
           id: node.id,
           name: p.name,
           dob: p.dob,
           height: p.height,
           weight: p.weight,
+          olympics: m && hasMedal(m.olympics) ? m.olympics : undefined,
+          worldChamps: m && hasMedal(m['world-champs']) ? m['world-champs'] : undefined,
         };
       }),
     };

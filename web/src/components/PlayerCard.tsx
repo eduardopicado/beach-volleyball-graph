@@ -8,7 +8,7 @@
 import { useEffect, useRef, useState } from 'react';
 import type { GraphNode, PlayerDetail } from '../schema';
 import { playerPhotoUrl, playerProfileUrl } from '../schema';
-import { age, formatDate, initials, plural, seasonSpan } from '../lib/format';
+import { age, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from '../lib/format';
 import './PlayerCard.css';
 
 export interface PartnerRow {
@@ -151,6 +151,18 @@ export function PlayerCard({
           <dt>Seasons</dt>
           <dd>{seasonSpan(node.first, node.last)}</dd>
         </div>
+        {detail?.olympics && (
+          <div>
+            <dt>Olympic Medals</dt>
+            <dd aria-label={medalAriaLabel(detail.olympics)}>{formatMedals(detail.olympics)}</dd>
+          </div>
+        )}
+        {detail?.worldChamps && (
+          <div>
+            <dt>World Champs Medals</dt>
+            <dd aria-label={medalAriaLabel(detail.worldChamps)}>{formatMedals(detail.worldChamps)}</dd>
+          </div>
+        )}
       </dl>
 
       <section className="partners">

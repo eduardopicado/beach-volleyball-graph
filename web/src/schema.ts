@@ -50,6 +50,12 @@ export interface GraphFile {
   edges: GraphEdge[];
 }
 
+export interface MedalCounts {
+  gold: number;
+  silver: number;
+  bronze: number;
+}
+
 /** Lazy-loaded detail for every player in one country x gender slice. */
 export interface PlayerDetail {
   id: number;
@@ -60,6 +66,14 @@ export interface PlayerDetail {
   height: number | null;
   /** Kilograms, `null` when unknown. */
   weight: number | null;
+  /**
+   * Present only when the player won at least one medal at a real, senior
+   * Olympic Games. Omitted (not zeroed) for the vast majority of players who
+   * never medalled, to keep the common case free.
+   */
+  olympics?: MedalCounts;
+  /** Present only when the player won at least one FIVB World Championships medal. */
+  worldChamps?: MedalCounts;
 }
 
 /**
