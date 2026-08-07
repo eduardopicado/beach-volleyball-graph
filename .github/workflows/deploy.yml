@@ -41,6 +41,18 @@ on:
     # Sundays at 03:17 UTC. Off the hour to avoid the cron stampede.
     - cron: '17 3 * * 0'
   workflow_dispatch:
+    inputs:
+      allow_data_regression:
+        description: >-
+          Publish even if tournaments/players/partnerships drop more than 5%
+          from what's already committed. The weekly schedule never sets this —
+          it exists for a deliberate, reviewed correction (e.g. a tier
+          reclassification) that legitimately shrinks the dataset, which
+          ingest/regression.ts would otherwise refuse on the assumption that a
+          drop that size means FIVB handed back a broken response. The drop is
+          logged either way.
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -89,6 +101,10 @@ jobs:
           # Identify the job to FIVB. Replace the contact address with your own,
           # and request an application identifier from vis.sdk@fivb.org.
           VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }})'
+          # false on every trigger except a manual dispatch with the checkbox
+          # ticked — schedule and workflow_dispatch runs that leave it
+          # unchecked, and push (which skips this job entirely), all get 'false'.
+          ALLOW_DATA_REGRESSION: ${{ github.event.inputs.allow_data_regression == 'true' }}
 
       - name: Summarise the published dataset
         run: |
@@ -114,14 +130,20 @@ jobs:
       # peter-evans/create-pull-request) — not to relax protection generally.
       - name: Commit refreshed data
         id: commit
+        env:
+          ALLOW_DATA_REGRESSION: ${{ github.event.inputs.allow_data_regression == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -z "$(git status --porcelain -- web/public/v1)" ]; then
             echo "No data changes to commit."
           else
+            suffix=""
+            if [ "$ALLOW_DATA_REGRESSION" = "true" ]; then
+              suffix=" [regression check bypassed — see run log for what shrank]"
+            fi
             git add web/public/v1
-            git commit -m "Refresh FIVB data ($(date -u +%Y-%m-%d))"
+            git commit -m "Refresh FIVB data ($(date -u +%Y-%m-%d))$suffix"
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"

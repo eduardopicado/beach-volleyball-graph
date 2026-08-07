@@ -249,11 +249,22 @@ async function main() {
   // alone, whether that's a real correction or FIVB silently handing back an
   // empty or truncated response. See regression.ts for why scale is the only
   // signal available to tell them apart.
+  //
+  // ALLOW_DATA_REGRESSION is the deliberate escape hatch for the one case
+  // this can't tell apart from a broken fetch on its own: a real code change
+  // that correctly excludes data that should never have been counted (e.g.
+  // the Type-15 National Tour fix — a legitimate ~16% drop in one run). It is
+  // wired to a workflow_dispatch checkbox, not a default, and this run is
+  // never silent about using it: the drop is logged either way, published or
+  // not, so it is visible in the run output and in the commit this produces.
   const regressions = checkForRegression(previousTotals, manifest.totals);
   if (regressions.length > 0) {
-    throw new Error(
-      `Refusing to publish — this looks like a broken fetch, not a real change:\n  ${regressions.join('\n  ')}`,
-    );
+    const detail = `  ${regressions.join('\n  ')}`;
+    if (process.env.ALLOW_DATA_REGRESSION === 'true') {
+      console.warn(`  ! regression check bypassed (ALLOW_DATA_REGRESSION=true):\n${detail}`);
+    } else {
+      throw new Error(`Refusing to publish — this looks like a broken fetch, not a real change:\n${detail}`);
+    }
   }
 
   // Swap the new tree in, then delete the old one — never the other way round.

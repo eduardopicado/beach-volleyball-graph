@@ -53,8 +53,12 @@ describe('normaliseTournaments', () => {
     const rows: VisRow[] = [
       { ...tournament('2', 2024), OrganizerType: '2' }, // CEV etc.
       { ...tournament('3', 2024), OrganizerType: '5' }, // national federation
-      { ...tournament('4', 2024), OrganizerType: '1', Type: '15' }, // FIVB 1-star: kept
+      { ...tournament('4', 2024), OrganizerType: '1', Type: '42' }, // FIVB 1-star: kept
       { ...tournament('5', 2024), OrganizerType: '5', Type: '15' }, // national tour: dropped
+      // Type 15 is National Tour by FIVB's own schema, not "1-star" — dropped
+      // even when OrganizerType claims FIVB, since that field isn't reliable
+      // on National Tour records. Regression case for that specific bug.
+      { ...tournament('6', 2024), OrganizerType: '1', Type: '15' },
     ];
     expect([...normaliseTournaments(rows).keys()]).toEqual(['4']);
   });
