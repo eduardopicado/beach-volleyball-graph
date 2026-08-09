@@ -46,6 +46,9 @@ export const esc = (s: string) =>
 
 const abs = (p: string) => `${SITE_URL}${p}`;
 
+/** "54.2%" — one decimal, and never NaN on an empty dataset. */
+const pct = (n: number, of: number) => `${of > 0 ? ((100 * n) / of).toFixed(1) : '0.0'}%`;
+
 interface Page {
   slug: string;
   url: string;
@@ -136,6 +139,54 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
 </main>`;
 }
 
+/** Players with at least this many tournaments count as established regulars. */
+export const REGULAR_MIN_TOURNAMENTS = 10;
+
+/**
+ * Running tallies behind the "how to read the numbers" section of llms.txt.
+ *
+ * These used to be three numbers written into the prose by hand. They are
+ * claims about the published data, stated to language models as fact, and
+ * nothing tied them to the data they described — so every correction to the
+ * dataset (the Type-15 reclassification, the Rank-0 exclusion) silently
+ * falsified them. Accumulating them from the graphs the prerenderer is
+ * already reading costs one pass and cannot drift.
+ */
+export interface ShapeTally {
+  players: number;
+  onePartner: number;
+  oneTournament: number;
+  regulars: number;
+  regularPartnerSum: number;
+}
+
+export const emptyTally = (): ShapeTally => ({
+  players: 0,
+  onePartner: 0,
+  oneTournament: 0,
+  regulars: 0,
+  regularPartnerSum: 0,
+});
+
+/** Fold one country x gender slice into the running totals. */
+export function tallySlice(graph: GraphFile, into: ShapeTally): void {
+  const degree = new Map<number, number>();
+  for (const e of graph.edges) {
+    degree.set(e.a, (degree.get(e.a) ?? 0) + 1);
+    degree.set(e.b, (degree.get(e.b) ?? 0) + 1);
+  }
+  for (const n of graph.nodes) {
+    const d = degree.get(n.id) ?? 0;
+    into.players++;
+    if (d === 1) into.onePartner++;
+    if (n.tournaments === 1) into.oneTournament++;
+    if (n.tournaments >= REGULAR_MIN_TOURNAMENTS) {
+      into.regulars++;
+      into.regularPartnerSum += d;
+    }
+  }
+}
+
 /**
  * `/llms.txt` — a plain-markdown briefing for language models, per llmstxt.org.
  *
@@ -146,6 +197,7 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
 export function llmsTxt(
   manifest: Manifest,
   slices: { name: string; gender: Gender; href: string }[],
+  shape: ShapeTally,
 ): string {
   const tiers = Object.entries(manifest.tiers)
     .sort((a, b) => b[1] - a[1])
@@ -177,7 +229,7 @@ tours, snow volleyball, multi-sport games and King of the Court are excluded.
 - A player's tournament count is their own entries, not their partner count. Node size in the graph encodes this.
 - A player's country is their current FIVB federation. No federation history is kept.
 - Both players must represent the same federation for a partnership to appear, so cross-national pairs (about 1% of the total) are in no country's graph.
-- The dataset is dominated by one-off entrants: 53.8% of players have exactly one partner and 37.4% entered exactly one tournament. Restricted to players with 10 or more tournaments the mean is 5.3 partners. Use the "min. events together" filter, or the \`min\` query parameter, to exclude one-off pairings.
+- The dataset is dominated by one-off entrants: ${pct(shape.onePartner, shape.players)} of players have exactly one partner and ${pct(shape.oneTournament, shape.players)} entered exactly one tournament. Restricted to players with ${REGULAR_MIN_TOURNAMENTS} or more tournaments the mean is ${(shape.regularPartnerSum / Math.max(shape.regulars, 1)).toFixed(1)} partners. Use the "min. events together" filter, or the \`min\` query parameter, to exclude one-off pairings.
 
 ## Data (JSON, prefer these over scraping the pages)
 
@@ -221,22 +273,33 @@ async function main() {
   }
 
   const pages: Page[] = [];
+  const shape = emptyTally();
 
   // --- one page per slice --------------------------------------------------
   for (const slice of slices) {
     const graph: GraphFile = JSON.parse(
       await readFile(path.join(DATA, 'graphs', `${slice.code}-${slice.gender}.json`), 'utf8'),
     );
+    tallySlice(graph, shape);
     const url = abs(slice.href);
     const label = GENDER_LABEL[slice.gender];
     const title = `${slice.name} ${label} — Beach Volleyball Partnership Graph`;
     const description = `Every ${label.toLowerCase()}'s beach volleyball player from ${slice.name} who has competed on the FIVB World Tour, Beach Pro Tour, World Championships or Olympic Games — ${graph.nodes.length} players and ${graph.edges.length} partnerships, ${manifest.seasons.from}–${manifest.seasons.to}.`;
 
-    // Sibling links: the other gender for this country, plus nearby countries,
-    // so every page is reachable from every other without the full 300-link list.
+    // Sibling links: the other gender for this country, then a rotating
+    // window of other countries starting just after this one.
+    //
+    // Taking `slices.slice(0, 24)` instead — the same alphabetical head on
+    // every page — meant Algeria collected an inbound link from all 263
+    // other pages while 30 slices got none at all, reachable only from the
+    // home page. Rotating spreads inbound links evenly at no cost, and it is
+    // what the "nearby countries" this comment always claimed actually
+    // requires.
+    const here = slices.indexOf(slice);
+    const rotated = [...slices.slice(here + 1), ...slices.slice(0, here)];
     const others = [
       ...slices.filter((s) => s.code === slice.code && s.gender !== slice.gender),
-      ...slices.filter((s) => s.code !== slice.code).slice(0, 24),
+      ...rotated.filter((s) => s.code !== slice.code).slice(0, 24),
     ].map((s) => ({ name: `${s.name} ${GENDER_LABEL[s.gender]}`, href: s.href }));
 
     const top = [...graph.nodes].sort((a, b) => b.tournaments - a.tournaments).slice(0, JSONLD_MAX);
@@ -335,11 +398,19 @@ async function main() {
 
   // --- write ---------------------------------------------------------------
   for (const page of pages) {
+    // Function replacements, not string ones. A string replacement expands
+    // `$&`, `$\``, `$'` and `$1` inside the *replacement*, and the text being
+    // spliced in here is built from upstream player and country names —
+    // `esc()` handles the HTML metacharacters but has no reason to touch `$`.
+    // A name containing "$`" would splice in the entire preceding document
+    // instead of itself. No name in the current archive has one, so this is
+    // hardening rather than a live fix, but the failure mode is silent
+    // corruption of a published page and the guard costs nothing.
     let html = template;
-    html = html.replace('</head>', `${page.head}</head>`);
-    html = html.replace('<div id="root"></div>', `<div id="root">${page.body}</div>`);
+    html = html.replace('</head>', () => `${page.head}</head>`);
+    html = html.replace('<div id="root"></div>', () => `<div id="root">${page.body}</div>`);
     // The static <title> in index.html is generic; each page overrides it.
-    html = html.replace(/<title>.*?<\/title>/, `<title>${esc(page.title)}</title>`);
+    html = html.replace(/<title>.*?<\/title>/, () => `<title>${esc(page.title)}</title>`);
 
     const dir = page.slug ? path.join(DIST, page.slug) : DIST;
     await mkdir(dir, { recursive: true });
@@ -366,7 +437,7 @@ async function main() {
     `User-agent: *\nAllow: /\n\nSitemap: ${abs(`${BASE}sitemap.xml`)}\n`,
   );
 
-  await writeFile(path.join(DIST, 'llms.txt'), llmsTxt(manifest, slices));
+  await writeFile(path.join(DIST, 'llms.txt'), llmsTxt(manifest, slices, shape));
 
   // Social preview image.
   const screenshot = path.join(ROOT, 'docs/screenshot.png');
