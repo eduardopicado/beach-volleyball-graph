@@ -9,15 +9,22 @@
  *  - identify yourself, so FIVB can email you instead of null-routing you.
  */
 
+import { CONTACT_EMAIL } from '../web/src/site.js';
+
 const ENDPOINT = 'https://www.fivb.org/Vis2009/XmlRequest.asmx';
 
 /**
- * Override with a real contact address before running this anywhere public, and
- * request an application identifier from vis.sdk@fivb.org.
+ * Identifies this project to FIVB on every request, contact address included:
+ * the whole point of the header is that a free service with a problem can
+ * email the person responsible instead of quietly null-routing them.
+ *
+ * `VIS_USER_AGENT` overrides it (the workflows set the running repository),
+ * but the default is deliberately reachable too, so a local run or a fork
+ * doesn't fall back to an anonymous string.
  */
 const USER_AGENT =
   process.env.VIS_USER_AGENT ??
-  'beachvolleyballgraph/1.0 (+https://github.com/eduardopicado/beachvolleyballgraph)';
+  `beachvolleyballgraph/1.0 (+https://github.com/eduardopicado/beach-volleyball-graph; ${CONTACT_EMAIL})`;
 
 const MAX_ATTEMPTS = 3;
 const BASE_BACKOFF_MS = 2000;

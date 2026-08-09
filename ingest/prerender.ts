@@ -19,6 +19,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import type { Gender, GraphFile, Manifest } from '../web/src/schema.js';
 import { GENDER_LABEL, GENDERS } from '../web/src/schema.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
+import { CONTACT_EMAIL, SITE_NAME, SOURCE_NAME, SOURCE_URL } from '../web/src/site.js';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -133,7 +134,24 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
 <tbody>${rows}</tbody>
 </table>
 <nav aria-label="Other countries"><h2>Browse other countries</h2><ul>${nav}</ul></nav>
+${staticFooter()}
 </main>`;
+}
+
+/**
+ * Footer for the prerendered markup.
+ *
+ * React's own footer (App.tsx) replaces this the moment the app mounts, so
+ * the two say the same thing on purpose. This is the copy a crawler, a link
+ * preview, or a reader without JavaScript sees — which, for the two audiences
+ * a contact address actually exists for (FIVB, and anyone wanting to talk
+ * about the project), is the version most likely to be read.
+ */
+function staticFooter(): string {
+  return `<footer>
+<p>Source: <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a>. Not affiliated with or endorsed by the FIVB.</p>
+<p>Questions, corrections or partnership enquiries: <a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> · <a href="${esc(`${BASE}about/`)}">About this project</a></p>
+</footer>`;
 }
 
 /**
@@ -190,6 +208,70 @@ Federation codes are FIVB three-letter codes (BRA, USA, GER), not ISO country co
 ## Pages
 
 ${pages}
+`;
+}
+
+/**
+ * `/about/` — who runs this, where the data comes from, how to make contact.
+ *
+ * Emitted as a standalone document rather than through the SPA template, and
+ * that is the whole trick: every other page here is prerendered markup that
+ * React *replaces* on mount. Reuse the template and the app would boot on
+ * `/about/`, fail to match the path to any country slice, fall back to the
+ * default country and swap this text for the Brazil graph. Shipping the same
+ * stylesheet without the module script keeps the page looking like the site
+ * while leaving the markup as the final word.
+ */
+function aboutPage(manifest: Manifest, styleHref: string | null): string {
+  const url = abs(`${BASE}about/`);
+  const title = `About — ${SITE_NAME}`;
+  const description = `Where the data behind ${SITE_NAME} comes from, how the numbers are counted, and how to get in touch.`;
+  const style = styleHref ? `<link rel="stylesheet" href="${esc(styleHref)}"/>` : '';
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>${esc(title)}</title>
+${style}
+${headFor(url, title, description)}
+</head>
+<body>
+<div class="app">
+<main>
+<h1>About</h1>
+
+<p><strong>${esc(SITE_NAME)}</strong> shows who has played with whom in FIVB international beach volleyball. Every partnership between two players from the same federation is an edge; every player who has entered a qualifying tournament is a node. It covers ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships across ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments, ${manifest.seasons.from}–${manifest.seasons.to}.</p>
+
+<p>It is a personal, non-commercial project, built because the partnership history of the sport is genuinely interesting and nobody had drawn it.</p>
+
+<h2>Where the data comes from</h2>
+
+<p>All of it comes from the <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a>, the FIVB's public data service, and is rebuilt once a week. Nothing is hand-edited: if a number here looks wrong, it is either what VIS currently returns or a bug in how this site interprets it — and the second kind is worth reporting.</p>
+
+<p><strong>This site is not affiliated with, endorsed by, or operated by the FIVB.</strong> The FIVB owns the underlying competition data; the graphs, the code and any mistakes in them are mine.</p>
+
+<h2>How the numbers are counted</h2>
+
+<ul>
+<li>Only FIVB-organised international competition counts — the World Tour, Beach Pro Tour, World Championships, Olympic Games and age-group World Championships. Continental tours, national tours, snow volleyball and multi-sport games are excluded.</li>
+<li>A partnership is weighted by the number of distinct tournaments a pair entered together. Entering both the qualification and the main draw of one event counts once.</li>
+<li>A team that registered but never played — a withdrawal, or a pairing superseded before the event — is not counted as an appearance.</li>
+<li>A player's country is their <em>current</em> FIVB federation; no federation history is kept. Both players must share a federation for the partnership to appear, so cross-national pairs are in no country's graph.</li>
+</ul>
+
+<h2>Contact</h2>
+
+<p>Corrections, questions, sponsorship or partnership enquiries, or anything from the FIVB: <a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a>.</p>
+
+<p>If you are reporting a wrong number, a link to the player or country page and a note on what you expected is the fastest way to get it looked at.</p>
+
+<p><a href="${esc(BASE)}">← Back to the graph</a></p>
+</main>
+</div>
+</body>
+</html>
 `;
 }
 
@@ -346,13 +428,29 @@ async function main() {
     await writeFile(path.join(dir, 'index.html'), html);
   }
 
+  // --- about ---------------------------------------------------------------
+  // Borrow the hashed stylesheet Vite emitted for the app, so the page picks
+  // up the same theme without a second CSS pipeline. Missing is survivable —
+  // the page is plain semantic HTML and stays readable unstyled — so this
+  // degrades rather than failing the build.
+  const styleHref = /<link[^>]+rel="stylesheet"[^>]+href="([^"]+)"/.exec(template)?.[1] ?? null;
+  if (!styleHref) console.warn('  ! no stylesheet found in index.html; /about/ will be unstyled');
+  await mkdir(path.join(DIST, 'about'), { recursive: true });
+  await writeFile(path.join(DIST, 'about', 'index.html'), aboutPage(manifest, styleHref));
+
   // --- sitemap & robots ----------------------------------------------------
   const lastmod = manifest.generatedAt.slice(0, 10);
-  const urls = pages
+  // Home is 1.0, country pages 0.8, About 0.3 — a real page worth indexing,
+  // but not something to rank ahead of the data it explains.
+  const sitemapEntries: { url: string; priority: string }[] = [
+    ...pages.map((p) => ({ url: p.url, priority: p.slug ? '0.8' : '1.0' })),
+    { url: `${BASE}about/`, priority: '0.3' },
+  ];
+  const urls = sitemapEntries
     .map(
-      (p) =>
-        `  <url><loc>${esc(abs(p.url))}</loc><lastmod>${lastmod}</lastmod>` +
-        `<changefreq>weekly</changefreq><priority>${p.slug ? '0.8' : '1.0'}</priority></url>`,
+      ({ url, priority }) =>
+        `  <url><loc>${esc(abs(url))}</loc><lastmod>${lastmod}</lastmod>` +
+        `<changefreq>weekly</changefreq><priority>${priority}</priority></url>`,
     )
     .join('\n');
   await writeFile(

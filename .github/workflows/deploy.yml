@@ -98,9 +98,10 @@ jobs:
       - name: Fetch FIVB data and build graphs
         run: npm run ingest
         env:
-          # Identify the job to FIVB. Replace the contact address with your own,
-          # and request an application identifier from vis.sdk@fivb.org.
-          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }})'
+          # Identify the job to FIVB, contact address included, so a free
+          # service with a problem can email us rather than null-route us.
+          # Keep in step with CONTACT_EMAIL in web/src/site.ts.
+          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }}; beachgraph@picado.com.br)'
           # false on every trigger except a manual dispatch with the checkbox
           # ticked — schedule and workflow_dispatch runs that leave it
           # unchecked, and push (which skips this job entirely), all get 'false'.
