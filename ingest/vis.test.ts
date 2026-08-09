@@ -47,6 +47,32 @@ describe('decodeEntities', () => {
   it('is a no-op on plain text', () => {
     expect(decodeEntities('Kristoffer Hoidalen')).toBe('Kristoffer Hoidalen');
   });
+
+  it('leaves an out-of-range numeric entity alone instead of throwing', () => {
+    // String.fromCodePoint throws RangeError above U+10FFFF. Unguarded, that
+    // escapes the replace callback and takes the whole ingest down over one
+    // bad entity in a 25MB response.
+    for (const bad of ['&#99999999;', '&#x7FFFFFFF;', '&#1114112;']) {
+      expect(() => decodeEntities(bad)).not.toThrow();
+      expect(decodeEntities(bad)).toBe(bad);
+    }
+  });
+
+  it('leaves a lone surrogate alone — valid to construct, but not well-formed text', () => {
+    expect(decodeEntities('&#xD800;')).toBe('&#xD800;');
+    expect(decodeEntities('&#xDFFF;')).toBe('&#xDFFF;');
+  });
+
+  it('still decodes the boundaries either side of the valid range', () => {
+    expect(decodeEntities('&#x10FFFF;')).toBe(String.fromCodePoint(0x10ffff)); // highest valid
+    expect(decodeEntities('&#xD7FF;')).toBe(String.fromCodePoint(0xd7ff)); // just below the surrogates
+    expect(decodeEntities('&#xE000;')).toBe(String.fromCodePoint(0xe000)); // just above them
+  });
+
+  it('survives a bad entity arriving mid-document, through the real parse path', () => {
+    const rows = extractRows(`<Player No="1" FirstName="&#99999999;" LastName="M&#248;l"/>`, 'Player');
+    expect(rows).toEqual([{ No: '1', FirstName: '&#99999999;', LastName: 'Møl' }]);
+  });
 });
 
 describe('unit conversion', () => {
