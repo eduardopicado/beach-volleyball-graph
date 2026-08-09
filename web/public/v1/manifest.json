@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-07T05:52:48.494Z",
-  "sourceVersion": "113677",
+  "generatedAt": "2026-08-09T04:38:58.924Z",
+  "sourceVersion": "113688",
   "seasons": {
     "from": 1987,
-    "to": 2026
+    "to": 2027
   },
   "totals": {
-    "tournaments": 1823,
+    "tournaments": 1825,
     "players": 12056,
     "partnerships": 13892
   },
   "tiers": {
     "FIVB World Tour": 1177,
     "Olympic Games": 22,
-    "World Championships": 30,
+    "World Championships": 32,
     "Age-group World Championships": 88,
     "Beach Pro Tour": 506
   },
