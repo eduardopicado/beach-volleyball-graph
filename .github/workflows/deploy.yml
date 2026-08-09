@@ -154,6 +154,8 @@ jobs:
     # code-only push) — only a real ingest *failure* should stop the deploy.
     if: always() && (needs.ingest.result == 'success' || needs.ingest.result == 'skipped')
     runs-on: ubuntu-latest
+    outputs:
+      generated_at: ${{ steps.stamp.outputs.generated_at }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -178,6 +180,41 @@ jobs:
           # time. Set the SITE_URL repository variable to the public origin
           # (e.g. https://beachvolley.com.br) once a custom domain is in place.
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      # Runs *before* the artifact is uploaded, so a build that doesn't render
+      # never reaches Pages and the previously published site keeps serving —
+      # the same "degraded to slightly stale, never down" stance as the ingest
+      # failure path above.
+      #
+      # This is the only check that sees the freshly fetched data. CI covers
+      # code changes on a pull request, but the weekly ingest rewrites every
+      # graph file with no pull request and no review: a shape change there
+      # can break rendering with nothing else in the pipeline looking. The
+      # regression guard counts rows; this one loads the page.
+      - name: Smoke test the built site
+        run: npm run test:e2e
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+      # Hand the deploy job the stamp it should expect to find live.
+      - name: Record the published dataset stamp
+        id: stamp
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          print("generated_at=" + json.load(open('web/public/v1/manifest.json'))['generatedAt'])
+          PY
 
       # `enablement` switches Pages on through the API when it is not already
       # enabled, so a fresh clone or fork deploys without anyone having to visit
@@ -211,3 +248,33 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+
+      # Deliberately thin, and deliberately not the browser suite: nothing here
+      # can roll anything back, the identical bytes were already exercised
+      # pre-upload, and a long assertion against a CDN mid-propagation is a
+      # flake generator. This answers one question the localhost runs
+      # structurally cannot — did the build we just published actually become
+      # the thing being served? Caught live once already: two merges in a row
+      # reported success while Pages kept serving the previous build.
+      - name: Verify Pages is serving this build
+        env:
+          EXPECTED: ${{ needs.build.outputs.generated_at }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          set -uo pipefail
+          if [ -z "$EXPECTED" ]; then
+            echo "No dataset stamp from the build job — skipping."; exit 0
+          fi
+          echo "Expecting generatedAt=$EXPECTED at $PAGE_URL"
+          for attempt in 1 2 3 4 5 6; do
+            live=$(curl -fsS --max-time 20 "${PAGE_URL}v1/manifest.json" \
+                   | python3 -c 'import json,sys; print(json.load(sys.stdin)["generatedAt"])' 2>/dev/null || true)
+            if [ "$live" = "$EXPECTED" ]; then
+              echo "Live site is serving this build ($live)."
+              exit 0
+            fi
+            echo "attempt $attempt: live=${live:-<unreachable>}; waiting for propagation"
+            sleep 15
+          done
+          echo "::error::Pages is not serving the build that just deployed (expected $EXPECTED, got ${live:-<unreachable>})."
+          exit 1
