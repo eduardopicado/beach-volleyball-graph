@@ -844,6 +844,14 @@
       "last": 2024
     },
     {
+      "id": 163564,
+      "name": "Taito Mizumachi",
+      "short": "Mizumachi",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
       "id": 164083,
       "name": "Masato Katsuoka",
       "short": "Katsuoka",
@@ -975,9 +983,9 @@
       "id": 189719,
       "name": "Kota Kurosawa",
       "short": "Kurosawa",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2022,
-      "last": 2022
+      "last": 2026
     },
     {
       "id": 189720,
@@ -2338,6 +2346,13 @@
       "t": 1,
       "f": 2024,
       "l": 2024
+    },
+    {
+      "a": 163564,
+      "b": 189719,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
     },
     {
       "a": 164083,

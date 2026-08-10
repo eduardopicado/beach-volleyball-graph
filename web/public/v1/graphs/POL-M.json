@@ -647,7 +647,7 @@
       "id": 122847,
       "name": "Piotr Kantor",
       "short": "Kantor",
-      "tournaments": 144,
+      "tournaments": 143,
       "first": 2009,
       "last": 2026
     },
@@ -743,7 +743,7 @@
       "id": 137237,
       "name": "Michal Bryl",
       "short": "Bryl",
-      "tournaments": 104,
+      "tournaments": 105,
       "first": 2012,
       "last": 2026
     },
@@ -1215,7 +1215,7 @@
       "id": 179443,
       "name": "Aleksander Czachorowski",
       "short": "Czachorowski",
-      "tournaments": 25,
+      "tournaments": 26,
       "first": 2022,
       "last": 2026
     },
@@ -1255,7 +1255,7 @@
       "id": 182741,
       "name": "Jakub Krzeminski",
       "short": "Krzeminski",
-      "tournaments": 26,
+      "tournaments": 27,
       "first": 2024,
       "last": 2026
     },
@@ -1271,7 +1271,7 @@
       "id": 185563,
       "name": "Artem Besarab",
       "short": "Besarab",
-      "tournaments": 22,
+      "tournaments": 23,
       "first": 2021,
       "last": 2026
     },
@@ -1287,7 +1287,7 @@
       "id": 188284,
       "name": "Szymon Beta",
       "short": "Beta",
-      "tournaments": 26,
+      "tournaments": 27,
       "first": 2022,
       "last": 2026
     },
@@ -2352,14 +2352,14 @@
     {
       "a": 122846,
       "b": 122847,
-      "t": 102,
+      "t": 101,
       "f": 2009,
       "l": 2021
     },
     {
       "a": 122846,
       "b": 137237,
-      "t": 41,
+      "t": 42,
       "f": 2014,
       "l": 2026
     },
@@ -3045,7 +3045,7 @@
     {
       "a": 179443,
       "b": 182741,
-      "t": 12,
+      "t": 13,
       "f": 2025,
       "l": 2026
     },
@@ -3094,7 +3094,7 @@
     {
       "a": 185563,
       "b": 188284,
-      "t": 10,
+      "t": 11,
       "f": 2022,
       "l": 2026
     },

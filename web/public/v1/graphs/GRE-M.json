@@ -567,7 +567,7 @@
       "id": 148442,
       "name": "Dimitrios Chatzinikolaou",
       "short": "Chatzinikolaou",
-      "tournaments": 26,
+      "tournaments": 27,
       "first": 2016,
       "last": 2026
     },
@@ -639,7 +639,7 @@
       "id": 178503,
       "name": "Stavros Ntallas",
       "short": "Ntallas",
-      "tournaments": 26,
+      "tournaments": 27,
       "first": 2022,
       "last": 2026
     },
@@ -1268,7 +1268,7 @@
     {
       "a": 148442,
       "b": 178503,
-      "t": 19,
+      "t": 20,
       "f": 2023,
       "l": 2026
     },

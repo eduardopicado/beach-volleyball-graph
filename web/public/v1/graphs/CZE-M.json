@@ -415,7 +415,7 @@
       "id": 117899,
       "name": "Jan Dumek",
       "short": "Dumek",
-      "tournaments": 121,
+      "tournaments": 122,
       "first": 2006,
       "last": 2026
     },
@@ -727,7 +727,7 @@
       "id": 137346,
       "name": "Ondrej Perusic",
       "short": "Perusic",
-      "tournaments": 81,
+      "tournaments": 80,
       "first": 2012,
       "last": 2026
     },
@@ -871,7 +871,7 @@
       "id": 153790,
       "name": "David Schweiner",
       "short": "Schweiner",
-      "tournaments": 76,
+      "tournaments": 75,
       "first": 2016,
       "last": 2026
     },
@@ -879,7 +879,7 @@
       "id": 154123,
       "name": "Jiri Sedlak",
       "short": "Sedlak",
-      "tournaments": 52,
+      "tournaments": 53,
       "first": 2018,
       "last": 2026
     },
@@ -991,7 +991,7 @@
       "id": 168606,
       "name": "Jakub Sepka",
       "short": "Sepka",
-      "tournaments": 48,
+      "tournaments": 49,
       "first": 2021,
       "last": 2026
     },
@@ -1207,7 +1207,7 @@
       "id": 190771,
       "name": "David Westphal",
       "short": "Westphal",
-      "tournaments": 20,
+      "tournaments": 21,
       "first": 2022,
       "last": 2026
     },
@@ -2094,7 +2094,7 @@
     {
       "a": 117899,
       "b": 190771,
-      "t": 8,
+      "t": 9,
       "f": 2025,
       "l": 2026
     },
@@ -2332,7 +2332,7 @@
     {
       "a": 137346,
       "b": 153790,
-      "t": 74,
+      "t": 73,
       "f": 2016,
       "l": 2025
     },
@@ -2577,7 +2577,7 @@
     {
       "a": 154123,
       "b": 168606,
-      "t": 23,
+      "t": 24,
       "f": 2023,
       "l": 2026
     },

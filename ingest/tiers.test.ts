@@ -2,6 +2,23 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { FIVB_ORGANIZER_TYPE, tierFor } from './tiers';
 
 describe('tierFor', () => {
+  it('admits the Olympic Games and nothing else Olympic-adjacent', () => {
+    // The tier used to hold three competitions, and nothing asserted any of
+    // them — it could be changed in either direction without a single
+    // failure, which is how the other two went unnoticed.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics');
+
+    // Type 43 is the *Youth* Games: an age-group event that would put U19
+    // competition in the senior graph, and that INCLUDE_AGE_GROUP could not
+    // reach because it was never tagged age-group-wch.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '43')).toBeNull();
+
+    // Type 49 is the qualification tournament, where several teams "win" —
+    // the 2019 edition has two teams at Rank 1 and two at Rank 3 per draw,
+    // because it hands out berths rather than crowning a champion.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '49')).toBeNull();
+  });
+
   it('classifies each recognised tier from an FIVB-organized tournament', () => {
     expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics');
     expect(tierFor(FIVB_ORGANIZER_TYPE, '4')).toBe('world-champs');

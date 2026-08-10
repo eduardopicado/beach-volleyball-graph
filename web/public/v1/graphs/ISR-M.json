@@ -191,7 +191,7 @@
       "id": 145953,
       "name": "Tamir Hershko",
       "short": "Hershko",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
     },
@@ -255,7 +255,7 @@
       "id": 178364,
       "name": "David Lanciano",
       "short": "Lanciano",
-      "tournaments": 14,
+      "tournaments": 15,
       "first": 2021,
       "last": 2026
     },
@@ -300,10 +300,18 @@
       "last": 2024
     },
     {
+      "id": 210904,
+      "name": "Omer Gozlan",
+      "short": "Gozlan",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
       "id": 210907,
       "name": "Yanay Benjamin Goldshmid Fisher",
       "short": "Goldshmid Fisher",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -474,7 +482,7 @@
     {
       "a": 145953,
       "b": 178364,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -593,6 +601,13 @@
     {
       "a": 192789,
       "b": 223605,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
+      "a": 210904,
+      "b": 210907,
       "t": 1,
       "f": 2026,
       "l": 2026

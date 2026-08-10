@@ -647,9 +647,9 @@
       "id": 120051,
       "name": "Melanie Gernert",
       "short": "Gernert",
-      "tournaments": 9,
+      "tournaments": 10,
       "first": 2007,
-      "last": 2012
+      "last": 2026
     },
     {
       "id": 120458,
@@ -663,7 +663,7 @@
       "id": 120750,
       "name": "Chantal Laboureur",
       "short": "Laboureur",
-      "tournaments": 111,
+      "tournaments": 110,
       "first": 2008,
       "last": 2022
     },
@@ -743,7 +743,7 @@
       "id": 125549,
       "name": "Cinja Tillmann",
       "short": "Tillmann",
-      "tournaments": 73,
+      "tournaments": 74,
       "first": 2010,
       "last": 2026
     },
@@ -767,9 +767,9 @@
       "id": 132846,
       "name": "Kim Van de Velde",
       "short": "Kim",
-      "tournaments": 58,
+      "tournaments": 59,
       "first": 2010,
-      "last": 2024
+      "last": 2026
     },
     {
       "id": 132879,
@@ -782,7 +782,7 @@
     {
       "id": 135670,
       "name": "Sandra Ittlinger",
-      "short": "Sandra",
+      "short": "Ittlinger",
       "tournaments": 93,
       "first": 2011,
       "last": 2026
@@ -791,7 +791,7 @@
       "id": 136664,
       "name": "Nele Barber",
       "short": "Barber",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -839,7 +839,7 @@
       "id": 141678,
       "name": "Louisa Lippmann",
       "short": "Lippmann",
-      "tournaments": 35,
+      "tournaments": 36,
       "first": 2022,
       "last": 2026
     },
@@ -927,7 +927,7 @@
       "id": 152140,
       "name": "Linda Bock",
       "short": "Bock",
-      "tournaments": 15,
+      "tournaments": 16,
       "first": 2024,
       "last": 2026
     },
@@ -935,7 +935,7 @@
       "id": 153267,
       "name": "Svenja Müller",
       "short": "Müller",
-      "tournaments": 45,
+      "tournaments": 46,
       "first": 2019,
       "last": 2026
     },
@@ -1007,7 +1007,7 @@
       "id": 163416,
       "name": "Chenoa Christ",
       "short": "Christ",
-      "tournaments": 39,
+      "tournaments": 40,
       "first": 2021,
       "last": 2026
     },
@@ -1015,7 +1015,7 @@
       "id": 166925,
       "name": "Lea Sophie Kunst",
       "short": "Kunst",
-      "tournaments": 40,
+      "tournaments": 41,
       "first": 2018,
       "last": 2026
     },
@@ -1023,7 +1023,7 @@
       "id": 168101,
       "name": "Anna-Lena Grüne",
       "short": "Grüne",
-      "tournaments": 38,
+      "tournaments": 39,
       "first": 2018,
       "last": 2026
     },
@@ -1039,7 +1039,7 @@
       "id": 168371,
       "name": "Paula Schürholz",
       "short": "Schürholz",
-      "tournaments": 29,
+      "tournaments": 30,
       "first": 2021,
       "last": 2026
     },
@@ -1047,7 +1047,7 @@
       "id": 169016,
       "name": "Elea Beutel",
       "short": "Beutel",
-      "tournaments": 11,
+      "tournaments": 12,
       "first": 2021,
       "last": 2026
     },
@@ -1071,7 +1071,7 @@
       "id": 181237,
       "name": "Lina Hesse",
       "short": "Hesse",
-      "tournaments": 3,
+      "tournaments": 4,
       "first": 2025,
       "last": 2026
     },
@@ -1103,7 +1103,7 @@
       "id": 182339,
       "name": "Tabea Schwarz",
       "short": "Schwarz",
-      "tournaments": 17,
+      "tournaments": 18,
       "first": 2022,
       "last": 2026
     },
@@ -1127,7 +1127,7 @@
       "id": 182352,
       "name": "Melanie Paul",
       "short": "Paul",
-      "tournaments": 27,
+      "tournaments": 28,
       "first": 2022,
       "last": 2026
     },
@@ -1135,7 +1135,7 @@
       "id": 182792,
       "name": "Janne Uhl",
       "short": "Uhl",
-      "tournaments": 18,
+      "tournaments": 19,
       "first": 2021,
       "last": 2026
     },
@@ -1167,7 +1167,7 @@
       "id": 192816,
       "name": "Mareet Maidhof",
       "short": "Maidhof",
-      "tournaments": 14,
+      "tournaments": 15,
       "first": 2022,
       "last": 2026
     },
@@ -1199,7 +1199,7 @@
       "id": 203700,
       "name": "Sophia Neuß",
       "short": "Neuß",
-      "tournaments": 15,
+      "tournaments": 16,
       "first": 2023,
       "last": 2026
     },
@@ -1279,7 +1279,7 @@
       "id": 222902,
       "name": "Mieke Joli Luise Hesse",
       "short": "Hesse",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
     },
@@ -2310,6 +2310,13 @@
       "l": 2008
     },
     {
+      "a": 120051,
+      "b": 136664,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
       "a": 120750,
       "b": 124766,
       "t": 4,
@@ -2340,7 +2347,7 @@
     {
       "a": 120750,
       "b": 135670,
-      "t": 11,
+      "t": 10,
       "f": 2019,
       "l": 2019
     },
@@ -2564,16 +2571,16 @@
     {
       "a": 125549,
       "b": 153267,
-      "t": 41,
+      "t": 42,
       "f": 2021,
       "l": 2026
     },
     {
       "a": 132846,
       "b": 135670,
-      "t": 25,
+      "t": 26,
       "f": 2017,
-      "l": 2024
+      "l": 2026
     },
     {
       "a": 132846,
@@ -2744,6 +2751,13 @@
       "l": 2022
     },
     {
+      "a": 141678,
+      "b": 182352,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
       "a": 144086,
       "b": 144163,
       "t": 12,
@@ -2809,7 +2823,7 @@
     {
       "a": 152140,
       "b": 166925,
-      "t": 2,
+      "t": 3,
       "f": 2024,
       "l": 2026
     },
@@ -2963,7 +2977,7 @@
     {
       "a": 163416,
       "b": 203700,
-      "t": 6,
+      "t": 7,
       "f": 2026,
       "l": 2026
     },
@@ -3019,7 +3033,7 @@
     {
       "a": 168101,
       "b": 182792,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -3040,7 +3054,7 @@
     {
       "a": 168371,
       "b": 169016,
-      "t": 5,
+      "t": 6,
       "f": 2021,
       "l": 2026
     },
@@ -3089,7 +3103,7 @@
     {
       "a": 181237,
       "b": 222902,
-      "t": 3,
+      "t": 4,
       "f": 2025,
       "l": 2026
     },
@@ -3145,7 +3159,7 @@
     {
       "a": 182339,
       "b": 192816,
-      "t": 6,
+      "t": 7,
       "f": 2025,
       "l": 2026
     },

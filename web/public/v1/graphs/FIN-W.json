@@ -31,7 +31,7 @@
       "id": 104781,
       "name": "Taru Lahti-Liukkonen",
       "short": "Lahti",
-      "tournaments": 112,
+      "tournaments": 111,
       "first": 2006,
       "last": 2025
     },
@@ -231,7 +231,7 @@
       "id": 137416,
       "name": "Anniina Parkkinen",
       "short": "Parkkinen",
-      "tournaments": 70,
+      "tournaments": 69,
       "first": 2014,
       "last": 2026
     },
@@ -553,7 +553,7 @@
     {
       "a": 104781,
       "b": 137416,
-      "t": 26,
+      "t": 25,
       "f": 2014,
       "l": 2022
     },

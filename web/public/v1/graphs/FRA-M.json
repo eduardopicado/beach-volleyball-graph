@@ -1286,7 +1286,7 @@
     {
       "id": 153247,
       "name": "Rémi Bassereau",
-      "short": "Daubas",
+      "short": "Bassereau",
       "tournaments": 45,
       "first": 2016,
       "last": 2026
@@ -1439,7 +1439,7 @@
       "id": 179478,
       "name": "Elouan Chouikh-Barbez",
       "short": "Chouikh",
-      "tournaments": 27,
+      "tournaments": 28,
       "first": 2022,
       "last": 2026
     },
@@ -1471,7 +1471,7 @@
       "id": 184095,
       "name": "Joadel Gardoque",
       "short": "Genevieve-Gardoque",
-      "tournaments": 21,
+      "tournaments": 22,
       "first": 2022,
       "last": 2026
     },
@@ -3120,7 +3120,7 @@
     {
       "a": 179478,
       "b": 184095,
-      "t": 15,
+      "t": 16,
       "f": 2024,
       "l": 2026
     },

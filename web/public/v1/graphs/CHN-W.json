@@ -623,7 +623,7 @@
       "id": 132187,
       "name": "Fan Wang",
       "short": "Wang",
-      "tournaments": 129,
+      "tournaments": 128,
       "first": 2010,
       "last": 2024
     },
@@ -751,7 +751,7 @@
       "id": 141784,
       "name": "Xinyi Xia",
       "short": "X. Y. Xia",
-      "tournaments": 117,
+      "tournaments": 116,
       "first": 2013,
       "last": 2026
     },
@@ -863,7 +863,7 @@
       "id": 151567,
       "name": "Jinjin Zeng",
       "short": "J. J. Zeng",
-      "tournaments": 63,
+      "tournaments": 64,
       "first": 2017,
       "last": 2026
     },
@@ -871,7 +871,7 @@
       "id": 151570,
       "name": "Aheidan Mushajiang",
       "short": "Aheidan",
-      "tournaments": 18,
+      "tournaments": 19,
       "first": 2016,
       "last": 2026
     },
@@ -1063,7 +1063,7 @@
       "id": 192302,
       "name": "Mingli Zhou",
       "short": "Zhou M. L.",
-      "tournaments": 22,
+      "tournaments": 23,
       "first": 2023,
       "last": 2026
     },
@@ -1071,7 +1071,7 @@
       "id": 192303,
       "name": "Kaiyue Jiang",
       "short": "Jiang K. Y.",
-      "tournaments": 22,
+      "tournaments": 23,
       "first": 2022,
       "last": 2026
     },
@@ -1079,7 +1079,7 @@
       "id": 192689,
       "name": "Tong Yu",
       "short": "YU T.",
-      "tournaments": 20,
+      "tournaments": 21,
       "first": 2022,
       "last": 2026
     },
@@ -1087,7 +1087,7 @@
       "id": 202842,
       "name": "Kadeliye Halaiti",
       "short": "Kadeliye",
-      "tournaments": 21,
+      "tournaments": 22,
       "first": 2023,
       "last": 2026
     },
@@ -1103,7 +1103,7 @@
       "id": 210159,
       "name": "Jiaying Wang",
       "short": "WANG J.Y.",
-      "tournaments": 6,
+      "tournaments": 7,
       "first": 2024,
       "last": 2026
     },
@@ -1119,7 +1119,7 @@
       "id": 210161,
       "name": "Siyu Qi",
       "short": "QI S.Y.",
-      "tournaments": 11,
+      "tournaments": 12,
       "first": 2024,
       "last": 2026
     },
@@ -1135,7 +1135,7 @@
       "id": 210308,
       "name": "Jihan Chen",
       "short": "CHEN Jihan",
-      "tournaments": 3,
+      "tournaments": 4,
       "first": 2024,
       "last": 2026
     },
@@ -1223,7 +1223,7 @@
       "id": 216481,
       "name": "Yingshan Chen",
       "short": "CHEN Yingshan",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -1239,7 +1239,7 @@
       "id": 221395,
       "name": "Ming Zhuang",
       "short": "ZHUANG Ming",
-      "tournaments": 9,
+      "tournaments": 10,
       "first": 2025,
       "last": 2026
     },
@@ -1327,7 +1327,7 @@
       "id": 240478,
       "name": "Luoqian Wei",
       "short": "WEI Luoqian",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     }
@@ -2064,7 +2064,7 @@
     {
       "a": 132187,
       "b": 141784,
-      "t": 33,
+      "t": 32,
       "f": 2017,
       "l": 2022
     },
@@ -2491,7 +2491,7 @@
     {
       "a": 151567,
       "b": 210308,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -2519,7 +2519,7 @@
     {
       "a": 151570,
       "b": 192689,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -2708,7 +2708,7 @@
     {
       "a": 192302,
       "b": 192303,
-      "t": 3,
+      "t": 4,
       "f": 2025,
       "l": 2026
     },
@@ -2750,7 +2750,7 @@
     {
       "a": 202842,
       "b": 210161,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -2764,7 +2764,7 @@
     {
       "a": 210159,
       "b": 221395,
-      "t": 3,
+      "t": 4,
       "f": 2026,
       "l": 2026
     },
@@ -2820,7 +2820,7 @@
     {
       "a": 216481,
       "b": 240478,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },

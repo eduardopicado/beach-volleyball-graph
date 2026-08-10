@@ -447,7 +447,7 @@
       "id": 116642,
       "name": "Becchara Palmer",
       "short": "Palmer",
-      "tournaments": 83,
+      "tournaments": 82,
       "first": 2005,
       "last": 2020
     },
@@ -615,7 +615,7 @@
       "id": 125172,
       "name": "Taliqua Clancy",
       "short": "Clancy",
-      "tournaments": 124,
+      "tournaments": 125,
       "first": 2009,
       "last": 2026
     },
@@ -623,7 +623,7 @@
       "id": 132933,
       "name": "Nicole Laird",
       "short": "Laird",
-      "tournaments": 57,
+      "tournaments": 56,
       "first": 2010,
       "last": 2023
     },
@@ -879,7 +879,7 @@
       "id": 172210,
       "name": "Jana Milutinovic",
       "short": "Milutinovic",
-      "tournaments": 35,
+      "tournaments": 36,
       "first": 2022,
       "last": 2026
     },
@@ -919,7 +919,7 @@
       "id": 178070,
       "name": "Stefanie Fejes",
       "short": "Fejes",
-      "tournaments": 33,
+      "tournaments": 34,
       "first": 2021,
       "last": 2026
     },
@@ -935,7 +935,7 @@
       "id": 178282,
       "name": "Tara Phillips",
       "short": "Phillips",
-      "tournaments": 28,
+      "tournaments": 29,
       "first": 2022,
       "last": 2026
     },
@@ -959,7 +959,7 @@
       "id": 180738,
       "name": "Lavinia Tyrrel",
       "short": "Lavinia Tyrrel",
-      "tournaments": 2,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     },
@@ -1111,7 +1111,7 @@
       "id": 189499,
       "name": "Jasmine Rayner",
       "short": "Rayner",
-      "tournaments": 10,
+      "tournaments": 11,
       "first": 2023,
       "last": 2026
     },
@@ -1215,7 +1215,7 @@
       "id": 199820,
       "name": "Mireille Smith",
       "short": "Smith",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2025,
       "last": 2026
     },
@@ -1263,7 +1263,7 @@
       "id": 209082,
       "name": "Jolie Du Plessis",
       "short": "Du Plessis",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2025,
       "last": 2026
     },
@@ -1997,7 +1997,7 @@
     {
       "a": 116642,
       "b": 132933,
-      "t": 13,
+      "t": 12,
       "f": 2019,
       "l": 2020
     },
@@ -2242,7 +2242,7 @@
     {
       "a": 125172,
       "b": 178070,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -2641,7 +2641,7 @@
     {
       "a": 172210,
       "b": 189499,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -2718,7 +2718,7 @@
     {
       "a": 178282,
       "b": 209082,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -2746,7 +2746,7 @@
     {
       "a": 180738,
       "b": 199820,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },

@@ -231,7 +231,7 @@
       "id": 158176,
       "name": "Sofia Nørager Bisgaard",
       "short": "Bisgaard",
-      "tournaments": 39,
+      "tournaments": 40,
       "first": 2018,
       "last": 2026
     },
@@ -279,7 +279,7 @@
       "id": 192226,
       "name": "Cirkeline Roed Høg",
       "short": "Høg",
-      "tournaments": 9,
+      "tournaments": 10,
       "first": 2022,
       "last": 2026
     }
@@ -540,7 +540,7 @@
     {
       "a": 158176,
       "b": 192226,
-      "t": 8,
+      "t": 9,
       "f": 2025,
       "l": 2026
     },

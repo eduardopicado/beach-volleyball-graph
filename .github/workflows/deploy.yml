@@ -157,6 +157,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       generated_at: ${{ steps.stamp.outputs.generated_at }}
+      bundle: ${{ steps.stamp.outputs.bundle }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -208,13 +209,31 @@ jobs:
           path: playwright-report/
           retention-days: 7
 
-      # Hand the deploy job the stamp it should expect to find live.
-      - name: Record the published dataset stamp
+      # Hand the deploy job two fingerprints of what it is about to publish.
+      #
+      # Two, because neither alone is enough. `generatedAt` only moves when the
+      # data does, so on a code-only push (ingest skipped) it already matches
+      # what is live — a deploy that shipped nothing would still pass, which is
+      # exactly the failure this check exists to catch. The hashed bundle name
+      # is the complement: it moves whenever the code does, and not at all when
+      # only the data changes. Between them every real deploy changes at least
+      # one, and the check below requires both to match.
+      #
+      # The bundle name is a *content* hash, so a change that minifies away —
+      # a comment, reformatting — leaves it identical. That is not a gap: the
+      # published artifact really is byte-for-byte the same, so there is no
+      # no-op deploy to distinguish from a correct one.
+      - name: Record what this build should publish
         id: stamp
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import json
+          import json, re, pathlib
           print("generated_at=" + json.load(open('web/public/v1/manifest.json'))['generatedAt'])
+          html = pathlib.Path('dist/index.html').read_text(encoding='utf-8')
+          m = re.search(r'src="[^"]*/(assets/index-[^"]+\.js)"', html)
+          if not m:
+              raise SystemExit('no hashed bundle found in dist/index.html')
+          print("bundle=" + m.group(1))
           PY
 
       # `enablement` switches Pages on through the API when it is not already
@@ -259,23 +278,35 @@ jobs:
       # reported success while Pages kept serving the previous build.
       - name: Verify Pages is serving this build
         env:
-          EXPECTED: ${{ needs.build.outputs.generated_at }}
+          EXPECTED_DATA: ${{ needs.build.outputs.generated_at }}
+          EXPECTED_BUNDLE: ${{ needs.build.outputs.bundle }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -uo pipefail
-          if [ -z "$EXPECTED" ]; then
-            echo "No dataset stamp from the build job — skipping."; exit 0
+          if [ -z "$EXPECTED_DATA" ] || [ -z "$EXPECTED_BUNDLE" ]; then
+            echo "::warning::Build job published no fingerprints — cannot verify the deploy."
+            exit 0
           fi
-          echo "Expecting generatedAt=$EXPECTED at $PAGE_URL"
+          echo "Expecting data=$EXPECTED_DATA and bundle=$EXPECTED_BUNDLE at $PAGE_URL"
           for attempt in 1 2 3 4 5 6; do
-            live=$(curl -fsS --max-time 20 "${PAGE_URL}v1/manifest.json" \
-                   | python3 -c 'import json,sys; print(json.load(sys.stdin)["generatedAt"])' 2>/dev/null || true)
-            if [ "$live" = "$EXPECTED" ]; then
-              echo "Live site is serving this build ($live)."
+            live_data=$(curl -fsS --max-time 20 "${PAGE_URL}v1/manifest.json" \
+                        | python3 -c 'import json,sys; print(json.load(sys.stdin)["generatedAt"])' 2>/dev/null || true)
+            # Cache-bust: a CDN edge holding the previous index.html is the very
+            # thing being tested for, so don't let it answer from cache.
+            live_html=$(curl -fsS --max-time 20 -H 'Cache-Control: no-cache' \
+                        "${PAGE_URL}?deploycheck=${GITHUB_RUN_ID}" 2>/dev/null || true)
+
+            data_ok=false; bundle_ok=false
+            [ "$live_data" = "$EXPECTED_DATA" ] && data_ok=true
+            case "$live_html" in *"$EXPECTED_BUNDLE"*) bundle_ok=true ;; esac
+
+            if [ "$data_ok" = true ] && [ "$bundle_ok" = true ]; then
+              echo "Live site is serving this build (data $live_data, bundle $EXPECTED_BUNDLE)."
               exit 0
             fi
-            echo "attempt $attempt: live=${live:-<unreachable>}; waiting for propagation"
+            echo "attempt $attempt: data_ok=$data_ok bundle_ok=$bundle_ok; waiting for propagation"
             sleep 15
           done
-          echo "::error::Pages is not serving the build that just deployed (expected $EXPECTED, got ${live:-<unreachable>})."
+          echo "::error::Pages is not serving the build that just deployed."
+          echo "::error::expected data=$EXPECTED_DATA got=${live_data:-<unreachable>}; expected bundle=$EXPECTED_BUNDLE (not found in live HTML)"
           exit 1

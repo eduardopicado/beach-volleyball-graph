@@ -39,6 +39,7 @@ import { TIER_LABEL, INCLUDE_AGE_GROUP } from './tiers.js';
 import {
   aggregateMedals,
   aggregatePartnerships,
+  isCancelled,
   medalTournaments,
   normalisePlayers,
   normaliseTournaments,
@@ -107,7 +108,9 @@ async function main() {
   // --- Stage 1: tournaments ------------------------------------------------
   const tournamentRows = await fetchList({
     type: 'GetBeachTournamentList',
-    fields: ['No', 'Code', 'Season', 'Gender', 'Type', 'OrganizerType', 'Version'],
+    // `Name` is fetched only to spot cancellations — VIS records those in
+    // the display name rather than a status field. See isCancelled().
+    fields: ['No', 'Code', 'Name', 'Season', 'Gender', 'Type', 'OrganizerType', 'Version'],
     itemTag: 'BeachTournament',
   });
   const tournaments = normaliseTournaments(tournamentRows);
@@ -126,7 +129,9 @@ async function main() {
       sourceVersion = t.version;
     }
   }
+  const cancelled = tournamentRows.filter(isCancelled).length;
   log('tournaments', `${tournaments.size} of ${tournamentRows.length} qualify (${seasonFrom}-${seasonTo})`);
+  log('cancelled', `${cancelled} called-off events excluded (VIS marks these in the tournament name)`);
 
   // --- Stage 2: players ----------------------------------------------------
   // Unfiltered: a few thousand players who entered FIVB beach events are not

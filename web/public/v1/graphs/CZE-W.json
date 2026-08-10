@@ -367,7 +367,7 @@
       "id": 116659,
       "name": "Marketa Slukova",
       "short": "Slukova",
-      "tournaments": 129,
+      "tournaments": 128,
       "first": 2005,
       "last": 2024
     },
@@ -463,7 +463,7 @@
       "id": 120746,
       "name": "Barbora Hermannová",
       "short": "Hermannova",
-      "tournaments": 138,
+      "tournaments": 137,
       "first": 2008,
       "last": 2024
     },
@@ -942,7 +942,7 @@
     {
       "id": 169499,
       "name": "Kylie Neuschaeferova",
-      "short": "Kylie",
+      "short": "Neuschaeferova",
       "tournaments": 34,
       "first": 2021,
       "last": 2026
@@ -959,7 +959,7 @@
       "id": 173629,
       "name": "Andrea Lorenzova",
       "short": "Lorenzova",
-      "tournaments": 23,
+      "tournaments": 24,
       "first": 2023,
       "last": 2026
     },
@@ -1055,7 +1055,7 @@
       "id": 182239,
       "name": "Anna Pavelková",
       "short": "Pavelková A.",
-      "tournaments": 27,
+      "tournaments": 28,
       "first": 2022,
       "last": 2026
     },
@@ -1063,7 +1063,7 @@
       "id": 182240,
       "name": "Katerina Pavelková",
       "short": "Pavelková K.",
-      "tournaments": 26,
+      "tournaments": 27,
       "first": 2022,
       "last": 2026
     },
@@ -1103,7 +1103,7 @@
       "id": 190776,
       "name": "Mariana Tomasova",
       "short": "Tomasova",
-      "tournaments": 12,
+      "tournaments": 13,
       "first": 2024,
       "last": 2026
     },
@@ -1721,7 +1721,7 @@
     {
       "a": 116659,
       "b": 120746,
-      "t": 51,
+      "t": 50,
       "f": 2015,
       "l": 2021
     },
@@ -2491,7 +2491,7 @@
     {
       "a": 173629,
       "b": 190776,
-      "t": 10,
+      "t": 11,
       "f": 2024,
       "l": 2026
     },
@@ -2568,7 +2568,7 @@
     {
       "a": 182239,
       "b": 182240,
-      "t": 26,
+      "t": 27,
       "f": 2022,
       "l": 2026
     },
