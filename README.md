@@ -21,18 +21,26 @@ Only **FIVB-organised international** competition:
 | Beach Pro Tour (2022–) | ~500 |
 | Age-group World Championships | ~90 |
 | World Championships | ~30 |
-| Olympic Games, plus qualifiers and Youth | ~20 |
+| Olympic Games | ~15 |
 
 Continental tours and championships (CEV, AVC, NORCECA, CSV, CAVB), national
 tours, snow volleyball, multi-sport games and King of the Court are all
-excluded.
+excluded. So are two events that sound like they belong in that last row and
+do not:
 
-That last row is three different competitions sharing one tier, and only two of
-them put anybody in the graph. The Games themselves and the 2019 Olympic
-Qualification Tournament contribute normally. The **Youth Olympic** events do
-not: VIS holds the 2014 entry lists with no results attached, so the
-never-played rule below drops every row, and the 2026 events have no entries
-yet. They are counted as tournaments and contribute no players.
+- The **Youth Olympic Games** are an age-group event. Counting them as Olympic
+  would put U19 competition in the senior graph, and — because VIS does not
+  tag them as an age-group championship — `INCLUDE_AGE_GROUP` could not reach
+  them.
+- The **Olympic Qualification Tournament** hands out Games berths rather than
+  crowning a winner, so several teams "win" it: the 2019 edition records two
+  teams at Rank 1 and two more at Rank 3 in each draw. That is not what `Rank`
+  means anywhere else here.
+
+**Cancelled events are excluded too.** VIS has no status field for them — the
+word goes in the tournament's display name, as in "Hamburg (canceled)" — so
+they used to be counted as tournaments that happened. Around 130 of them are
+in the archive, roughly half from 2020.
 
 > Every count in this README is **approximate and rounded**, and drifts as the
 > archive is rebuilt each week. The exact current figures are always in
@@ -56,7 +64,7 @@ everything deliberately excluded is listed there with a reason.
 ## How a graph is built
 
 1. **Tournaments** — one `GetBeachTournamentList` call, filtered to the tier
-   allowlist.
+   allowlist and to events that were not cancelled.
 2. **Players** — one `GetPlayerList` call. Deliberately *unfiltered*: several
    thousand players who entered FIVB beach events are not flagged `PlaysBeach`
    in VIS, and filtering on it silently drops their partnerships.
