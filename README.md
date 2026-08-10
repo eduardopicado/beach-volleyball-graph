@@ -17,15 +17,35 @@ Only **FIVB-organised international** competition:
 
 | Tier | Events |
 |---|---:|
-| FIVB World Tour (1987–2021) | 1,517 |
-| Beach Pro Tour (2022–) | 506 |
-| Age-group World Championships | 88 |
-| World Championships | 30 |
-| Olympic Games (incl. Youth, and Olympic qualifiers) | 22 |
+| FIVB World Tour (1987–2021) | ~1,200 |
+| Beach Pro Tour (2022–) | ~500 |
+| Age-group World Championships | ~90 |
+| World Championships | ~30 |
+| Olympic Games | ~15 |
 
 Continental tours and championships (CEV, AVC, NORCECA, CSV, CAVB), national
 tours, snow volleyball, multi-sport games and King of the Court are all
-excluded.
+excluded. So are two events that sound like they belong in that last row and
+do not:
+
+- The **Youth Olympic Games** are an age-group event. Counting them as Olympic
+  would put U19 competition in the senior graph, and — because VIS does not
+  tag them as an age-group championship — `INCLUDE_AGE_GROUP` could not reach
+  them.
+- The **Olympic Qualification Tournament** hands out Games berths rather than
+  crowning a winner, so several teams "win" it: the 2019 edition records two
+  teams at Rank 1 and two more at Rank 3 in each draw. That is not what `Rank`
+  means anywhere else here.
+
+**Cancelled events are excluded too.** VIS has no status field for them — the
+word goes in the tournament's display name, as in "Hamburg (canceled)" — so
+they used to be counted as tournaments that happened. Around 130 of them are
+in the archive, roughly half from 2020.
+
+> Every count in this README is **approximate and rounded**, and drifts as the
+> archive is rebuilt each week. The exact current figures are always in
+> [`/v1/manifest.json`](web/public/v1/manifest.json) — precise numbers written
+> into prose here have gone stale twice already, so they are not repeated.
 
 VIS records an `OrganizerType` and a `Type` per tournament. `OrganizerType = 1`
 (FIVB) is necessary but **not** sufficient — FIVB is listed as organiser for a
@@ -44,11 +64,12 @@ everything deliberately excluded is listed there with a reason.
 ## How a graph is built
 
 1. **Tournaments** — one `GetBeachTournamentList` call, filtered to the tier
-   allowlist.
+   allowlist and to events that were not cancelled.
 2. **Players** — one `GetPlayerList` call. Deliberately *unfiltered*: several
    thousand players who entered FIVB beach events are not flagged `PlaysBeach`
    in VIS, and filtering on it silently drops their partnerships.
-3. **Entries** — one `GetBeachTeamList` call returns all ~205,000 team entries.
+3. **Entries** — one `GetBeachTeamList` call returns every team entry on
+   record, a little over 200,000 of them.
 4. **Aggregate** — collapse entries into weighted edges keyed by a canonical
    unordered pair, `min(id):max(id)`.
 5. **Slice** — group by country × gender and write one file per slice.
@@ -65,6 +86,13 @@ incremental cache — a full rebuild every week is cheap and self-healing.
 - Self-pairs, entries with a missing second player (withdrawals and
   placeholders) and entries referencing unknown players are dropped and counted
   in the ingest log.
+- **A team that registered but never played does not count.** VIS keeps a
+  registration row after it has been superseded — a pair enters, one side
+  re-pairs with somebody else before the event, and the original row stays
+  behind with `Rank` 0, which FIVB defines as "team has not played the
+  tournament". Those rows are dropped. The same rule handles tournaments that
+  have not happened yet: FIVB publishes entry lists in advance, and every one
+  of those rows is `Rank` 0 too.
 - A player's country is their **current** federation. No federation history is
   kept.
 - **Both endpoints must be in the slice.** A partnership between a Brazilian and
@@ -73,21 +101,25 @@ incremental cache — a full rebuild every week is cheap and self-healing.
 
 ### Why the default graph looks so sparse
 
-Across the whole dataset the mean is only 2.4 partners per player — but the
-median player has **one** partner and **two** tournaments, because the archive
-is dominated by one-off entrants:
+Across the whole dataset the mean is barely two partners per player — but the
+**median player has one partner and one tournament**, because the archive is
+dominated by one-off entrants:
 
 | Population | Players | Mean partners | Median |
 |---|---:|---:|---:|
-| Everyone | 15,628 | 2.4 | 1 |
-| ≥3 tournaments | 7,634 | 3.8 | 3 |
-| ≥10 tournaments | 3,821 | 5.3 | 5 |
-| ≥50 tournaments | 1,279 | 7.4 | 7 |
+| Everyone | ~12,000 | 2.3 | 1 |
+| ≥3 tournaments | ~5,500 | 3.6 | 3 |
+| ≥10 tournaments | ~2,700 | 5.0 | 5 |
+| ≥50 tournaments | ~700 | 6.7 | 6 |
 
-53.8% of players have exactly one partner and 37.4% entered exactly one
-tournament, ever. Career players behave the way you would expect — around five
-partners — and the **Min. events together** filter is the quickest way to see
-only them.
+Roughly **half** of all players have exactly one partner and around **four in
+ten** entered exactly one tournament, ever. Career players behave the way you
+would expect — about five partners — and the **Min. events together** filter is
+the quickest way to see only them.
+
+The medians are the stable part of that table; the counts move every week and
+the means drift slowly. `llms.txt` carries the same shape figures computed at
+build time, so those are exact.
 
 ## Published data contract
 
@@ -96,13 +128,13 @@ Everything under `/v1/` is static JSON:
 ```
 /v1/manifest.json            index: countries, node counts, tiers, freshness
 /v1/graphs/{CC}-{G}.json     nodes + edges for one country × gender
-/v1/players/{CC}-{G}.json    photo / height / date of birth for that slice
+/v1/players/{CC}-{G}.json    height, weight, date of birth and any medals
 ```
 
 Edge keys are terse (`a`, `b`, `t`, `f`, `l`) because edges dominate file size.
 Player detail is a **separate file per slice**, not per player: it loads once
-alongside the graph, so opening a profile costs no network request, and a
-country's detail file is ~120 KB at worst.
+alongside the graph, so opening a profile costs no network request. Even the
+largest country's pair of files comes to well under 200 KB uncompressed.
 
 The schema is [`web/src/schema.ts`](web/src/schema.ts), shared verbatim by the
 ingest pipeline and the app so the two cannot drift.
@@ -148,35 +180,66 @@ Other scripts:
 
 ```bash
 npm test              # unit tests
-npm run test:coverage # with a coverage report
+npm run test:e2e      # browser smoke tests against the built site
+npm run test:coverage # unit tests with a coverage report
 npm run typecheck
+npm run lint
 npm run build         # production build + prerender into dist/
 ```
 
-Tests cover the pure logic — tier filtering, pair aggregation and dedupe,
-country-name resolution, the VIS attribute scanner and unit conversions, graph
-layout maths (fit-to-view, label collision, radius scaling), slug round-trips
-and HTML escaping. React components are currently exercised end-to-end in a
-browser rather than by unit tests; that is the main coverage gap.
+`test:e2e` needs a browser and a build to point at, once per machine:
 
-Generated data is **not committed** — `npm run ingest` reproduces it, and CI
-regenerates it on every deploy.
+```bash
+npx playwright install chromium
+BASE_PATH=/beach-volleyball-graph/ npm run build
+BASE_PATH=/beach-volleyball-graph/ npm run test:e2e
+```
+
+`BASE_PATH` has to match between the two — `vite preview` serves at the base the
+site was built with, so a mismatch just 404s.
+
+Unit tests cover the pure logic — tier filtering, pair aggregation and dedupe,
+medal counting, country-name resolution, the VIS attribute scanner and unit
+conversions, graph layout maths (fit-to-view, label collision, radius scaling),
+slug round-trips and HTML escaping.
+
+`npm run test:e2e` is the other half: a Playwright smoke suite against the
+*built* site served by `vite preview`, at the same `BASE_PATH` the deploy uses,
+so what it exercises is what ships — prerendered HTML and asset URLs included.
+It asserts the page renders, that nothing throws, that the graph draws exactly
+the nodes and edges in the JSON, and that the no-JavaScript path still carries
+the full player table. Every assertion is checked against the data files rather
+than a number written into the test, so it survives the weekly rebuild. It runs
+on every pull request and again before the deploy uploads anything.
+
+It catches *broken*, not *wrong*: a page can render perfectly with bad numbers
+in it. That failure mode is what the data invariants and `ingest/regression.ts`
+are for.
+
+Generated data under `web/public/v1/` **is committed**. It is this project's
+only durable copy of the dataset — FIVB is a free third-party service with no
+continuity guarantee — so a fresh clone can build without a successful fetch,
+a code-only change can deploy while VIS is down, and the commit history doubles
+as a changelog of the archive. See the header comment in
+[`ingest/main.ts`](ingest/main.ts) for the full reasoning, and why the files are
+pretty-printed and sorted by immutable keys.
 
 ## SEO
 
 A client-rendered SPA with everything behind `?country=BRA` gives crawlers one
 URL and an empty `<div id="root">`. Every graph already exists as JSON at build
 time, so `npm run build` also prerenders **one real HTML page per country ×
-gender** (290 pages) via `ingest/prerender.ts`:
+gender** (one per published slice, ~265 pages) via `ingest/prerender.ts`:
 
 - `/brazil-men/`, `/norway-women/`, … each a static document containing the
   complete player table, an `h1`/`h2`, and internal links to other countries.
-  With JavaScript disabled you get 269 player rows for Brazil, not a blank page.
+  With JavaScript disabled you get the complete table — a couple of hundred
+  player rows for Brazil — not a blank page.
 - Per-page `<title>`, meta description, `rel=canonical`, Open Graph and Twitter
   cards.
 - JSON-LD: `WebPage` + `BreadcrumbList` + `ItemList` of `Person` per slice, and
   `WebSite` + `Dataset` on the home page.
-- `sitemap.xml` (290 URLs, `lastmod` from the data) and `robots.txt`.
+- `sitemap.xml` (every page, `lastmod` from the data) and `robots.txt`.
 - `llms.txt` ([llmstxt.org](https://llmstxt.org/)) — a markdown briefing for
   language models: the totals, what is deliberately excluded, the counting
   rules they would otherwise guess wrong (edge weights, one-off entrants,
@@ -199,8 +262,10 @@ SITE_URL=https://your-domain.example npm run build
 ## Deployment
 
 `.github/workflows/deploy.yml` runs weekly (Sundays 03:17 UTC), on pushes to
-`main`, and on demand via *Run workflow*. It typechecks, tests, ingests, builds
-and deploys to GitHub Pages.
+`main`, and on demand via *Run workflow*. It lints, typechecks, unit-tests,
+ingests, builds, smoke-tests the built site in a browser, and only then deploys
+to GitHub Pages. On a plain code push the ingest job is skipped entirely, so
+shipping a CSS fix does not require FIVB to be reachable.
 
 The workflow enables Pages itself (`configure-pages` with `enablement: true`),
 so there is nothing to click first. If your organisation restricts who may turn
@@ -260,5 +325,6 @@ they are defending against.
 ```
 ingest/     the weekly pipeline (VIS client, tier allowlist, aggregation)
 web/src/    the app (schema, force layout, components)
+e2e/        browser smoke tests, run against the built site
 docs/       notes worth keeping (see the data quirks catalogue above)
 ```
