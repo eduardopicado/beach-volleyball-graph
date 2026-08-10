@@ -87,10 +87,12 @@ export type MedalCategory = 'olympics' | 'world-champs';
  * Tournament number -> which medal event it is, restricted to the actual
  * senior Olympic Games (VIS Type 5) and FIVB World Championships (Type 4).
  *
- * The broader `olympics` *tier* used elsewhere also covers the Youth Olympic
- * Games (Type 43) and the Olympic Qualification Tournament (Type 49) — real
- * FIVB events, but neither is a medal event, so both are deliberately left
- * out here even though `tierFor` accepts them.
+ * Narrow on purpose, and it stays narrow even though the `olympics` tier is
+ * now the Games alone: this reads `Type` off the raw rows rather than
+ * deferring to `tierFor`, so a future addition to that tier cannot quietly
+ * start minting medals. That guard already earned its keep once — the tier
+ * used to include the Olympic Qualification Tournament, whose 2019 edition
+ * records *two* teams at Rank 1 per draw.
  */
 export function medalTournaments(rows: VisRow[]): Map<string, MedalCategory> {
   const out = new Map<string, MedalCategory>();

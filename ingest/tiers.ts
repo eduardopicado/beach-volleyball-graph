@@ -28,8 +28,31 @@ export const FIVB_ORGANIZER_TYPE = '1';
  *   9, 35                          seminars, VIS clinics, test events
  *   15, 16-21, 28-30, 46           National Tour, all age groups (see below)
  *   19, 36, 45                     snow volleyball
+ *   43                             Youth Olympic Games (see below)
  *   44                             multi-sport games (Commonwealth, Pan Am, FISU)
+ *   49                             Olympic Qualification Tournament (see below)
  *   50                             King of the Court (outside the FIVB tour structure)
+ *
+ * The `olympics` tier used to hold three different competitions. It is now
+ * only the Games.
+ *
+ * Type 43 is the *Youth* Olympic Games — an age-group event filed under the
+ * Olympic tier, which was wrong twice over: it put U19 competition in the
+ * senior graph, and because it wasn't tagged `age-group-wch` it sat outside
+ * `INCLUDE_AGE_GROUP`, so the switch built for exactly that decision could
+ * not reach it.
+ *
+ * Type 49 is the Olympic *Qualification* Tournament, and its results do not
+ * mean what results normally mean here. Several teams win: the 2019 edition
+ * (China, September) recorded two teams at Rank 1 and two more at Rank 3 in
+ * each draw, because the point of the event is handing out Games berths
+ * rather than crowning a winner. `medalTournaments()` already refused to read
+ * that as a podium; keeping it out of the tier as well means nothing else has
+ * to know about the exception either.
+ *
+ * Removing both costs no player and no partnership — measured, not assumed.
+ * The 16 qualifier pairs all competed elsewhere, so no node or edge
+ * disappears; only six tournaments leave the count.
  *
  * Type 15 was previously mapped to 'world-tour' here, on the theory that it
  * meant "1-star" and that OrganizerType alone was enough to tell a genuine
@@ -47,9 +70,7 @@ export const FIVB_ORGANIZER_TYPE = '1';
  */
 export const TIER_BY_TYPE: Record<number, Tier> = {
   // --- Olympic ---
-  5: 'olympics', // Olympic Games
-  43: 'olympics', // Youth Olympic Games
-  49: 'olympics', // Olympic Qualification Tournament
+  5: 'olympics', // Olympic Games — the Games themselves, and nothing else
 
   // --- World Championships ---
   4: 'world-champs', // FIVB World Championships
