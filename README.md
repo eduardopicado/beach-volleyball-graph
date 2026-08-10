@@ -307,6 +307,19 @@ VIS is free and unmetered. This project sends three requests a week. If you fork
 it, set a real contact address in `VIS_USER_AGENT` and request an application
 identifier from `vis.sdk@fivb.org`.
 
+## Upstream data quirks
+
+The FIVB archive has a number of surprises that cost real debugging time —
+`Type` 15 being National Tour rather than "1-star", `Rank` 0 meaning
+"registered but never played", future tournaments arriving with full entry
+lists, test records in production player data. They are catalogued, with the
+evidence and where each is handled, in
+[`docs/fivb-data-quirks.md`](docs/fivb-data-quirks.md).
+
+Read it before changing anything in `ingest/tiers.ts` or the filters in
+`ingest/build.ts` — most of those rules look arbitrary until you know what
+they are defending against.
+
 ## Layout
 
 ```
