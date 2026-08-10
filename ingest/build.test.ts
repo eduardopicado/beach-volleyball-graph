@@ -65,6 +65,40 @@ describe('normaliseTournaments', () => {
     expect([...normaliseTournaments(rows).keys()]).toEqual(['4']);
   });
 
+  it('drops tournaments VIS marked as cancelled, however it spelled it', () => {
+    // Real names from the archive. VIS has no status field for this — the
+    // cancellation lives in the display name, with the spelling, spacing and
+    // punctuation all varying, plus Spanish-language records.
+    const names = [
+      'Hamburg (canceled)',
+      'Mangaung(Cancelled)',
+      'CEV Lille Masters - canceled',
+      'Cancelled',
+      'Rio de Janeiro (cancelado)',
+      'Madrid (cancelada)',
+    ];
+    const rows = names.map((Name, i) => ({ ...tournament(String(200 + i), 2020), Name }));
+    expect(normaliseTournaments(rows).size).toBe(0);
+  });
+
+  it('keeps a postponed tournament — it may still be played', () => {
+    // Deliberately not treated as cancelled. A postponed event that never
+    // happens contributes no players anyway (no results, no rank), so
+    // dropping it would assert something the data does not say.
+    const rows = [{ ...tournament('300', 2020), Name: 'Doha (postponed)' }];
+    expect([...normaliseTournaments(rows).keys()]).toEqual(['300']);
+  });
+
+  it('does not mistake an ordinary tournament name for a cancellation', () => {
+    const rows = [
+      { ...tournament('301', 2024), Name: 'Gstaad' },
+      { ...tournament('302', 2024), Name: 'Rio de Janeiro' },
+      { ...tournament('303', 2024), Name: '' },
+      { ...tournament('304', 2024) }, // no Name attribute at all
+    ];
+    expect(normaliseTournaments(rows).size).toBe(4);
+  });
+
   it('drops snow volleyball, seminars and multi-sport games', () => {
     const rows = ['36', '35', '44', '50'].map((t, i) => ({
       ...tournament(String(100 + i), 2024),
