@@ -294,30 +294,28 @@ ${headFor(url, title, description)}
 <main>
 <h1>About</h1>
 
-<p><strong>${esc(SITE_NAME)}</strong> shows who has played with whom in FIVB international beach volleyball. Every partnership between two players from the same federation is an edge; every player who has entered a qualifying tournament is a node. It covers ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships across ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments, ${manifest.seasons.from}–${manifest.seasons.to}.</p>
+<p><strong>${esc(SITE_NAME)}</strong> maps who has played with whom in FIVB international beach volleyball. Each node is a player; each edge is a partnership, weighted by the tournaments the pair entered together. Currently ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships across ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments, ${manifest.seasons.from}–${manifest.seasons.to}.</p>
 
-<p>It is a personal, non-commercial project, built because the partnership history of the sport is genuinely interesting and nobody had drawn it.</p>
+<h2>Data</h2>
 
-<h2>Where the data comes from</h2>
+<p>Every figure comes from the <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a> and is rebuilt weekly. Nothing is hand-edited, so a number that looks wrong is either what VIS returns or a bug in how this site reads it.</p>
 
-<p>All of it comes from the <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a>, the FIVB's public data service, and is rebuilt once a week. Nothing is hand-edited: if a number here looks wrong, it is either what VIS currently returns or a bug in how this site interprets it — and the second kind is worth reporting.</p>
+<p>Not affiliated with or endorsed by the FIVB.</p>
 
-<p><strong>This site is not affiliated with, endorsed by, or operated by the FIVB.</strong> The FIVB owns the underlying competition data; the graphs, the code and any mistakes in them are mine.</p>
-
-<h2>How the numbers are counted</h2>
+<h2>Counting rules</h2>
 
 <ul>
-<li>Only FIVB-organised international competition counts — the World Tour, Beach Pro Tour, World Championships, Olympic Games and age-group World Championships. Continental tours, national tours, snow volleyball and multi-sport games are excluded.</li>
-<li>A partnership is weighted by the number of distinct tournaments a pair entered together. Entering both the qualification and the main draw of one event counts once.</li>
-<li>A team that registered but never played — a withdrawal, or a pairing superseded before the event — is not counted as an appearance.</li>
-<li>A player's country is their <em>current</em> FIVB federation; no federation history is kept. Both players must share a federation for the partnership to appear, so cross-national pairs are in no country's graph.</li>
+<li>FIVB-organised international competition only: World Tour, Beach Pro Tour, World Championships, Olympic Games, age-group World Championships. Continental and national tours, snow volleyball and multi-sport games are excluded.</li>
+<li>A pair entering both the qualification and the main draw of one event counts once.</li>
+<li>Teams that registered but never played are not counted.</li>
+<li>A player's country is their current FIVB federation; no history is kept. Both players must share a federation for a partnership to appear.</li>
 </ul>
 
 <h2>Contact</h2>
 
-<p>Corrections, questions, sponsorship or partnership enquiries, or anything from the FIVB: <a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a>.</p>
+<p><a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> — corrections, questions, media and partnership enquiries.</p>
 
-<p>If you are reporting a wrong number, a link to the player or country page and a note on what you expected is the fastest way to get it looked at.</p>
+<p>For a wrong number, a link to the page and what you expected to see is the fastest route to a fix.</p>
 
 <p><a href="${esc(BASE)}">← Back to the graph</a></p>
 </main>
