@@ -2,19 +2,21 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { FIVB_ORGANIZER_TYPE, tierFor } from './tiers';
 
 describe('tierFor', () => {
-  it('keeps the whole Olympic family: the Games, the Youth Games and the qualifier', () => {
-    // All three are a deliberate inclusion, and until this test nothing
-    // asserted any of them — the tier could have been changed in either
-    // direction without a single failure.
-    expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics'); // Olympic Games
-    expect(tierFor(FIVB_ORGANIZER_TYPE, '43')).toBe('olympics'); // Youth Olympic Games
-    expect(tierFor(FIVB_ORGANIZER_TYPE, '49')).toBe('olympics'); // qualifier, China 2019
+  it('admits the Olympic Games and nothing else Olympic-adjacent', () => {
+    // The tier used to hold three competitions, and nothing asserted any of
+    // them — it could be changed in either direction without a single
+    // failure, which is how the other two went unnoticed.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics');
 
-    // Worth knowing when reading these: only two of the three put anyone in
-    // the graph. VIS holds the 2014 Youth Games entry lists with no results
-    // attached, so every row falls to the never-played rule in build.ts, and
-    // the 2026 edition has no entries yet. Type 43 is carried for the day
-    // that changes, not for data it contributes now.
+    // Type 43 is the *Youth* Games: an age-group event that would put U19
+    // competition in the senior graph, and that INCLUDE_AGE_GROUP could not
+    // reach because it was never tagged age-group-wch.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '43')).toBeNull();
+
+    // Type 49 is the qualification tournament, where several teams "win" —
+    // the 2019 edition has two teams at Rank 1 and two at Rank 3 per draw,
+    // because it hands out berths rather than crowning a champion.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '49')).toBeNull();
   });
 
   it('classifies each recognised tier from an FIVB-organized tournament', () => {
