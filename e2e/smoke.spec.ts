@@ -105,6 +105,33 @@ test('published JSON endpoints are reachable', async ({ page, baseURL }) => {
 test.describe('without JavaScript', () => {
   test.use({ javaScriptEnabled: false });
 
+  // Canonical tags are the one part of the build that names a URL nobody
+  // visits during the test — they describe where the page is *published*, not
+  // where it is being served from right now. Which is exactly why they rot
+  // silently: SITE_URL and BASE_PATH are set separately by the workflow, and
+  // a canonical assembled from a custom origin and a project-Pages base
+  // points at a path that exists on neither host. Nothing else in the suite
+  // would notice, and the first symptom is Google indexing 265 dead URLs.
+  test('the canonical URL describes where the page is published', async ({ page, baseURL }) => {
+    const here = `./${slicePath()}`;
+    await page.goto(here);
+
+    const href = await page.locator('link[rel="canonical"]').getAttribute('href');
+    expect(href, 'the prerendered page declares no canonical URL').toBeTruthy();
+    const canonical = new URL(href!);
+
+    // Checkable anywhere: the path has to be the path this page is served
+    // from, base included. A base that only half made it into the prerender
+    // shows up here.
+    expect(canonical.pathname).toBe(new URL(here, baseURL).pathname);
+
+    // The origin is only knowable when the build was told one. Locally it
+    // isn't, and the placeholder origin is not worth asserting on.
+    if (process.env.SITE_URL) {
+      expect(canonical.origin).toBe(new URL(process.env.SITE_URL).origin);
+    }
+  });
+
   test('the prerendered page still carries the full player table', async ({ page }) => {
     // The crawler path. React never mounts here, so anything visible is what
     // ingest/prerender.ts wrote at build time.

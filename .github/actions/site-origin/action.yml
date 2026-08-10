@@ -1,0 +1,76 @@
+### Where the site is published, derived from one repository variable.
+#
+# Two values decide every URL the build bakes in:
+#
+#   SITE_URL   the public origin, used for canonical tags, Open Graph and
+#              sitemap.xml
+#   BASE_PATH  the path the site is served from, used for asset URLs and every
+#              internal link
+#
+# They are not independent. Canonical URLs are built as SITE_URL + BASE_PATH +
+# page, so the two have to describe the same place. A project Pages site with
+# no custom domain lives at https://<owner>.github.io/<repo>/; the moment a
+# custom domain is attached it moves to the domain root. Setting the origin
+# without also flipping the base would publish ~265 canonical tags pointing at
+# https://<domain>/<repo>/… — a path that exists nowhere.
+#
+# So both are derived here from a single switch, the SITE_URL repository
+# variable, and the broken combination is simply not expressible:
+#
+#   unset  ->  https://<owner>.github.io  +  /<repo>/     (project Pages)
+#   set    ->  the value                  +  /            (custom domain)
+#
+# Used by ci.yml and deploy.yml alike, so a pull request builds at the same
+# base as the deploy and base-path-sensitive breakage fails on the PR.
+
+name: Resolve the public origin
+description: Derive SITE_URL, BASE_PATH and the custom-domain host from one repository variable.
+
+inputs:
+  site_url:
+    description: >-
+      The SITE_URL repository variable. Empty means no custom domain, i.e.
+      serve from the project Pages path.
+    required: false
+    default: ''
+
+outputs:
+  site_url:
+    description: Public origin, no trailing slash.
+    value: ${{ steps.resolve.outputs.site_url }}
+  base_path:
+    description: Path the site is served from, with both slashes.
+    value: ${{ steps.resolve.outputs.base_path }}
+  custom_domain:
+    description: Bare host when a custom domain is configured, otherwise empty.
+    value: ${{ steps.resolve.outputs.custom_domain }}
+
+runs:
+  using: composite
+  steps:
+    - id: resolve
+      shell: bash
+      env:
+        SITE_URL: ${{ inputs.site_url }}
+        OWNER: ${{ github.repository_owner }}
+      run: |
+        set -euo pipefail
+        if [ -n "$SITE_URL" ]; then
+          url="${SITE_URL%/}"
+          host="${url#*://}"
+          host="${host%%/*}"
+          base="/"
+        else
+          url="https://${OWNER}.github.io"
+          # From GITHUB_REPOSITORY rather than github.event.repository.name:
+          # the event payload is not populated the same way on every trigger
+          # this runs under, and the environment variable always is.
+          base="/${GITHUB_REPOSITORY#*/}/"
+          host=""
+        fi
+        echo "Publishing to ${url}${base}"
+        {
+          echo "site_url=$url"
+          echo "base_path=$base"
+          echo "custom_domain=$host"
+        } >> "$GITHUB_OUTPUT"
