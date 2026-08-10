@@ -36,21 +36,14 @@ what `OrganizerType` claims.
 
 ---
 
-## 2. The "olympics" tier is three different things
+## 2. Three different competitions look Olympic
 
-`Type` 5 is the Olympic Games. But `Type` 43 is the **Youth** Olympic Games
-and `Type` 49 is the Olympic **Qualification** Tournament — neither is a medal
-event, and the OQT has no podium at all.
+`Type` 5 is the Olympic Games. `Type` 43 is the **Youth** Olympic Games and
+`Type` 49 is the Olympic **Qualification** Tournament. All three carried the
+`olympics` tier until it was noticed that they are not the same kind of event
+at all.
 
-For counting tournaments that distinction is cosmetic. For counting *medals*
-it is not: crediting a YOG medal as Olympic, or reading OQT qualification
-standings as a podium, would both be wrong.
-
-**Handled in.** `ingest/build.ts` — `medalTournaments()` narrows to `Type` 5
-and `Type` 4 explicitly rather than reusing the tier.
-
-**And the three behave differently in the data, which is easy to state
-wrongly.** Measured:
+They also behave differently in the data:
 
 | Event | Team rows | With a real rank |
 |---|---:|---:|
@@ -58,12 +51,32 @@ wrongly.** Measured:
 | `MYOG2026` / `WYOG2026` | 0 / 0 | 0 / 0 |
 | `MOQT2019` / `WOQT2019` | 19 / 18 | 16 / 16 |
 
-The qualification tournament contributes normally. The **Youth Olympics
-contribute nothing at all**: VIS holds the 2014 entry lists with no results
-attached, so §3's never-played rule drops all 72 rows, and the 2026 events have
-no entries yet. So the tier's headline count includes four events that put no
-player in any graph — worth remembering before writing "includes the Youth
-Olympics" anywhere user-facing, which the README did until it was checked.
+The Youth Games contribute nothing: VIS holds the 2014 entry lists with no
+results attached, so §3's never-played rule drops all 72 rows, and the 2026
+edition has no entries yet. The qualifier contributes normally — but its
+`Rank` does not mean what `Rank` means anywhere else. **Several teams win it.**
+The 2019 edition (China, September) has two teams at Rank 1 and two more at
+Rank 3 in *each* draw, because the event awards Games berths rather than
+crowning a champion:
+
+```
+Men    rank 1  ITA Nicolai/Lupo       rank 1  LAT Plavins/Tocs
+Women  rank 1  ESP Liliana/Elsa       rank 1  LAT Graudina/Samoilova
+```
+
+**Handled in.** `ingest/tiers.ts` — the tier is the Games alone; 43 and 49 are
+excluded, with a test pinning all three. Removing them cost no player and no
+partnership: the 16 qualifier pairs all competed elsewhere, so only six
+tournaments left the count.
+
+Separately, `medalTournaments()` in `ingest/build.ts` reads `Type` off the raw
+rows rather than deferring to `tierFor`, so a future addition to the tier
+cannot quietly start minting medals. That guard mattered while the qualifier
+was still in the tier, and is worth keeping now that it is not.
+
+**The general lesson**, which §5 repeats from a different direction: a rank in
+this data is not guaranteed unique within a tournament, and the reasons vary —
+a missing bronze-medal match in 1997, multiple qualifiers in 2019.
 
 ---
 
@@ -140,15 +153,21 @@ while no 2027 match has been played. See §11.
 
 ---
 
-## 5. Some World Championships awarded two bronzes
+## 5. A rank is not unique within a tournament
 
 The 1997 World Championships (`MLAX1997`, `WLAX1997`) had no bronze-medal
 match; both losing semi-finalists share `Rank` 3. Two teams, one rank, in both
 the men's and women's events.
 
-Any code that assumes one team per medal rank is wrong for these two
-tournaments. The medal aggregation credits both, and the test fixture in
-`build.test.ts` includes them deliberately.
+That is not a one-off historical oddity. The Olympic Qualification Tournament
+does the same thing at the top of the table for a completely different reason
+— it awards Games berths, so several teams "win" (see §2). Two independent
+causes, same shape.
+
+Any code that assumes one team per rank is wrong for both. The medal
+aggregation credits both 1997 bronzes, and the test fixture in
+`build.test.ts` includes them deliberately; the qualifier is kept out of the
+medal set entirely.
 
 ---
 
@@ -236,25 +255,59 @@ without one.
 
 ---
 
-## 11. Not every qualifying tournament contributes data
+## 11. A cancelled tournament says so in its name
 
-Of 1,825 qualifying tournaments, only **1,595** contribute a single
-appearance. The other 230 break down as:
+VIS has no status field for an event that was called off. The word goes in the
+display name:
+
+```
+MHAM2017  Type=38  rows=10  played=0   Name: "Hamburg (canceled)"
+MROM2017  Type=38  rows=21  played=0   Name: "Rome (canceled)"
+```
+
+Which is easy to miss, because `Name` is not a field you need for anything
+else. It surfaced only by asking why just 16 of 32 Majors contributed
+anything.
+
+**Scale.** 131 of 1,825 qualifying tournaments are marked cancelled, and
+**all 131 contribute zero appearances** — the correlation is exact, because a
+cancelled event has no results and §3's rule already excluded its entrants.
+2020 alone accounts for 59.
+
+**Formatting varies enough to matter.** Real names from the archive:
+`Hamburg (canceled)`, `Mangaung(Cancelled)`, `CEV Lille Masters - canceled`,
+plain `Cancelled`, and Spanish-language `cancelado` / `cancelada`. A substring
+test is the only thing that catches them all.
+
+**"Postponed" is a different thing** — 7 in the qualifying set, none
+contributing today, but a postponed event may still be played. Treating it as
+cancelled would assert something the data does not say, and it costs nothing
+left in: no results, no rank, no players.
+
+**Handled in.** `isCancelled()` in `ingest/build.ts`, applied in
+`normaliseTournaments`. `Name` is fetched purely for this.
+
+### What is left over
+
+Measured with both the narrowed Olympic tier (§2) and the cancellation filter
+applied, 1,597 of 1,689 qualifying tournaments contribute an appearance. The
+92 that do not:
 
 | | count |
 |---|---:|
-| no team rows in VIS at all | 28 |
-| team rows present, all `Rank` 0 | 202 |
-| *(of those, events still in the future)* | *19* |
+| no team rows in VIS at all | 18 |
+| team rows present, all `Rank` 0 | 74 |
+| *(of those, events still in the future)* | *17* |
 
-Season 2020 is the largest single cluster (65 tournaments) — consistent with a
-season that was scheduled and then largely not played.
+Down from 226 before either change, and the biggest single explanation —
+cancellation — is now handled. What remains is genuinely miscellaneous:
+events scheduled and quietly dropped without being marked, and events whose
+team data never made it upstream.
 
-**Consequence.** `manifest.totals.tournaments` counts tournaments we *track*,
-not tournaments the graph is *drawn from*. The published figure therefore
-slightly overstates coverage, and `seasons.to` runs to 2027 on the strength of
-two unplayed events. Worth aligning if the headline numbers ever need to be
-precise.
+So `manifest.totals.tournaments` still counts a residue of tracked-but-silent
+events, and `seasons.to` runs to 2027 on the strength of two unplayed ones.
+Much smaller than it was, but not zero — worth knowing before quoting the
+tournament count as "tournaments in the graph".
 
 ---
 
