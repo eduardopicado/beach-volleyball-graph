@@ -99,12 +99,24 @@ the filter, and zero season-2027 tournaments contribute a single appearance.
 The rule written for withdrawn registrations turns out to cover
 "hasn't been played yet" for the same underlying reason — no result, no rank.
 
-**The catch to watch.** The pipeline does not fetch tournament dates at all
-(`ingest/main.ts` requests `No, Code, Season, Gender, Type, OrganizerType,
-Version`). Nothing distinguishes a scheduled event from a played one *except*
-`Rank`. If `Rank` ever gets pre-populated — a seeding rank, say — unplayed
-events would start generating partnerships silently. A date-based guard would
-be belt and braces.
+**How safe is relying on `Rank` alone?** Safer than it first looks. The
+pipeline fetches no tournament dates (`ingest/main.ts` asks for `No, Code,
+Season, Gender, Type, OrganizerType, Version`), so `Rank` is the *only* thing
+separating a scheduled event from a played one — which invites the worry that
+a pre-event seeding value could leak into it. It can't: FIVB keeps seeding and
+entry ordering in entirely separate fields, and
+[documents `Rank` as "Rank in the tournament"](https://www.fivb.org/VisSDK/VisWebService/BeachTeam.html),
+a result. The pre-event fields are:
+
+| Field | What it holds |
+|---|---|
+| `MainDrawSeed1` / `MainDrawSeed2` | seed index for main-draw entry position |
+| `EntryPoints1` / `EntryPoints2` | points used to decide who enters directly |
+| `PositionInEntry`, `PositionInMainDraw`, `PositionInQualification`, `PositionInDispatch` | entry ordering |
+
+None of them is `Rank`, and none is read by this pipeline. A registered team
+for an unplayed event can carry a seed and entry points and still have
+`Rank` 0 — which is exactly the state observed on all 989 rows above.
 
 **Visible side effect.** `manifest.seasons.to` is computed over the qualifying
 tournament set, not over tournaments that contributed data, so it reads 2027
