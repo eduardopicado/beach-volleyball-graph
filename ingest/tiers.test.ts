@@ -2,6 +2,21 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { FIVB_ORGANIZER_TYPE, tierFor } from './tiers';
 
 describe('tierFor', () => {
+  it('keeps the whole Olympic family: the Games, the Youth Games and the qualifier', () => {
+    // All three are a deliberate inclusion, and until this test nothing
+    // asserted any of them — the tier could have been changed in either
+    // direction without a single failure.
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics'); // Olympic Games
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '43')).toBe('olympics'); // Youth Olympic Games
+    expect(tierFor(FIVB_ORGANIZER_TYPE, '49')).toBe('olympics'); // qualifier, China 2019
+
+    // Worth knowing when reading these: only two of the three put anyone in
+    // the graph. VIS holds the 2014 Youth Games entry lists with no results
+    // attached, so every row falls to the never-played rule in build.ts, and
+    // the 2026 edition has no entries yet. Type 43 is carried for the day
+    // that changes, not for data it contributes now.
+  });
+
   it('classifies each recognised tier from an FIVB-organized tournament', () => {
     expect(tierFor(FIVB_ORGANIZER_TYPE, '5')).toBe('olympics');
     expect(tierFor(FIVB_ORGANIZER_TYPE, '4')).toBe('world-champs');
