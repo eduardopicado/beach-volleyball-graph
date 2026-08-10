@@ -56,6 +56,7 @@ const MAX_LABELS = 16;
 
 export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey, onSize }: Props) {
   const wrapRef = useRef<HTMLDivElement>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
   const viewRef = useRef<SVGGElement>(null);
   const nodeEls = useRef(new Map<number, SVGGElement>());
   const linkEls = useRef<(SVGLineElement | null)[]>([]);
@@ -334,17 +335,30 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
     }
   }, []);
 
-  const onWheel = useCallback((event: React.WheelEvent<SVGSVGElement>) => {
-    event.preventDefault();
-    userAdjusted.current = true;
-    const rect = event.currentTarget.getBoundingClientRect();
-    const px = event.clientX - rect.left;
-    const py = event.clientY - rect.top;
-    setTransform((prev) => {
-      const k = Math.min(4, Math.max(0.25, prev.k * Math.exp(-event.deltaY * 0.0015)));
-      // Keep the point under the cursor fixed while scaling.
-      return { k, x: px - ((px - prev.x) / prev.k) * k, y: py - ((py - prev.y) / prev.k) * k };
-    });
+  // Bound natively rather than through an `onWheel` prop, and explicitly
+  // non-passive. React registers `wheel` on its root container as a *passive*
+  // listener, which makes `preventDefault()` inside a React wheel handler a
+  // silent no-op ("Unable to preventDefault inside passive event listener
+  // invocation") — so zooming the graph also scrolled the page out from under
+  // the reader, several hundred pixels per gesture. `touch-action: none` in
+  // the CSS already covers the pinch path; this is the mouse/trackpad half.
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg) return;
+    const onWheel = (event: WheelEvent) => {
+      event.preventDefault();
+      userAdjusted.current = true;
+      const rect = svg.getBoundingClientRect();
+      const px = event.clientX - rect.left;
+      const py = event.clientY - rect.top;
+      setTransform((prev) => {
+        const k = Math.min(4, Math.max(0.25, prev.k * Math.exp(-event.deltaY * 0.0015)));
+        // Keep the point under the cursor fixed while scaling.
+        return { k, x: px - ((px - prev.x) / prev.k) * k, y: py - ((py - prev.y) / prev.k) * k };
+      });
+    };
+    svg.addEventListener('wheel', onWheel, { passive: false });
+    return () => svg.removeEventListener('wheel', onWheel);
   }, []);
 
   const zoomBy = (factor: number) => {
@@ -390,6 +404,7 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
   return (
     <div className="graph-wrap" ref={wrapRef}>
       <svg
+        ref={svgRef}
         className="graph"
         width={size.width}
         height={size.height}
@@ -397,7 +412,6 @@ export function PartnershipGraph({ nodes, edges, selectedId, onSelect, layoutKey
         onPointerMove={onPointerMove}
         onPointerUp={endPointer}
         onPointerCancel={endPointer}
-        onWheel={onWheel}
         role="group"
         aria-label={`Partnership graph: ${plural(nodes.length, 'player')}, ${plural(edges.length, 'partnership')}. Use the table view below for a screen-reader friendly listing.`}
       >
