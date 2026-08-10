@@ -67,11 +67,35 @@ export function parseSeason(raw: string | undefined): number | null {
   return year >= 1985 && year <= 2100 ? year : null;
 }
 
+/**
+ * Was this tournament called off?
+ *
+ * VIS records it in the display name rather than a status field —
+ * "Hamburg (canceled)", "Mangaung(Cancelled)", "CEV Lille Masters - canceled",
+ * or sometimes just "Cancelled". Spelling, spacing and punctuation all vary,
+ * and Spanish-language records use "cancelado"/"cancelada", so the test is a
+ * substring rather than an exact marker.
+ *
+ * Deliberately does *not* match "postponed". A postponed event may still be
+ * played, and 7 of them are sitting in the qualifying set; dropping those
+ * would be asserting they never happen. They contribute no players either way
+ * — no results, no rank — so leaving them counted costs nothing and stays
+ * correct if one is eventually held.
+ */
+export function isCancelled(row: VisRow): boolean {
+  return /cancel/i.test(row.Name ?? '');
+}
+
 export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
   const out = new Map<string, Tournament>();
   for (const row of rows) {
     const tier = tierFor(row.OrganizerType, row.Type);
     if (!tier) continue;
+    // A tournament that was called off is not a tournament. It never had
+    // results, so `Rank` already kept its entrants out of the graph — but it
+    // was still counted in `manifest.totals.tournaments`, which is the one
+    // published number that claimed otherwise. 131 of them, mostly 2020.
+    if (isCancelled(row)) continue;
     const season = parseSeason(row.Season);
     if (season === null) continue;
     const no = (row.No ?? '').trim();
