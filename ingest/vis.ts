@@ -126,7 +126,19 @@ export function decodeEntities(value: string): string {
   return value.replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z]+);/g, (match, ref: string) => {
     if (ref.startsWith('#')) {
       const code = ref[1] === 'x' || ref[1] === 'X' ? parseInt(ref.slice(2), 16) : parseInt(ref.slice(1), 10);
-      return Number.isFinite(code) && code > 0 ? String.fromCodePoint(code) : match;
+      // Range-check before converting, not just `> 0`: `String.fromCodePoint`
+      // throws a RangeError above U+10FFFF, and that throw escapes the whole
+      // `replace` callback — one malformed entity anywhere in a 25MB response
+      // would abort the entire ingest with an error that reads like a bug in
+      // this parser rather than bad data upstream. Lone surrogates are
+      // rejected on the same principle: they don't throw here, but they
+      // produce text that isn't well-formed Unicode for everything
+      // downstream. Anything unusable is left as the literal source text,
+      // which is the same thing this function already does for an entity it
+      // doesn't recognise.
+      const usable =
+        Number.isFinite(code) && code > 0 && code <= 0x10ffff && !(code >= 0xd800 && code <= 0xdfff);
+      return usable ? String.fromCodePoint(code) : match;
     }
     return ENTITIES[ref.toLowerCase()] ?? match;
   });

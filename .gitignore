@@ -10,3 +10,8 @@ dist/
 web/public/v1.tmp/
 web/public/v1.old/
 ingest/.cache/
+
+# Playwright output: traces and reports for a failed smoke run. CI uploads
+# these as an artifact instead of committing them.
+test-results/
+playwright-report/
