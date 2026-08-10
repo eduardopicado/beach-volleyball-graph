@@ -21,11 +21,18 @@ Only **FIVB-organised international** competition:
 | Beach Pro Tour (2022–) | ~500 |
 | Age-group World Championships | ~90 |
 | World Championships | ~30 |
-| Olympic Games (incl. Youth, and Olympic qualifiers) | ~20 |
+| Olympic Games, plus qualifiers and Youth | ~20 |
 
 Continental tours and championships (CEV, AVC, NORCECA, CSV, CAVB), national
 tours, snow volleyball, multi-sport games and King of the Court are all
 excluded.
+
+That last row is three different competitions sharing one tier, and only two of
+them put anybody in the graph. The Games themselves and the 2019 Olympic
+Qualification Tournament contribute normally. The **Youth Olympic** events do
+not: VIS holds the 2014 entry lists with no results attached, so the
+never-played rule below drops every row, and the 2026 events have no entries
+yet. They are counted as tournaments and contribute no players.
 
 > Every count in this README is **approximate and rounded**, and drifts as the
 > archive is rebuilt each week. The exact current figures are always in
