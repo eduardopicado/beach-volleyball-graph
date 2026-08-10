@@ -49,6 +49,22 @@ standings as a podium, would both be wrong.
 **Handled in.** `ingest/build.ts` — `medalTournaments()` narrows to `Type` 5
 and `Type` 4 explicitly rather than reusing the tier.
 
+**And the three behave differently in the data, which is easy to state
+wrongly.** Measured:
+
+| Event | Team rows | With a real rank |
+|---|---:|---:|
+| `MYOG2014` / `WYOG2014` | 36 / 36 | **0 / 0** |
+| `MYOG2026` / `WYOG2026` | 0 / 0 | 0 / 0 |
+| `MOQT2019` / `WOQT2019` | 19 / 18 | 16 / 16 |
+
+The qualification tournament contributes normally. The **Youth Olympics
+contribute nothing at all**: VIS holds the 2014 entry lists with no results
+attached, so §3's never-played rule drops all 72 rows, and the 2026 events have
+no entries yet. So the tier's headline count includes four events that put no
+player in any graph — worth remembering before writing "includes the Youth
+Olympics" anywhere user-facing, which the README did until it was checked.
+
 ---
 
 ## 3. `Rank` 0 means "registered but never played"
