@@ -1039,7 +1039,7 @@
       "id": 132521,
       "name": "Mirco Gerson",
       "short": "Gerson",
-      "tournaments": 87,
+      "tournaments": 86,
       "first": 2010,
       "last": 2024
     },
@@ -1135,7 +1135,7 @@
       "id": 143686,
       "name": "Yves Haussener",
       "short": "Haussener",
-      "tournaments": 78,
+      "tournaments": 79,
       "first": 2014,
       "last": 2026
     },
@@ -1231,7 +1231,7 @@
       "id": 168507,
       "name": "Jonathan Jordan",
       "short": "Jordan",
-      "tournaments": 51,
+      "tournaments": 52,
       "first": 2018,
       "last": 2026
     },
@@ -1343,7 +1343,7 @@
       "id": 192384,
       "name": "Julian Friedli",
       "short": "Friedli",
-      "tournaments": 30,
+      "tournaments": 31,
       "first": 2023,
       "last": 2026
     },
@@ -2615,7 +2615,7 @@
     {
       "a": 132521,
       "b": 143640,
-      "t": 35,
+      "t": 34,
       "f": 2018,
       "l": 2021
     },
@@ -2776,7 +2776,7 @@
     {
       "a": 143640,
       "b": 143686,
-      "t": 4,
+      "t": 5,
       "f": 2026,
       "l": 2026
     },
@@ -2909,7 +2909,7 @@
     {
       "a": 168507,
       "b": 192384,
-      "t": 8,
+      "t": 9,
       "f": 2026,
       "l": 2026
     },

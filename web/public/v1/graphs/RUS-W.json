@@ -647,7 +647,7 @@
       "id": 150968,
       "name": "Maria Voronina",
       "short": "Voronina",
-      "tournaments": 21,
+      "tournaments": 20,
       "first": 2016,
       "last": 2021
     },
@@ -679,7 +679,7 @@
       "id": 156338,
       "name": "Mariia Bocharova",
       "short": "Bocharova",
-      "tournaments": 27,
+      "tournaments": 26,
       "first": 2016,
       "last": 2021
     },
@@ -1692,7 +1692,7 @@
     {
       "a": 150968,
       "b": 156338,
-      "t": 19,
+      "t": 18,
       "f": 2016,
       "l": 2019
     },

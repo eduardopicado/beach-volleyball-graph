@@ -1463,7 +1463,7 @@
       "id": 135571,
       "name": "Sara Hughes",
       "short": "Hughes",
-      "tournaments": 81,
+      "tournaments": 82,
       "first": 2011,
       "last": 2026
     },
@@ -1935,7 +1935,7 @@
       "id": 157946,
       "name": "Molly Phillips",
       "short": "Phillips",
-      "tournaments": 28,
+      "tournaments": 29,
       "first": 2024,
       "last": 2026
     },
@@ -2375,7 +2375,7 @@
       "id": 168577,
       "name": "Katie Horton",
       "short": "Horton",
-      "tournaments": 13,
+      "tournaments": 14,
       "first": 2022,
       "last": 2026
     },
@@ -2391,7 +2391,7 @@
       "id": 169699,
       "name": "Ally Batenhorst",
       "short": "Batenhorst",
-      "tournaments": 7,
+      "tournaments": 8,
       "first": 2025,
       "last": 2026
     },
@@ -2431,7 +2431,7 @@
       "id": 170643,
       "name": "Molly Shaw",
       "short": "Shaw",
-      "tournaments": 27,
+      "tournaments": 28,
       "first": 2019,
       "last": 2026
     },
@@ -3143,7 +3143,7 @@
       "id": 217369,
       "name": "Jordan Boulware",
       "short": "Boulware",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -5771,7 +5771,7 @@
     {
       "a": 135571,
       "b": 169699,
-      "t": 7,
+      "t": 8,
       "f": 2025,
       "l": 2026
     },
@@ -6408,7 +6408,7 @@
     {
       "a": 157946,
       "b": 170643,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -6912,7 +6912,7 @@
     {
       "a": 168577,
       "b": 217369,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },

@@ -999,7 +999,7 @@
       "id": 120763,
       "name": "Lars Flüggen",
       "short": "Flüggen",
-      "tournaments": 75,
+      "tournaments": 74,
       "first": 2009,
       "last": 2021
     },
@@ -1063,7 +1063,7 @@
       "id": 124773,
       "name": "Peter Wolf",
       "short": "Wolf P.",
-      "tournaments": 10,
+      "tournaments": 11,
       "first": 2010,
       "last": 2026
     },
@@ -1255,7 +1255,7 @@
       "id": 143091,
       "name": "Georg Wolf",
       "short": "Wolf G.",
-      "tournaments": 10,
+      "tournaments": 11,
       "first": 2025,
       "last": 2026
     },
@@ -1311,7 +1311,7 @@
       "id": 147930,
       "name": "Sven Winter",
       "short": "Winter",
-      "tournaments": 60,
+      "tournaments": 61,
       "first": 2016,
       "last": 2026
     },
@@ -1327,7 +1327,7 @@
       "id": 152347,
       "name": "Paul Henning",
       "short": "Henning",
-      "tournaments": 32,
+      "tournaments": 33,
       "first": 2022,
       "last": 2026
     },
@@ -1335,7 +1335,7 @@
       "id": 153264,
       "name": "Robin Sowa",
       "short": "Sowa",
-      "tournaments": 48,
+      "tournaments": 49,
       "first": 2018,
       "last": 2026
     },
@@ -1415,7 +1415,7 @@
       "id": 157761,
       "name": "Lukas Pfretzschner L.",
       "short": "Pfretzschner, L.",
-      "tournaments": 55,
+      "tournaments": 56,
       "first": 2017,
       "last": 2026
     },
@@ -1447,7 +1447,7 @@
       "id": 164619,
       "name": "Jonas Reinhardt",
       "short": "Reinhardt",
-      "tournaments": 11,
+      "tournaments": 12,
       "first": 2022,
       "last": 2026
     },
@@ -1463,7 +1463,7 @@
       "id": 167232,
       "name": "Maximilian Fromm",
       "short": "Fromm",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -1503,7 +1503,7 @@
       "id": 169018,
       "name": "Luis Kubo",
       "short": "Kubo",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2025,
       "last": 2026
     },
@@ -1527,7 +1527,7 @@
       "id": 172905,
       "name": "Momme Lorenz",
       "short": "Lorenz",
-      "tournaments": 34,
+      "tournaments": 35,
       "first": 2021,
       "last": 2026
     },
@@ -1535,7 +1535,7 @@
       "id": 172907,
       "name": "Lui Wüst",
       "short": "Wüst",
-      "tournaments": 41,
+      "tournaments": 42,
       "first": 2021,
       "last": 2026
     },
@@ -1591,7 +1591,7 @@
       "id": 181184,
       "name": "Philipp Huster",
       "short": "Huster",
-      "tournaments": 41,
+      "tournaments": 42,
       "first": 2021,
       "last": 2026
     },
@@ -1607,7 +1607,7 @@
       "id": 182345,
       "name": "Niklas Held",
       "short": "Held",
-      "tournaments": 20,
+      "tournaments": 21,
       "first": 2023,
       "last": 2026
     },
@@ -1639,7 +1639,7 @@
       "id": 184140,
       "name": "Florian Fiedler",
       "short": "Fiedler",
-      "tournaments": 10,
+      "tournaments": 11,
       "first": 2024,
       "last": 2026
     },
@@ -1743,7 +1743,7 @@
       "id": 199226,
       "name": "Tilo Rietschel",
       "short": "Rietschel",
-      "tournaments": 19,
+      "tournaments": 20,
       "first": 2023,
       "last": 2026
     },
@@ -1791,7 +1791,7 @@
       "id": 213002,
       "name": "Colin Alexander Paszkiewicz",
       "short": "Paszkiewicz",
-      "tournaments": 6,
+      "tournaments": 7,
       "first": 2025,
       "last": 2026
     },
@@ -1839,7 +1839,7 @@
       "id": 222417,
       "name": "Charlie Peters",
       "short": "Peters",
-      "tournaments": 10,
+      "tournaments": 11,
       "first": 2025,
       "last": 2026
     },
@@ -3256,7 +3256,7 @@
     {
       "a": 120763,
       "b": 156567,
-      "t": 24,
+      "t": 23,
       "f": 2018,
       "l": 2021
     },
@@ -3319,7 +3319,7 @@
     {
       "a": 124773,
       "b": 143091,
-      "t": 9,
+      "t": 10,
       "f": 2025,
       "l": 2026
     },
@@ -3697,7 +3697,7 @@
     {
       "a": 147930,
       "b": 181184,
-      "t": 6,
+      "t": 7,
       "f": 2021,
       "l": 2026
     },
@@ -3711,7 +3711,7 @@
     {
       "a": 152347,
       "b": 157761,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -3753,7 +3753,7 @@
     {
       "a": 153264,
       "b": 164619,
-      "t": 9,
+      "t": 10,
       "f": 2025,
       "l": 2026
     },
@@ -3844,7 +3844,7 @@
     {
       "a": 156567,
       "b": 172907,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -3886,7 +3886,7 @@
     {
       "a": 167232,
       "b": 184140,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     },
@@ -3921,7 +3921,7 @@
     {
       "a": 169018,
       "b": 182345,
-      "t": 4,
+      "t": 5,
       "f": 2026,
       "l": 2026
     },
@@ -3991,7 +3991,7 @@
     {
       "a": 172905,
       "b": 199226,
-      "t": 13,
+      "t": 14,
       "f": 2024,
       "l": 2026
     },
@@ -4278,7 +4278,7 @@
     {
       "a": 213002,
       "b": 222417,
-      "t": 5,
+      "t": 6,
       "f": 2026,
       "l": 2026
     },

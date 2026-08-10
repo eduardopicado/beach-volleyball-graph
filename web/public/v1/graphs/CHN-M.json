@@ -271,7 +271,7 @@
       "id": 118580,
       "name": "Peng Gao",
       "short": "P. Gao",
-      "tournaments": 69,
+      "tournaments": 68,
       "first": 2007,
       "last": 2025
     },
@@ -351,7 +351,7 @@
       "id": 122167,
       "name": "Yang Li",
       "short": "Y. Li",
-      "tournaments": 38,
+      "tournaments": 37,
       "first": 2009,
       "last": 2025
     },
@@ -423,7 +423,7 @@
       "id": 137269,
       "name": "Jiaxin Wu",
       "short": "Wu Jiaxin",
-      "tournaments": 74,
+      "tournaments": 75,
       "first": 2011,
       "last": 2026
     },
@@ -527,7 +527,7 @@
       "id": 146898,
       "name": "Chaowei Zhou",
       "short": "Ch. W. Zhou",
-      "tournaments": 43,
+      "tournaments": 44,
       "first": 2016,
       "last": 2026
     },
@@ -543,7 +543,7 @@
       "id": 151292,
       "name": "Yanwei Wang",
       "short": "Wang Y. W.",
-      "tournaments": 33,
+      "tournaments": 34,
       "first": 2017,
       "last": 2026
     },
@@ -631,7 +631,7 @@
       "id": 151918,
       "name": "Wei Li",
       "short": "LI Wei",
-      "tournaments": 8,
+      "tournaments": 9,
       "first": 2024,
       "last": 2026
     },
@@ -783,7 +783,7 @@
       "id": 189737,
       "name": "Jinyang Song",
       "short": "Song Jinyang",
-      "tournaments": 12,
+      "tournaments": 13,
       "first": 2023,
       "last": 2026
     },
@@ -815,7 +815,7 @@
       "id": 189779,
       "name": "Yuan Mao",
       "short": "MAO Yuan",
-      "tournaments": 12,
+      "tournaments": 13,
       "first": 2024,
       "last": 2026
     },
@@ -831,7 +831,7 @@
       "id": 201265,
       "name": "Xiaokai Li",
       "short": "LI Xiaokai",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2024,
       "last": 2026
     },
@@ -855,7 +855,7 @@
       "id": 201983,
       "name": "Hongjun Du",
       "short": "DU Hongjun",
-      "tournaments": 16,
+      "tournaments": 17,
       "first": 2023,
       "last": 2026
     },
@@ -927,7 +927,7 @@
       "id": 210484,
       "name": "Yuan Liu",
       "short": "Liu Y.",
-      "tournaments": 12,
+      "tournaments": 13,
       "first": 2024,
       "last": 2026
     },
@@ -935,7 +935,7 @@
       "id": 210512,
       "name": "Nengfei Yuan",
       "short": "YUAN Nengfei",
-      "tournaments": 3,
+      "tournaments": 4,
       "first": 2024,
       "last": 2026
     },
@@ -975,9 +975,9 @@
       "id": 213587,
       "name": "Chen Yang",
       "short": "CHEN Yang",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2024
+      "last": 2026
     },
     {
       "id": 221411,
@@ -1015,6 +1015,14 @@
       "id": 241476,
       "name": "Shaoquan Dong",
       "short": "DONG Shaoquan",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 241508,
+      "name": "Junkai Yu",
+      "short": "YU Junkai",
       "tournaments": 1,
       "first": 2026,
       "last": 2026
@@ -1304,7 +1312,7 @@
     {
       "a": 118580,
       "b": 122167,
-      "t": 35,
+      "t": 34,
       "f": 2009,
       "l": 2025
     },
@@ -1556,7 +1564,7 @@
     {
       "a": 137269,
       "b": 146898,
-      "t": 8,
+      "t": 9,
       "f": 2022,
       "l": 2026
     },
@@ -1703,7 +1711,7 @@
     {
       "a": 151292,
       "b": 201983,
-      "t": 9,
+      "t": 10,
       "f": 2024,
       "l": 2026
     },
@@ -1794,7 +1802,7 @@
     {
       "a": 151918,
       "b": 210512,
-      "t": 2,
+      "t": 3,
       "f": 2024,
       "l": 2026
     },
@@ -1913,7 +1921,7 @@
     {
       "a": 189737,
       "b": 201265,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -1948,7 +1956,7 @@
     {
       "a": 189779,
       "b": 210484,
-      "t": 11,
+      "t": 12,
       "f": 2024,
       "l": 2026
     },
@@ -1993,6 +2001,13 @@
       "t": 1,
       "f": 2024,
       "l": 2024
+    },
+    {
+      "a": 213587,
+      "b": 241508,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
     },
     {
       "a": 221411,

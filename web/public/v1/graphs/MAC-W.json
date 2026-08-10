@@ -47,7 +47,7 @@
       "id": 149343,
       "name": "On Ieng Leong",
       "short": "Leong O. I.",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -55,7 +55,7 @@
       "id": 149344,
       "name": "Weng Sam Law",
       "short": "Law W. S.",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2026,
       "last": 2026
     },
@@ -93,7 +93,7 @@
     {
       "a": 149343,
       "b": 149344,
-      "t": 1,
+      "t": 2,
       "f": 2026,
       "l": 2026
     }

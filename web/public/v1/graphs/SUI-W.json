@@ -654,8 +654,8 @@
     {
       "id": 124999,
       "name": "Anouk Vergé-Dépré",
-      "short": "Anouk",
-      "tournaments": 143,
+      "short": "Vergé-Dépré A.",
+      "tournaments": 142,
       "first": 2009,
       "last": 2026
     },
@@ -679,7 +679,7 @@
       "id": 132614,
       "name": "Tanja Hüberli",
       "short": "Hüberli",
-      "tournaments": 121,
+      "tournaments": 122,
       "first": 2010,
       "last": 2026
     },
@@ -703,7 +703,7 @@
       "id": 135579,
       "name": "Nina Brunner",
       "short": "Brunner",
-      "tournaments": 93,
+      "tournaments": 94,
       "first": 2011,
       "last": 2026
     },
@@ -782,7 +782,7 @@
     {
       "id": 152865,
       "name": "Zoé Vergé-Dépré",
-      "short": "Zoé",
+      "short": "Vergé-Dépré Z.",
       "tournaments": 74,
       "first": 2017,
       "last": 2026
@@ -879,7 +879,7 @@
       "id": 167352,
       "name": "Menia Bentele",
       "short": "Menia",
-      "tournaments": 56,
+      "tournaments": 57,
       "first": 2019,
       "last": 2026
     },
@@ -935,7 +935,7 @@
       "id": 179339,
       "name": "Annique Niederhauser",
       "short": "Annique",
-      "tournaments": 37,
+      "tournaments": 38,
       "first": 2022,
       "last": 2026
     },
@@ -943,7 +943,7 @@
       "id": 179340,
       "name": "Leona Kernen",
       "short": "Kernen",
-      "tournaments": 34,
+      "tournaments": 35,
       "first": 2021,
       "last": 2026
     },
@@ -1962,7 +1962,7 @@
     {
       "a": 124153,
       "b": 124999,
-      "t": 64,
+      "t": 63,
       "f": 2017,
       "l": 2024
     },
@@ -1976,7 +1976,7 @@
     {
       "a": 124153,
       "b": 179340,
-      "t": 5,
+      "t": 6,
       "f": 2026,
       "l": 2026
     },
@@ -2018,7 +2018,7 @@
     {
       "a": 132614,
       "b": 135579,
-      "t": 79,
+      "t": 80,
       "f": 2016,
       "l": 2026
     },
@@ -2284,7 +2284,7 @@
     {
       "a": 167352,
       "b": 179339,
-      "t": 21,
+      "t": 22,
       "f": 2025,
       "l": 2026
     },

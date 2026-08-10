@@ -943,7 +943,7 @@
       "id": 120039,
       "name": "Heather Bansley",
       "short": "Bansley",
-      "tournaments": 130,
+      "tournaments": 129,
       "first": 2007,
       "last": 2025
     },
@@ -1063,7 +1063,7 @@
       "id": 124979,
       "name": "Melissa Humana-Paredes",
       "short": "Melissa",
-      "tournaments": 106,
+      "tournaments": 107,
       "first": 2009,
       "last": 2026
     },
@@ -1431,7 +1431,7 @@
       "id": 153036,
       "name": "Marie-Alex Bélanger",
       "short": "Bélanger",
-      "tournaments": 22,
+      "tournaments": 23,
       "first": 2022,
       "last": 2026
     },
@@ -1551,7 +1551,7 @@
       "id": 162675,
       "name": "Lea Monkhouse",
       "short": "Monkhouse",
-      "tournaments": 20,
+      "tournaments": 21,
       "first": 2019,
       "last": 2026
     },
@@ -1783,7 +1783,7 @@
       "id": 190381,
       "name": "Devin Corah",
       "short": "Corah",
-      "tournaments": 29,
+      "tournaments": 30,
       "first": 2022,
       "last": 2026
     },
@@ -1975,7 +1975,7 @@
       "id": 232270,
       "name": "Sasha Pasloski",
       "short": "Pasloski",
-      "tournaments": 7,
+      "tournaments": 8,
       "first": 2026,
       "last": 2026
     },
@@ -3164,7 +3164,7 @@
     {
       "a": 120039,
       "b": 141868,
-      "t": 40,
+      "t": 39,
       "f": 2016,
       "l": 2021
     },
@@ -3276,7 +3276,7 @@
     {
       "a": 124979,
       "b": 141868,
-      "t": 28,
+      "t": 29,
       "f": 2023,
       "l": 2026
     },
@@ -3668,9 +3668,9 @@
     {
       "a": 153036,
       "b": 162675,
-      "t": 12,
+      "t": 13,
       "f": 2023,
-      "l": 2025
+      "l": 2026
     },
     {
       "a": 153036,
@@ -4123,7 +4123,7 @@
     {
       "a": 190381,
       "b": 232270,
-      "t": 7,
+      "t": 8,
       "f": 2026,
       "l": 2026
     },

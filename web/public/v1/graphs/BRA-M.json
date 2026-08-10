@@ -1135,7 +1135,7 @@
       "id": 133285,
       "name": "Evandro Gonçalves Oliveira Júnior",
       "short": "Evandro",
-      "tournaments": 146,
+      "tournaments": 147,
       "first": 2010,
       "last": 2026
     },
@@ -1271,7 +1271,7 @@
       "id": 142889,
       "name": "George Souto Maior Wanderley",
       "short": "George",
-      "tournaments": 89,
+      "tournaments": 88,
       "first": 2013,
       "last": 2026
     },
@@ -1303,7 +1303,7 @@
       "id": 145393,
       "name": "Arthur Diego Mariano Lanci",
       "short": "Arthur Lanci",
-      "tournaments": 66,
+      "tournaments": 67,
       "first": 2014,
       "last": 2026
     },
@@ -1327,7 +1327,7 @@
       "id": 147009,
       "name": "Andre Loyola Stein",
       "short": "Andre",
-      "tournaments": 104,
+      "tournaments": 103,
       "first": 2014,
       "last": 2026
     },
@@ -1735,7 +1735,7 @@
       "id": 208610,
       "name": "Pedro Joaquim Brandao Ribeiro",
       "short": "Juca",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2024,
       "last": 2026
     },
@@ -1839,7 +1839,7 @@
       "id": 233406,
       "name": "Lucas Sotelle Silva",
       "short": "Lucas",
-      "tournaments": 2,
+      "tournaments": 3,
       "first": 2026,
       "last": 2026
     },
@@ -4022,7 +4022,7 @@
     {
       "a": 133285,
       "b": 145393,
-      "t": 42,
+      "t": 43,
       "f": 2023,
       "l": 2026
     },
@@ -4183,7 +4183,7 @@
     {
       "a": 142889,
       "b": 147009,
-      "t": 56,
+      "t": 55,
       "f": 2019,
       "l": 2025
     },
@@ -4729,7 +4729,7 @@
     {
       "a": 208610,
       "b": 233406,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },

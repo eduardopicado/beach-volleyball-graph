@@ -335,7 +335,7 @@
       "id": 150235,
       "name": "Lubos Nemec",
       "short": "Nemec",
-      "tournaments": 27,
+      "tournaments": 28,
       "first": 2018,
       "last": 2026
     },
@@ -383,9 +383,9 @@
       "id": 182265,
       "name": "Dominik Jancok",
       "short": "Jancok",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2024,
-      "last": 2024
+      "last": 2026
     },
     {
       "id": 187187,
@@ -697,6 +697,13 @@
       "b": 179392,
       "t": 18,
       "f": 2023,
+      "l": 2026
+    },
+    {
+      "a": 150235,
+      "b": 182265,
+      "t": 1,
+      "f": 2026,
       "l": 2026
     },
     {

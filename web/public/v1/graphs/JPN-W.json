@@ -727,7 +727,7 @@
       "id": 133551,
       "name": "Megumi Murakami",
       "short": "Murakami",
-      "tournaments": 66,
+      "tournaments": 65,
       "first": 2011,
       "last": 2024
     },
@@ -815,7 +815,7 @@
       "id": 146166,
       "name": "Shion Tsubouchi",
       "short": "Tsubouchi",
-      "tournaments": 32,
+      "tournaments": 33,
       "first": 2019,
       "last": 2026
     },
@@ -847,7 +847,7 @@
       "id": 150057,
       "name": "Miki Ishii",
       "short": "Ishii",
-      "tournaments": 87,
+      "tournaments": 86,
       "first": 2015,
       "last": 2026
     },
@@ -1007,7 +1007,7 @@
       "id": 168072,
       "name": "Harumi Sakai",
       "short": "Sakai",
-      "tournaments": 33,
+      "tournaments": 34,
       "first": 2020,
       "last": 2026
     },
@@ -1079,7 +1079,7 @@
       "id": 173555,
       "name": "Ami Shirahata",
       "short": "Shirahata",
-      "tournaments": 8,
+      "tournaments": 9,
       "first": 2022,
       "last": 2026
     },
@@ -1095,7 +1095,7 @@
       "id": 174229,
       "name": "Wakana Akishige",
       "short": "Akishige",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2026,
       "last": 2026
     },
@@ -1151,7 +1151,7 @@
       "id": 189723,
       "name": "Mei Mori",
       "short": "Mori",
-      "tournaments": 7,
+      "tournaments": 8,
       "first": 2024,
       "last": 2026
     },
@@ -1191,7 +1191,7 @@
       "id": 192903,
       "name": "Suzuna Fukuda",
       "short": "Fukuda",
-      "tournaments": 6,
+      "tournaments": 7,
       "first": 2024,
       "last": 2026
     },
@@ -1271,7 +1271,7 @@
       "id": 214142,
       "name": "Nozomi Sekiguchi",
       "short": "Sekiguchi",
-      "tournaments": 7,
+      "tournaments": 8,
       "first": 2024,
       "last": 2026
     },
@@ -1327,7 +1327,7 @@
       "id": 233354,
       "name": "Aimi Oba",
       "short": "Ohba",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2026,
       "last": 2026
     },
@@ -2367,7 +2367,7 @@
     {
       "a": 133551,
       "b": 150057,
-      "t": 43,
+      "t": 42,
       "f": 2015,
       "l": 2021
     },
@@ -2486,7 +2486,7 @@
     {
       "a": 146166,
       "b": 168072,
-      "t": 11,
+      "t": 12,
       "f": 2025,
       "l": 2026
     },
@@ -2834,6 +2834,13 @@
       "l": 2024
     },
     {
+      "a": 173555,
+      "b": 214142,
+      "t": 1,
+      "f": 2026,
+      "l": 2026
+    },
+    {
       "a": 174229,
       "b": 192403,
       "t": 1,
@@ -2850,7 +2857,7 @@
     {
       "a": 174229,
       "b": 192903,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },
@@ -2906,7 +2913,7 @@
     {
       "a": 189723,
       "b": 233354,
-      "t": 2,
+      "t": 3,
       "f": 2026,
       "l": 2026
     },

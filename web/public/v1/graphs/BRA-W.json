@@ -543,7 +543,7 @@
       "id": 104079,
       "name": "Carolina Solberg Salgado",
       "short": "Carol",
-      "tournaments": 232,
+      "tournaments": 233,
       "first": 2002,
       "last": 2026
     },
@@ -599,7 +599,7 @@
       "id": 104574,
       "name": "Angela Lavalle",
       "short": "Angela",
-      "tournaments": 65,
+      "tournaments": 64,
       "first": 2003,
       "last": 2021
     },
@@ -911,7 +911,7 @@
       "id": 132686,
       "name": "Rebecca Cavalcante Barbosa Silva",
       "short": "Rebecca",
-      "tournaments": 82,
+      "tournaments": 83,
       "first": 2010,
       "last": 2026
     },
@@ -1055,7 +1055,7 @@
       "id": 146801,
       "name": "Victoria Lopes Pereira Tosta",
       "short": "Victoria",
-      "tournaments": 73,
+      "tournaments": 74,
       "first": 2016,
       "last": 2026
     },
@@ -1071,7 +1071,7 @@
       "id": 147073,
       "name": "Ana Patricia Silva Ramos",
       "short": "Ana Patrícia",
-      "tournaments": 71,
+      "tournaments": 72,
       "first": 2014,
       "last": 2026
     },
@@ -1231,7 +1231,7 @@
       "id": 163501,
       "name": "Thamela Coradello Galil",
       "short": "Thamela",
-      "tournaments": 48,
+      "tournaments": 49,
       "first": 2018,
       "last": 2026
     },
@@ -1407,7 +1407,7 @@
       "id": 199048,
       "name": "Emanuely Pereira Cardoso",
       "short": "Manu",
-      "tournaments": 8,
+      "tournaments": 9,
       "first": 2023,
       "last": 2026
     },
@@ -1463,7 +1463,7 @@
       "id": 204381,
       "name": "Geovania de Lima Soares",
       "short": "Geovania",
-      "tournaments": 6,
+      "tournaments": 7,
       "first": 2023,
       "last": 2026
     },
@@ -2711,7 +2711,7 @@
     {
       "a": 104079,
       "b": 132686,
-      "t": 18,
+      "t": 19,
       "f": 2025,
       "l": 2026
     },
@@ -2823,7 +2823,7 @@
     {
       "a": 104574,
       "b": 132695,
-      "t": 7,
+      "t": 6,
       "f": 2018,
       "l": 2019
     },
@@ -3194,9 +3194,9 @@
     {
       "a": 132695,
       "b": 147073,
-      "t": 4,
+      "t": 5,
       "f": 2016,
-      "l": 2018
+      "l": 2026
     },
     {
       "a": 132695,
@@ -3418,7 +3418,7 @@
     {
       "a": 146801,
       "b": 163501,
-      "t": 23,
+      "t": 24,
       "f": 2024,
       "l": 2026
     },
@@ -3733,7 +3733,7 @@
     {
       "a": 199048,
       "b": 204381,
-      "t": 3,
+      "t": 4,
       "f": 2026,
       "l": 2026
     },
