@@ -256,8 +256,12 @@ the sitemap are absolute and baked in, so a wrong value publishes wrong
 canonicals:
 
 ```bash
-SITE_URL=https://your-domain.example npm run build
+SITE_URL=https://your-domain.example BASE_PATH=/ npm run build
 ```
+
+`SITE_URL` and `BASE_PATH` describe the same place and have to agree: a
+canonical URL is `SITE_URL + BASE_PATH + page`. In CI you never set them
+separately — see [Where the site is published](#where-the-site-is-published).
 
 ## Deployment
 
@@ -281,25 +285,91 @@ tournaments, or fewer than 1,000 aggregated partnerships), and writes to a temp
 directory that is only swapped into place once every file exists — so a
 half-published state is not reachable.
 
-### Cloudflare Pages + a custom domain
+### Where the site is published
 
-`.github/workflows/deploy-cloudflare.yml` is the alternative to GitHub Pages.
-Disable whichever one you are not using so they do not both rebuild weekly.
+Two repository variables decide it, and nothing else does:
 
-1. Point the domain's nameservers at Cloudflare (at registro.br: *Alterar
-   servidores DNS*). Propagation is usually under an hour.
-2. Cloudflare dashboard → **Workers & Pages → Create → Pages → Direct Upload**,
-   project name `beachvolleyballgraph`. The workflow uploads to it; there is no
-   need to connect the Git repo, and connecting it would build the site a second
-   time without the FIVB data.
-3. Add the repository secrets `CLOUDFLARE_API_TOKEN` (permission: *Cloudflare
-   Pages → Edit*) and `CLOUDFLARE_ACCOUNT_ID`, and the repository **variable**
-   `SITE_URL` (e.g. `https://beachvolley.com.br`, no trailing slash).
+| Variable | Unset | Set |
+|---|---|---|
+| `SITE_URL` | project Pages: `https://<owner>.github.io` + `/<repo>/` | that origin + `/` |
+| `DEPLOY_TARGET` | `deploy.yml` publishes to GitHub Pages | `cloudflare` hands publishing to `deploy-cloudflare.yml` |
+
+`SITE_URL` drives *both* the origin and the base path, through
+`.github/actions/site-origin`, because they are not independent. A project
+Pages site is served from `/<repo>/` and a custom domain from the root, so
+setting one without the other publishes ~265 canonical tags pointing at
+`https://<domain>/<repo>/…` — a path that exists on neither host. Deriving
+them together makes that combination unrepresentable.
+
+`DEPLOY_TARGET` exists because both publish workflows answer the same triggers.
+Without it the weekly schedule would fetch FIVB's whole archive twice and the
+two runs would race to commit the result. The comparison is exact and
+case-sensitive; a typo leaves GitHub Pages publishing as before, which is the
+right way for a mistake to fall.
+
+### Attaching a custom domain (GitHub Pages)
+
+**Order matters.** Attaching the domain in Settings is what moves the *site*;
+setting `SITE_URL` is what moves the *build*. Do the second without the first
+and Pages keeps serving `/<repo>/` while every asset URL points at `/assets/…`
+— a blank page whose HTML, manifest and bundle name all still pass the deploy
+fingerprint checks. The deploy now refuses that combination explicitly, so it
+fails in Actions rather than in a reader's browser, but it is still the wrong
+order.
+
+1. DNS. At registro.br, *Alterar servidores DNS* to Cloudflare's nameservers —
+   but create the zone and its records in Cloudflare **first**: registro.br
+   validates that the zone answers before it accepts the delegation. If DNSSEC
+   is enabled at registro.br, turn it off before delegating and re-enable it
+   afterwards with Cloudflare's DS values; stale DS records make the domain
+   unresolvable.
+2. Records, both grey-clouded (DNS only): apex → `<owner>.github.io` (Cloudflare
+   flattens the CNAME at the apex, so no A records are needed), and `www` →
+   `<owner>.github.io`. With the apex set as the custom domain, GitHub serves
+   both and redirects `www` to it.
+3. **Settings → Pages → Custom domain**, wait for the certificate, tick *Enforce
+   HTTPS*.
+4. Only then set the `SITE_URL` variable and re-run the deploy.
+
+The workflow writes `dist/CNAME` when a custom domain is configured, as belt and
+braces against a deploy clearing the setting. It is generated rather than
+committed on purpose: a static `web/public/CNAME` would attach the domain the
+first time it shipped, which before DNS resolves takes the live site *down*
+rather than moving it.
+
+Cloudflare Web Analytics is a JS beacon and works on any origin, so wanting
+request stats is not by itself a reason to move hosting. Raw request logs are;
+those need the records orange-clouded, which is a separate step (grey-cloud
+until GitHub has issued its certificate, then orange with SSL mode *Full
+(strict)*).
+
+### Cloudflare Pages
+
+`.github/workflows/deploy-cloudflare.yml` is the alternative publish target:
+same pipeline, same checks, only the last step differs.
+
+1. Cloudflare dashboard → **Workers & Pages → Create → Pages → Direct Upload**,
+   project name `beachvolleyballgraph` (override with the `CLOUDFLARE_PROJECT`
+   variable). The workflow uploads to it; there is no need to connect the Git
+   repo, and connecting it would build the site a second time without the FIVB
+   data.
+2. Repository secrets `CLOUDFLARE_API_TOKEN` (permission: *Cloudflare Pages →
+   Edit*) and `CLOUDFLARE_ACCOUNT_ID`.
+3. Repository variables `SITE_URL` (required here — Cloudflare serves from a
+   domain root) and `DEPLOY_TARGET=cloudflare`.
 4. Pages → your project → **Custom domains** → add the domain. Cloudflare adds
-   the CNAME itself when it is the authoritative DNS.
+   the record itself when it is the authoritative DNS.
 
-`BASE_PATH` is `/` there (domain root), versus `/<repo>/` on project Pages —
-which is exactly why the base is configurable rather than hard-coded.
+A preflight step fails the run if any of those are missing, rather than
+publishing 265 pages that claim to live at `example.invalid`.
+
+**The two workflows duplicate their ingest and build stages.** That has already
+cost once: written before the smoke suite, the deploy verification, the
+ingest/build split and the regression bypass existed, `deploy-cloudflare.yml`
+silently fell five pull requests behind, and enabling it would have quietly
+dropped every one of those checks. Change one, change the other. The durable
+fix is one pipeline with the publish target as a parameter — worth doing at the
+point the Cloudflare target is actually adopted, rather than speculatively.
 
 ### Being a good citizen of the API
 

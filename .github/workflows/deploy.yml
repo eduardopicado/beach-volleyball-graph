@@ -70,7 +70,13 @@ jobs:
   ingest:
     # Skipped on a plain code push: nothing to fetch, and the committed data
     # already reflects the last successful refresh.
-    if: github.event_name != 'push'
+    #
+    # The DEPLOY_TARGET check is what keeps this workflow and
+    # deploy-cloudflare.yml from both publishing: they answer the same
+    # triggers, so without it the weekly schedule would fetch FIVB's whole
+    # archive twice and the two runs would race to commit the result. Unset
+    # means GitHub Pages, so the default costs nothing.
+    if: vars.DEPLOY_TARGET != 'cloudflare' && github.event_name != 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write # to commit the refreshed data back to this branch
@@ -152,7 +158,11 @@ jobs:
     needs: ingest
     # Runs whether ingest actually ran (schedule/dispatch) or was skipped (a
     # code-only push) — only a real ingest *failure* should stop the deploy.
-    if: always() && (needs.ingest.result == 'success' || needs.ingest.result == 'skipped')
+    # `always()` also survives ingest being skipped by the DEPLOY_TARGET
+    # check, so that has to be repeated here rather than inherited.
+    if: >-
+      always() && vars.DEPLOY_TARGET != 'cloudflare'
+      && (needs.ingest.result == 'success' || needs.ingest.result == 'skipped')
     runs-on: ubuntu-latest
     outputs:
       generated_at: ${{ steps.stamp.outputs.generated_at }}
