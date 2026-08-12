@@ -9,7 +9,7 @@
  *  - identify yourself, so FIVB can email you instead of null-routing you.
  */
 
-import { CONTACT_EMAIL } from '../web/src/site.js';
+import { CONTACT_EMAIL, SITE_URL } from '../web/src/site.js';
 
 const ENDPOINT = 'https://www.fivb.org/Vis2009/XmlRequest.asmx';
 
@@ -18,13 +18,15 @@ const ENDPOINT = 'https://www.fivb.org/Vis2009/XmlRequest.asmx';
  * the whole point of the header is that a free service with a problem can
  * email the person responsible instead of quietly null-routing them.
  *
- * `VIS_USER_AGENT` overrides it (the workflows set the running repository),
- * but the default is deliberately reachable too, so a local run or a fork
- * doesn't fall back to an anonymous string.
+ * Points at `/about/` rather than the GitHub repo: that page carries the same
+ * contact address plus attribution and the not-affiliated disclaimer, and it
+ * survives the repo going private, which a github.com link would not.
+ *
+ * `VIS_USER_AGENT` overrides it (the workflows set it explicitly too, so this
+ * default is only exercised by a local run or a fork), but the default is
+ * deliberately reachable too, rather than falling back to an anonymous string.
  */
-const USER_AGENT =
-  process.env.VIS_USER_AGENT ??
-  `beachvolleyballgraph/1.0 (+https://github.com/eduardopicado/beach-volleyball-graph; ${CONTACT_EMAIL})`;
+const USER_AGENT = process.env.VIS_USER_AGENT ?? `beachvolleyballgraph/1.0 (+${SITE_URL}/about/; ${CONTACT_EMAIL})`;
 
 const MAX_ATTEMPTS = 3;
 const BASE_BACKOFF_MS = 2000;

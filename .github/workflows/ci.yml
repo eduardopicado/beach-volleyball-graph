@@ -36,11 +36,16 @@ jobs:
       # artifact the smoke suite exercises is the one that would ship. Built
       # bare (base "/") this step used to pass while a base-path-sensitive
       # break — a wrong asset URL, a bad canonical — sailed through to deploy.
+      - id: origin
+        uses: ./.github/actions/site-origin
+        with:
+          site_url: ${{ vars.SITE_URL }}
+
       - name: Build site
         run: npm run build
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
-          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
+          BASE_PATH: ${{ steps.origin.outputs.base_path }}
+          SITE_URL: ${{ steps.origin.outputs.site_url }}
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
@@ -48,7 +53,8 @@ jobs:
       - name: Smoke test the built site
         run: npm run test:e2e
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
+          BASE_PATH: ${{ steps.origin.outputs.base_path }}
+          SITE_URL: ${{ steps.origin.outputs.site_url }}
 
       - name: Upload Playwright report on failure
         if: failure()

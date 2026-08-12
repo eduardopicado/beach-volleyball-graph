@@ -100,8 +100,11 @@ jobs:
         env:
           # Identify the job to FIVB, contact address included, so a free
           # service with a problem can email us rather than null-route us.
-          # Keep in step with CONTACT_EMAIL in web/src/site.ts.
-          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }}; beachgraph@picado.com.br)'
+          # Points at /about/ rather than the repo — same contact address plus
+          # attribution and the not-affiliated disclaimer, and it survives the
+          # repo going private. Keep in step with SITE_URL and CONTACT_EMAIL in
+          # web/src/site.ts.
+          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://beachvolleyball.com.br/about/; beachgraph@picado.com.br)'
           # false on every trigger except a manual dispatch with the checkbox
           # ticked — schedule and workflow_dispatch runs that leave it
           # unchecked, and push (which skips this job entirely), all get 'false'.
@@ -158,6 +161,7 @@ jobs:
     outputs:
       generated_at: ${{ steps.stamp.outputs.generated_at }}
       bundle: ${{ steps.stamp.outputs.bundle }}
+      site_url: ${{ steps.origin.outputs.site_url }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -173,15 +177,33 @@ jobs:
 
       - run: npm ci
 
+      # Canonical URLs, Open Graph and sitemap.xml are baked in at build time,
+      # as are asset URLs and every internal link. Both follow from the
+      # SITE_URL repository variable — see .github/actions/site-origin for why
+      # they are derived together rather than set independently.
+      - id: origin
+        uses: ./.github/actions/site-origin
+        with:
+          site_url: ${{ vars.SITE_URL }}
+
       - name: Build site
         run: npm run build
         env:
-          # Project Pages sites are served from /<repo>/, user sites from /.
-          BASE_PATH: /${{ github.event.repository.name }}/
-          # Canonical URLs, Open Graph and sitemap.xml are baked in at build
-          # time. Set the SITE_URL repository variable to the public origin
-          # (e.g. https://beachvolley.com.br) once a custom domain is in place.
-          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
+          BASE_PATH: ${{ steps.origin.outputs.base_path }}
+          SITE_URL: ${{ steps.origin.outputs.site_url }}
+
+      # Belt and braces. The custom domain is configured in Settings > Pages
+      # and that setting is what actually serves the site; this file keeps a
+      # deploy from clearing it, which is a documented failure mode when the
+      # published artifact has no CNAME. Generated rather than committed to
+      # web/public/ on purpose: a static file would attach the domain to Pages
+      # the first time it shipped, which — before DNS resolves — takes the
+      # live site down instead of moving it.
+      - name: Keep the custom domain attached
+        if: steps.origin.outputs.custom_domain != ''
+        env:
+          CUSTOM_DOMAIN: ${{ steps.origin.outputs.custom_domain }}
+        run: echo "$CUSTOM_DOMAIN" > dist/CNAME
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
@@ -199,7 +221,8 @@ jobs:
       - name: Smoke test the built site
         run: npm run test:e2e
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
+          BASE_PATH: ${{ steps.origin.outputs.base_path }}
+          SITE_URL: ${{ steps.origin.outputs.site_url }}
 
       - name: Upload Playwright report on failure
         if: failure()
@@ -280,6 +303,7 @@ jobs:
         env:
           EXPECTED_DATA: ${{ needs.build.outputs.generated_at }}
           EXPECTED_BUNDLE: ${{ needs.build.outputs.bundle }}
+          EXPECTED_ORIGIN: ${{ needs.build.outputs.site_url }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -uo pipefail
@@ -287,6 +311,25 @@ jobs:
             echo "::warning::Build job published no fingerprints — cannot verify the deploy."
             exit 0
           fi
+
+          # Is Pages even serving from the origin this build was compiled for?
+          #
+          # This is the one moment the custom-domain cutover can go wrong, and
+          # it is invisible to everything else. Setting the SITE_URL variable
+          # moves the build to the domain root; attaching the domain in
+          # Settings > Pages is what actually moves the *site*. Do the first
+          # without the second and Pages keeps serving /<repo>/ while every
+          # asset URL points at /assets/… — a blank page whose HTML, manifest
+          # and bundle name all still check out below. Order matters, so make
+          # the wrong order fail here rather than in a reader's browser.
+          case "$PAGE_URL" in
+            "$EXPECTED_ORIGIN"|"$EXPECTED_ORIGIN"/*) ;;
+            *)
+              echo "::error::Built for $EXPECTED_ORIGIN but Pages is serving $PAGE_URL."
+              echo "::error::Attach the custom domain in Settings > Pages first, then set the SITE_URL variable."
+              exit 1
+              ;;
+          esac
           echo "Expecting data=$EXPECTED_DATA and bundle=$EXPECTED_BUNDLE at $PAGE_URL"
           for attempt in 1 2 3 4 5 6; do
             live_data=$(curl -fsS --max-time 20 "${PAGE_URL}v1/manifest.json" \
