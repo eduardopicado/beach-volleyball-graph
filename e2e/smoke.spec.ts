@@ -16,6 +16,7 @@
 
 import { test, expect, manifest, graph, players } from './fixtures.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
+import { CONTACT_EMAIL } from '../web/src/site.js';
 
 /** A big, always-present slice — the densest realistic render. */
 const COUNTRY = 'BRA';
@@ -102,8 +103,52 @@ test('published JSON endpoints are reachable', async ({ page, baseURL }) => {
   }
 });
 
+test.describe('/about/', () => {
+  // The one page here that is not the app. Every other document is
+  // prerendered markup that React replaces on mount; this one deliberately
+  // ships without the module script, because booting the app on a path that
+  // matches no country slice would fall back to the default country and swap
+  // the text for the Brazil graph. That failure is invisible to a build —
+  // the page compiles, deploys and 200s, it just isn't the page any more.
+  test('is a standalone document the app never takes over', async ({ page }) => {
+    await page.goto('./about/');
+
+    await expect(page.getByRole('heading', { name: 'About', level: 1 })).toBeVisible();
+    // The mechanism, asserted directly: no script, nothing to mount.
+    await expect(page.locator('script[type="module"]')).toHaveCount(0);
+    await expect(page.locator('#root')).toHaveCount(0);
+    // And still the About page a beat later, not a graph.
+    await expect(page.locator('svg.graph')).toHaveCount(0);
+  });
+
+  test('carries the contact address and a way back', async ({ page, baseURL }) => {
+    await page.goto('./about/');
+
+    // The address is the reason the page exists — for FIVB, and for anyone
+    // with a correction. A broken mailto here is the whole feature failing.
+    await expect(page.locator(`a[href="mailto:${CONTACT_EMAIL}"]`).first()).toBeVisible();
+
+    const back = page.getByRole('link', { name: /Back to the graph/ });
+    await expect(back).toHaveAttribute('href', new URL('./', baseURL).pathname);
+  });
+
+  test('is reachable from the footer of a country page', async ({ page }) => {
+    await page.goto(`./${slicePath()}`);
+    await page.getByRole('link', { name: 'About this project' }).click();
+    await expect(page.getByRole('heading', { name: 'About', level: 1 })).toBeVisible();
+  });
+});
+
 test.describe('without JavaScript', () => {
   test.use({ javaScriptEnabled: false });
+
+  test('the prerendered footer carries the contact address', async ({ page }) => {
+    // The crawler and no-JS path has its own footer, written by prerender.ts
+    // rather than React. It is also the version most likely to be read by the
+    // two audiences the address exists for, so it is worth its own check.
+    await page.goto(`./${slicePath()}`);
+    await expect(page.locator(`footer a[href="mailto:${CONTACT_EMAIL}"]`)).toBeVisible();
+  });
 
   // Canonical tags are the one part of the build that names a URL nobody
   // visits during the test — they describe where the page is *published*, not

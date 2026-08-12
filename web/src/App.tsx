@@ -3,6 +3,7 @@ import type { Gender, GraphFile, Manifest, PlayersFile } from './schema';
 import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, formatMedals, plural } from './lib/format';
+import { CONTACT_EMAIL, SOURCE_NAME, SOURCE_URL } from './site';
 import { Controls, MIN_TOGETHER_OPTIONS } from './components/Controls';
 import { parseMinTogether } from './lib/params';
 import type { GraphEdge, GraphNode } from './schema';
@@ -462,12 +463,21 @@ export default function App() {
 
       <footer>
         <p>
-          Source: <a href="https://www.fivb.org/VisSDK/VisWebService/" target="_blank" rel="noopener noreferrer">FIVB VIS Web Service</a>.
+          Source: <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer">{SOURCE_NAME}</a>.
           {manifest && ` Rebuilt weekly · ${manifest.totals.partnerships.toLocaleString()} partnerships across ${manifest.totals.players.toLocaleString()} players.`}
+          {' '}Not affiliated with the FIVB.
         </p>
         <p className="caveat">
           Partnerships are counted per tournament entry. Only pairs where both players represent the
           same federation appear in a country’s graph.
+        </p>
+        <p className="caveat">
+          Corrections, questions or partnership enquiries:{' '}
+          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+          {' · '}
+          {/* A full page load, deliberately: /about/ is a standalone document
+              that never boots the app (see aboutPage in ingest/prerender.ts). */}
+          <a href={`${import.meta.env.BASE_URL}about/`}>About this project</a>
         </p>
       </footer>
     </div>

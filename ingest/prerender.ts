@@ -19,6 +19,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import type { Gender, GraphFile, Manifest } from '../web/src/schema.js';
 import { GENDER_LABEL, GENDERS } from '../web/src/schema.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
+import { CONTACT_EMAIL, SITE_NAME, SOURCE_NAME, SOURCE_URL } from '../web/src/site.js';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -136,6 +137,7 @@ function sliceBody(graph: GraphFile, manifest: Manifest, others: { name: string;
 <tbody>${rows}</tbody>
 </table>
 <nav aria-label="Other countries"><h2>Browse other countries</h2><ul>${nav}</ul></nav>
+${staticFooter()}
 </main>`;
 }
 
@@ -185,6 +187,22 @@ export function tallySlice(graph: GraphFile, into: ShapeTally): void {
       into.regularPartnerSum += d;
     }
   }
+}
+
+/**
+ * Footer for the prerendered markup.
+ *
+ * React's own footer (App.tsx) replaces this the moment the app mounts, so
+ * the two say the same thing on purpose. This is the copy a crawler, a link
+ * preview, or a reader without JavaScript sees — which, for the two audiences
+ * a contact address actually exists for (FIVB, and anyone wanting to talk
+ * about the project), is the version most likely to be read.
+ */
+function staticFooter(): string {
+  return `<footer>
+<p>Source: <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a>. Not affiliated with or endorsed by the FIVB.</p>
+<p>Questions, corrections or partnership enquiries: <a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> · <a href="${esc(`${BASE}about/`)}">About this project</a></p>
+</footer>`;
 }
 
 /**
@@ -242,6 +260,68 @@ Federation codes are FIVB three-letter codes (BRA, USA, GER), not ISO country co
 ## Pages
 
 ${pages}
+`;
+}
+
+/**
+ * `/about/` — who runs this, where the data comes from, how to make contact.
+ *
+ * Emitted as a standalone document rather than through the SPA template, and
+ * that is the whole trick: every other page here is prerendered markup that
+ * React *replaces* on mount. Reuse the template and the app would boot on
+ * `/about/`, fail to match the path to any country slice, fall back to the
+ * default country and swap this text for the Brazil graph. Shipping the same
+ * stylesheet without the module script keeps the page looking like the site
+ * while leaving the markup as the final word.
+ */
+function aboutPage(manifest: Manifest, styleHref: string | null): string {
+  const url = abs(`${BASE}about/`);
+  const title = `About — ${SITE_NAME}`;
+  const description = `Where the data behind ${SITE_NAME} comes from, how the numbers are counted, and how to get in touch.`;
+  const style = styleHref ? `<link rel="stylesheet" href="${esc(styleHref)}"/>` : '';
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>${esc(title)}</title>
+${style}
+${headFor(url, title, description)}
+</head>
+<body>
+<div class="app">
+<main>
+<h1>About</h1>
+
+<p><strong>${esc(SITE_NAME)}</strong> maps who has played with whom in FIVB international beach volleyball. Each node is a player; each edge is a partnership, weighted by the tournaments the pair entered together. Currently ${manifest.totals.players.toLocaleString('en-US')} players and ${manifest.totals.partnerships.toLocaleString('en-US')} partnerships across ${manifest.totals.tournaments.toLocaleString('en-US')} tournaments, ${manifest.seasons.from}–${manifest.seasons.to}.</p>
+
+<h2>Data</h2>
+
+<p>Every figure comes from the <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a> and is rebuilt weekly. Nothing is hand-edited, so a number that looks wrong is either what VIS returns or a bug in how this site reads it.</p>
+
+<p>Not affiliated with or endorsed by the FIVB.</p>
+
+<h2>Counting rules</h2>
+
+<ul>
+<li>FIVB-organised international competition only: World Tour, Beach Pro Tour, World Championships, Olympic Games, age-group World Championships. Continental and national tours, snow volleyball and multi-sport games are excluded.</li>
+<li>A pair entering both the qualification and the main draw of one event counts once.</li>
+<li>Teams that registered but never played are not counted.</li>
+<li>A player's country is their current FIVB federation; no history is kept. Both players must share a federation for a partnership to appear.</li>
+</ul>
+
+<h2>Contact</h2>
+
+<p><a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> — corrections, questions, media and partnership enquiries.</p>
+
+<p>For a wrong number, a link to the page and what you expected to see is the fastest route to a fix.</p>
+
+<p><a href="${esc(BASE)}">← Back to the graph</a></p>
+</main>
+</div>
+</body>
+</html>
 `;
 }
 
@@ -417,13 +497,29 @@ async function main() {
     await writeFile(path.join(dir, 'index.html'), html);
   }
 
+  // --- about ---------------------------------------------------------------
+  // Borrow the hashed stylesheet Vite emitted for the app, so the page picks
+  // up the same theme without a second CSS pipeline. Missing is survivable —
+  // the page is plain semantic HTML and stays readable unstyled — so this
+  // degrades rather than failing the build.
+  const styleHref = /<link[^>]+rel="stylesheet"[^>]+href="([^"]+)"/.exec(template)?.[1] ?? null;
+  if (!styleHref) console.warn('  ! no stylesheet found in index.html; /about/ will be unstyled');
+  await mkdir(path.join(DIST, 'about'), { recursive: true });
+  await writeFile(path.join(DIST, 'about', 'index.html'), aboutPage(manifest, styleHref));
+
   // --- sitemap & robots ----------------------------------------------------
   const lastmod = manifest.generatedAt.slice(0, 10);
-  const urls = pages
+  // Home is 1.0, country pages 0.8, About 0.3 — a real page worth indexing,
+  // but not something to rank ahead of the data it explains.
+  const sitemapEntries: { url: string; priority: string }[] = [
+    ...pages.map((p) => ({ url: p.url, priority: p.slug ? '0.8' : '1.0' })),
+    { url: `${BASE}about/`, priority: '0.3' },
+  ];
+  const urls = sitemapEntries
     .map(
-      (p) =>
-        `  <url><loc>${esc(abs(p.url))}</loc><lastmod>${lastmod}</lastmod>` +
-        `<changefreq>weekly</changefreq><priority>${p.slug ? '0.8' : '1.0'}</priority></url>`,
+      ({ url, priority }) =>
+        `  <url><loc>${esc(abs(url))}</loc><lastmod>${lastmod}</lastmod>` +
+        `<changefreq>weekly</changefreq><priority>${priority}</priority></url>`,
     )
     .join('\n');
   await writeFile(

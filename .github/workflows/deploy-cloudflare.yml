@@ -45,7 +45,13 @@ jobs:
       - name: Fetch FIVB data and build graphs
         run: npm run ingest
         env:
-          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://github.com/${{ github.repository }})'
+          # Identify the job to FIVB, contact address included, so a free
+          # service with a problem can email us rather than null-route us.
+          # Points at /about/ rather than the repo — same contact address plus
+          # attribution and the not-affiliated disclaimer, and it survives the
+          # repo going private. Keep in step with SITE_URL and CONTACT_EMAIL in
+          # web/src/site.ts.
+          VIS_USER_AGENT: 'beachvolleyballgraph/1.0 (+https://beachvolleyball.com.br/about/; beachgraph@picado.com.br)'
 
       - name: Build site
         run: npm run build
