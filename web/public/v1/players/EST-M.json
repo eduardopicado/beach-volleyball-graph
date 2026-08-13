@@ -185,13 +185,6 @@
       "weight": 89
     },
     {
-      "id": 119275,
-      "name": "Oliver Venno",
-      "dob": "1990-05-23",
-      "height": 209,
-      "weight": 105
-    },
-    {
       "id": 120114,
       "name": "Sergei Semjonov",
       "dob": null,
@@ -234,6 +227,13 @@
       "weight": 85
     },
     {
+      "id": 122920,
+      "name": "Oliver Venno",
+      "dob": "1990-05-23",
+      "height": 210,
+      "weight": 106
+    },
+    {
       "id": 124875,
       "name": "Martti Keel",
       "dob": "1992-01-30",
@@ -262,17 +262,17 @@
       "weight": null
     },
     {
-      "id": 135697,
-      "name": "Renee Teppan",
-      "dob": "1993-09-26",
-      "height": null,
-      "weight": null
-    },
-    {
       "id": 143530,
       "name": "Urmas Piik",
       "dob": "1986-06-19",
       "height": 193,
+      "weight": 89
+    },
+    {
+      "id": 143835,
+      "name": "Renee Teppan",
+      "dob": "1993-09-26",
+      "height": 197,
       "weight": 89
     },
     {
