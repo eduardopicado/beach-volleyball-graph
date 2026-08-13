@@ -34,6 +34,12 @@ export interface TimelineSeason {
  * from dates tournaments only to the season, so the order two partners came in
  * within one year is genuinely unknown. Ordering by volume is a fact about the
  * data; ordering by guessed date would be a claim it cannot support.
+ *
+ * The same limit decides what a row means. A player who partners A, switches
+ * to B, then returns to A inside one season gets two rows, not three: the edge
+ * is keyed by the pair, so both spells with A arrive here as one number. Split
+ * rows would have to assert that A came before *and* after B, which is exactly
+ * the ordering this data does not carry.
  */
 export function buildTimeline(partners: readonly TimelinePartner[]): TimelineSeason[] {
   const bySeason = new Map<number, TimelineSeason>();

@@ -43,6 +43,26 @@ describe('buildTimeline', () => {
     expect(y2013.total).toBe(7);
   });
 
+  it('merges a partner split across one season into a single row', () => {
+    // A plays with A, switches to B, then goes back to A — all in 2013. The
+    // year gets two rows, not three: the edge is keyed by the pair, so both
+    // spells with A are already one number by the time this sees them.
+    //
+    // Not a rendering choice. Separating the spells would mean claiming A
+    // came before *and* after B, and this data cannot order two partners
+    // inside a season at all — VIS dates tournaments only to the year here.
+    const rows = buildTimeline([
+      partner(1, 'A', [[2013, 3]]), // 1 tournament, then 2 more after the switch
+      partner(2, 'B', [[2013, 2]]),
+    ]);
+    expect(rows).toHaveLength(1);
+    expect(rows[0]!.partners.map((p) => [p.node.name, p.t])).toEqual([
+      ['A', 3],
+      ['B', 2],
+    ]);
+    expect(rows[0]!.total).toBe(5);
+  });
+
   it('orders partners within a season by tournaments, then name', () => {
     const rows = buildTimeline([
       partner(1, 'Zed', [[2020, 1]]),
