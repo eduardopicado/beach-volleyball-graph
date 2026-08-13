@@ -131,7 +131,12 @@ Everything under `/v1/` is static JSON:
 /v1/players/{CC}-{G}.json    height, weight, date of birth and any medals
 ```
 
-Edge keys are terse (`a`, `b`, `t`, `f`, `l`) because edges dominate file size.
+Edge keys are terse (`a`, `b`, `t`, `f`, `l`, `s`) because edges dominate file
+size. `s` is the per-season breakdown — `[[2019, 7], [2021, 3]]` — which the
+player card's timeline view groups by year; `t`, `f` and `l` are all derivable
+from it and kept anyway, since they are what the graph reads on every render.
+Pretty-printed it roughly doubles a slice file, but the files are served gzipped
+and there it costs about a kilobyte.
 Player detail is a **separate file per slice**, not per player: it loads once
 alongside the graph, so opening a profile costs no network request. Even the
 largest country's pair of files comes to well under 200 KB uncompressed.

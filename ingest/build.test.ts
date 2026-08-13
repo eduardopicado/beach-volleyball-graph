@@ -296,6 +296,58 @@ describe('sliceByCountryAndGender', () => {
     expect(node).toMatchObject({ tournaments: 2, first: 2023, last: 2024 });
   });
 
+  describe('per-season breakdown', () => {
+    // Seasons deliberately out of order, and 2023 deliberately doubled: the
+    // breakdown has to sort and to tally, not just list what it was handed.
+    const seasons = normaliseTournaments([
+      tournament('a', 2024),
+      tournament('b', 2023),
+      tournament('c', 2023),
+      tournament('d', 2026),
+    ]);
+    const two = normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]);
+    const sliceOf = (rows: VisRow[]) => {
+      const { partnerships, appearances } = aggregatePartnerships(rows, seasons, two);
+      return sliceByCountryAndGender(partnerships, appearances, two, seasons, 2)[0]!;
+    };
+
+    it('tallies tournaments per season, ascending', () => {
+      const slice = sliceOf([entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([
+        [2023, 2],
+        [2024, 1],
+      ]);
+    });
+
+    it('leaves gap years out rather than filling them with zeroes', () => {
+      // 2023 then 2026, nothing between. A timeline should show two rows, not
+      // four — the pair genuinely did not play together in 2024 or 2025.
+      const slice = sliceOf([entry('b', 1, 2), entry('d', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([
+        [2023, 1],
+        [2026, 1],
+      ]);
+    });
+
+    it('stays consistent with the aggregates it duplicates', () => {
+      // t, f and l are all derivable from s. They are stored separately for
+      // render cost, so the one risk worth a test is the two disagreeing.
+      const edge = sliceOf([entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2), entry('d', 1, 2)]).edges[0]!;
+      const s = edge.s!;
+      expect(s.reduce((sum, [, n]) => sum + n, 0)).toBe(edge.t);
+      expect(s[0]![0]).toBe(edge.f);
+      expect(s[s.length - 1]![0]).toBe(edge.l);
+    });
+
+    it('counts a pair entering qualification and main draw of one event once', () => {
+      // The same rule the aggregate totals follow: edges hold a set of
+      // tournament numbers, so a duplicate entry must not inflate the season.
+      const slice = sliceOf([entry('b', 1, 2), entry('b', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([[2023, 1]]);
+      expect(slice.edges[0]!.t).toBe(1);
+    });
+  });
+
   it('orders nodes by id, not by a mutable field like tournament count', () => {
     // Three players, all BRA-M. Player 20 is by far the most active (3
     // tournaments), 10 the least (1) — the opposite of ascending id order.

@@ -384,12 +384,29 @@ export function sliceByCountryAndGender(
     if (!ka || ka !== kb) continue; // cross-country or cross-gender: dropped
     let list = edgesByBucket.get(ka);
     if (!list) edgesByBucket.set(ka, (list = []));
+
+    // Per-season breakdown, derived here rather than tracked through
+    // aggregation: the pair's tournament numbers are already in hand and
+    // `seasonOf` is already needed for the nodes above, so this costs one
+    // pass over a set that has a median size of 1.
+    //
+    // Seasons are what the archive actually carries — VIS gives tournaments a
+    // Season but no date on this request, so two partners in the same year
+    // cannot be ordered within it. That is why the timeline groups by season
+    // and stops there, rather than pretending to a finer chronology.
+    const perSeason = new Map<number, number>();
+    for (const t of pair.tournaments) {
+      const season = seasonOf(t);
+      if (season > 0) perSeason.set(season, (perSeason.get(season) ?? 0) + 1);
+    }
+
     list.push({
       a: pair.a,
       b: pair.b,
       t: pair.tournaments.size,
       f: pair.firstSeason,
       l: pair.lastSeason,
+      s: [...perSeason].sort((x, y) => x[0] - y[0]),
     });
   }
 

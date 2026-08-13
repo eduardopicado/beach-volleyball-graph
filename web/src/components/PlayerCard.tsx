@@ -5,10 +5,11 @@
  * on file, so the <img> is allowed to fail and an initials avatar takes over.
  */
 
-import { useEffect, useRef, useState } from 'react';
-import type { GraphNode, PlayerDetail } from '../schema';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { GraphNode, PlayerDetail, SeasonTally } from '../schema';
 import { playerPhotoUrl, playerProfileUrl } from '../schema';
 import { age, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from '../lib/format';
+import { buildTimeline } from '../lib/timeline';
 import './PlayerCard.css';
 
 export interface PartnerRow {
@@ -17,6 +18,8 @@ export interface PartnerRow {
   t: number;
   f: number;
   l: number;
+  /** Per-season breakdown, ascending. Absent on data published before it existed. */
+  s?: SeasonTally[];
 }
 
 interface Props {
@@ -111,6 +114,15 @@ export function PlayerCard({
   const years = age(detail?.dob ?? null);
   const totalTogether = partners.reduce((sum, p) => sum + p.t, 0);
 
+  const timeline = useMemo(() => buildTimeline(partners), [partners]);
+  const [view, setView] = useState<'partners' | 'timeline'>('partners');
+  // Slices published before the per-season field existed have nothing to draw,
+  // so the switch hides rather than offering an empty view. Deliberately not
+  // reset when the selected player changes: someone reading careers year by
+  // year should stay in that mode as they click through partners.
+  const canShowTimeline = timeline.length > 0;
+  const showing = canShowTimeline ? view : 'partners';
+
   return (
     <aside className="player-card" aria-label={`Profile: ${node.name}`}>
       <header>
@@ -166,14 +178,71 @@ export function PlayerCard({
       </dl>
 
       <section className="partners">
-        <h3>
-          Partners <span className="count">{plural(totalTogether, 'entry', 'entries')}</span>
-        </h3>
+        {/* Switch shares the heading's row rather than taking one of its own:
+            the card is sized to the graph beside it, so on a short window
+            every row this header costs comes straight out of the list. */}
+        <div className="partners-head">
+          <h3>
+            {showing === 'timeline' ? 'Timeline' : 'Partners'}{' '}
+            <span className="count">{plural(totalTogether, 'entry', 'entries')}</span>
+          </h3>
+
+          {canShowTimeline && (
+            <div className="view-switch" role="group" aria-label="Partner view">
+              <button
+                type="button"
+                aria-pressed={showing === 'partners'}
+                onClick={() => setView('partners')}
+              >
+                Partners
+              </button>
+              <button
+                type="button"
+                aria-pressed={showing === 'timeline'}
+                onClick={() => setView('timeline')}
+              >
+                Timeline
+              </button>
+            </div>
+          )}
+        </div>
+
         {partners.length === 0 ? (
           <p className="empty">
             No partnerships with another {countryName} player in this dataset — partnerships with
             players from other countries are not included.
           </p>
+        ) : showing === 'timeline' ? (
+          <ol className="timeline">
+            {timeline.map((row) => (
+              <li key={row.season}>
+                {/* The year sits in a gutter beside its partners rather than
+                    on a line of its own: one year with two names against it
+                    is the shape worth seeing, and it keeps a 20-season career
+                    readable without turning into a wall of headings. */}
+                <p className="season">
+                  <span className="year">{row.season}</span>
+                  {/* Only when it says something the rows don't already: with
+                      a single partner this is just their tally again. */}
+                  {row.partners.length > 1 && (
+                    <span className="total" aria-label={plural(row.total, 'tournament', 'tournaments')}>
+                      {row.total}
+                    </span>
+                  )}
+                </p>
+                <ul>
+                  {row.partners.map((p) => (
+                    <li key={p.node.id}>
+                      <button type="button" onClick={() => onSelectPartner(p.node.id)}>
+                        <span className="name">{p.node.name}</span>
+                        <span className="tally">{p.t}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
         ) : (
           <ul>
             {partners.map((p) => (

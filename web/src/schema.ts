@@ -32,6 +32,13 @@ export interface GraphNode {
   last: number;
 }
 
+/**
+ * One season of a partnership: `[season, tournaments together that season]`.
+ * A tuple rather than an object because these are the most numerous values in
+ * the published data — there are more of them than there are partnerships.
+ */
+export type SeasonTally = [season: number, tournaments: number];
+
 export interface GraphEdge {
   a: number;
   b: number;
@@ -40,6 +47,17 @@ export interface GraphEdge {
   /** First and last season the pair played together. */
   f: number;
   l: number;
+  /**
+   * Per-season breakdown, ascending by season. `t`, `f` and `l` are all
+   * derivable from it (sum, first, last) and are kept anyway: they are what
+   * the graph and the partner list read on every render, and recomputing them
+   * per edge per frame to save a few bytes is the wrong trade.
+   *
+   * Optional because data published before this field existed does not carry
+   * it — the timeline view hides itself rather than rendering empty when a
+   * slice predates it.
+   */
+  s?: SeasonTally[];
 }
 
 export interface GraphFile {

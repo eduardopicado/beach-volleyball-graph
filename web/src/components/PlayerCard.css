@@ -14,6 +14,13 @@
      card is the only thing in its row, so this resolves to auto there — no
      separate mobile case needed. */
   height: 100%;
+  /* Safety valve, and only that. The height above is a cap, so on a short
+     window (the graph is clamp(420px, 62vh, 760px), and a medallist's vitals
+     run to three rows) the content genuinely does not fit — before this it
+     spilled through the bottom border, taking the FIVB profile link with it.
+     The list below keeps its own scroll for the normal case, so this only
+     engages when the card itself has been squeezed. */
+  overflow-y: auto;
 }
 
 .player-card header {
@@ -114,19 +121,32 @@
   flex-direction: column;
   /* Grow to absorb whatever height the card gained by matching the graph, so
      a well-connected player's list actually uses it (more rows visible,
-     instead of an arbitrary cutoff). min-height: 0 overrides the flex default
-     of auto, which would otherwise refuse to shrink below the list's content
-     size and defeat the internal scroll below. */
+     instead of an arbitrary cutoff). */
   flex: 1 1 auto;
-  min-height: 0;
+  /* A floor, not the 0 this used to be. The card matches the graph's height,
+     so on a short window there was nothing left for this section: the header
+     alone consumed it, and `overflow-y: auto` on the list below then clipped
+     every row out of sight — a partner list that rendered as literally
+     nothing at 1280x720. The floor keeps it a list; the card, and the grid
+     row it shares with the graph, grow past the graph's natural height
+     instead. */
+  min-height: 150px;
+}
+
+.partners-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
 }
 
 .partners h3 {
-  margin: 0 0 10px;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  gap: 10px;
+  gap: 8px;
+  min-width: 0;
   font-size: 13px;
   font-weight: 650;
 }
@@ -213,6 +233,126 @@
   margin: 0;
   color: var(--text-secondary);
   font-size: 13px;
+}
+
+/* --- Partners / Timeline switch ----------------------------------------- */
+
+.view-switch {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+  padding: 2px;
+  border-radius: 7px;
+  background: var(--series-1-wash);
+}
+
+.view-switch button {
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.view-switch button:hover {
+  color: var(--text-primary);
+}
+
+.view-switch button[aria-pressed='true'] {
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+/* --- Timeline ------------------------------------------------------------ */
+
+/* Shares .partners' scroll and flex behaviour — same slot in the card, same
+   constraints — so only what differs is set here. */
+.timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* Year in a fixed gutter, partners in the column beside it. A season with two
+   partners then reads as one year with two names against it, and a 20-season
+   career stays scannable instead of alternating heading/row down the card. */
+.timeline > li {
+  display: grid;
+  grid-template-columns: 3.2em minmax(0, 1fr);
+  gap: 0 4px;
+  align-items: start;
+}
+
+.timeline > li + li {
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.timeline .season {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1px;
+  margin: 0;
+  /* Matches .timeline li button's vertical padding so the year sits on the
+     same baseline as the first partner name rather than floating above it. */
+  padding: 5px 0 0 2px;
+}
+
+.timeline .year {
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+
+/* Context for the rows beside it, not a peer of the per-partner tallies —
+   quieter, so the eye still lands on the names. */
+.timeline .total {
+  color: var(--text-muted);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2px;
+  /* `.partners ul` above also matches these nested lists and makes each one an
+     independent scroll container. The timeline scrolls as one list, so the
+     per-season groups must not: reset it here rather than narrowing the
+     selector above, which the partner list depends on. */
+  overflow-y: visible;
+  flex: none;
+}
+
+.timeline li button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.timeline li button:hover {
+  background: var(--series-1-wash);
 }
 
 .profile-link {
