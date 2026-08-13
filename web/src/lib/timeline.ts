@@ -24,40 +24,56 @@ export interface TimelineSeason {
   total: number;
 }
 
+/** Sorts before every real offset, so a dateless partner lands last. */
+const NO_DATE = Number.POSITIVE_INFINITY;
+
 /**
  * Newest season first — a career is usually read from "what are they doing
  * now" backwards, and the players with the longest timelines are exactly the
  * ones still active.
  *
- * Within a season, partners are ordered by tournaments together, then by name
- * for stability. Deliberately *not* chronological: the request this data comes
- * from dates tournaments only to the season, so the order two partners came in
- * within one year is genuinely unknown. Ordering by volume is a fact about the
- * data; ordering by guessed date would be a claim it cannot support.
+ * Within a season, partners are ordered by when the pair first played that
+ * year, falling back to tournaments together when a season carries no date.
+ * Ordering by volume instead — which is all this could do before the ingest
+ * fetched `StartDateMainDraw` — put a different name first in 38% of the
+ * archive's 5,891 shared seasons, routinely ranking a one-off fill-in above
+ * the partner somebody actually switched to.
  *
- * The same limit decides what a row means. A player who partners A, switches
- * to B, then returns to A inside one season gets two rows, not three: the edge
- * is keyed by the pair, so both spells with A arrive here as one number. Split
- * rows would have to assert that A came before *and* after B, which is exactly
- * the ordering this data does not carry.
+ * The trade is that the *biggest* partner of a season is no longer
+ * necessarily at the top of it. For a view called a timeline that is the
+ * right way round: sequence is the premise, and each row carries its own
+ * tally anyway.
+ *
+ * What dates do not fix is what a row means. A player who partners A,
+ * switches to B, then returns to A inside one season still gets two rows, not
+ * three: the edge is keyed by the pair, so both spells with A arrive here as
+ * one number. Splitting them needs per-tournament data, not just an ordering.
  */
 export function buildTimeline(partners: readonly TimelinePartner[]): TimelineSeason[] {
-  const bySeason = new Map<number, TimelineSeason>();
+  const bySeason = new Map<number, (TimelineSeason & { starts: number[] })>();
 
   for (const partner of partners) {
     // Absent on slices published before the per-season field existed. Callers
     // treat an empty result as "no timeline to offer" rather than "no seasons".
-    for (const [season, t] of partner.s ?? []) {
+    for (const [season, t, startOffset] of partner.s ?? []) {
       let row = bySeason.get(season);
-      if (!row) bySeason.set(season, (row = { season, partners: [], total: 0 }));
+      if (!row) bySeason.set(season, (row = { season, partners: [], total: 0, starts: [] }));
       row.partners.push({ node: partner.node, t });
+      row.starts.push(startOffset ?? NO_DATE);
       row.total += t;
     }
   }
 
   const seasons = [...bySeason.values()].sort((a, b) => b.season - a.season);
-  for (const row of seasons) {
-    row.partners.sort((x, y) => y.t - x.t || x.node.name.localeCompare(y.node.name));
-  }
-  return seasons;
+  return seasons.map(({ starts, ...row }) => {
+    // Sort the two arrays together: `starts` is the key, `partners` the value.
+    const order = row.partners.map((partner, i) => ({ partner, start: starts[i]! }));
+    order.sort(
+      (x, y) =>
+        x.start - y.start ||
+        y.partner.t - x.partner.t ||
+        x.partner.node.name.localeCompare(y.partner.node.name),
+    );
+    return { ...row, partners: order.map((o) => o.partner) };
+  });
 }

@@ -11,7 +11,14 @@ const node = (id: number, name: string): GraphNode => ({
   last: 0,
 });
 
+/** Seasons without a start offset — ordering then falls back to volume. */
 const partner = (id: number, name: string, s: [number, number][]): TimelinePartner => ({
+  node: node(id, name),
+  s,
+});
+
+/** Seasons with one: `[season, tournaments, days from 1 Jan]`. */
+const dated = (id: number, name: string, s: [number, number, number][]): TimelinePartner => ({
   node: node(id, name),
   s,
 });
@@ -32,15 +39,54 @@ describe('buildTimeline', () => {
     // The whole point of the view: the partner list renders these as two
     // separate rows with overlapping ranges and no way to see the overlap.
     const rows = buildTimeline([
-      partner(1, 'Doherty', [
-        [2013, 2],
-        [2014, 8],
+      dated(1, 'Doherty', [
+        [2013, 2, 60],
+        [2014, 8, 40],
       ]),
-      partner(2, 'Hyden', [[2013, 5]]),
+      dated(2, 'Hyden', [[2013, 5, 150]]),
     ]);
     const y2013 = rows.find((r) => r.season === 2013)!;
-    expect(y2013.partners.map((p) => p.node.name)).toEqual(['Hyden', 'Doherty']);
+    // Doherty first because he came first, even though Hyden played more —
+    // the whole reason the ingest fetches a start date.
+    expect(y2013.partners.map((p) => p.node.name)).toEqual(['Doherty', 'Hyden']);
     expect(y2013.total).toBe(7);
+  });
+
+  it('orders partners within a season by when they first played', () => {
+    const rows = buildTimeline([
+      dated(1, 'Second', [[2020, 9, 120]]),
+      dated(2, 'First', [[2020, 1, 30]]),
+      dated(3, 'Third', [[2020, 4, 200]]),
+    ]);
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['First', 'Second', 'Third']);
+  });
+
+  it('sorts a season opening in the previous calendar year first', () => {
+    // A southern-hemisphere season can open in December. The offset is signed
+    // for exactly this: as a day-of-year that December event would be 350-odd
+    // and sort last, behind the January events that actually followed it.
+    const rows = buildTimeline([
+      dated(1, 'January', [[2020, 3, 20]]),
+      dated(2, 'PrevDecember', [[2020, 2, -10]]),
+    ]);
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['PrevDecember', 'January']);
+  });
+
+  it('falls back to tournament count when a season carries no date', () => {
+    const rows = buildTimeline([
+      partner(1, 'Fewer', [[2020, 2]]),
+      partner(2, 'More', [[2020, 7]]),
+    ]);
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['More', 'Fewer']);
+  });
+
+  it('puts a dated partner ahead of an undated one', () => {
+    // Mixed data should not scatter the ones we do know about.
+    const rows = buildTimeline([
+      partner(1, 'Undated', [[2020, 9]]),
+      dated(2, 'Dated', [[2020, 1, 200]]),
+    ]);
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['Dated', 'Undated']);
   });
 
   it('merges a partner split across one season into a single row', () => {
@@ -48,12 +94,13 @@ describe('buildTimeline', () => {
     // year gets two rows, not three: the edge is keyed by the pair, so both
     // spells with A are already one number by the time this sees them.
     //
-    // Not a rendering choice. Separating the spells would mean claiming A
-    // came before *and* after B, and this data cannot order two partners
-    // inside a season at all — VIS dates tournaments only to the year here.
+    // Not a rendering choice, and not something the start date fixes: A's
+    // offset is the *first* of the two spells, so ordering puts A ahead of B
+    // correctly, but splitting them into separate rows would need
+    // per-tournament data this edge does not carry.
     const rows = buildTimeline([
-      partner(1, 'A', [[2013, 3]]), // 1 tournament, then 2 more after the switch
-      partner(2, 'B', [[2013, 2]]),
+      dated(1, 'A', [[2013, 3, 30]]), // 1 tournament, then 2 more after the switch
+      dated(2, 'B', [[2013, 2, 90]]),
     ]);
     expect(rows).toHaveLength(1);
     expect(rows[0]!.partners.map((p) => [p.node.name, p.t])).toEqual([
@@ -63,11 +110,13 @@ describe('buildTimeline', () => {
     expect(rows[0]!.total).toBe(5);
   });
 
-  it('orders partners within a season by tournaments, then name', () => {
+  it('breaks a same-day tie by tournaments, then name', () => {
+    // Concurrent events do share a start date, so the old volume ordering
+    // survives as the tie-break rather than being replaced outright.
     const rows = buildTimeline([
-      partner(1, 'Zed', [[2020, 1]]),
-      partner(2, 'Abe', [[2020, 1]]),
-      partner(3, 'Most', [[2020, 9]]),
+      dated(1, 'Zed', [[2020, 1, 50]]),
+      dated(2, 'Abe', [[2020, 1, 50]]),
+      dated(3, 'Most', [[2020, 9, 50]]),
     ]);
     expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['Most', 'Abe', 'Zed']);
   });

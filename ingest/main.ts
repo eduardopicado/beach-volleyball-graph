@@ -108,9 +108,21 @@ async function main() {
   // --- Stage 1: tournaments ------------------------------------------------
   const tournamentRows = await fetchList({
     type: 'GetBeachTournamentList',
-    // `Name` is fetched only to spot cancellations — VIS records those in
-    // the display name rather than a status field. See isCancelled().
-    fields: ['No', 'Code', 'Name', 'Season', 'Gender', 'Type', 'OrganizerType', 'Version'],
+    // `Name` is fetched only to spot cancellations — VIS records those in the
+    // display name rather than a status field, see isCancelled() — and
+    // `StartDateMainDraw` only to order partners inside a season on the
+    // player card's timeline. Both ride on a request already being made.
+    fields: [
+      'No',
+      'Code',
+      'Name',
+      'Season',
+      'Gender',
+      'Type',
+      'OrganizerType',
+      'Version',
+      'StartDateMainDraw',
+    ],
     itemTag: 'BeachTournament',
   });
   const tournaments = normaliseTournaments(tournamentRows);

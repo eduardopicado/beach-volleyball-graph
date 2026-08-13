@@ -7,6 +7,7 @@ import {
   normaliseTournaments,
   pairKey,
   sliceByCountryAndGender,
+  startOffsetFor,
 } from './build.js';
 import type { VisRow } from './vis.js';
 
@@ -259,6 +260,25 @@ describe('aggregatePartnerships', () => {
   });
 });
 
+describe('startOffsetFor', () => {
+  it('counts days from 1 January of the season', () => {
+    expect(startOffsetFor('2024-01-01', 2024)).toBe(0);
+    expect(startOffsetFor('2024-05-02', 2024)).toBe(122);
+  });
+
+  it('goes negative for a season that opens in the previous calendar year', () => {
+    // The reason this is an offset rather than a day-of-year: as day 340 a
+    // December opener would sort behind the January events that followed it.
+    expect(startOffsetFor('2019-12-06', 2020)).toBe(-26);
+  });
+
+  it('is null for a missing or unparseable date', () => {
+    expect(startOffsetFor(undefined, 2024)).toBeNull();
+    expect(startOffsetFor('', 2024)).toBeNull();
+    expect(startOffsetFor('not-a-date', 2024)).toBeNull();
+  });
+});
+
 describe('sliceByCountryAndGender', () => {
   const tournaments = normaliseTournaments([tournament('t1', 2023), tournament('t2', 2024)]);
   const players = normalisePlayers([
@@ -310,6 +330,31 @@ describe('sliceByCountryAndGender', () => {
       const { partnerships, appearances } = aggregatePartnerships(rows, seasons, two);
       return sliceByCountryAndGender(partnerships, appearances, two, seasons, 2)[0]!;
     };
+
+    it('carries the offset of the first event the pair played that season', () => {
+      // `a` is 2024, `b`/`c` are 2023 — so the 2023 row must take the earlier
+      // of the two dates, not whichever happened to be seen first.
+      const dated = normaliseTournaments([
+        { ...tournament('a', 2024), StartDateMainDraw: '2024-05-02' },
+        { ...tournament('b', 2023), StartDateMainDraw: '2023-08-20' },
+        { ...tournament('c', 2023), StartDateMainDraw: '2023-03-10' },
+      ]);
+      const { partnerships, appearances } = aggregatePartnerships(
+        [entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2)],
+        dated,
+        two,
+      );
+      const edge = sliceByCountryAndGender(partnerships, appearances, two, dated, 2)[0]!.edges[0]!;
+      expect(edge.s).toEqual([
+        [2023, 2, 68], // 10 March, not 20 August
+        [2024, 1, 122],
+      ]);
+    });
+
+    it('omits the offset when a tournament has no usable date', () => {
+      const slice = sliceOf([entry('b', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([[2023, 1]]);
+    });
 
     it('tallies tournaments per season, ascending', () => {
       const slice = sliceOf([entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2)]);

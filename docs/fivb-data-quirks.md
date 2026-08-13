@@ -341,6 +341,36 @@ megabytes. Two practical consequences:
 
 ---
 
+## 14. Only one of the tournament date fields is reliably populated
+
+`BeachTournament` exposes several dates, and they are not equally trustworthy.
+Measured across all 9,264 tournaments VIS returns:
+
+| Field | Populated |
+|---|---:|
+| `StartDateMainDraw` | 9,264 (100%) |
+| `EndDateMainDraw` | 9,264 (100%) |
+| `StartDateQualification` | 2,750 (30%) |
+| `Dates` | 0 |
+
+So `StartDateMainDraw` is the only start date worth ordering by. Using
+`StartDateQualification` where it exists and falling back otherwise would sort
+some seasons by one field and some by another — a worse error than being
+uniformly a day or two late for the pairs that only played a qualification.
+
+`Dates` exists in the schema and comes back empty on every row; asking for it
+costs a field slot and returns nothing.
+
+One trap once you do have dates: **a season does not always start in its own
+calendar year.** Southern-hemisphere events can open in the previous December,
+so a day-of-year would sort them *after* the following January's events. Store
+an offset from 1 January of the season instead, which goes negative and orders
+correctly.
+
+**Handled in.** `startOffsetFor` in `ingest/build.ts`.
+
+---
+
 ## Reporting these upstream
 
 Most of the above is ours to work around. Two are arguably worth raising with

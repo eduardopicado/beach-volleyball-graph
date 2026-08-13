@@ -33,11 +33,20 @@ export interface GraphNode {
 }
 
 /**
- * One season of a partnership: `[season, tournaments together that season]`.
+ * One season of a partnership: `[season, tournaments together, startOffset?]`.
+ *
  * A tuple rather than an object because these are the most numerous values in
  * the published data — there are more of them than there are partnerships.
+ *
+ * `startOffset` is days from 1 January of that season to the first event the
+ * pair played in it, and exists only to order two partners *within* one year.
+ * An offset rather than a calendar date so it stays two or three digits, and
+ * signed so a December event opening a southern season still sorts before the
+ * following January's. Absent when the tournament carried no usable date.
  */
-export type SeasonTally = [season: number, tournaments: number];
+export type SeasonTally =
+  | [season: number, tournaments: number]
+  | [season: number, tournaments: number, startOffset: number];
 
 export interface GraphEdge {
   a: number;

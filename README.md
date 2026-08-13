@@ -132,9 +132,13 @@ Everything under `/v1/` is static JSON:
 ```
 
 Edge keys are terse (`a`, `b`, `t`, `f`, `l`, `s`) because edges dominate file
-size. `s` is the per-season breakdown — `[[2019, 7], [2021, 3]]` — which the
-player card's timeline view groups by year; `t`, `f` and `l` are all derivable
-from it and kept anyway, since they are what the graph reads on every render.
+size. `s` is the per-season breakdown — `[[2019, 7, 118], [2021, 3, 44]]`,
+i.e. `[season, tournaments, days from 1 January]` — which the player card's
+timeline view groups by year and orders within it. The third element is
+optional and absent when a tournament carried no usable date; it is an offset
+rather than a calendar date so it stays short, and signed so a season opening
+in the previous December still sorts first. `t`, `f` and `l` are all derivable
+from `s` and kept anyway, since they are what the graph reads on every render.
 Pretty-printed it roughly doubles a slice file, but the files are served gzipped
 and there it costs about a kilobyte.
 Player detail is a **separate file per slice**, not per player: it loads once
