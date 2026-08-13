@@ -2,6 +2,7 @@
   "name": "beachvolleyballgraph",
   "version": "1.0.0",
   "private": true,
+  "license": "UNLICENSED",
   "type": "module",
   "description": "Partnership graph of FIVB international beach volleyball players, by country and gender.",
   "engines": {

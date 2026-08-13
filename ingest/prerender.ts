@@ -202,6 +202,7 @@ function staticFooter(): string {
   return `<footer>
 <p>Source: <a href="${esc(SOURCE_URL)}">${esc(SOURCE_NAME)}</a>. Not affiliated with or endorsed by the FIVB.</p>
 <p>Questions, corrections or partnership enquiries: <a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> · <a href="${esc(`${BASE}about/`)}">About this project</a></p>
+<p>© 2026 Eduardo Picado. All rights reserved.</p>
 </footer>`;
 }
 
@@ -316,6 +317,10 @@ ${headFor(url, title, description)}
 <p><a href="mailto:${esc(CONTACT_EMAIL)}">${esc(CONTACT_EMAIL)}</a> — corrections, questions, media and partnership enquiries.</p>
 
 <p>For a wrong number, a link to the page and what you expected to see is the fastest route to a fix.</p>
+
+<h2>Code and reuse</h2>
+
+<p>© 2026 Eduardo Picado. All rights reserved. This project's source is publicly viewable for portfolio and reference purposes; no permission is granted to copy, modify or redistribute it without prior written permission. Ask at the address above.</p>
 
 <p><a href="${esc(BASE)}">← Back to the graph</a></p>
 </main>

@@ -479,6 +479,7 @@ export default function App() {
               that never boots the app (see aboutPage in ingest/prerender.ts). */}
           <a href={`${import.meta.env.BASE_URL}about/`}>About this project</a>
         </p>
+        <p className="caveat">© 2026 Eduardo Picado. All rights reserved.</p>
       </footer>
     </div>
   );
