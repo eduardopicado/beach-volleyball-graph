@@ -331,9 +331,12 @@ describe('sliceByCountryAndGender', () => {
       return sliceByCountryAndGender(partnerships, appearances, two, seasons, 2)[0]!;
     };
 
-    it('carries the offset of the first event the pair played that season', () => {
-      // `a` is 2024, `b`/`c` are 2023 — so the 2023 row must take the earlier
-      // of the two dates, not whichever happened to be seen first.
+    it('carries the offset of the last event the pair played that season', () => {
+      // `a` is 2024, `b`/`c` are 2023 — so the 2023 row must take the later
+      // of the two dates, not whichever happened to be seen first. The card
+      // lists seasons newest first and orders partners inside one the same
+      // way, so a partnership is positioned by when it was most recently
+      // played, not when it started.
       const dated = normaliseTournaments([
         { ...tournament('a', 2024), StartDateMainDraw: '2024-05-02' },
         { ...tournament('b', 2023), StartDateMainDraw: '2023-08-20' },
@@ -346,7 +349,7 @@ describe('sliceByCountryAndGender', () => {
       );
       const edge = sliceByCountryAndGender(partnerships, appearances, two, dated, 2)[0]!.edges[0]!;
       expect(edge.s).toEqual([
-        [2023, 2, 68], // 10 March, not 20 August
+        [2023, 2, 231], // 20 August, not 10 March
         [2024, 1, 122],
       ]);
     });

@@ -424,12 +424,19 @@ export function sliceByCountryAndGender(
     // tournament lookup is already needed for the nodes above, so this costs
     // one pass over a set that has a median size of 1.
     //
-    // Each season carries a count *and* when in that season the pair first
-    // appeared. The count alone cannot order two partners within one year,
-    // and ordering by volume put the wrong name first in 38% of the archive's
+    // Each season carries a count *and* when in that season the pair last
+    // played. The count alone cannot order two partners within one year, and
+    // ordering by volume put the wrong name first in 38% of the archive's
     // 5,891 shared seasons — a one-off fill-in ranked above the partner
     // somebody actually switched to.
-    const perSeason = new Map<number, { n: number; start: number | null }>();
+    //
+    // The *last* event rather than the first, because the card lists seasons
+    // newest first and the rows inside one have to run the same way or the
+    // reading order jumps at every season boundary. In a newest-first list a
+    // partnership belongs where it was most recently played, which is also
+    // what puts a partner carried into the following season directly beneath
+    // their row in it.
+    const perSeason = new Map<number, { n: number; latest: number | null }>();
     for (const t of pair.tournaments) {
       const tournament = tournaments.get(t);
       const season = tournament?.season ?? 0;
@@ -437,10 +444,10 @@ export function sliceByCountryAndGender(
       const row = perSeason.get(season);
       const start = tournament?.startOffset ?? null;
       if (!row) {
-        perSeason.set(season, { n: 1, start });
+        perSeason.set(season, { n: 1, latest: start });
       } else {
         row.n++;
-        if (start !== null && (row.start === null || start < row.start)) row.start = start;
+        if (start !== null && (row.latest === null || start > row.latest)) row.latest = start;
       }
     }
 
@@ -452,7 +459,7 @@ export function sliceByCountryAndGender(
       l: pair.lastSeason,
       s: [...perSeason]
         .sort((x, y) => x[0] - y[0])
-        .map(([season, { n, start }]): SeasonTally => (start === null ? [season, n] : [season, n, start])),
+        .map(([season, { n, latest }]): SeasonTally => (latest === null ? [season, n] : [season, n, latest])),
     });
   }
 

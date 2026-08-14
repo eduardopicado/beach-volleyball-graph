@@ -133,14 +133,19 @@ Everything under `/v1/` is static JSON:
 
 Edge keys are terse (`a`, `b`, `t`, `f`, `l`, `s`) because edges dominate file
 size. `s` is the per-season breakdown — `[[2019, 7, 118], [2021, 3, 44]]`,
-i.e. `[season, tournaments, days from 1 January]` — which the player card's
-timeline view groups by year and orders within it. The third element is
-optional and absent when a tournament carried no usable date; it is an offset
-rather than a calendar date so it stays short, and signed so a season opening
-in the previous December still sorts first. `t`, `f` and `l` are all derivable
-from `s` and kept anyway, since they are what the graph reads on every render.
-Pretty-printed it roughly doubles a slice file, but the files are served gzipped
-and there it costs about a kilobyte.
+i.e. `[season, tournaments, days from 1 January to the pair's last event that
+season]` — which the player card's timeline view groups by year and orders
+within it. The third element is optional and absent when a tournament carried
+no usable date; it is an offset rather than a calendar date so it stays short,
+and signed because a season does not always start in its own calendar year.
+It marks the pair's *last* event rather than their first because the timeline
+runs newest first throughout — seasons and the partners inside them — so a
+partnership is placed by when it was most recently played.
+
+`t`, `f` and `l` are all derivable from `s` and kept anyway, since they are what
+the graph reads on every render. Pretty-printed, `s` roughly doubles a slice
+file; the files are served gzipped and there it costs about a kilobyte.
+
 Player detail is a **separate file per slice**, not per player: it loads once
 alongside the graph, so opening a profile costs no network request. Even the
 largest country's pair of files comes to well under 200 KB uncompressed.

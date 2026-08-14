@@ -17,7 +17,7 @@ const partner = (id: number, name: string, s: [number, number][]): TimelinePartn
   s,
 });
 
-/** Seasons with one: `[season, tournaments, days from 1 Jan]`. */
+/** Seasons with one: `[season, tournaments, days from 1 Jan of the last event]`. */
 const dated = (id: number, name: string, s: [number, number, number][]): TimelinePartner => ({
   node: node(id, name),
   s,
@@ -46,19 +46,39 @@ describe('buildTimeline', () => {
       dated(2, 'Hyden', [[2013, 5, 150]]),
     ]);
     const y2013 = rows.find((r) => r.season === 2013)!;
-    // Doherty first because he came first, even though Hyden played more —
-    // the whole reason the ingest fetches a start date.
-    expect(y2013.partners.map((p) => p.node.name)).toEqual(['Doherty', 'Hyden']);
+    // Hyden first: he was the later of the two, and the list runs newest
+    // first throughout. Not because he played more — see the tie-break test.
+    expect(y2013.partners.map((p) => p.node.name)).toEqual(['Hyden', 'Doherty']);
     expect(y2013.total).toBe(7);
   });
 
-  it('orders partners within a season by when they first played', () => {
+  it('runs partners within a season newest first, like the seasons themselves', () => {
+    // Mixed directions were the bug: seasons descending but partners
+    // ascending made the reading order jump at every season boundary.
     const rows = buildTimeline([
-      dated(1, 'Second', [[2020, 9, 120]]),
-      dated(2, 'First', [[2020, 1, 30]]),
-      dated(3, 'Third', [[2020, 4, 200]]),
+      dated(1, 'Middle', [[2020, 9, 120]]),
+      dated(2, 'Earliest', [[2020, 1, 30]]),
+      dated(3, 'Latest', [[2020, 4, 200]]),
     ]);
-    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['First', 'Second', 'Third']);
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['Latest', 'Middle', 'Earliest']);
+  });
+
+  it('places a partner carried into the next season directly above themselves', () => {
+    // The payoff of matching directions: a pairing that starts late in one
+    // year and continues into the next reads as one block, not two rows
+    // separated by everybody else from the earlier season.
+    const rows = buildTimeline([
+      dated(1, 'Bourne', [
+        [2018, 2, 273],
+        [2019, 11, 200],
+      ]),
+      dated(2, 'Mayer', [[2018, 5, 122]]),
+      dated(3, 'Rosenthal', [[2018, 1, 3]]),
+    ]);
+    expect(rows.map((r) => [r.season, r.partners.map((p) => p.node.name)])).toEqual([
+      [2019, ['Bourne']],
+      [2018, ['Bourne', 'Mayer', 'Rosenthal']],
+    ]);
   });
 
   it('sorts a season opening in the previous calendar year first', () => {
@@ -69,7 +89,9 @@ describe('buildTimeline', () => {
       dated(1, 'January', [[2020, 3, 20]]),
       dated(2, 'PrevDecember', [[2020, 2, -10]]),
     ]);
-    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['PrevDecember', 'January']);
+    // Newest first, so January leads — but the December event must still be
+    // understood as *earlier*, which a day-of-year would have got backwards.
+    expect(rows[0]!.partners.map((p) => p.node.name)).toEqual(['January', 'PrevDecember']);
   });
 
   it('falls back to tournament count when a season carries no date', () => {
@@ -81,7 +103,8 @@ describe('buildTimeline', () => {
   });
 
   it('puts a dated partner ahead of an undated one', () => {
-    // Mixed data should not scatter the ones we do know about.
+    // Mixed data should not scatter the ones we do know about — and the
+    // undated row must not win by being compared as an infinity.
     const rows = buildTimeline([
       partner(1, 'Undated', [[2020, 9]]),
       dated(2, 'Dated', [[2020, 1, 200]]),
@@ -94,12 +117,12 @@ describe('buildTimeline', () => {
     // year gets two rows, not three: the edge is keyed by the pair, so both
     // spells with A are already one number by the time this sees them.
     //
-    // Not a rendering choice, and not something the start date fixes: A's
-    // offset is the *first* of the two spells, so ordering puts A ahead of B
-    // correctly, but splitting them into separate rows would need
-    // per-tournament data this edge does not carry.
+    // The offset is A's *last* event (day 200, after the return), so A still
+    // sorts above B in a newest-first list — right for the resumed spell,
+    // and the reason splitting the two apart would need per-tournament data
+    // this edge does not carry.
     const rows = buildTimeline([
-      dated(1, 'A', [[2013, 3, 30]]), // 1 tournament, then 2 more after the switch
+      dated(1, 'A', [[2013, 3, 200]]), // 1 tournament, then 2 more after the switch
       dated(2, 'B', [[2013, 2, 90]]),
     ]);
     expect(rows).toHaveLength(1);
