@@ -14,6 +14,7 @@
  * wolf is worse than no check.
  */
 
+import type { Page } from '@playwright/test';
 import { test, expect, manifest, graph, players } from './fixtures.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
 import { CONTACT_EMAIL } from '../web/src/site.js';
@@ -71,6 +72,88 @@ test('selecting a player opens their card with the right numbers', async ({ page
   // that surfaced the Rank-0 double-counting bug in the first place.
   const tournaments = card.locator('.vitals div', { has: page.getByText('Tournaments', { exact: true }) });
   await expect(tournaments.locator('dd')).toHaveText(String(target.tournaments));
+});
+
+test.describe('timeline view', () => {
+  // Scoped to the switch: the sortable table below the graph has its own
+  // "Partners" column-header button, so an unscoped role query is ambiguous.
+  const tab = (page: Page, name: 'Partners' | 'Timeline') =>
+    page.getByRole('group', { name: 'Partner view' }).getByRole('button', { name, exact: true });
+
+  /** The player in this slice with the most seasons that had two partners. */
+  const busiest = () => {
+    const data = graph(COUNTRY, GENDER);
+    const byPlayer = new Map<number, Map<number, number>>();
+    for (const e of data.edges) {
+      for (const id of [e.a, e.b]) {
+        let seasons = byPlayer.get(id);
+        if (!seasons) byPlayer.set(id, (seasons = new Map()));
+        for (const [season] of e.s ?? []) seasons.set(season, (seasons.get(season) ?? 0) + 1);
+      }
+    }
+    let best = { id: 0, shared: -1, seasons: 0 };
+    for (const [id, seasons] of byPlayer) {
+      const shared = [...seasons.values()].filter((n) => n > 1).length;
+      if (shared > best.shared) best = { id, shared, seasons: seasons.size };
+    }
+    return best;
+  };
+
+  test('groups a career by season and matches the graph file', async ({ page }) => {
+    const target = busiest();
+    // Guards the guard: if the published data ever loses its per-season field
+    // this test would otherwise pass vacuously against an empty timeline.
+    expect(target.shared, 'no player in this slice shares a season').toBeGreaterThan(0);
+
+    await page.goto(`./${slicePath()}?player=${target.id}`);
+    await tab(page, 'Timeline').click();
+
+    // One group per season the player actually competed in — derived from the
+    // same edges the page was built from, so this stays true as data changes.
+    await expect(page.locator('.timeline > li')).toHaveCount(target.seasons);
+
+    // Seasons run newest first.
+    const years = await page.locator('.timeline .year').allInnerTexts();
+    const numbers = years.map(Number);
+    expect(numbers).toEqual([...numbers].sort((a, b) => b - a));
+
+    // And the thing the partner list structurally cannot show: one year with
+    // more than one name against it.
+    const shared = page.locator('.timeline > li').filter({ has: page.locator('ul > li:nth-child(2)') });
+    await expect(shared).toHaveCount(target.shared);
+  });
+
+  test('switches back to the partner list', async ({ page }) => {
+    const target = busiest();
+    await page.goto(`./${slicePath()}?player=${target.id}`);
+
+    await expect(tab(page, 'Partners')).toHaveAttribute('aria-pressed', 'true');
+    await tab(page, 'Timeline').click();
+    await expect(tab(page, 'Timeline')).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('.timeline')).toBeVisible();
+
+    await tab(page, 'Partners').click();
+    await expect(page.locator('.timeline')).toHaveCount(0);
+    await expect(page.locator('.partners > ul > li').first()).toBeVisible();
+  });
+
+  test('a partner in the timeline opens that partner', async ({ page }) => {
+    const target = busiest();
+    await page.goto(`./${slicePath()}?player=${target.id}`);
+    await tab(page, 'Timeline').click();
+
+    const firstPartner = page.locator('.timeline ul li button').first();
+    const name = (await firstPartner.locator('.name').innerText()).trim();
+    // The timeline is its own scroll container inside a card that is itself
+    // sized to the graph, so the first row is not necessarily in view.
+    await firstPartner.scrollIntoViewIfNeeded();
+    await firstPartner.click();
+
+    await expect(page.locator('.player-card').getByRole('heading', { level: 2 })).toHaveText(name);
+    // The view is a reading mode, not a per-player setting: someone working
+    // through a career year by year should stay in it as they click through.
+    await expect(tab(page, 'Timeline')).toHaveAttribute('aria-pressed', 'true');
+  });
 });
 
 test('the card renders vitals from the separate player detail file', async ({ page }) => {

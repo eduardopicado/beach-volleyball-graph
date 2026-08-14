@@ -6,7 +6,7 @@
  * parts (pair canonicalisation, dedupe, slicing) are unit-testable.
  */
 
-import type { Gender, GraphEdge, GraphNode, MedalCounts, Tier } from '../web/src/schema.js';
+import type { Gender, GraphEdge, GraphNode, MedalCounts, SeasonTally, Tier } from '../web/src/schema.js';
 import { toCentimetres, toKilograms, type VisRow } from './vis.js';
 import { tierFor, FIVB_ORGANIZER_TYPE } from './tiers.js';
 import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
@@ -16,6 +16,34 @@ export interface Tournament {
   tier: Tier;
   season: number;
   version: string;
+  /**
+   * Days from 1 January of `season` to the main draw's first day. Negative
+   * when an event starts in the previous calendar year, which is why this is
+   * an offset rather than a day-of-year: a December event opening a southern
+   * summer season would otherwise sort *after* the following January's.
+   *
+   * Only ever compared within one season, so the origin is arbitrary as long
+   * as it is consistent — and this keeps the published number two or three
+   * digits instead of five.
+   */
+  startOffset: number | null;
+}
+
+/**
+ * `YYYY-MM-DD` -> days from 1 January of `season`.
+ *
+ * `StartDateMainDraw` is populated on every tournament VIS returns (checked:
+ * 9,264 of 9,264), so the null path is for a malformed value rather than a
+ * missing one. Qualification can start earlier, but `StartDateQualification`
+ * is populated on barely a third of them, so using it would order some
+ * seasons by one field and some by another — worse than being uniformly
+ * approximate by a day or two.
+ */
+export function startOffsetFor(raw: string | undefined, season: number): number | null {
+  if (!raw) return null;
+  const at = Date.parse(`${raw.slice(0, 10)}T00:00:00Z`);
+  if (!Number.isFinite(at)) return null;
+  return Math.round((at - Date.UTC(season, 0, 1)) / 86_400_000);
 }
 
 export interface Player {
@@ -100,7 +128,13 @@ export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
     if (season === null) continue;
     const no = (row.No ?? '').trim();
     if (!no) continue;
-    out.set(no, { no, tier, season, version: (row.Version ?? '').trim() });
+    out.set(no, {
+      no,
+      tier,
+      season,
+      version: (row.Version ?? '').trim(),
+      startOffset: startOffsetFor(row.StartDateMainDraw, season),
+    });
   }
   return out;
 }
@@ -384,12 +418,48 @@ export function sliceByCountryAndGender(
     if (!ka || ka !== kb) continue; // cross-country or cross-gender: dropped
     let list = edgesByBucket.get(ka);
     if (!list) edgesByBucket.set(ka, (list = []));
+
+    // Per-season breakdown, derived here rather than tracked through
+    // aggregation: the pair's tournament numbers are already in hand and the
+    // tournament lookup is already needed for the nodes above, so this costs
+    // one pass over a set that has a median size of 1.
+    //
+    // Each season carries a count *and* when in that season the pair last
+    // played. The count alone cannot order two partners within one year, and
+    // ordering by volume put the wrong name first in 38% of the archive's
+    // 5,891 shared seasons — a one-off fill-in ranked above the partner
+    // somebody actually switched to.
+    //
+    // The *last* event rather than the first, because the card lists seasons
+    // newest first and the rows inside one have to run the same way or the
+    // reading order jumps at every season boundary. In a newest-first list a
+    // partnership belongs where it was most recently played, which is also
+    // what puts a partner carried into the following season directly beneath
+    // their row in it.
+    const perSeason = new Map<number, { n: number; latest: number | null }>();
+    for (const t of pair.tournaments) {
+      const tournament = tournaments.get(t);
+      const season = tournament?.season ?? 0;
+      if (season <= 0) continue;
+      const row = perSeason.get(season);
+      const start = tournament?.startOffset ?? null;
+      if (!row) {
+        perSeason.set(season, { n: 1, latest: start });
+      } else {
+        row.n++;
+        if (start !== null && (row.latest === null || start > row.latest)) row.latest = start;
+      }
+    }
+
     list.push({
       a: pair.a,
       b: pair.b,
       t: pair.tournaments.size,
       f: pair.firstSeason,
       l: pair.lastSeason,
+      s: [...perSeason]
+        .sort((x, y) => x[0] - y[0])
+        .map(([season, { n, latest }]): SeasonTally => (latest === null ? [season, n] : [season, n, latest])),
     });
   }
 

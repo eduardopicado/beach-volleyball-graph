@@ -7,6 +7,7 @@ import {
   normaliseTournaments,
   pairKey,
   sliceByCountryAndGender,
+  startOffsetFor,
 } from './build.js';
 import type { VisRow } from './vis.js';
 
@@ -259,6 +260,25 @@ describe('aggregatePartnerships', () => {
   });
 });
 
+describe('startOffsetFor', () => {
+  it('counts days from 1 January of the season', () => {
+    expect(startOffsetFor('2024-01-01', 2024)).toBe(0);
+    expect(startOffsetFor('2024-05-02', 2024)).toBe(122);
+  });
+
+  it('goes negative for a season that opens in the previous calendar year', () => {
+    // The reason this is an offset rather than a day-of-year: as day 340 a
+    // December opener would sort behind the January events that followed it.
+    expect(startOffsetFor('2019-12-06', 2020)).toBe(-26);
+  });
+
+  it('is null for a missing or unparseable date', () => {
+    expect(startOffsetFor(undefined, 2024)).toBeNull();
+    expect(startOffsetFor('', 2024)).toBeNull();
+    expect(startOffsetFor('not-a-date', 2024)).toBeNull();
+  });
+});
+
 describe('sliceByCountryAndGender', () => {
   const tournaments = normaliseTournaments([tournament('t1', 2023), tournament('t2', 2024)]);
   const players = normalisePlayers([
@@ -294,6 +314,86 @@ describe('sliceByCountryAndGender', () => {
     const slices = run([entry('t1', 1, 2), entry('t2', 1, 2)]);
     const node = slices[0]!.nodes.find((n) => n.id === 1)!;
     expect(node).toMatchObject({ tournaments: 2, first: 2023, last: 2024 });
+  });
+
+  describe('per-season breakdown', () => {
+    // Seasons deliberately out of order, and 2023 deliberately doubled: the
+    // breakdown has to sort and to tally, not just list what it was handed.
+    const seasons = normaliseTournaments([
+      tournament('a', 2024),
+      tournament('b', 2023),
+      tournament('c', 2023),
+      tournament('d', 2026),
+    ]);
+    const two = normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]);
+    const sliceOf = (rows: VisRow[]) => {
+      const { partnerships, appearances } = aggregatePartnerships(rows, seasons, two);
+      return sliceByCountryAndGender(partnerships, appearances, two, seasons, 2)[0]!;
+    };
+
+    it('carries the offset of the last event the pair played that season', () => {
+      // `a` is 2024, `b`/`c` are 2023 — so the 2023 row must take the later
+      // of the two dates, not whichever happened to be seen first. The card
+      // lists seasons newest first and orders partners inside one the same
+      // way, so a partnership is positioned by when it was most recently
+      // played, not when it started.
+      const dated = normaliseTournaments([
+        { ...tournament('a', 2024), StartDateMainDraw: '2024-05-02' },
+        { ...tournament('b', 2023), StartDateMainDraw: '2023-08-20' },
+        { ...tournament('c', 2023), StartDateMainDraw: '2023-03-10' },
+      ]);
+      const { partnerships, appearances } = aggregatePartnerships(
+        [entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2)],
+        dated,
+        two,
+      );
+      const edge = sliceByCountryAndGender(partnerships, appearances, two, dated, 2)[0]!.edges[0]!;
+      expect(edge.s).toEqual([
+        [2023, 2, 231], // 20 August, not 10 March
+        [2024, 1, 122],
+      ]);
+    });
+
+    it('omits the offset when a tournament has no usable date', () => {
+      const slice = sliceOf([entry('b', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([[2023, 1]]);
+    });
+
+    it('tallies tournaments per season, ascending', () => {
+      const slice = sliceOf([entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([
+        [2023, 2],
+        [2024, 1],
+      ]);
+    });
+
+    it('leaves gap years out rather than filling them with zeroes', () => {
+      // 2023 then 2026, nothing between. A timeline should show two rows, not
+      // four — the pair genuinely did not play together in 2024 or 2025.
+      const slice = sliceOf([entry('b', 1, 2), entry('d', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([
+        [2023, 1],
+        [2026, 1],
+      ]);
+    });
+
+    it('stays consistent with the aggregates it duplicates', () => {
+      // t, f and l are all derivable from s. They are stored separately for
+      // render cost, so the one risk worth a test is the two disagreeing.
+      const edge = sliceOf([entry('a', 1, 2), entry('b', 1, 2), entry('c', 1, 2), entry('d', 1, 2)]).edges[0]!;
+      const s = edge.s!;
+      expect(s.reduce((sum, [, n]) => sum + n, 0)).toBe(edge.t);
+      expect(s[0]![0]).toBe(edge.f);
+      expect(s[s.length - 1]![0]).toBe(edge.l);
+    });
+
+    it('counts a pair entering qualification and main draw of one event once', () => {
+      // The same rule the aggregate totals follow: edges hold a set of
+      // tournament numbers, so a duplicate entry must not inflate the season.
+      const slice = sliceOf([entry('b', 1, 2), entry('b', 1, 2)]);
+      expect(slice.edges[0]!.s).toEqual([[2023, 1]]);
+      expect(slice.edges[0]!.t).toBe(1);
+    });
   });
 
   it('orders nodes by id, not by a mutable field like tournament count', () => {
