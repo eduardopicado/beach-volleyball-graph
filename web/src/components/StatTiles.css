@@ -1,6 +1,12 @@
+/* Flex rather than grid, because the tile count varies: a country with no
+   Olympic or World Championship medals renders four tiles, one with both
+   renders six. An auto-fit grid resolves to a fixed column count, so at some
+   widths the last tile is stranded alone on a row it doesn't fill — visible
+   on an iPad in portrait, which lands on six columns for six tiles. Flex
+   items grow into whatever the final row has left instead, at any count. */
 .stat-tiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -12,6 +18,11 @@
   background: var(--surface-1);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  /* Grow to share out the last row; 140px basis keeps the wrap points where
+     the grid had them. min-width: 0 so a long detail line (the longest-pairing
+     tile carries two player names) can't force the tile past its share. */
+  flex: 1 1 140px;
+  min-width: 0;
 }
 
 .tile .label {
@@ -30,8 +41,11 @@
   line-height: 1.15;
 }
 
+/* Emphasis by colour and size, not width. The hero used to span two grid
+   columns as well, which was a third signal saying what the wash and the 48px
+   value already say — and it was the reason the row arithmetic never came out
+   even, since six tiles then consumed seven columns. */
 .tile.is-hero {
-  grid-column: span 2;
   background: var(--series-1-wash);
   border-color: transparent;
 }
@@ -46,10 +60,17 @@
   font-size: 12px;
 }
 
-@media (max-width: 560px) {
-  .tile.is-hero {
-    grid-column: span 2;
+/* A wider basis once there is room for it, so six tiles wrap 4 + 2 rather than
+   5 + 1 — a single tile growing across a whole row to hold one number reads as
+   a mistake. Below this the narrower basis is what keeps a phone at two tiles
+   per row instead of one. */
+@media (min-width: 700px) {
+  .tile {
+    flex-basis: 180px;
   }
+}
+
+@media (max-width: 560px) {
   .tile.is-hero .value {
     font-size: 38px;
   }

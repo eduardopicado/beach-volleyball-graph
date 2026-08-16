@@ -279,8 +279,12 @@ export default function App() {
     const degrees = nodes.map((n) => (partnersByPlayer.get(n.id)?.length ?? 0));
     const avg = degrees.reduce((a, b) => a + b, 0) / nodes.length;
     const longest = [...edges].sort((a, b) => b.t - a.t)[0];
+    // Competition names, not legal ones — the same `short` the graph labels
+    // use. A tile is not the place for 'Christopher St. John "Sinjin" Smith &
+    // Carl John Henkel'; "Sinjin Smith & Henkel" is what anyone following the
+    // sport would call them, and it fits.
     const longestNames = longest
-      ? `${nodesById.get(longest.a)?.name ?? '?'} & ${nodesById.get(longest.b)?.name ?? '?'}`
+      ? `${nodesById.get(longest.a)?.short ?? '?'} & ${nodesById.get(longest.b)?.short ?? '?'}`
       : '—';
     result.push(
       { label: 'Partnerships', value: edges.length.toLocaleString() },
