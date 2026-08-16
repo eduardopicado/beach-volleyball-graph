@@ -211,6 +211,26 @@ export interface ResultsFile {
   players: Record<string, ResultEntry[]>;
 }
 
+/** One player in the search index: `[id, name, tournaments]`. */
+export type SearchEntry = [id: number, name: string, tournaments: number];
+
+/**
+ * Every published player, grouped by the slice they belong to.
+ *
+ * Exists so the search box can reach a player without knowing which country
+ * they compete for — which is most of the time, since a reader usually knows
+ * the name and not the federation. Grouped rather than flat because the key
+ * would otherwise be repeated on all 12,000 rows.
+ *
+ * Loaded on the first interaction with the search box, never with the page:
+ * it is the second-largest file published here, and a reader who only ever
+ * clicks the graph should not pay for it.
+ */
+export interface SearchIndex {
+  /** `"BRA-M"` -> the players in that slice, most tournaments first. */
+  slices: Record<string, SearchEntry[]>;
+}
+
 /**
  * Short badge for the tiers worth calling out on a result row. The two tour
  * tiers are deliberately absent: they are the ordinary case, and a badge on
@@ -264,5 +284,16 @@ export const resultsPath = (base: string, country: string, gender: Gender) =>
   `${base}${DATA_VERSION}/results/${country}-${gender}.json`;
 
 export const tournamentsPath = (base: string) => `${base}${DATA_VERSION}/tournaments.json`;
+
+export const searchPath = (base: string) => `${base}${DATA_VERSION}/search.json`;
+
+/** `"BRA-M"` -> `{ country: "BRA", gender: "M" }`. Federation codes can contain a dash. */
+export function parseSliceKey(key: string): { country: string; gender: Gender } | null {
+  const split = key.lastIndexOf('-');
+  if (split <= 0) return null;
+  const gender = key.slice(split + 1);
+  if (gender !== 'M' && gender !== 'W') return null;
+  return { country: key.slice(0, split), gender };
+}
 
 export const manifestPath = (base: string) => `${base}${DATA_VERSION}/manifest.json`;

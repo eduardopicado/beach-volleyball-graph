@@ -144,6 +144,7 @@ Everything under `/v1/` is static JSON:
 ```
 /v1/manifest.json            index: countries, node counts, tiers, freshness
 /v1/tournaments.json         every qualifying tournament: name, season, tier, date
+/v1/search.json              every published player, grouped by slice, for search
 /v1/graphs/{CC}-{G}.json     nodes + edges for one country × gender
 /v1/players/{CC}-{G}.json    height, weight, date of birth, medals, foreign partners
 /v1/results/{CC}-{G}.json    every tournament every player in the slice entered
@@ -177,6 +178,14 @@ player card, and never otherwise. The rows carry no names: tournaments are
 named once in the shared `/v1/tournaments.json`, and partners by the slice's
 own graph, with only the ones from outside it (see below) named in the results
 file itself. The largest results file is 85 KB uncompressed.
+
+`/v1/search.json` is the other lazy file — 370 KB fetched on the first
+interaction with the search box, never with the page. It exists so the box can
+find a player without the reader knowing which country they compete for, which
+is the normal case: you know the name, and for anyone who transferred the
+federation you remember is no longer the right answer. Search is
+accent-insensitive in both directions, so "Barbara" finds "Bárbara" and vice
+versa.
 
 `rank` is FIVB's `Rank`, and it is a *shared* placement — beach volleyball
 reports brackets, so eight teams finish 9th and 89% of played rows sit on a

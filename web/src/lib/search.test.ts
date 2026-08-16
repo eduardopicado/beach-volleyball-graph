@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { searchPlayers, type SearchablePlayer } from './search';
+import { foldAccents, indexPlayers, searchPlayers, type SearchablePlayer } from './search';
+import type { Gender } from '../schema';
 
-const p = (id: number, name: string, tournaments = 10): SearchablePlayer => ({ id, name, tournaments });
+const p = (id: number, name: string, tournaments = 10, slice?: { country: string; gender: Gender }) =>
+  indexPlayers([{ id, name, tournaments, slice } as SearchablePlayer])[0]!;
 
 describe('searchPlayers', () => {
   const players = [
@@ -51,5 +53,46 @@ describe('searchPlayers', () => {
 
   it('returns nothing for a query that matches no one', () => {
     expect(searchPlayers(players, 'Zzyzx')).toEqual([]);
+  });
+
+  it('finds an accented name from its plain-ASCII spelling', () => {
+    // The whole reason this exists: typing the accents is the unusual case,
+    // and before folding, "Barbara" matched nothing at all -- which reads as
+    // "she is not in the data" rather than "type it with the accent".
+    const accented = [p(1, 'Bárbara Seixas de Freitas'), p(2, 'Kristīne Puriņa')];
+    expect(searchPlayers(accented, 'Barbara').map((m) => m.id)).toEqual([1]);
+    expect(searchPlayers(accented, 'Kristine').map((m) => m.id)).toEqual([2]);
+    expect(searchPlayers(accented, 'purina').map((m) => m.id)).toEqual([2]);
+  });
+
+  it('still finds a name typed with its accents', () => {
+    const accented = [p(1, 'Bárbara Seixas de Freitas')];
+    expect(searchPlayers(accented, 'Bárbara').map((m) => m.id)).toEqual([1]);
+  });
+
+  it('puts players from the slice on screen above players from elsewhere', () => {
+    // A reader on the Brazil page typing a name almost certainly means a
+    // Brazilian one -- even when a more prominent player elsewhere matches.
+    const elsewhere = p(9, 'Ana Patricia Silva Ramos', 200, { country: 'BRA', gender: 'W' });
+    const here = p(8, 'Ana Someone', 4);
+    expect(searchPlayers([elsewhere, here], 'Ana').map((m) => m.id)).toEqual([8, 9]);
+  });
+
+  it('still ranks a prefix from elsewhere above a substring on screen', () => {
+    // Slice is a tie-break inside a match group, not a filter over them.
+    const elsewhere = p(9, 'Costa Junior', 1, { country: 'POR', gender: 'M' });
+    const here = p(2, 'Ricardo Alex Costa Santos', 281);
+    expect(searchPlayers([here, elsewhere], 'Costa').map((m) => m.id)).toEqual([9, 2]);
+  });
+});
+
+describe('foldAccents', () => {
+  it('strips diacritics and case', () => {
+    expect(foldAccents('João')).toBe('joao');
+    expect(foldAccents('ÅSA-Märta')).toBe('asa-marta');
+  });
+
+  it('leaves a plain name alone', () => {
+    expect(foldAccents('Emanuel Rego')).toBe('emanuel rego');
   });
 });

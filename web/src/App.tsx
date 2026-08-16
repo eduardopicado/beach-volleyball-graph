@@ -6,6 +6,7 @@ import { flagEmoji, formatMedals, plural } from './lib/format';
 import { CONTACT_EMAIL, SOURCE_NAME, SOURCE_URL } from './site';
 import { Controls, MIN_TOGETHER_OPTIONS } from './components/Controls';
 import { parseMinTogether } from './lib/params';
+import type { SearchablePlayer } from './lib/search';
 import type { GraphEdge, GraphNode } from './schema';
 import { GENDER_LABEL } from './schema';
 import { sliceSlug, slugFromPath } from './lib/slug';
@@ -368,9 +369,20 @@ export default function App() {
    * moves with it, so the change is visible rather than silent.
    */
   const jumpToPlayer = useCallback(
-    (id: number) => {
-      if (!nodesById.has(id)) setMinTogether(1);
-      setSelectedId(id);
+    (player: SearchablePlayer) => {
+      // A match from another country: switch the slice with the selection, the
+      // same move an away partner makes. The graph, the table and the stats all
+      // follow the new country, so this is a page change with a player already
+      // picked rather than a selection that happens to be somewhere else.
+      if (player.slice) {
+        setCountry(player.slice.country);
+        setGender(player.slice.gender);
+        setMinTogether(1);
+        setSelectedId(player.id);
+        return;
+      }
+      if (!nodesById.has(player.id)) setMinTogether(1);
+      setSelectedId(player.id);
     },
     [nodesById],
   );

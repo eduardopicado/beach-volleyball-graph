@@ -182,7 +182,8 @@
   margin: 0;
   padding: 6px;
   list-style: none;
-  max-height: 320px;
+  /* Two lines a row now, so eight results need more room than they did. */
+  max-height: 400px;
   overflow-y: auto;
   background: var(--surface-1);
   border: 1px solid var(--border-strong);
@@ -192,10 +193,10 @@
 
 .player-search-results li {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  padding: 8px 10px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1px;
+  padding: 7px 10px;
   border-radius: 6px;
   text-align: left;
   cursor: pointer;
@@ -215,10 +216,22 @@
 }
 
 .player-search-results .meta {
-  flex-shrink: 0;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 6px;
   color: var(--text-muted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
+}
+
+/* Where a match lives, when that is not the page you are on. Reads louder
+   than the tournament count beside it: it is the thing that makes the row
+   different, and picking it changes country. */
+.player-search-results .where {
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .player-search-empty {

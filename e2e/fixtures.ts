@@ -29,6 +29,7 @@ import type {
   Manifest,
   PlayersFile,
   ResultsFile,
+  SearchIndex,
   TournamentsFile,
 } from '../web/src/schema.js';
 
@@ -45,6 +46,33 @@ export const players = (code: string, gender: string) =>
 export const results = (code: string, gender: string) =>
   read<ResultsFile>('results', `${code}-${gender}.json`);
 export const tournamentIndex = () => read<TournamentsFile>('tournaments.json').tournaments;
+export const searchIndex = () => read<SearchIndex>('search.json').slices;
+
+/**
+ * A player outside the given slice whose name carries diacritics — the case
+ * cross-country search and accent folding both have to handle, found by
+ * scanning so it survives the archive changing under it.
+ *
+ * Picks the most prominent such player, which also makes the assertion below
+ * meaningful: if accent folding regressed, a name this well-known going
+ * missing is unambiguous.
+ */
+export function accentedPlayerElsewhere(exclude: string): {
+  name: string;
+  plain: string;
+  slice: string;
+} | null {
+  let best: { name: string; plain: string; slice: string; tournaments: number } | null = null;
+  for (const [slice, entries] of Object.entries(searchIndex())) {
+    if (slice === exclude) continue;
+    for (const [, name, tournaments] of entries) {
+      const plain = name.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+      if (plain === name) continue;
+      if (!best || tournaments > best.tournaments) best = { name, plain, slice, tournaments };
+    }
+  }
+  return best;
+}
 
 /**
  * A published player whose partnerships are *all* with other federations, so
