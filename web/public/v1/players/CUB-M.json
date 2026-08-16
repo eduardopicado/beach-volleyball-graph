@@ -42,14 +42,24 @@
       "name": "Juan Miguel Rossell Milanes",
       "dob": "1969-12-28",
       "height": 189,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 100676,
       "name": "Francisco \"Francis\" Alvarez Cutiño",
       "dob": "1969-04-12",
       "height": 185,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 101051,
@@ -168,14 +178,24 @@
       "name": "Nivaldo Nadhir Dias Gomez",
       "dob": "1994-03-24",
       "height": 202,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 148569,
       "name": "Sergio Reynaldo Gonzalez Bayard",
       "dob": "1990-06-20",
       "height": 192,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 151619,
@@ -196,7 +216,12 @@
       "name": "Jorge Luis Alayo Moliner",
       "dob": "2001-06-06",
       "height": 198,
-      "weight": 102
+      "weight": 102,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 173077,
@@ -210,7 +235,12 @@
       "name": "Noslen Diaz Amaro",
       "dob": "2002-08-13",
       "height": null,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 210559,

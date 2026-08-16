@@ -21,7 +21,12 @@
       "name": "Agnieszka Woloszyn",
       "dob": "1981-10-05",
       "height": 181,
-      "weight": 54
+      "weight": 54,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103681,
@@ -49,7 +54,12 @@
       "name": "Magdalena Michon-Szczytowicz",
       "dob": "1979-01-26",
       "height": 175,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103760,
@@ -217,7 +227,12 @@
       "name": "Monika Brzostek",
       "dob": "1989-07-28",
       "height": 173,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 118249,
@@ -245,7 +260,12 @@
       "name": "Kinga Wojtasik",
       "dob": "1990-06-02",
       "height": 179,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 118712,
@@ -427,7 +447,12 @@
       "name": "Katarzyna Kropidłowska",
       "dob": "1995-03-11",
       "height": 176,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 135450,
@@ -448,7 +473,12 @@
       "name": "Jagoda Sliwka",
       "dob": "1995-02-01",
       "height": 175,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 139661,
@@ -525,7 +555,12 @@
       "name": "Martyna Kloda",
       "dob": "1998-03-20",
       "height": 178,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 146847,
@@ -602,7 +637,12 @@
       "name": "Aleksandra Wachowicz",
       "dob": "1992-06-17",
       "height": 181,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 157922,
@@ -630,7 +670,12 @@
       "name": "Marta Lodej",
       "dob": "1997-01-11",
       "height": 185,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 163351,
@@ -672,7 +717,12 @@
       "name": "Agata Ceynowa",
       "dob": "1998-08-29",
       "height": 186,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 166223,
@@ -749,21 +799,36 @@
       "name": "Malgorzata Ciezkowska",
       "dob": "2004-11-17",
       "height": 182,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179416,
       "name": "Urszula Lunio",
       "dob": "2004-02-17",
       "height": 179,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179515,
       "name": "Julia Kielak",
       "dob": "2004-05-16",
       "height": 181,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179516,
@@ -784,7 +849,12 @@
       "name": "Julia Radelczuk",
       "dob": "2006-02-19",
       "height": 174,
-      "weight": 59
+      "weight": 59,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 187979,
@@ -882,7 +952,12 @@
       "name": "Zuzanna Kudlik",
       "dob": "2007-04-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 223696,

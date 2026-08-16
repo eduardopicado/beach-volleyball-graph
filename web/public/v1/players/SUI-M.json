@@ -21,7 +21,12 @@
       "name": "Martin Walser",
       "dob": "1966-01-11",
       "height": 200,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100307,
@@ -40,6 +45,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 14,
+        "bronze": 7
       }
     },
     {
@@ -52,6 +62,11 @@
         "gold": 0,
         "silver": 2,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 12,
+        "bronze": 5
       }
     },
     {
@@ -64,6 +79,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 8
       }
     },
     {
@@ -71,7 +91,12 @@
       "name": "Christian Bigler",
       "dob": "1966-05-30",
       "height": 190,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100886,
@@ -92,7 +117,12 @@
       "name": "Bernhard Vesti",
       "dob": "1970-03-09",
       "height": 194,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 101366,
@@ -106,7 +136,12 @@
       "name": "Martin Tschudi",
       "dob": "1969-09-04",
       "height": 196,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 101397,
@@ -120,7 +155,12 @@
       "name": "Markus Egger",
       "dob": "1975-02-24",
       "height": 191,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 3,
+        "silver": 7,
+        "bronze": 5
+      }
     },
     {
       "id": 101399,
@@ -153,6 +193,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 9,
+        "silver": 7,
+        "bronze": 8
       }
     },
     {
@@ -165,6 +210,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 9,
+        "silver": 5,
+        "bronze": 6
       }
     },
     {
@@ -242,7 +292,12 @@
       "name": "Marcel Gscheidle",
       "dob": "1973-05-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 102267,
@@ -326,7 +381,12 @@
       "name": "Tino Schuetz",
       "dob": "1978-05-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102370,
@@ -599,7 +659,12 @@
       "name": "David Wenger",
       "dob": "1982-08-31",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 103571,
@@ -634,7 +699,12 @@
       "name": "Jan Schnider",
       "dob": "1983-01-07",
       "height": 196,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 103829,
@@ -687,7 +757,12 @@
       "name": "Michel Kertai",
       "dob": "1982-11-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104143,
@@ -736,7 +811,12 @@
       "name": "Philip Gabathuler",
       "dob": "1982-12-24",
       "height": 194,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 104265,
@@ -750,7 +830,12 @@
       "name": "Michael Bleiker",
       "dob": "1982-04-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104271,
@@ -820,7 +905,12 @@
       "name": "Sebastian Chevallier",
       "dob": "1987-07-14",
       "height": 193,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 104988,
@@ -912,6 +1002,11 @@
       "dob": "1976-09-12",
       "height": 193,
       "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 3
+      },
       "away": [
         {
           "id": 100021,
@@ -975,14 +1070,24 @@
       "name": "Mirco Gerson",
       "dob": "1992-12-29",
       "height": 186,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 4
+      }
     },
     {
       "id": 132524,
       "name": "Gabriel Kissling",
       "dob": "1992-11-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 135543,
@@ -1003,7 +1108,12 @@
       "name": "Quentin Métral",
       "dob": "1995-05-08",
       "height": 197,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 139711,
@@ -1017,7 +1127,12 @@
       "name": "Nico Beeler",
       "dob": "1993-03-03",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 141866,
@@ -1031,35 +1146,60 @@
       "name": "Michiel Zandbergen",
       "dob": "1995-07-08",
       "height": 202,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 143639,
       "name": "Marco Krattiger",
       "dob": "1994-07-07",
       "height": 199,
-      "weight": 99
+      "weight": 99,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 143640,
       "name": "Adrian Heidrich",
       "dob": "1994-09-18",
       "height": 207,
-      "weight": 105
+      "weight": 105,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 143685,
       "name": "Florian Breer",
       "dob": "1998-12-05",
       "height": 185,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 143686,
       "name": "Yves Haussener",
       "dob": "1998-06-13",
       "height": 180,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 151357,
@@ -1136,21 +1276,36 @@
       "name": "Immanuel Zürcher",
       "dob": "2000-08-17",
       "height": 200,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 168507,
       "name": "Jonathan Jordan",
       "dob": "2000-05-21",
       "height": 183,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 169352,
       "name": "Leo Dillier",
       "dob": "2001-04-29",
       "height": 192,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 169353,
@@ -1234,14 +1389,24 @@
       "name": "Luc Flückiger",
       "dob": "2004-10-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 192384,
       "name": "Julian Friedli",
       "dob": "2006-08-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 193585,

@@ -7,7 +7,12 @@
       "name": "Eduardo Esteban \"Mono\" Martinez",
       "dob": "1961-09-25",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 3,
+        "silver": 7,
+        "bronze": 7
+      }
     },
     {
       "id": 100148,
@@ -19,6 +24,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 15,
+        "bronze": 12
       }
     },
     {
@@ -68,7 +78,12 @@
       "name": "Pedro Ramon Depiaggio",
       "dob": "1972-05-05",
       "height": 180,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100768,
@@ -82,7 +97,12 @@
       "name": "José Luis Salema Abrantes",
       "dob": "1970-05-19",
       "height": 190,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 100770,
@@ -203,6 +223,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 8,
+        "bronze": 8
       }
     },
     {
@@ -693,7 +718,12 @@
       "name": "Julian Amado Azaad",
       "dob": "1990-12-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135142,
@@ -756,7 +786,12 @@
       "name": "Leandro Nicolas Aveiro",
       "dob": "1996-09-25",
       "height": 186,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 5,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 145596,
@@ -777,7 +812,12 @@
       "name": "Nicolás Capogrosso N.",
       "dob": "1995-01-15",
       "height": 202,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 149242,
@@ -798,7 +838,12 @@
       "name": "Juan Bautista Amieva Tarditti",
       "dob": "2000-02-29",
       "height": 186,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 5,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 160816,
@@ -812,7 +857,12 @@
       "name": "Tomas Capogrosso",
       "dob": "2002-09-08",
       "height": 196,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 178680,

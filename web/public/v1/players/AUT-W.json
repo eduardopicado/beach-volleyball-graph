@@ -77,14 +77,24 @@
       "name": "Sabine Swoboda",
       "dob": "1975-03-23",
       "height": 175,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 102203,
       "name": "Sara \"Monti\" Montagnolli",
       "dob": "1978-12-02",
       "height": 170,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 102204,
@@ -98,7 +108,12 @@
       "name": "Cornelia Rimser",
       "dob": "1982-05-01",
       "height": 182,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102948,
@@ -126,7 +141,12 @@
       "name": "Christina \"Chrisi\" Gschweidl",
       "dob": "1980-05-20",
       "height": 176,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103113,
@@ -221,7 +241,12 @@
       "name": "Barbara Hansel",
       "dob": "1983-09-18",
       "height": 186,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 103650,
@@ -277,14 +302,24 @@
       "name": "Doris Schwaiger",
       "dob": "1985-02-28",
       "height": 171,
-      "weight": 55
+      "weight": 55,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 104119,
       "name": "Stefanie Schwaiger",
       "dob": "1986-08-07",
       "height": 182,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 104248,
@@ -522,7 +557,12 @@
       "name": "Valerie Teufl",
       "dob": "1986-09-04",
       "height": 180,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 122925,
@@ -571,7 +611,12 @@
       "name": "Lena Plesiutschnig",
       "dob": "1993-10-04",
       "height": 184,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 132684,
@@ -585,7 +630,12 @@
       "name": "Katharina HETZENDORFER",
       "dob": "1993-09-22",
       "height": 175,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 134963,
@@ -606,21 +656,36 @@
       "name": "Anja Dörfler",
       "dob": "1993-06-14",
       "height": 176,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 137275,
       "name": "Teresa Strauss",
       "dob": "1995-11-18",
       "height": 180,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 137276,
       "name": "Nadine Strauss",
       "dob": "1995-11-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 138880,
@@ -669,7 +734,12 @@
       "name": "Franziska Friedl",
       "dob": "1997-09-29",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 142432,
@@ -704,14 +774,24 @@
       "name": "Eva Sturm",
       "dob": "1989-04-30",
       "height": 174,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 146217,
       "name": "Katharina Holzer",
       "dob": "1998-06-29",
       "height": 186,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 147801,
@@ -725,14 +805,24 @@
       "name": "Dorina Klinger",
       "dob": "1997-06-10",
       "height": 184,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 148498,
       "name": "Stephanie Wiesmeyr",
       "dob": "1992-04-08",
       "height": 172,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 149898,
@@ -767,7 +857,12 @@
       "name": "Ronja Klinger",
       "dob": "2000-05-22",
       "height": 177,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 154036,
@@ -837,7 +932,12 @@
       "name": "Eva Pfeffer",
       "dob": "1998-09-16",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 170523,
@@ -872,7 +972,12 @@
       "name": "Magdalena Rabitsch",
       "dob": "2003-08-14",
       "height": 175,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 177631,
@@ -900,21 +1005,36 @@
       "name": "Lia Berger",
       "dob": "2007-07-28",
       "height": 181,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 180823,
       "name": "Lilli Hohenauer",
       "dob": "2007-02-09",
       "height": 178,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 190904,
       "name": "Oleksandra Shkarupa",
       "dob": "2008-03-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 191159,

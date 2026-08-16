@@ -42,14 +42,24 @@
       "name": "Danja Müsch",
       "dob": "1971-04-14",
       "height": 179,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 1
+      }
     },
     {
       "id": 100519,
       "name": "Beate Bühler",
       "dob": "1964-04-08",
       "height": 175,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100631,
@@ -77,14 +87,24 @@
       "name": "Maike Friedrichsen",
       "dob": "1970-07-18",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 101447,
       "name": "Silke \"Sille\" Schmitt",
       "dob": "1968-05-13",
       "height": 183,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101448,
@@ -126,7 +146,12 @@
       "name": "Stephanie Pohl",
       "dob": "1978-05-07",
       "height": 186,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 102216,
@@ -140,7 +165,12 @@
       "name": "Ines Pianka",
       "dob": "1969-03-15",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102289,
@@ -203,14 +233,24 @@
       "name": "Mireya Kaup",
       "dob": "1974-05-11",
       "height": 180,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 103117,
       "name": "Okka Rau",
       "dob": "1977-01-05",
       "height": 179,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103118,
@@ -252,14 +292,24 @@
       "name": "Susanne Lahme",
       "dob": "1968-09-10",
       "height": 182,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 103383,
       "name": "Geeske Banck",
       "dob": "1981-01-22",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 103384,
@@ -294,7 +344,12 @@
       "name": "Sara Goller",
       "dob": "1984-05-21",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 7,
+        "bronze": 6
+      }
     },
     {
       "id": 103931,
@@ -315,14 +370,24 @@
       "name": "Ilka Semmler",
       "dob": "1985-09-08",
       "height": 183,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 4,
+        "silver": 5,
+        "bronze": 9
+      }
     },
     {
       "id": 104158,
       "name": "Claudia Lubetz",
       "dob": "1985-10-05",
       "height": 181,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 104159,
@@ -371,7 +436,12 @@
       "name": "Anja Günther",
       "dob": "1983-09-05",
       "height": 187,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104333,
@@ -385,14 +455,24 @@
       "name": "Katrin Holtwick",
       "dob": "1984-04-10",
       "height": 176,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 4,
+        "silver": 5,
+        "bronze": 9
+      }
     },
     {
       "id": 104458,
       "name": "Frederike Fischer",
       "dob": "1986-04-21",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 104459,
@@ -406,7 +486,12 @@
       "name": "Jana Köhler",
       "dob": "1986-01-11",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104461,
@@ -423,6 +508,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 12,
+        "bronze": 10
       }
     },
     {
@@ -444,7 +534,12 @@
       "name": "Julia Sude",
       "dob": "1987-09-02",
       "height": 185,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 5,
+        "silver": 8,
+        "bronze": 5
+      }
     },
     {
       "id": 105041,
@@ -458,7 +553,12 @@
       "name": "Margareta Kozuch",
       "dob": "1986-10-30",
       "height": 188,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 117840,
@@ -472,7 +572,12 @@
       "name": "Stefanie Hüttermann",
       "dob": "1985-06-10",
       "height": 179,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 118261,
@@ -484,6 +589,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
       }
     },
     {
@@ -491,7 +601,12 @@
       "name": "Julia Großner",
       "dob": "1988-05-04",
       "height": 178,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 118264,
@@ -519,7 +634,12 @@
       "name": "Anni Schumacher",
       "dob": "1988-07-27",
       "height": 181,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 0
+      }
     },
     {
       "id": 118660,
@@ -543,6 +663,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 4,
+        "bronze": 4
       }
     },
     {
@@ -550,7 +675,12 @@
       "name": "Victoria Bieneck",
       "dob": "1991-03-26",
       "height": 182,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119064,
@@ -583,6 +713,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 5,
+        "silver": 2,
+        "bronze": 7
       }
     },
     {
@@ -611,21 +746,36 @@
       "name": "Chantal Laboureur",
       "dob": "1990-01-04",
       "height": 179,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 7,
+        "bronze": 4
+      }
     },
     {
       "id": 120751,
       "name": "Teresa Mersmann",
       "dob": "1990-04-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120904,
       "name": "Elena Kiesling",
       "dob": "1982-06-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 123235,
@@ -639,14 +789,24 @@
       "name": "Christine Aulenbrock",
       "dob": "1992-03-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 124767,
       "name": "Anna Behlen",
       "dob": "1993-02-21",
       "height": 177,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124768,
@@ -667,7 +827,12 @@
       "name": "Isabel Schneider",
       "dob": "1991-07-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125058,
@@ -686,6 +851,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 5,
+        "silver": 4,
+        "bronze": 4
       }
     },
     {
@@ -707,7 +877,12 @@
       "name": "Kim Van de Velde",
       "dob": "1992-09-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 132879,
@@ -721,7 +896,12 @@
       "name": "Sandra Ittlinger",
       "dob": "1994-06-24",
       "height": 181,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 136664,
@@ -749,7 +929,12 @@
       "name": "Sarah Schneider",
       "dob": "1996-01-22",
       "height": 186,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 139391,
@@ -770,7 +955,12 @@
       "name": "Louisa Lippmann",
       "dob": "1994-09-23",
       "height": 191,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 142053,
@@ -826,7 +1016,12 @@
       "name": "Viktoria Seeber",
       "dob": "1997-04-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 148500,
@@ -847,7 +1042,12 @@
       "name": "Linda Bock",
       "dob": "2000-05-27",
       "height": 182,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 153267,
@@ -859,6 +1059,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 4
       }
     },
     {
@@ -880,7 +1085,12 @@
       "name": "Sandra Ferger",
       "dob": "1991-08-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 153735,
@@ -901,7 +1111,12 @@
       "name": "Sarah Schulz",
       "dob": "1999-08-19",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 163413,
@@ -915,49 +1130,84 @@
       "name": "Hanna-Marie Schieder",
       "dob": "2001-03-21",
       "height": 189,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 163416,
       "name": "Chenoa Christ",
       "dob": "2000-11-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 166925,
       "name": "Lea Sophie Kunst",
       "dob": "2001-12-18",
       "height": 186,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 168101,
       "name": "Anna-Lena Grüne",
       "dob": "2001-10-30",
       "height": 175,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 168121,
       "name": "Nele Schmitt",
       "dob": "2001-02-11",
       "height": 185,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 168371,
       "name": "Paula Schürholz",
       "dob": "2002-01-07",
       "height": 180,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 169016,
       "name": "Elea Beutel",
       "dob": "2003-12-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169546,
@@ -1027,14 +1277,24 @@
       "name": "Melanie Paul",
       "dob": "2000-10-27",
       "height": 177,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 182792,
       "name": "Janne Uhl",
       "dob": "2005-11-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 184132,
@@ -1083,14 +1343,24 @@
       "name": "Rika Dieckmann",
       "dob": "2008-11-11",
       "height": 182,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 203700,
       "name": "Sophia Neuß",
       "dob": "2006-07-02",
       "height": 181,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 203701,

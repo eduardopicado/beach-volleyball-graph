@@ -105,28 +105,48 @@
       "name": "Intuch Techakijvorakul",
       "dob": "1995-08-20",
       "height": 188,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 139613,
       "name": "Surin Jongklang",
       "dob": "1996-05-03",
       "height": 186,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 141603,
       "name": "Dunwinit Kaewsai",
       "dob": "1993-01-16",
       "height": 188,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 145996,
       "name": "Banlue Nakprakhong",
       "dob": "1996-07-10",
       "height": 192,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 145998,
@@ -140,14 +160,24 @@
       "name": "Adisorn Khaolumtarn",
       "dob": "1990-07-26",
       "height": 200,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 150563,
       "name": "Nuttanon Inkiew",
       "dob": "1992-03-23",
       "height": 180,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 155907,
@@ -168,7 +198,12 @@
       "name": "Narongdet Kangkon",
       "dob": "1996-11-13",
       "height": 181,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 156414,
@@ -238,28 +273,48 @@
       "name": "Pithak Tipjan",
       "dob": "1998-09-04",
       "height": 194,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 172216,
       "name": "Poravid Taovato",
       "dob": "2001-06-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 177865,
       "name": "Netitorn Muneekul",
       "dob": "2002-01-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 177866,
       "name": "Wachirawit Muadpha",
       "dob": "2002-04-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 177868,

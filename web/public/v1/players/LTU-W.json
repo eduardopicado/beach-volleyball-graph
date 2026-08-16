@@ -98,7 +98,12 @@
       "name": "Ieva Dumbauskaite",
       "dob": "1994-09-07",
       "height": 183,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 132827,
@@ -112,21 +117,36 @@
       "name": "Erika Kliokmanaite",
       "dob": "1985-01-13",
       "height": 188,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 135488,
       "name": "Monika Paulikiene",
       "dob": "1994-08-30",
       "height": 176,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 139477,
       "name": "Urte Andriukaityte",
       "dob": "1996-12-18",
       "height": 186,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139478,
@@ -140,7 +160,12 @@
       "name": "Vytene Vitkauskaite",
       "dob": "1993-07-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 141990,
@@ -168,7 +193,12 @@
       "name": "Jekaterina Saule",
       "dob": "1999-12-09",
       "height": 176,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 153208,
@@ -182,7 +212,12 @@
       "name": "Ieva Vasiliauskaite",
       "dob": "1999-12-13",
       "height": 179,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 156699,
@@ -196,14 +231,24 @@
       "name": "Gerda Grudzinskaite",
       "dob": "1999-06-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 163333,
       "name": "Rugile Grudzinskaite",
       "dob": "2000-09-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 163509,
@@ -217,28 +262,48 @@
       "name": "Ariana Rudkovskaja",
       "dob": "2003-04-23",
       "height": 170,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 169390,
       "name": "Aine Raupelyte",
       "dob": "2000-07-28",
       "height": 197,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 169437,
       "name": "Skalve Krizanauskaite",
       "dob": "2002-07-31",
       "height": 179,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 169438,
       "name": "Daniele Kvedaraite",
       "dob": "2002-05-29",
       "height": 187,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 174260,

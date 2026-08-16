@@ -8,6 +8,11 @@
       "dob": "1980-06-14",
       "height": 179,
       "weight": 65,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      },
       "away": [
         {
           "id": 103997,

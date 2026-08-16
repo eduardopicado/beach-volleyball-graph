@@ -7,28 +7,48 @@
       "name": "Diane Pascua",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118630,
       "name": "Heidi Ilustre",
       "dob": "1977-12-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 135449,
       "name": "Jovelyn Gonzaga",
       "dob": "1991-10-30",
       "height": 170,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 149590,
       "name": "Cherry Ann Rondina",
       "dob": "1996-09-04",
       "height": 166,
-      "weight": 55
+      "weight": 55,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 165039,
@@ -91,14 +111,24 @@
       "name": "Genesa Jane Eslapor",
       "dob": "1999-07-28",
       "height": 170,
-      "weight": 58
+      "weight": 58,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 173224,
       "name": "Floremel Rodriguez",
       "dob": "1996-08-29",
       "height": 168,
-      "weight": 57
+      "weight": 57,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 173225,

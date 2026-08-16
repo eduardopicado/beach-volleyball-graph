@@ -154,14 +154,24 @@
       "name": "Linyin Xu",
       "dob": "1986-03-20",
       "height": 200,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 4
+      }
     },
     {
       "id": 104662,
       "name": "Penggen Wu",
       "dob": "1982-05-07",
       "height": 198,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 4
+      }
     },
     {
       "id": 104663,
@@ -238,7 +248,12 @@
       "name": "Peng Gao",
       "dob": "1989-08-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 118581,
@@ -308,7 +323,12 @@
       "name": "Yang Li",
       "dob": "1988-10-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 125610,
@@ -357,7 +377,12 @@
       "name": "Zhuoxin Li",
       "dob": "1989-10-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 135340,
@@ -371,7 +396,12 @@
       "name": "Jiaxin Wu",
       "dob": "1993-05-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 7,
+        "silver": 0,
+        "bronze": 4
+      }
     },
     {
       "id": 138252,
@@ -385,7 +415,12 @@
       "name": "Likejiang Ha",
       "dob": "1992-08-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 5,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 141675,
@@ -406,7 +441,12 @@
       "name": "Jie Li",
       "dob": "1993-11-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 141805,
@@ -462,7 +502,12 @@
       "name": "Chaowei Zhou",
       "dob": "1996-08-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 147671,
@@ -476,7 +521,12 @@
       "name": "Yanwei Wang",
       "dob": "1995-09-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 151532,
@@ -623,7 +673,12 @@
       "name": "Sihong Guo",
       "dob": "2000-12-20",
       "height": 198,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 165972,
@@ -686,7 +741,12 @@
       "name": "Jinyang Song",
       "dob": "2006-04-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 189769,
@@ -714,7 +774,12 @@
       "name": "Yuan Mao",
       "dob": "2005-03-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 192834,
@@ -749,7 +814,12 @@
       "name": "Hongjun Du",
       "dob": "2001-06-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 202987,
@@ -812,7 +882,12 @@
       "name": "Yuan Liu",
       "dob": "2008-03-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 210512,

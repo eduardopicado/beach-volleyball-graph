@@ -77,7 +77,12 @@
       "name": "Norisbeth Isais Agudo Gonzalez",
       "dob": "1992-05-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 132732,
@@ -147,7 +152,12 @@
       "name": "Gabriela Brito",
       "dob": "1993-11-26",
       "height": 173,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 143083,

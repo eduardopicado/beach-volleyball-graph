@@ -301,14 +301,24 @@
       "name": "Dhita Juliana",
       "dob": "1993-07-07",
       "height": 170,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135473,
       "name": "Putu Utami",
       "dob": "1994-01-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 143023,

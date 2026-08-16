@@ -7,14 +7,24 @@
       "name": "Julien \"Thunder\" Prosser",
       "dob": "1972-06-11",
       "height": 193,
-      "weight": 105
+      "weight": 105,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 8
+      }
     },
     {
       "id": 100040,
       "name": "Andrew \"Andy\" Burdin",
       "dob": "1964-11-18",
       "height": 188,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100065,
@@ -168,7 +178,12 @@
       "name": "Lee \"Leo\" Zahner",
       "dob": "1974-03-13",
       "height": 199,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 6
+      }
     },
     {
       "id": 100695,
@@ -180,6 +195,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
       }
     },
     {
@@ -297,6 +317,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
       }
     },
     {
@@ -319,6 +344,11 @@
       "dob": "1977-06-05",
       "height": 197,
       "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
       "away": [
         {
           "id": 104338,
@@ -483,6 +513,11 @@
       "dob": "1979-01-27",
       "height": 197,
       "weight": 87,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 102087,
@@ -668,7 +703,12 @@
       "name": "Christopher McHugh",
       "dob": "1989-08-31",
       "height": 197,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 118116,
@@ -703,7 +743,12 @@
       "name": "Isaac Kapa",
       "dob": "1985-07-23",
       "height": 200,
-      "weight": 97
+      "weight": 97,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119354,
@@ -808,7 +853,12 @@
       "name": "Cole Durant",
       "dob": "1991-11-08",
       "height": 198,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125174,
@@ -829,7 +879,12 @@
       "name": "Damien Schumann",
       "dob": "1987-11-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 132381,
@@ -920,21 +975,36 @@
       "name": "Thomas Hodges",
       "dob": "1994-07-04",
       "height": 197,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 142151,
       "name": "Zachery Schubert",
       "dob": "1995-12-23",
       "height": 198,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 3
+      }
     },
     {
       "id": 142166,
       "name": "Maximilian Guehrer",
       "dob": "1996-09-07",
       "height": 204,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 142167,
@@ -1046,7 +1116,12 @@
       "name": "Justin Schumann",
       "dob": "1998-02-05",
       "height": 181,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 155510,
@@ -1067,7 +1142,12 @@
       "name": "Mark Nicolaidis",
       "dob": "2000-07-20",
       "height": 185,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 155531,
@@ -1102,7 +1182,12 @@
       "name": "Paul Burnett",
       "dob": "1998-01-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 4
+      }
     },
     {
       "id": 155756,
@@ -1158,7 +1243,12 @@
       "name": "Izac Carracher",
       "dob": "1999-09-14",
       "height": 199,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 172206,
@@ -1179,21 +1269,36 @@
       "name": "Jack Pearse",
       "dob": "2002-02-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 178254,
       "name": "Solomon Bushby",
       "dob": "2002-08-29",
       "height": 204,
-      "weight": 99
+      "weight": 99,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 178265,
       "name": "Joshua Howat",
       "dob": "2002-05-31",
       "height": 193,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 178269,
@@ -1263,7 +1368,12 @@
       "name": "Ben Hood",
       "dob": "2004-06-22",
       "height": 197,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 186870,
@@ -1368,7 +1478,12 @@
       "name": "D'Artagnan Potts",
       "dob": "2003-07-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 187447,
@@ -1382,7 +1497,12 @@
       "name": "Luke Ryan",
       "dob": "2004-11-10",
       "height": 197,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 198969,
@@ -1396,7 +1516,12 @@
       "name": "Jed Walker",
       "dob": "2004-04-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 199771,
@@ -1424,7 +1549,12 @@
       "name": "Finley Bennett",
       "dob": "2006-09-20",
       "height": 200,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 199837,

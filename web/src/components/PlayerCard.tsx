@@ -254,6 +254,16 @@ export function PlayerCard({
             <dd aria-label={medalAriaLabel(detail.worldChamps)}>{formatMedals(detail.worldChamps)}</dd>
           </div>
         )}
+        {/* Last of the three, and the one most players who have any will have:
+            the tour is where a career is actually spent. Broken out by colour
+            like the other two rather than totalled — a total says 149 and
+            loses that 73 of them were wins. */}
+        {detail?.tour && (
+          <div>
+            <dt>Tour podiums</dt>
+            <dd aria-label={medalAriaLabel(detail.tour)}>{formatMedals(detail.tour)}</dd>
+          </div>
+        )}
       </dl>
 
       <section className="partners">

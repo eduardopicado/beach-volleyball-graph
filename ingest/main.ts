@@ -39,6 +39,7 @@ import { TIER_LABEL, INCLUDE_AGE_GROUP } from './tiers.js';
 import {
   aggregateMedals,
   aggregatePartnerships,
+  aggregateTourPodiums,
   awayPartnersByPlayer,
   isCancelled,
   medalTournaments,
@@ -213,6 +214,12 @@ async function main() {
   const medalsByPlayer = aggregateMedals(teamRows, medals);
   log('medals', `${medalsByPlayer.size} players with an Olympic or World Championships medal`);
 
+  // Tour podiums are the other end of the same question: the Olympics and the
+  // World Championships say who peaked, this says who kept turning up on
+  // Sundays. Levels mixed on purpose -- see aggregateTourPodiums.
+  const podiumsByPlayer = aggregateTourPodiums(teamRows, tournaments);
+  log('podiums', `${podiumsByPlayer.size} players with a World Tour or Beach Pro Tour podium`);
+
   // A collapse in matched entries means the upstream shape changed. Better to
   // fail loudly than to publish a graph that quietly lost most of its edges.
   if (partnerships.size < 1000) {
@@ -296,6 +303,7 @@ async function main() {
       players: slice.nodes.map((node) => {
         const p = players.get(node.id)!;
         const m = medalsByPlayer.get(node.id);
+        const podium = podiumsByPlayer.get(node.id);
         return {
           id: node.id,
           name: p.name,
@@ -304,6 +312,7 @@ async function main() {
           weight: p.weight,
           olympics: m && hasMedal(m.olympics) ? m.olympics : undefined,
           worldChamps: m && hasMedal(m['world-champs']) ? m['world-champs'] : undefined,
+          tour: podium && hasMedal(podium) ? podium : undefined,
           away: awayPartners.get(node.id),
         };
       }),

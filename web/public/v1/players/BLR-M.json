@@ -154,7 +154,12 @@
       "name": "Aliaksandr Dziadkou",
       "dob": "1990-02-20",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118973,
@@ -224,7 +229,12 @@
       "name": "Pavel Piatrushka",
       "dob": "1993-09-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     }
   ]
 }

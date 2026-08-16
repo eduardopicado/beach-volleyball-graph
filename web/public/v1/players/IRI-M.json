@@ -56,14 +56,24 @@
       "name": "Aghamohammad Salagh",
       "dob": "1980-08-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132786,
       "name": "Rahman Raoufi",
       "dob": "1978-04-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 132787,
@@ -112,7 +122,12 @@
       "name": "Bahman Salemiinjehboroun",
       "dob": "1989-01-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 147775,
@@ -133,21 +148,36 @@
       "name": "Abolhamed Mirzaali",
       "dob": "1989-02-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 150606,
       "name": "Abbas Pourasgari",
       "dob": "1988-12-21",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 155519,
       "name": "Arash Vakili",
       "dob": "1990-09-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 155520,
@@ -182,7 +212,12 @@
       "name": "Javad Firouzpourbandpei",
       "dob": "1997-03-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156525,
@@ -196,7 +231,12 @@
       "name": "Alireza Aghajanighasab",
       "dob": "1998-08-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 160889,

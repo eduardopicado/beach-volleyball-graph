@@ -21,14 +21,24 @@
       "name": "Igor Stejskal",
       "dob": "1968-10-14",
       "height": 200,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100651,
       "name": "Petr Chromy",
       "dob": "1970-04-07",
       "height": 190,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100782,
@@ -84,7 +94,12 @@
       "name": "Premysl Kubala",
       "dob": "1973-12-16",
       "height": 202,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101431,
@@ -182,7 +197,12 @@
       "name": "Martin \"Tony\" Lebl",
       "dob": "1980-04-12",
       "height": 201,
-      "weight": 105
+      "weight": 105,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102721,
@@ -238,7 +258,12 @@
       "name": "Michal Biza",
       "dob": "1978-05-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103395,
@@ -259,7 +284,12 @@
       "name": "Miroslav Svoboda",
       "dob": "1979-09-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103555,
@@ -273,7 +303,12 @@
       "name": "Jaroslav Pavlas",
       "dob": "1979-01-01",
       "height": 188,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103806,
@@ -326,14 +361,24 @@
       "name": "Jindrich Weiss",
       "dob": "1984-05-17",
       "height": 188,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104977,
       "name": "Robert Kufa",
       "dob": "1987-08-28",
       "height": 193,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104978,
@@ -347,7 +392,12 @@
       "name": "Martin Tichy",
       "dob": "1986-06-07",
       "height": 190,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104985,
@@ -382,7 +432,12 @@
       "name": "David Kufa",
       "dob": "1982-08-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 117904,
@@ -592,7 +647,12 @@
       "name": "David Lenc",
       "dob": "1990-10-23",
       "height": 187,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132861,
@@ -653,6 +713,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 8,
+        "bronze": 3
       }
     },
     {
@@ -695,7 +760,12 @@
       "name": "Filip Habr",
       "dob": "1988-04-27",
       "height": 202,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 139582,
@@ -709,21 +779,36 @@
       "name": "Martin Pihera",
       "dob": "1994-05-06",
       "height": 190,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142008,
       "name": "Marcel Myslivecek",
       "dob": "1985-08-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147876,
       "name": "Vaclav Bercik",
       "dob": "1996-09-22",
       "height": 190,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147877,
@@ -758,7 +843,12 @@
       "name": "Donovan Dzavoronok",
       "dob": "1997-07-23",
       "height": 202,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 153201,
@@ -784,6 +874,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 7,
+        "bronze": 3
       }
     },
     {
@@ -791,7 +886,12 @@
       "name": "Jiri Sedlak",
       "dob": "2000-01-19",
       "height": 193,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 156061,
@@ -833,7 +933,12 @@
       "name": "Matyas Dzavoronok",
       "dob": "2001-09-05",
       "height": 198,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 158972,
@@ -889,7 +994,12 @@
       "name": "Jakub Sepka",
       "dob": "2002-03-05",
       "height": 190,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 168821,
@@ -903,7 +1013,12 @@
       "name": "Tadeas Trousil",
       "dob": "2001-07-24",
       "height": 187,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 169596,
@@ -952,7 +1067,12 @@
       "name": "Matyas Jezek",
       "dob": "2000-01-30",
       "height": 184,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 175537,
@@ -980,7 +1100,12 @@
       "name": "Adam Waber",
       "dob": "2000-12-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 178311,
@@ -1022,7 +1147,12 @@
       "name": "Vaclav Kurka",
       "dob": "2003-08-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179910,
@@ -1043,7 +1173,12 @@
       "name": "Krystof Jan Oliva",
       "dob": "2004-06-09",
       "height": 197,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 182198,

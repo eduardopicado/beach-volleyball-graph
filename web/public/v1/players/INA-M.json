@@ -182,7 +182,12 @@
       "name": "Ade Rachmawan",
       "dob": "1992-12-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 142853,
@@ -196,7 +201,12 @@
       "name": "Mohammad Ashfiya",
       "dob": "1996-05-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 154704,
@@ -231,7 +241,12 @@
       "name": "Bintang Akbar",
       "dob": "2001-03-05",
       "height": 185,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 167131,
@@ -259,7 +274,12 @@
       "name": "Sofyan Rachman Efendi",
       "dob": "2003-04-06",
       "height": 190,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     }
   ]
 }

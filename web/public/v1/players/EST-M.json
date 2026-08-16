@@ -28,7 +28,12 @@
       "name": "Kristjan Kais",
       "dob": "1976-03-03",
       "height": 188,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100893,
@@ -70,7 +75,12 @@
       "name": "Rivo Vesik",
       "dob": "1980-07-15",
       "height": 198,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104036,
@@ -266,7 +276,12 @@
       "name": "Urmas Piik",
       "dob": "1986-06-19",
       "height": 193,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 143835,
@@ -294,21 +309,36 @@
       "name": "Dimitriy Korotkov",
       "dob": "1998-10-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 149120,
       "name": "Mart Tiisaar",
       "dob": "1991-11-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 155460,
       "name": "Kusti Nõlvak",
       "dob": "1991-11-06",
       "height": 189,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 157777,

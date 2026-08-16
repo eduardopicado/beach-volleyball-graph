@@ -12,6 +12,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 4,
+        "bronze": 5
       }
     },
     {
@@ -24,6 +29,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 4,
+        "bronze": 5
       }
     },
     {
@@ -36,6 +46,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 0,
+        "bronze": 3
       }
     },
     {
@@ -43,42 +58,72 @@
       "name": "Angela \"The Rock\" Rock",
       "dob": "1963-10-15",
       "height": 172,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 100273,
       "name": "Barbra Fontana",
       "dob": "1965-09-08",
       "height": 168,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 5,
+        "silver": 5,
+        "bronze": 6
+      }
     },
     {
       "id": 100274,
       "name": "Lori Forsythe",
       "dob": "1959-06-05",
       "height": 185,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 100310,
       "name": "Elaine \"E\" Roque",
       "dob": "1960-01-31",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100311,
       "name": "Gail Castro",
       "dob": "1957-11-12",
       "height": 180,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100312,
       "name": "Debra \"Deb\" Richardson",
       "dob": "1961-02-17",
       "height": 184,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100313,
@@ -124,14 +169,24 @@
       "name": "Linda Hanley",
       "dob": "1960-06-08",
       "height": 175,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 100554,
       "name": "Alison \"Ali\" Wood",
       "dob": "1967-12-14",
       "height": 182,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100555,
@@ -164,6 +219,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 7
       }
     },
     {
@@ -210,14 +270,24 @@
       "name": "Christine \"Schaef\" Schaefer",
       "dob": "1968-08-27",
       "height": 182,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100672,
       "name": "Danalee Bragado",
       "dob": "1971-07-09",
       "height": 182,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 100686,
@@ -225,6 +295,11 @@
       "dob": "1970-10-06",
       "height": 188,
       "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 100358,
@@ -278,7 +353,12 @@
       "name": "Anna Karolyna \"Karrie\" Poppinga",
       "dob": "1969-03-04",
       "height": 182,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100715,
@@ -295,6 +375,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 19,
+        "silver": 13,
+        "bronze": 13
       }
     },
     {
@@ -323,7 +408,12 @@
       "name": "Graciela \"Gracie\" Santana Baeni",
       "dob": "1970-09-01",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100752,
@@ -344,7 +434,12 @@
       "name": "Linda \"Chisy\" Chisholm Carillo",
       "dob": "1957-12-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100979,
@@ -379,7 +474,12 @@
       "name": "Patricia \"Pat\" Keller - Killiany",
       "dob": "1968-09-09",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100986,
@@ -407,7 +507,12 @@
       "name": "Marsha Miller",
       "dob": "1969-01-15",
       "height": 185,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100990,
@@ -421,14 +526,24 @@
       "name": "Nancy Mason",
       "dob": "1970-11-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 101407,
       "name": "Leanne McSorley",
       "dob": "1973-02-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101412,
@@ -486,6 +601,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 3
       }
     },
     {
@@ -498,6 +618,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 3
       }
     },
     {
@@ -522,6 +647,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 12,
+        "silver": 10,
+        "bronze": 15
       }
     },
     {
@@ -599,7 +729,12 @@
       "name": "Jennifer Pavley",
       "dob": "1976-06-17",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102850,
@@ -616,6 +751,11 @@
         "gold": 3,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 37,
+        "silver": 17,
+        "bronze": 8
       }
     },
     {
@@ -637,7 +777,12 @@
       "name": "Heather Lowe",
       "dob": "1975-04-13",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103011,
@@ -654,6 +799,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 11,
+        "bronze": 11
       }
     },
     {
@@ -668,21 +818,36 @@
       "name": "Rachel Wacholder",
       "dob": "1975-06-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 4
+      }
     },
     {
       "id": 103135,
       "name": "Kathryn \"Katie\" Jameson",
       "dob": "1977-12-23",
       "height": 168,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103136,
       "name": "Tracy Lindquist",
       "dob": "1981-03-17",
       "height": 165,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103229,
@@ -696,7 +861,12 @@
       "name": "Dianne DeNecochea",
       "dob": "1967-11-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103242,
@@ -713,6 +883,11 @@
         "gold": 3,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 50,
+        "silver": 19,
+        "bronze": 12
       }
     },
     {
@@ -734,7 +909,12 @@
       "name": "Lia Young",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103666,
@@ -846,7 +1026,12 @@
       "name": "Angela Akers",
       "dob": "1976-06-30",
       "height": 183,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 104550,
@@ -872,6 +1057,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
       }
     },
     {
@@ -879,7 +1069,12 @@
       "name": "Nicole Branagh",
       "dob": "1979-01-31",
       "height": 188,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 7
+      }
     },
     {
       "id": 104998,
@@ -935,7 +1130,12 @@
       "name": "Brittany Hochevar",
       "dob": "1981-05-26",
       "height": 184,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 114042,
@@ -973,6 +1173,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 5,
+        "silver": 1,
+        "bronze": 2
       }
     },
     {
@@ -980,7 +1185,12 @@
       "name": "Geena Urango",
       "dob": "1989-08-02",
       "height": 179,
-      "weight": 50
+      "weight": 50,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 116622,
@@ -1043,7 +1253,12 @@
       "name": "Tyra Turner",
       "dob": "1976-07-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 5,
+        "bronze": 4
+      }
     },
     {
       "id": 117570,
@@ -1078,7 +1293,12 @@
       "name": "Courtney Guerra",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118143,
@@ -1116,6 +1336,11 @@
         "gold": 1,
         "silver": 2,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 25,
+        "silver": 15,
+        "bronze": 13
       }
     },
     {
@@ -1172,7 +1397,12 @@
       "name": "Ashley Ivy",
       "dob": "1980-10-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119658,
@@ -1186,14 +1416,24 @@
       "name": "Jennifer Fopma",
       "dob": "1981-10-30",
       "height": 190,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119665,
       "name": "Alicia Ruen",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 119980,
@@ -1235,21 +1475,36 @@
       "name": "Caitlin Ledoux",
       "dob": "1990-06-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 120737,
       "name": "Lara Dykstra",
       "dob": "1993-01-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 120880,
       "name": "Summer Ross",
       "dob": "1992-12-20",
       "height": 188,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 120934,
@@ -1270,7 +1525,12 @@
       "name": "Whitney Pavlik",
       "dob": "1983-11-03",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 122080,
@@ -1298,7 +1558,12 @@
       "name": "Amanda Dowdy",
       "dob": "1990-05-05",
       "height": 191,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125122,
@@ -1312,14 +1577,24 @@
       "name": "Tealle Hunkus",
       "dob": "1985-01-10",
       "height": 183,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125124,
       "name": "Brooke Sweat",
       "dob": "1986-03-27",
       "height": 173,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 8
+      }
     },
     {
       "id": 125125,
@@ -1354,7 +1629,12 @@
       "name": "Lisa Rutledge",
       "dob": "1981-09-10",
       "height": 188,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 131257,
@@ -1417,14 +1697,24 @@
       "name": "Emily Capers",
       "dob": "1987-08-09",
       "height": 186,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 133933,
       "name": "Kelly Reeves",
       "dob": "1992-04-08",
       "height": 182,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 133934,
@@ -1445,7 +1735,12 @@
       "name": "Emily Stockman",
       "dob": "1988-06-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 135564,
@@ -1471,6 +1766,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 1,
+        "bronze": 6
       }
     },
     {
@@ -1492,7 +1792,12 @@
       "name": "Carli Lloyd",
       "dob": "1989-08-06",
       "height": 180,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 137397,
@@ -1513,7 +1818,12 @@
       "name": "Irene Pollock",
       "dob": "1988-11-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 138238,
@@ -1548,7 +1858,12 @@
       "name": "Kamila Tan",
       "dob": "1994-09-10",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139256,
@@ -1569,21 +1884,36 @@
       "name": "Jace Pardon",
       "dob": "1993-06-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 139838,
       "name": "Christian Jones",
       "dob": "1996-10-30",
       "height": 188,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 139854,
       "name": "Sarah Sponcil",
       "dob": "1996-08-16",
       "height": 178,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 139858,
@@ -1602,6 +1932,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 5,
+        "bronze": 4
       }
     },
     {
@@ -1616,7 +1951,12 @@
       "name": "Sarah Murphy",
       "dob": "1988-11-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 141934,
@@ -1637,7 +1977,12 @@
       "name": "Delaney Mewhirter",
       "dob": "1995-08-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 143967,
@@ -1658,21 +2003,36 @@
       "name": "Kimberly Dicello",
       "dob": "1984-09-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 145629,
       "name": "Susannah Muno",
       "dob": "1996-05-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146051,
       "name": "Kendra Vanzwieten",
       "dob": "1985-02-08",
       "height": 170,
-      "weight": 125
+      "weight": 125,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146258,
@@ -1686,7 +2046,12 @@
       "name": "Betsi Flint",
       "dob": "1992-08-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 5,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 146694,
@@ -1700,7 +2065,12 @@
       "name": "Kelley Kolinske",
       "dob": "1992-05-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 146722,
@@ -1756,14 +2126,24 @@
       "name": "Hailey Harward",
       "dob": "1998-03-19",
       "height": 178,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147396,
       "name": "Aurora Davis",
       "dob": "1991-07-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 147867,
@@ -1833,7 +2213,12 @@
       "name": "Torrey Van Winden",
       "dob": "1998-05-29",
       "height": 191,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 156219,
@@ -1861,35 +2246,60 @@
       "name": "Jaden Whitmarsh",
       "dob": "2000-05-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 157791,
       "name": "Madison Witt",
       "dob": "1995-02-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 157792,
       "name": "McKenna Thibodeau",
       "dob": "1995-02-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 157794,
       "name": "Corinne Quiggle",
       "dob": "1997-05-11",
       "height": null,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 157946,
       "name": "Molly Phillips",
       "dob": "2001-01-31",
       "height": 188,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 161112,
@@ -1910,7 +2320,12 @@
       "name": "Teegan Van Gunst",
       "dob": "1995-02-17",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 162019,
@@ -1924,7 +2339,12 @@
       "name": "Savannah Cory",
       "dob": "1998-09-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 162422,
@@ -1943,6 +2363,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 14,
+        "silver": 4,
+        "bronze": 2
       }
     },
     {
@@ -1950,28 +2375,48 @@
       "name": "Deahna Kraft",
       "dob": "1998-10-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 162448,
       "name": "Terese Cannon",
       "dob": "1995-10-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 9,
+        "bronze": 5
+      }
     },
     {
       "id": 162493,
       "name": "Emily Sonny",
       "dob": "1998-06-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 162498,
       "name": "Bree Scarbrough",
       "dob": "1993-05-16",
       "height": 183,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 165164,
@@ -2076,7 +2521,12 @@
       "name": "Devon Newberry",
       "dob": "2000-12-20",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 167940,
@@ -2202,7 +2652,12 @@
       "name": "Lindsey Sparks",
       "dob": "2000-01-18",
       "height": 175,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 167964,
@@ -2237,7 +2692,12 @@
       "name": "Megan Kraft",
       "dob": "2002-09-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 6,
+        "bronze": 4
+      }
     },
     {
       "id": 168252,
@@ -2279,21 +2739,36 @@
       "name": "Katie Horton",
       "dob": "1995-03-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 169431,
       "name": "Alexandra Wheeler",
       "dob": "1995-09-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169699,
       "name": "Ally Batenhorst",
       "dob": "2002-07-26",
       "height": 193,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 169891,
@@ -2314,28 +2789,48 @@
       "name": "Jessica Foster",
       "dob": "1996-05-16",
       "height": 186,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 170386,
       "name": "Carly Kan",
       "dob": "1995-01-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 170643,
       "name": "Molly Shaw",
       "dob": "1996-06-23",
       "height": 173,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 4,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 170672,
       "name": "Madelyne Anderson",
       "dob": "2001-12-26",
       "height": 187,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 170673,
@@ -2367,7 +2862,12 @@
       "name": "Cassie House",
       "dob": "1994-12-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 171799,
@@ -2395,7 +2895,12 @@
       "name": "Alaina Chacon",
       "dob": "1999-01-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 173076,
@@ -2416,7 +2921,12 @@
       "name": "Jade Race",
       "dob": "1993-11-24",
       "height": 162,
-      "weight": 52
+      "weight": 52,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 175514,
@@ -2437,21 +2947,36 @@
       "name": "Natalie Myszkowski",
       "dob": "2003-04-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 177728,
       "name": "Kimberly Hildreth",
       "dob": "1991-01-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 178041,
       "name": "Katie Lindstrom",
       "dob": "1992-07-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 178713,
@@ -2486,7 +3011,12 @@
       "name": "Xolani Hodel",
       "dob": "2002-06-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 182523,
@@ -2507,21 +3037,36 @@
       "name": "Lexy Denaburg",
       "dob": "2001-06-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 182816,
       "name": "Julia Donlin",
       "dob": "1997-06-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 182934,
       "name": "Iya Lindahl",
       "dob": "1998-05-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 183869,
@@ -2540,6 +3085,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 14,
+        "silver": 4,
+        "bronze": 2
       }
     },
     {
@@ -2554,14 +3104,24 @@
       "name": "Tambre Nobles",
       "dob": "1993-04-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 187527,
       "name": "Toni Rodriguez",
       "dob": "1996-09-13",
       "height": 186,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 187533,
@@ -2589,14 +3149,24 @@
       "name": "Tiffany Svenssohn",
       "dob": "1995-04-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 190472,
       "name": "Brook Bauer",
       "dob": "1998-09-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 191602,
@@ -2666,7 +3236,12 @@
       "name": "Alexis Durish",
       "dob": "2004-03-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 192400,
@@ -2687,7 +3262,12 @@
       "name": "Kylie Kuyava-De Berg",
       "dob": "1999-03-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 195661,
@@ -2708,7 +3288,12 @@
       "name": "Avery Poppinga",
       "dob": "1999-04-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 201745,
@@ -2722,14 +3307,24 @@
       "name": "Kelly Kool",
       "dob": "1990-07-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 203276,
       "name": "Kennedy Coakley",
       "dob": "2005-09-18",
       "height": 187,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 203278,
@@ -2757,21 +3352,36 @@
       "name": "Mariah Whalen",
       "dob": "1998-09-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 204473,
       "name": "Erica Brok",
       "dob": "1999-01-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 204474,
       "name": "Kaeli Crews",
       "dob": "2001-12-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 205283,
@@ -2806,7 +3416,12 @@
       "name": "Madison Shields",
       "dob": "2000-02-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 206895,
@@ -2834,7 +3449,12 @@
       "name": "Samantha Parrish",
       "dob": "1992-03-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 208956,
@@ -2848,7 +3468,12 @@
       "name": "Maya Gessner",
       "dob": "2002-02-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 209198,
@@ -2862,14 +3487,24 @@
       "name": "Chloe Loreen",
       "dob": "1999-02-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 210705,
       "name": "Clara Stowell",
       "dob": "2004-09-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 210972,
@@ -2946,7 +3581,12 @@
       "name": "Morgan Chacon",
       "dob": "2000-04-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 217289,
@@ -2967,7 +3607,12 @@
       "name": "Jordan Boulware",
       "dob": "2005-01-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 218009,
@@ -3030,7 +3675,12 @@
       "name": "Audrey Koenig",
       "dob": "2003-08-30",
       "height": 190,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 223021,

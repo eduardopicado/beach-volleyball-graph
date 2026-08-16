@@ -22,6 +22,11 @@
       "dob": "1966-12-19",
       "height": 176,
       "weight": 63,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 101683,
@@ -80,7 +85,12 @@
       "name": "Denise \"Denise the Menace\" Austin",
       "dob": "1968-06-21",
       "height": 178,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103376,
@@ -201,7 +211,12 @@
       "name": "Jessica Grimson",
       "dob": "1991-03-16",
       "height": 175,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125533,
@@ -229,7 +244,12 @@
       "name": "Victoria Palmer",
       "dob": "1986-06-24",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 133882,
@@ -263,7 +283,12 @@
       "name": "Anaya Evans",
       "dob": "1998-10-13",
       "height": 172,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 145733,
@@ -284,7 +309,12 @@
       "name": "Ellie Austin",
       "dob": "2001-07-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 155116,
@@ -319,7 +349,12 @@
       "name": "Daisy Mumby",
       "dob": "1992-01-16",
       "height": 185,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 181666,
@@ -347,7 +382,12 @@
       "name": "Kirsty Star",
       "dob": "2000-01-31",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 205758,

@@ -7,7 +7,12 @@
       "name": "Serguei Prokopiev",
       "dob": "1986-08-21",
       "height": 193,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100048,
@@ -81,7 +86,12 @@
       "name": "Dmitry Areshkin",
       "dob": "1968-09-18",
       "height": 188,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100653,
@@ -197,7 +207,12 @@
       "name": "Vladimir Kostioukov",
       "dob": "1952-10-11",
       "height": 178,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 101349,
@@ -211,7 +226,12 @@
       "name": "Sergey Ermishin",
       "dob": "1970-06-04",
       "height": 208,
-      "weight": 102
+      "weight": 102,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101423,
@@ -225,7 +245,12 @@
       "name": "Mikhail \"Rooch\" Kouchnerev",
       "dob": "1972-06-27",
       "height": 192,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101499,
@@ -239,7 +264,12 @@
       "name": "Edouard Senin",
       "dob": "1971-05-30",
       "height": 208,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 101915,
@@ -307,6 +337,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 4
       }
     },
     {
@@ -363,7 +398,12 @@
       "name": "Pavel Karpukhin",
       "dob": "1978-04-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103990,
@@ -391,7 +431,12 @@
       "name": "Yaroslav Koshkarev",
       "dob": "1985-05-21",
       "height": 194,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104042,
@@ -447,14 +492,24 @@
       "name": "Egor Moliboga",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104939,
       "name": "Leonid Kalinine",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 105012,
@@ -487,6 +542,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 3
       }
     },
     {
@@ -571,7 +631,12 @@
       "name": "Yury Bogatov",
       "dob": "1986-10-21",
       "height": 198,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118038,
@@ -585,7 +650,12 @@
       "name": "Alexey Pastukhov",
       "dob": "1989-06-28",
       "height": 191,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118175,
@@ -613,21 +683,36 @@
       "name": "Evgeniy Romashkin",
       "dob": "1986-03-17",
       "height": 182,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120033,
       "name": "Vasiliy Buralev",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 120034,
       "name": "Alexander Samoshkin",
       "dob": "1985-02-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 120048,
@@ -656,6 +741,11 @@
       "dob": "1991-05-04",
       "height": 194,
       "weight": 92,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      },
       "away": [
         {
           "id": 120578,
@@ -724,6 +814,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 6,
+        "bronze": 4
       }
     },
     {
@@ -864,14 +959,24 @@
       "name": "Andrey Bolgov",
       "dob": "1992-04-25",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 124030,
       "name": "Ruslan Bykanov",
       "dob": "1992-10-20",
       "height": 194,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124036,
@@ -885,7 +990,12 @@
       "name": "Daniil Kuvichka",
       "dob": "1990-05-10",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 124623,
@@ -899,7 +1009,12 @@
       "name": "Konstantin Semenov",
       "dob": "1989-06-09",
       "height": 210,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 5
+      }
     },
     {
       "id": 132129,
@@ -952,7 +1067,12 @@
       "name": "Maksim Hudyakov",
       "dob": "1989-10-05",
       "height": 197,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 4,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 134969,
@@ -1001,14 +1121,24 @@
       "name": "Igor Velichko",
       "dob": "1995-08-01",
       "height": 191,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 141533,
       "name": "Maxim Sivolap",
       "dob": "1996-06-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 141534,
@@ -1032,6 +1162,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 4,
+        "silver": 3,
+        "bronze": 5
       }
     },
     {
@@ -1039,7 +1174,12 @@
       "name": "Artem Yarzutkin",
       "dob": "1996-05-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 141542,
@@ -1053,7 +1193,12 @@
       "name": "Ilya Leshukov",
       "dob": "1995-12-27",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 145646,
@@ -1067,14 +1212,24 @@
       "name": "Taras Myskiv",
       "dob": "1996-02-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 145648,
       "name": "Petr Bakhnar",
       "dob": "1998-10-17",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 146568,
@@ -1102,7 +1257,12 @@
       "name": "Aleksandr Kramarenko",
       "dob": "1997-08-22",
       "height": 195,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 147531,
@@ -1113,6 +1273,11 @@
       "worldChamps": {
         "gold": 0,
         "silver": 0,
+        "bronze": 1
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 2,
         "bronze": 1
       }
     },
@@ -1128,14 +1293,24 @@
       "name": "Vladislav Ermilov",
       "dob": "1992-12-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 148705,
       "name": "Anton Kislytsyn",
       "dob": "1993-02-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 151861,
@@ -1163,14 +1338,24 @@
       "name": "Alexey Gusev",
       "dob": "2000-08-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156770,
       "name": "Pavel Shustrov",
       "dob": "2000-10-25",
       "height": 191,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156775,

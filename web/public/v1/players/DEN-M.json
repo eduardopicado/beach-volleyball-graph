@@ -149,6 +149,11 @@
       "dob": "1983-09-04",
       "height": 198,
       "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
       "away": [
         {
           "id": 102786,
@@ -264,14 +269,24 @@
       "name": "Daniel Thomsen",
       "dob": "1985-02-04",
       "height": 201,
-      "weight": 103
+      "weight": 103,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 136993,
       "name": "Morten Overgaard",
       "dob": "1992-12-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 138281,
@@ -303,21 +318,36 @@
       "name": "Kristoffer Abell",
       "dob": "1994-11-10",
       "height": 203,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 144474,
       "name": "Mads Rosager",
       "dob": "1991-03-15",
       "height": 204,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 144515,
       "name": "Jacob Cordua Stormly",
       "dob": "1990-03-17",
       "height": 190,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 144953,
@@ -338,21 +368,36 @@
       "name": "Martin Trans Hansen",
       "dob": "1996-04-23",
       "height": 188,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 157019,
       "name": "Jacob Stein Brinck",
       "dob": "1999-02-24",
       "height": 193,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 159981,
       "name": "Mads Møllgaard",
       "dob": "1995-05-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 173509,
@@ -366,7 +411,12 @@
       "name": "Nicolai Hovmann Overgaard",
       "dob": "1994-07-22",
       "height": 205,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 179489,

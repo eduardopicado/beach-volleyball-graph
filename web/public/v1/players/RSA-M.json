@@ -432,7 +432,12 @@
       "name": "Grant Goldschmidt",
       "dob": "1983-04-16",
       "height": 195,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117671,
@@ -488,7 +493,12 @@
       "name": "Leo Williams",
       "dob": "1985-05-09",
       "height": 198,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 145168,

@@ -124,6 +124,13 @@ export interface PlayerDetail {
   /** Present only when the player won at least one FIVB World Championships medal. */
   worldChamps?: MedalCounts;
   /**
+   * Podium finishes across the FIVB tour — the World Tour and the Beach Pro
+   * Tour, with levels mixed and age-group events left out. Separate from the
+   * two above rather than folded in: those are the events that define a
+   * career, and burying an Olympic gold in a total of 149 would lose it.
+   */
+  tour?: MedalCounts;
+  /**
    * Partnerships with players from another federation, which the graph drops.
    * Omitted entirely for the ~98% of players who have none.
    */

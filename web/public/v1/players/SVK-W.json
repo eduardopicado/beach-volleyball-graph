@@ -56,7 +56,12 @@
       "name": "Dominika Nestarcova",
       "dob": "1984-12-12",
       "height": 178,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 118178,
@@ -126,7 +131,12 @@
       "name": "Natalia Pridalova",
       "dob": "1990-07-05",
       "height": 189,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 4
+      }
     },
     {
       "id": 120336,
@@ -189,7 +199,12 @@
       "name": "Andrea Strbova",
       "dob": "1995-12-25",
       "height": 180,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 137170,

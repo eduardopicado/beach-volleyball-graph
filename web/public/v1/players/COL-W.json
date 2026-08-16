@@ -7,14 +7,24 @@
       "name": "Galindo Andrea",
       "dob": "1988-09-02",
       "height": 182,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 135301,
       "name": "Galindo Claudia",
       "dob": "1990-10-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 136368,

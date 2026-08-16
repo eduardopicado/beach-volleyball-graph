@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   aggregateMedals,
   aggregatePartnerships,
+  aggregateTourPodiums,
   medalTournaments,
   normalisePlayers,
   normaliseTournaments,
@@ -699,6 +700,81 @@ describe('aggregateMedals', () => {
     const nonMedal = medalTournaments([{ No: 't3', OrganizerType: '1', Type: '52' }]);
     const rows: VisRow[] = [{ ...entry('t3', 1, 2), Rank: '1' }];
     expect(aggregateMedals(rows, nonMedal).size).toBe(0);
+  });
+});
+
+describe('aggregateTourPodiums', () => {
+  /** One tournament of each tier, so the filter can be checked from both sides. */
+  const byTier = normaliseTournaments([
+    { ...tournament('1', 2024), Type: '52' }, // Elite16 -> beach-pro-tour
+    { ...tournament('2', 2015), Type: '32' }, // Major Series -> world-tour
+    { ...tournament('3', 2024), Type: '5' }, // Olympic Games
+    { ...tournament('4', 2023), Type: '4' }, // World Championships
+    { ...tournament('5', 2024), Type: '26' }, // U21 World Championships
+  ]);
+
+  it('credits both players of a podium team and ignores 4th', () => {
+    const counts = aggregateTourPodiums(
+      [
+        { ...entry('1', 1, 2), Rank: '1' },
+        { ...entry('1', 3, 4), Rank: '2' },
+        { ...entry('1', 5, 6), Rank: '3' },
+        { ...entry('1', 7, 8), Rank: '4' },
+      ],
+      byTier,
+    );
+    expect(counts.get(1)).toEqual({ gold: 1, silver: 0, bronze: 0 });
+    expect(counts.get(2)).toEqual({ gold: 1, silver: 0, bronze: 0 });
+    expect(counts.get(3)).toEqual({ gold: 0, silver: 1, bronze: 0 });
+    expect(counts.get(6)).toEqual({ gold: 0, silver: 0, bronze: 1 });
+    expect(counts.has(7)).toBe(false);
+  });
+
+  it('mixes the two tour eras into one tally', () => {
+    // A 2015 Major Series title and a 2024 Elite16 title are both one gold.
+    // FIVB has renumbered its hierarchy repeatedly and no mapping between the
+    // eras survives the archive, so there is nothing honest to weight by.
+    const counts = aggregateTourPodiums(
+      [
+        { ...entry('1', 1, 2), Rank: '1' },
+        { ...entry('2', 1, 2), Rank: '1' },
+      ],
+      byTier,
+    );
+    expect(counts.get(1)).toEqual({ gold: 2, silver: 0, bronze: 0 });
+  });
+
+  it('leaves out the Olympics and the World Championships, which are counted separately', () => {
+    const counts = aggregateTourPodiums(
+      [
+        { ...entry('3', 1, 2), Rank: '1' },
+        { ...entry('4', 1, 2), Rank: '1' },
+      ],
+      byTier,
+    );
+    expect(counts.size).toBe(0);
+  });
+
+  it('leaves out age-group world championships', () => {
+    // A U21 title next to a Grand Slam title would flatter the wrong careers.
+    expect(aggregateTourPodiums([{ ...entry('5', 1, 2), Rank: '1' }], byTier).size).toBe(0);
+  });
+
+  it('ignores a tournament the tier filter already rejected', () => {
+    // Cancelled events, national tours, King of the Court: absent from the
+    // normalised map, so they cannot contribute a podium.
+    expect(aggregateTourPodiums([{ ...entry('404', 1, 2), Rank: '1' }], byTier).size).toBe(0);
+  });
+
+  it('skips a row with a missing or self-paired player', () => {
+    const counts = aggregateTourPodiums(
+      [
+        { ...entry('1', 1, 0), Rank: '1' },
+        { ...entry('1', 2, 2), Rank: '1' },
+      ],
+      byTier,
+    );
+    expect(counts.size).toBe(0);
   });
 });
 

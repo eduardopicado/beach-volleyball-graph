@@ -294,7 +294,12 @@
       "name": "Lubos Nemec",
       "dob": "1995-03-02",
       "height": 184,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 152482,
@@ -329,7 +334,12 @@
       "name": "Adrian Petruf",
       "dob": "2003-05-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 182265,

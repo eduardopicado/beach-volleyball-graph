@@ -14,14 +14,24 @@
       "name": "Tzvetelina \"Lina\" Yanchulova",
       "dob": "1975-04-12",
       "height": 180,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102150,
       "name": "Petia Yanchulova",
       "dob": "1978-07-03",
       "height": 178,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102206,

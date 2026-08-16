@@ -56,6 +56,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 7,
+        "bronze": 13
       }
     },
     {
@@ -86,6 +91,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 9,
+        "bronze": 10
       }
     },
     {
@@ -94,6 +104,11 @@
       "dob": "1971-06-10",
       "height": 189,
       "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 100686,
@@ -203,6 +218,11 @@
       "dob": "1973-08-16",
       "height": 177,
       "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
       "away": [
         {
           "id": 100686,
@@ -220,7 +240,12 @@
       "name": "Angela \"Gadge\" Clarke",
       "dob": "1975-11-02",
       "height": 186,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101667,
@@ -266,7 +291,12 @@
       "name": "Pauline Manser",
       "dob": "1969-02-02",
       "height": 181,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 101726,
@@ -299,6 +329,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
       }
     },
     {
@@ -443,7 +478,12 @@
       "name": "Tamsin Hinchley",
       "dob": "1980-03-10",
       "height": 193,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 114845,
@@ -478,7 +518,12 @@
       "name": "Becchara Palmer",
       "dob": "1988-06-18",
       "height": 183,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117067,
@@ -537,6 +582,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 4,
+        "bronze": 7
       }
     },
     {
@@ -625,7 +675,12 @@
       "name": "Louise Bawden",
       "dob": "1981-08-07",
       "height": 184,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 125170,
@@ -656,6 +711,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 3,
+        "bronze": 8
       }
     },
     {
@@ -663,7 +723,12 @@
       "name": "Nicole Laird",
       "dob": "1993-02-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 133153,
@@ -698,14 +763,24 @@
       "name": "Jessyka Ngauamo",
       "dob": "1995-12-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 141377,
       "name": "Phoebe Bell",
       "dob": "1996-12-22",
       "height": 183,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 141391,
@@ -726,7 +801,12 @@
       "name": "Stefanie Weiler",
       "dob": "1996-01-03",
       "height": 195,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 143196,
@@ -740,7 +820,12 @@
       "name": "Brittany Kendall",
       "dob": "1996-03-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146816,
@@ -775,7 +860,12 @@
       "name": "Georgia Johnson",
       "dob": "1998-09-07",
       "height": 181,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 150562,
@@ -873,7 +963,12 @@
       "name": "Kayla Mears",
       "dob": "2003-02-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 172191,
@@ -887,7 +982,12 @@
       "name": "Jana Milutinovic",
       "dob": "2001-09-29",
       "height": 189,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 172221,
@@ -901,7 +1001,12 @@
       "name": "Jasmine Fleming",
       "dob": "2003-01-05",
       "height": 183,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 172223,
@@ -922,7 +1027,12 @@
       "name": "Stefanie Fejes",
       "dob": "2004-12-08",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 5,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 178266,
@@ -1048,7 +1158,12 @@
       "name": "Elizabeth Alchin",
       "dob": "2004-09-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 187295,
@@ -1090,7 +1205,12 @@
       "name": "Jasmine Rayner",
       "dob": "2006-06-04",
       "height": 189,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 189502,

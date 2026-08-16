@@ -82,6 +82,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
       }
     },
     {
@@ -93,6 +98,11 @@
       "olympics": {
         "gold": 0,
         "silver": 0,
+        "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 2,
         "bronze": 1
       }
     },
@@ -108,7 +118,12 @@
       "name": "Andreas \"Andy\" Scheuerpflug",
       "dob": "1967-07-13",
       "height": 196,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100804,
@@ -129,7 +144,12 @@
       "name": "Pierre-André Froehlich",
       "dob": "1969-02-08",
       "height": 198,
-      "weight": 101
+      "weight": 101,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100807,
@@ -304,14 +324,24 @@
       "name": "Markus Dieckmann",
       "dob": "1976-01-07",
       "height": 189,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 2,
+        "silver": 7,
+        "bronze": 1
+      }
     },
     {
       "id": 101481,
       "name": "Christoph Dieckmann",
       "dob": "1976-01-07",
       "height": 198,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 5,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 101482,
@@ -342,6 +372,11 @@
       "weight": 88,
       "worldChamps": {
         "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "tour": {
+        "gold": 1,
         "silver": 0,
         "bronze": 1
       }
@@ -435,7 +470,12 @@
       "name": "David \"Hase\" Klemperer",
       "dob": "1980-06-22",
       "height": 187,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 3
+      }
     },
     {
       "id": 103109,
@@ -452,6 +492,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 5,
+        "silver": 18,
+        "bronze": 10
       }
     },
     {
@@ -469,6 +514,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 2
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 11,
+        "bronze": 12
       }
     },
     {
@@ -476,7 +526,12 @@
       "name": "Niklas Rademacher",
       "dob": "1982-03-03",
       "height": 207,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103297,
@@ -502,6 +557,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
       }
     },
     {
@@ -621,7 +681,12 @@
       "name": "Tom Götz",
       "dob": "1985-02-11",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104138,
@@ -646,7 +711,12 @@
       "name": "Marcus Popp",
       "dob": "1981-09-23",
       "height": 192,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104334,
@@ -667,7 +737,12 @@
       "name": "Eric Koreng",
       "dob": "1981-05-16",
       "height": 194,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 104422,
@@ -681,14 +756,24 @@
       "name": "Mischa Urbatzka",
       "dob": "1983-03-29",
       "height": 189,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 104424,
       "name": "Sebastian Dollinger",
       "dob": "1984-11-05",
       "height": 205,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104454,
@@ -702,7 +787,12 @@
       "name": "Thomas Kaczmarek",
       "dob": "1986-01-04",
       "height": 191,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104456,
@@ -758,7 +848,12 @@
       "name": "Stefan Windscheif",
       "dob": "1987-09-10",
       "height": 188,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 105108,
@@ -772,7 +867,12 @@
       "name": "Stefan Uhmann",
       "dob": "1986-04-28",
       "height": 212,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 105126,
@@ -819,6 +919,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
       }
     },
     {
@@ -833,7 +938,12 @@
       "name": "Matthias Pompe",
       "dob": "1984-02-15",
       "height": 198,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118265,
@@ -882,7 +992,12 @@
       "name": "Markus Böckermann",
       "dob": "1986-01-14",
       "height": 198,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 0
+      }
     },
     {
       "id": 120049,
@@ -931,7 +1046,12 @@
       "name": "Lars Flüggen",
       "dob": "1990-05-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 0
+      }
     },
     {
       "id": 120849,
@@ -952,7 +1072,12 @@
       "name": "Alexander Walkenhorst",
       "dob": "1988-07-30",
       "height": 206,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 123014,
@@ -1008,7 +1133,12 @@
       "name": "Philipp Arne Bergmann",
       "dob": "1991-01-04",
       "height": 198,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 125056,
@@ -1029,14 +1159,24 @@
       "name": "Armin Dollinger",
       "dob": "1990-09-28",
       "height": 202,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 132666,
       "name": "Lorenz Schümann",
       "dob": "1992-01-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 132875,
@@ -1050,7 +1190,12 @@
       "name": "Yannick Harms",
       "dob": "1994-01-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 133717,
@@ -1064,7 +1209,12 @@
       "name": "Jonas Schröder",
       "dob": "1991-03-15",
       "height": 188,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 135671,
@@ -1078,7 +1228,12 @@
       "name": "David Poniewaz",
       "dob": "1993-07-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 136761,
@@ -1099,7 +1254,12 @@
       "name": "Max-Jonas Karpa",
       "dob": "1994-02-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 137343,
@@ -1137,6 +1297,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 5,
+        "bronze": 5
       }
     },
     {
@@ -1158,7 +1323,12 @@
       "name": "Bennet Poniewaz",
       "dob": "1993-07-06",
       "height": 194,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 143091,
@@ -1172,14 +1342,24 @@
       "name": "Eric Stadie",
       "dob": "1996-06-07",
       "height": 190,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 143617,
       "name": "Tim Holler",
       "dob": "1991-02-23",
       "height": 203,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 143618,
@@ -1212,6 +1392,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
       }
     },
     {
@@ -1219,35 +1404,60 @@
       "name": "Sven Winter",
       "dob": "1998-06-21",
       "height": 197,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 147931,
       "name": "Milan Sievers",
       "dob": "1998-03-14",
       "height": 202,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 152347,
       "name": "Paul Henning",
       "dob": "1997-09-28",
       "height": 202,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 153264,
       "name": "Robin Sowa",
       "dob": "1999-05-15",
       "height": 204,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 153266,
       "name": "Simon Kulzer",
       "dob": "1998-01-17",
       "height": 193,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 153837,
@@ -1268,7 +1478,12 @@
       "name": "Jonas Sagstetter",
       "dob": "1999-04-21",
       "height": 190,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 154959,
@@ -1287,6 +1502,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 4
       }
     },
     {
@@ -1315,7 +1535,12 @@
       "name": "Lukas Pfretzschner L.",
       "dob": "2000-01-13",
       "height": 193,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 160092,
@@ -1343,7 +1568,12 @@
       "name": "Jonas Reinhardt",
       "dob": "1998-07-30",
       "height": 196,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 164645,
@@ -1371,14 +1601,24 @@
       "name": "Simon Pfretzschner S.",
       "dob": "2002-02-06",
       "height": 192,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 168767,
       "name": "Benedikt Sagstetter",
       "dob": "2000-12-30",
       "height": 196,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 168768,
@@ -1392,7 +1632,12 @@
       "name": "Luis Kubo",
       "dob": "2000-08-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169019,
@@ -1413,14 +1658,24 @@
       "name": "Momme Lorenz",
       "dob": "2003-11-24",
       "height": 201,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 172907,
       "name": "Lui Wüst",
       "dob": "2002-05-22",
       "height": 186,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 173053,
@@ -1434,7 +1689,12 @@
       "name": "Richard Peemüller",
       "dob": "1998-02-08",
       "height": 199,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 174292,
@@ -1448,14 +1708,24 @@
       "name": "Maximilian Just",
       "dob": "2002-11-18",
       "height": 198,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 179314,
       "name": "Hennes Jorge Nissen",
       "dob": "2004-12-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 179419,
@@ -1469,7 +1739,12 @@
       "name": "Philipp Huster",
       "dob": "2002-05-22",
       "height": 206,
-      "weight": 102
+      "weight": 102,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 182343,
@@ -1483,21 +1758,36 @@
       "name": "Niklas Held",
       "dob": "2002-02-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 182794,
       "name": "Tristan Fröbel",
       "dob": "2005-10-11",
       "height": 205,
-      "weight": 102
+      "weight": 102,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 182795,
       "name": "Tamo Wüst",
       "dob": "2005-01-11",
       "height": 196,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 184134,
@@ -1595,21 +1885,36 @@
       "name": "Malte Höppner",
       "dob": "2003-08-30",
       "height": 196,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 199226,
       "name": "Tilo Rietschel",
       "dob": "2003-11-12",
       "height": 187,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 203267,
       "name": "Moritz Camp",
       "dob": "2003-05-21",
       "height": 191,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 203698,
@@ -1644,7 +1949,12 @@
       "name": "Colin Alexander Paszkiewicz",
       "dob": "2006-11-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 219583,
@@ -1686,7 +1996,12 @@
       "name": "Charlie Peters",
       "dob": "2000-08-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 223294,

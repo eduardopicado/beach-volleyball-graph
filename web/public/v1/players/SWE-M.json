@@ -7,7 +7,12 @@
       "name": "Tom Englen",
       "dob": "1969-02-19",
       "height": 190,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100306,
@@ -28,7 +33,12 @@
       "name": "Bjorn Berg",
       "dob": "1972-01-24",
       "height": 195,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100841,
@@ -91,14 +101,24 @@
       "name": "Simon Dahl",
       "dob": "1975-02-06",
       "height": 183,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102121,
       "name": "Niclas Tornberg",
       "dob": "1971-05-04",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102453,
@@ -126,7 +146,12 @@
       "name": "Mattias Magnusson",
       "dob": "1976-09-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102630,
@@ -287,14 +312,24 @@
       "name": "Stefan Gunnarsson",
       "dob": "1982-06-29",
       "height": 202,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103863,
       "name": "Hannes Brinkborg",
       "dob": "1978-07-09",
       "height": 197,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103864,
@@ -637,7 +672,12 @@
       "name": "Alexander Annerstedt",
       "dob": "1993-07-04",
       "height": 204,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 145062,
@@ -703,6 +743,11 @@
         "gold": 1,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 13,
+        "silver": 5,
+        "bronze": 4
       }
     },
     {
@@ -720,6 +765,11 @@
         "gold": 1,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 13,
+        "silver": 5,
+        "bronze": 4
       }
     },
     {
@@ -727,14 +777,24 @@
       "name": "Theodor Grahn",
       "dob": "2003-02-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168894,
       "name": "Martin Johansson",
       "dob": "1991-07-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 171940,
@@ -746,6 +806,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 4,
+        "bronze": 1
       }
     },
     {
@@ -760,7 +825,12 @@
       "name": "Linus Isaksson",
       "dob": "2003-11-05",
       "height": 186,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 182701,
@@ -774,14 +844,24 @@
       "name": "Stefan Andreasson",
       "dob": "1999-11-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 190604,
       "name": "Anton Andersson",
       "dob": "2000-03-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 201042,
@@ -800,6 +880,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 3,
+        "bronze": 1
       }
     },
     {
@@ -842,7 +927,12 @@
       "name": "Alfred Mjörnheim",
       "dob": "2002-04-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 223798,

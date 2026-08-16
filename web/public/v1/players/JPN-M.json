@@ -21,14 +21,24 @@
       "name": "Kazuyuki \"Takye\" Takao",
       "dob": "1967-05-12",
       "height": 180,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100054,
       "name": "Koichiro Kanno",
       "dob": "1967-08-18",
       "height": 186,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100055,
@@ -273,14 +283,24 @@
       "name": "Taichi Morikawa",
       "dob": "1975-02-25",
       "height": 190,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101603,
       "name": "Ko Ozaki",
       "dob": "1971-08-04",
       "height": 184,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101635,
@@ -315,7 +335,12 @@
       "name": "Katsuhiro Shiratori",
       "dob": "1976-10-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103250,
@@ -511,7 +536,12 @@
       "name": "Hitoshi Murakami",
       "dob": "1989-04-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125595,
@@ -560,7 +590,12 @@
       "name": "Yuya Ageba",
       "dob": "1983-09-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142152,
@@ -574,7 +609,12 @@
       "name": "Takumi Takahashi",
       "dob": "1991-10-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 145405,
@@ -623,7 +663,12 @@
       "name": "Kensuke Shoji",
       "dob": "1990-02-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 151850,
@@ -658,7 +703,12 @@
       "name": "Takashi Tsuchiya",
       "dob": "1987-10-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 156853,
@@ -700,7 +750,12 @@
       "name": "Masato Kurasaka",
       "dob": "1990-02-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 157646,
@@ -735,7 +790,12 @@
       "name": "Yusuke Ishijima",
       "dob": "1984-01-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 163564,
@@ -756,7 +816,12 @@
       "name": "Jumpei Ikeda",
       "dob": "1993-03-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 167588,
@@ -784,7 +849,12 @@
       "name": "Nobuaki Taira",
       "dob": "1996-08-13",
       "height": 181,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168709,

@@ -14,7 +14,12 @@
       "name": "Pi Hsin Liu",
       "dob": "1989-04-05",
       "height": 168,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 146088,
@@ -28,7 +33,12 @@
       "name": "Nai-Han Kou",
       "dob": "1982-03-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 165038,

@@ -63,7 +63,12 @@
       "name": "Tamara Larrea Peraza",
       "dob": "1973-11-25",
       "height": 183,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 102531,
@@ -84,7 +89,12 @@
       "name": "Dalixia Fernandez Grasset",
       "dob": "1977-11-26",
       "height": 177,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 103246,
@@ -126,7 +136,12 @@
       "name": "Mailen Deliz Tamayo",
       "dob": "1993-11-23",
       "height": 181,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 144259,
@@ -140,7 +155,12 @@
       "name": "Leila Consuelo Martinez Ortega",
       "dob": "1994-04-27",
       "height": 180,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     }
   ]
 }

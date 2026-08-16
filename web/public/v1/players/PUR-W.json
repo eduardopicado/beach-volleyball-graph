@@ -238,14 +238,24 @@
       "name": "Maria Claudia Gonzalez Valentin",
       "dob": "2002-05-26",
       "height": 182,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 161681,
       "name": "Allanis Navas Sanchez",
       "dob": "2002-01-04",
       "height": 162,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 189101,

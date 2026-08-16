@@ -35,7 +35,12 @@
       "name": "Haroldas Cyvas",
       "dob": "1972-09-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101791,
@@ -49,7 +54,12 @@
       "name": "Marius Vasiliauskas",
       "dob": "1974-05-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102136,
@@ -105,7 +115,12 @@
       "name": "Artur Vasiljev",
       "dob": "1992-05-12",
       "height": 191,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125191,
@@ -126,7 +141,12 @@
       "name": "Robert Juchnevic",
       "dob": "1994-07-27",
       "height": 192,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 137390,
@@ -140,7 +160,12 @@
       "name": "Arnas Rumsevicius",
       "dob": "1995-06-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 142156,
@@ -161,7 +186,12 @@
       "name": "Matas Navickas",
       "dob": "1997-03-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 143902,
@@ -175,7 +205,12 @@
       "name": "Tomas Stasevicius",
       "dob": "1987-10-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 147650,
@@ -196,7 +231,12 @@
       "name": "Audrius Knasas",
       "dob": "1998-10-16",
       "height": 189,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 153205,
@@ -224,7 +264,12 @@
       "name": "Patrikas Stankevicius",
       "dob": "1999-01-16",
       "height": 200,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 162773,
@@ -252,14 +297,24 @@
       "name": "Karolis Palubinskas",
       "dob": "2004-09-25",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 201536,
       "name": "Povilas Piesina",
       "dob": "2005-10-21",
       "height": 209,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 201537,

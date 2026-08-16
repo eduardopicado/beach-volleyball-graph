@@ -28,7 +28,12 @@
       "name": "Jasmin Cuturic",
       "dob": "1974-07-05",
       "height": 195,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102253,
@@ -42,7 +47,12 @@
       "name": "Samo Miklavc",
       "dob": "1974-10-21",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102255,
@@ -140,7 +150,12 @@
       "name": "Nejc Zemljak",
       "dob": "1988-02-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 117907,
@@ -161,7 +176,12 @@
       "name": "Vid Jakopin",
       "dob": "1988-01-02",
       "height": 203,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 119321,
@@ -203,14 +223,24 @@
       "name": "Danijel Pokeršnik",
       "dob": "1984-07-31",
       "height": 194,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132579,
       "name": "Jan Pokeršnik",
       "dob": "1989-12-15",
       "height": 200,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 133236,
@@ -280,7 +310,12 @@
       "name": "Alan Košenina",
       "dob": "1996-08-30",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 153398,
@@ -294,14 +329,24 @@
       "name": "Tadej Boženk",
       "dob": "1990-08-29",
       "height": 183,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 154046,
       "name": "Crtomir Bošnjak",
       "dob": "2000-09-21",
       "height": 196,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 155918,
@@ -336,7 +381,12 @@
       "name": "Rok Bračko",
       "dob": "2004-04-21",
       "height": 194,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 158251,
