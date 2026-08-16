@@ -6,8 +6,8 @@
  * memoised because switching country back and forth is the common interaction.
  */
 
-import type { GraphFile, Manifest, PlayersFile, Gender } from '../schema';
-import { graphPath, manifestPath, playersPath } from '../schema';
+import type { GraphFile, Manifest, PlayersFile, ResultsFile, TournamentsFile, Gender } from '../schema';
+import { graphPath, manifestPath, playersPath, resultsPath, tournamentsPath } from '../schema';
 
 /** Vite rewrites this to the deploy base ("/" or "/<repo>/"). */
 const BASE = import.meta.env.BASE_URL;
@@ -35,3 +35,16 @@ export const fetchGraph = (country: string, gender: Gender) =>
 
 export const fetchPlayers = (country: string, gender: Gender) =>
   load<PlayersFile>(playersPath(BASE, country, gender));
+
+/**
+ * The two files behind an expanded season, fetched together because neither is
+ * usable alone: the results name no tournaments, the index names no players.
+ *
+ * Deliberately not part of the slice load above — this is the largest data in
+ * the published tree and most visits never open a season at all.
+ */
+export const fetchResults = (country: string, gender: Gender) =>
+  Promise.all([
+    load<ResultsFile>(resultsPath(BASE, country, gender)),
+    load<TournamentsFile>(tournamentsPath(BASE)),
+  ]).then(([results, index]) => ({ results, tournaments: index.tournaments }));

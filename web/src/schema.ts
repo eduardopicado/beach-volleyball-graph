@@ -150,6 +150,71 @@ export interface PlayersFile {
   players: PlayerDetail[];
 }
 
+/**
+ * One tournament in the shared index: `[name, season, tier, startOffset?]`.
+ *
+ * `startOffset` is the same signed day count as `SeasonTally` carries — days
+ * from 1 January of `season` to the main draw's first day — and reconstructs
+ * the exact date, so no separate date string is published. Absent when the
+ * tournament carried no usable date.
+ */
+export type TournamentMeta =
+  | [name: string, season: number, tier: Tier]
+  | [name: string, season: number, tier: Tier, startOffset: number];
+
+/**
+ * Every qualifying tournament, keyed by FIVB tournament number.
+ *
+ * One shared file rather than a copy inside each slice: the names are the same
+ * everywhere, and 575 slices each carrying their own subset would repeat most
+ * of this file hundreds of times in a tree that is committed to git.
+ */
+export interface TournamentsFile {
+  tournaments: Record<string, TournamentMeta>;
+}
+
+/**
+ * One tournament a player entered: `[tournament number, partner id, rank]`.
+ *
+ * `rank` is FIVB's own placement, which is shared rather than unique — 89% of
+ * played rows sit on a rank another team also holds, because beach volleyball
+ * reports brackets (9th covers 9th–16th). Negative values are eliminations
+ * before the main draw; see `formatFinish`.
+ */
+export type ResultEntry = [tournament: number, partner: number, rank: number];
+
+/**
+ * Every tournament entered by every player in one slice — the detail behind
+ * the player card's timeline, loaded only when a season is expanded.
+ *
+ * Its own file rather than a field on `PlayersFile` because it is an order of
+ * magnitude larger than everything else about a player put together, and most
+ * readers never open a season at all.
+ */
+export interface ResultsFile {
+  country: string;
+  gender: Gender;
+  /**
+   * Display names for partners with no node in this slice's graph — the
+   * cross-federation pairs of `AwayPartner`, plus the handful of players FIVB
+   * files under no federation at all. In-slice partners are named by the graph.
+   */
+  names: Record<string, string>;
+  /** Player id -> the tournaments they entered, most recent first. */
+  players: Record<string, ResultEntry[]>;
+}
+
+/**
+ * Short badge for the tiers worth calling out on a result row. The two tour
+ * tiers are deliberately absent: they are the ordinary case, and a badge on
+ * every row would carry no information.
+ */
+export const TIER_BADGE: Partial<Record<Tier, string>> = {
+  olympics: 'Olympics',
+  'world-champs': 'Worlds',
+  'age-group-wch': 'Age-group',
+};
+
 export interface ManifestCountry {
   /** FIVB federation code, e.g. "BRA". */
   code: string;
@@ -187,5 +252,10 @@ export const graphPath = (base: string, country: string, gender: Gender) =>
 
 export const playersPath = (base: string, country: string, gender: Gender) =>
   `${base}${DATA_VERSION}/players/${country}-${gender}.json`;
+
+export const resultsPath = (base: string, country: string, gender: Gender) =>
+  `${base}${DATA_VERSION}/results/${country}-${gender}.json`;
+
+export const tournamentsPath = (base: string) => `${base}${DATA_VERSION}/tournaments.json`;
 
 export const manifestPath = (base: string) => `${base}${DATA_VERSION}/manifest.json`;

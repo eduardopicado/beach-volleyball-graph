@@ -12,6 +12,7 @@ import type {
   GraphEdge,
   GraphNode,
   MedalCounts,
+  ResultEntry,
   SeasonTally,
   Tier,
 } from '../web/src/schema.js';
@@ -21,6 +22,13 @@ import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
 
 export interface Tournament {
   no: string;
+  /**
+   * Display name as VIS gives it — "BPT Elite16 Hamburg", "Gstaad". Short
+   * (median 9 characters), and the gender is not in it: FIVB numbers the men's
+   * and women's draws of one event separately, so a slice only ever sees its
+   * own.
+   */
+  name: string;
   tier: Tier;
   season: number;
   version: string;
@@ -138,6 +146,10 @@ export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
     if (!no) continue;
     out.set(no, {
       no,
+      // Trimmed because some do carry trailing spaces ("FIVB Beach Volleyball
+      // World Championships  "), and numbered rather than left blank because a
+      // nameless row on the card would be indistinguishable from a bug.
+      name: (row.Name ?? '').trim() || `Tournament ${no}`,
       tier,
       season,
       version: (row.Version ?? '').trim(),
@@ -270,7 +282,40 @@ export interface AggregateResult {
   partnerships: Map<string, Partnership>;
   /** player id -> set of qualifying tournament numbers entered. */
   appearances: Map<number, Set<string>>;
+  /**
+   * player id -> every tournament they played, most recent first. The same
+   * rows as `partnerships`, kept individually instead of summed: this is what
+   * turns a season on the card from "7 with Ricardo" into the seven events.
+   */
+  results: Map<number, ResultEntry[]>;
   rejects: RejectCounts;
+}
+
+/**
+ * Most recent first, matching the card's timeline: season, then when in the
+ * season the event started, then tournament number as a stable tie-break.
+ *
+ * A season's undated events sort last rather than first. `startOffset` is
+ * missing only on malformed dates, so this is a handful of rows, but "unknown"
+ * belonging at the top of a chronological list would be the wrong default —
+ * and comparing `null` explicitly avoids the NaN a stand-in infinity produces
+ * when two undated events meet.
+ */
+export function orderResults(entries: ResultEntry[], tournaments: Map<string, Tournament>): ResultEntry[] {
+  const meta = (no: number) => tournaments.get(String(no));
+  return [...entries].sort((x, y) => {
+    const a = meta(x[0]);
+    const b = meta(y[0]);
+    if ((a?.season ?? 0) !== (b?.season ?? 0)) return (b?.season ?? 0) - (a?.season ?? 0);
+    const sa = a?.startOffset ?? null;
+    const sb = b?.startOffset ?? null;
+    if (sa !== sb) {
+      if (sa === null) return 1;
+      if (sb === null) return -1;
+      return sb - sa;
+    }
+    return y[0] - x[0];
+  });
 }
 
 /**
@@ -287,6 +332,19 @@ export function aggregatePartnerships(
 ): AggregateResult {
   const partnerships = new Map<string, Partnership>();
   const appearances = new Map<number, Set<string>>();
+  /**
+   * Keyed by `tournament:partner` inside each player so a pair that entered
+   * the qualification *and* the main draw of one event collapses to a single
+   * row — the same double-registration the `tournaments` set above absorbs.
+   * Two pairs in the whole archive; the main-draw placement is the result, so
+   * the higher rank wins.
+   *
+   * Not keyed by tournament alone: 43 players have two played rows in one
+   * event with *different* partners, and both are real entries the partner
+   * list already counts on both pairings. Collapsing those would leave a
+   * season's expanded rows short of the tallies above them.
+   */
+  const results = new Map<number, Map<string, ResultEntry>>();
   const rejects: RejectCounts = {
     missingPlayer: 0,
     selfPair: 0,
@@ -300,6 +358,14 @@ export function aggregatePartnerships(
     let set = appearances.get(id);
     if (!set) appearances.set(id, (set = new Set()));
     set.add(tournamentNo);
+  };
+
+  const noteResult = (self: number, partner: number, tournamentNo: string, rank: number) => {
+    let byKey = results.get(self);
+    if (!byKey) results.set(self, (byKey = new Map()));
+    const key = `${tournamentNo}:${partner}`;
+    const existing = byKey.get(key);
+    if (!existing || rank > existing[2]) byKey.set(key, [Number(tournamentNo), partner, rank]);
   };
 
   for (const row of teamRows) {
@@ -338,13 +404,16 @@ export function aggregatePartnerships(
     // Rank values (qualification/quota eliminations) are real participation
     // and are kept; `Number('')` also happens to be 0, which is exactly right
     // for a blank Rank on a row that was never played.
-    if (Number(row.Rank) === 0) {
+    const rank = Number(row.Rank);
+    if (rank === 0) {
       rejects.didNotPlay++;
       continue;
     }
 
     noteAppearance(a, tournamentNo);
     noteAppearance(b, tournamentNo);
+    noteResult(a, b, tournamentNo, rank);
+    noteResult(b, a, tournamentNo, rank);
 
     const key = pairKey(a, b);
     let pair = partnerships.get(key);
@@ -366,7 +435,14 @@ export function aggregatePartnerships(
     pair.lastSeason = Math.max(pair.lastSeason, tournament.season);
   }
 
-  return { partnerships, appearances, rejects };
+  return {
+    partnerships,
+    appearances,
+    results: new Map(
+      [...results].map(([id, byKey]) => [id, orderResults([...byKey.values()], tournaments)]),
+    ),
+    rejects,
+  };
 }
 
 // --- Stage 4 slicing -------------------------------------------------------

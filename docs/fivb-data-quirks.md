@@ -129,10 +129,10 @@ The rule written for withdrawn registrations turns out to cover
 "hasn't been played yet" for the same underlying reason — no result, no rank.
 
 **How safe is relying on `Rank` alone?** Safer than it first looks. The
-pipeline fetches no tournament dates (`ingest/main.ts` asks for `No, Code,
-Season, Gender, Type, OrganizerType, Version`), so `Rank` is the *only* thing
-separating a scheduled event from a played one — which invites the worry that
-a pre-event seeding value could leak into it. It can't: FIVB keeps seeding and
+pipeline does fetch `StartDateMainDraw`, but only to order events within a
+season on the player card — nothing compares it to today, so `Rank` is still
+the *only* thing separating a scheduled event from a played one. Which invites
+the worry that a pre-event seeding value could leak into it. It can't: FIVB keeps seeding and
 entry ordering in entirely separate fields, and
 [documents `Rank` as "Rank in the tournament"](https://www.fivb.org/VisSDK/VisWebService/BeachTeam.html),
 a result. The pre-event fields are:
@@ -368,6 +368,65 @@ an offset from 1 January of the season instead, which goes negative and orders
 correctly.
 
 **Handled in.** `startOffsetFor` in `ingest/build.ts`.
+
+---
+
+## 15. A rank is a bracket, not a position
+
+§5 says a rank is not unique within a tournament. That is an understatement:
+**89% of played rows share their rank with another team** (56,835 of 63,841 in
+the qualifying set). It is not an anomaly, it is the format. Beach volleyball
+stops distinguishing teams once they are out, so everyone knocked out in the
+same round gets the same number:
+
+| `Rank` | Rows | Means |
+|---:|---:|---|
+| 1, 2, 3, 4 | ~1,600 each | exactly what it says |
+| 5 | 5,334 | 5th–8th |
+| 9 | 8,707 | 9th–16th |
+| 17 | 9,020 | 17th–32nd |
+| 25, 33, 41, 57 | 7,079 / 5,520 / 6,982 / 2,621 | deeper brackets, draw-size dependent |
+
+The small counts in between (39 rows at 6, 24 at 10, 18 at 11) are older
+events that did rank every team, so the brackets are a convention rather than a
+rule you can invert. There is no field saying how many teams shared a
+placement; counting rows per rank per tournament is the only way to know, and
+it is not worth publishing — FIVB, and every other results site, shows the bare
+number.
+
+**Negative ranks, measured.** §3 documents `<= -25` as qualification and `-2`
+as a quota elimination. Across the qualifying set the actual values are `-2`
+(1,182 rows), `-33` (10 rows, all 1996–97) and `-4` (8 rows, all 2015). `-4` is
+documented nowhere and is too rare to infer from; it gets a neutral "did not
+reach the main draw" rather than a guess.
+
+**Two rows, one player, one tournament.** 45 player–tournament pairs in the
+archive have more than one played row. In 43 of them the partner *differs* —
+both entries are real, and the partner list counts the tournament on both
+pairings, so collapsing them would leave a season's expanded rows short of the
+tallies above them. The remaining 2 are the same pair twice, a qualification
+row and a main-draw row; those collapse to the better rank.
+
+**Handled in.** `formatFinish` in `web/src/lib/format.ts`, and the result
+de-duplication in `aggregatePartnerships`.
+
+---
+
+## 16. Two qualifying "tournaments" are not tournaments
+
+Tournament 18 is `FIVB Presidency Handover Ceremony` (2008) and 505 is
+`Congress 2010`. Both carry `OrganizerType` 1 and a Type on the World Tour
+allowlist, so both pass the filter in `tiers.ts` and are counted in
+`manifest.totals.tournaments`.
+
+Harmless in practice — neither has a single team row, so no player, edge or
+result comes from them — but they are 2 of the 1,688 in the published count,
+and now that `/v1/tournaments.json` publishes names they are visible. Left in
+rather than name-matched away: a substring blocklist for "ceremony" and
+"congress" is the kind of filter that quietly eats a real event later, and the
+cost of these two is two rows in an index nobody links to.
+
+**Handled in.** Nothing. Documented on purpose.
 
 ---
 

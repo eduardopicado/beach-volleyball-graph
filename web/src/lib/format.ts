@@ -100,6 +100,41 @@ export function initials(name: string): string {
 
 export const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 
+/** "1st", "2nd", "3rd", "4th" — including the 11th/12th/13th exceptions. */
+export function ordinal(n: number): string {
+  const teens = n % 100;
+  if (teens >= 11 && teens <= 13) return `${n}th`;
+  return `${n}${['th', 'st', 'nd', 'rd'][n % 10] ?? 'th'}`;
+}
+
+/** Day and month, for a result row where the season is already the heading. */
+export function formatDayMonth(date: Date | null): string | null {
+  if (!date || Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
+}
+
+/**
+ * How a team finished, from FIVB's `Rank`.
+ *
+ * Positive is a placement, and a *shared* one: beach volleyball reports
+ * brackets, so eight teams finish 9th and 89% of played rows sit on a rank
+ * another team also holds. Shown as FIVB and every results site show it,
+ * with the sharing spelled out in the long form rather than invented into a
+ * "=9th" the source never says.
+ *
+ * Negative is elimination before the main draw. `<= -25` is qualification and
+ * `-2` a confederation quota (docs/fivb-data-quirks.md §3); the eight rows
+ * carrying anything else negative get the honest general case rather than a
+ * guess at which of the two they are.
+ */
+export function formatFinish(rank: number): { text: string; label: string } {
+  if (rank <= -25) return { text: 'Qual.', label: 'Eliminated in qualification' };
+  if (rank === -2) return { text: 'Quota', label: 'Eliminated on a confederation quota' };
+  if (rank < 0) return { text: '—', label: 'Did not reach the main draw' };
+  if (rank === 1) return { text: ordinal(rank), label: 'Won the tournament' };
+  return { text: ordinal(rank), label: `Finished ${ordinal(rank)}, a placement shared with other teams` };
+}
+
 interface MedalCounts {
   gold: number;
   silver: number;

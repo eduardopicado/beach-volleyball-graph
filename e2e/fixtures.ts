@@ -24,7 +24,13 @@
 import { test as base, expect } from '@playwright/test';
 import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
-import type { GraphFile, Manifest, PlayersFile } from '../web/src/schema.js';
+import type {
+  GraphFile,
+  Manifest,
+  PlayersFile,
+  ResultsFile,
+  TournamentsFile,
+} from '../web/src/schema.js';
 
 const DATA = path.resolve(import.meta.dirname, '../web/public/v1');
 
@@ -36,6 +42,9 @@ export const graph = (code: string, gender: string) =>
   read<GraphFile>('graphs', `${code}-${gender}.json`);
 export const players = (code: string, gender: string) =>
   read<PlayersFile>('players', `${code}-${gender}.json`);
+export const results = (code: string, gender: string) =>
+  read<ResultsFile>('results', `${code}-${gender}.json`);
+export const tournamentIndex = () => read<TournamentsFile>('tournaments.json').tournaments;
 
 /**
  * A published player whose partnerships are *all* with other federations, so
