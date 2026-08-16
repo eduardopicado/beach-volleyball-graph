@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T00:09:42.234Z",
-  "sourceVersion": "113959",
+  "generatedAt": "2026-08-16T04:02:51.478Z",
+  "sourceVersion": "114036",
   "seasons": {
     "from": 1987,
     "to": 2027
@@ -281,8 +281,8 @@
           "edges": 9
         },
         "W": {
-          "nodes": 12,
-          "edges": 8
+          "nodes": 11,
+          "edges": 6
         }
       }
     },
@@ -1312,7 +1312,7 @@
           "edges": 190
         },
         "W": {
-          "nodes": 131,
+          "nodes": 132,
           "edges": 208
         }
       }
