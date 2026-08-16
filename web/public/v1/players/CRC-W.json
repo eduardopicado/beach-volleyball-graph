@@ -42,7 +42,18 @@
       "name": "Flores Garita Andres Felipe",
       "dob": "1993-11-03",
       "height": 170,
-      "weight": 58
+      "weight": 58,
+      "away": [
+        {
+          "id": 139047,
+          "name": "Josue Flores Garita",
+          "fed": "CRC",
+          "gender": "M",
+          "t": 1,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 138169,

@@ -35,7 +35,18 @@
       "name": "Jean C. Gaston",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101084,
+          "name": "Marion Marquet",
+          "fed": "FRA",
+          "gender": "W",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 100157,
@@ -63,7 +74,18 @@
       "name": "Thierry  \"The Glove\" Glowacz",
       "dob": "1964-04-21",
       "height": 186,
-      "weight": 86
+      "weight": 86,
+      "away": [
+        {
+          "id": 100016,
+          "name": "Jan Kvalheim",
+          "fed": "NOR",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 100576,
@@ -77,7 +99,18 @@
       "name": "François Bouyra",
       "dob": "1968-08-16",
       "height": 190,
-      "weight": 87
+      "weight": 87,
+      "away": [
+        {
+          "id": 100736,
+          "name": "Salvador Bernal",
+          "fed": "MEX",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 100773,
@@ -574,7 +607,18 @@
       "name": "Aimé-Julien Montal",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 115623,
+          "name": "Stanley Cès",
+          "fed": "REU",
+          "gender": "M",
+          "t": 5,
+          "f": 2005,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 103546,

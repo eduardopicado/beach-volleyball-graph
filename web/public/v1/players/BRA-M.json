@@ -12,7 +12,18 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
-      }
+      },
+      "away": [
+        {
+          "id": 122172,
+          "name": "Jefferson Bellaguarda",
+          "fed": "SUI",
+          "gender": "M",
+          "t": 18,
+          "f": 2000,
+          "l": 2001
+        }
+      ]
     },
     {
       "id": 100043,
@@ -484,7 +495,18 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
-      }
+      },
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 4,
+          "f": 2005,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 101224,
@@ -637,7 +659,18 @@
       "name": "Carlos Arruda",
       "dob": "1971-12-27",
       "height": null,
-      "weight": 90
+      "weight": 90,
+      "away": [
+        {
+          "id": 122172,
+          "name": "Jefferson Bellaguarda",
+          "fed": "SUI",
+          "gender": "M",
+          "t": 1,
+          "f": 1999,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 102862,
@@ -665,7 +698,18 @@
       "name": "Dagoberto \"Juca\" Dultra Jr.",
       "dob": "1977-04-17",
       "height": 192,
-      "weight": 89
+      "weight": 89,
+      "away": [
+        {
+          "id": 122172,
+          "name": "Jefferson Bellaguarda",
+          "fed": "SUI",
+          "gender": "M",
+          "t": 12,
+          "f": 2002,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 103216,
@@ -747,7 +791,27 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
-      }
+      },
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 1,
+          "f": 2004,
+          "l": 2004
+        },
+        {
+          "id": 145125,
+          "name": "Tiago De J Santos",
+          "fed": "QAT",
+          "gender": "M",
+          "t": 1,
+          "f": 2005,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 104074,
@@ -768,7 +832,18 @@
       "name": "Tomas Knebelkamp",
       "dob": "1985-03-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104138,
+          "name": "Oliver Schmäschke",
+          "fed": "GER",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 104206,
@@ -799,7 +874,18 @@
       "name": "Igor Hercowitz",
       "dob": "1984-01-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 1,
+          "f": 2003,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 104503,
@@ -987,7 +1073,18 @@
       "name": "Vinícius Silveira Rosa",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 145124,
+          "name": "Jefferson Santos Pereira",
+          "fed": "QAT",
+          "gender": "M",
+          "t": 1,
+          "f": 2006,
+          "l": 2006
+        }
+      ]
     },
     {
       "id": 118288,
@@ -1048,7 +1145,18 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
-      }
+      },
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 3,
+          "f": 2011,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 120551,
@@ -1060,21 +1168,54 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
-      }
+      },
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 7,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 120895,
       "name": "Gabriel Silva Francisco Pereira",
       "dob": "1989-01-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 145124,
+          "name": "Jefferson Santos Pereira",
+          "fed": "QAT",
+          "gender": "M",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 122121,
       "name": "Rhooney de Oliveira Ferramenta",
       "dob": "1985-11-07",
       "height": 182,
-      "weight": 80
+      "weight": 80,
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 6,
+          "f": 2010,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 125526,

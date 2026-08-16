@@ -7,7 +7,18 @@
       "name": "Jan Kvalheim",
       "dob": "1963-02-05",
       "height": 200,
-      "weight": 95
+      "weight": 95,
+      "away": [
+        {
+          "id": 100166,
+          "name": "Thierry  \"The Glove\" Glowacz",
+          "fed": "FRA",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 100110,

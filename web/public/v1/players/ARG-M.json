@@ -131,7 +131,18 @@
       "name": "Raul Quiroga",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101059,
+          "name": "Alejandro Diz",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 101116,

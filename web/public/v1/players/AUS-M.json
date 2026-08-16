@@ -318,7 +318,45 @@
       "name": "Bo Soderberg",
       "dob": "1977-06-05",
       "height": 197,
-      "weight": 90
+      "weight": 90,
+      "away": [
+        {
+          "id": 104338,
+          "name": "Anders Lund Hoyer",
+          "fed": "DEN",
+          "gender": "M",
+          "t": 70,
+          "f": 2006,
+          "l": 2012
+        },
+        {
+          "id": 102646,
+          "name": "Andreas Olesen",
+          "fed": "DEN",
+          "gender": "M",
+          "t": 9,
+          "f": 1999,
+          "l": 2003
+        },
+        {
+          "id": 138281,
+          "name": "Lior Koren",
+          "fed": "DEN",
+          "gender": "M",
+          "t": 2,
+          "f": 2012,
+          "l": 2012
+        },
+        {
+          "id": 100892,
+          "name": "Jakob Martens",
+          "fed": "DEN",
+          "gender": "M",
+          "t": 1,
+          "f": 2001,
+          "l": 2001
+        }
+      ]
     },
     {
       "id": 102867,
@@ -444,7 +482,18 @@
       "name": "Mark Williams",
       "dob": "1979-01-27",
       "height": 197,
-      "weight": 87
+      "weight": 87,
+      "away": [
+        {
+          "id": 102087,
+          "name": "Stein Metzger",
+          "fed": "USA",
+          "gender": "M",
+          "t": 7,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 104468,

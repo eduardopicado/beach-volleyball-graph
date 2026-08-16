@@ -423,7 +423,18 @@
       "name": "Šárka Melichárková",
       "dob": "1990-06-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120747,
+          "name": "Marie Reiterova",
+          "fed": "LUX",
+          "gender": "W",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 120821,

@@ -97,7 +97,11 @@ incremental cache — a full rebuild every week is cheap and self-healing.
   kept.
 - **Both endpoints must be in the slice.** A partnership between a Brazilian and
   an Argentine appears in neither country's graph. Measured against the live
-  archive that is ~1% of all partnerships.
+  archive that is ~1% of all partnerships — but they are not evenly spread, so
+  the player card lists them separately under *Other federations* rather than
+  dropping them silently. A player who changes federation keeps their new
+  country and loses every partnership made under the old one in a single
+  refresh, which would otherwise render as a career that never happened.
 
 ### Why the default graph looks so sparse
 

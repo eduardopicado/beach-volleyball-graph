@@ -21,7 +21,18 @@
       "name": "Mariana Aydin",
       "dob": "1986-08-19",
       "height": 188,
-      "weight": 69
+      "weight": 69,
+      "away": [
+        {
+          "id": 117935,
+          "name": "Ecaterina Lupu",
+          "fed": "MLD",
+          "gender": "W",
+          "t": 1,
+          "f": 2006,
+          "l": 2006
+        }
+      ]
     },
     {
       "id": 119688,

@@ -63,7 +63,18 @@
       "name": "Bevin \"B.Boy\" Zealand",
       "dob": "1972-10-19",
       "height": 168,
-      "weight": 60
+      "weight": 60,
+      "away": [
+        {
+          "id": 101303,
+          "name": "Deon Heinrich \"Stokes\" Cloete",
+          "fed": "NAM",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 101314,
@@ -196,7 +207,18 @@
       "name": "Steven Kruger",
       "dob": "1970-06-26",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "away": [
+        {
+          "id": 101333,
+          "name": "Jason Kruger",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 101334,
@@ -231,7 +253,18 @@
       "name": "Louw Franken",
       "dob": "1972-12-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101333,
+          "name": "Jason Kruger",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 101694,

@@ -7,7 +7,18 @@
       "name": "Emanuele \"Bada\" Monduzzi",
       "dob": "1970-12-28",
       "height": 189,
-      "weight": 90
+      "weight": 90,
+      "away": [
+        {
+          "id": 101357,
+          "name": "Carlo Viberti",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 101720,
@@ -56,7 +67,18 @@
       "name": "Enzo Gerotto",
       "dob": "1967-01-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 102667,
+          "name": "Marcello Canzian",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 3,
+          "f": 1999,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 103199,

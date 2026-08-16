@@ -77,7 +77,18 @@
       "name": "Sebastian Devash",
       "dob": "1985-12-12",
       "height": 194,
-      "weight": 96
+      "weight": 96,
+      "away": [
+        {
+          "id": 104104,
+          "name": "Kamil Lyczko",
+          "fed": "POL",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 115338,

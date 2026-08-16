@@ -6,7 +6,7 @@
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { GraphNode, PlayerDetail, SeasonTally } from '../schema';
+import type { AwayPartner, GraphNode, PlayerDetail, SeasonTally } from '../schema';
 import { playerPhotoUrl, playerProfileUrl } from '../schema';
 import { age, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from '../lib/format';
 import { buildTimeline } from '../lib/timeline';
@@ -22,13 +22,24 @@ export interface PartnerRow {
   s?: SeasonTally[];
 }
 
+/** An away partner, resolved against the manifest so it can be rendered. */
+export interface AwayRow {
+  partner: AwayPartner;
+  countryName: string;
+  flag: string;
+  /** False when that slice was too small to publish — nothing to link to. */
+  linkable: boolean;
+}
+
 interface Props {
   node: GraphNode;
   detail: PlayerDetail | undefined;
   partners: PartnerRow[];
+  away: AwayRow[];
   countryName: string;
   flag: string;
   onSelectPartner: (id: number) => void;
+  onSelectAway: (partner: AwayPartner) => void;
   onClose: () => void;
 }
 
@@ -70,9 +81,11 @@ export function PlayerCard({
   node,
   detail,
   partners,
+  away,
   countryName,
   flag,
   onSelectPartner,
+  onSelectAway,
   onClose,
 }: Props) {
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -209,8 +222,9 @@ export function PlayerCard({
 
         {partners.length === 0 ? (
           <p className="empty">
-            No partnerships with another {countryName} player in this dataset — partnerships with
-            players from other countries are not included.
+            {away.length > 0
+              ? `Every partnership here was with a player from another federation, so none of them appear in the ${countryName} graph.`
+              : `No partnerships with another ${countryName} player in this dataset — partnerships with players from other countries are not included.`}
           </p>
         ) : showing === 'timeline' ? (
           <ol className="timeline">
@@ -257,6 +271,49 @@ export function PlayerCard({
               </li>
             ))}
           </ul>
+        )}
+
+        {away.length > 0 && (
+          <div className="away">
+            {/* Named rather than hidden: the graph deliberately holds only
+                same-federation pairs, and a player who moved keeps their new
+                country while every partner stays behind. Without this the card
+                reads as though they never had a partner at all. */}
+            <h4>Other federations</h4>
+            <ul>
+              {away.map(({ partner, countryName: partnerCountry, flag: partnerFlag, linkable }) => (
+                <li key={partner.id}>
+                  {linkable ? (
+                    <button type="button" onClick={() => onSelectAway(partner)}>
+                      <span className="name">{partner.name}</span>
+                      <span className="meta">
+                        <span className="fed" title={partnerCountry}>
+                          <span aria-hidden="true">{partnerFlag}</span>
+                          <span className="sr-only">{partnerCountry}</span>
+                        </span>
+                        <span className="tally">{partner.t}</span>
+                        <span className="span">{seasonSpan(partner.f, partner.l)}</span>
+                      </span>
+                    </button>
+                  ) : (
+                    // That slice has fewer than two players, so it was never
+                    // published — the partner is real, the page is not.
+                    <span className="unlinked">
+                      <span className="name">{partner.name}</span>
+                      <span className="meta">
+                        <span className="fed" title={partnerCountry}>
+                          <span aria-hidden="true">{partnerFlag}</span>
+                          <span className="sr-only">{partnerCountry}</span>
+                        </span>
+                        <span className="tally">{partner.t}</span>
+                        <span className="span">{seasonSpan(partner.f, partner.l)}</span>
+                      </span>
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
       </section>
 

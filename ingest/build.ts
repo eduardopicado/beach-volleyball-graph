@@ -6,7 +6,15 @@
  * parts (pair canonicalisation, dedupe, slicing) are unit-testable.
  */
 
-import type { Gender, GraphEdge, GraphNode, MedalCounts, SeasonTally, Tier } from '../web/src/schema.js';
+import type {
+  AwayPartner,
+  Gender,
+  GraphEdge,
+  GraphNode,
+  MedalCounts,
+  SeasonTally,
+  Tier,
+} from '../web/src/schema.js';
 import { toCentimetres, toKilograms, type VisRow } from './vis.js';
 import { tierFor, FIVB_ORGANIZER_TYPE } from './tiers.js';
 import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
@@ -378,6 +386,61 @@ export interface Slice {
  * the live FIVB archive that is ~1% of all partnerships, which is why it is a
  * reasonable simplification rather than a silent hole.
  */
+/**
+ * Partnerships the slicing throws away, indexed by each player in them.
+ *
+ * `sliceByCountryAndGender` keeps an edge only when both endpoints land in the
+ * same country x gender bucket, so a pair split across federations vanishes
+ * from the graph entirely — from *both* countries, since neither slice
+ * contains both players. That is right for the graph and wrong for the player:
+ * a career built with foreign partners reads on the card as no career at all.
+ *
+ * Around 0.8% of partnerships, but concentrated. A player who changes
+ * federation keeps their new country and loses every partnership they made
+ * under the old one, all in a single weekly refresh — Karen Noppen moved
+ * BDI to NED on 16 August 2026 and went from two partners to none.
+ *
+ * Returned per player rather than per pair because that is how the card reads
+ * it, and sorted the same way the in-slice partner list is: most tournaments
+ * together first, then name.
+ */
+export function awayPartnersByPlayer(
+  partnerships: Map<string, Partnership>,
+  players: Map<number, Player>,
+): Map<number, AwayPartner[]> {
+  const out = new Map<number, AwayPartner[]>();
+  const sliceKey = (p: Player) => `${p.federation}-${p.gender}`;
+
+  for (const pair of partnerships.values()) {
+    const a = players.get(pair.a);
+    const b = players.get(pair.b);
+    if (!a || !b || !a.federation || !b.federation) continue;
+    if (sliceKey(a) === sliceKey(b)) continue; // in-slice: the graph has it
+
+    for (const [self, other] of [
+      [a, b],
+      [b, a],
+    ] as const) {
+      const list = out.get(self.id) ?? [];
+      list.push({
+        id: other.id,
+        name: other.name,
+        fed: other.federation,
+        gender: other.gender,
+        t: pair.tournaments.size,
+        f: pair.firstSeason,
+        l: pair.lastSeason,
+      });
+      out.set(self.id, list);
+    }
+  }
+
+  for (const list of out.values()) {
+    list.sort((x, y) => y.t - x.t || x.name.localeCompare(y.name));
+  }
+  return out;
+}
+
 export function sliceByCountryAndGender(
   partnerships: Map<string, Partnership>,
   appearances: Map<number, Set<string>>,

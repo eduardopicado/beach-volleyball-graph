@@ -28,7 +28,18 @@
       "name": "Christine Eleanor  \"Chris\" Wilson",
       "dob": "1972-06-16",
       "height": 172,
-      "weight": 70
+      "weight": 70,
+      "away": [
+        {
+          "id": 100686,
+          "name": "Sarah Straton",
+          "fed": "USA",
+          "gender": "W",
+          "t": 17,
+          "f": 1995,
+          "l": 1998
+        }
+      ]
     },
     {
       "id": 100251,
@@ -52,7 +63,18 @@
       "name": "Annette \"H.T.\" Huygens Tholen",
       "dob": "1966-01-01",
       "height": 170,
-      "weight": 67
+      "weight": 67,
+      "away": [
+        {
+          "id": 100686,
+          "name": "Sarah Straton",
+          "fed": "USA",
+          "gender": "W",
+          "t": 25,
+          "f": 1997,
+          "l": 2000
+        }
+      ]
     },
     {
       "id": 100371,
@@ -71,7 +93,18 @@
       "name": "Liane Fenwick",
       "dob": "1971-06-10",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "away": [
+        {
+          "id": 100686,
+          "name": "Sarah Straton",
+          "fed": "USA",
+          "gender": "W",
+          "t": 5,
+          "f": 1996,
+          "l": 1997
+        }
+      ]
     },
     {
       "id": 100924,
@@ -169,7 +202,18 @@
       "name": "Tania Gooley",
       "dob": "1973-08-16",
       "height": 177,
-      "weight": 67
+      "weight": 67,
+      "away": [
+        {
+          "id": 100686,
+          "name": "Sarah Straton",
+          "fed": "USA",
+          "gender": "W",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 101404,
@@ -183,7 +227,18 @@
       "name": "Debbie Brand",
       "dob": "1970-03-15",
       "height": 176,
-      "weight": 69
+      "weight": 69,
+      "away": [
+        {
+          "id": 100686,
+          "name": "Sarah Straton",
+          "fed": "USA",
+          "gender": "W",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 101722,
@@ -335,7 +390,18 @@
       "name": "Johannah Rohkamper",
       "dob": "1985-11-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 133882,
+          "name": "Joanna Grance Healy",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 104470,
@@ -478,7 +544,18 @@
       "name": "Eliza Dean",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 133882,
+          "name": "Joanna Grance Healy",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 2,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 120117,

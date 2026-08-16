@@ -254,7 +254,7 @@ tours, snow volleyball, multi-sport games and King of the Court are excluded.
 
 - [Manifest](${abs(`${BASE}v1/manifest.json`)}): every published country, node and edge counts, tier breakdown, freshness.
 - [Graph file](${abs(`${BASE}v1/graphs/BRA-M.json`)}): \`/v1/graphs/{FEDERATION}-{M|W}.json\` — \`nodes\` (id, name, short, tournaments, first, last) and \`edges\` (\`a\`, \`b\` player ids, \`t\` tournaments together, \`f\`/\`l\` first and last season, \`s\` per-season breakdown as \`[season, tournaments, days from 1 January to the pair's last event that season]\` — the last optional).
-- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight.
+- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight, and \`away\`: partners from another federation, which the graph excludes.
 
 Federation codes are FIVB three-letter codes (BRA, USA, GER), not ISO country codes.
 

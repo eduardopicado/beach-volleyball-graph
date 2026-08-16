@@ -35,7 +35,18 @@
       "name": "Andrei Gorbenko",
       "dob": null,
       "height": 202,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 149100,
+          "name": "Oleg Antonov",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 2,
+          "f": 1992,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 100232,
@@ -133,7 +144,18 @@
       "name": "Valts Mihelsons",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101350,
+          "name": "Viktor Artamonov",
+          "fed": "LAT",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 101229,
@@ -633,7 +655,45 @@
       "name": "Valeriy Samoday",
       "dob": "1991-05-04",
       "height": 194,
-      "weight": 92
+      "weight": 92,
+      "away": [
+        {
+          "id": 120578,
+          "name": "Sergiy Popov",
+          "fed": "UKR",
+          "gender": "M",
+          "t": 15,
+          "f": 2008,
+          "l": 2013
+        },
+        {
+          "id": 104798,
+          "name": "Oleksiy Klyamar",
+          "fed": "UKR",
+          "gender": "M",
+          "t": 2,
+          "f": 2009,
+          "l": 2009
+        },
+        {
+          "id": 104800,
+          "name": "Oleksandr Ioisher",
+          "fed": "UKR",
+          "gender": "M",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        },
+        {
+          "id": 132066,
+          "name": "Vladyslav Iemelianchyk",
+          "fed": "UKR",
+          "gender": "M",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 120706,
@@ -846,7 +906,18 @@
       "name": "Iaroslav Rudykh",
       "dob": "1991-12-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104434,
+          "name": "Neilton Moises Santos Merces",
+          "fed": "AZE",
+          "gender": "M",
+          "t": 1,
+          "f": 2015,
+          "l": 2015
+        }
+      ]
     },
     {
       "id": 132130,

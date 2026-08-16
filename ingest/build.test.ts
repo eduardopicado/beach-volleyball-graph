@@ -6,6 +6,7 @@ import {
   normalisePlayers,
   normaliseTournaments,
   pairKey,
+  awayPartnersByPlayer,
   sliceByCountryAndGender,
   startOffsetFor,
 } from './build.js';
@@ -276,6 +277,60 @@ describe('startOffsetFor', () => {
     expect(startOffsetFor(undefined, 2024)).toBeNull();
     expect(startOffsetFor('', 2024)).toBeNull();
     expect(startOffsetFor('not-a-date', 2024)).toBeNull();
+  });
+});
+
+describe('awayPartnersByPlayer', () => {
+  const tournaments = normaliseTournaments([tournament('t1', 2023), tournament('t2', 2024)]);
+
+  it('records a partnership split across federations on both players', () => {
+    const people = normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'ARG')]);
+    const { partnerships } = aggregatePartnerships([entry('t1', 1, 2), entry('t2', 1, 2)], tournaments, people);
+    const away = awayPartnersByPlayer(partnerships, people);
+
+    expect(away.get(1)).toEqual([
+      { id: 2, name: 'First2 Last2', fed: 'ARG', gender: 'M', t: 2, f: 2023, l: 2024 },
+    ]);
+    // And symmetrically — the Argentine's card is just as empty without it.
+    expect(away.get(2)![0]).toMatchObject({ id: 1, fed: 'BRA' });
+  });
+
+  it('ignores a partnership the graph already shows', () => {
+    const people = normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]);
+    const { partnerships } = aggregatePartnerships([entry('t1', 1, 2)], tournaments, people);
+    expect(awayPartnersByPlayer(partnerships, people).size).toBe(0);
+  });
+
+  it('treats a different gender under the same federation as away too', () => {
+    // Slices are country x gender, so this pair is dropped by the same rule.
+    // Carrying the partner's gender is what lets the card link to the right
+    // slice rather than guessing.
+    const people = normalisePlayers([player(1, '0', 'BRA'), player(2, '1', 'BRA')]);
+    const { partnerships } = aggregatePartnerships([entry('t1', 1, 2)], tournaments, people);
+    expect(awayPartnersByPlayer(partnerships, people).get(1)).toMatchObject([{ id: 2, gender: 'W' }]);
+  });
+
+  it('orders a player\'s away partners by tournaments together, then name', () => {
+    const people = normalisePlayers([
+      player(1, '0', 'BRA'),
+      player(2, '0', 'ARG'),
+      player(3, '0', 'ARG'),
+    ]);
+    const { partnerships } = aggregatePartnerships(
+      [entry('t1', 1, 2), entry('t1', 1, 3), entry('t2', 1, 3)],
+      tournaments,
+      people,
+    );
+    expect(awayPartnersByPlayer(partnerships, people).get(1)!.map((a) => [a.id, a.t])).toEqual([
+      [3, 2],
+      [2, 1],
+    ]);
+  });
+
+  it('skips players with no federation on file', () => {
+    const people = normalisePlayers([player(1, '0', 'BRA'), { ...player(2, '0', 'ARG'), FederationCode: '' }]);
+    const { partnerships } = aggregatePartnerships([entry('t1', 1, 2)], tournaments, people);
+    expect(awayPartnersByPlayer(partnerships, people).size).toBe(0);
   });
 });
 

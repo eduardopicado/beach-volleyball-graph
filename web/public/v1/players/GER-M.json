@@ -628,7 +628,18 @@
       "name": "Oliver Schmäschke",
       "dob": "1985-04-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104137,
+          "name": "Tomas Knebelkamp",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 104320,

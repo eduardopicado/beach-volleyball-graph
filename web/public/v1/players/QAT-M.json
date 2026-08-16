@@ -126,21 +126,63 @@
       "name": "Tamer Abdelrasoul",
       "dob": "1983-07-01",
       "height": 181,
-      "weight": 84
+      "weight": 84,
+      "away": [
+        {
+          "id": 115975,
+          "name": "Abdelaziz Khallouf",
+          "fed": "MAR",
+          "gender": "M",
+          "t": 2,
+          "f": 2014,
+          "l": 2015
+        }
+      ]
     },
     {
       "id": 145124,
       "name": "Jefferson Santos Pereira",
       "dob": "1989-06-08",
       "height": 182,
-      "weight": 87
+      "weight": 87,
+      "away": [
+        {
+          "id": 120895,
+          "name": "Gabriel Silva Francisco Pereira",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        },
+        {
+          "id": 118286,
+          "name": "Vinícius Silveira Rosa",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2006,
+          "l": 2006
+        }
+      ]
     },
     {
       "id": 145125,
       "name": "Tiago De J Santos",
       "dob": "1985-11-11",
       "height": 192,
-      "weight": 84
+      "weight": 84,
+      "away": [
+        {
+          "id": 104073,
+          "name": "Pedro Solberg",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2005,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 146481,

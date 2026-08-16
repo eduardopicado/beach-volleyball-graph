@@ -98,7 +98,36 @@
       "name": "Fabiane Aires Boogaerdt",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 118291,
+          "name": "Júlia Beatriz Schmidt",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 2,
+          "f": 2010,
+          "l": 2010
+        },
+        {
+          "id": 105053,
+          "name": "Carolina Aragao",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        },
+        {
+          "id": 125527,
+          "name": "Marcella Alves Cavallero Colnago",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 123341,

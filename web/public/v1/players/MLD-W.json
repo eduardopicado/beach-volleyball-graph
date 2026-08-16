@@ -7,7 +7,18 @@
       "name": "Ecaterina Lupu",
       "dob": "1986-03-23",
       "height": 172,
-      "weight": 69
+      "weight": 69,
+      "away": [
+        {
+          "id": 117934,
+          "name": "Mariana Aydin",
+          "fed": "TUR",
+          "gender": "W",
+          "t": 1,
+          "f": 2006,
+          "l": 2006
+        }
+      ]
     },
     {
       "id": 137845,

@@ -15,7 +15,7 @@
  */
 
 import type { Page } from '@playwright/test';
-import { test, expect, manifest, graph, players } from './fixtures.js';
+import { test, expect, manifest, graph, players, strandedPlayer } from './fixtures.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
 import { CONTACT_EMAIL } from '../web/src/site.js';
 
@@ -72,6 +72,46 @@ test('selecting a player opens their card with the right numbers', async ({ page
   // that surfaced the Rank-0 double-counting bug in the first place.
   const tournaments = card.locator('.vitals div', { has: page.getByText('Tournaments', { exact: true }) });
   await expect(tournaments.locator('dd')).toHaveText(String(target.tournaments));
+});
+
+test.describe('partners from other federations', () => {
+  const sliceFor = (code: string, gender: string) => {
+    const entry = manifest().countries.find((c) => c.code === code);
+    if (!entry) throw new Error(`${code} missing from the manifest`);
+    return `${sliceSlug(entry.name, gender as 'M' | 'W')}/`;
+  };
+
+  test('a player with only foreign partners still shows a career', async ({ page }) => {
+    const target = strandedPlayer();
+    // If the archive ever contains none, the feature has nothing to prove and
+    // the test should say so rather than pass silently.
+    expect(target, 'no player in the published data has only away partners').not.toBeNull();
+
+    await page.goto(`./${sliceFor(target!.code, target!.gender)}?player=${target!.id}`);
+    const card = page.locator('.player-card');
+    await expect(card).toBeVisible();
+
+    // The graph genuinely has no edge for them...
+    await expect(card.locator('.partners > ul > li')).toHaveCount(0);
+    // ...and without this feature that was the whole story. Now it is not.
+    await expect(card.locator('.away li')).toHaveCount(target!.away);
+    await expect(card.locator('.partners .empty')).toContainText('another federation');
+  });
+
+  test('following an away partner lands on their own country page', async ({ page }) => {
+    const target = strandedPlayer();
+    expect(target).not.toBeNull();
+    await page.goto(`./${sliceFor(target!.code, target!.gender)}?player=${target!.id}`);
+
+    const first = page.locator('.away li button').first();
+    const name = (await first.locator('.name').innerText()).trim();
+    const startedAt = new URL(page.url()).pathname;
+    await first.click();
+
+    // The card now belongs to the partner, in a different slice.
+    await expect(page.locator('.player-card h2')).toHaveText(name);
+    await expect.poll(() => new URL(page.url()).pathname).not.toBe(startedAt);
+  });
 });
 
 test.describe('timeline view', () => {

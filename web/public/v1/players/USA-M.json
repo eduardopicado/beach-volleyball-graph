@@ -239,7 +239,27 @@
       "name": "Luis \"Fenito\" Rodriguez",
       "dob": "1969-07-13",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "away": [
+        {
+          "id": 100303,
+          "name": "Carlos \"Monkey\" Nieves",
+          "fed": "PUR",
+          "gender": "M",
+          "t": 3,
+          "f": 1993,
+          "l": 1994
+        },
+        {
+          "id": 100829,
+          "name": "Enrique \"Papolito\" Lopez",
+          "fed": "PUR",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 100332,
@@ -749,7 +769,18 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
-      }
+      },
+      "away": [
+        {
+          "id": 104215,
+          "name": "Mark Williams",
+          "fed": "AUS",
+          "gender": "M",
+          "t": 7,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 102088,
@@ -1578,7 +1609,45 @@
       "name": "Chaim Schalk",
       "dob": "1986-04-23",
       "height": 196,
-      "weight": 88
+      "weight": 88,
+      "away": [
+        {
+          "id": 104994,
+          "name": "Ben Saxton",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 55,
+          "f": 2013,
+          "l": 2017
+        },
+        {
+          "id": 105097,
+          "name": "Martin Reader",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 9,
+          "f": 2010,
+          "l": 2011
+        },
+        {
+          "id": 120514,
+          "name": "Matt Zbyszewski",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 2,
+          "f": 2012,
+          "l": 2012
+        },
+        {
+          "id": 139429,
+          "name": "Steven Marshall",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 1,
+          "f": 2011,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 132719,

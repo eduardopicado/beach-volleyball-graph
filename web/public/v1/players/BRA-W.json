@@ -370,7 +370,54 @@
       "name": "Giseli \"Gisi\" Gavio Farinazzo",
       "dob": "1967-09-06",
       "height": 175,
-      "weight": 68
+      "weight": 68,
+      "away": [
+        {
+          "id": 103034,
+          "name": "Gaia Cicola",
+          "fed": "ITA",
+          "gender": "W",
+          "t": 8,
+          "f": 2002,
+          "l": 2003
+        },
+        {
+          "id": 101452,
+          "name": "Cilene Vieira Nascimento",
+          "fed": "ITA",
+          "gender": "W",
+          "t": 4,
+          "f": 1998,
+          "l": 2000
+        },
+        {
+          "id": 102375,
+          "name": "Alessia \"Ale\" Torri",
+          "fed": "ITA",
+          "gender": "W",
+          "t": 1,
+          "f": 1998,
+          "l": 1998
+        },
+        {
+          "id": 100619,
+          "name": "Annamaria Solazzi",
+          "fed": "ITA",
+          "gender": "W",
+          "t": 1,
+          "f": 2001,
+          "l": 2001
+        },
+        {
+          "id": 102290,
+          "name": "Mirella Sesti Nunes",
+          "fed": "ITA",
+          "gender": "W",
+          "t": 1,
+          "f": 1998,
+          "l": 1998
+        }
+      ]
     },
     {
       "id": 102286,
@@ -511,7 +558,18 @@
         "gold": 1,
         "silver": 2,
         "bronze": 2
-      }
+      },
+      "away": [
+        {
+          "id": 119620,
+          "name": "Vivian Danielle da Conceição Cunha",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 103904,
@@ -540,7 +598,18 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
-      }
+      },
+      "away": [
+        {
+          "id": 119620,
+          "name": "Vivian Danielle da Conceição Cunha",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 28,
+          "f": 2010,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 104076,
@@ -580,14 +649,36 @@
       "name": "Andréa Martins das Chagas",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104193,
+          "name": "Andrezza Martins das Chagas",
+          "fed": "GEO",
+          "gender": "W",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 104269,
       "name": "Thatiana Damasio B. Soares",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104193,
+          "name": "Andrezza Martins das Chagas",
+          "fed": "GEO",
+          "gender": "W",
+          "t": 1,
+          "f": 2004,
+          "l": 2004
+        }
+      ]
     },
     {
       "id": 104505,
@@ -625,7 +716,18 @@
       "name": "Angela Lavalle",
       "dob": "1981-04-24",
       "height": 176,
-      "weight": 72
+      "weight": 72,
+      "away": [
+        {
+          "id": 119620,
+          "name": "Vivian Danielle da Conceição Cunha",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 13,
+          "f": 2007,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 104616,
@@ -660,7 +762,18 @@
       "name": "Carolina Aragao",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120112,
+          "name": "Fabiane Aires Boogaerdt",
+          "fed": "CHI",
+          "gender": "W",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 105054,
@@ -790,7 +903,18 @@
       "name": "Júlia Beatriz Schmidt",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120112,
+          "name": "Fabiane Aires Boogaerdt",
+          "fed": "CHI",
+          "gender": "W",
+          "t": 2,
+          "f": 2010,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 118292,
@@ -902,7 +1026,18 @@
       "name": "Marcella Alves Cavallero Colnago",
       "dob": "1990-04-17",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120112,
+          "name": "Fabiane Aires Boogaerdt",
+          "fed": "CHI",
+          "gender": "W",
+          "t": 1,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 131970,

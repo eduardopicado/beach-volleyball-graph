@@ -235,6 +235,77 @@
   font-size: 13px;
 }
 
+/* --- partners from other federations ------------------------------------ */
+
+/* Sits below whichever list is showing, outside its scroll area, so it stays
+   visible rather than being something you have to scroll the list to find —
+   for a player who transferred, this *is* their career. */
+.away {
+  flex-shrink: 0;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.away h4 {
+  margin: 0 0 4px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.away ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2px;
+  /* Overriding `.partners ul`, which makes its lists independent scroll
+     containers — this one is short and belongs to the card's own flow. */
+  flex: none;
+  overflow-y: visible;
+  max-height: none;
+}
+
+.away li button,
+.away li .unlinked {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+}
+
+.away li button {
+  cursor: pointer;
+}
+
+.away li button:hover {
+  background: var(--series-1-wash);
+}
+
+/* No page to send anyone to: that country x gender slice had fewer than two
+   players, so it was never published. Still named — the partner is real. */
+.away li .unlinked {
+  cursor: default;
+  color: var(--text-secondary);
+}
+
+.away .fed {
+  font-size: 12px;
+  line-height: 1;
+}
+
 /* --- Partners / Timeline switch ----------------------------------------- */
 
 .view-switch {

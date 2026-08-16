@@ -196,7 +196,18 @@
       "name": "Kamil Lyczko",
       "dob": "1985-03-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 104103,
+          "name": "Sebastian Devash",
+          "fed": "ISR",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 104390,

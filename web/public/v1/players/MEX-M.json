@@ -42,7 +42,18 @@
       "name": "Salvador Bernal",
       "dob": "1961-01-17",
       "height": 188,
-      "weight": 78
+      "weight": 78,
+      "away": [
+        {
+          "id": 100737,
+          "name": "François Bouyra",
+          "fed": "FRA",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 100738,

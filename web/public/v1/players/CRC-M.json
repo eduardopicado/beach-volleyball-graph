@@ -63,7 +63,18 @@
       "name": "Josue Flores Garita",
       "dob": "1993-11-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 137511,
+          "name": "Flores Garita Andres Felipe",
+          "fed": "CRC",
+          "gender": "W",
+          "t": 1,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 139434,

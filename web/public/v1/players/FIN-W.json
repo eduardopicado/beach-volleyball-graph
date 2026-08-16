@@ -7,7 +7,18 @@
       "name": "Emilia Nyström",
       "dob": "1983-09-13",
       "height": 177,
-      "weight": 64
+      "weight": 64,
+      "away": [
+        {
+          "id": 103670,
+          "name": "Erika Nyström",
+          "fed": "CYP",
+          "gender": "W",
+          "t": 157,
+          "f": 2001,
+          "l": 2015
+        }
+      ]
     },
     {
       "id": 104284,
@@ -231,7 +242,18 @@
       "name": "Saana Koljonen",
       "dob": "1988-08-22",
       "height": 165,
-      "weight": 59
+      "weight": 59,
+      "away": [
+        {
+          "id": 103670,
+          "name": "Erika Nyström",
+          "fed": "CYP",
+          "gender": "W",
+          "t": 1,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 158105,

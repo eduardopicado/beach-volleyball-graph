@@ -371,7 +371,18 @@
       "name": "Alejandra Simon",
       "dob": "1985-02-25",
       "height": 180,
-      "weight": 66
+      "weight": 66,
+      "away": [
+        {
+          "id": 145942,
+          "name": "Olaya Perez Pazo",
+          "fed": "VEN",
+          "gender": "W",
+          "t": 7,
+          "f": 2010,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 115199,

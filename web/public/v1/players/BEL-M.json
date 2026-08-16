@@ -21,7 +21,18 @@
       "name": "Jacques Kempenaers",
       "dob": "1964-11-19",
       "height": 196,
-      "weight": 88
+      "weight": 88,
+      "away": [
+        {
+          "id": 103278,
+          "name": "Wout Wijsmans",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 3,
+          "f": 2003,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 100847,
@@ -210,7 +221,18 @@
       "name": "Frederik \"Fredo\" Delanghe",
       "dob": "1971-10-30",
       "height": 193,
-      "weight": 87
+      "weight": 87,
+      "away": [
+        {
+          "id": 103278,
+          "name": "Wout Wijsmans",
+          "fed": "ITA",
+          "gender": "M",
+          "t": 5,
+          "f": 2001,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 102636,

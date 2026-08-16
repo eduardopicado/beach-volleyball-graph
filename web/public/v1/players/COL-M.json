@@ -77,7 +77,18 @@
       "name": "Martin Gaviria Romero",
       "dob": "2009-07-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 228566,
+          "name": "Mateo Rodriguez Abello",
+          "fed": "CAN",
+          "gender": "M",
+          "t": 2,
+          "f": 2025,
+          "l": 2026
+        }
+      ]
     },
     {
       "id": 209016,

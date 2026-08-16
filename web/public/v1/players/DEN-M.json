@@ -49,7 +49,18 @@
       "name": "Jakob Martens",
       "dob": "1973-06-07",
       "height": 184,
-      "weight": 78
+      "weight": 78,
+      "away": [
+        {
+          "id": 102786,
+          "name": "Bo Soderberg",
+          "fed": "AUS",
+          "gender": "M",
+          "t": 1,
+          "f": 2001,
+          "l": 2001
+        }
+      ]
     },
     {
       "id": 102168,
@@ -84,7 +95,18 @@
       "name": "Andreas Olesen",
       "dob": "1977-03-20",
       "height": 186,
-      "weight": 82
+      "weight": 82,
+      "away": [
+        {
+          "id": 102786,
+          "name": "Bo Soderberg",
+          "fed": "AUS",
+          "gender": "M",
+          "t": 9,
+          "f": 1999,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 102647,
@@ -126,7 +148,18 @@
       "name": "Anders Lund Hoyer",
       "dob": "1983-09-04",
       "height": 198,
-      "weight": 85
+      "weight": 85,
+      "away": [
+        {
+          "id": 102786,
+          "name": "Bo Soderberg",
+          "fed": "AUS",
+          "gender": "M",
+          "t": 70,
+          "f": 2006,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 104508,
@@ -245,7 +278,18 @@
       "name": "Lior Koren",
       "dob": "1986-01-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 102786,
+          "name": "Bo Soderberg",
+          "fed": "AUS",
+          "gender": "M",
+          "t": 2,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 138988,

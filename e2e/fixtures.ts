@@ -22,7 +22,7 @@
  */
 
 import { test as base, expect } from '@playwright/test';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import type { GraphFile, Manifest, PlayersFile } from '../web/src/schema.js';
 
@@ -36,6 +36,36 @@ export const graph = (code: string, gender: string) =>
   read<GraphFile>('graphs', `${code}-${gender}.json`);
 export const players = (code: string, gender: string) =>
   read<PlayersFile>('players', `${code}-${gender}.json`);
+
+/**
+ * A published player whose partnerships are *all* with other federations, so
+ * their own slice shows none of them.
+ *
+ * Found by scanning rather than named, because who this is changes: a player
+ * transfers, their partners stay behind, and the next weekly refresh strands
+ * somebody new. Hard-coding one would turn a real regression test into a
+ * test that fails the week FIVB updates a federation.
+ */
+export function strandedPlayer(): { code: string; gender: string; id: number; away: number } | null {
+  for (const file of readdirSync(path.join(DATA, 'players'))) {
+    const match = /^([A-Z]+)-([MW])\.json$/.exec(file);
+    if (!match) continue;
+    const [, code, gender] = match as unknown as [string, string, string];
+    const detail = players(code, gender);
+    const g = graph(code, gender);
+    const connected = new Set<number>();
+    for (const e of g.edges) {
+      connected.add(e.a);
+      connected.add(e.b);
+    }
+    for (const p of detail.players) {
+      if (p.away?.length && !connected.has(p.id)) {
+        return { code, gender, id: p.id, away: p.away.length };
+      }
+    }
+  }
+  return null;
+}
 
 /** FIVB's portrait host — stubbed, see the header comment. */
 const PHOTO_HOST = 'sharp.fivb.com';

@@ -7,7 +7,72 @@
       "name": "Neilton Moises Santos Merces",
       "dob": "1984-04-13",
       "height": null,
-      "weight": 90
+      "weight": 90,
+      "away": [
+        {
+          "id": 120551,
+          "name": "Vitor Gonçalves Felipe",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 7,
+          "f": 2012,
+          "l": 2012
+        },
+        {
+          "id": 122121,
+          "name": "Rhooney de Oliveira Ferramenta",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 6,
+          "f": 2010,
+          "l": 2011
+        },
+        {
+          "id": 101204,
+          "name": "Paulo Emilio Silva Azevedo",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 4,
+          "f": 2005,
+          "l": 2005
+        },
+        {
+          "id": 120550,
+          "name": "Álvaro Morais Filho",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 3,
+          "f": 2011,
+          "l": 2011
+        },
+        {
+          "id": 132129,
+          "name": "Iaroslav Rudykh",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 1,
+          "f": 2015,
+          "l": 2015
+        },
+        {
+          "id": 104436,
+          "name": "Igor Hercowitz",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2003,
+          "l": 2003
+        },
+        {
+          "id": 104073,
+          "name": "Pedro Solberg",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 2004,
+          "l": 2004
+        }
+      ]
     },
     {
       "id": 146361,
