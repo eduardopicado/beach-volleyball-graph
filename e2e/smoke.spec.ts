@@ -15,7 +15,16 @@
  */
 
 import type { Page } from '@playwright/test';
-import { test, expect, manifest, graph, players, strandedPlayer } from './fixtures.js';
+import {
+  test,
+  expect,
+  manifest,
+  graph,
+  players,
+  results,
+  strandedPlayer,
+  tournamentIndex,
+} from './fixtures.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
 import { CONTACT_EMAIL } from '../web/src/site.js';
 
@@ -225,6 +234,76 @@ test.describe('timeline view', () => {
     // through a career year by year should stay in it as they click through.
     await expect(tab(page, 'Timeline')).toHaveAttribute('aria-pressed', 'true');
   });
+
+  /**
+   * The busiest player's busiest season, and what the published files say
+   * happened in it — the answer the page has to reproduce, derived from the
+   * same data it was built from.
+   */
+  const busiestSeason = () => {
+    const target = busiest();
+    const index = tournamentIndex();
+    const entries = results(COUNTRY, GENDER).players[target.id] ?? [];
+    const bySeason = new Map<number, string[]>();
+    for (const [no] of entries) {
+      const meta = index[no];
+      if (!meta) continue;
+      const list = bySeason.get(meta[1]) ?? [];
+      list.push(meta[0]);
+      bySeason.set(meta[1], list);
+    }
+    let best = { season: 0, names: [] as string[] };
+    for (const [season, names] of bySeason) {
+      if (names.length > best.names.length) best = { season, names };
+    }
+    return { id: target.id, ...best };
+  };
+
+  test('expanding a season lists the tournaments behind it', async ({ page }) => {
+    const target = busiestSeason();
+    expect(target.names.length, 'no season in this slice has a tournament to show').toBeGreaterThan(1);
+
+    const requests: string[] = [];
+    page.on('request', (r) => requests.push(new URL(r.url()).pathname));
+
+    await page.goto(`./${slicePath()}?player=${target.id}`);
+    await tab(page, 'Timeline').click();
+
+    // Nothing has been fetched yet — the whole point of a separate file.
+    expect(requests.filter((p) => p.includes('/results/'))).toEqual([]);
+
+    const season = page.locator('.timeline .season', { hasText: String(target.season) }).first();
+    await season.scrollIntoViewIfNeeded();
+    await season.click();
+
+    const rows = page.locator('.events > li');
+    await expect(rows).toHaveCount(target.names.length);
+    // In the order the ingest published, which is the season run backwards.
+    expect(await rows.locator('.name').allInnerTexts()).toEqual(target.names);
+    await expect(season).toHaveAttribute('aria-expanded', 'true');
+    expect(requests.filter((p) => p.includes('/results/'))).toHaveLength(1);
+  });
+
+  test('collapsing a season puts its partner rows back', async ({ page }) => {
+    const target = busiestSeason();
+    await page.goto(`./${slicePath()}?player=${target.id}`);
+    await tab(page, 'Timeline').click();
+
+    const item = page.locator('.timeline > li', { hasText: String(target.season) }).first();
+    const season = item.locator('.season');
+    await season.scrollIntoViewIfNeeded();
+
+    const partnersBefore = await item.locator('ul > li').count();
+    expect(partnersBefore).toBeGreaterThan(0);
+
+    await season.click();
+    await expect(item.locator('.events > li').first()).toBeVisible();
+    await expect(item.locator('ul > li')).toHaveCount(0);
+
+    await season.click();
+    await expect(item.locator('.events')).toHaveCount(0);
+    await expect(item.locator('ul > li')).toHaveCount(partnersBefore);
+  });
 });
 
 test('the card renders vitals from the separate player detail file', async ({ page }) => {
@@ -250,7 +329,14 @@ test('the table lists the whole slice', async ({ page }) => {
 });
 
 test('published JSON endpoints are reachable', async ({ page, baseURL }) => {
-  for (const suffix of ['v1/manifest.json', `v1/graphs/${COUNTRY}-${GENDER}.json`, `v1/players/${COUNTRY}-${GENDER}.json`]) {
+  const suffixes = [
+    'v1/manifest.json',
+    'v1/tournaments.json',
+    `v1/graphs/${COUNTRY}-${GENDER}.json`,
+    `v1/players/${COUNTRY}-${GENDER}.json`,
+    `v1/results/${COUNTRY}-${GENDER}.json`,
+  ];
+  for (const suffix of suffixes) {
     const res = await page.request.get(new URL(suffix, baseURL).toString());
     expect(res.status(), `${suffix} should be served`).toBe(200);
     expect(() => res.json(), `${suffix} should be JSON`).not.toThrow();
