@@ -112,13 +112,21 @@ test.describe('partners from other federations', () => {
     await page.goto(`./${sliceFor(target!.code, target!.gender)}?player=${target!.id}`);
     await expect(page.locator('.player-card')).toBeVisible();
 
-    const gap = await page.evaluate(() => {
-      const box = (sel: string) => document.querySelector(sel)?.getBoundingClientRect();
-      const section = box('.partners');
-      const link = box('.profile-link');
-      return section && link ? link.top - section.bottom : null;
+    // The *last rendered row*, not the section's own box. A box does not grow
+    // to contain a child that overflows it, so measuring `.partners` reported
+    // a clean 18px gap at every width — including the one where the rows were
+    // visibly painted across the link. The away list is the right thing to
+    // measure because, unlike the partner list above it, it is not a scroll
+    // container: its rows sit where they are drawn.
+    const overhang = await page.evaluate(() => {
+      const rows = [...document.querySelectorAll('.away li')];
+      const link = document.querySelector('.profile-link')?.getBoundingClientRect();
+      if (!link || rows.length === 0) return null;
+      const last = rows[rows.length - 1]!.getBoundingClientRect();
+      return Math.round(last.bottom - link.top);
     });
-    expect(gap, 'the partners section overlaps the profile link').toBeGreaterThanOrEqual(0);
+    expect(overhang, 'no away rows found to measure').not.toBeNull();
+    expect(overhang, 'the away list is painted over the FIVB profile link').toBeLessThanOrEqual(0);
   });
 
   test('following an away partner lands on their own country page', async ({ page }) => {
