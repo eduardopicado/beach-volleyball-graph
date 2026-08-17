@@ -47,7 +47,16 @@ import {
   sliceByCountryAndGender,
 } from './build.js';
 import { checkForRegression, type DatasetTotals } from './regression.js';
-import type { Manifest, ManifestCountry, Gender, MedalCounts, PlayersFile, GraphFile } from '../web/src/schema.js';
+import type {
+  Manifest,
+  ManifestCountry,
+  Gender,
+  MedalCounts,
+  PlayersFile,
+  GraphFile,
+  ResultEntry,
+  TournamentMeta,
+} from '../web/src/schema.js';
 import { DATA_VERSION } from '../web/src/schema.js';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -66,6 +75,24 @@ function log(step: string, detail: string) {
 
 function hasMedal(counts: MedalCounts): boolean {
   return counts.gold > 0 || counts.silver > 0 || counts.bronze > 0;
+}
+
+/**
+ * A JSON object with one line per key, its value serialised compactly.
+ *
+ * Everything published here is pretty-printed because it is committed to git
+ * and a diff is only useful at line granularity — but `JSON.stringify(x, null,
+ * 2)` gives every number a line of its own, and the results files hold about
+ * 128,000 three-number tuples. Whole-file, that is roughly 640,000 lines to
+ * express 128,000 facts. Keying by line puts the boundary where change
+ * actually happens (one player, one tournament) and leaves each value short
+ * enough to read across.
+ */
+function jsonByKey(record: Record<string, unknown>, indent: string): string {
+  const entries = Object.entries(record);
+  if (entries.length === 0) return '{}';
+  const lines = entries.map(([key, value]) => `${indent}  ${JSON.stringify(key)}: ${JSON.stringify(value)}`);
+  return `{\n${lines.join(',\n')}\n${indent}}`;
 }
 
 /**
@@ -175,7 +202,7 @@ async function main() {
   });
   log('entries', `${teamRows.length} team entries`);
 
-  const { partnerships, appearances, rejects } = aggregatePartnerships(teamRows, tournaments, players);
+  const { partnerships, appearances, results, rejects } = aggregatePartnerships(teamRows, tournaments, players);
   log('aggregate', `${partnerships.size} partnerships across ${appearances.size} players`);
   log('rejected', JSON.stringify(rejects));
 
@@ -217,8 +244,27 @@ async function main() {
   await rm(TMP_DIR, { recursive: true, force: true });
   await mkdir(path.join(TMP_DIR, 'graphs'), { recursive: true });
   await mkdir(path.join(TMP_DIR, 'players'), { recursive: true });
+  await mkdir(path.join(TMP_DIR, 'results'), { recursive: true });
+
+  // One shared index for every qualifying tournament, named and dated, so a
+  // results file can be nothing but numbers. Written whole rather than
+  // restricted to tournaments somebody actually played: it is the published
+  // form of the filter in tiers.ts, and an event with no entries yet is
+  // exactly the thing worth being able to look up.
+  const tournamentIndex: Record<string, TournamentMeta> = {};
+  for (const t of [...tournaments.values()].sort((a, b) => Number(a.no) - Number(b.no))) {
+    tournamentIndex[t.no] =
+      t.startOffset === null
+        ? [t.name, t.season, t.tier]
+        : [t.name, t.season, t.tier, t.startOffset];
+  }
+  await writeFile(
+    path.join(TMP_DIR, 'tournaments.json'),
+    `{\n  "tournaments": ${jsonByKey(tournamentIndex, '  ')}\n}`,
+  );
 
   const byCountry = new Map<string, ManifestCountry>();
+  let resultRows = 0;
 
   for (const slice of slices) {
     const iso2 = countryIso2(federations, slice.country);
@@ -267,6 +313,36 @@ async function main() {
       JSON.stringify(detail, null, 2),
     );
 
+    // Every tournament every player in this slice entered. Its own file, and
+    // its own fetch: the timeline reads fine without it, and only a reader who
+    // opens a season pays for it.
+    const inSlice = new Set(slice.nodes.map((n) => n.id));
+    const sliceResults: Record<string, ResultEntry[]> = {};
+    const partnerNames: Record<string, string> = {};
+    for (const node of slice.nodes) {
+      const entries = results.get(node.id);
+      if (!entries?.length) continue;
+      sliceResults[node.id] = entries;
+      resultRows += entries.length;
+      for (const [, partner] of entries) {
+        // Named here only when the graph cannot name them: a partner from
+        // another federation, or one of the few players FIVB files under none.
+        if (inSlice.has(partner) || partnerNames[partner]) continue;
+        partnerNames[partner] = players.get(partner)?.name ?? `Player ${partner}`;
+      }
+    }
+    await writeFile(
+      path.join(TMP_DIR, 'results', `${slice.country}-${slice.gender}.json`),
+      [
+        '{',
+        `  "country": ${JSON.stringify(slice.country)},`,
+        `  "gender": ${JSON.stringify(slice.gender)},`,
+        `  "names": ${jsonByKey(partnerNames, '  ')},`,
+        `  "players": ${jsonByKey(sliceResults, '  ')}`,
+        '}',
+      ].join('\n'),
+    );
+
     let entry = byCountry.get(slice.country);
     if (!entry) {
       byCountry.set(
@@ -291,10 +367,18 @@ async function main() {
   };
   await writeFile(path.join(TMP_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
+  log('results', `${resultRows.toLocaleString()} tournament entries across ${slices.length} slices`);
+
   // Sanity-check the temp tree before letting it replace live data.
   const written = (await readdir(path.join(TMP_DIR, 'graphs'))).length;
   if (written !== slices.length) {
     throw new Error(`Expected ${slices.length} graph files, wrote ${written} — refusing to publish`);
+  }
+  for (const dir of ['players', 'results']) {
+    const count = (await readdir(path.join(TMP_DIR, dir))).length;
+    if (count !== slices.length) {
+      throw new Error(`Expected ${slices.length} ${dir} files, wrote ${count} — refusing to publish`);
+    }
   }
 
   // A rebuild that lost most of its data looks the same, from these numbers
@@ -339,7 +423,8 @@ async function main() {
   }
   await rm(OLD_DIR, { recursive: true, force: true });
 
-  log('published', `${OUT_DIR} (${written * 2 + 1} files) in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
+  // graphs + players + results, plus the manifest and the tournament index.
+  log('published', `${OUT_DIR} (${written * 3 + 2} files) in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
   log('config', `age-group world championships ${INCLUDE_AGE_GROUP ? 'included' : 'excluded'}`);
 }
 

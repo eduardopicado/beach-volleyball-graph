@@ -5,6 +5,7 @@ import {
   medalTournaments,
   normalisePlayers,
   normaliseTournaments,
+  orderResults,
   pairKey,
   awayPartnersByPlayer,
   sliceByCountryAndGender,
@@ -258,6 +259,154 @@ describe('aggregatePartnerships', () => {
     // Player 1's own appearance count reflects the one tournament they
     // actually played, not two.
     expect(appearances.get(1)!.size).toBe(1);
+  });
+});
+
+describe('aggregatePartnerships results', () => {
+  const dated = (no: string, season: number, month: string): VisRow => ({
+    ...tournament(no, season),
+    StartDateMainDraw: `${season}-${month}-01`,
+  });
+
+  it('records one row per player per entry, from both sides', () => {
+    const { results } = aggregatePartnerships(
+      [{ ...entry('5', 1, 2), Rank: '9' }],
+      normaliseTournaments([tournament('5', 2024)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]),
+    );
+    expect(results.get(1)).toEqual([[5, 2, 9]]);
+    expect(results.get(2)).toEqual([[5, 1, 9]]);
+  });
+
+  it('orders a career newest first, and within a season by the latest event', () => {
+    const tournaments = normaliseTournaments([
+      dated('1', 2023, '07'),
+      dated('2', 2024, '03'),
+      dated('3', 2024, '09'),
+    ]);
+    const { results } = aggregatePartnerships(
+      [
+        { ...entry('1', 1, 2), Rank: '5' },
+        { ...entry('2', 1, 2), Rank: '9' },
+        { ...entry('3', 1, 2), Rank: '1' },
+      ],
+      tournaments,
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]),
+    );
+    expect(results.get(1)!.map(([no]) => no)).toEqual([3, 2, 1]);
+  });
+
+  it('sorts a season without dates last within it, not first', () => {
+    const tournaments = normaliseTournaments([dated('1', 2024, '05'), tournament('2', 2024)]);
+    const { results } = aggregatePartnerships(
+      [
+        { ...entry('2', 1, 2), Rank: '9' },
+        { ...entry('1', 1, 2), Rank: '5' },
+      ],
+      tournaments,
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]),
+    );
+    expect(results.get(1)!.map(([no]) => no)).toEqual([1, 2]);
+  });
+
+  it('collapses a pair that entered qualification and the main draw, keeping the placement', () => {
+    // The same shape `rejects.duplicateEntry` counts: two played rows for one
+    // pair in one tournament. The main draw is the result, so the higher rank
+    // wins -- otherwise a title would read as a qualification exit.
+    const { results } = aggregatePartnerships(
+      [
+        { ...entry('5', 1, 2), Rank: '-25' },
+        { ...entry('5', 1, 2), Rank: '3' },
+      ],
+      normaliseTournaments([tournament('5', 2024)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]),
+    );
+    expect(results.get(1)).toEqual([[5, 2, 3]]);
+  });
+
+  it('keeps both rows when one player entered a tournament with two partners', () => {
+    // 43 players in the archive have exactly this, and the partner list counts
+    // the tournament on both pairings -- so an expanded season has to show it
+    // twice or its rows will not add up to the tallies above them.
+    const { results } = aggregatePartnerships(
+      [
+        { ...entry('9', 1, 2), Rank: '3' },
+        { ...entry('9', 1, 3), Rank: '2' },
+      ],
+      normaliseTournaments([tournament('9', 2024)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA'), player(3, '0', 'BRA')]),
+    );
+    expect(results.get(1)).toEqual([
+      [9, 2, 3],
+      [9, 3, 2],
+    ]);
+  });
+
+  it('leaves out a row that never played', () => {
+    const { results } = aggregatePartnerships(
+      [{ ...entry('5', 1, 2), Rank: '0' }],
+      normaliseTournaments([tournament('5', 2024)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'BRA')]),
+    );
+    expect(results.size).toBe(0);
+  });
+
+  it('keeps a cross-federation entry, which the graph drops', () => {
+    const { results } = aggregatePartnerships(
+      [{ ...entry('7', 1, 2), Rank: '5' }],
+      normaliseTournaments([tournament('7', 2024)]),
+      normalisePlayers([player(1, '0', 'BRA'), player(2, '0', 'NED')]),
+    );
+    expect(results.get(1)).toEqual([[7, 2, 5]]);
+    expect(results.get(2)).toEqual([[7, 1, 5]]);
+  });
+});
+
+describe('orderResults', () => {
+  const tournaments = normaliseTournaments([
+    { ...tournament('1', 2024), StartDateMainDraw: '2024-06-01' },
+    { ...tournament('2', 2024), StartDateMainDraw: '2023-12-20' }, // opens the season early
+    { ...tournament('3', 2024) },
+    { ...tournament('4', 2023), StartDateMainDraw: '2023-06-01' },
+  ]);
+
+  it('puts a December event that opens a season below the season it belongs to', () => {
+    // Its offset is negative, so it sorts last in 2024 -- and still above the
+    // whole of 2023, which is the point of keeping the offset signed.
+    const ordered = orderResults(
+      [
+        [4, 9, 5],
+        [2, 9, 5],
+        [1, 9, 5],
+      ],
+      tournaments,
+    );
+    expect(ordered.map(([no]) => no)).toEqual([1, 2, 4]);
+  });
+
+  it('breaks a tie on tournament number so the order is stable', () => {
+    const same = normaliseTournaments([
+      { ...tournament('10', 2024), StartDateMainDraw: '2024-06-01' },
+      { ...tournament('11', 2024), StartDateMainDraw: '2024-06-01' },
+    ]);
+    expect(
+      orderResults(
+        [
+          [10, 1, 5],
+          [11, 1, 5],
+        ],
+        same,
+      ).map(([no]) => no),
+    ).toEqual([11, 10]);
+  });
+
+  it('does not mutate its input', () => {
+    const input: [number, number, number][] = [
+      [4, 9, 5],
+      [1, 9, 5],
+    ];
+    orderResults(input, tournaments);
+    expect(input.map(([no]) => no)).toEqual([4, 1]);
   });
 });
 

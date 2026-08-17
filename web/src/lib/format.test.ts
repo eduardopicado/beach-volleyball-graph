@@ -1,5 +1,17 @@
 import { describe, expect, it } from 'vitest';
-import { age, flagEmoji, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from './format';
+import {
+  age,
+  flagEmoji,
+  formatDate,
+  formatDayMonth,
+  formatFinish,
+  formatMedals,
+  initials,
+  medalAriaLabel,
+  ordinal,
+  plural,
+  seasonSpan,
+} from './format';
 
 describe('flagEmoji', () => {
   it('maps an ISO-2 code to regional indicators', () => {
@@ -131,5 +143,77 @@ describe('medalAriaLabel', () => {
   it('spells out each nonzero medal count', () => {
     expect(medalAriaLabel({ gold: 3, silver: 0, bronze: 1 })).toBe('3 gold medals, 1 bronze medal');
     expect(medalAriaLabel({ gold: 0, silver: 0, bronze: 0 })).toBe('');
+  });
+});
+
+describe('ordinal', () => {
+  it('uses the right suffix for each final digit', () => {
+    expect([1, 2, 3, 4, 5, 9].map(ordinal)).toEqual(['1st', '2nd', '3rd', '4th', '5th', '9th']);
+  });
+
+  it('handles the teens, which take "th" against their final digit', () => {
+    expect([11, 12, 13].map(ordinal)).toEqual(['11th', '12th', '13th']);
+  });
+
+  it('goes back to the digit rule past the teens', () => {
+    // The real placement brackets: 17th, 21st, 25th, 33rd, 41st, 57th.
+    expect([17, 21, 25, 33, 41, 57].map(ordinal)).toEqual([
+      '17th',
+      '21st',
+      '25th',
+      '33rd',
+      '41st',
+      '57th',
+    ]);
+  });
+
+  it('handles 111 to 113, where only the last two digits decide', () => {
+    expect([111, 112, 113].map(ordinal)).toEqual(['111th', '112th', '113th']);
+  });
+});
+
+describe('formatFinish', () => {
+  it('reads a win as a win', () => {
+    expect(formatFinish(1)).toEqual({ text: '1st', label: 'Won the tournament' });
+  });
+
+  it('says a placement is shared, because 89% of them are', () => {
+    // Beach volleyball reports brackets: eight teams finish 9th. The number
+    // is FIVB's own and is shown as-is; the sharing goes in the long form
+    // rather than into an "=9th" the source never says.
+    expect(formatFinish(9).text).toBe('9th');
+    expect(formatFinish(9).label).toContain('shared');
+  });
+
+  it('names the two kinds of elimination before the main draw', () => {
+    expect(formatFinish(-25).text).toBe('Qual.');
+    expect(formatFinish(-33).text).toBe('Qual.');
+    expect(formatFinish(-2)).toEqual({
+      text: 'Quota',
+      label: 'Eliminated on a confederation quota',
+    });
+  });
+
+  it('does not guess at the handful of other negatives', () => {
+    // -4 turns up on eight rows from 2015 and is documented nowhere. The
+    // honest general case beats picking one of the two labels above.
+    expect(formatFinish(-4)).toEqual({ text: '—', label: 'Did not reach the main draw' });
+  });
+});
+
+describe('formatDayMonth', () => {
+  it('drops the year, which the season heading already carries', () => {
+    expect(formatDayMonth(new Date('2024-07-28T00:00:00Z'))).toBe('28 Jul');
+  });
+
+  it('reads the date in UTC, not the viewer’s zone', () => {
+    // Dates are reconstructed from a UTC day offset. Formatting them locally
+    // would move an event to the previous day for anyone west of Greenwich.
+    expect(formatDayMonth(new Date('2024-01-01T00:00:00Z'))).toBe('1 Jan');
+  });
+
+  it('is null for no date and for an unparseable one', () => {
+    expect(formatDayMonth(null)).toBeNull();
+    expect(formatDayMonth(new Date('nonsense'))).toBeNull();
   });
 });

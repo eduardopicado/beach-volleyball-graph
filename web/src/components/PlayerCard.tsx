@@ -5,11 +5,23 @@
  * on file, so the <img> is allowed to fail and an initials avatar takes over.
  */
 
-import { useEffect, useMemo, useRef, useState } from 'react';
-import type { AwayPartner, GraphNode, PlayerDetail, SeasonTally } from '../schema';
-import { playerPhotoUrl, playerProfileUrl } from '../schema';
-import { age, formatDate, formatMedals, initials, medalAriaLabel, plural, seasonSpan } from '../lib/format';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import type { AwayPartner, Gender, GraphNode, PlayerDetail, SeasonTally } from '../schema';
+import { playerPhotoUrl, playerProfileUrl, TIER_BADGE } from '../schema';
+import {
+  age,
+  formatDate,
+  formatDayMonth,
+  formatFinish,
+  formatMedals,
+  initials,
+  medalAriaLabel,
+  plural,
+  seasonSpan,
+} from '../lib/format';
 import { buildTimeline } from '../lib/timeline';
+import { seasonEvents } from '../lib/results';
+import { useResults } from '../lib/useResults';
 import './PlayerCard.css';
 
 export interface PartnerRow {
@@ -36,8 +48,22 @@ interface Props {
   detail: PlayerDetail | undefined;
   partners: PartnerRow[];
   away: AwayRow[];
+  /**
+   * The slice the card is showing, taken from the loaded graph rather than the
+   * app's selection: following an away partner sets the new country a render
+   * before the new graph lands, and the results fetch has to follow the data,
+   * not the intent.
+   */
+  country: string;
+  gender: Gender;
   countryName: string;
   flag: string;
+  /**
+   * Every player in the slice, unfiltered — the "min events together" control
+   * hides edges, and an expanded season still has to be able to name the
+   * partner of an event whose edge is currently hidden.
+   */
+  names: ReadonlyMap<number, string>;
   onSelectPartner: (id: number) => void;
   onSelectAway: (partner: AwayPartner) => void;
   onClose: () => void;
@@ -82,8 +108,11 @@ export function PlayerCard({
   detail,
   partners,
   away,
+  country,
+  gender,
   countryName,
   flag,
+  names,
   onSelectPartner,
   onSelectAway,
   onClose,
@@ -135,6 +164,36 @@ export function PlayerCard({
   // year should stay in that mode as they click through partners.
   const canShowTimeline = timeline.length > 0;
   const showing = canShowTimeline ? view : 'partners';
+
+  // --- expanding a season into its tournaments ------------------------------
+  const [openSeasons, setOpenSeasons] = useState<ReadonlySet<number>>(new Set());
+  // Raised by the first expansion and never lowered, which is what keeps the
+  // fetched slice around as the reader clicks from player to player.
+  const [wantResults, setWantResults] = useState(false);
+  const results = useResults(country, gender, wantResults);
+
+  // A different player's seasons are not this player's, so start them closed —
+  // but leave `view` alone, so someone reading careers year by year stays in
+  // the timeline as they click through.
+  useEffect(() => setOpenSeasons(new Set()), [node.id]);
+
+  const toggleSeason = useCallback((season: number) => {
+    setWantResults(true);
+    setOpenSeasons((open) => {
+      const next = new Set(open);
+      if (!next.delete(season)) next.add(season);
+      return next;
+    });
+  }, []);
+
+  const nameOf = useCallback(
+    (id: number) =>
+      names.get(id) ??
+      (results.status === 'ready' ? (results.data.results.names[id] ?? null) : null),
+    [names, results],
+  );
+
+  const entries = results.status === 'ready' ? results.data.results.players[node.id] : undefined;
 
   return (
     <aside className="player-card" aria-label={`Profile: ${node.name}`}>
@@ -228,34 +287,98 @@ export function PlayerCard({
           </p>
         ) : showing === 'timeline' ? (
           <ol className="timeline">
-            {timeline.map((row) => (
-              <li key={row.season}>
-                {/* The year sits in a gutter beside its partners rather than
-                    on a line of its own: one year with two names against it
-                    is the shape worth seeing, and it keeps a 20-season career
-                    readable without turning into a wall of headings. */}
-                <p className="season">
-                  <span className="year">{row.season}</span>
-                  {/* Only when it says something the rows don't already: with
-                      a single partner this is just their tally again. */}
-                  {row.partners.length > 1 && (
-                    <span className="total" aria-label={plural(row.total, 'tournament', 'tournaments')}>
-                      {row.total}
-                    </span>
-                  )}
-                </p>
-                <ul>
-                  {row.partners.map((p) => (
-                    <li key={p.node.id}>
-                      <button type="button" onClick={() => onSelectPartner(p.node.id)}>
-                        <span className="name">{p.node.name}</span>
-                        <span className="tally">{p.t}</span>
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
+            {timeline.map((row) => {
+              const open = openSeasons.has(row.season);
+              // The season's real calendar, not the graph's view of it: the
+              // partner rows above are subject to the "min events together"
+              // filter, and once a year is open the honest answer to "what
+              // happened in it" is every tournament that did.
+              const events = open
+                ? seasonEvents(entries, results.status === 'ready' ? results.data.tournaments : {}, row.season, nameOf)
+                : [];
+              const panelId = `season-${node.id}-${row.season}`;
+              return (
+                <li key={row.season}>
+                  {/* The year sits in a gutter beside its partners rather than
+                      on a line of its own: one year with two names against it
+                      is the shape worth seeing, and it keeps a 20-season career
+                      readable without turning into a wall of headings. */}
+                  <button
+                    type="button"
+                    className="season"
+                    aria-expanded={open}
+                    aria-controls={panelId}
+                    onClick={() => toggleSeason(row.season)}
+                  >
+                    <span className="year">{row.season}</span>
+                    {/* Open, this counts the events listed below; closed, the
+                        tournaments behind the partner rows — and then only when
+                        it says something those rows don't, since with a single
+                        partner it is just their tally again. */}
+                    {open ? (
+                      <span className="total" aria-label={plural(events.length, 'tournament')}>
+                        {events.length}
+                      </span>
+                    ) : (
+                      row.partners.length > 1 && (
+                        <span className="total" aria-label={plural(row.total, 'tournament', 'tournaments')}>
+                          {row.total}
+                        </span>
+                      )
+                    )}
+                  </button>
+
+                  <div id={panelId}>
+                    {!open ? (
+                      <ul>
+                        {row.partners.map((p) => (
+                          <li key={p.node.id}>
+                            <button type="button" onClick={() => onSelectPartner(p.node.id)}>
+                              <span className="name">{p.node.name}</span>
+                              <span className="tally">{p.t}</span>
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : results.status === 'failed' ? (
+                      <p className="events-note">Could not load this season's tournaments.</p>
+                    ) : events.length === 0 ? (
+                      <p className="events-note">
+                        {results.status === 'ready' ? 'No tournament detail for this season.' : 'Loading…'}
+                      </p>
+                    ) : (
+                      <ol className="events">
+                        {events.map((event) => {
+                          const finish = formatFinish(event.rank);
+                          const when = formatDayMonth(event.date);
+                          // Only for the tiers that are not the ordinary week
+                          // on tour — see TIER_BADGE.
+                          const badge = TIER_BADGE[event.tier];
+                          return (
+                            <li key={`${event.no}-${event.partnerId}`}>
+                              <p className="event">
+                                <span className="name">{event.name}</span>
+                                <span
+                                  className={`finish${event.rank >= 1 && event.rank <= 3 ? ' podium' : ''}`}
+                                >
+                                  <span aria-hidden="true">{finish.text}</span>
+                                  <span className="sr-only">{finish.label}</span>
+                                </span>
+                              </p>
+                              <p className="event-meta">
+                                {when && <span>{when}</span>}
+                                {badge && <span className="badge">{badge}</span>}
+                                {event.partner && <span className="with">{event.partner}</span>}
+                              </p>
+                            </li>
+                          );
+                        })}
+                      </ol>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
           </ol>
         ) : (
           <ul>

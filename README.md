@@ -131,8 +131,10 @@ Everything under `/v1/` is static JSON:
 
 ```
 /v1/manifest.json            index: countries, node counts, tiers, freshness
+/v1/tournaments.json         every qualifying tournament: name, season, tier, date
 /v1/graphs/{CC}-{G}.json     nodes + edges for one country × gender
-/v1/players/{CC}-{G}.json    height, weight, date of birth and any medals
+/v1/players/{CC}-{G}.json    height, weight, date of birth, medals, foreign partners
+/v1/results/{CC}-{G}.json    every tournament every player in the slice entered
 ```
 
 Edge keys are terse (`a`, `b`, `t`, `f`, `l`, `s`) because edges dominate file
@@ -153,6 +155,21 @@ file; the files are served gzipped and there it costs about a kilobyte.
 Player detail is a **separate file per slice**, not per player: it loads once
 alongside the graph, so opening a profile costs no network request. Even the
 largest country's pair of files comes to well under 200 KB uncompressed.
+
+Results are a third file, and the one thing here that is *not* loaded with the
+slice. `/v1/results/` holds one row per tournament per player —
+`[tournament number, partner id, rank]` — which is 127,591 rows across the
+archive, an order of magnitude more data than everything else about a player
+put together. It is fetched the first time somebody expands a season on a
+player card, and never otherwise. The rows carry no names: tournaments are
+named once in the shared `/v1/tournaments.json`, and partners by the slice's
+own graph, with only the ones from outside it (see below) named in the results
+file itself. The largest results file is 85 KB uncompressed.
+
+`rank` is FIVB's `Rank`, and it is a *shared* placement — beach volleyball
+reports brackets, so eight teams finish 9th and 89% of played rows sit on a
+rank another team also holds. Negative values are eliminations before the main
+draw: `<= -25` in qualification, `-2` on a confederation quota.
 
 The schema is [`web/src/schema.ts`](web/src/schema.ts), shared verbatim by the
 ingest pipeline and the app so the two cannot drift.
