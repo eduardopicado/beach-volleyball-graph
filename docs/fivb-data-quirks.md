@@ -441,19 +441,41 @@ no appearances, no partnerships, no rows on any player card.
 Korea, 14–16 August 2026). One day after it ended, all 39 team rows had a blank
 `Rank`, including Jana Milutinovic / Jasmine Rayner. Meanwhile
 `GetBeachMatchList` returned its 40 matches with scores and `Status: 15`
-(finished). Third-party live-score sites were showing the event while this one
-showed nothing — not because they had the placements, but because they display
-*matches*, which VIS publishes immediately. The two are different questions and
-only one of them had an answer yet.
+(finished).
 
-**Nothing else holds the placement either**, which is worth recording so nobody
-re-runs the search. The full `BeachTeam` record for a Busan team has every
-result-shaped field empty — `Rank`, `RankText`, `RankInFivbWorldRanking`,
-`EarnedPointsTeam`, `WorldTourRanking` — while the populated ones
-(`PositionInMainDraw`, `PositionInEntry`, `EntryPoints`) are the seeding and
-entry values §4 warns against reading as results. `GetBeachTournamentRanking`
-is not a source at all: it returns an empty element for Busan *and* for a
-control tournament whose ranks are complete.
+**The placement does exist — in a different entity.** `GetBeachTeamList`, the
+bulk request this pipeline is built on, is not the only source.
+`GetBeachTournamentRanking` returns Busan's full final standings *right now*,
+while every `BeachTeam.Rank` for the event is still blank:
+
+```
+<BeachTournamentRankingEntry NoTeam="3173540" Rank="1" TeamName="Progella/Pagara"/>
+<BeachTournamentRankingEntry NoTeam="3173538" Rank="2" TeamName="Rondina/Pons"/>
+<BeachTournamentRankingEntry NoTeam="3172894" Rank="3" TeamName="Milutinovic/Rayner"/>
+```
+
+**It is easy to conclude that entity is empty when it is not.** It returns a
+bare `<BeachTournamentRanking />` — no error, no rows — unless an explicit
+`Fields` attribute is supplied, and it takes the tournament as a `No` attribute
+on the request rather than inside a `<Filter>`. Either mistake looks exactly
+like "this tournament has no ranking", including for tournaments whose
+standings are complete. `ingest/vis.ts` already says always send a `Fields`
+list; this is what it costs to ignore that.
+
+**Its negative ranks mean the opposite of `BeachTeam`'s.** Here a negative
+marks a *shared* placement — the teams tied with the one above. A draw with
+four teams on 5th returns one `5` and three `-5`. In `BeachTeam.Rank` a
+negative means elimination in qualification or on quota (§3). Swapping one
+source for the other without translating the sign would read every shared 5th
+place as a qualification exit.
+
+| | `BeachTeam.Rank` | `BeachTournamentRanking.Rank` |
+|---|---|---|
+| Busan, a day after the event | all blank | complete, 26 entries |
+| Shared placements | flattened to the positive value | negative on all but the first |
+| A negative means | eliminated in qualification / on quota | tied with the placement above |
+| Qualification losers | present, `<= -25` | absent |
+| Request shape | one bulk call for the whole archive | one call per tournament |
 
 **How common.** Rare, and it does resolve. Of the 468 finished tournaments in
 the qualifying set carrying tournament `Status` 7, Busan was the *only* one
@@ -473,13 +495,11 @@ abandoned records kept under their original dates. Those never had a result and
 never will, which is why they are counted separately from recent lag rather
 than reported by name.
 
-**Why not derive placements from matches.** It is possible —
-`GetBeachMatchList` has the scores — but it means a per-tournament fan-out the
-pipeline deliberately does not do, plus inventing a bracket-to-placement
-algorithm for a field FIVB is about to publish anyway. §15 is the warning
-there: a rank in this sport is a shared bracket, not a position, and
-reconstructing that correctly for every draw format across 40 years is a much
-larger claim than waiting a week.
+**So the gap can be closed**, at the cost of the pipeline's "three bulk
+requests, no per-tournament fan-out" property. Bounded, though: only events
+that are finished and unranked need asking about, which is one or two a week.
+Deriving placements from the match list — the other option considered — is not
+needed and never was, because FIVB publishes them.
 
 **Handled in.** `finishedWithoutResults` in `ingest/build.ts`, logged by
 `ingest/main.ts` as the `awaiting` line. It does not fail the run — the next
