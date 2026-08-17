@@ -350,7 +350,12 @@
       "name": "Jyrki Nurminen",
       "dob": "1990-11-02",
       "height": 188,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 4
+      }
     },
     {
       "id": 138814,
@@ -364,7 +369,12 @@
       "name": "Santeri Siren",
       "dob": "1996-05-15",
       "height": 194,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 4
+      }
     },
     {
       "id": 144087,

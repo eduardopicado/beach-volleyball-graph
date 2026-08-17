@@ -91,7 +91,12 @@
       "name": "Alexey Sidorenko",
       "dob": "1983-08-26",
       "height": 200,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104876,
@@ -112,7 +117,12 @@
       "name": "Alexandr Dyachenko",
       "dob": "1980-10-23",
       "height": 195,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117868,
@@ -168,7 +178,12 @@
       "name": "Dmitriy Yakovlev",
       "dob": "1988-01-18",
       "height": 191,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 122476,
@@ -189,7 +204,12 @@
       "name": "Sergey Bogatu",
       "dob": "1993-02-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 122479,

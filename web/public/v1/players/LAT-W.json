@@ -14,14 +14,24 @@
       "name": "Inese Jursone",
       "dob": "1981-11-13",
       "height": 180,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102890,
       "name": "Inguna Minusa",
       "dob": "1977-08-17",
       "height": 175,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103018,
@@ -203,7 +213,12 @@
       "name": "Ilze Liepinlauska",
       "dob": "1991-05-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124781,
@@ -231,7 +246,12 @@
       "name": "Alise Lece",
       "dob": "1994-02-08",
       "height": 187,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135465,
@@ -292,6 +312,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 6,
+        "bronze": 4
       }
     },
     {
@@ -304,6 +329,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 6,
+        "bronze": 4
       }
     },
     {
@@ -458,14 +488,24 @@
       "name": "Deniela Konstantinova",
       "dob": "2005-07-22",
       "height": 183,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 188451,
       "name": "Līva Ēbere",
       "dob": "2007-09-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 188955,

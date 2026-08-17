@@ -8,6 +8,11 @@
       "dob": "1963-02-05",
       "height": 200,
       "weight": 95,
+      "tour": {
+        "gold": 7,
+        "silver": 2,
+        "bronze": 9
+      },
       "away": [
         {
           "id": 100166,
@@ -25,7 +30,12 @@
       "name": "Björn Maaseide",
       "dob": "1968-03-07",
       "height": 198,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 7,
+        "silver": 2,
+        "bronze": 9
+      }
     },
     {
       "id": 100301,
@@ -44,6 +54,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
       }
     },
     {
@@ -58,7 +73,12 @@
       "name": "Kjell Arne Goranson",
       "dob": "1970-12-13",
       "height": 193,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100740,
@@ -77,6 +97,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 2
       }
     },
     {
@@ -119,7 +144,12 @@
       "name": "Iver Andreas Horrem",
       "dob": "1977-01-01",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102187,
@@ -161,7 +191,12 @@
       "name": "Tarjei Skarlund",
       "dob": "1978-11-06",
       "height": 191,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102545,
@@ -224,7 +259,12 @@
       "name": "Magne Kobbevik",
       "dob": "1972-11-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102865,
@@ -357,7 +397,12 @@
       "name": "Bjorn F. Ingeborgrud",
       "dob": "1979-10-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103370,
@@ -567,7 +612,12 @@
       "name": "Martin Spinnangr",
       "dob": "1987-05-05",
       "height": 197,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 118943,
@@ -714,7 +764,12 @@
       "name": "Lars Tveit Retterholt",
       "dob": "1991-01-08",
       "height": 188,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 132790,
@@ -745,6 +800,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 27,
+        "silver": 9,
+        "bronze": 7
       }
     },
     {
@@ -752,7 +812,12 @@
       "name": "Hendrik Nikolai Mol",
       "dob": "1994-03-10",
       "height": 183,
-      "weight": 115
+      "weight": 115,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 138642,
@@ -773,14 +838,24 @@
       "name": "Bjarne Nikolai Huus",
       "dob": "1995-01-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 139766,
       "name": "Daniel Bergerud",
       "dob": "1991-12-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 141982,
@@ -815,7 +890,12 @@
       "name": "Mathias Berntsen",
       "dob": "1996-02-05",
       "height": 188,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 143190,
@@ -839,6 +919,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 28,
+        "silver": 8,
+        "bronze": 9
       }
     },
     {
@@ -951,7 +1036,12 @@
       "name": "Nils Gunnar Ringøen",
       "dob": "2001-02-26",
       "height": 194,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 157219,
@@ -986,14 +1076,24 @@
       "name": "Markus Mol",
       "dob": "2002-04-03",
       "height": 197,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 4,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 173419,
       "name": "Jo Gladsøy Sunde",
       "dob": "2003-04-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 4,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 179497,
@@ -1028,7 +1128,12 @@
       "name": "Even Stray Aas",
       "dob": "2005-09-09",
       "height": 197,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 182803,
@@ -1077,7 +1182,12 @@
       "name": "Jonah Andre Lyngaas Kjemperud",
       "dob": "2005-11-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 203656,
@@ -1112,7 +1222,12 @@
       "name": "Sebastian Lyngaas Kjemperud",
       "dob": "2008-02-09",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 222685,

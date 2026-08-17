@@ -154,14 +154,24 @@
       "name": "Sofia Starikov",
       "dob": "1994-06-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 146195,
       "name": "Anita Dave",
       "dob": "1997-10-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 147106,

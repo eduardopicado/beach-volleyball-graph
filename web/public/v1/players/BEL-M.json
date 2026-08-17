@@ -463,7 +463,12 @@
       "name": "Tom van Walle",
       "dob": "1987-08-07",
       "height": 198,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 131628,
@@ -477,7 +482,12 @@
       "name": "Dries Koekelkoren",
       "dob": "1988-05-25",
       "height": 191,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 132336,
@@ -526,7 +536,12 @@
       "name": "Louis Vandecaveye",
       "dob": "1992-08-31",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 139107,
@@ -554,7 +569,12 @@
       "name": "Gilles Vandecaveye",
       "dob": "1995-08-28",
       "height": 192,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 143941,
@@ -666,7 +686,12 @@
       "name": "Joppe Van Langendonck",
       "dob": "2003-01-15",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 179319,
@@ -680,7 +705,12 @@
       "name": "Kyan Vercauteren",
       "dob": "2004-04-08",
       "height": 199,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 190216,

@@ -245,7 +245,12 @@
       "name": "Hernan Tovar",
       "dob": "1987-01-29",
       "height": 185,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 122626,
@@ -350,7 +355,12 @@
       "name": "Rolando Hernandez",
       "dob": "1996-06-13",
       "height": 150,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 142875,

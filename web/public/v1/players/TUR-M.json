@@ -350,21 +350,36 @@
       "name": "Murat Giginoglu",
       "dob": "1987-10-15",
       "height": 198,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 132175,
       "name": "Selçuk Sekerci",
       "dob": "1984-05-19",
       "height": 198,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 132253,
       "name": "Volkan Gögtepe",
       "dob": "1987-03-22",
       "height": 187,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 133317,
@@ -469,14 +484,24 @@
       "name": "Safa Urlu",
       "dob": "1994-03-08",
       "height": 190,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 146272,
       "name": "Hasan Huseyin Mermer",
       "dob": "1994-11-14",
       "height": 197,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 146300,
@@ -560,7 +585,12 @@
       "name": "Yusuf Özdemir",
       "dob": "2000-03-16",
       "height": 195,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 156395,
@@ -630,7 +660,12 @@
       "name": "Batuhan Kuru",
       "dob": "2003-07-12",
       "height": 191,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 172986,

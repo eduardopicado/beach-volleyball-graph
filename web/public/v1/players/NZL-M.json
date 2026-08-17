@@ -84,14 +84,24 @@
       "name": "Kirk Pitman",
       "dob": "1981-12-13",
       "height": 192,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104659,
       "name": "Jason Lochhead",
       "dob": "1984-03-12",
       "height": 178,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118100,
@@ -168,7 +178,12 @@
       "name": "Sam O'Dea",
       "dob": "1990-11-24",
       "height": 198,
-      "weight": 97
+      "weight": 97,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 122248,
@@ -210,7 +225,12 @@
       "name": "Ben O'Dea",
       "dob": "1992-05-06",
       "height": 196,
-      "weight": 97
+      "weight": 97,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 132542,
@@ -238,14 +258,24 @@
       "name": "Thomas Hartles",
       "dob": "1993-10-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 135513,
       "name": "Griffin Muller",
       "dob": "1993-09-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 138957,
@@ -259,7 +289,12 @@
       "name": "Bradley Fuller",
       "dob": "1995-10-13",
       "height": 191,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 140905,
@@ -315,7 +350,12 @@
       "name": "Alani Nicklin",
       "dob": "1995-08-01",
       "height": 189,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 161083,
@@ -336,7 +376,12 @@
       "name": "Thomas Reid",
       "dob": "1996-03-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 164398,
@@ -378,7 +423,12 @@
       "name": "John McManaway",
       "dob": "2001-08-13",
       "height": 194,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 166737,

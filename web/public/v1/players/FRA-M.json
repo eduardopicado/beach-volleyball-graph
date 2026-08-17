@@ -7,14 +7,24 @@
       "name": "Christian Penigaud",
       "dob": "1964-02-27",
       "height": 193,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 100104,
       "name": "Jean-Philippe \"JP\" Jodard",
       "dob": "1966-07-08",
       "height": 186,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 100105,
@@ -152,7 +162,12 @@
       "name": "Guilherm Deulofeu",
       "dob": "1972-05-22",
       "height": 187,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100794,
@@ -173,7 +188,12 @@
       "name": "Mathieu Hamel",
       "dob": "1972-08-28",
       "height": 190,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100797,
@@ -446,14 +466,24 @@
       "name": "Kevin Cès",
       "dob": "1980-07-21",
       "height": 194,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 101961,
       "name": "Jean-Philippe Daguerre",
       "dob": "1975-12-04",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101962,
@@ -579,7 +609,12 @@
       "name": "Ogier Molinier",
       "dob": "1976-10-15",
       "height": 197,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103542,
@@ -625,14 +660,24 @@
       "name": "Yannick Salvetti",
       "dob": "1980-08-04",
       "height": 197,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103547,
       "name": "Denis Damez",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103548,
@@ -695,7 +740,12 @@
       "name": "Damien Quoirin",
       "dob": "1983-08-14",
       "height": 187,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104427,
@@ -730,7 +780,12 @@
       "name": "Grégory Gagliano",
       "dob": "1980-03-06",
       "height": 197,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 104887,
@@ -744,7 +799,12 @@
       "name": "Adrian Caravano",
       "dob": "1977-01-28",
       "height": 190,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 104949,
@@ -793,28 +853,48 @@
       "name": "Fabien Dugrip",
       "dob": "1976-03-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 112119,
       "name": "Andy Cès",
       "dob": "1982-07-03",
       "height": 196,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 115571,
       "name": "Renaud Herpe",
       "dob": "1975-07-21",
       "height": 195,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 115621,
       "name": "Mathieu Daguerre",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 115660,
@@ -828,7 +908,12 @@
       "name": "Edouard Rowlandson",
       "dob": "1988-07-20",
       "height": 190,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 116473,
@@ -919,14 +1004,24 @@
       "name": "Youssef Krou",
       "dob": "1989-06-19",
       "height": 193,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 5
+      }
     },
     {
       "id": 119798,
       "name": "Julien Lyneel",
       "dob": "1990-04-15",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119804,
@@ -1087,7 +1182,12 @@
       "name": "Romain Di Giantommaso",
       "dob": "1994-05-25",
       "height": 184,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 137485,
@@ -1115,7 +1215,12 @@
       "name": "Arnaud Loiseau",
       "dob": "1996-05-12",
       "height": 193,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142693,
@@ -1136,7 +1241,12 @@
       "name": "Florian Gosselin",
       "dob": "1987-06-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 146455,
@@ -1148,6 +1258,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 3
       }
     },
     {
@@ -1155,7 +1270,12 @@
       "name": "Timothée Platre",
       "dob": "1999-04-15",
       "height": 186,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 146850,
@@ -1176,21 +1296,36 @@
       "name": "Rémi Bassereau",
       "dob": "1999-02-26",
       "height": 195,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 156700,
       "name": "Olivier Barthelemy",
       "dob": "1993-09-11",
       "height": 195,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 157923,
       "name": "Quincy Aye",
       "dob": "1995-02-27",
       "height": 203,
-      "weight": 102
+      "weight": 102,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 163309,
@@ -1218,7 +1353,12 @@
       "name": "Jérémy Silvestre",
       "dob": "1995-04-08",
       "height": 199,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 167828,
@@ -1260,7 +1400,12 @@
       "name": "Arthur Canet",
       "dob": "2004-12-01",
       "height": 192,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 175205,
@@ -1272,6 +1417,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 2
       }
     },
     {
@@ -1279,7 +1429,12 @@
       "name": "Calvin Aye",
       "dob": "2001-09-21",
       "height": 197,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 3
+      }
     },
     {
       "id": 179150,
@@ -1300,21 +1455,36 @@
       "name": "Tom Altwies",
       "dob": "2002-01-29",
       "height": 189,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179477,
       "name": "Samuel Cattet",
       "dob": "1997-12-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 179478,
       "name": "Elouan Chouikh-Barbez",
       "dob": "2002-05-01",
       "height": 200,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 179487,
@@ -1342,7 +1512,12 @@
       "name": "Joadel Gardoque",
       "dob": "2003-07-04",
       "height": 188,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 184192,

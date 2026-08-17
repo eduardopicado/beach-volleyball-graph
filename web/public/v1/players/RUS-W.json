@@ -113,6 +113,11 @@
       "dob": "1986-08-16",
       "height": null,
       "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 4
+      },
       "away": [
         {
           "id": 147368,
@@ -130,7 +135,12 @@
       "name": "Alexandra Moiseeva",
       "dob": "1983-02-09",
       "height": 185,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 103962,
@@ -236,6 +246,11 @@
       "dob": "1989-05-17",
       "height": 182,
       "weight": 66,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 5
+      },
       "away": [
         {
           "id": 147368,
@@ -268,6 +283,11 @@
       "dob": "1988-07-10",
       "height": null,
       "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 147368,
@@ -331,7 +351,12 @@
       "name": "Svetlana Popova",
       "dob": "1988-07-02",
       "height": 186,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 120352,
@@ -346,6 +371,11 @@
       "dob": "1987-08-11",
       "height": 180,
       "weight": 64,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      },
       "away": [
         {
           "id": 147368,
@@ -455,7 +485,12 @@
       "name": "Ksenia Dabizha",
       "dob": "1994-07-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 132224,
@@ -470,6 +505,11 @@
       "dob": "1990-08-11",
       "height": null,
       "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 147368,
@@ -515,7 +555,12 @@
       "name": "Nadezda Makroguzova",
       "dob": "1997-04-02",
       "height": 183,
-      "weight": 57
+      "weight": 57,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 139127,
@@ -543,7 +588,12 @@
       "name": "Daria Rudykh",
       "dob": "1997-01-03",
       "height": 175,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 141925,
@@ -571,7 +621,12 @@
       "name": "Daria Mastikova",
       "dob": "1997-02-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 144111,
@@ -585,14 +640,24 @@
       "name": "Svetlana Kholomina",
       "dob": "1997-11-09",
       "height": 174,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 146523,
       "name": "Elizaveta Zayonchkovskaya",
       "dob": "1998-04-28",
       "height": 189,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146617,
@@ -655,14 +720,24 @@
       "name": "Maria Voronina",
       "dob": "2000-02-18",
       "height": 168,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 151310,
       "name": "Polina Tsyganova",
       "dob": "1998-07-25",
       "height": 187,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 151865,
@@ -683,7 +758,12 @@
       "name": "Mariia Bocharova",
       "dob": "2002-02-23",
       "height": 187,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 156340,
@@ -697,7 +777,12 @@
       "name": "Anastasia Petrunina",
       "dob": "1998-11-07",
       "height": 190,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156895,

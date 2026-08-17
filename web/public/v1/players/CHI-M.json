@@ -154,14 +154,24 @@
       "name": "Marco Grimalt",
       "dob": "1989-07-11",
       "height": 196,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 5,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 134415,
       "name": "Esteban Grimalt",
       "dob": "1991-01-09",
       "height": 190,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 5,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 135092,
@@ -210,7 +220,12 @@
       "name": "Vicente Orlando Droguett Torrealba",
       "dob": "2000-06-23",
       "height": 190,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 161899,
@@ -245,7 +260,12 @@
       "name": "Noe Aravena",
       "dob": "2002-07-30",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 172914,

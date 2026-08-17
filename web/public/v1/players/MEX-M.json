@@ -277,7 +277,12 @@
       "name": "Rodolfo Lombardo Ontiveros",
       "dob": "1983-11-09",
       "height": 185,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 104106,
@@ -298,7 +303,12 @@
       "name": "Juan Ramón Virgen Pulido",
       "dob": "1987-04-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 104510,
@@ -564,14 +574,24 @@
       "name": "Josue Gaston Gaxiola Leyva",
       "dob": "1997-09-02",
       "height": 184,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147045,
       "name": "Jose Luis Rubio Camargo",
       "dob": "1996-10-17",
       "height": 192,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147049,

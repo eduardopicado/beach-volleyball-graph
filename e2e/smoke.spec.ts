@@ -322,6 +322,40 @@ test('the card renders vitals from the separate player detail file', async ({ pa
   await expect(height.locator('dd')).toHaveText(`${withHeight!.height} cm`);
 });
 
+test('the card counts tour podiums apart from Olympic and World Championships medals', async ({
+  page,
+}) => {
+  // The three tallies are never merged, so the card has to show them as three
+  // cells with three different numbers. Picking the player with the most tour
+  // podiums makes it the busiest case rather than a lucky one.
+  const detail = players(COUNTRY, GENDER);
+  const best = detail.players
+    .filter((p) => p.tour)
+    .sort((a, b) => {
+      const total = (c: typeof a.tour) => (c ? c.gold + c.silver + c.bronze : 0);
+      return total(b.tour) - total(a.tour);
+    })[0];
+  expect(best, 'no player in this slice has a tour podium').toBeTruthy();
+
+  await page.goto(`./${slicePath()}?player=${best!.id}`);
+  const cell = page
+    .locator('.player-card .vitals div')
+    .filter({ has: page.getByText('Tour podiums', { exact: true }) });
+  const { gold, silver, bronze } = best!.tour!;
+  // Emoji and count are joined by a WORD JOINER, so match the numbers rather
+  // than the exact string.
+  const text = await cell.locator('dd').innerText();
+  expect(text.match(/\d+/g)?.map(Number)).toEqual([gold, silver, bronze].filter((n) => n > 0));
+
+  // And it is genuinely a different number from the medal cells beside it.
+  if (best!.olympics) {
+    const olympics = page
+      .locator('.player-card .vitals div')
+      .filter({ has: page.getByText('Olympics', { exact: true }) });
+    await expect(olympics.locator('dd')).not.toHaveText(text);
+  }
+});
+
 test('the table lists the whole slice', async ({ page }) => {
   await page.goto(`./${slicePath()}`);
   const expected = graph(COUNTRY, GENDER).nodes.length;

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import type { AwayPartner, Gender, GraphFile, Manifest, PlayersFile } from './schema';
+import type { AwayPartner, Gender, GraphFile, Manifest, MedalCounts, PlayerDetail, PlayersFile } from './schema';
 import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, formatMedals, plural } from './lib/format';
@@ -284,35 +284,39 @@ export default function App() {
     // event, not one per athlete). Safe to assume exactly 2 credits per
     // event here: FIVB pairs are always same-federation, so both teammates
     // fall in this same country x gender slice.
-    const oly = { gold: 0, silver: 0, bronze: 0 };
-    const wch = { gold: 0, silver: 0, bronze: 0 };
-    for (const p of details?.players ?? []) {
-      if (p.olympics) {
-        oly.gold += p.olympics.gold;
-        oly.silver += p.olympics.silver;
-        oly.bronze += p.olympics.bronze;
-      }
-      if (p.worldChamps) {
-        wch.gold += p.worldChamps.gold;
-        wch.silver += p.worldChamps.silver;
-        wch.bronze += p.worldChamps.bronze;
-      }
-    }
-    // Rounded, not divided outright: a teammate whose federation tag has
-    // since drifted from their partner's (see the Schalk/Saxton case) can
+    //
+    // Rounded rather than divided outright: a teammate whose federation tag
+    // has since drifted from their partner's (see the Schalk/Saxton case) can
     // leave a medal credited on just one side of this slice, which would
     // otherwise show as a stray ".5".
-    oly.gold = Math.round(oly.gold / 2);
-    oly.silver = Math.round(oly.silver / 2);
-    oly.bronze = Math.round(oly.bronze / 2);
-    wch.gold = Math.round(wch.gold / 2);
-    wch.silver = Math.round(wch.silver / 2);
-    wch.bronze = Math.round(wch.bronze / 2);
-    if (oly.gold + oly.silver + oly.bronze > 0) {
-      result.push({ label: 'Olympics', value: formatMedals(oly) });
-    }
-    if (wch.gold + wch.silver + wch.bronze > 0) {
-      result.push({ label: 'Worlds', value: formatMedals(wch) });
+    const perEvent = (pick: (p: PlayerDetail) => MedalCounts | undefined): MedalCounts => {
+      const total = { gold: 0, silver: 0, bronze: 0 };
+      for (const p of details?.players ?? []) {
+        const counts = pick(p);
+        if (!counts) continue;
+        total.gold += counts.gold;
+        total.silver += counts.silver;
+        total.bronze += counts.bronze;
+      }
+      return {
+        gold: Math.round(total.gold / 2),
+        silver: Math.round(total.silver / 2),
+        bronze: Math.round(total.bronze / 2),
+      };
+    };
+
+    // Three tiles at most, in ascending order of how many countries have one.
+    // The tour tally is the same three colours rather than a total: a total
+    // says 149 and loses that 73 of them were wins.
+    const tiles: [label: string, counts: MedalCounts][] = [
+      ['Olympics', perEvent((p) => p.olympics)],
+      ['Worlds', perEvent((p) => p.worldChamps)],
+      ['Tour podiums', perEvent((p) => p.tour)],
+    ];
+    for (const [label, counts] of tiles) {
+      if (counts.gold + counts.silver + counts.bronze > 0) {
+        result.push({ label, value: formatMedals(counts) });
+      }
     }
 
     const degrees = nodes.map((n) => (partnersByPlayer.get(n.id)?.length ?? 0));

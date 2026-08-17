@@ -8,6 +8,11 @@
       "dob": "1983-09-13",
       "height": 177,
       "weight": 64,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 103670,
@@ -39,7 +44,12 @@
       "name": "Taru Lahti-Liukkonen",
       "dob": "1992-12-09",
       "height": 178,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 3,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 104855,
@@ -60,7 +70,12 @@
       "name": "Riikka Lehtonen",
       "dob": "1979-07-24",
       "height": 183,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 114633,
@@ -214,7 +229,12 @@
       "name": "Anniina Parkkinen",
       "dob": "1996-07-30",
       "height": 174,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 139287,
@@ -228,7 +248,12 @@
       "name": "Niina Ahtiainen",
       "dob": "1997-04-11",
       "height": 182,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 139765,
@@ -274,7 +299,12 @@
       "name": "Valma Vilhelmiina Prihti",
       "dob": "2001-04-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169504,
@@ -302,14 +332,24 @@
       "name": "Sara Sinisalo",
       "dob": "2004-06-23",
       "height": 182,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 173496,
       "name": "Anniina Muukka",
       "dob": "2003-11-06",
       "height": 179,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 173839,

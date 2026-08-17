@@ -84,7 +84,12 @@
       "name": "Júlio César Do Nascimento Júnior",
       "dob": "1986-03-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 122792,
@@ -145,6 +150,11 @@
       "dob": "1989-06-08",
       "height": 182,
       "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
       "away": [
         {
           "id": 120895,
@@ -194,6 +204,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 9,
+        "bronze": 5
       }
     },
     {
@@ -206,6 +221,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 8,
+        "silver": 7,
+        "bronze": 5
       }
     },
     {

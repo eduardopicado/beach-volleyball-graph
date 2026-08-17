@@ -226,6 +226,64 @@ export function aggregateMedals(
   return out;
 }
 
+/**
+ * The two tiers that make up the FIVB tour, whatever it has been called.
+ *
+ * Age-group world championships are excluded — they are world-level events,
+ * but they are not the senior tour and a U19 title next to a Grand Slam title
+ * would flatter the wrong careers. The Olympics and the World Championships
+ * are excluded because they are counted separately and more precisely.
+ */
+const TOUR_TIERS = new Set<Tier>(['world-tour', 'beach-pro-tour']);
+
+/**
+ * Per-player podium counts across the tour: 1,552 of the 1,688 qualifying
+ * tournaments.
+ *
+ * Deliberately mixes levels. A 2019 4-star, a 2015 Grand Slam and a 2024
+ * Elite16 all count as one gold, and there is no honest alternative: FIVB has
+ * renumbered its own hierarchy repeatedly — Open/Challenger/Satellite, then
+ * 1-to-5-star, now Elite16/Challenge/Futures — and no mapping between those
+ * eras survives contact with the archive. A podium is a podium.
+ *
+ * Read off the *tier* rather than the raw `Type`, unlike `medalTournaments`
+ * above, and that difference is deliberate. There the narrow reading is a
+ * guard: a tier gaining a member must not quietly start minting Olympic
+ * medals. Here it is the definition — any FIVB tour stop counts, so a new
+ * format joining the tour should be included automatically.
+ *
+ * Safe to read `Rank` 1-3 as a clean podium here: measured across every tour
+ * event in the archive, not one has a duplicated podium place. The ties that
+ * make `Rank` ambiguous elsewhere (docs/fivb-data-quirks.md §2 and §5) are a
+ * 1997 World Championships and the Olympic qualifier, neither of which is a
+ * tour event.
+ */
+export function aggregateTourPodiums(
+  teamRows: VisRow[],
+  tournaments: Map<string, Tournament>,
+): Map<number, MedalCounts> {
+  const out = new Map<number, MedalCounts>();
+
+  const credit = (id: number, medal: keyof MedalCounts) => {
+    let counts = out.get(id);
+    if (!counts) out.set(id, (counts = { gold: 0, silver: 0, bronze: 0 }));
+    counts[medal]++;
+  };
+
+  for (const row of teamRows) {
+    const tournament = tournaments.get((row.NoTournament ?? '').trim());
+    if (!tournament || !TOUR_TIERS.has(tournament.tier)) continue;
+    const medal = RANK_TO_MEDAL[Number(row.Rank)];
+    if (!medal) continue;
+    const a = Number(row.NoPlayer1);
+    const b = Number(row.NoPlayer2);
+    if (!Number.isFinite(a) || a <= 0 || !Number.isFinite(b) || b <= 0 || a === b) continue;
+    credit(a, medal);
+    credit(b, medal);
+  }
+  return out;
+}
+
 function fullName(row: VisRow): string {
   const first = (row.FirstName ?? '').trim();
   const last = (row.LastName ?? '').trim();

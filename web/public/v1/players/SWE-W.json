@@ -56,7 +56,12 @@
       "name": "Karin Lundqvist",
       "dob": "1981-10-05",
       "height": 188,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 102959,
@@ -112,7 +117,12 @@
       "name": "Sara Uddstahl",
       "dob": "1976-05-17",
       "height": 171,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 103805,
@@ -238,7 +248,12 @@
       "name": "Camilla Nilsson",
       "dob": "1984-04-30",
       "height": 174,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 117946,
@@ -266,7 +281,12 @@
       "name": "Sofia Ögren",
       "dob": "1984-03-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119352,
@@ -399,14 +419,24 @@
       "name": "Tina Thurin",
       "dob": "1992-11-19",
       "height": 169,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 139778,
       "name": "Sanna Thurin",
       "dob": "1992-11-19",
       "height": 168,
-      "weight": 55
+      "weight": 55,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 140008,
@@ -441,7 +471,12 @@
       "name": "Sofia Wahlén",
       "dob": "1990-03-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 147066,
@@ -532,7 +567,12 @@
       "name": "Isabelle Reffel",
       "dob": "2001-10-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 162718,
@@ -553,7 +593,12 @@
       "name": "Sara Cavretti",
       "dob": "1990-04-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168085,
@@ -595,7 +640,12 @@
       "name": "Selma Robinson",
       "dob": "2003-08-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 179783,

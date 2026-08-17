@@ -26,6 +26,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
       }
     },
     {
@@ -61,7 +66,12 @@
       "name": "Sixto Jimenez",
       "dob": "1962-06-23",
       "height": 186,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100222,
@@ -103,7 +113,12 @@
       "name": "José Gregorio  Luis \"Yoyi\" Rodriguez",
       "dob": "1971-02-17",
       "height": 185,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100664,
@@ -320,7 +335,12 @@
       "name": "Fabio Diez",
       "dob": "1965-11-18",
       "height": 190,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 101612,
@@ -481,7 +501,12 @@
       "name": "Francisco José Rodríguez",
       "dob": "1980-09-25",
       "height": 189,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102837,
@@ -544,7 +569,12 @@
       "name": "Raul Mesa",
       "dob": "1982-04-16",
       "height": 190,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103311,
@@ -556,6 +586,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 10,
+        "bronze": 12
       }
     },
     {
@@ -661,7 +696,12 @@
       "name": "Francisco Alfredo Marco",
       "dob": "1986-10-04",
       "height": 180,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 104177,
@@ -745,7 +785,12 @@
       "name": "Inocencio Lario Carrillo",
       "dob": "1984-02-28",
       "height": 195,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 110494,
@@ -780,7 +825,12 @@
       "name": "Adrián Gavira Collado",
       "dob": "1987-09-17",
       "height": 193,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 5,
+        "silver": 12,
+        "bronze": 10
+      }
     },
     {
       "id": 116711,
@@ -794,7 +844,12 @@
       "name": "Christian García",
       "dob": "1986-11-01",
       "height": 190,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117943,
@@ -976,7 +1031,12 @@
       "name": "César Menéndez Ortego",
       "dob": "1991-10-25",
       "height": 195,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124784,
@@ -1081,7 +1141,12 @@
       "name": "Javier Huerta Pastor",
       "dob": "1997-01-17",
       "height": 189,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 145561,
@@ -1095,14 +1160,24 @@
       "name": "Óscar Jiménez Gutiérrez",
       "dob": "1998-01-18",
       "height": 190,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 145947,
       "name": "Alejandro Huerta Pastor",
       "dob": "1998-02-11",
       "height": 191,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 151178,
@@ -1116,7 +1191,12 @@
       "name": "Daniel Moreno Ferrer",
       "dob": "1991-04-03",
       "height": 200,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 153221,
@@ -1151,7 +1231,12 @@
       "name": "Roberto Sanfélix",
       "dob": "1998-02-22",
       "height": 185,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168484,
@@ -1165,7 +1250,12 @@
       "name": "Antonio Saucedo Amodeo",
       "dob": "2002-04-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 169834,
@@ -1207,7 +1297,12 @@
       "name": "Álvaro Viera Iglesias",
       "dob": "2003-08-21",
       "height": 194,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 183253,

@@ -126,7 +126,12 @@
       "name": "Vitaliy Stadnikov",
       "dob": "1975-02-02",
       "height": 189,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102730,
@@ -182,28 +187,48 @@
       "name": "Mykola Babich",
       "dob": "1980-10-16",
       "height": 198,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103530,
       "name": "Sergiy Rasputniy",
       "dob": "1980-06-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103531,
       "name": "Dmytro Khudoley",
       "dob": "1982-01-30",
       "height": 194,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103532,
       "name": "Oleg Nikolayev",
       "dob": "1982-05-27",
       "height": 186,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103533,
@@ -259,14 +284,24 @@
       "name": "Oleksiy Kulinich",
       "dob": "1980-05-18",
       "height": 193,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103541,
       "name": "Oleksandr Dyachenko",
       "dob": "1980-10-23",
       "height": 196,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103987,
@@ -492,6 +527,11 @@
       "dob": "1991-08-06",
       "height": 187,
       "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 120577,
@@ -545,6 +585,11 @@
       "dob": "1992-12-21",
       "height": 205,
       "weight": 85,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      },
       "away": [
         {
           "id": 120577,
@@ -611,7 +656,12 @@
       "name": "Eduard Reznik",
       "dob": "1989-06-14",
       "height": 207,
-      "weight": 115
+      "weight": 115,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 142220,
@@ -632,7 +682,12 @@
       "name": "Denys Denysenko",
       "dob": "1996-10-15",
       "height": 190,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 143287,
@@ -674,7 +729,12 @@
       "name": "Oleksii Denin",
       "dob": "1992-03-02",
       "height": 196,
-      "weight": 104
+      "weight": 104,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 148853,
@@ -744,7 +804,12 @@
       "name": "Richard Likhatskyi",
       "dob": "1996-06-02",
       "height": 190,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 171672,
@@ -758,7 +823,12 @@
       "name": "Oleksii Bublyk",
       "dob": "2002-01-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 179524,
@@ -779,21 +849,36 @@
       "name": "Ivan Datsiuk",
       "dob": "2000-10-12",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 182775,
       "name": "Vitalii Savvin",
       "dob": "2004-02-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 187007,
       "name": "Ivan Likhatskyi",
       "dob": "1998-07-26",
       "height": 197,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 188626,
@@ -814,14 +899,24 @@
       "name": "Dmytro Kozii",
       "dob": "2006-06-30",
       "height": 196,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 200610,
       "name": "Anton Moiseiev",
       "dob": "2004-10-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 203692,

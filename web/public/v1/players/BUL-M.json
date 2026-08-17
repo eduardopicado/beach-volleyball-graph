@@ -245,7 +245,12 @@
       "name": "Dimitar Kalchev",
       "dob": "1996-05-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 144659,
@@ -343,7 +348,12 @@
       "name": "Dimitar Mehandzhiyski",
       "dob": "2000-03-05",
       "height": 188,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 181035,

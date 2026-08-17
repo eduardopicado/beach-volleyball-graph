@@ -7,28 +7,48 @@
       "name": "Andrea Ghiurghi",
       "dob": "1966-12-15",
       "height": 199,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 100008,
       "name": "Nicola \"Grigolinho\" Grigolo",
       "dob": "1967-11-08",
       "height": 188,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100017,
       "name": "Dionisio \"Dio\" Lequaglie",
       "dob": "1963-10-12",
       "height": 185,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 100032,
       "name": "Marco \"Sollu\" Solustri",
       "dob": "1959-09-14",
       "height": 188,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100106,
@@ -49,7 +69,12 @@
       "name": "Gianni Mascagna",
       "dob": "1967-04-08",
       "height": 192,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100171,
@@ -63,14 +88,24 @@
       "name": "Alessandro Rigo",
       "dob": "1966-07-29",
       "height": 192,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 100176,
       "name": "Giovanni Errichiello",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100177,
@@ -161,14 +196,24 @@
       "name": "Fabio Galli",
       "dob": "1969-12-10",
       "height": 191,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 100900,
       "name": "Riccardo \"Riccardino\" Lione",
       "dob": "1972-04-13",
       "height": 197,
-      "weight": 97
+      "weight": 97,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 100901,
@@ -189,7 +234,12 @@
       "name": "Andrea \"Raffa\" Raffaelli",
       "dob": "1969-12-19",
       "height": 187,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 100904,
@@ -421,7 +471,12 @@
       "name": "Massimo Marino",
       "dob": "1969-10-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 101937,
@@ -435,7 +490,12 @@
       "name": "Fosco Cicola",
       "dob": "1974-07-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102021,
@@ -554,7 +614,12 @@
       "name": "Eugenio Amore",
       "dob": "1972-02-17",
       "height": 193,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 102605,
@@ -582,7 +647,12 @@
       "name": "Matteo Varnier",
       "dob": "1979-10-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 102661,
@@ -635,7 +705,12 @@
       "name": "Riccardo Fenili",
       "dob": "1975-10-06",
       "height": 193,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 103104,
@@ -711,14 +786,24 @@
       "name": "Andrea Tomatis",
       "dob": "1978-04-09",
       "height": 197,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 103743,
       "name": "Diego Nota",
       "dob": "1979-08-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103936,
@@ -858,14 +943,24 @@
       "name": "Giorgio Domenghini",
       "dob": "1977-03-17",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 104879,
       "name": "Paolo Ficosecco",
       "dob": "1979-09-22",
       "height": 198,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104880,
@@ -1103,14 +1198,24 @@
       "name": "Paolo Ingrosso",
       "dob": "1988-02-12",
       "height": 192,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117410,
       "name": "Matteo Ingrosso",
       "dob": "1988-02-12",
       "height": 190,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 117423,
@@ -1157,6 +1262,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 4,
+        "silver": 11,
+        "bronze": 13
       }
     },
     {
@@ -1297,7 +1407,12 @@
       "name": "Ivan Zaytsev",
       "dob": "1988-10-02",
       "height": 204,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120774,
@@ -1309,6 +1424,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 4,
+        "silver": 8,
+        "bronze": 10
       }
     },
     {
@@ -1372,7 +1492,12 @@
       "name": "Tiziano Andreatta",
       "dob": "1992-01-28",
       "height": 193,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 124850,
@@ -1414,14 +1539,24 @@
       "name": "Francesco Vanni",
       "dob": "1987-03-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 132141,
       "name": "Alex Ranghieri",
       "dob": "1987-06-18",
       "height": 198,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 5
+      }
     },
     {
       "id": 132142,
@@ -1575,7 +1710,12 @@
       "name": "Manuel Alfieri",
       "dob": "1998-05-20",
       "height": 189,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 143731,
@@ -1589,21 +1729,36 @@
       "name": "Enrico Rossi",
       "dob": "1993-06-27",
       "height": 195,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 145118,
       "name": "Fabrizio Manni",
       "dob": "1986-12-20",
       "height": 194,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 146353,
       "name": "Marco Caminati",
       "dob": "1992-09-23",
       "height": 192,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 146514,
@@ -1663,7 +1818,12 @@
       "name": "Adrian Ignacio Carambula Raurich",
       "dob": "1988-03-16",
       "height": null,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 4
+      }
     },
     {
       "id": 150389,
@@ -1677,7 +1837,12 @@
       "name": "Andrea Abbiati",
       "dob": "1986-02-05",
       "height": 189,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 151165,
@@ -1698,7 +1863,12 @@
       "name": "Carlo Bonifazi",
       "dob": "1992-11-16",
       "height": 190,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 151263,
@@ -1726,7 +1896,12 @@
       "name": "Jakob Windisch",
       "dob": "1999-03-20",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 6,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 155625,
@@ -1754,7 +1929,12 @@
       "name": "Davis Krumins",
       "dob": "1990-06-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 158171,
@@ -1768,7 +1948,12 @@
       "name": "Davide Benzi",
       "dob": "1993-09-24",
       "height": 181,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 161170,
@@ -1796,7 +1981,12 @@
       "name": "Samuele Cottafava",
       "dob": "1998-11-01",
       "height": 194,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 5,
+        "silver": 4,
+        "bronze": 5
+      }
     },
     {
       "id": 164186,
@@ -1831,7 +2021,12 @@
       "name": "Tobia Marchetto",
       "dob": "2000-11-05",
       "height": 192,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 167208,
@@ -1887,14 +2082,24 @@
       "name": "Marco Viscovich",
       "dob": "2001-06-20",
       "height": 191,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 4,
+        "silver": 1,
+        "bronze": 4
+      }
     },
     {
       "id": 169579,
       "name": "Gianluca Dal Corso",
       "dob": "2001-01-09",
       "height": 203,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 4,
+        "silver": 4,
+        "bronze": 7
+      }
     },
     {
       "id": 169854,
@@ -1936,7 +2141,12 @@
       "name": "Giacomo Spadoni",
       "dob": "2001-05-03",
       "height": 180,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179038,
@@ -1950,7 +2160,12 @@
       "name": "Riccardo Iervolino",
       "dob": "2003-01-22",
       "height": 196,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 180718,
@@ -1978,7 +2193,12 @@
       "name": "Raoul Acerbi",
       "dob": "2004-11-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 183129,
@@ -2034,7 +2254,12 @@
       "name": "Marco Ulisse",
       "dob": "2001-06-28",
       "height": 191,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 192138,
@@ -2216,7 +2441,12 @@
       "name": "Davide Borraccino",
       "dob": "1997-07-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 224744,

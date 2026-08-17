@@ -28,7 +28,12 @@
       "name": "Galyna Osheyko",
       "dob": "1979-03-23",
       "height": 174,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 104233,
@@ -36,6 +41,11 @@
       "dob": "1985-03-18",
       "height": 182,
       "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      },
       "away": [
         {
           "id": 122369,
@@ -88,7 +98,12 @@
       "name": "Valentyna Davidova",
       "dob": "1987-08-25",
       "height": 181,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 118035,
@@ -158,7 +173,12 @@
       "name": "Maryna Hladun",
       "dob": "1992-09-18",
       "height": 182,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 4
+      }
     },
     {
       "id": 120582,
@@ -222,14 +242,24 @@
       "name": "Iryna Makhno",
       "dob": "1994-10-15",
       "height": 178,
-      "weight": 59
+      "weight": 59,
+      "tour": {
+        "gold": 4,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 132575,
       "name": "Inna Makhno",
       "dob": "1994-10-15",
       "height": 179,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 4,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 133302,
@@ -257,7 +287,12 @@
       "name": "Diana Lunina",
       "dob": "1992-10-28",
       "height": 190,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 142241,
@@ -296,7 +331,12 @@
       "name": "Sofiia Rylova",
       "dob": "2001-09-25",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 156819,
@@ -338,14 +378,24 @@
       "name": "Daria Romaniuk",
       "dob": "2004-08-12",
       "height": 183,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 162410,
       "name": "Yeva Serdiuk",
       "dob": "2004-01-05",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169905,
@@ -359,14 +409,24 @@
       "name": "Tetiana Lazarenko",
       "dob": "2003-08-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 8,
+        "silver": 3,
+        "bronze": 5
+      }
     },
     {
       "id": 173480,
       "name": "Anhelina Khmil",
       "dob": "2003-06-27",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 4
+      }
     },
     {
       "id": 182699,
@@ -408,7 +468,12 @@
       "name": "Sofiia Kurnikova",
       "dob": "2006-06-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 211976,

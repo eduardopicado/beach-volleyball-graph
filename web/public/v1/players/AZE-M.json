@@ -8,6 +8,11 @@
       "dob": "1984-04-13",
       "height": null,
       "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
       "away": [
         {
           "id": 120551,

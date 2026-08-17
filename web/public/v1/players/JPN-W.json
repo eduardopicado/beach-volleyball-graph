@@ -42,7 +42,12 @@
       "name": "Yukiko \"Yuki\" Ishizaka",
       "dob": "1968-03-14",
       "height": 165,
-      "weight": 55
+      "weight": 55,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100479,
@@ -56,7 +61,12 @@
       "name": "Yukiko Takahashi",
       "dob": "1967-11-12",
       "height": 168,
-      "weight": 54
+      "weight": 54,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 100507,
@@ -133,7 +143,12 @@
       "name": "Mika Saiki",
       "dob": "1971-09-25",
       "height": 172,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 101734,
@@ -399,7 +414,12 @@
       "name": "Eiko Koizumi",
       "dob": "1973-09-01",
       "height": 171,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 104229,
@@ -427,7 +447,12 @@
       "name": "Shinako Tanaka",
       "dob": "1975-07-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104520,
@@ -476,7 +501,12 @@
       "name": "Ayumi Shiratori",
       "dob": "1985-06-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 104973,
@@ -504,7 +534,12 @@
       "name": "Takemi Nishibori",
       "dob": "1981-08-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 117848,
@@ -581,7 +616,12 @@
       "name": "Sayaka Mizoe",
       "dob": "1990-07-16",
       "height": 176,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 122325,
@@ -616,14 +656,24 @@
       "name": "Azusa Futami",
       "dob": "1992-05-15",
       "height": 180,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125420,
       "name": "Sakurako Fujii",
       "dob": "1990-10-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 125597,
@@ -637,14 +687,24 @@
       "name": "Megumi Murakami",
       "dob": "1985-09-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135227,
       "name": "Chiyo Hatabe",
       "dob": "1993-11-18",
       "height": 171,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 5
+      }
     },
     {
       "id": 135228,
@@ -679,7 +739,12 @@
       "name": "Yui Nagata",
       "dob": "1988-12-10",
       "height": 173,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 142363,
@@ -693,7 +758,12 @@
       "name": "Satono Ishitsubo",
       "dob": "1995-12-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 143186,
@@ -742,21 +812,36 @@
       "name": "Miki Ishii",
       "dob": "1989-11-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 150058,
       "name": "Akiko Hasegawa",
       "dob": "1985-11-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 150533,
       "name": "Minori Kumada",
       "dob": "1991-08-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 151852,
@@ -784,28 +869,48 @@
       "name": "Reika Murakami",
       "dob": "1997-01-10",
       "height": 173,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 155924,
       "name": "Yukako Suzuki",
       "dob": "1987-12-25",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 155925,
       "name": "Kaho Sakaguchi",
       "dob": "1996-03-25",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 156856,
       "name": "Miyu Sakamoto",
       "dob": "1991-08-30",
       "height": 167,
-      "weight": 52
+      "weight": 52,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 156896,
@@ -819,21 +924,36 @@
       "name": "Asami Shiba",
       "dob": "1995-09-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 5
+      }
     },
     {
       "id": 157550,
       "name": "Mayu Sawame",
       "dob": "1994-04-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 157552,
       "name": "Yurika Toda",
       "dob": "1994-07-20",
       "height": 166,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 4
+      }
     },
     {
       "id": 157779,
@@ -854,7 +974,12 @@
       "name": "Suzuka Hashimoto",
       "dob": "1993-08-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 3
+      }
     },
     {
       "id": 163373,
@@ -882,14 +1007,24 @@
       "name": "Harumi Sakai",
       "dob": "1996-04-23",
       "height": 165,
-      "weight": 58
+      "weight": 58,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168073,
       "name": "Kana Motomura",
       "dob": "1995-07-03",
       "height": 177,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 168074,
@@ -938,7 +1073,12 @@
       "name": "Riko Tsujimura",
       "dob": "1997-01-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 173555,
@@ -966,14 +1106,24 @@
       "name": "Ren Matsumoto",
       "dob": "1998-01-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 181659,
       "name": "Non Matsumoto",
       "dob": "1999-11-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 185921,
@@ -987,21 +1137,36 @@
       "name": "Sakura Ito",
       "dob": "2002-03-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 186496,
       "name": "Miharu Kashihara",
       "dob": "1998-04-07",
       "height": 160,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 188749,
       "name": "Saki Maruyama",
       "dob": "1991-12-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 189723,
@@ -1022,14 +1187,24 @@
       "name": "Chika Nakagawa",
       "dob": "1995-07-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 192901,
       "name": "Mayu Kikuchi",
       "dob": "2001-05-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 192902,
@@ -1092,7 +1267,12 @@
       "name": "Izumi Ishihara",
       "dob": "2003-03-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 211125,

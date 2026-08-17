@@ -147,7 +147,12 @@
       "name": "Julia Tilley",
       "dob": "1989-06-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 119158,
@@ -217,7 +222,12 @@
       "name": "Kelsie Wills",
       "dob": "1993-01-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125013,
@@ -266,7 +276,12 @@
       "name": "Shaunna Polley",
       "dob": "1993-12-14",
       "height": 173,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 4,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 138939,
@@ -287,7 +302,12 @@
       "name": "Olivia MacDonald",
       "dob": "1996-01-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 142791,
@@ -371,7 +391,12 @@
       "name": "Alice Zeimann",
       "dob": "1998-07-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 161090,

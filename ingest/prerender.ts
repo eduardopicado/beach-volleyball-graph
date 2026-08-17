@@ -247,6 +247,7 @@ tours, snow volleyball, multi-sport games and King of the Court are excluded.
 - A partnership edge is weighted by the number of distinct tournaments a pair entered together. A pair entering both the qualification and the main draw of one event counts once.
 - A player's tournament count is their own entries, not their partner count. Node size in the graph encodes this.
 - A player's country is their current FIVB federation. No federation history is kept.
+- Medal counts are three separate tallies and are never merged: the Olympic Games, the FIVB World Championships, and podiums across the tour (World Tour plus Beach Pro Tour, levels mixed, age-group events excluded). Both members of a winning pair each carry the medal.
 - Both players must represent the same federation for a partnership to appear, so cross-national pairs (about 1% of the total) are in no country's graph.
 - The dataset is dominated by one-off entrants: ${pct(shape.onePartner, shape.players)} of players have exactly one partner and ${pct(shape.oneTournament, shape.players)} entered exactly one tournament. Restricted to players with ${REGULAR_MIN_TOURNAMENTS} or more tournaments the mean is ${(shape.regularPartnerSum / Math.max(shape.regulars, 1)).toFixed(1)} partners. Use the "min. events together" filter, or the \`min\` query parameter, to exclude one-off pairings.
 
@@ -254,7 +255,7 @@ tours, snow volleyball, multi-sport games and King of the Court are excluded.
 
 - [Manifest](${abs(`${BASE}v1/manifest.json`)}): every published country, node and edge counts, tier breakdown, freshness.
 - [Graph file](${abs(`${BASE}v1/graphs/BRA-M.json`)}): \`/v1/graphs/{FEDERATION}-{M|W}.json\` — \`nodes\` (id, name, short, tournaments, first, last) and \`edges\` (\`a\`, \`b\` player ids, \`t\` tournaments together, \`f\`/\`l\` first and last season, \`s\` per-season breakdown as \`[season, tournaments, days from 1 January to the pair's last event that season]\` — the last optional).
-- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight, and \`away\`: partners from another federation, which the graph excludes.
+- [Player detail](${abs(`${BASE}v1/players/BRA-M.json`)}): \`/v1/players/{FEDERATION}-{M|W}.json\` — date of birth, height, weight, \`olympics\`/\`worldChamps\`/\`tour\` podium counts (gold, silver, bronze; the tour tally is the World Tour and Beach Pro Tour with levels mixed and age-group events excluded), and \`away\`: partners from another federation, which the graph excludes.
 - [Tournament index](${abs(`${BASE}v1/tournaments.json`)}): every qualifying tournament by FIVB number, as \`[name, season, tier, days from 1 January to the main draw's first day]\` — the last optional.
 - [Results](${abs(`${BASE}v1/results/BRA-M.json`)}): \`/v1/results/{FEDERATION}-{M|W}.json\` — \`players\`, keyed by player id, each holding every tournament they entered as \`[tournament number, partner id, rank]\`, most recent first. \`names\` covers partners with no node in that slice. \`rank\` is FIVB's own placement and is shared rather than unique: eight teams finish 9th, and negative values are eliminations before the main draw (\`<= -25\` in qualification, \`-2\` on a confederation quota).
 

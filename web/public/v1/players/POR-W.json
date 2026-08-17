@@ -378,7 +378,12 @@
       "name": "Sandra Castro",
       "dob": "1972-03-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103575,
@@ -483,7 +488,12 @@
       "name": "Juliana Antunes",
       "dob": "1985-01-07",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 116750,

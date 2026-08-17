@@ -68,6 +68,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
       }
     },
     {
@@ -80,6 +85,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
       }
     },
     {
@@ -150,7 +160,12 @@
       "name": "Marketa Tychnova",
       "dob": "1981-04-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102713,
@@ -185,7 +200,12 @@
       "name": "Katerina Tychnova",
       "dob": "1983-03-10",
       "height": 179,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103788,
@@ -199,7 +219,12 @@
       "name": "Tereza Petrova",
       "dob": "1982-03-25",
       "height": 175,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103790,
@@ -262,7 +287,12 @@
       "name": "Hana Skalnikova",
       "dob": "1982-03-29",
       "height": 182,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 104385,
@@ -276,7 +306,12 @@
       "name": "Sarka Nakladalova",
       "dob": "1985-06-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 104980,
@@ -332,7 +367,12 @@
       "name": "Marketa Slukova",
       "dob": "1988-06-28",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 6,
+        "silver": 4,
+        "bronze": 2
+      }
     },
     {
       "id": 116967,
@@ -346,7 +386,12 @@
       "name": "Kristyna Kolocova",
       "dob": "1988-04-01",
       "height": 170,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118196,
@@ -409,14 +454,24 @@
       "name": "Michala Frank",
       "dob": "1990-02-08",
       "height": 183,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 120746,
       "name": "Barbora Hermannová",
       "dob": "1990-11-07",
       "height": 180,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 7,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 120748,
@@ -504,7 +559,12 @@
       "name": "Martina Williams",
       "dob": "1991-07-22",
       "height": 173,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 131103,
@@ -553,7 +613,12 @@
       "name": "Patricia Missottenová",
       "dob": "1994-07-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 135552,
@@ -581,14 +646,24 @@
       "name": "Michaela Kubickova",
       "dob": "1994-04-12",
       "height": 177,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142304,
       "name": "Katerina Valkova",
       "dob": "1996-02-06",
       "height": 177,
-      "weight": 59
+      "weight": 59,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 143018,
@@ -616,7 +691,12 @@
       "name": "Diana Jamborova",
       "dob": "1989-11-15",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 144193,
@@ -693,7 +773,12 @@
       "name": "Marie-Sara Stochlova",
       "dob": "1999-03-11",
       "height": 182,
-      "weight": 72
+      "weight": 72,
+      "tour": {
+        "gold": 4,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 148656,
@@ -728,28 +813,48 @@
       "name": "Julie Honzovicova",
       "dob": "2001-11-04",
       "height": 181,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 154129,
       "name": "Karin Zolnercikova",
       "dob": "2001-09-06",
       "height": 179,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 154812,
       "name": "Daniela Mokrá",
       "dob": "1998-02-12",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 154904,
       "name": "Martina Maixnerova",
       "dob": "1999-01-24",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 155035,
@@ -777,7 +882,12 @@
       "name": "Miroslava Dunarova",
       "dob": "1999-07-23",
       "height": 169,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 161299,
@@ -812,7 +922,12 @@
       "name": "Marketa Svozilova",
       "dob": "2002-08-27",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 165822,
@@ -833,21 +948,36 @@
       "name": "Michaela Brinkova",
       "dob": "2002-07-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 168656,
       "name": "Anna Pospisilova",
       "dob": "1995-03-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+      }
     },
     {
       "id": 169499,
       "name": "Kylie Neuschaeferova",
       "dob": "2002-07-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 169560,
@@ -861,7 +991,12 @@
       "name": "Andrea Lorenzova",
       "dob": "1999-10-04",
       "height": 169,
-      "weight": 66
+      "weight": 66,
+      "tour": {
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 174327,
@@ -945,14 +1080,24 @@
       "name": "Anna Pavelková",
       "dob": "2005-10-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 182240,
       "name": "Katerina Pavelková",
       "dob": "2005-10-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 182609,
@@ -973,7 +1118,12 @@
       "name": "Valerie Dvorníková",
       "dob": "2003-03-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 182814,
@@ -987,7 +1137,12 @@
       "name": "Mariana Tomasova",
       "dob": "2005-12-30",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 190777,
@@ -1015,7 +1170,12 @@
       "name": "Veronika Kleiblova",
       "dob": "2006-02-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 192337,

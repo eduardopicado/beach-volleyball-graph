@@ -301,7 +301,12 @@
       "name": "Lilla Villám",
       "dob": "1997-06-03",
       "height": 184,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 153707,
@@ -455,7 +460,12 @@
       "name": "Stefánia Flóra Kun",
       "dob": "2005-10-26",
       "height": 173,
-      "weight": 57
+      "weight": 57,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 181618,

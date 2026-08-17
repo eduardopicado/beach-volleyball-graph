@@ -95,6 +95,18 @@ incremental cache — a full rebuild every week is cheap and self-healing.
   of those rows is `Rank` 0 too.
 - A player's country is their **current** federation. No federation history is
   kept.
+- **Medals and podiums are counted in three buckets, never merged.** The
+  Olympic Games and the FIVB World Championships are read off the raw VIS
+  `Type` (5 and 4), narrowly, so a tier gaining a member cannot start minting
+  Olympic medals. Everything else on the tour — World Tour and Beach Pro Tour,
+  1,552 of the 1,688 qualifying events — is one *tour podiums* tally with the
+  levels mixed: FIVB has renumbered its own hierarchy from
+  Open/Challenger/Satellite to 1-to-5-star to Elite16/Challenge/Futures, and no
+  mapping between those eras survives the archive. Age-group world
+  championships are in none of the three. Each is broken out by colour rather
+  than totalled, because a total says 149 and loses that 73 of them were wins.
+  A country tile halves the sum, since both members of a winning pair carry
+  the medal individually.
 - **Both endpoints must be in the slice.** A partnership between a Brazilian and
   an Argentine appears in neither country's graph. Measured against the live
   archive that is ~1% of all partnerships — but they are not evenly spread, so

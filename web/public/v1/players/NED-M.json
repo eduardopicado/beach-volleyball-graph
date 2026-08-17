@@ -105,7 +105,12 @@
       "name": "Emiel Boersma",
       "dob": "1980-08-25",
       "height": 205,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 102701,
@@ -140,7 +145,12 @@
       "name": "Gijs Ronnes",
       "dob": "1977-06-10",
       "height": 186,
-      "weight": 85
+      "weight": 85,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103299,
@@ -168,7 +178,12 @@
       "name": "Jochem De Gruijter",
       "dob": "1978-04-18",
       "height": 199,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 104242,
@@ -273,7 +288,12 @@
       "name": "Richard Schuil",
       "dob": "1973-02-05",
       "height": 202,
-      "weight": 94
+      "weight": 94,
+      "tour": {
+        "gold": 9,
+        "silver": 5,
+        "bronze": 2
+      }
     },
     {
       "id": 116556,
@@ -285,6 +305,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 12,
+        "silver": 6,
+        "bronze": 2
       }
     },
     {
@@ -337,6 +362,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 10,
+        "bronze": 7
       }
     },
     {
@@ -349,6 +379,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 4
       }
     },
     {
@@ -384,7 +419,12 @@
       "name": "Sven Vismans",
       "dob": "1988-01-31",
       "height": 188,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 119991,
@@ -401,6 +441,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 10,
+        "bronze": 7
       }
     },
     {
@@ -436,7 +481,12 @@
       "name": "Mart van Werkhoven",
       "dob": "1991-12-11",
       "height": 208,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 120681,
@@ -450,7 +500,12 @@
       "name": "Jon Stiekema",
       "dob": "1988-05-08",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 121987,
@@ -464,7 +519,12 @@
       "name": "Mathijs Mast",
       "dob": "1984-09-14",
       "height": 200,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 124275,
@@ -485,14 +545,24 @@
       "name": "Dirk Boehlé",
       "dob": "1992-12-24",
       "height": 185,
-      "weight": 78
+      "weight": 78,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 1
+      }
     },
     {
       "id": 124761,
       "name": "Erik Nijland",
       "dob": "1992-05-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125423,
@@ -527,7 +597,12 @@
       "name": "Steven van de Velde",
       "dob": "1994-08-08",
       "height": 199,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 4
+      }
     },
     {
       "id": 139929,
@@ -569,14 +644,24 @@
       "name": "Ruben Penninga",
       "dob": "1997-09-11",
       "height": 199,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 146288,
       "name": "Jasper Bouter",
       "dob": "1996-12-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 146700,
@@ -590,7 +675,12 @@
       "name": "Mees Blom",
       "dob": "1998-09-05",
       "height": 201,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146857,
@@ -604,7 +694,12 @@
       "name": "Jannes van der Ham",
       "dob": "1995-04-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 151725,
@@ -625,14 +720,24 @@
       "name": "Thijs Nijeboer",
       "dob": "1995-10-15",
       "height": 191,
-      "weight": 82
+      "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 157092,
       "name": "Casper Haanappel",
       "dob": "1993-10-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 157237,
@@ -674,28 +779,48 @@
       "name": "Yorick de Groot",
       "dob": "2000-07-06",
       "height": 191,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 3,
+        "silver": 2,
+        "bronze": 9
+      }
     },
     {
       "id": 166947,
       "name": "Matthew Immers",
       "dob": "2000-11-13",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+      }
     },
     {
       "id": 168204,
       "name": "Leon Luini",
       "dob": "2000-11-19",
       "height": 197,
-      "weight": 93
+      "weight": 93,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 168503,
       "name": "Stefan Boermans",
       "dob": "1994-12-13",
       "height": 204,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 6,
+        "silver": 3,
+        "bronze": 9
+      }
     },
     {
       "id": 169780,
@@ -716,14 +841,24 @@
       "name": "Mees Sengers",
       "dob": "2004-05-16",
       "height": 199,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 3,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 173210,
       "name": "Quinten Groenewold",
       "dob": "2004-01-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 173538,
@@ -737,21 +872,36 @@
       "name": "Yannick Verberne",
       "dob": "2005-11-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 178907,
       "name": "Sam van Der Loo",
       "dob": "2001-09-20",
       "height": 194,
-      "weight": 80
+      "weight": 80,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 179382,
       "name": "Thijmen Heemskerk",
       "dob": "1998-06-24",
       "height": 202,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 182856,
@@ -786,7 +936,12 @@
       "name": "Tom Sonneville",
       "dob": "2007-12-28",
       "height": 193,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 193219,
@@ -807,7 +962,12 @@
       "name": "Calvin Ooms",
       "dob": "2000-01-31",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 197024,

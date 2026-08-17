@@ -35,7 +35,12 @@
       "name": "Gonzalo Melgarejo",
       "dob": "2000-11-17",
       "height": 170,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 161955,
@@ -63,7 +68,12 @@
       "name": "Giuliano Massare Canillas",
       "dob": "2002-03-16",
       "height": 192,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 181607,

@@ -7,7 +7,12 @@
       "name": "Caterina De Marinis",
       "dob": "1970-12-24",
       "height": 162,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100587,
@@ -28,7 +33,12 @@
       "name": "Daniela Gattelli",
       "dob": "1975-11-19",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 100619,
@@ -60,7 +70,12 @@
       "name": "Lucilla Perrotta",
       "dob": "1975-06-03",
       "height": 178,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 101450,
@@ -82,6 +97,11 @@
       "dob": "1969-12-11",
       "height": 182,
       "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      },
       "away": [
         {
           "id": 102285,
@@ -127,7 +147,12 @@
       "name": "Roberta Marini",
       "dob": "1973-10-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101832,
@@ -226,7 +251,12 @@
       "name": "Margherita Chiavaro",
       "dob": "1979-06-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 102744,
@@ -289,7 +319,12 @@
       "name": "Antonella Del Core",
       "dob": "1980-11-05",
       "height": 180,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103034,
@@ -314,7 +349,12 @@
       "name": "Manuela Malerba",
       "dob": "1976-03-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103373,
@@ -398,7 +438,12 @@
       "name": "Diletta Lunardi",
       "dob": "1979-07-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 104405,
@@ -608,7 +653,12 @@
       "name": "Valeria Rosso",
       "dob": "1981-10-24",
       "height": 183,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 115572,
@@ -622,7 +672,12 @@
       "name": "Gioria Daniela",
       "dob": "1979-07-04",
       "height": 183,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 115575,
@@ -748,7 +803,12 @@
       "name": "Marta Menegatti",
       "dob": "1990-08-16",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 3,
+        "silver": 10,
+        "bronze": 8
+      }
     },
     {
       "id": 118205,
@@ -776,14 +836,24 @@
       "name": "Laura Giombini",
       "dob": "1989-01-04",
       "height": 183,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 118775,
       "name": "Viktoria Orsi Toth",
       "dob": "1990-08-14",
       "height": 185,
-      "weight": 79
+      "weight": 79,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 5
+      }
     },
     {
       "id": 119188,
@@ -867,7 +937,12 @@
       "name": "Greta Cicolari",
       "dob": "1982-08-23",
       "height": 180,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 4
+      }
     },
     {
       "id": 124696,
@@ -902,7 +977,12 @@
       "name": "Jessica Allegretti",
       "dob": "1991-11-30",
       "height": 177,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 132038,
@@ -1000,14 +1080,24 @@
       "name": "Agata Zuccarelli",
       "dob": "1995-02-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 139572,
       "name": "Margherita Bianchin",
       "dob": "1995-07-26",
       "height": 180,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 5,
+        "silver": 2,
+        "bronze": 1
+      }
     },
     {
       "id": 139599,
@@ -1063,7 +1153,12 @@
       "name": "Federica Frasca",
       "dob": "1996-07-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 146336,
@@ -1077,7 +1172,12 @@
       "name": "Reka Orsi Toth",
       "dob": "1999-02-12",
       "height": 178,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 2,
+        "silver": 4,
+        "bronze": 5
+      }
     },
     {
       "id": 147026,
@@ -1105,7 +1205,12 @@
       "name": "Gaia Traballi",
       "dob": "1997-02-05",
       "height": 182,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 149000,
@@ -1140,7 +1245,12 @@
       "name": "Alice Gradini",
       "dob": "1997-03-07",
       "height": 185,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 153248,
@@ -1154,21 +1264,36 @@
       "name": "Carolina Ferraris",
       "dob": "1999-07-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 153250,
       "name": "Chiara They",
       "dob": "1999-06-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 153809,
       "name": "Claudia Scampoli",
       "dob": "2000-04-05",
       "height": 178,
-      "weight": 58
+      "weight": 58,
+      "tour": {
+        "gold": 6,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 156925,
@@ -1189,14 +1314,24 @@
       "name": "Francesca Michieletto",
       "dob": "1997-09-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 161621,
       "name": "Eleonora Annibalini",
       "dob": "1991-07-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 161809,
@@ -1224,7 +1359,12 @@
       "name": "Sara Breidenbach",
       "dob": "1992-01-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 164518,
@@ -1273,21 +1413,36 @@
       "name": "Erika Ditta",
       "dob": "2001-03-27",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 169378,
       "name": "Giada Bianchi",
       "dob": "2001-11-11",
       "height": 190,
-      "weight": 77
+      "weight": 77,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 169580,
       "name": "Valentina Cali",
       "dob": "1997-04-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 169792,
@@ -1357,21 +1512,36 @@
       "name": "Aurora Mattavelli",
       "dob": "2003-06-09",
       "height": 180,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 179522,
       "name": "Margherita Tega",
       "dob": "2004-08-17",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 181183,
       "name": "Valentina Gottardi",
       "dob": "2002-11-19",
       "height": 184,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 3,
+        "silver": 5,
+        "bronze": 1
+      }
     },
     {
       "id": 181233,
@@ -1420,14 +1590,24 @@
       "name": "Maria Rachele Mancinelli",
       "dob": "1999-05-14",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 192258,
       "name": "Eleonora Sestini",
       "dob": "2002-10-26",
       "height": 188,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 192779,

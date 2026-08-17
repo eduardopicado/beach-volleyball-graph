@@ -165,7 +165,12 @@
       "name": "Carole Cordinier",
       "dob": "1980-02-26",
       "height": 163,
-      "weight": 56
+      "weight": 56,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 101968,
@@ -256,14 +261,24 @@
       "name": "Ethel-Julie Arjona",
       "dob": "1981-06-12",
       "height": 176,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102357,
       "name": "Tatiana \"Tat\" Barrera",
       "dob": "1981-05-09",
       "height": 177,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102358,
@@ -361,7 +376,12 @@
       "name": "Morgane Faure",
       "dob": "1984-12-17",
       "height": 174,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103127,
@@ -410,14 +430,24 @@
       "name": "Virginie Kadjo",
       "dob": "1973-05-03",
       "height": 178,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103779,
       "name": "Mathilde Giordano",
       "dob": "1979-07-02",
       "height": 177,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 103801,
@@ -452,7 +482,12 @@
       "name": "Eva Hamzaoui",
       "dob": "1985-02-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104420,
@@ -473,7 +508,12 @@
       "name": "Aurelie Beaucé",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104658,
@@ -522,7 +562,12 @@
       "name": "Virginie Sarpaux",
       "dob": "1977-06-12",
       "height": 193,
-      "weight": 73
+      "weight": 73,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 115659,
@@ -774,7 +819,12 @@
       "name": "Alexandra Jupiter",
       "dob": "1990-03-11",
       "height": 188,
-      "weight": 83
+      "weight": 83,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 141889,
@@ -788,7 +838,12 @@
       "name": "Ophélie Lusson",
       "dob": "1995-09-15",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 142086,
@@ -809,7 +864,12 @@
       "name": "Aline Chamereau",
       "dob": "1996-03-06",
       "height": 184,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 5
+      }
     },
     {
       "id": 142936,
@@ -830,7 +890,12 @@
       "name": "Alexia Richard",
       "dob": "1996-04-03",
       "height": 183,
-      "weight": 76
+      "weight": 76,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 146848,
@@ -851,7 +916,12 @@
       "name": "Lézana Placette",
       "dob": "1997-12-11",
       "height": 180,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 3
+      }
     },
     {
       "id": 153717,
@@ -893,7 +963,12 @@
       "name": "Clémence Vieira",
       "dob": "2000-11-01",
       "height": 176,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 4
+      }
     },
     {
       "id": 171777,
@@ -921,28 +996,48 @@
       "name": "Anouk Dupin",
       "dob": "2002-09-29",
       "height": 174,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 5,
+        "bronze": 2
+      }
     },
     {
       "id": 179491,
       "name": "Saofé Duval",
       "dob": "2006-01-27",
       "height": 173,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 181264,
       "name": "Marine Kinna",
       "dob": "1999-08-11",
       "height": 180,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 181376,
       "name": "Elsa Descamps",
       "dob": "1996-09-06",
       "height": 185,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 181671,
@@ -963,14 +1058,24 @@
       "name": "Alex Merle",
       "dob": "2000-08-10",
       "height": 175,
-      "weight": 60
+      "weight": 60,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 186307,
       "name": "Romane Sobezalz",
       "dob": "2006-10-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1
+      }
     },
     {
       "id": 194470,
@@ -1040,7 +1145,12 @@
       "name": "Marilu Pally",
       "dob": "2003-12-18",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 211551,

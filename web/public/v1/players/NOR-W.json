@@ -84,7 +84,12 @@
       "name": "Cecilie Kristine Josefsen",
       "dob": "1980-05-03",
       "height": 179,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102999,
@@ -98,7 +103,12 @@
       "name": "Nila Ann Hakedal",
       "dob": "1979-06-13",
       "height": 177,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 103043,
@@ -112,7 +122,12 @@
       "name": "Kristine Wiig",
       "dob": "1978-05-28",
       "height": 177,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103061,
@@ -140,7 +155,12 @@
       "name": "Ingrid Torlen",
       "dob": "1979-07-21",
       "height": 174,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+      }
     },
     {
       "id": 103220,
@@ -448,7 +468,12 @@
       "name": "Janne Pedersen",
       "dob": "1990-07-04",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 124707,
@@ -462,7 +487,12 @@
       "name": "Ane Guro Tveit Hjortland",
       "dob": "1992-06-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 124737,
@@ -532,7 +562,12 @@
       "name": "Victoria Faye Kjølberg",
       "dob": "1994-08-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 137133,
@@ -574,7 +609,12 @@
       "name": "Sunniva Helland-Hansen",
       "dob": "1997-07-05",
       "height": 174,
-      "weight": 69
+      "weight": 69,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 142400,
@@ -651,14 +691,24 @@
       "name": "Emilie Olimstad",
       "dob": "2000-12-12",
       "height": 178,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 153151,
       "name": "Frida Berntsen",
       "dob": "2001-10-16",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 173418,
@@ -686,7 +736,12 @@
       "name": "Oda Løvø Steinsvåg",
       "dob": "2000-11-28",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 179296,
@@ -791,7 +846,12 @@
       "name": "Nina Pavlova",
       "dob": "2000-08-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 226836,

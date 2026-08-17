@@ -46,14 +46,24 @@
       "name": "Alfredo \"Alfre\" Tabarini",
       "dob": "1981-03-19",
       "height": 190,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102596,
       "name": "Francesco \"Franci\" Tabarini",
       "dob": "1981-03-19",
       "height": 190,
-      "weight": 91
+      "weight": 91,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 102644,

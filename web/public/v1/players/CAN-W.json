@@ -56,7 +56,12 @@
       "name": "Barb Broen Ouellette",
       "dob": "1964-10-25",
       "height": 175,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 100932,
@@ -133,7 +138,12 @@
       "name": "Christine Lussier",
       "dob": "1966-03-06",
       "height": 170,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 101708,
@@ -259,7 +269,12 @@
       "name": "Marie-Andrée Lessard",
       "dob": "1977-12-06",
       "height": 167,
-      "weight": 62
+      "weight": 62,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102625,
@@ -294,7 +309,12 @@
       "name": "Anouk Boileau",
       "dob": "1975-10-27",
       "height": 170,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 102939,
@@ -329,7 +349,12 @@
       "name": "Line Jomphe",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103260,
@@ -343,7 +368,12 @@
       "name": "Sarah Dawn Maxwell",
       "dob": "1977-04-30",
       "height": 174,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 103262,
@@ -406,7 +436,12 @@
       "name": "Annie Martin",
       "dob": "1981-09-07",
       "height": 170,
-      "weight": 58
+      "weight": 58,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103870,
@@ -434,14 +469,24 @@
       "name": "Rebecca Moskowitz",
       "dob": "1980-11-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 103895,
       "name": "Katherine Zakrzewski",
       "dob": "1979-08-25",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 103919,
@@ -483,14 +528,24 @@
       "name": "Sara Pothaar",
       "dob": "1978-06-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104190,
       "name": "Sarah Hogarth",
       "dob": "1977-10-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 104351,
@@ -539,7 +594,12 @@
       "name": "Jamie Lynn Broder",
       "dob": "1985-06-08",
       "height": 172,
-      "weight": 65
+      "weight": 65,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 105017,
@@ -560,7 +620,12 @@
       "name": "Marie-Christine Mondor",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 113601,
@@ -579,6 +644,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 6,
+        "silver": 9,
+        "bronze": 6
       }
     },
     {
@@ -842,7 +912,12 @@
       "name": "Heather Bansley",
       "dob": "1987-09-13",
       "height": 175,
-      "weight": 64
+      "weight": 64,
+      "tour": {
+        "gold": 4,
+        "silver": 5,
+        "bronze": 8
+      }
     },
     {
       "id": 120040,
@@ -957,6 +1032,11 @@
         "gold": 1,
         "silver": 0,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 10,
+        "silver": 9,
+        "bronze": 3
       }
     },
     {
@@ -985,7 +1065,12 @@
       "name": "Kristina May",
       "dob": "1987-06-02",
       "height": 188,
-      "weight": 68
+      "weight": 68,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 125482,
@@ -1097,7 +1182,12 @@
       "name": "Shanice Marcelle",
       "dob": "1990-05-28",
       "height": 180,
-      "weight": 67
+      "weight": 67,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 138681,
@@ -1137,6 +1227,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
       }
     },
     {
@@ -1231,6 +1326,11 @@
         "gold": 0,
         "silver": 1,
         "bronze": 0
+      },
+      "tour": {
+        "gold": 7,
+        "silver": 4,
+        "bronze": 5
       }
     },
     {
@@ -1252,7 +1352,12 @@
       "name": "Julie Gordon",
       "dob": "1991-12-21",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 145875,
@@ -1273,7 +1378,12 @@
       "name": "Camille Saxton",
       "dob": "1991-04-08",
       "height": 180,
-      "weight": 70
+      "weight": 70,
+      "tour": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 151488,
@@ -1294,7 +1404,12 @@
       "name": "Marie-Alex Bélanger",
       "dob": "1993-04-13",
       "height": 186,
-      "weight": 75
+      "weight": 75,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 153992,
@@ -1336,14 +1451,24 @@
       "name": "Amanda Harnett",
       "dob": "1997-03-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 156483,
       "name": "Alison Mckay",
       "dob": "1995-08-28",
       "height": 168,
-      "weight": 63
+      "weight": 63,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 156805,
@@ -1392,14 +1517,24 @@
       "name": "Molly McBain",
       "dob": "1998-05-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 162675,
       "name": "Lea Monkhouse",
       "dob": "1999-09-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 166907,
@@ -1413,7 +1548,12 @@
       "name": "Mikayla Law-Heese",
       "dob": "2000-10-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 166909,
@@ -1476,7 +1616,12 @@
       "name": "Alina Dormann",
       "dob": "1997-08-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 174863,
@@ -1560,7 +1705,12 @@
       "name": "Ruby Sorra",
       "dob": "2005-02-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 182655,
@@ -1588,7 +1738,12 @@
       "name": "Katharine Wuttunee",
       "dob": "1993-01-10",
       "height": 188,
-      "weight": 71
+      "weight": 71,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 190257,

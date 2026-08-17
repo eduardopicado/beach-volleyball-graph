@@ -12,6 +12,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 8
       }
     },
     {
@@ -31,6 +36,11 @@
         "gold": 0,
         "silver": 0,
         "bronze": 1
+      },
+      "tour": {
+        "gold": 1,
+        "silver": 5,
+        "bronze": 8
       }
     },
     {
@@ -59,7 +69,12 @@
       "name": "Frank Blasi",
       "dob": "1966-02-05",
       "height": 190,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 100637,
@@ -87,14 +102,24 @@
       "name": "Jody Allan Holden",
       "dob": "1968-08-20",
       "height": 195,
-      "weight": 95
+      "weight": 95,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100723,
       "name": "David Holmes",
       "dob": "1969-05-18",
       "height": 188,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 101066,
@@ -115,7 +140,12 @@
       "name": "Conrad Leinemann",
       "dob": "1971-04-02",
       "height": 193,
-      "weight": 89
+      "weight": 89,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 101333,
@@ -123,6 +153,11 @@
       "dob": "1978-05-16",
       "height": 193,
       "weight": 82,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+      },
       "away": [
         {
           "id": 101687,
@@ -352,7 +387,12 @@
       "name": "Chris Simek",
       "dob": "1983-01-11",
       "height": 191,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+      }
     },
     {
       "id": 103749,
@@ -387,7 +427,12 @@
       "name": "Christian Redmann",
       "dob": "1982-03-16",
       "height": 188,
-      "weight": 86
+      "weight": 86,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 104098,
@@ -408,7 +453,12 @@
       "name": "Josh Binstock",
       "dob": "1981-01-12",
       "height": 196,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 1,
+        "silver": 4,
+        "bronze": 3
+      }
     },
     {
       "id": 104221,
@@ -457,7 +507,12 @@
       "name": "Wes Montgomery",
       "dob": "1977-10-28",
       "height": 194,
-      "weight": 92
+      "weight": 92,
+      "tour": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 104725,
@@ -479,6 +534,11 @@
       "dob": "1988-11-21",
       "height": 200,
       "weight": 92,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 4
+      },
       "away": [
         {
           "id": 131994,
@@ -511,6 +571,11 @@
       "dob": "1984-05-02",
       "height": 199,
       "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      },
       "away": [
         {
           "id": 131994,
@@ -584,7 +649,12 @@
       "name": "Jessi Lelliott",
       "dob": "1979-03-05",
       "height": 188,
-      "weight": 81
+      "weight": 81,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      }
     },
     {
       "id": 117258,
@@ -742,7 +812,12 @@
       "name": "Samuel Schachter",
       "dob": "1990-05-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 2,
+        "silver": 3,
+        "bronze": 0
+      }
     },
     {
       "id": 120780,
@@ -819,7 +894,12 @@
       "name": "Daniel Dearing",
       "dob": "1990-01-13",
       "height": 197,
-      "weight": 87
+      "weight": 87,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 131606,
@@ -840,7 +920,12 @@
       "name": "Grant O'Gorman",
       "dob": "1993-11-02",
       "height": 188,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 133310,
@@ -882,7 +967,12 @@
       "name": "Cameron Wheelan",
       "dob": "1988-09-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 135385,
@@ -998,14 +1088,24 @@
       "name": "Alexander William Russell",
       "dob": "1993-06-25",
       "height": 210,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 141595,
       "name": "Jake MacNeil",
       "dob": "1996-05-01",
       "height": 183,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+      }
     },
     {
       "id": 141598,
@@ -1040,7 +1140,12 @@
       "name": "Sergiy Grabovskyy",
       "dob": "1994-08-19",
       "height": 187,
-      "weight": 84
+      "weight": 84,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 145818,
@@ -1243,7 +1348,12 @@
       "name": "Steven Abrams",
       "dob": "2001-01-10",
       "height": 187,
-      "weight": 74
+      "weight": 74,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 168915,
@@ -1285,7 +1395,12 @@
       "name": "Jonathan Pickett",
       "dob": "2001-06-11",
       "height": 198,
-      "weight": 88
+      "weight": 88,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 172998,
@@ -1390,14 +1505,24 @@
       "name": "Jacob Van Geel",
       "dob": "2001-08-09",
       "height": 198,
-      "weight": 96
+      "weight": 96,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 185582,
       "name": "Cameron Chadwick",
       "dob": "2002-02-09",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 185977,
@@ -1474,7 +1599,12 @@
       "name": "Zachary van Geel",
       "dob": "2003-07-22",
       "height": 193,
-      "weight": 98
+      "weight": 98,
+      "tour": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      }
     },
     {
       "id": 201877,

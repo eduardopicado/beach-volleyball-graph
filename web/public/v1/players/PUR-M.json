@@ -7,7 +7,12 @@
       "name": "Willie \"El Toro\" De Jesus Torres",
       "dob": "1968-10-07",
       "height": 195,
-      "weight": 100
+      "weight": 100,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 100191,
@@ -155,7 +160,12 @@
       "name": "Amaury Velasco",
       "dob": "1972-03-06",
       "height": 195,
-      "weight": 90
+      "weight": 90,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
     },
     {
       "id": 101627,
