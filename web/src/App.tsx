@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import type { Gender, GraphFile, Manifest, PlayersFile } from './schema';
+import type { AwayPartner, Gender, GraphFile, Manifest, PlayersFile } from './schema';
 import { GENDERS } from './schema';
 import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, formatMedals, plural } from './lib/format';
@@ -10,7 +10,7 @@ import type { GraphEdge, GraphNode } from './schema';
 import { GENDER_LABEL } from './schema';
 import { sliceSlug, slugFromPath } from './lib/slug';
 import { PartnershipGraph } from './components/PartnershipGraph';
-import { PlayerCard, type PartnerRow } from './components/PlayerCard';
+import { PlayerCard, type AwayRow, type PartnerRow } from './components/PlayerCard';
 import { StatTiles, type Stat } from './components/StatTiles';
 import { TableView, type TableRow } from './components/TableView';
 import { ThemeToggle } from './components/ThemeToggle';
@@ -207,6 +207,34 @@ export default function App() {
     [details],
   );
 
+  /**
+   * The selected player's partners from other federations, resolved against
+   * the manifest so each one can carry its own flag and country name.
+   *
+   * `linkable` is false when that country x gender slice was too small to
+   * publish (fewer than two players): the partner is real and still worth
+   * naming, but there is no page to send anyone to.
+   */
+  const awayRows: AwayRow[] = useMemo(() => {
+    const list = selectedId ? (detailsById.get(selectedId)?.away ?? []) : [];
+    return list.map((partner) => {
+      const entry = manifest?.countries.find((c) => c.code === partner.fed);
+      return {
+        partner,
+        countryName: entry?.name ?? partner.fed,
+        flag: flagEmoji(entry?.iso2, partner.fed),
+        linkable: Boolean(entry?.genders[partner.gender]),
+      };
+    });
+  }, [selectedId, detailsById, manifest]);
+
+  /** Follow an away partner into the slice they actually live in. */
+  const selectAwayPartner = useCallback((partner: AwayPartner) => {
+    setCountry(partner.fed);
+    setGender(partner.gender);
+    setSelectedId(partner.id);
+  }, []);
+
   const countryEntry = manifest?.countries.find((c) => c.code === country);
   const flag = flagEmoji(countryEntry?.iso2, countryEntry?.code);
 
@@ -338,10 +366,17 @@ export default function App() {
   const [graphHeight, setGraphHeight] = useState<number | null>(null);
   const onGraphSize = useCallback((size: { height: number }) => setGraphHeight(size.height), []);
 
-  // Clear a selection that does not exist in the newly loaded slice.
+  // Clear a selection that does not exist in the newly loaded slice — but only
+  // once the loaded slice is the one being asked for. Following an away
+  // partner sets the country, the gender and the selection together, and for
+  // the moment before the new graph arrives the old one is still in state;
+  // judging the selection against it would throw away a player who is about to
+  // be perfectly valid.
   useEffect(() => {
-    if (selectedId !== null && graph && !nodesById.has(selectedId)) setSelectedId(null);
-  }, [graph, nodesById, selectedId]);
+    if (selectedId === null || !graph) return;
+    if (graph.country !== country || graph.gender !== gender) return;
+    if (!nodesById.has(selectedId)) setSelectedId(null);
+  }, [graph, nodesById, selectedId, country, gender]);
 
   if (error && !graph) {
     return (
@@ -447,9 +482,11 @@ export default function App() {
                 node={selectedNode}
                 detail={detailsById.get(selectedNode.id)}
                 partners={partnersByPlayer.get(selectedNode.id) ?? []}
+                away={awayRows}
                 countryName={countryEntry?.name ?? country}
                 flag={flag}
                 onSelectPartner={selectPlayer}
+                onSelectAway={selectAwayPartner}
                 onClose={() => setSelectedId(null)}
               />
             </div>

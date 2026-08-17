@@ -203,7 +203,18 @@
       "name": "Kerstin Eva-Maria Pichler",
       "dob": "1981-08-18",
       "height": 176,
-      "weight": 69
+      "weight": 69,
+      "away": [
+        {
+          "id": 118318,
+          "name": "Izzy Czerveniak",
+          "fed": "CAN",
+          "gender": "W",
+          "t": 4,
+          "f": 2004,
+          "l": 2004
+        }
+      ]
     },
     {
       "id": 103649,

@@ -112,7 +112,18 @@
       "name": "Maria Prokopeva",
       "dob": "1986-08-16",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 103961,
@@ -224,7 +235,18 @@
       "name": "Evgenia Ukolova",
       "dob": "1989-05-17",
       "height": 182,
-      "weight": 66
+      "weight": 66,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 117998,
@@ -245,7 +267,18 @@
       "name": "Daria Yarzutkina",
       "dob": "1988-07-10",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 118020,
@@ -266,7 +299,18 @@
       "name": "Ekaterina Karapischenko",
       "dob": "1992-10-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 4,
+          "f": 2007,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 118559,
@@ -301,7 +345,18 @@
       "name": "Ekaterina Birlova",
       "dob": "1987-08-11",
       "height": 180,
-      "weight": 64
+      "weight": 64,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 2,
+          "f": 2010,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 120491,
@@ -315,7 +370,18 @@
       "name": "Anna Vozakova",
       "dob": "1989-02-27",
       "height": 175,
-      "weight": 70
+      "weight": 70,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 120586,
@@ -364,7 +430,18 @@
       "name": "Yulia Abalakina",
       "dob": "1991-10-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 2,
+          "f": 2010,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 132221,
@@ -392,7 +469,18 @@
       "name": "Ekaterina Syrtseva",
       "dob": "1990-08-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 147368,
+          "name": "Irina Abbaszade",
+          "fed": "AZE",
+          "gender": "W",
+          "t": 4,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 135524,

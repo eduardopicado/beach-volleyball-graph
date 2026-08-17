@@ -35,7 +35,18 @@
       "name": "Annamaria Solazzi",
       "dob": "1965-12-10",
       "height": 175,
-      "weight": 60
+      "weight": 60,
+      "away": [
+        {
+          "id": 102285,
+          "name": "Giseli \"Gisi\" Gavio Farinazzo",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 2001,
+          "l": 2001
+        }
+      ]
     },
     {
       "id": 100620,
@@ -70,7 +81,18 @@
       "name": "Cilene Vieira Nascimento",
       "dob": "1969-12-11",
       "height": 182,
-      "weight": 65
+      "weight": 65,
+      "away": [
+        {
+          "id": 102285,
+          "name": "Giseli \"Gisi\" Gavio Farinazzo",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 4,
+          "f": 1998,
+          "l": 2000
+        }
+      ]
     },
     {
       "id": 101453,
@@ -161,14 +183,36 @@
       "name": "Mirella Sesti Nunes",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 102285,
+          "name": "Giseli \"Gisi\" Gavio Farinazzo",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 1998,
+          "l": 1998
+        }
+      ]
     },
     {
       "id": 102375,
       "name": "Alessia \"Ale\" Torri",
       "dob": "1975-10-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 102285,
+          "name": "Giseli \"Gisi\" Gavio Farinazzo",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 1998,
+          "l": 1998
+        }
+      ]
     },
     {
       "id": 102694,
@@ -252,7 +296,18 @@
       "name": "Gaia Cicola",
       "dob": "1977-06-21",
       "height": 181,
-      "weight": 65
+      "weight": 65,
+      "away": [
+        {
+          "id": 102285,
+          "name": "Giseli \"Gisi\" Gavio Farinazzo",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 8,
+          "f": 2002,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 103357,

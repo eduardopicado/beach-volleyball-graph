@@ -122,7 +122,27 @@
       "name": "Jason Kruger",
       "dob": "1978-05-16",
       "height": 193,
-      "weight": 82
+      "weight": 82,
+      "away": [
+        {
+          "id": 101687,
+          "name": "Louw Franken",
+          "fed": "RSA",
+          "gender": "M",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        },
+        {
+          "id": 101332,
+          "name": "Steven Kruger",
+          "fed": "RSA",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 101634,
@@ -458,7 +478,18 @@
       "name": "Ben Saxton",
       "dob": "1988-11-21",
       "height": 200,
-      "weight": 92
+      "weight": 92,
+      "away": [
+        {
+          "id": 131994,
+          "name": "Chaim Schalk",
+          "fed": "USA",
+          "gender": "M",
+          "t": 55,
+          "f": 2013,
+          "l": 2017
+        }
+      ]
     },
     {
       "id": 104995,
@@ -479,7 +510,18 @@
       "name": "Martin Reader",
       "dob": "1984-05-02",
       "height": 199,
-      "weight": 96
+      "weight": 96,
+      "away": [
+        {
+          "id": 131994,
+          "name": "Chaim Schalk",
+          "fed": "USA",
+          "gender": "M",
+          "t": 9,
+          "f": 2010,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 105140,
@@ -675,7 +717,18 @@
       "name": "Matt Zbyszewski",
       "dob": "1981-08-21",
       "height": 192,
-      "weight": 86
+      "weight": 86,
+      "away": [
+        {
+          "id": 131994,
+          "name": "Chaim Schalk",
+          "fed": "USA",
+          "gender": "M",
+          "t": 2,
+          "f": 2012,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 120716,
@@ -906,7 +959,18 @@
       "name": "Steven Marshall",
       "dob": "1989-11-23",
       "height": 191,
-      "weight": 85
+      "weight": 85,
+      "away": [
+        {
+          "id": 131994,
+          "name": "Chaim Schalk",
+          "fed": "USA",
+          "gender": "M",
+          "t": 1,
+          "f": 2011,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 139820,
@@ -1585,7 +1649,18 @@
       "name": "Mateo Rodriguez Abello",
       "dob": "2009-03-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 209015,
+          "name": "Martin Gaviria Romero",
+          "fed": "COL",
+          "gender": "M",
+          "t": 2,
+          "f": 2025,
+          "l": 2026
+        }
+      ]
     },
     {
       "id": 233594,

@@ -7,21 +7,63 @@
       "name": "Shauna Mullin",
       "dob": "1984-09-11",
       "height": 178,
-      "weight": 70
+      "weight": 70,
+      "away": [
+        {
+          "id": 118190,
+          "name": "Zara Dampney",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 56,
+          "f": 2007,
+          "l": 2012
+        },
+        {
+          "id": 105172,
+          "name": "Denise Johns",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 7,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 120662,
       "name": "Rachel Turner",
       "dob": "1987-12-08",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 118992,
+          "name": "Helen Brown",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 3,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 120907,
       "name": "Kim Smith",
       "dob": "1988-10-27",
       "height": 171,
-      "weight": 67
+      "weight": 67,
+      "away": [
+        {
+          "id": 120911,
+          "name": "Phoebe Jeffery",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     }
   ]
 }

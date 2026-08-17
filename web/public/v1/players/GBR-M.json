@@ -7,21 +7,81 @@
       "name": "Luke Sheaf",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 103717,
+          "name": "Jody Gooding",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 4,
+          "f": 2007,
+          "l": 2009
+        },
+        {
+          "id": 103720,
+          "name": "Gregg Weaver",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        },
+        {
+          "id": 118584,
+          "name": "Robin Miedzybrodzki",
+          "fed": "SCO",
+          "gender": "M",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 118586,
       "name": "Jake Sheaf",
       "dob": "1990-04-02",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 119906,
+          "name": "Rob Flay",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 118718,
       "name": "Imornefe Bowes",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 118584,
+          "name": "Robin Miedzybrodzki",
+          "fed": "SCO",
+          "gender": "M",
+          "t": 4,
+          "f": 2007,
+          "l": 2007
+        },
+        {
+          "id": 103717,
+          "name": "Jody Gooding",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 2,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 118936,
@@ -35,7 +95,27 @@
       "name": "Tom Lord",
       "dob": "1986-08-20",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 118584,
+          "name": "Robin Miedzybrodzki",
+          "fed": "SCO",
+          "gender": "M",
+          "t": 17,
+          "f": 2009,
+          "l": 2012
+        },
+        {
+          "id": 103717,
+          "name": "Jody Gooding",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 6,
+          "f": 2008,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 120922,
@@ -56,7 +136,27 @@
       "name": "John Garcia-Thompson",
       "dob": "1979-06-08",
       "height": 192,
-      "weight": 92
+      "weight": 92,
+      "away": [
+        {
+          "id": 118567,
+          "name": "Steven Grotowski",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 15,
+          "f": 2011,
+          "l": 2012
+        },
+        {
+          "id": 118584,
+          "name": "Robin Miedzybrodzki",
+          "fed": "SCO",
+          "gender": "M",
+          "t": 5,
+          "f": 2009,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 125531,
@@ -70,7 +170,18 @@
       "name": "Patrick Crooks",
       "dob": "1990-05-06",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120918,
+          "name": "Chris Gregory",
+          "fed": "ENG",
+          "gender": "M",
+          "t": 1,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     }
   ]
 }

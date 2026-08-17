@@ -7,7 +7,18 @@
       "name": "Deon Heinrich \"Stokes\" Cloete",
       "dob": "1970-02-20",
       "height": 183,
-      "weight": 78
+      "weight": 78,
+      "away": [
+        {
+          "id": 101304,
+          "name": "Bevin \"B.Boy\" Zealand",
+          "fed": "RSA",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 101690,

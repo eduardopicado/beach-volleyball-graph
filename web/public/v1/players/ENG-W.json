@@ -21,7 +21,45 @@
       "name": "Monique Elizabeth \"Mo\" Oliver",
       "dob": "1966-12-19",
       "height": 176,
-      "weight": 63
+      "weight": 63,
+      "away": [
+        {
+          "id": 101683,
+          "name": "Jennifer \"Jen\" Meredith",
+          "fed": "USA",
+          "gender": "W",
+          "t": 2,
+          "f": 1996,
+          "l": 1997
+        },
+        {
+          "id": 100621,
+          "name": "Marla O Hara",
+          "fed": "USA",
+          "gender": "W",
+          "t": 2,
+          "f": 1996,
+          "l": 1996
+        },
+        {
+          "id": 100313,
+          "name": "Gayle \"Hammer\" Stammer",
+          "fed": "USA",
+          "gender": "W",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        },
+        {
+          "id": 150830,
+          "name": "Melissa Coutts",
+          "fed": "SCO",
+          "gender": "W",
+          "t": 1,
+          "f": 1999,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 100938,
@@ -70,7 +108,18 @@
       "name": "Denise Johns",
       "dob": "1978-12-09",
       "height": 185,
-      "weight": 68
+      "weight": 68,
+      "away": [
+        {
+          "id": 118753,
+          "name": "Shauna Mullin",
+          "fed": "GBR",
+          "gender": "W",
+          "t": 7,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 118001,
@@ -84,14 +133,36 @@
       "name": "Zara Dampney",
       "dob": "1986-06-10",
       "height": 178,
-      "weight": 65
+      "weight": 65,
+      "away": [
+        {
+          "id": 118753,
+          "name": "Shauna Mullin",
+          "fed": "GBR",
+          "gender": "W",
+          "t": 56,
+          "f": 2007,
+          "l": 2012
+        }
+      ]
     },
     {
       "id": 118992,
       "name": "Helen Brown",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120662,
+          "name": "Rachel Turner",
+          "fed": "GBR",
+          "gender": "W",
+          "t": 3,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 118993,
@@ -105,7 +176,18 @@
       "name": "Phoebe Jeffery",
       "dob": "1989-09-05",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120907,
+          "name": "Kim Smith",
+          "fed": "GBR",
+          "gender": "W",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     },
     {
       "id": 120912,
@@ -154,7 +236,27 @@
       "name": "Joanna Grance Healy",
       "dob": "1987-08-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 119356,
+          "name": "Eliza Dean",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 2,
+          "f": 2007,
+          "l": 2007
+        },
+        {
+          "id": 104353,
+          "name": "Johannah Rohkamper",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 1,
+          "f": 2007,
+          "l": 2007
+        }
+      ]
     },
     {
       "id": 144155,

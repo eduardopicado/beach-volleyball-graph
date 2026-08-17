@@ -322,7 +322,18 @@
       "name": "Oleksiy Klyamar",
       "dob": "1987-04-11",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120577,
+          "name": "Valeriy Samoday",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 2,
+          "f": 2009,
+          "l": 2009
+        }
+      ]
     },
     {
       "id": 104799,
@@ -336,7 +347,18 @@
       "name": "Oleksandr Ioisher",
       "dob": "1986-06-26",
       "height": 192,
-      "weight": 88
+      "weight": 88,
+      "away": [
+        {
+          "id": 120577,
+          "name": "Valeriy Samoday",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 104801,
@@ -469,7 +491,18 @@
       "name": "Sergiy Popov",
       "dob": "1991-08-06",
       "height": 187,
-      "weight": 85
+      "weight": 85,
+      "away": [
+        {
+          "id": 120577,
+          "name": "Valeriy Samoday",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 15,
+          "f": 2008,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 120579,
@@ -511,7 +544,18 @@
       "name": "Vladyslav Iemelianchyk",
       "dob": "1992-12-21",
       "height": 205,
-      "weight": 85
+      "weight": 85,
+      "away": [
+        {
+          "id": 120577,
+          "name": "Valeriy Samoday",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 1,
+          "f": 2013,
+          "l": 2013
+        }
+      ]
     },
     {
       "id": 132658,

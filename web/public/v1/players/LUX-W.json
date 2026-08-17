@@ -21,7 +21,18 @@
       "name": "Marie Reiterova",
       "dob": "1990-03-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 120748,
+          "name": "Šárka Melichárková",
+          "fed": "CZE",
+          "gender": "W",
+          "t": 1,
+          "f": 2008,
+          "l": 2008
+        }
+      ]
     }
   ]
 }

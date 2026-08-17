@@ -83,6 +83,28 @@ export interface MedalCounts {
   bronze: number;
 }
 
+/**
+ * A partner who competed for a different federation, so the partnership sits
+ * outside this slice and has no edge in the graph.
+ *
+ * Only ~0.8% of partnerships, but they are not evenly spread: a player who
+ * transferred can lose every partner at once and render as a lone dot with an
+ * empty card. Carrying them on the player rather than the graph shows the
+ * career without inventing a cross-country edge the slicing deliberately
+ * excludes.
+ */
+export interface AwayPartner {
+  id: number;
+  name: string;
+  /** Federation code — the slice this partner actually lives in. */
+  fed: string;
+  gender: Gender;
+  /** Tournaments together, and the first and last season of them. */
+  t: number;
+  f: number;
+  l: number;
+}
+
 /** Lazy-loaded detail for every player in one country x gender slice. */
 export interface PlayerDetail {
   id: number;
@@ -101,6 +123,11 @@ export interface PlayerDetail {
   olympics?: MedalCounts;
   /** Present only when the player won at least one FIVB World Championships medal. */
   worldChamps?: MedalCounts;
+  /**
+   * Partnerships with players from another federation, which the graph drops.
+   * Omitted entirely for the ~98% of players who have none.
+   */
+  away?: AwayPartner[];
 }
 
 /**

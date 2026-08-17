@@ -287,7 +287,18 @@
       "name": "Pavel Kolar",
       "dob": "1985-02-03",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 103915,
+          "name": "Pavel Kotrekl",
+          "fed": "SUI",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 103916,

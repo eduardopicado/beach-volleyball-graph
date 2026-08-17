@@ -805,7 +805,27 @@
       "name": "Karen Noppen",
       "dob": "1986-04-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 192742,
+          "name": "Emmanuelie Ndayikengurukiye",
+          "fed": "BDI",
+          "gender": "W",
+          "t": 1,
+          "f": 2023,
+          "l": 2023
+        },
+        {
+          "id": 191910,
+          "name": "Gynette Kamwemwe",
+          "fed": "BDI",
+          "gender": "W",
+          "t": 1,
+          "f": 2025,
+          "l": 2025
+        }
+      ]
     },
     {
       "id": 185746,

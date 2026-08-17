@@ -175,7 +175,18 @@
       "name": "Olaya Perez Pazo",
       "dob": "1983-06-07",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 105127,
+          "name": "Alejandra Simon",
+          "fed": "ESP",
+          "gender": "W",
+          "t": 7,
+          "f": 2010,
+          "l": 2010
+        }
+      ]
     },
     {
       "id": 149771,

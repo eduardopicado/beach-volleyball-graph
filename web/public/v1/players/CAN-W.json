@@ -761,7 +761,18 @@
       "name": "Izzy Czerveniak",
       "dob": "1980-02-01",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 103486,
+          "name": "Kerstin Eva-Maria Pichler",
+          "fed": "AUT",
+          "gender": "W",
+          "t": 4,
+          "f": 2004,
+          "l": 2004
+        }
+      ]
     },
     {
       "id": 118331,

@@ -7,7 +7,18 @@
       "name": "Milena Matic",
       "dob": "1992-04-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 170677,
+          "name": "Kathryn Hogan",
+          "fed": "USA",
+          "gender": "W",
+          "t": 1,
+          "f": 2018,
+          "l": 2018
+        }
+      ]
     },
     {
       "id": 136815,

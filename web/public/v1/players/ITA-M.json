@@ -231,7 +231,18 @@
       "name": "Alejandro Diz",
       "dob": null,
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101099,
+          "name": "Raul Quiroga",
+          "fed": "ARG",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 101085,
@@ -308,7 +319,18 @@
       "name": "Carlo Viberti",
       "dob": "1963-04-22",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 101671,
+          "name": "Emanuele \"Bada\" Monduzzi",
+          "fed": "SMR",
+          "gender": "M",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 101389,
@@ -574,7 +596,18 @@
       "name": "Marcello Canzian",
       "dob": "1974-08-29",
       "height": 192,
-      "weight": 94
+      "weight": 94,
+      "away": [
+        {
+          "id": 102666,
+          "name": "Enzo Gerotto",
+          "fed": "SMR",
+          "gender": "M",
+          "t": 3,
+          "f": 1999,
+          "l": 2005
+        }
+      ]
     },
     {
       "id": 102670,
@@ -630,7 +663,27 @@
       "name": "Wout Wijsmans",
       "dob": "1977-10-30",
       "height": 201,
-      "weight": 98
+      "weight": 98,
+      "away": [
+        {
+          "id": 102604,
+          "name": "Frederik \"Fredo\" Delanghe",
+          "fed": "BEL",
+          "gender": "M",
+          "t": 5,
+          "f": 2001,
+          "l": 2002
+        },
+        {
+          "id": 100765,
+          "name": "Jacques Kempenaers",
+          "fed": "BEL",
+          "gender": "M",
+          "t": 3,
+          "f": 2003,
+          "l": 2003
+        }
+      ]
     },
     {
       "id": 103506,
@@ -1585,7 +1638,18 @@
       "name": "Oleg Antonov",
       "dob": "1988-07-28",
       "height": 198,
-      "weight": 88
+      "weight": 88,
+      "away": [
+        {
+          "id": 100114,
+          "name": "Andrei Gorbenko",
+          "fed": "RUS",
+          "gender": "M",
+          "t": 2,
+          "f": 1992,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 149300,

@@ -14,7 +14,18 @@
       "name": "Hafid Ouchrif",
       "dob": "1984-01-21",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 137684,
+          "name": "Anas Diouri",
+          "fed": "MAR",
+          "gender": "M",
+          "t": 1,
+          "f": 2011,
+          "l": 2011
+        }
+      ]
     },
     {
       "id": 147002,

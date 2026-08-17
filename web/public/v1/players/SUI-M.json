@@ -669,7 +669,18 @@
       "name": "Pavel Kotrekl",
       "dob": "1983-12-23",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 103914,
+          "name": "Pavel Kolar",
+          "fed": "CZE",
+          "gender": "M",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        }
+      ]
     },
     {
       "id": 103963,
@@ -900,7 +911,36 @@
       "name": "Jefferson Bellaguarda",
       "dob": "1976-09-12",
       "height": 193,
-      "weight": 92
+      "weight": 92,
+      "away": [
+        {
+          "id": 100021,
+          "name": "Paulo Roberto \"Paulão\" Moreira da Costa",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 18,
+          "f": 2000,
+          "l": 2001
+        },
+        {
+          "id": 103215,
+          "name": "Dagoberto \"Juca\" Dultra Jr.",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 12,
+          "f": 2002,
+          "l": 2003
+        },
+        {
+          "id": 102860,
+          "name": "Carlos Arruda",
+          "fed": "BRA",
+          "gender": "M",
+          "t": 1,
+          "f": 1999,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 125069,

@@ -7,7 +7,27 @@
       "name": "Andrezza Martins das Chagas",
       "dob": "1977-08-02",
       "height": 169,
-      "weight": 60
+      "weight": 60,
+      "away": [
+        {
+          "id": 104192,
+          "name": "Andréa Martins das Chagas",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 2002,
+          "l": 2002
+        },
+        {
+          "id": 104269,
+          "name": "Thatiana Damasio B. Soares",
+          "fed": "BRA",
+          "gender": "W",
+          "t": 1,
+          "f": 2004,
+          "l": 2004
+        }
+      ]
     },
     {
       "id": 118225,

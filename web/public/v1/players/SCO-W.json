@@ -14,7 +14,18 @@
       "name": "Melissa Coutts",
       "dob": "1970-11-13",
       "height": 178,
-      "weight": 69
+      "weight": 69,
+      "away": [
+        {
+          "id": 100712,
+          "name": "Monique Elizabeth \"Mo\" Oliver",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 1,
+          "f": 1999,
+          "l": 1999
+        }
+      ]
     },
     {
       "id": 150841,

@@ -21,7 +21,18 @@
       "name": "Marion Marquet",
       "dob": "1981-01-28",
       "height": 170,
-      "weight": 58
+      "weight": 58,
+      "away": [
+        {
+          "id": 100156,
+          "name": "Jean C. Gaston",
+          "fed": "FRA",
+          "gender": "M",
+          "t": 1,
+          "f": 1987,
+          "l": 1987
+        }
+      ]
     },
     {
       "id": 101655,

@@ -85,7 +85,18 @@
       "name": "Gayle \"Hammer\" Stammer",
       "dob": "1962-10-22",
       "height": 188,
-      "weight": 70
+      "weight": 70,
+      "away": [
+        {
+          "id": 100712,
+          "name": "Monique Elizabeth \"Mo\" Oliver",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 100314,
@@ -181,7 +192,18 @@
       "name": "Marla O Hara",
       "dob": "1961-02-22",
       "height": 175,
-      "weight": 75
+      "weight": 75,
+      "away": [
+        {
+          "id": 100712,
+          "name": "Monique Elizabeth \"Mo\" Oliver",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 2,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 100636,
@@ -202,7 +224,54 @@
       "name": "Sarah Straton",
       "dob": "1970-10-06",
       "height": 188,
-      "weight": 74
+      "weight": 74,
+      "away": [
+        {
+          "id": 100358,
+          "name": "Annette \"H.T.\" Huygens Tholen",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 25,
+          "f": 1997,
+          "l": 2000
+        },
+        {
+          "id": 100063,
+          "name": "Christine Eleanor  \"Chris\" Wilson",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 17,
+          "f": 1995,
+          "l": 1998
+        },
+        {
+          "id": 100611,
+          "name": "Liane Fenwick",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 5,
+          "f": 1996,
+          "l": 1997
+        },
+        {
+          "id": 101667,
+          "name": "Debbie Brand",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        },
+        {
+          "id": 101400,
+          "name": "Tania Gooley",
+          "fed": "AUS",
+          "gender": "W",
+          "t": 1,
+          "f": 1996,
+          "l": 1996
+        }
+      ]
     },
     {
       "id": 100692,
@@ -387,7 +456,18 @@
       "name": "Jennifer \"Jen\" Meredith",
       "dob": "1972-11-03",
       "height": 180,
-      "weight": 72
+      "weight": 72,
+      "away": [
+        {
+          "id": 100712,
+          "name": "Monique Elizabeth \"Mo\" Oliver",
+          "fed": "ENG",
+          "gender": "W",
+          "t": 2,
+          "f": 1996,
+          "l": 1997
+        }
+      ]
     },
     {
       "id": 101707,
@@ -2269,7 +2349,18 @@
       "name": "Kathryn Hogan",
       "dob": "1994-03-19",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 133720,
+          "name": "Milena Matic",
+          "fed": "SRB",
+          "gender": "W",
+          "t": 1,
+          "f": 2018,
+          "l": 2018
+        }
+      ]
     },
     {
       "id": 170795,

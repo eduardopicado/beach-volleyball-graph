@@ -28,7 +28,18 @@
       "name": "Carlos \"Monkey\" Nieves",
       "dob": "1968-01-21",
       "height": 181,
-      "weight": 75
+      "weight": 75,
+      "away": [
+        {
+          "id": 100330,
+          "name": "Luis \"Fenito\" Rodriguez",
+          "fed": "USA",
+          "gender": "M",
+          "t": 3,
+          "f": 1993,
+          "l": 1994
+        }
+      ]
     },
     {
       "id": 100753,
@@ -70,7 +81,18 @@
       "name": "Enrique \"Papolito\" Lopez",
       "dob": "1971-06-21",
       "height": 194,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 100330,
+          "name": "Luis \"Fenito\" Rodriguez",
+          "fed": "USA",
+          "gender": "M",
+          "t": 1,
+          "f": 1995,
+          "l": 1995
+        }
+      ]
     },
     {
       "id": 100830,

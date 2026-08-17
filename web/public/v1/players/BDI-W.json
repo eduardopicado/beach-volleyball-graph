@@ -7,7 +7,18 @@
       "name": "Gynette Kamwemwe",
       "dob": "2004-12-31",
       "height": 170,
-      "weight": 63
+      "weight": 63,
+      "away": [
+        {
+          "id": 183952,
+          "name": "Karen Noppen",
+          "fed": "NED",
+          "gender": "W",
+          "t": 1,
+          "f": 2025,
+          "l": 2025
+        }
+      ]
     },
     {
       "id": 191914,
@@ -28,7 +39,18 @@
       "name": "Emmanuelie Ndayikengurukiye",
       "dob": "2005-12-13",
       "height": null,
-      "weight": null
+      "weight": null,
+      "away": [
+        {
+          "id": 183952,
+          "name": "Karen Noppen",
+          "fed": "NED",
+          "gender": "W",
+          "t": 1,
+          "f": 2023,
+          "l": 2023
+        }
+      ]
     },
     {
       "id": 193298,

@@ -39,6 +39,7 @@ import { TIER_LABEL, INCLUDE_AGE_GROUP } from './tiers.js';
 import {
   aggregateMedals,
   aggregatePartnerships,
+  awayPartnersByPlayer,
   isCancelled,
   medalTournaments,
   normalisePlayers,
@@ -195,6 +196,23 @@ async function main() {
   const slices = sliceByCountryAndGender(partnerships, appearances, players, tournaments, MIN_NODES);
   log('slices', `${slices.length} country x gender slices with >=${MIN_NODES} players`);
 
+  // Partnerships split across federations, which the slicing drops from both
+  // countries. Carried on the player instead, so a career built with foreign
+  // partners still shows on the card.
+  const awayPartners = awayPartnersByPlayer(partnerships, players);
+
+  // How many players are left with nothing visible in their own slice — they
+  // competed, they have partners, and every one of those partners is filed
+  // under another federation. This is not a bug to fix once: a transfer
+  // creates a new one silently, and the count moving week to week is the only
+  // signal that it happened. Karen Noppen became one on 16 August 2026 by
+  // moving BDI -> NED, losing both her partnerships in a single refresh.
+  const stranded = [...awayPartners.keys()].filter((id) => {
+    const slice = slices.find((s) => s.nodes.some((n) => n.id === id));
+    return slice ? !slice.edges.some((e) => e.a === id || e.b === id) : false;
+  }).length;
+  log('cross-fed', `${awayPartners.size} players have a partner in another federation; ${stranded} have no partner in their own`);
+
   // --- Stage 5: write to temp, then swap -----------------------------------
   await rm(TMP_DIR, { recursive: true, force: true });
   await mkdir(path.join(TMP_DIR, 'graphs'), { recursive: true });
@@ -240,6 +258,7 @@ async function main() {
           weight: p.weight,
           olympics: m && hasMedal(m.olympics) ? m.olympics : undefined,
           worldChamps: m && hasMedal(m['world-champs']) ? m['world-champs'] : undefined,
+          away: awayPartners.get(node.id),
         };
       }),
     };
