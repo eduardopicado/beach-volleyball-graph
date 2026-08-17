@@ -117,7 +117,7 @@ export function PlayerCard({
   onSelectAway,
   onClose,
 }: Props) {
-  const closeRef = useRef<HTMLButtonElement>(null);
+  const cardRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -138,9 +138,16 @@ export function PlayerCard({
     // Whatever had focus a moment ago — a graph node, a table row, the search
     // input — so closing the card (Escape, or selecting nobody) can hand focus
     // back rather than dropping it to <body>, which is where the browser sends
-    // it once the close button that held it is removed from the DOM.
+    // it once the element that held it is removed from the DOM.
     const previouslyFocused = document.activeElement;
-    closeRef.current?.focus();
+    // The card itself, not the close button. Chrome works out Enter's default
+    // action *after* the keydown handlers have run — so when a reader presses
+    // Enter on a table row, focus has already moved by then, and if it landed
+    // on a <button> that same keystroke activates it. The card opened and shut
+    // again in 19ms, which made every player unreachable from the keyboard.
+    // A container with tabIndex -1 has no default action to trigger, and
+    // focusing it announces the panel's own label rather than "Close profile".
+    cardRef.current?.focus();
     return () => {
       if (
         previouslyFocused &&
@@ -203,7 +210,13 @@ export function PlayerCard({
   const entries = results.status === 'ready' ? results.data.results.players[node.id] : undefined;
 
   return (
-    <aside className="player-card" aria-label={`Profile: ${node.name}`}>
+    <aside
+      ref={cardRef}
+      className="player-card"
+      // Focusable programmatically, never in the tab order.
+      tabIndex={-1}
+      aria-label={`Profile: ${node.name}`}
+    >
       <header>
         <Photo src={playerPhotoUrl(node.id)} name={node.name} />
         <div className="who">
@@ -212,7 +225,7 @@ export function PlayerCard({
             <span aria-hidden="true">{flag}</span> {countryName}
           </p>
         </div>
-        <button ref={closeRef} type="button" className="close" onClick={onClose} aria-label="Close profile">
+        <button type="button" className="close" onClick={onClose} aria-label="Close profile">
           ×
         </button>
       </header>
