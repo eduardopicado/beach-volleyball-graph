@@ -18,6 +18,7 @@ import type { Page } from '@playwright/test';
 import {
   test,
   expect,
+  accentedPlayerElsewhere,
   manifest,
   graph,
   players,
@@ -26,6 +27,7 @@ import {
   tournamentIndex,
 } from './fixtures.js';
 import { sliceSlug } from '../web/src/lib/slug.js';
+import { parseSliceKey } from '../web/src/schema.js';
 import { CONTACT_EMAIL } from '../web/src/site.js';
 
 /** A big, always-present slice — the densest realistic render. */
@@ -281,6 +283,15 @@ test.describe('timeline view', () => {
     // In the order the ingest published, which is the season run backwards.
     expect(await rows.locator('.name').allInnerTexts()).toEqual(target.names);
     await expect(season).toHaveAttribute('aria-expanded', 'true');
+
+    // The disclosure caret is the only thing telling a reader the year opens,
+    // and it has to be there without hovering — touch has no hover state. It
+    // is drawn with borders rather than a glyph, so "visible" means the
+    // triangle has a width to it.
+    const caret = season.locator('.caret');
+    await expect(caret).toBeAttached();
+    const border = await caret.evaluate((el) => getComputedStyle(el).borderLeftWidth);
+    expect(border, 'the caret is not drawn').not.toBe('0px');
     expect(requests.filter((p) => p.includes('/results/'))).toHaveLength(1);
   });
 
@@ -362,10 +373,61 @@ test('the table lists the whole slice', async ({ page }) => {
   await expect.poll(() => page.locator('.table-view tbody tr').count()).toBe(expected);
 });
 
+test.describe('cross-country search', () => {
+  const box = (page: Page) => page.getByPlaceholder('Start typing a name…');
+
+  test('finds an accented name from another country, typed without the accents', async ({
+    page,
+  }) => {
+    const target = accentedPlayerElsewhere(`${COUNTRY}-${GENDER}`);
+    expect(target, 'no accented name outside this slice to search for').toBeTruthy();
+
+    const requests: string[] = [];
+    page.on('request', (r) => requests.push(new URL(r.url()).pathname));
+    await page.goto(`./${slicePath()}`);
+    await expect(page.locator('.table-view tbody tr').first()).toBeVisible();
+
+    // 370 KB that a visit which never uses the box should not pay for.
+    expect(requests.filter((p) => p.endsWith('/search.json'))).toEqual([]);
+
+    await box(page).click();
+    await expect.poll(() => requests.filter((p) => p.endsWith('/search.json')).length).toBe(1);
+
+    await box(page).fill(target!.plain);
+    const row = page.locator('.player-search-results li', { hasText: target!.name });
+    await expect(row).toBeVisible();
+    // Flagged with where they actually are, since picking it leaves this page.
+    await expect(row.locator('.where')).toBeVisible();
+
+    await row.click();
+
+    // Landed on their country, with their card open.
+    await expect(page.locator('.player-card h2')).toHaveText(target!.name);
+    const { country } = parseSliceKey(target!.slice)!;
+    const entry = manifest().countries.find((c) => c.code === country);
+    await expect
+      .poll(() => new URL(page.url()).pathname)
+      .toContain(sliceSlug(entry!.name, parseSliceKey(target!.slice)!.gender));
+  });
+
+  test('does not flag players who are already on the page', async ({ page }) => {
+    // A flag on a row that needs no navigation would be a lie about it.
+    const local = graph(COUNTRY, GENDER).nodes.sort((a, b) => b.tournaments - a.tournaments)[0]!;
+    await page.goto(`./${slicePath()}`);
+    await box(page).click();
+    await box(page).fill(local.name);
+
+    const row = page.locator('.player-search-results li', { hasText: local.name }).first();
+    await expect(row).toBeVisible();
+    await expect(row.locator('.where')).toHaveCount(0);
+  });
+});
+
 test('published JSON endpoints are reachable', async ({ page, baseURL }) => {
   const suffixes = [
     'v1/manifest.json',
     'v1/tournaments.json',
+    'v1/search.json',
     `v1/graphs/${COUNTRY}-${GENDER}.json`,
     `v1/players/${COUNTRY}-${GENDER}.json`,
     `v1/results/${COUNTRY}-${GENDER}.json`,

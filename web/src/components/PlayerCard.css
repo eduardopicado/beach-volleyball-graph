@@ -377,7 +377,8 @@
    career stays scannable instead of alternating heading/row down the card. */
 .timeline > li {
   display: grid;
-  grid-template-columns: 3.2em minmax(0, 1fr);
+  /* Wide enough for the caret plus four digits. */
+  grid-template-columns: 4.1em minmax(0, 1fr);
   gap: 0 4px;
   align-items: start;
 }
@@ -400,7 +401,7 @@
   margin: 0;
   /* Matches .timeline li button's vertical padding so the year sits on the
      same baseline as the first partner name rather than floating above it. */
-  padding: 5px 0 0 2px;
+  padding: 5px 4px 3px 2px;
   background: transparent;
   border: 0;
   border-radius: 6px;
@@ -409,13 +410,52 @@
   cursor: pointer;
 }
 
+.timeline .season:hover {
+  background: var(--series-1-wash);
+}
+
+.timeline .year-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* A plain disclosure triangle, drawn with borders so it needs no font, no
+   asset and no colour of its own — it inherits, so it dims and brightens with
+   the year beside it. Always visible: this is the affordance, and an
+   affordance that only appears on hover does not exist on a touchscreen. */
+.timeline .caret {
+  width: 0;
+  height: 0;
+  flex-shrink: 0;
+  border-left: 4px solid currentColor;
+  border-top: 3.5px solid transparent;
+  border-bottom: 3.5px solid transparent;
+  color: var(--text-muted);
+  transition: transform 120ms ease;
+}
+
+.timeline .season:hover .caret,
+.timeline .season[aria-expanded='true'] .caret {
+  color: var(--series-1);
+}
+
+.timeline .season[aria-expanded='true'] .caret {
+  transform: rotate(90deg);
+}
+
 .timeline .season:hover .year {
   color: var(--text-primary);
-  text-decoration: underline;
 }
 
 .timeline .season[aria-expanded='true'] .year {
   color: var(--series-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline .caret {
+    transition: none;
+  }
 }
 
 .timeline .year {

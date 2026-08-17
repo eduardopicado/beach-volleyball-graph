@@ -5,10 +5,11 @@
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Gender, Manifest } from '../schema';
-import { GENDER_LABEL, GENDERS } from '../schema';
+import type { Gender, Manifest, SearchIndex } from '../schema';
+import { GENDER_LABEL, GENDERS, parseSliceKey } from '../schema';
+import { fetchSearchIndex } from '../lib/api';
 import { flagEmoji, plural } from '../lib/format';
-import { searchPlayers, type SearchablePlayer } from '../lib/search';
+import { indexPlayers, searchPlayers, type SearchablePlayer } from '../lib/search';
 import './Controls.css';
 
 /**
@@ -59,6 +60,24 @@ function HelpTip({ text }: { text: string }) {
   );
 }
 
+/** Where a search match lives, for the matches that are not on this page. */
+function Where({
+  slice,
+  countries,
+}: {
+  slice: NonNullable<SearchablePlayer['slice']>;
+  countries: Manifest['countries'];
+}) {
+  const entry = countries.find((c) => c.code === slice.country);
+  const flag = flagEmoji(entry?.iso2, slice.country);
+  return (
+    <span className="where">
+      {flag && <span aria-hidden="true">{flag} </span>}
+      {entry?.name ?? slice.country} {GENDER_LABEL[slice.gender]}
+    </span>
+  );
+}
+
 /**
  * Jump-to-player search. Deliberately not a filter on the table below it —
  * that pairing (type up top, watch a list scroll far down the page) was the
@@ -66,20 +85,69 @@ function HelpTip({ text }: { text: string }) {
  * in a dropdown right under the input, and picking one (click, or arrow keys
  * + Enter) opens that player's profile and pans the graph to them, same as
  * clicking their node or their row in the table directly.
+ *
+ * It searches every country, not just the one on screen. A reader usually
+ * knows the name and not the federation — and for a player who transferred,
+ * the federation they knew is no longer the right answer. Matches from
+ * elsewhere carry their flag and switch country when picked.
+ *
+ * The index behind that is 370 KB and is fetched on the first interaction
+ * with the input rather than with the page. Until it lands, the current
+ * slice — already in memory — is searched on its own, so the box works
+ * immediately and simply reaches further a moment later.
  */
 function PlayerSearch({
   players,
+  countries,
   onSelectPlayer,
 }: {
   players: SearchablePlayer[];
-  onSelectPlayer: (id: number) => void;
+  countries: Manifest['countries'];
+  onSelectPlayer: (player: SearchablePlayer) => void;
 }) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
+  const [index, setIndex] = useState<SearchIndex | null>(null);
+  const [wantIndex, setWantIndex] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
-  const matches = useMemo(() => searchPlayers(players, query), [players, query]);
+  // Failure is silent on purpose: the slice-local search below still works,
+  // so the box degrades to what it did before this file existed rather than
+  // reporting an error for something the reader did not ask for.
+  useEffect(() => {
+    if (!wantIndex) return;
+    let cancelled = false;
+    fetchSearchIndex()
+      .then((data) => !cancelled && setIndex(data))
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [wantIndex]);
+
+  const onScreen = useMemo(() => new Set(players.map((p) => p.id)), [players]);
+
+  /**
+   * Everyone in the slice on screen, then everyone else. Players already on
+   * screen are skipped in the second pass — they would otherwise appear twice,
+   * once with a flag and once without, and the flagged copy would be a lie
+   * about needing to navigate anywhere.
+   */
+  const searchable = useMemo(() => {
+    const all: SearchablePlayer[] = [...players];
+    for (const [key, entries] of Object.entries(index?.slices ?? {})) {
+      const slice = parseSliceKey(key);
+      if (!slice) continue;
+      for (const [id, name, tournaments] of entries) {
+        if (onScreen.has(id)) continue;
+        all.push({ id, name, tournaments, slice });
+      }
+    }
+    return indexPlayers(all);
+  }, [players, index, onScreen]);
+
+  const matches = useMemo(() => searchPlayers(searchable, query), [searchable, query]);
 
   // A new query invalidates whatever was highlighted; default to the top hit.
   useEffect(() => {
@@ -107,8 +175,8 @@ function PlayerSearch({
     return () => document.removeEventListener('pointerdown', onOutside);
   }, [open]);
 
-  const select = (id: number) => {
-    onSelectPlayer(id);
+  const select = (player: SearchablePlayer) => {
+    onSelectPlayer(player);
     // Clears rather than keeps the match text: this is "jump to", a completed
     // action, not an ongoing filter the reader would want to keep visible.
     setQuery('');
@@ -129,7 +197,7 @@ function PlayerSearch({
       const match = matches[activeIndex];
       if (match) {
         event.preventDefault();
-        select(match.id);
+        select(match);
       }
     } else if (event.key === 'Escape') {
       setOpen(false);
@@ -157,7 +225,10 @@ function PlayerSearch({
           setQuery(e.target.value);
           setOpen(true);
         }}
-        onFocus={() => query.trim() && setOpen(true)}
+        onFocus={() => {
+          setWantIndex(true);
+          if (query.trim()) setOpen(true);
+        }}
         onKeyDown={onKeyDown}
       />
       {showResults && (
@@ -182,18 +253,35 @@ function PlayerSearch({
               // the outside-pointerdown handler that closes the dropdown.
               onPointerDown={(e) => {
                 e.preventDefault(); // keep focus in the input
-                select(m.id);
+                select(m);
               }}
             >
+              {/* Name on its own line, everything else under it. These names
+                  run long — "Barbara De Sousa Alves Ferreira" — and sharing a
+                  line with a country label ellipsised most of them down to
+                  "Barbar…", which is not a search result. */}
               <span className="name">{m.name}</span>
-              <span className="meta">{plural(m.tournaments, 'tournament')}</span>
+              <span className="meta">
+                {/* Only for players the reader would have to navigate to.
+                    Flagging the whole list would put a Brazilian flag on
+                    every row of the Brazil page and say nothing. */}
+                {m.slice && (
+                  <>
+                    <Where slice={m.slice} countries={countries} />
+                    <span aria-hidden="true">·</span>
+                  </>
+                )}
+                {plural(m.tournaments, 'tournament')}
+              </span>
             </li>
           ))}
         </ul>
       )}
       {showEmpty && (
         <p className="player-search-empty" role="status">
-          No players match "{query.trim()}".
+          {index
+            ? `No players match "${query.trim()}".`
+            : `No players on this page match "${query.trim()}" — still loading the other countries.`}
         </p>
       )}
     </div>
@@ -212,7 +300,7 @@ interface Props {
   minTogether: number;
   onMinTogether: (value: number) => void;
   players: SearchablePlayer[];
-  onSelectPlayer: (id: number) => void;
+  onSelectPlayer: (player: SearchablePlayer) => void;
 }
 
 export function Controls({
@@ -289,7 +377,7 @@ export function Controls({
         </div>
       </div>
 
-      <PlayerSearch players={players} onSelectPlayer={onSelectPlayer} />
+      <PlayerSearch players={players} countries={manifest.countries} onSelectPlayer={onSelectPlayer} />
 
       <p className="as-of">
         Data as of{' '}

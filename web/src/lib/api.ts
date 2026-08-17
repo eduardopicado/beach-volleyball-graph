@@ -6,8 +6,23 @@
  * memoised because switching country back and forth is the common interaction.
  */
 
-import type { GraphFile, Manifest, PlayersFile, ResultsFile, TournamentsFile, Gender } from '../schema';
-import { graphPath, manifestPath, playersPath, resultsPath, tournamentsPath } from '../schema';
+import type {
+  GraphFile,
+  Manifest,
+  PlayersFile,
+  ResultsFile,
+  SearchIndex,
+  TournamentsFile,
+  Gender,
+} from '../schema';
+import {
+  graphPath,
+  manifestPath,
+  playersPath,
+  resultsPath,
+  searchPath,
+  tournamentsPath,
+} from '../schema';
 
 /** Vite rewrites this to the deploy base ("/" or "/<repo>/"). */
 const BASE = import.meta.env.BASE_URL;
@@ -43,6 +58,13 @@ export const fetchPlayers = (country: string, gender: Gender) =>
  * Deliberately not part of the slice load above — this is the largest data in
  * the published tree and most visits never open a season at all.
  */
+/**
+ * The cross-country player index. Its own fetch, triggered by the first
+ * interaction with the search box rather than by page load — 370 KB that most
+ * visits never need.
+ */
+export const fetchSearchIndex = () => load<SearchIndex>(searchPath(BASE));
+
 export const fetchResults = (country: string, gender: Gender) =>
   Promise.all([
     load<ResultsFile>(resultsPath(BASE, country, gender)),

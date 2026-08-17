@@ -56,6 +56,7 @@ import type {
   PlayersFile,
   GraphFile,
   ResultEntry,
+  SearchEntry,
   TournamentMeta,
 } from '../web/src/schema.js';
 import { DATA_VERSION } from '../web/src/schema.js';
@@ -271,6 +272,7 @@ async function main() {
   );
 
   const byCountry = new Map<string, ManifestCountry>();
+  const searchIndex: Record<string, SearchEntry[]> = {};
   let resultRows = 0;
 
   for (const slice of slices) {
@@ -352,6 +354,12 @@ async function main() {
       ].join('\n'),
     );
 
+    // Most tournaments first, so the file is already in the order the search
+    // ranks by — and so an eye scanning it lands on the names it would expect.
+    searchIndex[`${slice.country}-${slice.gender}`] = [...slice.nodes]
+      .sort((a, b) => b.tournaments - a.tournaments || a.name.localeCompare(b.name))
+      .map((n): SearchEntry => [n.id, n.name, n.tournaments]);
+
     let entry = byCountry.get(slice.country);
     if (!entry) {
       byCountry.set(
@@ -376,7 +384,13 @@ async function main() {
   };
   await writeFile(path.join(TMP_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
+  await writeFile(
+    path.join(TMP_DIR, 'search.json'),
+    `{\n  "slices": ${jsonByKey(searchIndex, '  ')}\n}`,
+  );
+
   log('results', `${resultRows.toLocaleString()} tournament entries across ${slices.length} slices`);
+  log('search', `${Object.values(searchIndex).reduce((n, s) => n + s.length, 0).toLocaleString()} players indexed for cross-country search`);
 
   // Sanity-check the temp tree before letting it replace live data.
   const written = (await readdir(path.join(TMP_DIR, 'graphs'))).length;
@@ -432,8 +446,9 @@ async function main() {
   }
   await rm(OLD_DIR, { recursive: true, force: true });
 
-  // graphs + players + results, plus the manifest and the tournament index.
-  log('published', `${OUT_DIR} (${written * 3 + 2} files) in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
+  // graphs + players + results, plus the manifest, the tournament index
+  // and the search index.
+  log('published', `${OUT_DIR} (${written * 3 + 3} files) in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
   log('config', `age-group world championships ${INCLUDE_AGE_GROUP ? 'included' : 'excluded'}`);
 }
 
