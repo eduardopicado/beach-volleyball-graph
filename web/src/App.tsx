@@ -208,6 +208,17 @@ export default function App() {
   );
 
   /**
+   * Names for the whole slice, before the strength filter thins it. The player
+   * card's expanded seasons list every tournament a player entered, including
+   * ones played with a partner whose edge the filter is currently hiding —
+   * `nodesById` above cannot name those.
+   */
+  const namesById = useMemo(
+    () => new Map((graph?.nodes ?? []).map((n) => [n.id, n.name])),
+    [graph],
+  );
+
+  /**
    * The selected player's partners from other federations, resolved against
    * the manifest so each one can carry its own flag and country name.
    *
@@ -483,8 +494,13 @@ export default function App() {
                 detail={detailsById.get(selectedNode.id)}
                 partners={partnersByPlayer.get(selectedNode.id) ?? []}
                 away={awayRows}
+                // From the graph, not the selection: the two differ for a
+                // render while an away partner's slice loads.
+                country={graph?.country ?? country}
+                gender={graph?.gender ?? gender}
                 countryName={countryEntry?.name ?? country}
                 flag={flag}
+                names={namesById}
                 onSelectPartner={selectPlayer}
                 onSelectAway={selectAwayPartner}
                 onClose={() => setSelectedId(null)}

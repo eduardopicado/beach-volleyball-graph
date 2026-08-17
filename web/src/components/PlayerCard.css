@@ -123,15 +123,15 @@
      a well-connected player's list actually uses it (more rows visible,
      instead of an arbitrary cutoff). */
   flex: 1 1 auto;
-  /* Deliberately *not* `min-height: 0`, and deliberately no floor of its own.
-     A flex item that may shrink below its content does exactly that here — the
-     card is capped at the graph's height, so this section was squeezed to
-     150px while the list plus the "other federations" block inside it needed
-     more, and the overflow was painted straight through the FIVB profile link
-     beneath. Left at `auto`, the section never gets smaller than its own
-     contents, and the card's own `overflow-y` scrolls when that no longer
-     fits. The list is a scroll container in its own right, so this minimum is
-     a few hundred pixels rather than a 23-season career's full height. */
+  /* Deliberately *not* `min-height: 0`. A flex item that may shrink below its
+     content does exactly that here — the card is capped at the graph's height,
+     so this section was squeezed to 35px while the list inside it kept the
+     150px floor below, and the overflow was painted straight through the FIVB
+     profile link beneath. Left at `auto`, the section never gets smaller than
+     the list floor plus the heading and the "other federations" block, and the
+     card's own `overflow-y` scrolls when that no longer fits. The list is a
+     scroll container in its own right, so this minimum is a few hundred pixels
+     rather than a 23-season timeline's full height. */
 }
 
 .partners-head {
@@ -177,20 +177,22 @@
      `flex-basis: 0` rather than `auto`, and that is load-bearing: a flex item's
      minimum contribution to its container is measured from its flex base size,
      so with `auto` the section above would have to be as tall as the entire
-     list — a 23-season career turning the card into 1,380 pixels. From zero,
+     list — a 23-season timeline turning the card into 1,380 pixels. From zero,
      the contribution is the floor below, and the section stays the size of a
      list rather than the size of a career. */
   flex: 1 1 0;
   overflow-y: auto;
   /* A floor under the list, which is what has to stay readable — this used to
-     sit on `.partners`, and that was the wrong thing to measure: the heading
-     and the "other federations" block were counted inside it, so on a short
-     window they consumed the whole allowance and `overflow-y` clipped every
-     remaining row out of sight. That was a partner list rendering as literally
-     nothing at 1280x720. With the floor here the card, and the grid row it
-     shares with the graph, grow past the graph's natural height instead. The
-     nested lists below reset it — a floor is for the list in the card's flex
-     slot, not for a two-row group inside one. */
+     sit on `.partners`, and that was the wrong thing to measure. The card
+     matches the graph's height, so on a short window there is nothing left to
+     divide: the section hit its floor and the heading plus the "other
+     federations" block below consumed all of it, leaving `overflow-y` to clip
+     every remaining row out of sight. That was a partner list rendering as
+     literally nothing at 1280x720, and an 11-pixel one for a medallist with a
+     foreign partner. With the floor here the card, and the grid row it shares
+     with the graph, grow past the graph's natural height instead. The nested
+     lists below reset it — a floor is for the list in the card's flex slot,
+     not for a two-row group inside one. */
   min-height: 150px;
 }
 
@@ -386,6 +388,10 @@
   border-top: 1px solid var(--border);
 }
 
+/* A button, because the year opens the season into the tournaments behind it.
+   It takes the whole gutter rather than just the digits: the row is as tall as
+   its partner list, and a four-character target in a card this narrow is not
+   one worth aiming at. */
 .timeline .season {
   display: flex;
   flex-direction: column;
@@ -395,6 +401,21 @@
   /* Matches .timeline li button's vertical padding so the year sits on the
      same baseline as the first partner name rather than floating above it. */
   padding: 5px 0 0 2px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.timeline .season:hover .year {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+.timeline .season[aria-expanded='true'] .year {
+  color: var(--series-1);
 }
 
 .timeline .year {
@@ -444,6 +465,92 @@
 
 .timeline li button:hover {
   background: var(--series-1-wash);
+}
+
+/* --- an expanded season -------------------------------------------------- */
+
+/* Two lines per tournament rather than one: name and finish are what the eye
+   is looking for, and cramming the date, the tier and the partner onto the
+   same row inside a card this narrow would ellipsis away the name itself. */
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 6px;
+  /* Same reset as `.timeline ul` — see the comment there. */
+  overflow-y: visible;
+  flex: none;
+}
+
+.events > li {
+  padding: 4px 8px 5px;
+  border-radius: 6px;
+  background: var(--series-1-wash);
+}
+
+.events .event {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.events .name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.events .finish {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+
+.events .finish.podium {
+  color: var(--series-1);
+}
+
+.events .event-meta {
+  margin: 2px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.events .badge {
+  padding: 0 5px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* The partner is the reason this row differs from the one above it in a season
+   somebody split between two people, so it reads as text rather than metadata. */
+.events .with {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-secondary);
+}
+
+.events-note {
+  margin: 0;
+  padding: 5px 8px;
+  color: var(--text-muted);
+  font-size: 12px;
 }
 
 .profile-link {
