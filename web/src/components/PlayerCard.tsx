@@ -331,7 +331,15 @@ export function PlayerCard({
                     aria-controls={panelId}
                     onClick={() => toggleSeason(row.season)}
                   >
-                    <span className="year">{row.season}</span>
+                    <span className="year-row">
+                      {/* The only thing on this row that says it opens. The
+                          underline it used to rely on appears on hover, and
+                          touch has no hover — so on a phone or tablet the year
+                          read as a plain label and the tournaments behind it
+                          went unfound. */}
+                      <span className="caret" aria-hidden="true" />
+                      <span className="year">{row.season}</span>
+                    </span>
                     {/* Open, this counts the events listed below; closed, the
                         tournaments behind the partner rows — and then only when
                         it says something those rows don't, since with a single

@@ -283,6 +283,15 @@ test.describe('timeline view', () => {
     // In the order the ingest published, which is the season run backwards.
     expect(await rows.locator('.name').allInnerTexts()).toEqual(target.names);
     await expect(season).toHaveAttribute('aria-expanded', 'true');
+
+    // The disclosure caret is the only thing telling a reader the year opens,
+    // and it has to be there without hovering — touch has no hover state. It
+    // is drawn with borders rather than a glyph, so "visible" means the
+    // triangle has a width to it.
+    const caret = season.locator('.caret');
+    await expect(caret).toBeAttached();
+    const border = await caret.evaluate((el) => getComputedStyle(el).borderLeftWidth);
+    expect(border, 'the caret is not drawn').not.toBe('0px');
     expect(requests.filter((p) => p.includes('/results/'))).toHaveLength(1);
   });
 
