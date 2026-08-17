@@ -95,7 +95,38 @@ test.describe('partners from other federations', () => {
     await expect(card.locator('.partners > ul > li')).toHaveCount(0);
     // ...and without this feature that was the whole story. Now it is not.
     await expect(card.locator('.away li')).toHaveCount(target!.away);
-    await expect(card.locator('.partners .empty')).toContainText('another federation');
+    await expect(card.locator('.partners .empty')).toContainText('same federation');
+
+    // The vitals describe the player, not the graph. Counting only the edges
+    // put "0 partners" directly above a list of them.
+    const partners = card.locator('.vitals div', { has: page.getByText('Partners', { exact: true }) });
+    await expect(partners.locator('dd')).toHaveText(String(target!.away));
+  });
+
+  test('the away list does not spill over the card below it', async ({ page }) => {
+    // The card is capped at the graph's height, and this section used to be
+    // allowed to shrink below its own contents — which painted the away rows
+    // straight through the FIVB profile link underneath.
+    const target = strandedPlayer();
+    expect(target).not.toBeNull();
+    await page.goto(`./${sliceFor(target!.code, target!.gender)}?player=${target!.id}`);
+    await expect(page.locator('.player-card')).toBeVisible();
+
+    // The *last rendered row*, not the section's own box. A box does not grow
+    // to contain a child that overflows it, so measuring `.partners` reported
+    // a clean 18px gap at every width — including the one where the rows were
+    // visibly painted across the link. The away list is the right thing to
+    // measure because, unlike the partner list above it, it is not a scroll
+    // container: its rows sit where they are drawn.
+    const overhang = await page.evaluate(() => {
+      const rows = [...document.querySelectorAll('.away li')];
+      const link = document.querySelector('.profile-link')?.getBoundingClientRect();
+      if (!link || rows.length === 0) return null;
+      const last = rows[rows.length - 1]!.getBoundingClientRect();
+      return Math.round(last.bottom - link.top);
+    });
+    expect(overhang, 'no away rows found to measure').not.toBeNull();
+    expect(overhang, 'the away list is painted over the FIVB profile link').toBeLessThanOrEqual(0);
   });
 
   test('following an away partner lands on their own country page', async ({ page }) => {

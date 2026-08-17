@@ -125,7 +125,14 @@ export function PlayerCard({
   }, [node.id]);
 
   const years = age(detail?.dob ?? null);
-  const totalTogether = partners.reduce((sum, p) => sum + p.t, 0);
+  // Both lists, because both are on the card. Counting only the graph's edges
+  // made a player whose partners all competed elsewhere read "0 partners, 0
+  // entries" directly above a list of six of them and a career of fifteen
+  // tournaments — the vitals describing the graph while the rest of the card
+  // described the player.
+  const partnerCount = partners.length + away.length;
+  const totalTogether =
+    partners.reduce((sum, p) => sum + p.t, 0) + away.reduce((sum, a) => sum + a.partner.t, 0);
 
   const timeline = useMemo(() => buildTimeline(partners), [partners]);
   const [view, setView] = useState<'partners' | 'timeline'>('partners');
@@ -170,7 +177,7 @@ export function PlayerCard({
         </div>
         <div>
           <dt>Partners</dt>
-          <dd>{partners.length}</dd>
+          <dd>{partnerCount}</dd>
         </div>
         <div>
           <dt>Seasons</dt>
@@ -222,9 +229,13 @@ export function PlayerCard({
 
         {partners.length === 0 ? (
           <p className="empty">
+            {/* Says where the partnerships *are*, not just where they are not.
+                The previous wording ended on "none of them appear in the
+                ${countryName} graph" with a list of them immediately below it,
+                which reads as a contradiction rather than an explanation. */}
             {away.length > 0
-              ? `Every partnership here was with a player from another federation, so none of them appear in the ${countryName} graph.`
-              : `No partnerships with another ${countryName} player in this dataset — partnerships with players from other countries are not included.`}
+              ? `None of these partnerships appear in the ${countryName} graph, which only links players from the same federation. See Other federations below.`
+              : `No partnerships on record for this player.`}
           </p>
         ) : showing === 'timeline' ? (
           <ol className="timeline">
