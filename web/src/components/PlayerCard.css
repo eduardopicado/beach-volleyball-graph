@@ -123,14 +123,15 @@
      a well-connected player's list actually uses it (more rows visible,
      instead of an arbitrary cutoff). */
   flex: 1 1 auto;
-  /* A floor, not the 0 this used to be. The card matches the graph's height,
-     so on a short window there was nothing left for this section: the header
-     alone consumed it, and `overflow-y: auto` on the list below then clipped
-     every row out of sight — a partner list that rendered as literally
-     nothing at 1280x720. The floor keeps it a list; the card, and the grid
-     row it shares with the graph, grow past the graph's natural height
-     instead. */
-  min-height: 150px;
+  /* Deliberately *not* `min-height: 0`, and deliberately no floor of its own.
+     A flex item that may shrink below its content does exactly that here — the
+     card is capped at the graph's height, so this section was squeezed to
+     150px while the list plus the "other federations" block inside it needed
+     more, and the overflow was painted straight through the FIVB profile link
+     beneath. Left at `auto`, the section never gets smaller than its own
+     contents, and the card's own `overflow-y` scrolls when that no longer
+     fits. The list is a scroll container in its own right, so this minimum is
+     a few hundred pixels rather than a 23-season career's full height. */
 }
 
 .partners-head {
@@ -171,10 +172,26 @@
      graph-matched height) rather than a fixed 260px, so a well-connected
      player's rows aren't cut off arbitrarily short of the available room.
      Still scrolls internally past that, for the players with the most
-     partners of all. min-height: 0 is the same flex-shrink fix as .partners. */
-  flex: 1 1 auto;
-  min-height: 0;
+     partners of all.
+
+     `flex-basis: 0` rather than `auto`, and that is load-bearing: a flex item's
+     minimum contribution to its container is measured from its flex base size,
+     so with `auto` the section above would have to be as tall as the entire
+     list — a 23-season career turning the card into 1,380 pixels. From zero,
+     the contribution is the floor below, and the section stays the size of a
+     list rather than the size of a career. */
+  flex: 1 1 0;
   overflow-y: auto;
+  /* A floor under the list, which is what has to stay readable — this used to
+     sit on `.partners`, and that was the wrong thing to measure: the heading
+     and the "other federations" block were counted inside it, so on a short
+     window they consumed the whole allowance and `overflow-y` clipped every
+     remaining row out of sight. That was a partner list rendering as literally
+     nothing at 1280x720. With the floor here the card, and the grid row it
+     shares with the graph, grow past the graph's natural height instead. The
+     nested lists below reset it — a floor is for the list in the card's flex
+     slot, not for a two-row group inside one. */
+  min-height: 150px;
 }
 
 .partners li button {
@@ -264,10 +281,12 @@
   grid-template-columns: minmax(0, 1fr);
   gap: 2px;
   /* Overriding `.partners ul`, which makes its lists independent scroll
-     containers — this one is short and belongs to the card's own flow. */
+     containers with a floor under them — this one is short and belongs to the
+     card's own flow. */
   flex: none;
   overflow-y: visible;
   max-height: none;
+  min-height: 0;
 }
 
 .away li button,
@@ -346,8 +365,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  flex: 1 1 auto;
-  min-height: 0;
+  flex: 1 1 0;
+  min-height: 150px;
   overflow-y: auto;
 }
 
@@ -401,11 +420,12 @@
   grid-template-columns: minmax(0, 1fr);
   gap: 2px;
   /* `.partners ul` above also matches these nested lists and makes each one an
-     independent scroll container. The timeline scrolls as one list, so the
-     per-season groups must not: reset it here rather than narrowing the
-     selector above, which the partner list depends on. */
+     independent scroll container with its own floor. The timeline scrolls as
+     one list, so the per-season groups must not: reset it here rather than
+     narrowing the selector above, which the partner list depends on. */
   overflow-y: visible;
   flex: none;
+  min-height: 0;
 }
 
 .timeline li button {

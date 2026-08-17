@@ -95,7 +95,30 @@ test.describe('partners from other federations', () => {
     await expect(card.locator('.partners > ul > li')).toHaveCount(0);
     // ...and without this feature that was the whole story. Now it is not.
     await expect(card.locator('.away li')).toHaveCount(target!.away);
-    await expect(card.locator('.partners .empty')).toContainText('another federation');
+    await expect(card.locator('.partners .empty')).toContainText('same federation');
+
+    // The vitals describe the player, not the graph. Counting only the edges
+    // put "0 partners" directly above a list of them.
+    const partners = card.locator('.vitals div', { has: page.getByText('Partners', { exact: true }) });
+    await expect(partners.locator('dd')).toHaveText(String(target!.away));
+  });
+
+  test('the away list does not spill over the card below it', async ({ page }) => {
+    // The card is capped at the graph's height, and this section used to be
+    // allowed to shrink below its own contents — which painted the away rows
+    // straight through the FIVB profile link underneath.
+    const target = strandedPlayer();
+    expect(target).not.toBeNull();
+    await page.goto(`./${sliceFor(target!.code, target!.gender)}?player=${target!.id}`);
+    await expect(page.locator('.player-card')).toBeVisible();
+
+    const gap = await page.evaluate(() => {
+      const box = (sel: string) => document.querySelector(sel)?.getBoundingClientRect();
+      const section = box('.partners');
+      const link = box('.profile-link');
+      return section && link ? link.top - section.bottom : null;
+    });
+    expect(gap, 'the partners section overlaps the profile link').toBeGreaterThanOrEqual(0);
   });
 
   test('following an away partner lands on their own country page', async ({ page }) => {
