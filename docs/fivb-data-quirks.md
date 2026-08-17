@@ -430,6 +430,53 @@ cost of these two is two rows in an index nobody links to.
 
 ---
 
+## 17. A finished tournament can have no results for days
+
+**What.** An event ends, its matches are complete in VIS — and every one of its
+`BeachTeam` rows still carries a blank `Rank`. §3 reads blank as "registered
+but never played", correctly, so the whole tournament contributes nothing:
+no appearances, no partnerships, no rows on any player card.
+
+**The case that surfaced it.** BPT Futures Busan (`WBUS2026`, tournament 8954,
+Korea, 14–16 August 2026). One day after it ended, all 39 team rows had a blank
+`Rank`, including Jana Milutinovic / Jasmine Rayner. Meanwhile
+`GetBeachMatchList` returned its 40 matches with scores and `Status: 15`
+(finished), which is how third-party sites showed the results while this one
+did not.
+
+**How common.** Rare, and it does resolve. Of the 468 finished tournaments in
+the qualifying set carrying tournament `Status` 7, Busan was the *only* one
+with zero ranked rows. Every other recently finished event had placements.
+
+| Tournament `Status` | Finished | With no ranks |
+|---|---:|---:|
+| 8 | 1,032 | 0 |
+| 7 | 468 | 1 |
+| 1 | 60 | 4 |
+| 0 | 69 | 38 |
+| 10 (relocated) | 8 | 8 |
+| 11 (postponed) | 7 | 7 |
+
+The long tail sits in `Status` 0, 10 and 11 — postponed, relocated and
+abandoned records kept under their original dates. Those never had a result and
+never will, which is why they are counted separately from recent lag rather
+than reported by name.
+
+**Why not derive placements from matches.** It is possible —
+`GetBeachMatchList` has the scores — but it means a per-tournament fan-out the
+pipeline deliberately does not do, plus inventing a bracket-to-placement
+algorithm for a field FIVB is about to publish anyway. §15 is the warning
+there: a rank in this sport is a shared bracket, not a position, and
+reconstructing that correctly for every draw format across 40 years is a much
+larger claim than waiting a week.
+
+**Handled in.** `finishedWithoutResults` in `ingest/build.ts`, logged by
+`ingest/main.ts` as the `awaiting` line. It does not fail the run — the next
+one picks the placements up on its own. It exists so the gap is visible in the
+run log instead of being noticed by a reader.
+
+---
+
 ## Reporting these upstream
 
 Most of the above is ours to work around. Two are arguably worth raising with

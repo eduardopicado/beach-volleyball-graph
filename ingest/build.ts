@@ -32,6 +32,8 @@ export interface Tournament {
   tier: Tier;
   season: number;
   version: string;
+  /** `YYYY-MM-DD` of the main draw's last day, or null if VIS gave none. */
+  endsOn: string | null;
   /**
    * Days from 1 January of `season` to the main draw's first day. Negative
    * when an event starts in the previous calendar year, which is why this is
@@ -153,10 +155,45 @@ export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
       tier,
       season,
       version: (row.Version ?? '').trim(),
+      endsOn: /^\d{4}-\d{2}-\d{2}/.test(row.EndDateMainDraw ?? '')
+        ? row.EndDateMainDraw!.slice(0, 10)
+        : null,
       startOffset: startOffsetFor(row.StartDateMainDraw, season),
     });
   }
   return out;
+}
+
+/**
+ * Tournaments that have finished and still have no result at all: every team
+ * row carrying `Rank` 0 or blank, which the aggregation reads as "registered
+ * but never played" (docs/fivb-data-quirks.md §3).
+ *
+ * That rule is right, and this is the case it cannot tell apart on its own. A
+ * played event is invisible here for the days between the last match and FIVB
+ * writing placements into `BeachTeam.Rank` — the match list is populated in
+ * the meantime, the placement field is not. Measured across the archive it
+ * resolves: of 468 finished tournaments only one was ever in this state, and
+ * it had ended the previous day.
+ *
+ * So this is not an error and does not fail the run. It exists to be *seen*:
+ * without it a real event silently contributes nothing and the first anyone
+ * knows is a reader asking why a result is missing, which is exactly how it
+ * came up (BPT Futures Busan, WBUS2026, 16 August 2026).
+ */
+export function finishedWithoutResults(
+  tournaments: Map<string, Tournament>,
+  teamRows: VisRow[],
+  asOf: string,
+): Tournament[] {
+  const withAResult = new Set<string>();
+  for (const row of teamRows) {
+    if (Number(row.Rank) !== 0) withAResult.add((row.NoTournament ?? '').trim());
+  }
+  const day = asOf.slice(0, 10);
+  return [...tournaments.values()]
+    .filter((t) => t.endsOn !== null && t.endsOn <= day && !withAResult.has(t.no))
+    .sort((a, b) => (b.endsOn ?? '').localeCompare(a.endsOn ?? ''));
 }
 
 export type MedalCategory = 'olympics' | 'world-champs';
