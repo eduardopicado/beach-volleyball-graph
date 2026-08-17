@@ -740,6 +740,14 @@
       "last": 2022
     },
     {
+      "id": 151345,
+      "name": "Elise Skaue",
+      "short": "Skaue",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
       "id": 151442,
       "name": "Emilie Olimstad",
       "short": "Olimstad",
@@ -911,6 +919,14 @@
       "id": 226836,
       "name": "Sina Straumstøyl",
       "short": "Straumstøyl",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 228251,
+      "name": "Pia Sivertsen Johansen",
+      "short": "Johansen",
       "tournaments": 1,
       "first": 2026,
       "last": 2026
@@ -3054,6 +3070,20 @@
           2022,
           1,
           209
+        ]
+      ]
+    },
+    {
+      "a": 151345,
+      "b": 228251,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
         ]
       ]
     },

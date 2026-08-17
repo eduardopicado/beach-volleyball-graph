@@ -50,6 +50,17 @@ describe('pairKey', () => {
 });
 
 describe('normaliseTournaments', () => {
+  it('carries FIVB\'s own tournament code through', () => {
+    // The only stable public handle on a tournament: FIVB retired its
+    // per-tournament pages, so this is what an outside reference can join on.
+    const kept = normaliseTournaments([{ ...tournament('1', 2026), Code: 'WBUS2026' }]);
+    expect(kept.get('1')!.code).toBe('WBUS2026');
+  });
+
+  it('leaves the code empty rather than inventing one', () => {
+    expect(normaliseTournaments([tournament('1', 2026)]).get('1')!.code).toBe('');
+  });
+
   it('keeps FIVB-organized events on the allowlist', () => {
     const kept = normaliseTournaments([tournament('1', 2024)]);
     expect([...kept.keys()]).toEqual(['1']);

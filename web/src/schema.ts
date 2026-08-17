@@ -162,12 +162,20 @@ export interface PlayersFile {
  *
  * `startOffset` is the same signed day count as `SeasonTally` carries — days
  * from 1 January of `season` to the main draw's first day — and reconstructs
- * the exact date, so no separate date string is published. Absent when the
- * tournament carried no usable date.
+ * the exact date, so no separate date string is published. Absent, or `null`
+ * alongside a code, when the tournament carried no usable date.
+ *
+ * `code` is FIVB's own identifier for the event — `WBUS2026` is the 2026
+ * women's Busan tournament. Published because it is the only stable, public
+ * handle on a tournament: FIVB retired its per-tournament pages, the
+ * replacement uses hand-curated slugs that cannot be derived, and anyone
+ * cross-referencing this data with another beach volleyball source needs
+ * something to join on. Nothing here renders it yet.
  */
 export type TournamentMeta =
   | [name: string, season: number, tier: Tier]
-  | [name: string, season: number, tier: Tier, startOffset: number];
+  | [name: string, season: number, tier: Tier, startOffset: number]
+  | [name: string, season: number, tier: Tier, startOffset: number | null, code: string];
 
 /**
  * Every qualifying tournament, keyed by FIVB tournament number.

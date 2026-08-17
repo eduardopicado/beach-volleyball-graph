@@ -295,8 +295,12 @@ async function main() {
   // exactly the thing worth being able to look up.
   const tournamentIndex: Record<string, TournamentMeta> = {};
   for (const t of [...tournaments.values()].sort((a, b) => Number(a.no) - Number(b.no))) {
-    tournamentIndex[t.no] =
-      t.startOffset === null
+    // Five elements when there is a code to carry, which in practice is
+    // always: appended rather than slotted in, so every existing index keeps
+    // its meaning and this stays an additive change to a published contract.
+    tournamentIndex[t.no] = t.code
+      ? [t.name, t.season, t.tier, t.startOffset, t.code]
+      : t.startOffset === null
         ? [t.name, t.season, t.tier]
         : [t.name, t.season, t.tier, t.startOffset];
   }

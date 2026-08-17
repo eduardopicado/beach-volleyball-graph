@@ -279,9 +279,9 @@
       "id": 173899,
       "name": "Jieun Shin",
       "short": "Jieun",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2019,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 173900,
@@ -311,9 +311,9 @@
       "id": 175164,
       "name": "Jeonga Kim",
       "short": "Kim Jeonga",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2025,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 188539,
@@ -335,9 +335,9 @@
       "id": 191025,
       "name": "Seohyun Ko",
       "short": "Seohyun",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2025,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 191026,
@@ -351,9 +351,9 @@
       "id": 191031,
       "name": "Hyunjoo Kim",
       "short": "Hyunjoo",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2025,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 192154,
@@ -383,9 +383,9 @@
       "id": 223432,
       "name": "Gaeun SEO",
       "short": "Gaeun",
-      "tournaments": 1,
+      "tournaments": 2,
       "first": 2025,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 225914,
@@ -394,6 +394,30 @@
       "tournaments": 1,
       "first": 2025,
       "last": 2025
+    },
+    {
+      "id": 242555,
+      "name": "Seojin Im",
+      "short": "Seojin",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 242556,
+      "name": "Yewon Kim",
+      "short": "Yewon",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
+      "id": 242557,
+      "name": "Eunhwan Kwon",
+      "short": "Eunhwan",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
     }
   ],
   "edges": [
@@ -825,12 +849,17 @@
     {
       "a": 173899,
       "b": 175164,
-      "t": 1,
+      "t": 2,
       "f": 2025,
-      "l": 2025,
+      "l": 2026,
       "s": [
         [
           2025,
+          1,
+          225
+        ],
+        [
+          2026,
           1,
           225
         ]
@@ -907,6 +936,20 @@
       ]
     },
     {
+      "a": 191025,
+      "b": 242556,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
+        ]
+      ]
+    },
+    {
       "a": 191026,
       "b": 225914,
       "t": 1,
@@ -923,12 +966,31 @@
     {
       "a": 191031,
       "b": 223432,
-      "t": 1,
+      "t": 2,
       "f": 2025,
-      "l": 2025,
+      "l": 2026,
       "s": [
         [
           2025,
+          1,
+          225
+        ],
+        [
+          2026,
+          1,
+          225
+        ]
+      ]
+    },
+    {
+      "a": 242555,
+      "b": 242557,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
           1,
           225
         ]
