@@ -20,17 +20,17 @@
       "last": 2021
     },
     {
-      "id": 181683,
-      "name": "Assane Bakane Paulin",
-      "short": "Assane",
+      "id": 181779,
+      "name": "Izzo Mahamat Izzo",
+      "short": "Izzo",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
     },
     {
-      "id": 181779,
-      "name": "Izzo Mahamat Izzo",
-      "short": "Izzo",
+      "id": 208448,
+      "name": "BAKANE ASSANE PAULIN",
+      "short": "ADDIDAS",
       "tournaments": 1,
       "first": 2021,
       "last": 2021
@@ -39,7 +39,7 @@
   "edges": [
     {
       "a": 150709,
-      "b": 181683,
+      "b": 208448,
       "t": 1,
       "f": 2021,
       "l": 2021,
