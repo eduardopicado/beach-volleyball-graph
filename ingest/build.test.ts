@@ -5,6 +5,7 @@ import {
   aggregateTourPodiums,
   medalTournaments,
   normalisePlayers,
+  finishedWithoutResults,
   normaliseTournaments,
   orderResults,
   pairKey,
@@ -1018,5 +1019,68 @@ describe('aggregateMedals (real FIVB medal history)', () => {
     const golds = [...byPlayer.values()].reduce((s, m) => s + m.olympics.gold + m['world-champs'].gold, 0);
     // 46 events x 2 players per winning pair.
     expect(golds).toBe(46 * 2);
+  });
+});
+
+describe('finishedWithoutResults', () => {
+  const dated = (no: string, ends: string): VisRow => ({
+    ...tournament(no, Number(ends.slice(0, 4))),
+    EndDateMainDraw: ends,
+  });
+
+  it('reports an event that is over and has no ranked row', () => {
+    // BPT Futures Busan, the case this exists for: every entry present, every
+    // Rank blank, because FIVB had not written the placements yet.
+    const tournaments = normaliseTournaments([dated('1', '2026-08-16')]);
+    const rows: VisRow[] = [
+      { ...entry('1', 1, 2), Rank: '' },
+      { ...entry('1', 3, 4), Rank: '0' },
+    ];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17').map((t) => t.no)).toEqual(['1']);
+  });
+
+  it('says nothing once a single row has a rank', () => {
+    const tournaments = normaliseTournaments([dated('1', '2026-08-16')]);
+    const rows: VisRow[] = [
+      { ...entry('1', 1, 2), Rank: '' },
+      { ...entry('1', 3, 4), Rank: '9' },
+    ];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17')).toEqual([]);
+  });
+
+  it('counts a negative rank as a result -- a qualification exit is one', () => {
+    const tournaments = normaliseTournaments([dated('1', '2026-08-16')]);
+    const rows: VisRow[] = [{ ...entry('1', 1, 2), Rank: '-2' }];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17')).toEqual([]);
+  });
+
+  it('ignores an event that has not finished', () => {
+    // Future events carry full entry lists and no ranks by definition; saying
+    // so every week for every scheduled tournament would be pure noise.
+    const tournaments = normaliseTournaments([dated('1', '2026-12-01')]);
+    const rows: VisRow[] = [{ ...entry('1', 1, 2), Rank: '' }];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17')).toEqual([]);
+  });
+
+  it('treats the last day of the main draw as finished', () => {
+    const tournaments = normaliseTournaments([dated('1', '2026-08-17')]);
+    const rows: VisRow[] = [{ ...entry('1', 1, 2), Rank: '' }];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17T09:00:00Z')).toHaveLength(1);
+  });
+
+  it('skips a tournament VIS gave no end date', () => {
+    const tournaments = normaliseTournaments([tournament('1', 2026)]);
+    const rows: VisRow[] = [{ ...entry('1', 1, 2), Rank: '' }];
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17')).toEqual([]);
+  });
+
+  it('lists the most recently finished first', () => {
+    const tournaments = normaliseTournaments([
+      dated('1', '2024-05-01'),
+      dated('2', '2026-08-16'),
+      dated('3', '2025-06-01'),
+    ]);
+    const rows: VisRow[] = ['1', '2', '3'].map((no) => ({ ...entry(no, 1, 2), Rank: '' }));
+    expect(finishedWithoutResults(tournaments, rows, '2026-08-17').map((t) => t.no)).toEqual(['2', '3', '1']);
   });
 });

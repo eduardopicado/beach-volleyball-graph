@@ -41,6 +41,7 @@ import {
   aggregatePartnerships,
   aggregateTourPodiums,
   awayPartnersByPlayer,
+  finishedWithoutResults,
   isCancelled,
   medalTournaments,
   normalisePlayers,
@@ -70,6 +71,14 @@ const OLD_DIR = path.join(PUBLIC_DIR, `${DATA_VERSION}.old`);
 
 /** Slices smaller than this have no graph worth drawing. */
 const MIN_NODES = 2;
+
+/**
+ * How recently an event must have finished for missing placements to read as
+ * FIVB still catching up rather than a record that never had a result. Set
+ * well past the observed lag — the one case measured resolved in days — so a
+ * genuinely stuck event still surfaces by name.
+ */
+const RECENT_RESULT_DAYS = 30;
 
 function log(step: string, detail: string) {
   console.log(`[${new Date().toISOString().slice(11, 19)}] ${step.padEnd(12)} ${detail}`);
@@ -139,9 +148,10 @@ async function main() {
   const tournamentRows = await fetchList({
     type: 'GetBeachTournamentList',
     // `Name` is fetched only to spot cancellations — VIS records those in the
-    // display name rather than a status field, see isCancelled() — and
-    // `StartDateMainDraw` only to order partners inside a season on the
-    // player card's timeline. Both ride on a request already being made.
+    // display name rather than a status field, see isCancelled();
+    // `StartDateMainDraw` orders partners inside a season on the player card's
+    // timeline; `EndDateMainDraw` tells finishedWithoutResults() which events
+    // are over. All three ride on a request already being made.
     fields: [
       'No',
       'Code',
@@ -152,6 +162,7 @@ async function main() {
       'OrganizerType',
       'Version',
       'StartDateMainDraw',
+      'EndDateMainDraw',
     ],
     itemTag: 'BeachTournament',
   });
@@ -211,6 +222,29 @@ async function main() {
   // Medal tournaments are picked out of the raw rows directly (Type 5 / 4),
   // not the broader `olympics`/`world-champs` tiers above — see
   // medalTournaments() for why those tiers are too wide for this.
+  // Finished, and still contributing nothing — see finishedWithoutResults().
+  // Split by age, because the two cases are not the same thing. A recently
+  // finished event is FIVB lag and the next run picks it up; the long tail is
+  // events that never produced a result at all (postponed, relocated, or
+  // abandoned records kept under their original date) and never will. Only the
+  // first is worth a name. Logged rather than raised either way: neither is an
+  // error, and the first anyone knew of the lag was a reader asking where a
+  // result went (BPT Futures Busan, 16 August 2026).
+  const awaiting = finishedWithoutResults(tournaments, teamRows, generatedAt);
+  const recentCutoff = new Date(Date.parse(generatedAt) - RECENT_RESULT_DAYS * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
+  const recent = awaiting.filter((t) => (t.endsOn ?? '') >= recentCutoff);
+  if (awaiting.length > 0) {
+    const named = recent.map((t) => `${t.name} (${t.endsOn})`).join('; ');
+    log(
+      'awaiting',
+      recent.length > 0
+        ? `${named} — finished with no placements published yet; ${awaiting.length - recent.length} older events have never had any`
+        : `no recent event is missing placements; ${awaiting.length} older events have never had any`,
+    );
+  }
+
   const medals = medalTournaments(tournamentRows);
   const medalsByPlayer = aggregateMedals(teamRows, medals);
   log('medals', `${medalsByPlayer.size} players with an Olympic or World Championships medal`);
