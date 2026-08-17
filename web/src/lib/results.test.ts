@@ -8,6 +8,8 @@ const tournaments: Record<string, TournamentMeta> = {
   '3': ['Gstaad', 2023, 'world-tour', 190],
   // No offset: a tournament whose date VIS could not parse.
   '4': ['Undated', 2024, 'beach-pro-tour'],
+  // The five-element form carries an explicit null where the offset would be.
+  '5': ['Undated with a code', 2024, 'beach-pro-tour', null, 'WUND2024'],
 };
 
 const entries: ResultEntry[] = [
@@ -38,6 +40,14 @@ describe('seasonEvents', () => {
   it('leaves the date null when the tournament carried none', () => {
     const undated = seasonEvents(entries, tournaments, 2024, nameOf).find((e) => e.no === 4);
     expect(undated!.date).toBeNull();
+  });
+
+  it('treats an explicit null offset the same as a missing one', () => {
+    // Publishing the code appended a fifth element, which means a dateless
+    // tournament now carries `null` in the slot that used to be absent.
+    // Reading that as 0 would date every one of them to 1 January.
+    const [event] = seasonEvents([[5, 20, 9]], tournaments, 2024, nameOf);
+    expect(event!.date).toBeNull();
   });
 
   it('handles a negative offset, which belongs to the season before its own year', () => {

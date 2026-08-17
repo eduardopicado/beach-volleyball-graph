@@ -46,7 +46,7 @@
       "weight": 55,
       "tour": {
         "gold": 1,
-        "silver": 0,
+        "silver": 1,
         "bronze": 0
       }
     },
@@ -55,7 +55,12 @@
       "name": "Bernadeth Pons",
       "dob": "1996-10-19",
       "height": 170,
-      "weight": 61
+      "weight": 61,
+      "tour": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      }
     },
     {
       "id": 167878,
@@ -149,7 +154,12 @@
       "name": "Khylem Harl Progella",
       "dob": "2006-01-29",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 196392,
@@ -163,7 +173,12 @@
       "name": "Sofiah Shanine Pagara",
       "dob": "2004-11-26",
       "height": null,
-      "weight": null
+      "weight": null,
+      "tour": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+      }
     },
     {
       "id": 209107,

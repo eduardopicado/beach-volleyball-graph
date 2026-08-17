@@ -23,6 +23,14 @@ import { EXCLUDED_FEDERATIONS, FEDERATION_ALIASES } from './countries.js';
 export interface Tournament {
   no: string;
   /**
+   * FIVB's own tournament code — `WBUS2026` is the 2026 women's Busan event.
+   * Gender letter, venue, season. Stable, unique and populated on every
+   * tournament in the archive (checked: 1,688 of 1,688, no duplicates), which
+   * makes it the only durable public identifier an outside reference can key
+   * on. `no` is stable too but means nothing outside VIS.
+   */
+  code: string;
+  /**
    * Display name as VIS gives it — "BPT Elite16 Hamburg", "Gstaad". Short
    * (median 9 characters), and the gender is not in it: FIVB numbers the men's
    * and women's draws of one event separately, so a slice only ever sees its
@@ -152,6 +160,7 @@ export function normaliseTournaments(rows: VisRow[]): Map<string, Tournament> {
       // World Championships  "), and numbered rather than left blank because a
       // nameless row on the card would be indistinguishable from a bug.
       name: (row.Name ?? '').trim() || `Tournament ${no}`,
+      code: (row.Code ?? '').trim(),
       tier,
       season,
       version: (row.Version ?? '').trim(),

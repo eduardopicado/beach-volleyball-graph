@@ -33,8 +33,8 @@ export interface SeasonEvent {
  * to, so a December event opening a southern summer season lands in the
  * previous calendar year — which is exactly what it should do.
  */
-function dateOf(season: number, offset: number | undefined): Date | null {
-  if (offset === undefined) return null;
+function dateOf(season: number, offset: number | null | undefined): Date | null {
+  if (offset === null || offset === undefined) return null;
   return new Date(Date.UTC(season, 0, 1) + offset * 86_400_000);
 }
 

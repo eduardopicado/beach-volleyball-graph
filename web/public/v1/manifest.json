@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-17T10:39:08.721Z",
-  "sourceVersion": "114117",
+  "generatedAt": "2026-08-17T14:32:55.507Z",
+  "sourceVersion": "114141",
   "seasons": {
     "from": 1987,
     "to": 2027
   },
   "totals": {
     "tournaments": 1688,
-    "players": 12060,
-    "partnerships": 13901
+    "players": 12066,
+    "partnerships": 13909
   },
   "tiers": {
     "FIVB World Tour": 1077,
@@ -1006,8 +1006,8 @@
           "edges": 203
         },
         "W": {
-          "nodes": 168,
-          "edges": 232
+          "nodes": 169,
+          "edges": 237
         }
       }
     },
@@ -1409,8 +1409,8 @@
           "edges": 265
         },
         "W": {
-          "nodes": 114,
-          "edges": 144
+          "nodes": 116,
+          "edges": 145
         }
       }
     },
@@ -1753,8 +1753,8 @@
           "edges": 5
         },
         "W": {
-          "nodes": 49,
-          "edges": 38
+          "nodes": 52,
+          "edges": 40
         }
       }
     },

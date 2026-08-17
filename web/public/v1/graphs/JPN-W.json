@@ -575,7 +575,7 @@
       "id": 117847,
       "name": "Takemi Nishibori",
       "short": "Take",
-      "tournaments": 173,
+      "tournaments": 174,
       "first": 2006,
       "last": 2026
     },
@@ -663,9 +663,9 @@
       "id": 122247,
       "name": "Sayaka Mizoe",
       "short": "Mizoe",
-      "tournaments": 128,
+      "tournaments": 129,
       "first": 2009,
-      "last": 2023
+      "last": 2026
     },
     {
       "id": 122325,
@@ -815,7 +815,7 @@
       "id": 146166,
       "name": "Shion Tsubouchi",
       "short": "Tsubouchi",
-      "tournaments": 33,
+      "tournaments": 34,
       "first": 2019,
       "last": 2026
     },
@@ -943,7 +943,7 @@
       "id": 157550,
       "name": "Mayu Sawame",
       "short": "Sawame",
-      "tournaments": 14,
+      "tournaments": 15,
       "first": 2019,
       "last": 2026
     },
@@ -1007,7 +1007,7 @@
       "id": 168072,
       "name": "Harumi Sakai",
       "short": "Sakai",
-      "tournaments": 34,
+      "tournaments": 35,
       "first": 2020,
       "last": 2026
     },
@@ -1047,7 +1047,7 @@
       "id": 172195,
       "name": "Paurine Emiri Oto",
       "short": "Oto",
-      "tournaments": 8,
+      "tournaments": 9,
       "first": 2019,
       "last": 2026
     },
@@ -1095,7 +1095,7 @@
       "id": 174229,
       "name": "Wakana Akishige",
       "short": "Akishige",
-      "tournaments": 5,
+      "tournaments": 6,
       "first": 2026,
       "last": 2026
     },
@@ -1148,6 +1148,14 @@
       "last": 2025
     },
     {
+      "id": 189515,
+      "name": "Riri Kasai",
+      "short": "Kasai",
+      "tournaments": 1,
+      "first": 2026,
+      "last": 2026
+    },
+    {
       "id": 189723,
       "name": "Mei Mori",
       "short": "Mori",
@@ -1167,7 +1175,7 @@
       "id": 192403,
       "name": "Chika Nakagawa",
       "short": "Nakagawa",
-      "tournaments": 4,
+      "tournaments": 5,
       "first": 2022,
       "last": 2026
     },
@@ -1175,7 +1183,7 @@
       "id": 192901,
       "name": "Mayu Kikuchi",
       "short": "Kikuchi",
-      "tournaments": 12,
+      "tournaments": 13,
       "first": 2024,
       "last": 2026
     },
@@ -1183,7 +1191,7 @@
       "id": 192902,
       "name": "Noa Kinugasa",
       "short": "Kinugasa",
-      "tournaments": 2,
+      "tournaments": 3,
       "first": 2025,
       "last": 2026
     },
@@ -1239,9 +1247,9 @@
       "id": 210053,
       "name": "Noa Utsugi",
       "short": "Utsugi",
-      "tournaments": 2,
+      "tournaments": 3,
       "first": 2024,
-      "last": 2025
+      "last": 2026
     },
     {
       "id": 211108,
@@ -3099,6 +3107,20 @@
     },
     {
       "a": 117847,
+      "b": 172195,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
+        ]
+      ]
+    },
+    {
+      "a": 117847,
       "b": 172468,
       "t": 10,
       "f": 2024,
@@ -3396,6 +3418,20 @@
           2019,
           16,
           317
+        ]
+      ]
+    },
+    {
+      "a": 122247,
+      "b": 210053,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
         ]
       ]
     },
@@ -4125,7 +4161,7 @@
     {
       "a": 146166,
       "b": 168072,
-      "t": 12,
+      "t": 13,
       "f": 2025,
       "l": 2026,
       "s": [
@@ -4136,8 +4172,8 @@
         ],
         [
           2026,
-          5,
-          218
+          6,
+          225
         ]
       ]
     },
@@ -4609,6 +4645,20 @@
           2019,
           1,
           101
+        ]
+      ]
+    },
+    {
+      "a": 157550,
+      "b": 174229,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
         ]
       ]
     },
@@ -5098,6 +5148,20 @@
       ]
     },
     {
+      "a": 189515,
+      "b": 192902,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
+        ]
+      ]
+    },
+    {
       "a": 189723,
       "b": 210053,
       "t": 2,
@@ -5127,6 +5191,20 @@
           2026,
           3,
           218
+        ]
+      ]
+    },
+    {
+      "a": 192403,
+      "b": 192901,
+      "t": 1,
+      "f": 2026,
+      "l": 2026,
+      "s": [
+        [
+          2026,
+          1,
+          225
         ]
       ]
     },

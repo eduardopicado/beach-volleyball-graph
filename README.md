@@ -143,7 +143,7 @@ Everything under `/v1/` is static JSON:
 
 ```
 /v1/manifest.json            index: countries, node counts, tiers, freshness
-/v1/tournaments.json         every qualifying tournament: name, season, tier, date
+/v1/tournaments.json         every qualifying tournament: name, season, tier, date, FIVB code
 /v1/search.json              every published player, grouped by slice, for search
 /v1/graphs/{CC}-{G}.json     nodes + edges for one country × gender
 /v1/players/{CC}-{G}.json    height, weight, date of birth, medals, foreign partners
@@ -178,6 +178,15 @@ player card, and never otherwise. The rows carry no names: tournaments are
 named once in the shared `/v1/tournaments.json`, and partners by the slice's
 own graph, with only the ones from outside it (see below) named in the results
 file itself. The largest results file is 85 KB uncompressed.
+
+Each tournament also carries FIVB's own `code` — `WBUS2026` is the 2026 women's
+Busan event. It is the only stable, public handle on a tournament: FIVB retired
+its per-tournament pages, and the Volleyball World replacement uses
+hand-curated slugs that cannot be derived from anything in the data (three of
+four plausible constructions 404, for events that certainly exist). Nothing
+renders it — it is published so this data can be joined to another beach
+volleyball source, and so a link costs one line the day a durable target
+appears.
 
 `/v1/search.json` is the other lazy file — 370 KB fetched on the first
 interaction with the search box, never with the page. It exists so the box can

@@ -687,6 +687,13 @@
       "weight": null
     },
     {
+      "id": 151345,
+      "name": "Elise Skaue",
+      "dob": "1998-03-27",
+      "height": 180,
+      "weight": 73
+    },
+    {
       "id": 151442,
       "name": "Emilie Olimstad",
       "dob": "2000-12-12",
@@ -859,6 +866,13 @@
       "dob": "2009-04-15",
       "height": 177,
       "weight": null
+    },
+    {
+      "id": 228251,
+      "name": "Pia Sivertsen Johansen",
+      "dob": "2003-02-06",
+      "height": 179,
+      "weight": 73
     }
   ]
 }
