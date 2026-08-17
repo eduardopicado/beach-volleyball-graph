@@ -441,8 +441,19 @@ no appearances, no partnerships, no rows on any player card.
 Korea, 14–16 August 2026). One day after it ended, all 39 team rows had a blank
 `Rank`, including Jana Milutinovic / Jasmine Rayner. Meanwhile
 `GetBeachMatchList` returned its 40 matches with scores and `Status: 15`
-(finished), which is how third-party sites showed the results while this one
-did not.
+(finished). Third-party live-score sites were showing the event while this one
+showed nothing — not because they had the placements, but because they display
+*matches*, which VIS publishes immediately. The two are different questions and
+only one of them had an answer yet.
+
+**Nothing else holds the placement either**, which is worth recording so nobody
+re-runs the search. The full `BeachTeam` record for a Busan team has every
+result-shaped field empty — `Rank`, `RankText`, `RankInFivbWorldRanking`,
+`EarnedPointsTeam`, `WorldTourRanking` — while the populated ones
+(`PositionInMainDraw`, `PositionInEntry`, `EntryPoints`) are the seeding and
+entry values §4 warns against reading as results. `GetBeachTournamentRanking`
+is not a source at all: it returns an empty element for Busan *and* for a
+control tournament whose ranks are complete.
 
 **How common.** Rare, and it does resolve. Of the 468 finished tournaments in
 the qualifying set carrying tournament `Status` 7, Busan was the *only* one
