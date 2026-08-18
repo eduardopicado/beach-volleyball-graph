@@ -195,9 +195,10 @@ export function fitToView(
  * This has to be applied in *screen* space. The obvious implementation, a
  * generous `r` on a transparent circle inside the pan/zoom group, silently
  * scales with the view: measured on the built site, a 14-unit hit circle came
- * out at 4.6px on a 390px-wide phone showing Brazil's men (k=0.33) and 4.1px
- * for the United States (k=0.29). The labels next to them already counter-scale
- * for exactly this reason; the hit areas did not.
+ * out at a median 4.6px of radius on a 390px-wide phone showing Brazil's men
+ * (k=0.33) and 4.1px for the United States (k=0.29) — 9.2px and 8.2px across,
+ * against those two minimums, which are widths. The labels next to them
+ * already counter-scale for exactly this reason; the hit areas did not.
  */
 export const MIN_TAP_RADIUS = 22;
 

@@ -4,8 +4,9 @@
  * The graph is drawn inside a pan/zoom transform, so anything sized in the
  * layout's own units shrinks with the view. That is correct for the marks and
  * wrong for the target you have to hit to select one: measured before this was
- * fixed, the tap target on a 390px-wide phone showing Brazil's men was 4.6px of
- * radius, against Apple's 44px minimum and WCAG 2.5.8's 24px.
+ * fixed, the median tap target on a 390px-wide phone showing Brazil's men was
+ * 4.6px of radius — 9.2px across, against Apple's 44px minimum and WCAG
+ * 2.5.8's 24px, both of which are stated as widths.
  *
  * `layout.test.ts` pins the geometry in isolation. These check the wiring: that
  * a tap near a node really does open that player, that the same tap does not
