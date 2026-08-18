@@ -34,9 +34,27 @@ inputs:
 runs:
   using: composite
   steps:
+    # Bounded, and retried once.
+    #
+    # This step hung for 1h44m on a deploy — a browser download that never
+    # finished and never failed. Because deploy.yml serialises on a `pages`
+    # concurrency group, that one wedged download blocked every subsequent
+    # merge from publishing and cost one queued run outright.
+    #
+    # `timeout-minutes:` is not supported on steps inside a composite action
+    # (actions/runner#1979), so the bound has to be coreutils `timeout` rather
+    # than something the runner enforces. The retry is because the failure it
+    # guards against — a stalled CDN fetch — is exactly the kind that succeeds
+    # on a second attempt, and a red deploy for a network blip trains people
+    # to re-run without reading.
     - name: Install Playwright browser
       shell: bash
-      run: npx playwright install --with-deps chromium
+      run: |
+        install() { timeout 8m npx playwright install --with-deps chromium; }
+        if ! install; then
+          echo "::warning::Playwright install failed or stalled; retrying once."
+          install
+        fi
 
     - name: Smoke test the built site
       shell: bash

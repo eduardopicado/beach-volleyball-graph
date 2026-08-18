@@ -57,6 +57,15 @@ on:
     branches: [main]
 
 # Allow one publish at a time; don't cancel a run that is mid-deploy.
+#
+# That patience is only safe because every job below sets `timeout-minutes`.
+# GitHub's default job limit is six hours, and with `cancel-in-progress: false`
+# a single wedged step holds the `pages` lock for all of it: queued runs pile
+# up behind it, and GitHub keeps only the newest pending run per group, so the
+# ones in between are cancelled outright. That is not hypothetical — a
+# `playwright install` that hung took the deploy pipeline down for two hours
+# and silently dropped a merge's run on the floor. The bounds below are what
+# turn "wedged" into "fails and lets the next one through".
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -72,6 +81,10 @@ jobs:
     # already reflects the last successful refresh.
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    # A full rebuild is ~15s of FIVB time; the rest is npm ci and the static
+    # checks. Generous enough that a slow day at VIS is not a failure, tight
+    # enough that an unanswered socket is.
+    timeout-minutes: 25
     permissions:
       contents: write # to commit the refreshed data back to this branch
     outputs:
@@ -151,6 +164,9 @@ jobs:
     # code-only push) — only a real ingest *failure* should stop the deploy.
     if: always() && (needs.ingest.result == 'success' || needs.ingest.result == 'skipped')
     runs-on: ubuntu-latest
+    # Install, build, prerender 265 pages and run the browser suite: ~6 minutes
+    # when healthy.
+    timeout-minutes: 20
     outputs:
       generated_at: ${{ steps.stamp.outputs.generated_at }}
       bundle: ${{ steps.stamp.outputs.bundle }}
@@ -266,6 +282,9 @@ jobs:
     # — caught live: two merges in a row built fine and never deployed.
     if: always() && needs.build.result == 'success'
     runs-on: ubuntu-latest
+    # Publish plus the propagation check below, which is bounded by its own
+    # six attempts at 15s.
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
