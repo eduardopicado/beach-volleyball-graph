@@ -38,8 +38,22 @@ name: Rebuild data and deploy
 
 on:
   schedule:
-    # Sundays at 03:17 UTC. Off the hour to avoid the cron stampede.
-    - cron: '17 3 * * 0'
+    # Mondays at 09:17 UTC. Off the hour to avoid the cron stampede.
+    #
+    # Monday rather than Sunday because the data is not finished when the
+    # tournament is. Finals are played on Sunday, but a placement reaches VIS
+    # only once someone publishes it: BPT Futures Busan finished with every
+    # match recorded and every team still at `Rank 0` — the pair who took
+    # bronze read as "has not played" — and the placements appeared several
+    # hours later. Refreshing on Sunday means capturing that gap and then
+    # keeping it for a week.
+    #
+    # 09:17 rather than early Monday because the archive spans every time
+    # zone: a Sunday-evening final in the Americas ends around 01:00-04:00 UTC
+    # on Monday, so an 03:17 run would still be racing the last events of the
+    # weekend. This clears them all and gives FIVB the European Monday morning
+    # to publish.
+    - cron: '17 9 * * 1'
   workflow_dispatch:
     inputs:
       allow_data_regression:

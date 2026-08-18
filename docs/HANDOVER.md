@@ -107,7 +107,9 @@ npm run test:e2e       # 64 browser tests (Playwright, against the built site)
 npm run lint           # eslint
 ```
 
-**The weekly refresh** runs `.github/workflows/deploy.yml` on a Sunday cron. It
+**The weekly refresh** runs `.github/workflows/deploy.yml` on a Monday cron
+(09:17 UTC — Monday because FIVB publishes placements after the Sunday
+finals, not with them). It
 commits the refreshed data to `main`, then builds and deploys. A code push to
 `main` *skips* the ingest and builds from committed data — so shipping a CSS
 fix never depends on FIVB being reachable.
