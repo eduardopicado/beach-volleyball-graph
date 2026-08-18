@@ -1,0 +1,29 @@
+### Lint, typecheck and unit tests — the checks that need no browser.
+#
+# Extracted because three workflows ran their own copy of this list and one of
+# them quietly fell behind: deploy-cloudflare.yml was missing `lint` entirely,
+# and nothing pointed that out because there was no single definition to
+# compare it against. A check that exists in two of three pipelines is a check
+# you cannot rely on.
+#
+# Deliberately does not run `npm ci` or set up Node. Those differ between
+# callers — deploy.yml's build job checks out a specific commit produced by an
+# earlier job — and they are the steps least likely to drift.
+
+name: Static checks
+description: Lint, typecheck and unit tests.
+
+runs:
+  using: composite
+  steps:
+    - name: Lint
+      shell: bash
+      run: npm run lint
+
+    - name: Typecheck
+      shell: bash
+      run: npm run typecheck
+
+    - name: Unit tests
+      shell: bash
+      run: npm test

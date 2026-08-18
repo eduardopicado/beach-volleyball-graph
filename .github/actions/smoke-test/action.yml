@@ -1,0 +1,54 @@
+### Browser smoke tests against the built site.
+#
+# Install the browser, run Playwright, keep the report when it fails. The same
+# three steps every publishing path needs, in one place — the version that
+# lived only in ci.yml and deploy.yml is why deploy-cloudflare.yml had no
+# browser check at all.
+#
+# `base_path` and `site_url` must match what the site was *built* with, or
+# `vite preview` serves 404s and every test fails for a reason that has
+# nothing to do with the page. Both come from .github/actions/site-origin in
+# the callers that have a choice about it.
+#
+# Expects `dist/` to already exist: this runs after the build, deliberately
+# before anything publishes it, so a build that does not render never reaches
+# the CDN.
+
+name: Smoke test
+description: Install Chromium and run the Playwright suite against the built site.
+
+inputs:
+  base_path:
+    description: The path the site was built to be served from.
+    required: false
+    default: /
+  site_url:
+    description: The public origin the site was built with.
+    required: false
+    default: ''
+  report_name:
+    description: Artifact name for the Playwright report, so two callers in one workflow do not collide.
+    required: false
+    default: playwright-report
+
+runs:
+  using: composite
+  steps:
+    - name: Install Playwright browser
+      shell: bash
+      run: npx playwright install --with-deps chromium
+
+    - name: Smoke test the built site
+      shell: bash
+      run: npm run test:e2e
+      env:
+        BASE_PATH: ${{ inputs.base_path }}
+        SITE_URL: ${{ inputs.site_url }}
+
+    - name: Upload Playwright report on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ inputs.report_name }}
+        path: playwright-report/
+        retention-days: 7

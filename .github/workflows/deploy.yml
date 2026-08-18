@@ -86,14 +86,7 @@ jobs:
 
       - run: npm ci
 
-      - name: Lint
-        run: npm run lint
-
-      - name: Typecheck
-        run: npm run typecheck
-
-      - name: Unit tests
-        run: npm test
+      - uses: ./.github/actions/static-checks
 
       - name: Fetch FIVB data and build graphs
         run: npm run ingest
@@ -205,9 +198,6 @@ jobs:
           CUSTOM_DOMAIN: ${{ steps.origin.outputs.custom_domain }}
         run: echo "$CUSTOM_DOMAIN" > dist/CNAME
 
-      - name: Install Playwright browser
-        run: npx playwright install --with-deps chromium
-
       # Runs *before* the artifact is uploaded, so a build that doesn't render
       # never reaches Pages and the previously published site keeps serving —
       # the same "degraded to slightly stale, never down" stance as the ingest
@@ -218,19 +208,10 @@ jobs:
       # graph file with no pull request and no review: a shape change there
       # can break rendering with nothing else in the pipeline looking. The
       # regression guard counts rows; this one loads the page.
-      - name: Smoke test the built site
-        run: npm run test:e2e
-        env:
-          BASE_PATH: ${{ steps.origin.outputs.base_path }}
-          SITE_URL: ${{ steps.origin.outputs.site_url }}
-
-      - name: Upload Playwright report on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
+      - uses: ./.github/actions/smoke-test
         with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 7
+          base_path: ${{ steps.origin.outputs.base_path }}
+          site_url: ${{ steps.origin.outputs.site_url }}
 
       # Hand the deploy job two fingerprints of what it is about to publish.
       #
