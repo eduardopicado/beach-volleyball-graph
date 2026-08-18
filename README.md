@@ -7,7 +7,7 @@ Data comes from the official [FIVB VIS Web Service][vis] and is rebuilt weekly.
 
 [vis]: https://www.fivb.org/VisSDK/VisWebService/
 
-![Partnership graph for Brazil, men, filtered to pairs with 3+ shared tournaments](docs/screenshot.png)
+![Brazil men's partnership graph filtered to pairs with 3+ shared tournaments, with Emanuel Rego selected: his seven partners highlighted in the graph, and a profile card showing his vitals, Olympic and World Championship medals, tour podiums and partner list](docs/screenshot.png)
 
 ---
 
@@ -227,8 +227,11 @@ coordinated deploy.
   player's full career, because that is a property of the player rather than of
   the edges on screen.
 - **Hover or focus a player** to highlight their partners; **click** for the
-  full profile.
-- Drag to pan, scroll to zoom, `Fit` to reframe.
+  full profile, which carries their vitals, medals, partner list and a
+  season-by-season timeline that expands into individual tournaments.
+- Drag to pan, scroll or pinch to zoom, `+`/`−`/`Fit` to reframe.
+- **Find a player** searches every country at once, so you do not need to know
+  which federation they compete for.
 - The **table below the graph** is the accessible twin: every value the graph
   encodes visually is sortable text there, with no pointer required.
 
@@ -266,26 +269,34 @@ npm run build         # production build + prerender into dist/
 
 ```bash
 npx playwright install chromium
-BASE_PATH=/beach-volleyball-graph/ npm run build
-BASE_PATH=/beach-volleyball-graph/ npm run test:e2e
+BASE_PATH=/beachvolleyballgraph/ npm run build
+BASE_PATH=/beachvolleyballgraph/ npm run test:e2e
 ```
 
 `BASE_PATH` has to match between the two — `vite preview` serves at the base the
 site was built with, so a mismatch just 404s.
 
-Unit tests cover the pure logic — tier filtering, pair aggregation and dedupe,
-medal counting, country-name resolution, the VIS attribute scanner and unit
-conversions, graph layout maths (fit-to-view, label collision, radius scaling),
-slug round-trips and HTML escaping.
+**259 unit tests** cover the pure logic — tier filtering, pair aggregation and
+dedupe, medal counting, country-name resolution, the VIS attribute scanner and
+unit conversions, graph layout maths (fit-to-view, label collision, radius
+scaling), slug round-trips and HTML escaping. Logic that starts inside a
+component gets lifted into `web/src/lib/` to be tested there rather than through
+the DOM: the strength threshold and the table's sort comparator were both
+`useMemo` bodies first.
 
-`npm run test:e2e` is the other half: a Playwright smoke suite against the
-*built* site served by `vite preview`, at the same `BASE_PATH` the deploy uses,
-so what it exercises is what ships — prerendered HTML and asset URLs included.
-It asserts the page renders, that nothing throws, that the graph draws exactly
-the nodes and edges in the JSON, and that the no-JavaScript path still carries
-the full player table. Every assertion is checked against the data files rather
-than a number written into the test, so it survives the weekly rebuild. It runs
-on every pull request and again before the deploy uploads anything.
+`npm run test:e2e` is the other half: **64 Playwright tests in six files**
+against the *built* site served by `vite preview`, at the same `BASE_PATH` the
+deploy uses, so what it exercises is what ships — prerendered HTML and asset
+URLs included. They cover rendering and the no-JavaScript path (`smoke`), five
+viewport widths (`layout`), the focus contract and search combobox
+(`keyboard`), the min-events threshold (`filter`), sorting (`table`) and deep
+links with the canonical tag (`routing`).
+
+Every assertion is cross-checked against the JSON the page was built from
+rather than a number written into the test, so the suite survives the weekly
+rebuild and fails exactly when the page and its data disagree. Any uncaught
+exception or `console.error` fails the test at teardown. It runs on every pull
+request and again before the deploy uploads anything.
 
 It catches *broken*, not *wrong*: a page can render perfectly with bad numbers
 in it. That failure mode is what the data invariants and `ingest/regression.ts`
