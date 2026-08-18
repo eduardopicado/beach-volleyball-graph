@@ -137,6 +137,16 @@ The medians are the stable part of that table; the counts move every week and
 the means drift slowly. `llms.txt` carries the same shape figures computed at
 build time, so those are exact.
 
+## Documentation
+
+| | |
+|---|---|
+| [docs/HANDOVER.md](docs/HANDOVER.md) | Start here: state of play, open work, what will bite you |
+| [docs/architecture.md](docs/architecture.md) | System shape, stack, deployment, and the reasoning |
+| [docs/implementation.md](docs/implementation.md) | Module guide, conventions, testing, recipes |
+| [docs/data-model.md](docs/data-model.md) | The `/v1/` contract field by field |
+| [docs/fivb-data-quirks.md](docs/fivb-data-quirks.md) | Upstream surprises, measured and documented |
+
 ## Published data contract
 
 Everything under `/v1/` is static JSON:
