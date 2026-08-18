@@ -19,6 +19,9 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    # Every job here carries one. GitHub's default is six hours, which is not
+    # a timeout — it is the absence of one. See deploy.yml for the incident.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
 
