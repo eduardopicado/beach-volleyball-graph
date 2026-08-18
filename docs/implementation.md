@@ -15,8 +15,8 @@ web/src/         the app
   components/    React components, each with a sibling .css
   graph/         force layout (no React)
   schema.ts      THE CONTRACT — shared by both halves
-e2e/             Playwright smoke tests against the built site
-.github/         CI, two deploy workflows, one composite action
+e2e/             Playwright tests against the built site
+.github/         CI, two deploy workflows, three composite actions
 docs/            these documents
 ```
 
@@ -100,27 +100,54 @@ who have none, which is most of them.
 
 ## Testing
 
-Three layers, 262 tests total.
+Two layers, 323 tests total.
 
-**Unit — 238 tests, `npm test`.** Vitest, sibling `.test.ts` files. Everything
+**Unit — 259 tests, `npm test`.** Vitest, sibling `.test.ts` files. Everything
 in `build.ts` and `web/src/lib/` is pure, so this is where the logic lives.
 Fixtures include real, awkward rows: the 1997 World Championships with two
 bronzes, the Olympic qualifier with two winners.
 
-**Smoke — 24 tests, `npm run test:e2e`.** Playwright against `vite preview` of
-the real `dist/`. The rule that makes these worth having: **every assertion is
-cross-checked against the JSON the page was built from**, never against a
-number typed into the test. They stay true as the weekly refresh changes the
-data, and fail exactly when the page and its data disagree.
+Logic that starts life inside a component gets **lifted into `lib/` to be
+tested**, not tested through the DOM: `filter.ts` (the strength threshold) and
+`table.ts` (the sort comparator) were both `useMemo` bodies first. The
+component keeps the state and the markup; the rule it applies becomes a pure
+function with a name.
 
-Two habits worth copying:
+**Browser — 64 tests, `npm run test:e2e`.** Playwright against `vite preview`
+of the real `dist/`, in six files:
 
-- **Find the subject by scanning, not by name.** `strandedPlayer()` and
-  `accentedPlayerElsewhere()` search the published files for a player matching
-  the *shape* the feature is about. Hard-coding a name turns a regression test
-  into a test that fails the week FIVB updates a federation.
+| | |
+|---|---|
+| `smoke.spec.ts` | does the page render, and does it agree with its data |
+| `layout.spec.ts` | five viewports; no overflow, no collapsed list |
+| `keyboard.spec.ts` | focus contract and the search combobox |
+| `filter.spec.ts` | the min-events threshold, across every panel it changes |
+| `table.spec.ts` | sorting: order, `aria-sort`, and the arrow agreeing |
+| `routing.spec.ts` | deep links, the address bar, the canonical tag |
+
+The rule that makes these worth having: **every assertion is cross-checked
+against the JSON the page was built from**, never against a number typed into
+the test. They stay true as the weekly refresh changes the data, and fail
+exactly when the page and its data disagree.
+
+Habits worth copying:
+
+- **Find the subject by scanning, not by name.** `strandedPlayer()`,
+  `accentedPlayerElsewhere()` and `singleGenderCountry()` search the published
+  files for a player or country matching the *shape* the feature is about.
+  Hard-coding a name turns a regression test into a test that fails the week
+  FIVB updates a federation.
 - **Guard the guard.** Assert the fixture is non-trivial before asserting on it
   — otherwise a test passes vacuously when the data it needs disappears.
+- **Don't compute the expectation with the code under test.** `table.spec.ts`
+  writes its own comparator rather than importing `sortRows`. Sharing it would
+  make the test agree with any comparator, including a broken one — verified by
+  breaking the real one and watching the test still pass.
+- **Verify a regression test by breaking the code.** Every test here was run
+  against a deliberately mutated build first — the orphan-drop removed from
+  `filterByStrength`, the sort direction inverted, `og:url` left unset, the
+  gender fallback deleted — and kept only if it failed. A test that has never
+  failed is a test that has never been checked.
 
 **A JS-error guard is automatic.** Any uncaught exception or `console.error`
 fails the test at teardown. Most ways a page can break show up as a thrown

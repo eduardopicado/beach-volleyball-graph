@@ -7,17 +7,11 @@
  */
 
 import { useMemo, useState } from 'react';
-import type { GraphNode } from '../schema';
 import { seasonSpan } from '../lib/format';
+import { COLUMNS, DEFAULT_SORT, nextSort, sortRows, type SortKey, type TableRow } from '../lib/table';
 import './TableView.css';
 
-export interface TableRow extends GraphNode {
-  partners: number;
-  /** Most frequent partner, for context. */
-  topPartner: string | null;
-}
-
-type SortKey = 'name' | 'tournaments' | 'partners' | 'last';
+export type { TableRow } from '../lib/table';
 
 interface Props {
   rows: TableRow[];
@@ -25,27 +19,12 @@ interface Props {
   onSelect: (id: number) => void;
 }
 
-const COLUMNS: { key: SortKey; label: string; numeric: boolean }[] = [
-  { key: 'name', label: 'Player', numeric: false },
-  { key: 'tournaments', label: 'Tournaments', numeric: true },
-  { key: 'partners', label: 'Partners', numeric: true },
-  { key: 'last', label: 'Seasons', numeric: true },
-];
-
 export function TableView({ rows, selectedId, onSelect }: Props) {
-  const [sort, setSort] = useState<{ key: SortKey; desc: boolean }>({ key: 'tournaments', desc: true });
+  const [sort, setSort] = useState(DEFAULT_SORT);
 
-  const sorted = useMemo(() => {
-    const dir = sort.desc ? -1 : 1;
-    return [...rows].sort((a, b) => {
-      if (sort.key === 'name') return dir * a.name.localeCompare(b.name);
-      if (sort.key === 'last') return dir * (a.last - b.last || a.first - b.first);
-      return dir * (a[sort.key] - b[sort.key]) || a.name.localeCompare(b.name);
-    });
-  }, [rows, sort]);
+  const sorted = useMemo(() => sortRows(rows, sort), [rows, sort]);
 
-  const toggle = (key: SortKey) =>
-    setSort((prev) => (prev.key === key ? { key, desc: !prev.desc } : { key, desc: key !== 'name' }));
+  const toggle = (key: SortKey) => setSort((prev) => nextSort(prev, key));
 
   return (
     <div className="table-view">

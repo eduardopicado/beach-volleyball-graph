@@ -104,6 +104,25 @@ export function strandedPlayer(): { code: string; gender: string; id: number; aw
   return null;
 }
 
+/**
+ * A country published for one gender only, and the gender it is missing.
+ *
+ * Scanned rather than named for the usual reason — Iceland's men could enter a
+ * Beach Pro Tour event next season and quietly turn this into a test of
+ * nothing. Prefers a women-only country when one exists, because that is the
+ * case the fallback actually has to handle: the app opens on Men, so a
+ * men-only country lands correctly without the fallback running at all.
+ */
+export function singleGenderCountry(): { code: string; name: string; has: 'M' | 'W'; missing: 'M' | 'W' } | null {
+  const single = manifest()
+    .countries.map((c) => {
+      const has = (['M', 'W'] as const).filter((g) => c.genders[g]);
+      return has.length === 1 ? { code: c.code, name: c.name, has: has[0]!, missing: has[0] === 'M' ? ('W' as const) : ('M' as const) } : null;
+    })
+    .filter((c): c is { code: string; name: string; has: 'M' | 'W'; missing: 'M' | 'W' } => c !== null);
+  return single.find((c) => c.has === 'W') ?? single[0] ?? null;
+}
+
 /** FIVB's portrait host — stubbed, see the header comment. */
 const PHOTO_HOST = 'sharp.fivb.com';
 
