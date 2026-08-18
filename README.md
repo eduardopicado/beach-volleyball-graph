@@ -336,7 +336,8 @@ SITE_URL=https://your-domain.example npm run build
 
 ## Deployment
 
-`.github/workflows/deploy.yml` runs weekly (Sundays 03:17 UTC), on pushes to
+`.github/workflows/deploy.yml` runs weekly (Mondays 09:17 UTC — after the
+Sunday finals, so placements have been published), on pushes to
 `main`, and on demand via *Run workflow*. It lints, typechecks, unit-tests,
 ingests, builds, smoke-tests the built site in a browser, and only then deploys
 to GitHub Pages. On a plain code push the ingest job is skipped entirely, so
