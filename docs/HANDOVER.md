@@ -102,8 +102,8 @@ npm run ingest         # ~15s: fetch FIVB, rebuild every file under web/public/v
 npm run dev            # Vite dev server
 npm run build          # typecheck + vite build + prerender 265 pages
 npm run preview        # serve the built site
-npm test               # 238 unit tests (vitest)
-npm run test:e2e       # 24 smoke tests (Playwright, against the built site)
+npm test               # 259 unit tests (vitest)
+npm run test:e2e       # 64 browser tests (Playwright, against the built site)
 npm run lint           # eslint
 ```
 

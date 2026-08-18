@@ -5,9 +5,9 @@ import { fetchGraph, fetchManifest, fetchPlayers } from './lib/api';
 import { flagEmoji, formatMedals, plural } from './lib/format';
 import { CONTACT_EMAIL, SOURCE_NAME, SOURCE_URL } from './site';
 import { Controls, MIN_TOGETHER_OPTIONS } from './components/Controls';
+import { filterByStrength } from './lib/filter';
 import { parseMinTogether } from './lib/params';
 import type { SearchablePlayer } from './lib/search';
-import type { GraphEdge, GraphNode } from './schema';
 import { GENDER_LABEL } from './schema';
 import { sliceSlug, slugFromPath } from './lib/slug';
 import { PartnershipGraph } from './components/PartnershipGraph';
@@ -158,30 +158,11 @@ export default function App() {
   }, [manifest, country, gender, selectedId, minTogether]);
 
   // --- derived -------------------------------------------------------------
-  /**
-   * The partnership-strength filter. Edges below the threshold are dropped, and
-   * players left with no remaining partnership drop out with them — otherwise
-   * raising the threshold just leaves a field of unconnected dots.
-   *
-   * Node size still reflects each player's full career tournament count: that
-   * is a property of the player, not of the edges being shown.
-   */
-  const { nodes: visibleNodes, edges: visibleEdges } = useMemo((): {
-    nodes: GraphNode[];
-    edges: GraphEdge[];
-  } => {
-    const allNodes = graph?.nodes ?? [];
-    const allEdges = graph?.edges ?? [];
-    if (minTogether <= 1) return { nodes: allNodes, edges: allEdges };
-
-    const edges = allEdges.filter((e) => e.t >= minTogether);
-    const connected = new Set<number>();
-    for (const e of edges) {
-      connected.add(e.a);
-      connected.add(e.b);
-    }
-    return { nodes: allNodes.filter((n) => connected.has(n.id)), edges };
-  }, [graph, minTogether]);
+  /** See lib/filter.ts for why an orphaned player leaves with their edges. */
+  const { nodes: visibleNodes, edges: visibleEdges } = useMemo(
+    () => filterByStrength(graph?.nodes ?? [], graph?.edges ?? [], minTogether),
+    [graph, minTogether],
+  );
 
   const nodesById = useMemo(
     () => new Map(visibleNodes.map((n) => [n.id, n])),
